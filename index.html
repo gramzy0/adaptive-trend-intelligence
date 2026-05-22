@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Adaptive Trend Intelligence</title>
+  <style>
+    :root {
+      --bg: #020617;
+      --panel: #0f172a;
+      --panel2: #111827;
+      --border: #1f2937;
+      --text: #e5e7eb;
+      --muted: #94a3b8;
+      --blue: #93c5fd;
+      --green: #86efac;
+      --yellow: #fde68a;
+      --red: #fca5a5;
+      --neutral: #cbd5e1;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background:
+        radial-gradient(circle at top left, rgba(37, 99, 235, 0.18), transparent 28%),
+        radial-gradient(circle at top right, rgba(14, 165, 233, 0.12), transparent 30%),
+        var(--bg);
+      color: var(--text);
+      line-height: 1.55;
+    }
+
+    .container {
+      max-width: 1160px;
+      margin: 0 auto;
+      padding: 34px 20px 56px;
+    }
+
+    .hero,
+    .card {
+      border: 1px solid var(--border);
+      background: rgba(15, 23, 42, 0.94);
+      border-radius: 22px;
+      padding: 28px;
+      margin-bottom: 22px;
+    }
+
+    .eyebrow {
+      color: var(--blue);
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      font-size: 12px;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 38px;
+      line-height: 1.12;
+    }
+
+    h2 {
+      margin: 0 0 14px;
+      font-size: 22px;
+    }
+
+    h3 {
+      margin: 0 0 8px;
+      font-size: 17px;
+    }
+
+    p {
+      margin: 10px 0;
+    }
+
+    .subtitle {
+      color: var(--muted);
+      max-width: 840px;
+      font-size: 16px;
+      margin-top: 14px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 16px;
+      margin: 20px 0;
+    }
+
+    .metric {
+      border: 1px solid var(--border);
+      background: rgba(17, 24, 39, 0.92);
+      border-radius: 18px;
+      padding: 18px;
+    }
+
+    .metric-label {
+      color: var(--muted);
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 8px;
+    }
+
+    .metric-value {
+      font-size: 18px;
+      font-weight: 700;
+    }
+
+    .link-card {
+      display: block;
+      text-decoration: none;
+      color: var(--text);
+      border: 1px solid var(--border);
+      background: rgba(17, 24, 39, 0.92);
+      border-radius: 18px;
+      padding: 18px;
+      transition: transform 0.12s ease, border-color 0.12s ease;
+      min-height: 150px;
+    }
+
+    .link-card:hover {
+      transform: translateY(-2px);
+      border-color: rgba(147, 197, 253, 0.65);
+    }
+
+    .link-title {
+      color: #ffffff;
+      font-size: 17px;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+
+    .link-desc {
+      color: var(--muted);
+      font-size: 14px;
+      margin-bottom: 12px;
+    }
+
+    .file-meta {
+      color: var(--neutral);
+      font-size: 12px;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 5px 10px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      font-size: 12px;
+      font-weight: 700;
+      margin-top: 14px;
+    }
+
+    .badge.ok {
+      color: var(--green);
+      background: rgba(20, 83, 45, 0.22);
+    }
+
+    .badge.warn {
+      color: var(--yellow);
+      background: rgba(113, 63, 18, 0.22);
+    }
+
+    .warning {
+      border-color: rgba(253, 230, 138, 0.38);
+      background: rgba(113, 63, 18, 0.20);
+      color: #fef3c7;
+    }
+
+    .warning p {
+      color: #fde68a;
+    }
+
+    .muted {
+      color: var(--muted);
+    }
+
+    .footer {
+      color: var(--muted);
+      font-size: 13px;
+      margin-top: 28px;
+    }
+
+    .status-line {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .table-wrap {
+      overflow-x: auto;
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      background: rgba(2, 6, 23, 0.45);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 760px;
+    }
+
+    th,
+    td {
+      padding: 12px 10px;
+      border-bottom: 1px solid var(--border);
+      text-align: left;
+      vertical-align: top;
+      font-size: 14px;
+    }
+
+    th {
+      color: var(--blue);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      font-size: 12px;
+    }
+
+    td {
+      color: var(--neutral);
+    }
+
+    .symbol {
+      color: #ffffff;
+      font-weight: 700;
+    }
+
+    .table-note {
+      color: var(--muted);
+      font-size: 13px;
+      margin-top: 12px;
+    }
+
+
+    @media (max-width: 900px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+
+      h1 {
+        font-size: 30px;
+      }
+
+      .hero,
+      .card {
+        padding: 22px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <section class="hero">
+      <div class="eyebrow">Research & Monitoring Dashboard</div>
+      <h1>Adaptive Trend Intelligence</h1>
+      <p class="subtitle">
+        A public-facing market monitoring layer built from sanitized system outputs.
+        The dashboard presents candidate rankings, signal outcome tracking, and high-level
+        system history for research and decision-support purposes only.
+      </p>
+      <div id="manifest-status" class="badge warn">Loading public manifest...</div>
+    </section>
+
+    <section class="grid">
+      <div class="metric">
+        <div class="metric-label">Operating Mode</div>
+        <div id="mode" class="metric-value">research_monitoring_only</div>
+      </div>
+      <div class="metric">
+        <div class="metric-label">Financial Advice</div>
+        <div id="financial-advice" class="metric-value">False</div>
+      </div>
+      <div class="metric">
+        <div class="metric-label">Live Trading</div>
+        <div id="live-trading" class="metric-value">False</div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Public Dashboard & Data Layer</h2>
+      <p class="status-line" id="generated-at">
+        Waiting for manifest metadata...
+      </p>
+
+      <div id="file-grid" class="grid">
+        <a class="link-card" href="dashboard.html">
+          <div class="link-title">Live Dashboard Snapshot</div>
+          <div class="link-desc">View the latest sanitized public dashboard.</div>
+          <div class="file-meta">Fallback link</div>
+        </a>
+
+        <a class="link-card" href="public_manifest.json">
+          <div class="link-title">Public Manifest</div>
+          <div class="link-desc">Machine-readable list of approved public files and metadata.</div>
+          <div class="file-meta">Fallback link</div>
+        </a>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Latest Candidates</h2>
+      <p class="status-line" id="candidate-status">
+        Loading latest public candidate snapshot...
+      </p>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Symbol</th>
+              <th>Asset Type</th>
+              <th>Score</th>
+              <th>Action</th>
+              <th>Reason</th>
+            </tr>
+          </thead>
+          <tbody id="candidate-table-body">
+            <tr>
+              <td colspan="5">Loading candidates...</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p class="table-note">
+        Candidate rankings are shown for research and monitoring only.
+        They are not buy or sell recommendations.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Signal Outcomes Summary</h2>
+      <p class="status-line" id="outcome-status">
+        Loading public signal outcome history...
+      </p>
+
+      <div class="grid">
+        <div class="metric">
+          <div class="metric-label">Tracked Outcomes</div>
+          <div id="outcome-total" class="metric-value">-</div>
+        </div>
+        <div class="metric">
+          <div class="metric-label">Open Outcomes</div>
+          <div id="outcome-open" class="metric-value">-</div>
+        </div>
+        <div class="metric">
+          <div class="metric-label">Closed Outcomes</div>
+          <div id="outcome-closed" class="metric-value">-</div>
+        </div>
+      </div>
+
+      <div class="grid">
+        <div class="metric">
+          <div class="metric-label">Average MFE</div>
+          <div id="outcome-avg-mfe" class="metric-value">-</div>
+        </div>
+        <div class="metric">
+          <div class="metric-label">Average MAE</div>
+          <div id="outcome-avg-mae" class="metric-value">-</div>
+        </div>
+        <div class="metric">
+          <div class="metric-label">Positive / Neutral / Negative</div>
+          <div id="outcome-distribution" class="metric-value">-</div>
+        </div>
+      </div>
+
+      <p class="table-note">
+        MFE means maximum favorable excursion. MAE means maximum adverse excursion.
+        These are observational tracking metrics, not proof of profitability.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Daily System Summary</h2>
+      <p class="status-line" id="daily-summary-status">
+        Loading public daily AI summary...
+      </p>
+
+      <div class="grid">
+        <div class="metric">
+          <div class="metric-label">Summary Records</div>
+          <div id="daily-summary-total" class="metric-value">-</div>
+        </div>
+        <div class="metric">
+          <div class="metric-label">Latest Update</div>
+          <div id="daily-summary-latest" class="metric-value">-</div>
+        </div>
+        <div class="metric">
+          <div class="metric-label">System State</div>
+          <div id="daily-summary-system-state" class="metric-value">-</div>
+        </div>
+      </div>
+
+      <div class="grid">
+        <div class="metric">
+          <div class="metric-label">AI Readiness</div>
+          <div id="daily-summary-ai-readiness" class="metric-value">-</div>
+        </div>
+        <div class="metric">
+          <div class="metric-label">Market Stress</div>
+          <div id="daily-summary-market-stress" class="metric-value">-</div>
+        </div>
+        <div class="metric">
+          <div class="metric-label">Permission</div>
+          <div id="daily-summary-permission" class="metric-value">-</div>
+        </div>
+      </div>
+
+      <p class="table-note">
+        This section summarizes the latest public daily system record.
+        It is intended for monitoring context only.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Public Scope</h2>
+      <div class="grid">
+        <div class="metric">
+          <h3>Sanitized Outputs Only</h3>
+          <p class="muted">
+            The public frontend uses only approved public files. Internal model state,
+            private configuration, database files, logs, backups, and execution logic are excluded.
+          </p>
+        </div>
+
+        <div class="metric">
+          <h3>Manifest-Driven</h3>
+          <p class="muted">
+            The public manifest describes the files available to the frontend, their purpose,
+            type, size, and last update time.
+          </p>
+        </div>
+
+        <div class="metric">
+          <h3>No Execution</h3>
+          <p class="muted">
+            The public dashboard does not execute trades and does not provide capital deployment instructions.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="card warning">
+      <h2>Disclaimer</h2>
+      <p id="disclaimer">
+        This dashboard is generated for research, monitoring, and decision-support purposes only.
+        It is not financial advice, investment advice, or a recommendation to buy or sell any asset.
+        Signals and rankings may be incomplete, delayed, or incorrect. Any live decision requires
+        independent review, risk controls, and human approval.
+      </p>
+    </section>
+
+    <section class="footer">
+      <p>
+        Public frontend version: manifest-driven landing page.
+        Next stage: add public tables and charts using approved CSV files.
+      </p>
+    </section>
+  </main>
+
+  <script>
+    const fallbackFiles = {
+      dashboard: {
+        file: "dashboard.html",
+        type: "html",
+        purpose: "Sanitized public dashboard snapshot"
+      },
+      public_manifest: {
+        file: "public_manifest.json",
+        type: "json",
+        purpose: "Public manifest and approved file metadata"
+      },
+      unified_candidates: {
+        file: "unified_candidates.csv",
+        type: "csv",
+        purpose: "Latest public candidate ranking snapshot"
+      },
+      signal_outcomes_history: {
+        file: "signal_outcomes_history.csv",
+        type: "csv",
+        purpose: "Historical public signal outcome tracking"
+      },
+      daily_ai_summary: {
+        file: "daily_ai_summary.csv",
+        type: "csv",
+        purpose: "Historical daily AI and system summary"
+      },
+      cto_scanner_debug: {
+        file: "cto_scanner_debug.csv",
+        type: "csv",
+        purpose: "Latest public technical scan snapshot"
+      }
+    };
+
+    function humanLabel(key) {
+      return key
+        .replaceAll("_", " ")
+        .replace(/\b\w/g, char => char.toUpperCase());
+    }
+
+    function renderFiles(files) {
+      const grid = document.getElementById("file-grid");
+      grid.innerHTML = "";
+
+      Object.entries(files).forEach(([key, item]) => {
+        const link = document.createElement("a");
+        link.className = "link-card";
+        link.href = item.file;
+
+        const exists = item.exists === false ? "Unavailable" : "Available";
+        const size = item.size_kb ? `${item.size_kb} KB` : "Size unavailable";
+        const modified = item.modified_at_utc || "Modified time unavailable";
+
+        link.innerHTML = `
+          <div class="link-title">${humanLabel(key)}</div>
+          <div class="link-desc">${item.purpose || "Public data file"}</div>
+          <div class="file-meta">File: ${item.file}</div>
+          <div class="file-meta">Type: ${item.type || "unknown"} | ${exists}</div>
+          <div class="file-meta">${size}</div>
+          <div class="file-meta">Updated: ${modified}</div>
+        `;
+
+        grid.appendChild(link);
+      });
+    }
+
+    function parseCSV(text) {
+      const rows = [];
+      let current = [];
+      let value = "";
+      let insideQuotes = false;
+
+      for (let i = 0; i < text.length; i++) {
+        const char = text[i];
+        const next = text[i + 1];
+
+        if (char === '"' && insideQuotes && next === '"') {
+          value += '"';
+          i++;
+        } else if (char === '"') {
+          insideQuotes = !insideQuotes;
+        } else if (char === "," && !insideQuotes) {
+          current.push(value);
+          value = "";
+        } else if ((char === "\n" || char === "\r") && !insideQuotes) {
+          if (value !== "" || current.length > 0) {
+            current.push(value);
+            rows.push(current);
+            current = [];
+            value = "";
+          }
+
+          if (char === "\r" && next === "\n") {
+            i++;
+          }
+        } else {
+          value += char;
+        }
+      }
+
+      if (value !== "" || current.length > 0) {
+        current.push(value);
+        rows.push(current);
+      }
+
+      if (rows.length === 0) {
+        return [];
+      }
+
+      const headers = rows[0].map(h => h.trim());
+      return rows.slice(1)
+        .filter(row => row.some(cell => String(cell || "").trim() !== ""))
+        .map(row => {
+          const item = {};
+          headers.forEach((header, index) => {
+            item[header] = row[index] || "";
+          });
+          return item;
+        });
+    }
+
+    function pickField(row, candidates, fallback = "") {
+      for (const key of candidates) {
+        if (row[key] !== undefined && String(row[key]).trim() !== "") {
+          return row[key];
+        }
+      }
+      return fallback;
+    }
+
+    function escapeHTML(value) {
+      return String(value || "")
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
+    }
+
+    async function loadCandidates() {
+      const status = document.getElementById("candidate-status");
+      const body = document.getElementById("candidate-table-body");
+
+      try {
+        const response = await fetch("unified_candidates.csv", { cache: "no-store" });
+
+        if (!response.ok) {
+          throw new Error(`Candidates CSV HTTP status ${response.status}`);
+        }
+
+        const csvText = await response.text();
+        const rows = parseCSV(csvText).slice(0, 20);
+
+        if (!rows.length) {
+          status.textContent = "No public candidates available.";
+          body.innerHTML = '<tr><td colspan="5">No candidates available.</td></tr>';
+          return;
+        }
+
+        status.textContent = `Loaded ${rows.length} latest public candidates.`;
+
+        body.innerHTML = rows.map(row => {
+          const symbol = pickField(row, ["symbol", "Symbol"], "-");
+          const assetType = pickField(row, ["asset_type", "type", "Asset Type"], "-");
+          const score = pickField(row, ["adaptive_score", "score", "final_score", "rank_score", "Score"], "-");
+          const action = pickField(row, ["action", "decision_bucket", "final_action_v2", "execution_action", "signal", "Action"], "monitor");
+          const reason = pickField(row, ["reason", "Reason"], "No public reason provided.");
+
+          return `
+            <tr>
+              <td class="symbol">${escapeHTML(symbol)}</td>
+              <td>${escapeHTML(assetType)}</td>
+              <td>${escapeHTML(score)}</td>
+              <td>${escapeHTML(action)}</td>
+              <td>${escapeHTML(reason)}</td>
+            </tr>
+          `;
+        }).join("");
+      } catch (error) {
+        status.textContent = "Candidates CSV unavailable. Showing fallback notice.";
+        body.innerHTML = '<tr><td colspan="5">Candidate table could not be loaded.</td></tr>';
+      }
+    }
+
+    function toNumber(value) {
+      const n = Number(value);
+      return Number.isFinite(n) ? n : null;
+    }
+
+    function average(values) {
+      const clean = values.filter(v => v !== null && Number.isFinite(v));
+      if (!clean.length) {
+        return null;
+      }
+
+      return clean.reduce((a, b) => a + b, 0) / clean.length;
+    }
+
+    function formatNumber(value) {
+      if (value === null || value === undefined || !Number.isFinite(value)) {
+        return "Unavailable";
+      }
+
+      return value.toFixed(2);
+    }
+
+    function classifyOutcome(row) {
+      const mfe = toNumber(row.max_favorable_excursion);
+      const mae = toNumber(row.max_adverse_excursion);
+
+      if (mfe === null && mae === null) {
+        return "neutral";
+      }
+
+      const favorable = mfe === null ? 0 : Math.abs(mfe);
+      const adverse = mae === null ? 0 : Math.abs(mae);
+
+      if (favorable > adverse) {
+        return "positive";
+      }
+
+      if (adverse > favorable) {
+        return "negative";
+      }
+
+      return "neutral";
+    }
+
+    async function loadOutcomeSummary() {
+      const status = document.getElementById("outcome-status");
+
+      try {
+        const response = await fetch("signal_outcomes_history.csv", { cache: "no-store" });
+
+        if (!response.ok) {
+          throw new Error(`Signal outcomes CSV HTTP status ${response.status}`);
+        }
+
+        const csvText = await response.text();
+        const rows = parseCSV(csvText);
+
+        const total = rows.length;
+        const open = rows.filter(row => String(row.status || "").toLowerCase() === "open").length;
+        const closed = total - open;
+
+        const mfeValues = rows.map(row => toNumber(row.max_favorable_excursion));
+        const maeValues = rows.map(row => toNumber(row.max_adverse_excursion));
+
+        const avgMfe = average(mfeValues);
+        const avgMae = average(maeValues);
+
+        const distribution = rows.reduce((acc, row) => {
+          const label = classifyOutcome(row);
+          acc[label] = (acc[label] || 0) + 1;
+          return acc;
+        }, { positive: 0, neutral: 0, negative: 0 });
+
+        document.getElementById("outcome-total").textContent = String(total);
+        document.getElementById("outcome-open").textContent = String(open);
+        document.getElementById("outcome-closed").textContent = String(closed);
+        document.getElementById("outcome-avg-mfe").textContent = formatNumber(avgMfe);
+        document.getElementById("outcome-avg-mae").textContent = formatNumber(avgMae);
+        document.getElementById("outcome-distribution").textContent =
+          `${distribution.positive} / ${distribution.neutral} / ${distribution.negative}`;
+
+        status.textContent = `Loaded ${total} public signal outcome records.`;
+      } catch (error) {
+        status.textContent = "Signal outcomes history unavailable.";
+        document.getElementById("outcome-total").textContent = "-";
+        document.getElementById("outcome-open").textContent = "-";
+        document.getElementById("outcome-closed").textContent = "-";
+        document.getElementById("outcome-avg-mfe").textContent = "-";
+        document.getElementById("outcome-avg-mae").textContent = "-";
+        document.getElementById("outcome-distribution").textContent = "-";
+      }
+    }
+
+    function latestRow(rows) {
+      if (!rows.length) {
+        return null;
+      }
+
+      const dateKeys = [
+        "generated_at",
+        "generated_at_utc",
+        "created_at",
+        "updated_at",
+        "timestamp",
+        "date",
+        "time"
+      ];
+
+      const key = dateKeys.find(k => rows.some(row => row[k]));
+
+      if (!key) {
+        return rows[rows.length - 1];
+      }
+
+      return [...rows].sort((a, b) => {
+        return String(a[key] || "").localeCompare(String(b[key] || ""));
+      }).at(-1);
+    }
+
+    function pickAny(row, keys, fallback = "-") {
+      if (!row) {
+        return fallback;
+      }
+
+      for (const key of keys) {
+        if (row[key] !== undefined && String(row[key]).trim() !== "") {
+          return row[key];
+        }
+      }
+
+      return fallback;
+    }
+
+    async function loadDailySummary() {
+      const status = document.getElementById("daily-summary-status");
+
+      try {
+        const response = await fetch("daily_ai_summary.csv", { cache: "no-store" });
+
+        if (!response.ok) {
+          throw new Error(`Daily summary CSV HTTP status ${response.status}`);
+        }
+
+        const csvText = await response.text();
+        const rows = parseCSV(csvText);
+        const latest = latestRow(rows);
+
+        document.getElementById("daily-summary-total").textContent = String(rows.length);
+
+        document.getElementById("daily-summary-latest").textContent = pickAny(
+          latest,
+          ["generated_at", "generated_at_utc", "created_at", "updated_at", "timestamp", "date", "time"],
+          "Unavailable"
+        );
+
+        document.getElementById("daily-summary-system-state").textContent = pickAny(
+          latest,
+          ["system_state", "master_state", "state", "governance_state", "system_governance_state"],
+          "Unavailable"
+        );
+
+        document.getElementById("daily-summary-ai-readiness").textContent = pickAny(
+          latest,
+          ["ai_readiness", "readiness", "system_readiness"],
+          "Unavailable"
+        );
+
+        document.getElementById("daily-summary-market-stress").textContent = pickAny(
+          latest,
+          ["market_stress", "market_stress_level", "stress_level"],
+          "Unavailable"
+        );
+
+        document.getElementById("daily-summary-permission").textContent = pickAny(
+          latest,
+          ["permission", "system_permission", "trading_permission"],
+          "Unavailable"
+        );
+
+        status.textContent = `Loaded ${rows.length} public daily summary records.`;
+      } catch (error) {
+        status.textContent = "Daily summary unavailable.";
+        document.getElementById("daily-summary-total").textContent = "-";
+        document.getElementById("daily-summary-latest").textContent = "-";
+        document.getElementById("daily-summary-system-state").textContent = "-";
+        document.getElementById("daily-summary-ai-readiness").textContent = "-";
+        document.getElementById("daily-summary-market-stress").textContent = "-";
+        document.getElementById("daily-summary-permission").textContent = "-";
+      }
+    }
+
+    async function loadManifest() {
+      const status = document.getElementById("manifest-status");
+
+      try {
+        const response = await fetch("public_manifest.json", { cache: "no-store" });
+
+        if (!response.ok) {
+          throw new Error(`Manifest HTTP status ${response.status}`);
+        }
+
+        const manifest = await response.json();
+
+        status.textContent = "Public manifest loaded";
+        status.className = "badge ok";
+
+        document.getElementById("mode").textContent = manifest.mode || "research_monitoring_only";
+        document.getElementById("financial-advice").textContent = String(manifest.financial_advice);
+        document.getElementById("live-trading").textContent = String(manifest.live_trading);
+        document.getElementById("generated-at").textContent =
+          `Manifest generated at: ${manifest.generated_at_utc || "unknown"}`;
+
+        if (manifest.disclaimer) {
+          document.getElementById("disclaimer").textContent = manifest.disclaimer;
+        }
+
+        renderFiles(manifest.files || fallbackFiles);
+      } catch (error) {
+        status.textContent = "Manifest unavailable — fallback links shown";
+        status.className = "badge warn";
+        document.getElementById("generated-at").textContent =
+          "Manifest could not be loaded. Showing fallback file links.";
+        renderFiles(fallbackFiles);
+      }
+    }
+
+    loadManifest();
+    loadCandidates();
+    loadOutcomeSummary();
+    loadDailySummary();
+  </script>
+</body>
+</html>
