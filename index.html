@@ -344,6 +344,26 @@
 }
 
 </style>
+
+<style>
+.status-value {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--green);
+}
+.status-value.warn {
+  color: var(--yellow);
+}
+.status-value.bad {
+  color: var(--red);
+}
+.status-meta {
+  font-size: 0.85rem;
+  color: var(--muted);
+  word-break: break-word;
+}
+</style>
+
 </head>
 <body>
   <main class="container">
@@ -1012,27 +1032,27 @@
   <div class="grid" id="public-status-grid">
     <div class="card">
       <h3>Public Layer</h3>
-      <p id="status-public-layer">Loading...</p>
+      <p id="status-public-layer" class="status-value">Loading...</p>
     </div>
     <div class="card">
       <h3>Latest Public Export</h3>
-      <p id="status-latest-export">Loading...</p>
+      <p id="status-latest-export" class="status-meta">Loading...</p>
     </div>
     <div class="card">
       <h3>Cloudflare Live</h3>
-      <p id="status-cloudflare">Loading...</p>
+      <p id="status-cloudflare" class="status-value">Loading...</p>
     </div>
     <div class="card">
       <h3>Launch Ready</h3>
-      <p id="status-launch-ready">Loading...</p>
+      <p id="status-launch-ready" class="status-value">Loading...</p>
     </div>
     <div class="card">
       <h3>Governance Lock</h3>
-      <p id="status-governance">Loading...</p>
+      <p id="status-governance" class="status-value">Loading...</p>
     </div>
     <div class="card">
       <h3>Public Files</h3>
-      <p id="status-public-files">Loading...</p>
+      <p id="status-public-files" class="status-meta">Loading...</p>
     </div>
   </div>
 </section>
