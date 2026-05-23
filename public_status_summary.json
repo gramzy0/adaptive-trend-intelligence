@@ -1,0 +1,16 @@
+{
+  "generated_at": "2026-05-23T16:54:51.088223+00:00",
+  "public_layer_status": "available",
+  "latest_public_export": "2026-05-23 16:39:25",
+  "cloudflare_live_ok": false,
+  "public_files_available": 7,
+  "public_files_missing": [],
+  "launch_ready": true,
+  "governance_locked": true,
+  "public_sync_ok": true,
+  "system_health_ok": true,
+  "mode": "research_monitoring_only",
+  "financial_advice": false,
+  "live_trading": false,
+  "disclaimer": "This public data layer is for research, monitoring, and decision-support only. It is not financial advice, investment advice, or a recommendation to buy or sell any asset."
+}
