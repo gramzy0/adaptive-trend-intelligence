@@ -1,0 +1,9 @@
+
+# Never publish secrets or private model state
+.env
+.github_deploy_env
+*.db
+unified_brain.json
+ai_master_candidates.json
+ai_ranking_payload.json
+latest_ai_ranking.json
