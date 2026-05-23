@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-05-23T08:02:40+00:00",
+  "generated_at_utc": "2026-05-23T09:50:30+00:00",
   "project": "Adaptive Trend Intelligence Public Dashboard",
   "mode": "research_monitoring_only",
   "financial_advice": false,
@@ -12,8 +12,8 @@
       "type": "html",
       "purpose": "Public landing page for the dashboard and data layer",
       "exists": true,
-      "size_kb": 25.19,
-      "modified_at_utc": "2026-05-22T14:34:30+00:00"
+      "size_kb": 40.14,
+      "modified_at_utc": "2026-05-23T09:38:48+00:00"
     },
     "dashboard": {
       "file": "dashboard.html",
@@ -21,15 +21,15 @@
       "purpose": "Sanitized public dashboard snapshot",
       "exists": true,
       "size_kb": 17.69,
-      "modified_at_utc": "2026-05-23T08:02:15+00:00"
+      "modified_at_utc": "2026-05-23T09:50:30+00:00"
     },
     "daily_ai_summary": {
       "file": "daily_ai_summary.csv",
       "type": "csv",
       "purpose": "Historical daily AI and system summary",
       "exists": true,
-      "size_kb": 15.83,
-      "modified_at_utc": "2026-05-23T08:02:40+00:00"
+      "size_kb": 15.93,
+      "modified_at_utc": "2026-05-23T09:50:30+00:00"
     },
     "unified_candidates": {
       "file": "unified_candidates.csv",
@@ -37,7 +37,7 @@
       "purpose": "Latest public candidate ranking snapshot",
       "exists": true,
       "size_kb": 3.74,
-      "modified_at_utc": "2026-05-23T08:02:40+00:00"
+      "modified_at_utc": "2026-05-23T09:50:30+00:00"
     },
     "cto_scanner_debug": {
       "file": "cto_scanner_debug.csv",
@@ -52,8 +52,8 @@
       "type": "csv",
       "purpose": "Historical public signal outcome tracking",
       "exists": true,
-      "size_kb": 10.17,
-      "modified_at_utc": "2026-05-23T08:02:40+00:00"
+      "size_kb": 10.16,
+      "modified_at_utc": "2026-05-23T09:50:30+00:00"
     }
   },
   "disclaimer": "This public data layer is for research, monitoring, and decision-support only. It is not financial advice, investment advice, or a recommendation to buy or sell any asset."
