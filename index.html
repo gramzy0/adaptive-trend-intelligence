@@ -969,6 +969,38 @@
     loadDailySummary();
   </script>
 
+
+  <section class="section" id="public-export-quality">
+    <h2>Public Export Quality</h2>
+    <p class="muted">
+      Summary of the public candidate export filter. This shows how many candidate rows were reviewed and how many were published to the public dashboard.
+    </p>
+
+    <div class="chart-grid">
+      <div class="chart-card">
+        <h3>Input Candidates</h3>
+        <div id="export-input-rows" class="metric-value">Loading...</div>
+      </div>
+
+      <div class="chart-card">
+        <h3>Published Candidates</h3>
+        <div id="export-published-rows" class="metric-value">Loading...</div>
+      </div>
+
+      <div class="chart-card">
+        <h3>Filtered Candidates</h3>
+        <div id="export-filtered-rows" class="metric-value">Loading...</div>
+      </div>
+
+      <div class="chart-card">
+        <h3>Public Limit</h3>
+        <div id="export-public-limit" class="metric-value">Loading...</div>
+      </div>
+    </div>
+
+    <p id="export-generated-at" class="muted">Loading export summary...</p>
+  </section>
+
 <section class="section" id="live-data-section">
   <h2>Live Public Data</h2>
   <p class="muted">
@@ -1427,6 +1459,34 @@ async function initPublicChartsStandalone() {
 }
 
 document.addEventListener("DOMContentLoaded", initPublicChartsStandalone);
+</script>
+
+
+<script>
+async function initPublicExportSummary() {
+  try {
+    const response = await fetch("public_export_summary.json?v=" + Date.now(), { cache: "no-store" });
+    if (!response.ok) throw new Error("Failed to load public_export_summary.json");
+
+    const summary = await response.json();
+    const candidate = summary.candidate_export || {};
+
+    document.getElementById("export-input-rows").textContent = candidate.input_rows ?? "-";
+    document.getElementById("export-published-rows").textContent = candidate.published_rows ?? "-";
+    document.getElementById("export-filtered-rows").textContent = candidate.filtered_rows ?? "-";
+    document.getElementById("export-public-limit").textContent = candidate.public_limit ?? "-";
+
+    document.getElementById("export-generated-at").textContent =
+      "Last public export: " + (summary.generated_at || "unknown") +
+      " | Mode: " + (summary.mode || "research_monitoring_only") +
+      " | Live trading: " + String(summary.live_trading);
+  } catch (e) {
+    const el = document.getElementById("export-generated-at");
+    if (el) el.textContent = "Public export summary unavailable.";
+  }
+}
+
+document.addEventListener("DOMContentLoaded", initPublicExportSummary);
 </script>
 
 </body>
