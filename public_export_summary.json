@@ -1,0 +1,22 @@
+{
+  "generated_at": "2026-05-23 10:08:17",
+  "mode": "research_monitoring_only",
+  "financial_advice": false,
+  "live_trading": false,
+  "candidate_export": {
+    "input_rows": 7,
+    "published_rows": 7,
+    "filtered_rows": 0,
+    "public_limit": 50
+  },
+  "public_files": [
+    "index.html",
+    "dashboard.html",
+    "daily_ai_summary.csv",
+    "unified_candidates.csv",
+    "cto_scanner_debug.csv",
+    "signal_outcomes_history.csv",
+    "public_manifest.json",
+    "public_export_summary.json"
+  ]
+}
