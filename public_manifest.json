@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-05-23T09:50:30+00:00",
+  "generated_at_utc": "2026-05-23T10:01:07+00:00",
   "project": "Adaptive Trend Intelligence Public Dashboard",
   "mode": "research_monitoring_only",
   "financial_advice": false,
@@ -28,8 +28,8 @@
       "type": "csv",
       "purpose": "Historical daily AI and system summary",
       "exists": true,
-      "size_kb": 15.93,
-      "modified_at_utc": "2026-05-23T09:50:30+00:00"
+      "size_kb": 16.03,
+      "modified_at_utc": "2026-05-23T10:01:07+00:00"
     },
     "unified_candidates": {
       "file": "unified_candidates.csv",
@@ -37,7 +37,7 @@
       "purpose": "Latest public candidate ranking snapshot",
       "exists": true,
       "size_kb": 3.74,
-      "modified_at_utc": "2026-05-23T09:50:30+00:00"
+      "modified_at_utc": "2026-05-23T10:01:07+00:00"
     },
     "cto_scanner_debug": {
       "file": "cto_scanner_debug.csv",
@@ -45,7 +45,7 @@
       "purpose": "Latest public technical scan snapshot",
       "exists": true,
       "size_kb": 319.15,
-      "modified_at_utc": "2026-05-23T08:02:15+00:00"
+      "modified_at_utc": "2026-05-23T09:50:30+00:00"
     },
     "signal_outcomes_history": {
       "file": "signal_outcomes_history.csv",
@@ -53,7 +53,7 @@
       "purpose": "Historical public signal outcome tracking",
       "exists": true,
       "size_kb": 10.16,
-      "modified_at_utc": "2026-05-23T09:50:30+00:00"
+      "modified_at_utc": "2026-05-23T10:01:07+00:00"
     }
   },
   "disclaimer": "This public data layer is for research, monitoring, and decision-support only. It is not financial advice, investment advice, or a recommendation to buy or sell any asset."
