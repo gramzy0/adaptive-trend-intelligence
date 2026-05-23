@@ -251,7 +251,31 @@
         padding: 22px;
       }
     }
-  </style>
+  
+.controls {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 14px 0 16px;
+}
+
+.controls input,
+.controls select {
+  background: rgba(2, 6, 23, 0.72);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 10px 12px;
+  min-width: 160px;
+  outline: none;
+}
+
+.controls input:focus,
+.controls select:focus {
+  border-color: var(--blue);
+}
+
+</style>
 </head>
 <body>
   <main class="container">
@@ -889,6 +913,22 @@
     <div class="card">
       <h3>Latest Candidates</h3>
       <div id="candidate-summary" class="muted">Loading unified candidates...</div>
+  <div id="candidate-controls" class="controls">
+    <input id="symbol-search" type="text" placeholder="Search symbol..." />
+    <select id="asset-filter">
+      <option value="">All asset types</option>
+    </select>
+    <select id="decision-filter">
+      <option value="">All decisions</option>
+    </select>
+    <select id="row-limit">
+      <option value="25">Top 25</option>
+      <option value="50">Top 50</option>
+      <option value="100">Top 100</option>
+      <option value="9999">All rows</option>
+    </select>
+  </div>
+
       <div class="table-wrap">
         <table id="candidates-table">
           <thead></thead>
@@ -1006,23 +1046,70 @@ function numberValue(value, digits = 2) {
   return Number.isFinite(n) ? n.toFixed(digits) : (value || "-");
 }
 
+
+let ALL_CANDIDATES = [];
+
+function uniqueValues(rows, key) {
+  return [...new Set(rows.map(r => r[key]).filter(Boolean))].sort();
+}
+
+function populateSelect(id, values) {
+  const select = document.getElementById(id);
+  if (!select) return;
+  const first = select.querySelector("option");
+  select.innerHTML = "";
+  if (first) select.appendChild(first);
+  values.forEach(v => {
+    const option = document.createElement("option");
+    option.value = v;
+    option.textContent = v;
+    select.appendChild(option);
+  });
+}
+
+function renderFilteredCandidates() {
+  const search = (document.getElementById("symbol-search")?.value || "").toLowerCase();
+  const asset = document.getElementById("asset-filter")?.value || "";
+  const decision = document.getElementById("decision-filter")?.value || "";
+  const limit = Number(document.getElementById("row-limit")?.value || 25);
+
+  let rows = ALL_CANDIDATES.filter(r => {
+    const symbolMatch = !search || String(r.symbol || "").toLowerCase().includes(search);
+    const assetMatch = !asset || r.asset_type === asset || r.assetClass === asset;
+    const decisionMatch = !decision || r.decision_bucket === decision;
+    return symbolMatch && assetMatch && decisionMatch;
+  });
+
+  document.getElementById("candidate-summary").textContent =
+    `${rows.length} matching candidates from ${ALL_CANDIDATES.length} latest public rows.`;
+
+  renderTable("candidates-table", rows, [
+    { key: "assetClass", label: "Asset" },
+    { key: "asset_type", label: "Type" },
+    { key: "symbol", label: "Symbol" },
+    { key: "decision_bucket", label: "Decision", format: badge },
+    { key: "unified_score", label: "Score", format: v => numberValue(v, 2) },
+    { key: "trendDirection", label: "Trend" },
+    { key: "weeklyColor", label: "Weekly Color", format: badge },
+    { key: "weeklySignal", label: "Weekly Signal" }
+  ], limit);
+}
+
 async function initLiveData() {
   try {
     const candidates = await loadCSV("unified_candidates.csv");
+    ALL_CANDIDATES = candidates;
 
-    document.getElementById("candidate-summary").textContent =
-      `${candidates.length} latest public candidate rows loaded.`;
+    populateSelect("asset-filter", uniqueValues(candidates, "asset_type").concat(uniqueValues(candidates, "assetClass")).filter((v, i, a) => a.indexOf(v) === i));
+    populateSelect("decision-filter", uniqueValues(candidates, "decision_bucket"));
 
-    renderTable("candidates-table", candidates, [
-      { key: "assetClass", label: "Asset" },
-      { key: "asset_type", label: "Type" },
-      { key: "symbol", label: "Symbol" },
-      { key: "decision_bucket", label: "Decision", format: badge },
-      { key: "unified_score", label: "Score", format: v => numberValue(v, 2) },
-      { key: "trendDirection", label: "Trend" },
-      { key: "weeklyColor", label: "Weekly Color", format: badge },
-      { key: "weeklySignal", label: "Weekly Signal" }
-    ], 30);
+    ["symbol-search", "asset-filter", "decision-filter", "row-limit"].forEach(id => {
+      const el = document.getElementById(id);
+      if (el) el.addEventListener("input", renderFilteredCandidates);
+      if (el) el.addEventListener("change", renderFilteredCandidates);
+    });
+
+    renderFilteredCandidates();
   } catch (e) {
     document.getElementById("candidate-summary").textContent = "Could not load unified_candidates.csv.";
   }
