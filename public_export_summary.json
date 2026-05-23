@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-23 10:08:17",
+  "generated_at": "2026-05-23 16:39:25",
   "mode": "research_monitoring_only",
   "financial_advice": false,
   "live_trading": false,
@@ -18,6 +18,5 @@
     "signal_outcomes_history.csv",
     "public_manifest.json",
     "public_export_summary.json"
-  ],
-  "cloudflare_autodeploy_test": "2026-05-23T16:29:47Z"
+  ]
 }
