@@ -275,6 +275,74 @@
   border-color: var(--blue);
 }
 
+
+.chart-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(220px, 1fr));
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.chart-card {
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  background: rgba(15, 23, 42, 0.72);
+  padding: 16px;
+}
+
+.chart-card h3 {
+  margin: 0 0 14px;
+  font-size: 16px;
+}
+
+.mini-chart {
+  display: grid;
+  gap: 10px;
+}
+
+.bar-row {
+  display: grid;
+  grid-template-columns: 100px 1fr 38px;
+  align-items: center;
+  gap: 10px;
+  font-size: 12px;
+}
+
+.bar-label {
+  color: var(--muted);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.bar-track {
+  height: 10px;
+  border-radius: 999px;
+  background: rgba(148, 163, 184, 0.14);
+  overflow: hidden;
+}
+
+.bar-fill {
+  height: 100%;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--blue), var(--green));
+}
+
+.bar-value {
+  color: var(--text);
+  text-align: right;
+}
+
+@media (max-width: 1000px) {
+  .chart-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .bar-row {
+    grid-template-columns: 84px 1fr 34px;
+  }
+}
+
 </style>
 </head>
 <body>
@@ -458,7 +526,32 @@
         Next stage: add public tables and charts using approved CSV files.
       </p>
     </section>
-  </main>
+  
+  <section class="section" id="public-charts-section">
+    <h2>Public Data Charts</h2>
+    <p class="muted">
+      Lightweight browser-generated summaries from approved public CSV files.
+    </p>
+
+    <div class="chart-grid">
+      <div class="chart-card">
+        <h3>Candidates by Weekly Color</h3>
+        <div id="chart-weekly-color" class="mini-chart">Loading...</div>
+      </div>
+
+      <div class="chart-card">
+        <h3>Candidates by Asset Type</h3>
+        <div id="chart-asset-type" class="mini-chart">Loading...</div>
+      </div>
+
+      <div class="chart-card">
+        <h3>Signal Outcomes by Status</h3>
+        <div id="chart-outcome-status" class="mini-chart">Loading...</div>
+      </div>
+    </div>
+  </section>
+
+</main>
 
   <script>
     const fallbackFiles = {
@@ -1068,6 +1161,51 @@ function renderFilteredCandidates() {
   ], limit);
 }
 
+
+function countBy(rows, key, fallback = "Unknown") {
+  const counts = {};
+  rows.forEach(row => {
+    const value = String(row[key] || fallback).trim() || fallback;
+    counts[value] = (counts[value] || 0) + 1;
+  });
+  return counts;
+}
+
+function renderMiniBarChart(id, counts) {
+  const el = document.getElementById(id);
+  if (!el) return;
+
+  const entries = Object.entries(counts)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 8);
+
+  if (!entries.length) {
+    el.textContent = "No data available.";
+    return;
+  }
+
+  const max = Math.max(...entries.map(x => x[1]));
+
+  el.innerHTML = entries.map(([label, value]) => {
+    const width = max ? Math.max(6, Math.round((value / max) * 100)) : 0;
+    return `
+      <div class="bar-row">
+        <div class="bar-label">${escapeHtml(label)}</div>
+        <div class="bar-track">
+          <div class="bar-fill" style="width:${width}%"></div>
+        </div>
+        <div class="bar-value">${value}</div>
+      </div>
+    `;
+  }).join("");
+}
+
+function renderPublicCharts(candidates, outcomes) {
+  renderMiniBarChart("chart-weekly-color", countBy(candidates, "weeklyColor"));
+  renderMiniBarChart("chart-asset-type", countBy(candidates, "asset_type"));
+  renderMiniBarChart("chart-outcome-status", countBy(outcomes, "status"));
+}
+
 async function initLiveData() {
   try {
     const candidates = await loadCSV("unified_candidates.csv");
@@ -1089,6 +1227,7 @@ async function initLiveData() {
 
   try {
     const outcomes = await loadCSV("signal_outcomes_history.csv");
+    renderPublicCharts(candidates, outcomes);
     const open = outcomes.filter(r => String(r.status || "").toLowerCase() === "open").length;
     const closed = outcomes.filter(r => String(r.status || "").toLowerCase() === "closed").length;
 
