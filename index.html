@@ -1489,5 +1489,128 @@ async function initPublicExportSummary() {
 document.addEventListener("DOMContentLoaded", initPublicExportSummary);
 </script>
 
+
+<script>
+async function initSignalOutcomesFallbackLoader() {
+  const table = document.getElementById("outcomes-table");
+  if (!table) return;
+
+  const statusEl =
+    document.getElementById("outcome-status") ||
+    document.getElementById("outcomes-status") ||
+    table.closest(".card")?.querySelector(".muted");
+
+  function parseCsvLine(line) {
+    const result = [];
+    let current = "";
+    let inQuotes = false;
+
+    for (let i = 0; i < line.length; i++) {
+      const char = line[i];
+      const next = line[i + 1];
+
+      if (char === '"' && inQuotes && next === '"') {
+        current += '"';
+        i++;
+      } else if (char === '"') {
+        inQuotes = !inQuotes;
+      } else if (char === "," && !inQuotes) {
+        result.push(current);
+        current = "";
+      } else {
+        current += char;
+      }
+    }
+
+    result.push(current);
+    return result;
+  }
+
+  function parseCsv(text) {
+    const lines = text.trim().split(/\r?\n/).filter(Boolean);
+    if (lines.length < 2) return [];
+
+    const headers = parseCsvLine(lines[0]).map(h => h.trim());
+
+    return lines.slice(1).map(line => {
+      const values = parseCsvLine(line);
+      const row = {};
+      headers.forEach((h, i) => {
+        row[h] = (values[i] || "").trim();
+      });
+      return row;
+    });
+  }
+
+  function pick(row, keys) {
+    for (const key of keys) {
+      if (row[key] !== undefined && row[key] !== null && String(row[key]).trim() !== "") {
+        return row[key];
+      }
+    }
+    return "-";
+  }
+
+  try {
+    const response = await fetch("signal_outcomes_history.csv?v=" + Date.now(), { cache: "no-store" });
+    if (!response.ok) throw new Error("HTTP " + response.status);
+
+    const csvText = await response.text();
+    const rows = parseCsv(csvText).slice(0, 25);
+
+    if (!rows.length) {
+      if (statusEl) statusEl.textContent = "No signal outcome rows available.";
+      return;
+    }
+
+    table.innerHTML = `
+      <thead>
+        <tr>
+          <th>Created</th>
+          <th>Symbol</th>
+          <th>Type</th>
+          <th>Signal</th>
+          <th>Decision</th>
+          <th>Status</th>
+          <th>1D</th>
+          <th>3D</th>
+          <th>7D</th>
+          <th>14D</th>
+        </tr>
+      </thead>
+      <tbody>
+        ${rows.map(row => `
+          <tr>
+            <td>${pick(row, ["created_at"])}</td>
+            <td>${pick(row, ["symbol"])}</td>
+            <td>${pick(row, ["asset_type"])}</td>
+            <td>${pick(row, ["signal_label", "signal"])}</td>
+            <td>${pick(row, ["decision_bucket", "decision"])}</td>
+            <td>${pick(row, ["status"])}</td>
+            <td>${pick(row, ["return_1d"])}</td>
+            <td>${pick(row, ["return_3d"])}</td>
+            <td>${pick(row, ["return_7d"])}</td>
+            <td>${pick(row, ["return_14d"])}</td>
+          </tr>
+        `).join("")}
+      </tbody>
+    `;
+
+    if (statusEl) {
+      statusEl.textContent = `Loaded ${rows.length} latest signal outcome rows.`;
+    }
+  } catch (error) {
+    if (statusEl) {
+      statusEl.textContent = "Could not load signal_outcomes_history.csv.";
+    }
+    console.error("Signal outcomes fallback loader failed:", error);
+  }
+}
+
+window.addEventListener("load", () => {
+  setTimeout(initSignalOutcomesFallbackLoader, 500);
+});
+</script>
+
 </body>
 </html>
