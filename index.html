@@ -1498,6 +1498,8 @@ async function initSignalOutcomesFallbackLoader() {
   const statusEl =
     document.getElementById("outcome-status") ||
     document.getElementById("outcomes-status") ||
+    document.getElementById("outcome-summary") ||
+    table.closest("section")?.querySelector(".muted") ||
     table.closest(".card")?.querySelector(".muted");
 
   function parseCsvLine(line) {
@@ -1599,6 +1601,12 @@ async function initSignalOutcomesFallbackLoader() {
     if (statusEl) {
       statusEl.textContent = `Loaded ${rows.length} latest signal outcome rows.`;
     }
+
+    document.querySelectorAll("p, div, span").forEach(el => {
+      if ((el.textContent || "").includes("Could not load signal_outcomes_history.csv")) {
+        el.textContent = `Loaded ${rows.length} latest signal outcome rows.`;
+      }
+    });
   } catch (error) {
     if (statusEl) {
       statusEl.textContent = "Could not load signal_outcomes_history.csv.";
