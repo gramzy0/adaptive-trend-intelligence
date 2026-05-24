@@ -1,31 +1,61 @@
 {
-  "generated_at": "2026-05-24T16:40:42.689034+00:00",
+  "generated_at": "2026-05-24T16:56:21.257565+00:00",
   "scope": "public_sanitized_technical_summary",
   "financial_advice": false,
   "live_trading": false,
   "candidate_snapshot": {
     "rows": 7,
     "asset_types": {
-      "crypto": 7
+      "field_used": "asset_type",
+      "counts": {
+        "crypto": 7
+      }
     },
-    "decisions": {
-      "unknown": 7
+    "ranking_tiers": {
+      "field_used": "ranking_tier",
+      "counts": {
+        "C": 5,
+        "D": 2
+      }
     },
-    "trends": {
-      "unknown": 7
+    "signals": {
+      "field_used": "signal",
+      "counts": {
+        "Confirmed Gold \u2192 Gray \u2192 Blue \u2192 Blue": 7
+      }
+    },
+    "trend_directions": {
+      "field_used": "trendDirection",
+      "counts": {
+        "DOWN / Bearish": 7
+      }
     }
   },
   "signal_outcomes": {
     "rows": 85,
     "status": {
-      "open": 75,
-      "closed": 10
+      "field_used": "status",
+      "counts": {
+        "open": 75,
+        "closed": 10
+      }
     },
-    "decisions": {
-      "unknown": 85
+    "decision_buckets": {
+      "field_used": "decision_bucket",
+      "counts": {
+        "low_priority": 63,
+        "avoid_for_now": 7,
+        "watchlist": 15
+      }
     },
     "signals": {
-      "unknown": 85
+      "field_used": "signal_label",
+      "counts": {
+        "young_bullish_trend": 33,
+        "fresh_bullish_flip": 12,
+        "young_bearish_trend": 35,
+        "fresh_bearish_flip": 5
+      }
     }
   },
   "daily_ai_summary": {
