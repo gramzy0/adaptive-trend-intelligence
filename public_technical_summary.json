@@ -1,0 +1,45 @@
+{
+  "generated_at": "2026-05-24T16:40:42.689034+00:00",
+  "scope": "public_sanitized_technical_summary",
+  "financial_advice": false,
+  "live_trading": false,
+  "candidate_snapshot": {
+    "rows": 7,
+    "asset_types": {
+      "crypto": 7
+    },
+    "decisions": {
+      "unknown": 7
+    },
+    "trends": {
+      "unknown": 7
+    }
+  },
+  "signal_outcomes": {
+    "rows": 85,
+    "status": {
+      "open": 75,
+      "closed": 10
+    },
+    "decisions": {
+      "unknown": 85
+    },
+    "signals": {
+      "unknown": 85
+    }
+  },
+  "daily_ai_summary": {
+    "rows": 163,
+    "latest_generated_at": "2026-05-24 16:40:42",
+    "latest_cio_stance": "defensive_monitoring",
+    "latest_macro_regime": "crypto_outperformance",
+    "latest_market_leadership": "crypto_leading",
+    "latest_market_transition": "expansion",
+    "latest_market_breadth": "risk_on"
+  },
+  "technical_files": {
+    "cto_scanner_debug_rows": 1013,
+    "debug_public_status": "temporary_public_technical_snapshot",
+    "recommendation": "replace_or_reduce_debug_csv_later_with_clean_summary"
+  }
+}
