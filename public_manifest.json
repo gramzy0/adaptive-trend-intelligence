@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-05-24T18:55:09+00:00",
+  "generated_at_utc": "2026-05-24T19:06:46+00:00",
   "project": "Adaptive Trend Intelligence Public Dashboard",
   "mode": "research_monitoring_only",
   "financial_advice": false,
@@ -23,13 +23,21 @@
       "size_kb": 1.76,
       "modified_at_utc": "2026-05-24T16:56:21+00:00"
     },
+    "public_debug_summary": {
+      "file": "public_debug_summary.json",
+      "type": "json",
+      "purpose": "Compact sanitized public debug summary replacing raw debug CSV over time",
+      "exists": true,
+      "size_kb": 1.51,
+      "modified_at_utc": "2026-05-24T19:06:46+00:00"
+    },
     "public_status_summary": {
       "file": "public_status_summary.json",
       "type": "json",
       "purpose": "Live public status and data freshness summary",
       "exists": true,
       "size_kb": 0.61,
-      "modified_at_utc": "2026-05-24T18:53:05+00:00"
+      "modified_at_utc": "2026-05-24T19:05:49+00:00"
     },
     "index": {
       "file": "index.html",
