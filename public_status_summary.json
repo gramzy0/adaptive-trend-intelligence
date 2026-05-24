@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-24T18:53:05.075966+00:00",
+  "generated_at": "2026-05-24T18:55:09.096499+00:00",
   "public_layer_status": "available",
   "latest_public_export": "2026-05-24 16:40:42",
   "cloudflare_live_ok": true,
-  "public_files_available": 7,
+  "public_files_available": 9,
   "public_files_missing": [],
   "launch_ready": true,
   "governance_locked": true,
