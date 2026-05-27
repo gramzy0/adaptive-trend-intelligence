@@ -1,10 +1,12 @@
 {
-  "generated_at": "2026-05-26T03:30:29.947675+00:00",
-  "public_layer_status": "available",
-  "latest_public_export": "2026-05-26 03:30:29",
+  "generated_at": "2026-05-27T03:30:31.676131+00:00",
+  "public_layer_status": "partial",
+  "latest_public_export": "2026-05-27 03:30:31",
   "cloudflare_live_ok": true,
-  "public_files_available": 10,
-  "public_files_missing": [],
+  "public_files_available": 9,
+  "public_files_missing": [
+    "cto_scanner_debug"
+  ],
   "launch_ready": true,
   "governance_locked": true,
   "public_sync_ok": true,
