@@ -1,70 +1,50 @@
 {
-  "generated_at": "2026-05-27T03:30:31.678510+00:00",
-  "scope": "public_sanitized_technical_summary",
+  "generated_at": "2026-05-28T03:30:30.703083+00:00",
+  "purpose": "Sanitized public technical summary for public research and monitoring layer.",
+  "mode": "research_monitoring_only",
   "financial_advice": false,
-  "live_trading": false,
-  "candidate_snapshot": {
-    "rows": 7,
-    "asset_types": {
-      "field_used": "asset_type",
-      "counts": {
-        "crypto": 7
-      }
+  "trading_execution": false,
+  "raw_internal_debug_exposed": false,
+  "overall_ok": true,
+  "csv_files": {
+    "unified_candidates.csv": {
+      "exists": true,
+      "total_rows_including_header": 8,
+      "data_rows": 7,
+      "role": "latest_public_candidate_snapshot"
     },
-    "ranking_tiers": {
-      "field_used": "none",
-      "counts": {
-        "unknown": 7
-      }
+    "daily_ai_summary.csv": {
+      "exists": true,
+      "total_rows_including_header": 183,
+      "data_rows": 182,
+      "role": "public_daily_summary_history"
     },
-    "signals": {
-      "field_used": "none",
-      "counts": {
-        "unknown": 7
-      }
-    },
-    "trend_directions": {
-      "field_used": "none",
-      "counts": {
-        "unknown": 7
-      }
+    "signal_outcomes_history.csv": {
+      "exists": true,
+      "total_rows_including_header": 114,
+      "data_rows": 113,
+      "role": "public_signal_outcome_history"
     }
   },
-  "signal_outcomes": {
-    "rows": 106,
-    "status": {
-      "field_used": "status",
-      "counts": {
-        "open": 70,
-        "closed": 36
-      }
+  "json_files": {
+    "public_manifest.json": {
+      "exists": true,
+      "size_bytes": 2881,
+      "valid_json": true,
+      "role": "public_manifest"
     },
-    "decision_buckets": {
-      "field_used": "none",
-      "counts": {
-        "unknown": 106
-      }
+    "public_export_summary.json": {
+      "exists": true,
+      "size_bytes": 505,
+      "valid_json": true,
+      "role": "public_export_summary"
     },
-    "signals": {
-      "field_used": "signal_label",
-      "counts": {
-        "young_trend_watch": 86,
-        "fresh_transition_watch": 20
-      }
+    "public_debug_summary.json": {
+      "exists": true,
+      "size_bytes": 174,
+      "valid_json": true,
+      "role": "sanitized_public_debug_summary"
     }
   },
-  "daily_ai_summary": {
-    "rows": 181,
-    "latest_generated_at": "2026-05-27 03:30:31",
-    "latest_cio_stance": "defensive_monitoring",
-    "latest_macro_regime": "crypto_outperformance",
-    "latest_market_leadership": "crypto_leading",
-    "latest_market_transition": "expansion",
-    "latest_market_breadth": "risk_on"
-  },
-  "technical_files": {
-    "cto_scanner_debug_rows": 0,
-    "debug_public_status": "temporary_public_technical_snapshot",
-    "recommendation": "replace_or_reduce_debug_csv_later_with_clean_summary"
-  }
+  "disclaimer": "This public data layer is for research, monitoring, and decision-support only. It is not financial advice, investment advice, or a recommendation to buy or sell any asset."
 }
