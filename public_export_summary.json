@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-30 03:30:34",
+  "generated_at": "2026-05-31 03:30:35",
   "mode": "research_monitoring_only",
   "financial_advice": false,
   "live_trading": false,
@@ -14,7 +14,6 @@
     "dashboard.html",
     "daily_ai_summary.csv",
     "unified_candidates.csv",
-    "cto_scanner_debug.csv",
     "signal_outcomes_history.csv",
     "public_manifest.json",
     "public_export_summary.json"
