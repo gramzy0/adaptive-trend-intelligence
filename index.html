@@ -608,6 +608,14 @@
     };
 
     function humanLabel(key) {
+      const labelOverrides = {
+        public_debug_summary: "Public System Summary"
+      };
+
+      if (labelOverrides[key]) {
+        return labelOverrides[key];
+      }
+
       return key
         .replaceAll("_", " ")
         .replace(/\b\w/g, char => char.toUpperCase());
