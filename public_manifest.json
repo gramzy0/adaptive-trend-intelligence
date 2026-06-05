@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-04T03:30:43+00:00",
+  "generated_at_utc": "2026-06-05T03:30:41+00:00",
   "project": "Adaptive Trend Intelligence Public Dashboard",
   "mode": "research_monitoring_only",
   "financial_advice": false,
@@ -13,7 +13,7 @@
       "purpose": "Safe public export quality and file summary",
       "exists": true,
       "size_kb": 0.46,
-      "modified_at_utc": "2026-06-04T03:30:43+00:00"
+      "modified_at_utc": "2026-06-05T03:30:41+00:00"
     },
     "public_technical_summary": {
       "file": "public_technical_summary.json",
@@ -21,7 +21,7 @@
       "purpose": "Clean public technical summary replacing reliance on raw debug data",
       "exists": true,
       "size_kb": 1.48,
-      "modified_at_utc": "2026-06-03T03:30:41+00:00"
+      "modified_at_utc": "2026-06-04T03:30:43+00:00"
     },
     "public_debug_summary": {
       "file": "public_debug_summary.json",
@@ -29,7 +29,7 @@
       "purpose": "Compact sanitized public debug summary replacing raw debug CSV over time",
       "exists": true,
       "size_kb": 0.17,
-      "modified_at_utc": "2026-06-03T04:20:58+00:00"
+      "modified_at_utc": "2026-06-04T04:20:55+00:00"
     },
     "public_status_summary": {
       "file": "public_status_summary.json",
@@ -37,7 +37,7 @@
       "purpose": "Live public status and data freshness summary",
       "exists": true,
       "size_kb": 0.61,
-      "modified_at_utc": "2026-06-03T03:30:41+00:00"
+      "modified_at_utc": "2026-06-04T03:30:43+00:00"
     },
     "index": {
       "file": "index.html",
@@ -53,15 +53,15 @@
       "purpose": "Sanitized public dashboard snapshot",
       "exists": true,
       "size_kb": 17.82,
-      "modified_at_utc": "2026-06-04T03:30:43+00:00"
+      "modified_at_utc": "2026-06-05T03:30:41+00:00"
     },
     "daily_ai_summary": {
       "file": "daily_ai_summary.csv",
       "type": "csv",
       "purpose": "Historical daily AI and system summary",
       "exists": true,
-      "size_kb": 19.15,
-      "modified_at_utc": "2026-06-04T03:30:43+00:00"
+      "size_kb": 19.25,
+      "modified_at_utc": "2026-06-05T03:30:41+00:00"
     },
     "unified_candidates": {
       "file": "unified_candidates.csv",
@@ -69,15 +69,15 @@
       "purpose": "Latest public candidate ranking snapshot",
       "exists": true,
       "size_kb": 1.2,
-      "modified_at_utc": "2026-06-04T03:30:43+00:00"
+      "modified_at_utc": "2026-06-05T03:30:41+00:00"
     },
     "signal_outcomes_history": {
       "file": "signal_outcomes_history.csv",
       "type": "csv",
       "purpose": "Historical public signal outcome tracking",
       "exists": true,
-      "size_kb": 29.5,
-      "modified_at_utc": "2026-06-04T03:30:43+00:00"
+      "size_kb": 30.83,
+      "modified_at_utc": "2026-06-05T03:30:41+00:00"
     }
   },
   "disclaimer": "This public data layer is for research, monitoring, and decision-support only. It is not financial advice, investment advice, or a recommendation to buy or sell any asset."
