@@ -372,7 +372,7 @@
       <h1>Adaptive Trend Intelligence</h1>
       <p class="subtitle">
         A public-facing market monitoring layer built from sanitized system outputs.
-        The dashboard presents candidate rankings, signal outcome tracking, and high-level
+        The dashboard presents candidate observations, signal outcome tracking, and high-level
         system history for research and decision-support purposes only.
       </p>
       <div id="manifest-status" class="badge warn">Loading public manifest...</div>
@@ -535,7 +535,7 @@
       <p id="disclaimer">
         This dashboard is generated for research, monitoring, and decision-support purposes only.
         It is not financial advice, investment advice, or a recommendation to buy or sell any asset.
-        Signals and rankings may be incomplete, delayed, or incorrect. Any live decision requires
+        Signals and observations may be incomplete, delayed, or incorrect. Any live decision requires
         independent review, risk controls, and human approval.
       </p>
     </section>
@@ -588,7 +588,7 @@
       unified_candidates: {
         file: "unified_candidates.csv",
         type: "csv",
-        purpose: "Latest public candidate ranking snapshot"
+        purpose: "Latest public candidate observation snapshot"
       },
       signal_outcomes_history: {
         file: "signal_outcomes_history.csv",
@@ -599,17 +599,12 @@
         file: "daily_ai_summary.csv",
         type: "csv",
         purpose: "Historical daily AI and system summary"
-      },
-      cto_scanner_debug: {
-        file: "cto_scanner_debug.csv",
-        type: "csv",
-        purpose: "Latest public technical scan snapshot"
       }
     };
 
     function humanLabel(key) {
       const labelOverrides = {
-        public_debug_summary: "Public System Summary"
+        public_system_summary: "Public System Summary"
       };
 
       if (labelOverrides[key]) {
@@ -720,6 +715,36 @@
         .replaceAll("'", "&#039;");
     }
 
+    function publicBandFromLegacyNumeric(value) {
+      // Deprecated/internal numeric compatibility input; never render the raw value.
+      if (value === null || value === undefined || String(value).trim() === "") {
+        return "summary_band_unavailable";
+      }
+      const score = Number(value);
+      if (!Number.isFinite(score)) return "summary_band_unavailable";
+      if (score >= 80) return "very_high_signal_band";
+      if (score >= 65) return "high_signal_band";
+      if (score >= 50) return "medium_signal_band";
+      if (score >= 35) return "lower_signal_band";
+      return "very_low_signal_band";
+    }
+
+    function publicCandidateBand(row) {
+      const publishedBand = pickField(
+        row,
+        ["signal_strength_band", "signal_score_band", "confidence_band", "public_watch_tier"],
+        ""
+      );
+      if (publishedBand) return publishedBand;
+
+      const legacyNumeric = pickField(
+        row,
+        ["adaptive_score", "score", "final_score", "rank_score", "Score"],
+        ""
+      );
+      return publicBandFromLegacyNumeric(legacyNumeric);
+    }
+
     async function loadCandidates() {
       const status = document.getElementById("candidate-status");
       const body = document.getElementById("candidate-table-body");
@@ -745,7 +770,7 @@
         body.innerHTML = rows.map(row => {
           const symbol = pickField(row, ["symbol", "Symbol"], "-");
           const assetType = pickField(row, ["asset_type", "type", "Asset Type"], "-");
-          const score = pickField(row, ["adaptive_score", "score", "final_score", "rank_score", "Score"], "-");
+          const signalBand = publicCandidateBand(row);
           const action = pickField(row, ["action", "decision_bucket", "final_action_v2", "execution_action", "signal", "Action"], "monitor");
           const reason = pickField(row, ["reason", "Reason"], "No public reason provided.");
 
@@ -753,7 +778,7 @@
             <tr>
               <td class="symbol">${escapeHTML(symbol)}</td>
               <td>${escapeHTML(assetType)}</td>
-              <td>${escapeHTML(score)}</td>
+              <td>${escapeHTML(signalBand)}</td>
               <td>${escapeHTML(action)}</td>
               <td>${escapeHTML(reason)}</td>
             </tr>
@@ -1224,7 +1249,7 @@ function renderTable(tableId, rows, columns, limit = 25) {
 function badge(value) {
   const safe = String(value || "").toLowerCase();
   let cls = "badge neutral";
-  if (safe.includes("deploy") || safe.includes("buy") || safe.includes("bull") || safe.includes("blue")) cls = "badge good";
+  if (safe.includes("buy") || safe.includes("bull") || safe.includes("blue")) cls = "badge good";
   if (safe.includes("monitor") || safe.includes("watch")) cls = "badge warn";
   if (safe.includes("reject") || safe.includes("bear") || safe.includes("red")) cls = "badge bad";
   return `<span class="${cls}">${value || "-"}</span>`;
@@ -1277,7 +1302,11 @@ function renderFilteredCandidates() {
     { key: "asset_type", label: "Type" },
     { key: "symbol", label: "Symbol" },
     { key: "decision_bucket", label: "Decision", format: badge },
-    { key: "unified_score", label: "Score", format: v => numberValue(v, 2) },
+    {
+      key: "signal_strength_band",
+      label: "Signal Band",
+      format: (value, row) => value || publicCandidateBand(row)
+    },
     { key: "trendDirection", label: "Trend" },
     { key: "weeklyColor", label: "Weekly Color", format: badge },
     { key: "weeklySignal", label: "Weekly Signal" }
@@ -1385,7 +1414,12 @@ async function initLiveData() {
       { key: "market_leadership", label: "Leadership" },
       { key: "market_transition", label: "Transition" },
       { key: "market_breadth", label: "Breadth" },
-      { key: "deploy_candidates", label: "Deploy" },
+      {
+        key: "priority_watch_candidates",
+        label: "Priority Watch",
+        // Deprecated compatibility fallback for historical public CSV rows.
+        format: (value, row) => value || row.deploy_candidates || ""
+      },
       { key: "monitor_candidates", label: "Monitor" },
       { key: "reject_candidates", label: "Reject" }
     ], 20);

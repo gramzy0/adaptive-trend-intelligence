@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-09T03:30:40.875491+00:00",
+  "generated_at": "2026-06-10T16:34:29.257077+00:00",
   "purpose": "Sanitized public technical summary for public research and monitoring layer.",
   "mode": "research_monitoring_only",
   "financial_advice": false,
@@ -15,21 +15,21 @@
     },
     "daily_ai_summary.csv": {
       "exists": true,
-      "total_rows_including_header": 195,
-      "data_rows": 194,
+      "total_rows_including_header": 2,
+      "data_rows": 1,
       "role": "public_daily_summary_history"
     },
     "signal_outcomes_history.csv": {
       "exists": true,
-      "total_rows_including_header": 198,
-      "data_rows": 197,
+      "total_rows_including_header": 205,
+      "data_rows": 204,
       "role": "public_signal_outcome_history"
     }
   },
   "json_files": {
     "public_manifest.json": {
       "exists": true,
-      "size_bytes": 2880,
+      "size_bytes": 2954,
       "valid_json": true,
       "role": "public_manifest"
     },
@@ -39,11 +39,11 @@
       "valid_json": true,
       "role": "public_export_summary"
     },
-    "public_debug_summary.json": {
+    "public_system_summary.json": {
       "exists": true,
-      "size_bytes": 174,
+      "size_bytes": 161,
       "valid_json": true,
-      "role": "sanitized_public_debug_summary"
+      "role": "sanitized_public_system_summary"
     }
   },
   "disclaimer": "This public data layer is for research, monitoring, and decision-support only. It is not financial advice, investment advice, or a recommendation to buy or sell any asset."
