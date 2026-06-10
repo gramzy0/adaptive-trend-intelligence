@@ -218,10 +218,28 @@
         font-size: 13px;
       }
     }
+
+    .nav-back {
+      display: inline-block;
+      color: var(--muted);
+      font-size: 13px;
+      text-decoration: none;
+      margin-bottom: 18px;
+      padding: 6px 12px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: rgba(17, 24, 39, 0.6);
+    }
+
+    .nav-back:hover {
+      color: var(--blue);
+      border-color: var(--blue);
+    }
   </style>
 </head>
 <body>
   <main class="container">
+    <a href="index.html" class="nav-back">← Overview</a>
     <section class="hero">
       <div class="eyebrow">Research & Monitoring Dashboard</div>
       <h1>Adaptive Trend Intelligence Dashboard</h1>
@@ -230,7 +248,7 @@
         governance controls, risk posture, and candidate observations. This page is
         for research and monitoring only.
       </p>
-      <div class="generated">Generated at: 2026-06-10 16:34 UTC</div>
+      <div class="generated">Generated at: 2026-06-10 19:42 UTC</div>
     </section>
 
     <section class="grid">
@@ -494,7 +512,10 @@ Governance restrictions are active. Capital deployment should remain controlled 
       <div>54.41%</div>
 
       <p class="note">
-        Public summary only. Detailed learning internals remain excluded from the public dashboard.
+        Outcome learning is still early-stage. Negative Watch reflects observed adverse movement
+        relative to favorable movement in open or closed outcomes; it is not a realized-loss
+        statement or investment recommendation. Public summary only. Detailed learning internals
+        remain excluded from the public dashboard.
       </p>
     </section>
 

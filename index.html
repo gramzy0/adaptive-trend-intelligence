@@ -371,6 +371,12 @@
       <div class="eyebrow">Research & Monitoring Dashboard</div>
       <h1>Adaptive Trend Intelligence</h1>
       <p class="subtitle">
+        Adaptive Trend Intelligence is a rules-based market monitoring system that tracks
+        technical trend changes and candidate observations across selected assets. It operates
+        in research and monitoring mode only: no capital is deployed, no financial advice is
+        provided, and no trade execution is enabled.
+      </p>
+      <p class="subtitle">
         A public-facing market monitoring layer built from sanitized system outputs.
         The dashboard presents candidate observations, signal outcome tracking, and high-level
         system history for research and decision-support purposes only.
@@ -456,7 +462,10 @@
 
       <p class="table-note">
         MFE means maximum favorable excursion. MAE means maximum adverse excursion.
-        These are observational tracking metrics, not proof of profitability.
+        These metrics are early-stage observational data. Many outcomes remain open,
+        so MFE and MAE describe monitored movement after a signal, not realized profit
+        or loss. The distribution will become more meaningful as closed outcome history
+        accumulates.
       </p>
     </section>
 
@@ -530,6 +539,24 @@
       </div>
     </section>
 
+    <section class="card">
+      <h2>Methodology Notes</h2>
+      <p class="muted">
+        Key terms used in this dashboard:
+      </p>
+      <ul style="color: var(--muted); font-size: 14px; line-height: 1.8; padding-left: 20px;">
+        <li><strong>CTO flip:</strong> A "Change of Trend" observation where price structure shifts under the system's rules from a downtrend to an uptrend pattern.</li>
+        <li><strong>Signal band:</strong> A lower / medium / higher classification of signal strength, not a precise numeric score.</li>
+        <li><strong>Watch tier:</strong> A relative observation priority tier (A through D). Reflects signal quality and data confidence.</li>
+        <li><strong>MFE:</strong> Maximum Favorable Excursion — the strongest positive price move observed after a signal. An observational tracking metric.</li>
+        <li><strong>MAE:</strong> Maximum Adverse Excursion — the strongest negative price move observed after a signal. An observational tracking metric.</li>
+        <li><strong>Governance state:</strong> Whether the system's safety controls allow deployment decisions. Restricted means no deployment is permitted.</li>
+      </ul>
+      <p class="muted" style="font-size: 13px; margin-top: 10px;">
+        All observations are for research and monitoring purposes only. Nothing here constitutes financial advice.
+      </p>
+    </section>
+
     <section class="card warning">
       <h2>Disclaimer</h2>
       <p id="disclaimer">
@@ -542,8 +569,8 @@
 
     <section class="footer">
       <p>
-        Public frontend version: manifest-driven landing page.
-        Next stage: add public tables and charts using approved CSV files.
+        Adaptive Trend Intelligence publishes sanitized research-monitoring outputs only.
+        The public layer is designed for transparency, not financial advice or trade execution.
       </p>
     </section>
   
