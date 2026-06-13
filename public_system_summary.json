@@ -1,7 +1,112 @@
 {
-  "generated_at": "2026-06-12T03:30:48.539341+00:00",
-  "scope": "public_system_summary",
-  "available": false,
-  "rows": 0,
-  "status": "source_unavailable"
+  "generated_at": "2026-06-13T03:35:59.412802+00:00",
+  "scope": "sanitized_public_system_summary",
+  "available": true,
+  "rows": 1021,
+  "asset_types": {
+    "unknown": 1021
+  },
+  "colors": {
+    "Blue": 844,
+    "Gold": 102,
+    "unknown": 26,
+    "Gray": 49
+  },
+  "signals": {
+    "Confirmed Gold \u2192 Gray \u2192 Blue \u2192 Blue": 2,
+    "unknown": 1014,
+    "No confirmed trend flip": 5
+  },
+  "decisions": {
+    "unknown": 1021
+  },
+  "score": {
+    "count": 1021,
+    "min": 0.0,
+    "max": 80.0,
+    "average": 0.13
+  },
+  "top_symbols": [
+    [
+      "ARUSDT",
+      1
+    ],
+    [
+      "GBPUSDT",
+      1
+    ],
+    [
+      "BTCUSDT",
+      1
+    ],
+    [
+      "SOLBTC",
+      1
+    ],
+    [
+      "ETHUSDT",
+      1
+    ],
+    [
+      "WLDBTC",
+      1
+    ],
+    [
+      "WLDUSDT",
+      1
+    ],
+    [
+      "SOLUSDT",
+      1
+    ],
+    [
+      "ETHBTC",
+      1
+    ],
+    [
+      "ZECUSDT",
+      1
+    ],
+    [
+      "DOGEBTC",
+      1
+    ],
+    [
+      "XRPUSDT",
+      1
+    ],
+    [
+      "XRPBTC",
+      1
+    ],
+    [
+      "BNBUSDT",
+      1
+    ],
+    [
+      "TRUMPUSDT",
+      1
+    ],
+    [
+      "ZECBTC",
+      1
+    ],
+    [
+      "DOGEUSDT",
+      1
+    ],
+    [
+      "NIGHTUSDT",
+      1
+    ],
+    [
+      "XPLUSDT",
+      1
+    ],
+    [
+      "NEARBTC",
+      1
+    ]
+  ],
+  "public_note": "This file summarizes public system scan status for monitoring. It does not include private model state, credentials, or trading instructions."
 }
