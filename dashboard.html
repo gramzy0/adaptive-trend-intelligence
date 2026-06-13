@@ -240,15 +240,39 @@
 <body>
   <main class="container">
     <a href="index.html" class="nav-back">← Overview</a>
+    <a href="data_dictionary.html" class="nav-back">Data Dictionary</a>
+    <a href="limitations.html" class="nav-back">Limitations</a>
     <section class="hero">
       <div class="eyebrow">Research & Monitoring Dashboard</div>
       <h1>Adaptive Trend Intelligence Dashboard</h1>
       <p class="subtitle">
-        A rules-based market monitoring dashboard combining trend-flip signals,
-        governance controls, risk posture, and candidate observations. This page is
-        for research and monitoring only.
+        This dashboard summarises public research-monitoring outputs from CTO Scanner. It is
+        designed to show data freshness, public export status, candidate monitoring rows, and
+        historical signal outcome records. It combines trend-flip signals, governance controls,
+        risk posture, and candidate observations.
       </p>
-      <div class="generated">Generated at: 2026-06-13 03:30 UTC</div>
+      <p class="subtitle">
+        This dashboard is for research and monitoring only. It is not financial advice, does not
+        recommend trades, and does not execute transactions. Data is refreshed by the scheduled
+        scanner/export workflow when the nightly run completes successfully.
+      </p>
+      <div class="generated">Generated at: 2026-06-13 09:24 UTC</div>
+    </section>
+
+    <section class="card" style="margin-bottom: 20px;">
+      <h2>How to Read This Dashboard</h2>
+      <ul class="disclaimer" style="margin: 0 0 10px; padding-left: 20px; line-height: 2;">
+        <li>Public status cards summarise operational readiness and export freshness &mdash; they are not market buy/sell signals.</li>
+        <li>Candidate rows are monitoring observations, not trade recommendations.</li>
+        <li>Outcome rows are historical tracking records, not proof of future performance.</li>
+        <li>Public CSV files are sanitised public exports and may not include internal review context.</li>
+      </ul>
+      <p class="disclaimer">
+        Status labels such as <em>red</em>, <em>blocked</em>, or <em>not_ready</em> describe internal
+        readiness, governance, or data-quality states. They should not be interpreted as market direction
+        or trading recommendations. Freshness fields reflect the latest public export available to this
+        static dashboard and are updated when the scheduled scanner/export workflow completes successfully.
+      </p>
     </section>
 
     <section class="grid">
@@ -262,7 +286,7 @@
       </div>
       <div class="metric">
         <div class="metric-label">AI Readiness</div>
-        <div class="metric-value"><span class="badge danger">not_ready</span></div>
+        <div class="metric-value"><span class="badge danger">Not Ready</span></div>
       </div>
       <div class="metric">
         <div class="metric-label">Market Stress</div>
@@ -272,7 +296,7 @@
 
     <section class="warning-box">
       <strong>Governance Warning:</strong>
-      Current governance state is <strong>restricted</strong>.
+      Current governance state is <strong>Restricted</strong>.
       If permission is blocked or governance is restricted, this dashboard should
       be treated as monitor-only. It should not be interpreted as a capital deployment instruction.
     </section>
@@ -282,15 +306,15 @@
       <div class="grid">
         <div class="metric">
           <div class="metric-label">Governance State</div>
-          <div class="metric-value"><span class="badge danger">restricted</span></div>
+          <div class="metric-value"><span class="badge danger">Restricted</span></div>
         </div>
         <div class="metric">
           <div class="metric-label">Decision Quality</div>
-          <div class="metric-value"><span class="badge danger">poor_quality</span></div>
+          <div class="metric-value"><span class="badge danger">Poor Quality</span></div>
         </div>
         <div class="metric">
           <div class="metric-label">Meta Confidence</div>
-          <div class="metric-value"><span class="badge danger">very_low_confidence</span></div>
+          <div class="metric-value"><span class="badge danger">Very Low Confidence</span></div>
         </div>
       </div>
     </section>
@@ -313,7 +337,7 @@
         </div>
         <div class="metric">
           <div class="metric-label">Scan Results</div>
-          <div class="metric-value">664269</div>
+          <div class="metric-value">665290</div>
         </div>
       </div>
       <p class="disclaimer">
@@ -421,16 +445,16 @@
           </tr>
         </thead>
         <tbody>
-          <tr><td class='symbol'>WBETHUSDT</td><td>crypto</td><td>lower_signal_band</td><td>low_priority_watch</td><td><span class='badge neutral'>open</span></td><td>0.67</td><td>-0.02</td></tr>
-<tr><td class='symbol'>FETUSDT</td><td>crypto</td><td>lower_signal_band</td><td>low_priority_watch</td><td><span class='badge neutral'>open</span></td><td>2.55</td><td>-0.27</td></tr>
-<tr><td class='symbol'>WOOUSDT</td><td>crypto</td><td>lower_signal_band</td><td>low_priority_watch</td><td><span class='badge neutral'>open</span></td><td>1.69</td><td>0.00</td></tr>
-<tr><td class='symbol'>LQTYUSDT</td><td>crypto</td><td>lower_signal_band</td><td>weak_signal_watch</td><td><span class='badge neutral'>open</span></td><td>1.49</td><td>-0.50</td></tr>
-<tr><td class='symbol'>PIXELUSDT</td><td>crypto</td><td>lower_signal_band</td><td>low_priority_watch</td><td><span class='badge neutral'>open</span></td><td>1.28</td><td>-0.18</td></tr>
-<tr><td class='symbol'>ETHUSDT</td><td>crypto</td><td>lower_signal_band</td><td>low_priority_watch</td><td><span class='badge neutral'>open</span></td><td>0.67</td><td>-0.08</td></tr>
-<tr><td class='symbol'>GBPUSDT</td><td>crypto</td><td>medium_signal_band</td><td>low_priority_watch</td><td><span class='badge neutral'>open</span></td><td>unavailable</td><td>unavailable</td></tr>
-<tr><td class='symbol'>WOOUSDT</td><td>crypto</td><td>lower_signal_band</td><td>low_priority_watch</td><td><span class='badge neutral'>open</span></td><td>2.05</td><td>-1.75</td></tr>
-<tr><td class='symbol'>LQTYUSDT</td><td>crypto</td><td>lower_signal_band</td><td>weak_signal_watch</td><td><span class='badge neutral'>open</span></td><td>1.48</td><td>-2.46</td></tr>
-<tr><td class='symbol'>ETHUSDT</td><td>crypto</td><td>lower_signal_band</td><td>low_priority_watch</td><td><span class='badge neutral'>open</span></td><td>1.08</td><td>-1.25</td></tr>
+          <tr><td class='symbol'>WBETHUSDT</td><td>crypto</td><td>lower_signal_band</td><td>low_priority</td><td><span class='badge neutral'>open</span></td><td>0.67</td><td>-0.02</td></tr>
+<tr><td class='symbol'>FETUSDT</td><td>crypto</td><td>lower_signal_band</td><td>low_priority</td><td><span class='badge neutral'>open</span></td><td>2.55</td><td>-0.27</td></tr>
+<tr><td class='symbol'>WOOUSDT</td><td>crypto</td><td>lower_signal_band</td><td>low_priority</td><td><span class='badge neutral'>open</span></td><td>1.69</td><td>0.00</td></tr>
+<tr><td class='symbol'>LQTYUSDT</td><td>crypto</td><td>lower_signal_band</td><td>avoid_for_now</td><td><span class='badge neutral'>open</span></td><td>1.49</td><td>-0.50</td></tr>
+<tr><td class='symbol'>PIXELUSDT</td><td>crypto</td><td>lower_signal_band</td><td>low_priority</td><td><span class='badge neutral'>open</span></td><td>1.28</td><td>-0.18</td></tr>
+<tr><td class='symbol'>ETHUSDT</td><td>crypto</td><td>lower_signal_band</td><td>low_priority</td><td><span class='badge neutral'>open</span></td><td>0.67</td><td>-0.08</td></tr>
+<tr><td class='symbol'>GBPUSDT</td><td>crypto</td><td>medium_signal_band</td><td>low_priority</td><td><span class='badge neutral'>open</span></td><td>unavailable</td><td>unavailable</td></tr>
+<tr><td class='symbol'>WOOUSDT</td><td>crypto</td><td>lower_signal_band</td><td>low_priority</td><td><span class='badge neutral'>open</span></td><td>2.05</td><td>-1.75</td></tr>
+<tr><td class='symbol'>LQTYUSDT</td><td>crypto</td><td>lower_signal_band</td><td>avoid_for_now</td><td><span class='badge neutral'>open</span></td><td>1.48</td><td>-2.46</td></tr>
+<tr><td class='symbol'>ETHUSDT</td><td>crypto</td><td>lower_signal_band</td><td>low_priority</td><td><span class='badge neutral'>open</span></td><td>1.08</td><td>-1.25</td></tr>
         </tbody>
       </table>
       <p class="disclaimer">
@@ -451,19 +475,29 @@
           </tr>
         </thead>
         <tbody>
-          <tr><td class='symbol'>GBPUSDT</td><td>medium_signal_band</td><td><span class='badge warning'>low_priority_watch</span></td><td class='reason'>fresh CTO flip; young signal</td></tr>
-<tr><td class='symbol'>PIXELUSDT</td><td>lower_signal_band</td><td><span class='badge warning'>low_priority_watch</span></td><td class='reason'>young signal</td></tr>
-<tr><td class='symbol'>ETHUSDT</td><td>lower_signal_band</td><td><span class='badge warning'>low_priority_watch</span></td><td class='reason'>young signal; acceptable market-cap quality</td></tr>
-<tr><td class='symbol'>WBETHUSDT</td><td>lower_signal_band</td><td><span class='badge warning'>low_priority_watch</span></td><td class='reason'>young signal</td></tr>
-<tr><td class='symbol'>FETUSDT</td><td>lower_signal_band</td><td><span class='badge warning'>low_priority_watch</span></td><td class='reason'>young signal</td></tr>
-<tr><td class='symbol'>WOOUSDT</td><td>lower_signal_band</td><td><span class='badge warning'>low_priority_watch</span></td><td class='reason'>young signal</td></tr>
-<tr><td class='symbol'>LQTYUSDT</td><td>lower_signal_band</td><td><span class='badge danger'>weak_signal_watch</span></td><td class='reason'>young signal</td></tr>
+          <tr><td class='symbol'>GBPUSDT</td><td>medium_signal_band</td><td><span class='badge warning'>low_priority</span></td><td class='reason'>fresh CTO flip; young signal</td></tr>
+<tr><td class='symbol'>PIXELUSDT</td><td>lower_signal_band</td><td><span class='badge warning'>low_priority</span></td><td class='reason'>young signal</td></tr>
+<tr><td class='symbol'>ETHUSDT</td><td>lower_signal_band</td><td><span class='badge warning'>low_priority</span></td><td class='reason'>young signal; acceptable market-cap quality</td></tr>
+<tr><td class='symbol'>WBETHUSDT</td><td>lower_signal_band</td><td><span class='badge warning'>low_priority</span></td><td class='reason'>young signal</td></tr>
+<tr><td class='symbol'>FETUSDT</td><td>lower_signal_band</td><td><span class='badge warning'>low_priority</span></td><td class='reason'>young signal</td></tr>
+<tr><td class='symbol'>WOOUSDT</td><td>lower_signal_band</td><td><span class='badge warning'>low_priority</span></td><td class='reason'>young signal</td></tr>
+<tr><td class='symbol'>LQTYUSDT</td><td>lower_signal_band</td><td><span class='badge danger'>avoid_for_now</span></td><td class='reason'>young signal</td></tr>
         </tbody>
       </table>
+      <p class="disclaimer">
+        Candidate rows are monitoring observations only. They are not trade recommendations,
+        entry signals, or capital deployment instructions.
+      </p>
     </section>
 
     <section class="card">
       <h2>Daily Briefing</h2>
+      <p class="disclaimer" style="margin-bottom: 12px;">
+        Status values in this briefing (such as <em>red</em>, <em>blocked</em>,
+        <em>not_ready</em>, <em>extreme</em>) describe internal governance, readiness, and
+        risk-posture states. They are not market direction or trading recommendations.
+        This briefing is generated automatically and is for research and monitoring context only.
+      </p>
       <div class="text-panel">Adaptive Trend Intelligence Daily AI Briefing
 
 System State: red
@@ -477,19 +511,19 @@ Governance:
 - Meta Confidence: very_low_confidence
 
 Top Candidates:
-- GBPUSDT | signal_band=medium_signal_band | action=low_priority_watch
+- GBPUSDT | signal_band=medium_signal_band | action=low_priority
   Reason: fresh CTO flip; young signal; needs confirmation; restricted governance; monitor only
   Final: Monitor only — do not deploy capital yet.
-- PIXELUSDT | signal_band=lower_signal_band | action=low_priority_watch
+- PIXELUSDT | signal_band=lower_signal_band | action=low_priority
   Reason: young signal; needs confirmation; restricted governance; monitor only
   Final: Monitor only — do not deploy capital yet.
-- ETHUSDT | signal_band=lower_signal_band | action=low_priority_watch
+- ETHUSDT | signal_band=lower_signal_band | action=low_priority
   Reason: young signal; needs confirmation; acceptable market-cap quality; restricted governance; monitor only
   Final: Monitor only — do not deploy capital yet.
-- WBETHUSDT | signal_band=lower_signal_band | action=low_priority_watch
+- WBETHUSDT | signal_band=lower_signal_band | action=low_priority
   Reason: young signal; needs confirmation; restricted governance; monitor only
   Final: Monitor only — do not deploy capital yet.
-- FETUSDT | signal_band=lower_signal_band | action=low_priority_watch
+- FETUSDT | signal_band=lower_signal_band | action=low_priority
   Reason: young signal; needs confirmation; restricted governance; monitor only
   Final: Monitor only — do not deploy capital yet.
 
@@ -549,7 +583,7 @@ Governance restrictions are active. Capital deployment should remain controlled 
     <section class="card disclaimer">
       <h2>Disclaimer</h2>
       <p>
-        This dashboard is generated for research, monitoring, and decision-support purposes only.
+        This dashboard is generated for research and monitoring purposes only.
         It is not financial advice, investment advice, or a recommendation to buy or sell any asset.
         Signals and observations may be incomplete, delayed, or incorrect. Any live decision requires
         independent review, risk controls, and human approval.

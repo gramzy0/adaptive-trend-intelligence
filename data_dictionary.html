@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Public Data Dictionary — CTO Scanner</title>
+  <style>
+    :root {
+      --bg: #020617;
+      --panel: #0f172a;
+      --border: #1f2937;
+      --text: #e5e7eb;
+      --muted: #94a3b8;
+      --blue: #93c5fd;
+      --danger: #fca5a5;
+      --warning: #fde68a;
+      --success: #86efac;
+      --neutral: #cbd5e1;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background:
+        radial-gradient(circle at top left, rgba(37, 99, 235, 0.18), transparent 28%),
+        radial-gradient(circle at top right, rgba(14, 165, 233, 0.12), transparent 30%),
+        var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 28px 20px 60px;
+    }
+
+    .nav-row {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-bottom: 22px;
+    }
+
+    .nav-back {
+      display: inline-block;
+      color: var(--muted);
+      font-size: 13px;
+      text-decoration: none;
+      padding: 6px 12px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: rgba(17, 24, 39, 0.6);
+    }
+
+    .nav-back:hover { color: var(--blue); border-color: var(--blue); }
+
+    .hero {
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      background: rgba(15, 23, 42, 0.92);
+      padding: 28px;
+      margin-bottom: 24px;
+    }
+
+    .eyebrow {
+      color: var(--blue);
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      font-size: 12px;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+
+    h1 { margin: 0; font-size: 30px; line-height: 1.2; }
+
+    .subtitle {
+      color: var(--muted);
+      margin: 12px 0 0;
+      max-width: 720px;
+    }
+
+    .card {
+      background: rgba(17, 24, 39, 0.92);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 22px 24px;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      margin: 0 0 14px;
+      font-size: 20px;
+      color: var(--blue);
+    }
+
+    h3 {
+      margin: 20px 0 8px;
+      font-size: 16px;
+      color: var(--text);
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 6px;
+    }
+
+    p { margin: 0 0 12px; color: var(--muted); font-size: 14px; }
+    p:last-child { margin-bottom: 0; }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      font-size: 13px;
+    }
+
+    th, td {
+      padding: 9px 10px;
+      border-bottom: 1px solid var(--border);
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      color: var(--blue);
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+
+    td { color: var(--muted); }
+    td:first-child { color: var(--text); font-weight: 600; white-space: nowrap; }
+
+    code {
+      background: rgba(15, 23, 42, 0.9);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 1px 5px;
+      font-size: 12px;
+      color: var(--blue);
+    }
+
+    ul {
+      color: var(--muted);
+      font-size: 14px;
+      padding-left: 20px;
+      margin: 8px 0;
+      line-height: 1.9;
+    }
+
+    .warning-box {
+      border: 1px solid rgba(252, 165, 165, 0.35);
+      background: rgba(127, 29, 29, 0.14);
+      color: #fecaca;
+      border-radius: 12px;
+      padding: 14px 18px;
+      margin-bottom: 20px;
+      font-size: 13px;
+    }
+
+    .tag {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 999px;
+      font-size: 11px;
+      font-weight: 700;
+      border: 1px solid var(--border);
+    }
+
+    .tag-neutral { color: var(--neutral); background: rgba(51,65,85,0.28); }
+    .tag-blue    { color: var(--blue);    background: rgba(29,78,216,0.18); }
+
+    @media (max-width: 680px) {
+      h1 { font-size: 22px; }
+      table { font-size: 12px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+
+    <nav class="nav-row">
+      <a href="index.html" class="nav-back">← Overview</a>
+      <a href="dashboard.html" class="nav-back">Dashboard</a>
+      <a href="limitations.html" class="nav-back">Limitations</a>
+    </nav>
+
+    <section class="hero">
+      <div class="eyebrow">CTO Scanner · Public Reference</div>
+      <h1>Public Data Dictionary</h1>
+      <p class="subtitle">
+        This data dictionary explains the public research-monitoring CSV and JSON exports published
+        by CTO Scanner. It is intended for visitors who want to understand what each file contains,
+        what its fields mean, and what the data should and should not be used for.
+      </p>
+      <p class="subtitle" style="margin-top: 10px;">
+        This data dictionary is for research and monitoring context only. It is not financial advice,
+        does not recommend trades, and does not execute transactions.
+      </p>
+    </section>
+
+    <div class="warning-box">
+      <strong>Research and Monitoring Only.</strong> All public files described here are sanitised
+      research-monitoring exports. They are not trading recommendations, buy/sell signals, portfolio
+      allocation guidance, or proof of future performance. They do not replace human review.
+    </div>
+
+    <!-- ═══════════════════════════════════════════════════════════════ -->
+    <section class="card">
+      <h2>Public Files</h2>
+      <p>The following files are published by the nightly scanner/export workflow and are available on the public site.</p>
+
+      <h3>daily_ai_summary.csv</h3>
+      <p>
+        A daily snapshot of high-level system stance, regime classification, and candidate count
+        summaries for each scanner run. Each row represents one completed run. The file accumulates
+        historical entries over time.
+      </p>
+      <p>
+        <strong>Intended use:</strong> monitoring how the system characterised market conditions
+        and candidate counts across dates.<br>
+        <strong>Not for:</strong> inferring trade timing, market forecasts, or capital deployment
+        decisions from any individual row.
+      </p>
+
+      <h3>unified_candidates.csv</h3>
+      <p>
+        A snapshot of the current public observation-eligible candidate assets. Each row is one
+        asset that met the criteria for public monitoring observation at the time of the latest run.
+        Rows carry watch-tier, signal-band, and state labels.
+      </p>
+      <p>
+        <strong>Intended use:</strong> understanding which assets the system is currently observing
+        and at what watch tier.<br>
+        <strong>Not for:</strong> treating any row as a buy/sell recommendation. All rows carry
+        <code>status_note: public_observation_only</code>.
+      </p>
+
+      <h3>signal_outcomes_history.csv</h3>
+      <p>
+        A historical export of signal outcome tracking records. Each row tracks an observed signal
+        event — its labels, band, confidence, and post-signal excursion measurements (MFE/MAE).
+        Open outcomes are incomplete observations; closed outcomes are finalised records.
+      </p>
+      <p>
+        <strong>Intended use:</strong> reviewing historical post-signal movement patterns for
+        research context.<br>
+        <strong>Not for:</strong> inferring win/loss rates, profitability, or proof of trading
+        edge from these records alone.
+      </p>
+
+      <h3>public_manifest.json</h3>
+      <p>
+        A machine-readable inventory of all approved public files. Contains file names, sizes,
+        modification timestamps, checksums where available, and the public disclaimer. Used by the
+        dashboard and homepage to dynamically display file status and metadata.
+      </p>
+      <p>
+        <strong>Intended use:</strong> verifying which public files are available and when they
+        were last exported.<br>
+        <strong>Not for:</strong> deriving signal or trading information.
+      </p>
+
+      <h3>public_system_summary.json</h3>
+      <p>
+        A sanitised row-level summary of the current scanner output. Contains asset-level labels,
+        status classifications, and signal categories but excludes internal scoring details and
+        private methodology internals.
+      </p>
+      <p>
+        <strong>Intended use:</strong> high-level review of what the latest scan produced.<br>
+        <strong>Not for:</strong> reconstructing private scores or internal weighting logic.
+      </p>
+
+      <h3>public_status_summary.json</h3>
+      <p>
+        A small JSON record summarising the overall public launch readiness and export health
+        of the system at the time of the latest run. Contains flags such as
+        <code>launch_ready</code>, <code>governance_locked</code>, and freshness timestamps.
+      </p>
+      <p>
+        <strong>Intended use:</strong> checking whether the public site is considered healthy
+        and exports are current.<br>
+        <strong>Not for:</strong> market direction or investment decisions.
+      </p>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════════════ -->
+    <section class="card">
+      <h2>Field Categories</h2>
+      <p>Fields across the public files fall into the following categories.</p>
+
+      <h3>Asset and Symbol Fields</h3>
+      <table>
+        <thead><tr><th>Field</th><th>Description</th></tr></thead>
+        <tbody>
+          <tr><td><code>symbol</code></td><td>Trading pair identifier (e.g. <code>ETHUSDT</code>). Identifies the asset being observed.</td></tr>
+          <tr><td><code>asset_type</code></td><td>Category of asset (e.g. <code>crypto</code>). Informational — not a recommendation category.</td></tr>
+          <tr><td><code>base</code></td><td>The base currency of the pair (e.g. <code>ETH</code>).</td></tr>
+          <tr><td><code>quote</code></td><td>The quote currency of the pair (e.g. <code>USDT</code>).</td></tr>
+          <tr><td><code>benchmark</code></td><td>The reference currency used for comparison in the system (e.g. <code>USD</code>).</td></tr>
+        </tbody>
+      </table>
+
+      <h3>Timestamp and Freshness Fields</h3>
+      <table>
+        <thead><tr><th>Field</th><th>Description</th></tr></thead>
+        <tbody>
+          <tr><td><code>generated_at</code></td><td>UTC timestamp of when the row or file was generated by the export workflow.</td></tr>
+          <tr><td><code>created_at</code></td><td>UTC timestamp of when a signal outcome record was first created.</td></tr>
+          <tr><td><code>updated_at</code></td><td>UTC timestamp of the most recent update to a signal outcome record.</td></tr>
+        </tbody>
+      </table>
+      <p>Freshness fields reflect the latest export cycle. Public files are updated when the scheduled scanner/export workflow completes successfully.</p>
+
+      <h3>Status and Readiness Fields</h3>
+      <table>
+        <thead><tr><th>Field</th><th>Description</th></tr></thead>
+        <tbody>
+          <tr><td><code>status</code></td><td>Outcome record status. <code>open</code> = observation in progress; <code>closed</code> = finalised record.</td></tr>
+          <tr><td><code>status_note</code></td><td>Public export note. <code>public_observation_only</code> means the row is for observation context only, not a recommendation.</td></tr>
+          <tr><td><code>current_state</code></td><td>Internal state label for an asset at the time of export (e.g. <code>blue_state</code>, <code>gray_state</code>). A monitoring indicator, not a directional signal.</td></tr>
+          <tr><td><code>weekly_state</code></td><td>Weekly-timeframe state label. May be <code>state_unavailable</code> if not enough data exists yet.</td></tr>
+          <tr><td><code>launch_ready</code></td><td>Boolean flag in <code>public_status_summary.json</code>. Indicates the public site export passed its health checks. Operational only.</td></tr>
+        </tbody>
+      </table>
+
+      <h3>Governance and Safety Fields</h3>
+      <table>
+        <thead><tr><th>Field</th><th>Description</th></tr></thead>
+        <tbody>
+          <tr><td><code>cio_stance</code></td><td>System-level stance label (e.g. <code>defensive_monitoring</code>). Describes the overall system posture, not an investment instruction.</td></tr>
+          <tr><td><code>governance_locked</code></td><td>Boolean indicating governance controls are active. When true, no capital deployment is authorised by the system.</td></tr>
+        </tbody>
+      </table>
+
+      <h3>Candidate Monitoring Fields</h3>
+      <table>
+        <thead><tr><th>Field</th><th>Description</th></tr></thead>
+        <tbody>
+          <tr><td><code>public_watch_tier</code></td><td>Monitoring tier label (e.g. <code>watch_tier_c</code>, <code>watch_tier_d</code>). A to D tiers describe relative observation priority within the research system. Not a ranking for investment allocation.</td></tr>
+          <tr><td><code>signal_strength_band</code></td><td>Band label for signal strength level (e.g. <code>lower_signal_strength</code>, <code>medium_signal_strength</code>). Describes internal model confidence bands, not price direction.</td></tr>
+          <tr><td><code>market_cap_band</code></td><td>Approximate market-cap classification band. May be <code>market_cap_unavailable</code> if data was not available at export time.</td></tr>
+          <tr><td><code>observation_bucket</code></td><td>Monitoring classification bucket (e.g. <code>transition_watch</code>, <code>low_priority_watch</code>). Groups observations by priority within the system. Not a recommendation tier.</td></tr>
+          <tr><td><code>priority_watch_candidates</code></td><td>Count of candidates in the highest monitoring attention bucket in that run.</td></tr>
+          <tr><td><code>deploy_candidates</code></td><td>Count of candidates internally flagged for potential deployment review. Does not mean capital was deployed.</td></tr>
+          <tr><td><code>monitor_candidates</code></td><td>Count of candidates in active monitoring state.</td></tr>
+          <tr><td><code>reject_candidates</code></td><td>Count of candidates filtered out in that run.</td></tr>
+        </tbody>
+      </table>
+
+      <h3>Outcome Tracking Fields</h3>
+      <table>
+        <thead><tr><th>Field</th><th>Description</th></tr></thead>
+        <tbody>
+          <tr><td><code>signal_label</code></td><td>Internal label for the signal type recorded (e.g. <code>young_trend_watch</code>). Identifies the observation category. Not a trade action label.</td></tr>
+          <tr><td><code>signal_score_band</code></td><td>Sanitised band representation of the model score at signal time (e.g. <code>lower_model_score_band</code>). Raw numeric scores are not exported.</td></tr>
+          <tr><td><code>return_1d / return_3d / return_7d / return_14d</code></td><td>Observed percentage price change at 1, 3, 7, and 14 days after the signal was recorded. May be empty for open or recently recorded outcomes. These are historical observations, not forward predictions.</td></tr>
+          <tr><td><code>max_favorable_excursion</code></td><td>Maximum observed price gain from the signal point during the tracking window. Abbreviated MFE. A tracking metric, not a performance guarantee.</td></tr>
+          <tr><td><code>max_adverse_excursion</code></td><td>Maximum observed price drawdown from the signal point during the tracking window. Abbreviated MAE. A tracking metric, not a risk guarantee.</td></tr>
+        </tbody>
+      </table>
+
+      <h3>Confidence and Quality Fields</h3>
+      <table>
+        <thead><tr><th>Field</th><th>Description</th></tr></thead>
+        <tbody>
+          <tr><td><code>confidence_band</code></td><td>Internal confidence label (e.g. <code>medium_confidence_band</code>). Describes the model's confidence level in the signal at the time of recording. Not a certainty claim.</td></tr>
+          <tr><td><code>macro_regime</code></td><td>System classification of the macro environment at run time (e.g. <code>crypto_outperformance</code>). A monitoring label, not a forecast.</td></tr>
+          <tr><td><code>market_leadership</code></td><td>System label for which market segment is leading at run time. Informational context for the monitoring record.</td></tr>
+          <tr><td><code>market_transition</code></td><td>System label for the transition phase observed (e.g. <code>expansion</code>). A monitoring classification, not a market prediction.</td></tr>
+          <tr><td><code>market_breadth</code></td><td>System label for breadth conditions (e.g. <code>risk_on</code>). A monitoring classification, not an investment signal.</td></tr>
+        </tbody>
+      </table>
+
+      <h3>Public Export Metadata Fields</h3>
+      <table>
+        <thead><tr><th>Field</th><th>Description</th></tr></thead>
+        <tbody>
+          <tr><td><code>mode</code></td><td>Operating mode of the public system (value: <code>research_monitoring_only</code>). Confirms no live trading is active.</td></tr>
+          <tr><td><code>financial_advice</code></td><td>Boolean. Always <code>false</code>. Confirms the system does not provide financial advice.</td></tr>
+          <tr><td><code>live_trading</code></td><td>Boolean. Always <code>false</code>. Confirms no live trading is enabled.</td></tr>
+          <tr><td><code>available</code></td><td>Boolean in system summary. Indicates whether the export was successfully generated.</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════════════ -->
+    <section class="card">
+      <h2>Status Values Glossary</h2>
+      <p>
+        Status values in the public exports and dashboard are operational, readiness, governance,
+        and data-quality indicators. They describe internal system states — not market direction,
+        buy/sell signals, or investment recommendations.
+      </p>
+
+      <table>
+        <thead><tr><th>Value</th><th>Type</th><th>Meaning</th></tr></thead>
+        <tbody>
+          <tr>
+            <td><code>red</code></td>
+            <td><span class="tag tag-neutral">governance</span></td>
+            <td>System state is in an attention-required condition. Governance controls are active. No capital deployment authorised.</td>
+          </tr>
+          <tr>
+            <td><code>blocked</code></td>
+            <td><span class="tag tag-neutral">permission</span></td>
+            <td>System permission gate is closed. Actions requiring approval are not proceeding. Not a market direction indicator.</td>
+          </tr>
+          <tr>
+            <td><code>not_ready</code></td>
+            <td><span class="tag tag-neutral">readiness</span></td>
+            <td>A component or data source has not met its readiness criteria at this run time. Informational — does not describe an asset's market condition.</td>
+          </tr>
+          <tr>
+            <td><code>restricted</code></td>
+            <td><span class="tag tag-neutral">governance</span></td>
+            <td>Governance is in a restricted mode. Activity is limited to monitoring. Not a market-bearish signal.</td>
+          </tr>
+          <tr>
+            <td><code>poor_quality</code></td>
+            <td><span class="tag tag-neutral">quality</span></td>
+            <td>A quality assessment of decision inputs is below threshold. Used internally to flag that conditions for high-confidence decisions are not met.</td>
+          </tr>
+          <tr>
+            <td><code>very_low_confidence</code></td>
+            <td><span class="tag tag-neutral">confidence</span></td>
+            <td>Internal meta-confidence is very low. The system is in a monitoring-only posture.</td>
+          </tr>
+          <tr>
+            <td><code>extreme</code></td>
+            <td><span class="tag tag-neutral">stress</span></td>
+            <td>Market stress is classified as extreme by the monitoring system. A monitoring label, not a prediction of market direction.</td>
+          </tr>
+          <tr>
+            <td><code>research_monitoring_only</code></td>
+            <td><span class="tag tag-blue">mode</span></td>
+            <td>The public system is operating in research and monitoring mode only. No live trading or capital deployment is active.</td>
+          </tr>
+          <tr>
+            <td><code>launch_ready</code></td>
+            <td><span class="tag tag-blue">export health</span></td>
+            <td>The public export passed its health and freshness checks at the time of the last run. Operational indicator only.</td>
+          </tr>
+          <tr>
+            <td><code>available</code></td>
+            <td><span class="tag tag-blue">export health</span></td>
+            <td>The relevant export file or summary was successfully generated and is present.</td>
+          </tr>
+          <tr>
+            <td><code>public_observation_only</code></td>
+            <td><span class="tag tag-blue">scope</span></td>
+            <td>Rows tagged with this value in <code>status_note</code> are published for observation context only. They are explicitly not recommendations.</td>
+          </tr>
+          <tr>
+            <td><code>open</code></td>
+            <td><span class="tag tag-neutral">outcome</span></td>
+            <td>Outcome tracking record is still in observation. The post-signal window has not closed yet.</td>
+          </tr>
+          <tr>
+            <td><code>true / false</code></td>
+            <td><span class="tag tag-neutral">flag</span></td>
+            <td>Boolean flags. In public exports: <code>financial_advice: false</code>, <code>live_trading: false</code>, <code>governance_locked: true</code>. These confirm system operating constraints.</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════════════ -->
+    <section class="card">
+      <h2>What These Files Are Not</h2>
+      <ul>
+        <li>Not trading recommendations.</li>
+        <li>Not buy/sell signals.</li>
+        <li>Not portfolio allocation guidance.</li>
+        <li>Not proof of future performance.</li>
+        <li>Not a complete internal methodology record — internal scoring details, weighting internals, and private control files are excluded from all public exports.</li>
+        <li>Not a replacement for human review — any real decision requires independent analysis, risk controls, and human approval.</li>
+        <li>Not real-time data — all files reflect the latest completed export cycle, not a live feed.</li>
+      </ul>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════════════ -->
+    <section class="card">
+      <h2>Freshness and Update Cadence</h2>
+      <p>
+        Public files reflect the latest export available to the static site. They are updated when
+        the scheduled scanner/export workflow completes successfully. No guarantee of continuous,
+        real-time, or guaranteed updates is made.
+      </p>
+      <p>
+        The <code>generated_at</code> field in each CSV row, and the <code>latest_public_export</code>
+        field in <code>public_status_summary.json</code>, indicate when the data was last refreshed.
+      </p>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════════════ -->
+    <section class="card disclaimer" style="border-color: rgba(252,165,165,0.2);">
+      <h2 style="color: var(--muted);">Disclaimer</h2>
+      <p>
+        This data dictionary and all referenced public files are provided for research and monitoring
+        purposes only. They are not financial advice, investment advice, or a recommendation to buy,
+        sell, or hold any asset. Data may be incomplete, delayed, or incorrect. Any real-world
+        decision requires independent review, risk controls, and human approval.
+      </p>
+    </section>
+
+  </main>
+</body>
+</html>

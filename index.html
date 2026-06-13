@@ -371,15 +371,15 @@
       <div class="eyebrow">Research & Monitoring Dashboard</div>
       <h1>Adaptive Trend Intelligence</h1>
       <p class="subtitle">
-        Adaptive Trend Intelligence is a rules-based market monitoring system that tracks
-        technical trend changes and candidate observations across selected assets. It operates
-        in research and monitoring mode only: no capital is deployed, no financial advice is
-        provided, and no trade execution is enabled.
+        CTO Scanner is a research-monitoring dashboard for observing market signals, freshness status,
+        and public export health. It tracks technical trend changes and candidate observations across
+        selected assets in research and monitoring mode only: no capital is deployed, no financial
+        advice is provided, and no trade execution is enabled.
       </p>
       <p class="subtitle">
-        A public-facing market monitoring layer built from sanitized system outputs.
-        The dashboard presents candidate observations, signal outcome tracking, and high-level
-        system history for research and decision-support purposes only.
+        This dashboard is for research and monitoring only. It is not financial advice, does not
+        recommend trades, and does not execute transactions. Data is refreshed by the scheduled
+        scanner/export workflow when the nightly run completes successfully.
       </p>
       <div id="manifest-status" class="badge warn">Loading public manifest...</div>
     </section>
@@ -387,17 +387,21 @@
     <section class="grid">
       <div class="metric">
         <div class="metric-label">Operating Mode</div>
-        <div id="mode" class="metric-value">research_monitoring_only</div>
+        <div id="mode" class="metric-value">Research &amp; Monitoring Only</div>
       </div>
       <div class="metric">
         <div class="metric-label">Financial Advice</div>
-        <div id="financial-advice" class="metric-value">False</div>
+        <div id="financial-advice" class="metric-value">No</div>
       </div>
       <div class="metric">
         <div class="metric-label">Live Trading</div>
-        <div id="live-trading" class="metric-value">False</div>
+        <div id="live-trading" class="metric-value">No</div>
       </div>
     </section>
+    <p class="muted" style="font-size: 13px; text-align: center; margin: -10px 0 18px;">
+      Public metrics summarize the latest exported research dataset. They should be read as
+      operational and monitoring indicators, not as investment signals.
+    </p>
 
     <section class="card">
       <h2>Public Dashboard & Data Layer</h2>
@@ -416,6 +420,18 @@
           <div class="link-title">Public Manifest</div>
           <div class="link-desc">Machine-readable list of approved public files and metadata.</div>
           <div class="file-meta">Fallback link</div>
+        </a>
+
+        <a class="link-card" href="data_dictionary.html">
+          <div class="link-title">Data Dictionary</div>
+          <div class="link-desc">Plain-language explanations of public CSV fields, status values, and export scope.</div>
+          <div class="file-meta">Static reference</div>
+        </a>
+
+        <a class="link-card" href="limitations.html">
+          <div class="link-title">Limitations &amp; Disclaimer</div>
+          <div class="link-desc">Research-only scope, non-advice boundaries, data limitations, and full disclaimer.</div>
+          <div class="file-meta">Static reference</div>
         </a>
       </div>
     </section>
@@ -506,8 +522,9 @@
       </div>
 
       <p class="table-note">
-        This section summarizes the latest public daily system record.
-        It is intended for monitoring context only.
+        This section summarizes the latest public daily system record and is intended for monitoring
+        context only. Values such as <em>red</em>, <em>blocked</em>, or <em>not_ready</em> reflect
+        internal governance and readiness states, not market conditions or investment recommendations.
       </p>
     </section>
 
@@ -560,7 +577,7 @@
     <section class="card warning">
       <h2>Disclaimer</h2>
       <p id="disclaimer">
-        This dashboard is generated for research, monitoring, and decision-support purposes only.
+        This dashboard is generated for research and monitoring purposes only.
         It is not financial advice, investment advice, or a recommendation to buy or sell any asset.
         Signals and observations may be incomplete, delayed, or incorrect. Any live decision requires
         independent review, risk controls, and human approval.
@@ -643,6 +660,40 @@
         .replace(/\b\w/g, char => char.toUpperCase());
     }
 
+    function appendRefCards(grid) {
+      const existingHrefs = new Set(
+        Array.from(grid.querySelectorAll("a.link-card")).map(a => a.getAttribute("href"))
+      );
+
+      const refCards = [
+        {
+          href: "data_dictionary.html",
+          title: "Data Dictionary",
+          desc: "Plain-language explanations of public CSV fields, status values, and export scope.",
+          meta: "Static reference"
+        },
+        {
+          href: "limitations.html",
+          title: "Limitations &amp; Disclaimer",
+          desc: "Research-only scope, non-advice boundaries, data limitations, and full disclaimer.",
+          meta: "Static reference"
+        }
+      ];
+
+      refCards.forEach(card => {
+        if (existingHrefs.has(card.href)) return;
+        const link = document.createElement("a");
+        link.className = "link-card";
+        link.href = card.href;
+        link.innerHTML = `
+          <div class="link-title">${card.title}</div>
+          <div class="link-desc">${card.desc}</div>
+          <div class="file-meta">${card.meta}</div>
+        `;
+        grid.appendChild(link);
+      });
+    }
+
     function renderFiles(files) {
       const grid = document.getElementById("file-grid");
       grid.innerHTML = "";
@@ -667,6 +718,8 @@
 
         grid.appendChild(link);
       });
+
+      appendRefCards(grid);
     }
 
     function parseCSV(text) {
@@ -1023,9 +1076,10 @@
         status.textContent = "Public manifest loaded";
         status.className = "badge ok";
 
-        document.getElementById("mode").textContent = manifest.mode || "research_monitoring_only";
-        document.getElementById("financial-advice").textContent = String(manifest.financial_advice);
-        document.getElementById("live-trading").textContent = String(manifest.live_trading);
+        document.getElementById("mode").textContent =
+          manifest.mode === "research_monitoring_only" ? "Research & Monitoring Only" : (manifest.mode || "Research & Monitoring Only");
+        document.getElementById("financial-advice").textContent = manifest.financial_advice ? "Yes" : "No";
+        document.getElementById("live-trading").textContent = manifest.live_trading ? "Yes" : "No";
         document.getElementById("generated-at").textContent =
           `Manifest generated at: ${manifest.generated_at_utc || "unknown"}`;
 
@@ -1086,7 +1140,8 @@
 <section class="section" id="public-status-section">
   <h2>Public Status & Data Freshness</h2>
   <p class="muted">
-    Live public status summary generated from approved public files only.
+    Public status summary generated from approved public files only. Data is refreshed by the
+    scheduled scanner/export workflow when the nightly run completes successfully.
   </p>
 
   <div class="grid" id="public-status-grid">

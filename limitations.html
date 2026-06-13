@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Limitations and Disclaimer — CTO Scanner</title>
+  <style>
+    :root {
+      --bg: #020617;
+      --panel: #0f172a;
+      --border: #1f2937;
+      --text: #e5e7eb;
+      --muted: #94a3b8;
+      --blue: #93c5fd;
+      --danger: #fca5a5;
+      --warning: #fde68a;
+      --success: #86efac;
+      --neutral: #cbd5e1;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background:
+        radial-gradient(circle at top left, rgba(37, 99, 235, 0.18), transparent 28%),
+        radial-gradient(circle at top right, rgba(14, 165, 233, 0.12), transparent 30%),
+        var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 880px;
+      margin: 0 auto;
+      padding: 28px 20px 60px;
+    }
+
+    .nav-row {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-bottom: 22px;
+    }
+
+    .nav-back {
+      display: inline-block;
+      color: var(--muted);
+      font-size: 13px;
+      text-decoration: none;
+      padding: 6px 12px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: rgba(17, 24, 39, 0.6);
+    }
+
+    .nav-back:hover { color: var(--blue); border-color: var(--blue); }
+
+    .hero {
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      background: rgba(15, 23, 42, 0.92);
+      padding: 28px;
+      margin-bottom: 24px;
+    }
+
+    .eyebrow {
+      color: var(--blue);
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      font-size: 12px;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+
+    h1 { margin: 0; font-size: 30px; line-height: 1.2; }
+
+    .subtitle {
+      color: var(--muted);
+      margin: 12px 0 0;
+      max-width: 700px;
+      font-size: 15px;
+    }
+
+    .card {
+      background: rgba(17, 24, 39, 0.92);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 22px 24px;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      margin: 0 0 14px;
+      font-size: 19px;
+      color: var(--blue);
+    }
+
+    p {
+      margin: 0 0 12px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    p:last-child { margin-bottom: 0; }
+
+    p strong { color: var(--text); }
+
+    ul {
+      color: var(--muted);
+      font-size: 14px;
+      padding-left: 22px;
+      margin: 6px 0 0;
+      line-height: 2;
+    }
+
+    ul li { margin-bottom: 2px; }
+
+    .notice-box {
+      border: 1px solid rgba(252, 165, 165, 0.35);
+      background: rgba(127, 29, 29, 0.14);
+      color: #fecaca;
+      border-radius: 14px;
+      padding: 16px 20px;
+      margin-bottom: 22px;
+      font-size: 14px;
+      line-height: 1.7;
+    }
+
+    .notice-box strong { color: #fca5a5; }
+
+    @media (max-width: 680px) {
+      h1 { font-size: 22px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+
+    <nav class="nav-row">
+      <a href="index.html" class="nav-back">← Overview</a>
+      <a href="dashboard.html" class="nav-back">Dashboard</a>
+      <a href="data_dictionary.html" class="nav-back">Data Dictionary</a>
+    </nav>
+
+    <section class="hero">
+      <div class="eyebrow">CTO Scanner · Public Reference</div>
+      <h1>Limitations and Disclaimer</h1>
+      <p class="subtitle">
+        CTO Scanner is for research and monitoring only. It is not financial advice, does not
+        recommend trades, and does not execute transactions.
+      </p>
+    </section>
+
+    <div class="notice-box">
+      <strong>Important:</strong> All public outputs from CTO Scanner — including the dashboard,
+      CSV files, JSON exports, and this site — are research and monitoring materials only.
+      They do not constitute financial advice, investment advice, a recommendation to buy or sell
+      any asset, or a guarantee of any outcome.
+    </div>
+
+    <!-- ═══════════════════════════════════════════════════════════════ -->
+    <section class="card">
+      <h2>What This System Is</h2>
+      <ul>
+        <li>A public research-monitoring dashboard that displays sanitised export outputs.</li>
+        <li>A static view of the latest scanner-produced data, reflecting export state at the time of the last successful nightly run.</li>
+        <li>A way to observe export freshness, candidate monitoring rows, historical signal outcome records, and system governance state.</li>
+        <li>A project that is in research and monitoring mode only — no capital is deployed, no trades are executed, and no live financial operations are active.</li>
+        <li>A project that requires careful human interpretation and independent review before any real-world decision is considered.</li>
+      </ul>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════════════ -->
+    <section class="card">
+      <h2>What This System Is Not</h2>
+      <ul>
+        <li><strong>Not financial advice.</strong> Nothing on this site constitutes financial advice under any jurisdiction.</li>
+        <li><strong>Not trading advice.</strong> No output on this site recommends entering or exiting a trading position.</li>
+        <li><strong>Not buy/sell signals.</strong> Candidate rows, signal bands, and watch tiers are monitoring observations, not actionable trade signals.</li>
+        <li><strong>Not portfolio allocation guidance.</strong> Public data should not be used to allocate capital without independent professional assessment.</li>
+        <li><strong>Not proof of future performance.</strong> Historical outcome records describe post-signal observations only. Past observed excursions do not predict future results.</li>
+        <li><strong>Not an automated trading system.</strong> No automation connected to this public dashboard executes trades or deploys capital.</li>
+        <li><strong>Not a replacement for professional judgment or human review.</strong> Any real-world decision based on any data on this site requires independent analysis, risk controls, and human approval.</li>
+      </ul>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════════════ -->
+    <section class="card">
+      <h2>Public Data Limitations</h2>
+      <ul>
+        <li><strong>Public files are sanitised exports.</strong> Internal scoring details, private weighting logic, and proprietary methodology internals are intentionally excluded from all public files.</li>
+        <li><strong>Public files may omit internal review context.</strong> Human review notes, internal escalation flags, and unpublished corrections are not included in public exports.</li>
+        <li><strong>Public rows include operational flags.</strong> Fields such as governance state, readiness, quality, and permission flags describe internal system states, not market conditions.</li>
+        <li><strong>Public data may be incomplete, delayed, or stale.</strong> If the scheduled export workflow has not completed successfully, the public site may reflect an older export. Timestamps in each file indicate when data was last generated.</li>
+        <li><strong>Static pages reflect the latest available export, not live market state.</strong> The dashboard and CSV files are generated snapshots, not live feeds.</li>
+        <li><strong>Open outcome records are incomplete.</strong> Rows with <code style="font-size: 12px; background: rgba(15,23,42,0.9); border: 1px solid #1f2937; border-radius: 4px; padding: 1px 5px; color: #93c5fd;">status: open</code> are observations still in progress. Their return and excursion values may be partial or absent.</li>
+      </ul>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════════════ -->
+    <section class="card">
+      <h2>Status and Label Interpretation</h2>
+      <p>
+        Labels displayed on the dashboard and in public exports describe internal system states.
+        They are not market forecasts, buy/sell recommendations, or indicators of asset direction.
+      </p>
+      <p>
+        Labels such as <strong>red</strong>, <strong>blocked</strong>, <strong>not_ready</strong>,
+        <strong>restricted</strong>, <strong>poor_quality</strong>, <strong>very_low_confidence</strong>,
+        and <strong>extreme</strong> are operational, readiness, governance, quality, or confidence
+        states. They indicate the current posture of internal system controls — not the direction
+        of any asset's price.
+      </p>
+      <p>
+        Labels such as <strong>launch_ready</strong>, <strong>available</strong>, and
+        <strong>research_monitoring_only</strong> are export health and operating-mode indicators.
+        They confirm that the public export completed successfully and that no live trading is active.
+      </p>
+      <p>
+        For a full glossary of status values, see the <a href="data_dictionary.html" style="color: var(--blue);">Data Dictionary</a>.
+      </p>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════════════ -->
+    <section class="card">
+      <h2>Freshness and Update Cadence</h2>
+      <p>
+        Public files reflect the latest export available to the static site. They are updated when
+        the scheduled scanner/export workflow completes successfully.
+      </p>
+      <p>
+        The public site should not be treated as live, real-time, continuous, or guaranteed. Exports
+        may be delayed if the scheduled workflow does not complete, if upstream data is unavailable,
+        or if governance controls prevent a run.
+      </p>
+      <p>
+        The <code style="font-size: 12px; background: rgba(15,23,42,0.9); border: 1px solid #1f2937; border-radius: 4px; padding: 1px 5px; color: #93c5fd;">generated_at</code> field in each CSV and the freshness timestamps in
+        <code style="font-size: 12px; background: rgba(15,23,42,0.9); border: 1px solid #1f2937; border-radius: 4px; padding: 1px 5px; color: #93c5fd;">public_status_summary.json</code> indicate when data was last refreshed.
+      </p>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════════════ -->
+    <section class="card">
+      <h2>Human Review Requirement</h2>
+      <p>
+        All public outputs require human interpretation. Public data should be treated as
+        informational monitoring output only.
+      </p>
+      <p>
+        No action — financial, operational, or otherwise — should be taken based solely on
+        information presented on this site. Any consideration of real-world use requires independent
+        professional assessment, suitable risk controls, and explicit human approval.
+      </p>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════════════ -->
+    <section class="card" style="border-color: rgba(252,165,165,0.2);">
+      <h2 style="color: var(--muted);">Full Disclaimer</h2>
+      <p>
+        CTO Scanner and all associated public outputs — including the dashboard, CSV files, JSON
+        exports, the data dictionary, and this limitations page — are provided for research and
+        monitoring purposes only.
+      </p>
+      <p>
+        They are not financial advice, investment advice, or a recommendation to buy, sell, or hold
+        any asset or financial instrument. Nothing on this site should be construed as a solicitation
+        or offer to engage in any financial transaction.
+      </p>
+      <p>
+        Data may be incomplete, delayed, incorrect, or subject to revision. Past observed signal
+        movements do not guarantee future results. No representation is made about the accuracy,
+        completeness, or fitness for purpose of any data presented.
+      </p>
+      <p>
+        Any real-world decision requires independent analysis, professional advice where appropriate,
+        suitable risk management, and human approval. The authors and operators of CTO Scanner accept
+        no responsibility for any action taken in reliance on this public information.
+      </p>
+    </section>
+
+  </main>
+</body>
+</html>
