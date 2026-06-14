@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-13T03:35:59.412802+00:00",
+  "generated_at": "2026-06-14T03:36:00.320390+00:00",
   "scope": "sanitized_public_system_summary",
   "available": true,
   "rows": 1021,
@@ -7,15 +7,16 @@
     "unknown": 1021
   },
   "colors": {
+    "Gold": 101,
     "Blue": 844,
-    "Gold": 102,
-    "unknown": 26,
-    "Gray": 49
+    "Gray": 50,
+    "unknown": 26
   },
   "signals": {
-    "Confirmed Gold \u2192 Gray \u2192 Blue \u2192 Blue": 2,
-    "unknown": 1014,
-    "No confirmed trend flip": 5
+    "Confirmed Blue \u2192 Gray \u2192 Gold \u2192 Gold": 1,
+    "Confirmed Gold \u2192 Gray \u2192 Blue \u2192 Blue": 1,
+    "unknown": 1016,
+    "No confirmed trend flip": 3
   },
   "decisions": {
     "unknown": 1021
@@ -23,12 +24,12 @@
   "score": {
     "count": 1021,
     "min": 0.0,
-    "max": 80.0,
+    "max": 77.0,
     "average": 0.13
   },
   "top_symbols": [
     [
-      "ARUSDT",
+      "CAKEBTC",
       1
     ],
     [
@@ -40,11 +41,11 @@
       1
     ],
     [
-      "SOLBTC",
+      "ETHUSDT",
       1
     ],
     [
-      "ETHUSDT",
+      "ETHBTC",
       1
     ],
     [
@@ -60,15 +61,7 @@
       1
     ],
     [
-      "ETHBTC",
-      1
-    ],
-    [
-      "ZECUSDT",
-      1
-    ],
-    [
-      "DOGEBTC",
+      "TAOBTC",
       1
     ],
     [
@@ -76,11 +69,19 @@
       1
     ],
     [
-      "XRPBTC",
+      "ZECBTC",
       1
     ],
     [
-      "BNBUSDT",
+      "SOLBTC",
+      1
+    ],
+    [
+      "BABYUSDT",
+      1
+    ],
+    [
+      "XRPBTC",
       1
     ],
     [
@@ -88,11 +89,15 @@
       1
     ],
     [
-      "ZECBTC",
+      "TAOUSDT",
       1
     ],
     [
-      "DOGEUSDT",
+      "ZECUSDT",
+      1
+    ],
+    [
+      "MEGAUSDT",
       1
     ],
     [
@@ -100,11 +105,7 @@
       1
     ],
     [
-      "XPLUSDT",
-      1
-    ],
-    [
-      "NEARBTC",
+      "NEARUSDT",
       1
     ]
   ],
