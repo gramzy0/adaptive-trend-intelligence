@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-14T03:30:45.563187+00:00",
+  "generated_at": "2026-06-15T03:30:42.297520+00:00",
   "purpose": "Sanitized public technical summary for public research and monitoring layer.",
   "mode": "research_monitoring_only",
   "financial_advice": false,
@@ -15,21 +15,21 @@
     },
     "daily_ai_summary.csv": {
       "exists": true,
-      "total_rows_including_header": 200,
-      "data_rows": 199,
+      "total_rows_including_header": 201,
+      "data_rows": 200,
       "role": "public_daily_summary_history"
     },
     "signal_outcomes_history.csv": {
       "exists": true,
-      "total_rows_including_header": 233,
-      "data_rows": 232,
+      "total_rows_including_header": 240,
+      "data_rows": 239,
       "role": "public_signal_outcome_history"
     }
   },
   "json_files": {
     "public_manifest.json": {
       "exists": true,
-      "size_bytes": 2956,
+      "size_bytes": 2955,
       "valid_json": true,
       "role": "public_manifest"
     },
@@ -41,7 +41,7 @@
     },
     "public_system_summary.json": {
       "exists": true,
-      "size_bytes": 1481,
+      "size_bytes": 1544,
       "valid_json": true,
       "role": "sanitized_public_system_summary"
     }

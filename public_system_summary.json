@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-14T03:36:00.320390+00:00",
+  "generated_at": "2026-06-15T03:36:00.034870+00:00",
   "scope": "sanitized_public_system_summary",
   "available": true,
   "rows": 1021,
@@ -7,15 +7,14 @@
     "unknown": 1021
   },
   "colors": {
-    "Gold": 101,
-    "Blue": 844,
-    "Gray": 50,
-    "unknown": 26
+    "Blue": 845,
+    "unknown": 26,
+    "Gold": 103,
+    "Gray": 47
   },
   "signals": {
-    "Confirmed Blue \u2192 Gray \u2192 Gold \u2192 Gold": 1,
     "Confirmed Gold \u2192 Gray \u2192 Blue \u2192 Blue": 1,
-    "unknown": 1016,
+    "unknown": 1017,
     "No confirmed trend flip": 3
   },
   "decisions": {
@@ -24,20 +23,16 @@
   "score": {
     "count": 1021,
     "min": 0.0,
-    "max": 77.0,
-    "average": 0.13
+    "max": 52.0,
+    "average": 0.05
   },
   "top_symbols": [
-    [
-      "CAKEBTC",
-      1
-    ],
     [
       "GBPUSDT",
       1
     ],
     [
-      "BTCUSDT",
+      "OPGUSDT",
       1
     ],
     [
@@ -45,47 +40,7 @@
       1
     ],
     [
-      "ETHBTC",
-      1
-    ],
-    [
-      "WLDBTC",
-      1
-    ],
-    [
-      "WLDUSDT",
-      1
-    ],
-    [
-      "SOLUSDT",
-      1
-    ],
-    [
-      "TAOBTC",
-      1
-    ],
-    [
-      "XRPUSDT",
-      1
-    ],
-    [
       "ZECBTC",
-      1
-    ],
-    [
-      "SOLBTC",
-      1
-    ],
-    [
-      "BABYUSDT",
-      1
-    ],
-    [
-      "XRPBTC",
-      1
-    ],
-    [
-      "TRUMPUSDT",
       1
     ],
     [
@@ -93,11 +48,47 @@
       1
     ],
     [
+      "BTCUSDT",
+      1
+    ],
+    [
       "ZECUSDT",
       1
     ],
     [
-      "MEGAUSDT",
+      "WLDUSDT",
+      1
+    ],
+    [
+      "XRPBTC",
+      1
+    ],
+    [
+      "ETHBTC",
+      1
+    ],
+    [
+      "SOLUSDT",
+      1
+    ],
+    [
+      "XRPUSDT",
+      1
+    ],
+    [
+      "BNBUSDT",
+      1
+    ],
+    [
+      "SOLBTC",
+      1
+    ],
+    [
+      "WLDBTC",
+      1
+    ],
+    [
+      "BNBBTC",
       1
     ],
     [
@@ -105,7 +96,15 @@
       1
     ],
     [
-      "NEARUSDT",
+      "TAOBTC",
+      1
+    ],
+    [
+      "NEARBTC",
+      1
+    ],
+    [
+      "MEGAUSDT",
       1
     ]
   ],
