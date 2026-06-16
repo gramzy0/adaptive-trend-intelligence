@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T03:36:00.034870+00:00",
+  "generated_at": "2026-06-16T03:35:59.472275+00:00",
   "scope": "sanitized_public_system_summary",
   "available": true,
   "rows": 1021,
@@ -8,14 +8,15 @@
   },
   "colors": {
     "Blue": 845,
-    "unknown": 26,
     "Gold": 103,
+    "unknown": 26,
     "Gray": 47
   },
   "signals": {
-    "Confirmed Gold \u2192 Gray \u2192 Blue \u2192 Blue": 1,
-    "unknown": 1017,
-    "No confirmed trend flip": 3
+    "Confirmed Gold \u2192 Gray \u2192 Blue \u2192 Blue": 2,
+    "Confirmed Blue \u2192 Gray \u2192 Gold \u2192 Gold": 1,
+    "unknown": 1012,
+    "No confirmed trend flip": 6
   },
   "decisions": {
     "unknown": 1021
@@ -23,16 +24,20 @@
   "score": {
     "count": 1021,
     "min": 0.0,
-    "max": 52.0,
-    "average": 0.05
+    "max": 77.0,
+    "average": 0.2
   },
   "top_symbols": [
     [
-      "GBPUSDT",
+      "NILUSDT",
       1
     ],
     [
-      "OPGUSDT",
+      "KGSTUSDT",
+      1
+    ],
+    [
+      "GBPUSDT",
       1
     ],
     [
@@ -40,19 +45,7 @@
       1
     ],
     [
-      "ZECBTC",
-      1
-    ],
-    [
-      "TAOUSDT",
-      1
-    ],
-    [
       "BTCUSDT",
-      1
-    ],
-    [
-      "ZECUSDT",
       1
     ],
     [
@@ -60,7 +53,7 @@
       1
     ],
     [
-      "XRPBTC",
+      "SOLBTC",
       1
     ],
     [
@@ -68,11 +61,19 @@
       1
     ],
     [
-      "SOLUSDT",
+      "WLDBTC",
       1
     ],
     [
-      "XRPUSDT",
+      "ZECUSDT",
+      1
+    ],
+    [
+      "XLMBTC",
+      1
+    ],
+    [
+      "XLMUSDT",
       1
     ],
     [
@@ -80,11 +81,15 @@
       1
     ],
     [
-      "SOLBTC",
+      "ZECBTC",
       1
     ],
     [
-      "WLDBTC",
+      "XRPUSDT",
+      1
+    ],
+    [
+      "XRPBTC",
       1
     ],
     [
@@ -92,19 +97,15 @@
       1
     ],
     [
-      "NIGHTUSDT",
+      "SOLUSDT",
       1
     ],
     [
-      "TAOBTC",
+      "OPGUSDT",
       1
     ],
     [
-      "NEARBTC",
-      1
-    ],
-    [
-      "MEGAUSDT",
+      "SPCXBUSDT",
       1
     ]
   ],
