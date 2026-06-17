@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T03:35:59.472275+00:00",
+  "generated_at": "2026-06-17T03:35:57.736926+00:00",
   "scope": "sanitized_public_system_summary",
   "available": true,
   "rows": 1021,
@@ -7,16 +7,16 @@
     "unknown": 1021
   },
   "colors": {
-    "Blue": 845,
+    "Blue": 842,
     "Gold": 103,
     "unknown": 26,
-    "Gray": 47
+    "Gray": 50
   },
   "signals": {
-    "Confirmed Gold \u2192 Gray \u2192 Blue \u2192 Blue": 2,
+    "Confirmed Gold \u2192 Gray \u2192 Blue \u2192 Blue": 3,
     "Confirmed Blue \u2192 Gray \u2192 Gold \u2192 Gold": 1,
-    "unknown": 1012,
-    "No confirmed trend flip": 6
+    "unknown": 1014,
+    "No confirmed trend flip": 3
   },
   "decisions": {
     "unknown": 1021
@@ -25,15 +25,19 @@
     "count": 1021,
     "min": 0.0,
     "max": 77.0,
-    "average": 0.2
+    "average": 0.26
   },
   "top_symbols": [
     [
-      "NILUSDT",
+      "SAHARAUSDT",
       1
     ],
     [
-      "KGSTUSDT",
+      "BANKUSDT",
+      1
+    ],
+    [
+      "ORCAUSDT",
       1
     ],
     [
@@ -41,19 +45,7 @@
       1
     ],
     [
-      "ETHUSDT",
-      1
-    ],
-    [
-      "BTCUSDT",
-      1
-    ],
-    [
-      "WLDUSDT",
-      1
-    ],
-    [
-      "SOLBTC",
+      "SOLUSDT",
       1
     ],
     [
@@ -61,7 +53,27 @@
       1
     ],
     [
+      "BNBUSDT",
+      1
+    ],
+    [
       "WLDBTC",
+      1
+    ],
+    [
+      "WLDUSDT",
+      1
+    ],
+    [
+      "BTCUSDT",
+      1
+    ],
+    [
+      "NEARUSDT",
+      1
+    ],
+    [
+      "SOLBTC",
       1
     ],
     [
@@ -69,27 +81,11 @@
       1
     ],
     [
-      "XLMBTC",
-      1
-    ],
-    [
-      "XLMUSDT",
-      1
-    ],
-    [
-      "BNBUSDT",
-      1
-    ],
-    [
-      "ZECBTC",
-      1
-    ],
-    [
       "XRPUSDT",
       1
     ],
     [
-      "XRPBTC",
+      "BABYUSDT",
       1
     ],
     [
@@ -97,11 +93,15 @@
       1
     ],
     [
-      "SOLUSDT",
+      "ZECBTC",
       1
     ],
     [
-      "OPGUSDT",
+      "ETHUSDT",
+      1
+    ],
+    [
+      "XRPBTC",
       1
     ],
     [
