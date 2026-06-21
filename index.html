@@ -377,9 +377,10 @@
         advice is provided, and no trade execution is enabled.
       </p>
       <p class="subtitle">
-        This dashboard is for research and monitoring only. It is not financial advice, does not
-        recommend trades, and does not execute transactions. Data is refreshed by the scheduled
-        scanner/export workflow when the nightly run completes successfully.
+        This dashboard is for informational monitoring only. It is not financial advice, not
+        investment advice, not a recommendation, and not a trading signal. Assets are not ranked
+        and not scored for public action. Data is refreshed by the scheduled scanner/export workflow
+        when the nightly run completes successfully.
       </p>
       <div id="manifest-status" class="badge warn">Loading public manifest...</div>
     </section>
@@ -524,7 +525,8 @@
       <p class="table-note">
         This section summarizes the latest public daily system record and is intended for monitoring
         context only. Values such as <em>red</em>, <em>blocked</em>, or <em>not_ready</em> reflect
-        internal governance and readiness states, not market conditions or investment recommendations.
+        internal governance and readiness states, not market conditions, rankings, scores for public
+        action, or investment recommendations.
       </p>
     </section>
 
@@ -548,9 +550,11 @@
         </div>
 
         <div class="metric">
-          <h3>No Execution</h3>
+          <h3>No Public Exposure Expansion</h3>
           <p class="muted">
-            The public dashboard does not execute trades and does not provide capital deployment instructions.
+            The public crypto coverage state remains <strong>no_public_exposure</strong>. Internal
+            research coverage is not a public asset list, source provenance is redacted, and no symbols
+            are shown through disabled exposure modes.
           </p>
         </div>
       </div>
@@ -570,24 +574,27 @@
         <li><strong>Governance state:</strong> Whether the system's safety controls allow deployment decisions. Restricted means no deployment is permitted.</li>
       </ul>
       <p class="muted" style="font-size: 13px; margin-top: 10px;">
-        All observations are for research and monitoring purposes only. Nothing here constitutes financial advice.
+        All observations are for informational monitoring only. Nothing here is financial advice,
+        a recommendation, a trading signal, a ranking, or a score for public action.
       </p>
     </section>
 
     <section class="card warning">
       <h2>Disclaimer</h2>
       <p id="disclaimer">
-        This dashboard is generated for research and monitoring purposes only.
-        It is not financial advice, investment advice, or a recommendation to buy or sell any asset.
-        Signals and observations may be incomplete, delayed, or incorrect. Any live decision requires
-        independent review, risk controls, and human approval.
+        This dashboard is for informational monitoring only.
+        It is not financial advice, not investment advice, not a recommendation, and not a trading signal.
+        Assets are not ranked and not scored for public action.
+        The public monitoring view may be incomplete, delayed, or subject to revision.
+        No buy, sell, hold, allocation, entry, exit, stop-loss, take-profit, or execution guidance is provided.
       </p>
     </section>
 
     <section class="footer">
       <p>
         Adaptive Trend Intelligence publishes sanitized research-monitoring outputs only.
-        The public layer is designed for transparency, not financial advice or trade execution.
+        The public layer is designed for transparency and informational monitoring only, not financial
+        advice, recommendations, trading signals, rankings, scores for public action, or trade execution.
       </p>
     </section>
   
@@ -627,7 +634,7 @@
       public_manifest: {
         file: "public_manifest.json",
         type: "json",
-        purpose: "Public manifest and approved file metadata"
+        purpose: "Public manifest, approved file metadata, and no-exposure disclaimer state"
       },
       unified_candidates: {
         file: "unified_candidates.csv",

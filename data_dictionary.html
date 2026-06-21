@@ -194,15 +194,17 @@
         what its fields mean, and what the data should and should not be used for.
       </p>
       <p class="subtitle" style="margin-top: 10px;">
-        This data dictionary is for research and monitoring context only. It is not financial advice,
-        does not recommend trades, and does not execute transactions.
+        This data dictionary is for informational monitoring only. It is not financial advice,
+        not investment advice, not a recommendation, and not a trading signal. Fields are not ranked
+        and not scored for public action.
       </p>
     </section>
 
     <div class="warning-box">
       <strong>Research and Monitoring Only.</strong> All public files described here are sanitised
-      research-monitoring exports. They are not trading recommendations, buy/sell signals, portfolio
-      allocation guidance, or proof of future performance. They do not replace human review.
+      research-monitoring exports for informational monitoring only. They are not financial advice,
+      not investment advice, not recommendations, not trading signals, not ranked, not scored for
+      public action, and not execution guidance. They do not replace human review.
     </div>
 
     <!-- ═══════════════════════════════════════════════════════════════ -->
@@ -265,7 +267,8 @@
       <p>
         A sanitised row-level summary of the current scanner output. Contains asset-level labels,
         status classifications, and signal categories but excludes internal scoring details and
-        private methodology internals.
+        private methodology internals. Current exposure metadata confirms that candidate symbols are
+        not public, pair symbols are not public, and source provenance is redacted.
       </p>
       <p>
         <strong>Intended use:</strong> high-level review of what the latest scan produced.<br>
@@ -294,10 +297,8 @@
       <table>
         <thead><tr><th>Field</th><th>Description</th></tr></thead>
         <tbody>
-          <tr><td><code>symbol</code></td><td>Trading pair identifier (e.g. <code>ETHUSDT</code>). Identifies the asset being observed.</td></tr>
           <tr><td><code>asset_type</code></td><td>Category of asset (e.g. <code>crypto</code>). Informational — not a recommendation category.</td></tr>
-          <tr><td><code>base</code></td><td>The base currency of the pair (e.g. <code>ETH</code>).</td></tr>
-          <tr><td><code>quote</code></td><td>The quote currency of the pair (e.g. <code>USDT</code>).</td></tr>
+          <tr><td><code>instrument_identifier</code></td><td>Withheld while public symbol exposure is disabled.</td></tr>
           <tr><td><code>benchmark</code></td><td>The reference currency used for comparison in the system (e.g. <code>USD</code>).</td></tr>
         </tbody>
       </table>
@@ -378,11 +379,21 @@
         <thead><tr><th>Field</th><th>Description</th></tr></thead>
         <tbody>
           <tr><td><code>mode</code></td><td>Operating mode of the public system (value: <code>research_monitoring_only</code>). Confirms no live trading is active.</td></tr>
+          <tr><td><code>exposure_mode</code></td><td>Public-safe crypto coverage exposure state. Current value: <code>no_public_exposure</code>.</td></tr>
+          <tr><td><code>public_candidate_symbols_enabled</code></td><td>Boolean. Current value: <code>false</code>. Confirms internal candidate symbols are not shown in public output.</td></tr>
+          <tr><td><code>candidate_symbol_publication_allowed</code></td><td>Boolean. Current value: <code>false</code>. Confirms symbol publication has not been approved.</td></tr>
+          <tr><td><code>public_pair_symbol_count</code></td><td>Count of public pair symbols intentionally exposed through the crypto coverage pathway. Current value: <code>0</code>.</td></tr>
+          <tr><td><code>source_provenance_public</code></td><td>Public provenance state. Current value: <code>redacted</code>; internal source material and local paths are not public.</td></tr>
           <tr><td><code>financial_advice</code></td><td>Boolean. Always <code>false</code>. Confirms the system does not provide financial advice.</td></tr>
           <tr><td><code>live_trading</code></td><td>Boolean. Always <code>false</code>. Confirms no live trading is enabled.</td></tr>
           <tr><td><code>available</code></td><td>Boolean in system summary. Indicates whether the export was successfully generated.</td></tr>
         </tbody>
       </table>
+      <p>
+        The public export does not define <code>public_action_score</code>,
+        <code>recommendation</code>, or <code>trading_signal</code> fields. Public metadata is
+        informational monitoring context only.
+      </p>
     </section>
 
     <!-- ═══════════════════════════════════════════════════════════════ -->
@@ -499,9 +510,10 @@
       <h2 style="color: var(--muted);">Disclaimer</h2>
       <p>
         This data dictionary and all referenced public files are provided for research and monitoring
-        purposes only. They are not financial advice, investment advice, or a recommendation to buy,
-        sell, or hold any asset. Data may be incomplete, delayed, or incorrect. Any real-world
-        decision requires independent review, risk controls, and human approval.
+        purposes only. They are not financial advice, not investment advice, not a recommendation,
+        and not a trading signal. Assets are not ranked and not scored for public action. Data may
+        be incomplete, delayed, or incorrect. No buy, sell, hold, allocation, entry, exit, stop-loss,
+        take-profit, or execution guidance is provided.
       </p>
     </section>
 

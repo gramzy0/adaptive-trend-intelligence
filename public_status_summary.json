@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-17T03:30:44.238763+00:00",
+  "generated_at": "2026-06-21T03:30:48.020096+00:00",
   "public_layer_status": "available",
-  "latest_public_export": "2026-06-17 03:30:44",
+  "latest_public_export": "2026-06-21 03:30:46",
   "cloudflare_live_ok": true,
   "public_files_available": 9,
   "public_files_missing": [],
@@ -12,5 +12,5 @@
   "mode": "research_monitoring_only",
   "financial_advice": false,
   "live_trading": false,
-  "disclaimer": "This public data layer is for research, monitoring, and decision-support only. It is not financial advice, investment advice, or a recommendation to buy or sell any asset."
+  "disclaimer": "This public data layer is for informational monitoring only. It is not financial advice, not investment advice, not a recommendation, and not a trading signal. Assets are not ranked and not scored for public action. No buy, sell, hold, allocation, entry, exit, stop-loss, take-profit, or execution guidance is provided."
 }

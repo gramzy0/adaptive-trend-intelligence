@@ -1,10 +1,15 @@
 {
-  "generated_at_utc": "2026-06-17T03:35:57+00:00",
+  "generated_at_utc": "2026-06-21T03:36:01+00:00",
   "project": "Adaptive Trend Intelligence Public Dashboard",
   "mode": "research_monitoring_only",
+  "exposure_mode": "no_public_exposure",
   "financial_advice": false,
   "live_trading": false,
   "public_scope": "sanitized_public_outputs_only",
+  "public_candidate_symbols_enabled": false,
+  "candidate_symbol_publication_allowed": false,
+  "public_pair_symbol_count": 0,
+  "source_provenance_public": "redacted",
   "private_internal_files_excluded": true,
   "files": {
     "public_export_summary": {
@@ -13,7 +18,7 @@
       "purpose": "Safe public export quality and file summary",
       "exists": true,
       "size_kb": 0.46,
-      "modified_at_utc": "2026-06-17T03:30:44+00:00"
+      "modified_at_utc": "2026-06-21T03:30:46+00:00"
     },
     "public_technical_summary": {
       "file": "public_technical_summary.json",
@@ -21,64 +26,64 @@
       "purpose": "Clean public technical summary replacing reliance on raw debug data",
       "exists": true,
       "size_kb": 1.49,
-      "modified_at_utc": "2026-06-17T03:30:44+00:00"
+      "modified_at_utc": "2026-06-21T03:30:48+00:00"
     },
     "public_system_summary": {
       "file": "public_system_summary.json",
       "type": "json",
-      "purpose": "Compact sanitized public system summary replacing raw debug CSV over time",
+      "purpose": "Compact sanitized public system summary with no public candidate symbol publication and redacted source provenance",
       "exists": true,
-      "size_kb": 1.51,
-      "modified_at_utc": "2026-06-17T03:35:57+00:00"
+      "size_kb": 1.24,
+      "modified_at_utc": "2026-06-21T03:36:01+00:00"
     },
     "public_status_summary": {
       "file": "public_status_summary.json",
       "type": "json",
       "purpose": "Live public status and data freshness summary",
       "exists": true,
-      "size_kb": 0.61,
-      "modified_at_utc": "2026-06-17T03:30:44+00:00"
+      "size_kb": 0.75,
+      "modified_at_utc": "2026-06-21T03:30:48+00:00"
     },
     "index": {
       "file": "index.html",
       "type": "html",
       "purpose": "Public landing page for the dashboard and data layer",
       "exists": true,
-      "size_kb": 57.13,
-      "modified_at_utc": "2026-06-13T09:40:56+00:00"
+      "size_kb": 57.69,
+      "modified_at_utc": "2026-06-18T16:36:14+00:00"
     },
     "dashboard": {
       "file": "dashboard.html",
       "type": "html",
-      "purpose": "Sanitized public dashboard snapshot with band-only score presentation",
+      "purpose": "Sanitized public dashboard snapshot for informational monitoring only; uses band-only score presentation; not ranked and not scored for public action",
       "exists": true,
-      "size_kb": 20.37,
-      "modified_at_utc": "2026-06-17T03:30:44+00:00"
+      "size_kb": 19.02,
+      "modified_at_utc": "2026-06-21T03:30:48+00:00"
     },
     "daily_ai_summary": {
       "file": "daily_ai_summary.csv",
       "type": "csv",
       "purpose": "Historical daily AI and system summary",
       "exists": true,
-      "size_kb": 20.88,
-      "modified_at_utc": "2026-06-17T03:30:44+00:00"
+      "size_kb": 21.58,
+      "modified_at_utc": "2026-06-21T03:30:46+00:00"
     },
     "unified_candidates": {
       "file": "unified_candidates.csv",
       "type": "csv",
-      "purpose": "Latest public candidate observation snapshot with band-only score presentation",
+      "purpose": "Latest public candidate observation snapshot for monitoring context only; uses band-only score presentation; not a recommendation and not a trading signal",
       "exists": true,
-      "size_kb": 1.2,
-      "modified_at_utc": "2026-06-17T03:30:44+00:00"
+      "size_kb": 1.04,
+      "modified_at_utc": "2026-06-21T03:30:47+00:00"
     },
     "signal_outcomes_history": {
       "file": "signal_outcomes_history.csv",
       "type": "csv",
       "purpose": "Historical public signal outcome tracking",
       "exists": true,
-      "size_kb": 46.52,
-      "modified_at_utc": "2026-06-17T03:30:44+00:00"
+      "size_kb": 49.05,
+      "modified_at_utc": "2026-06-21T03:30:48+00:00"
     }
   },
-  "disclaimer": "This public data layer is for research, monitoring, and decision-support only. It is not financial advice, investment advice, or a recommendation to buy or sell any asset."
+  "disclaimer": "This public data layer is for informational monitoring only. It is not financial advice, not investment advice, not a recommendation, and not a trading signal. Assets are not ranked and not scored for public action. No buy, sell, hold, allocation, entry, exit, stop-loss, take-profit, or execution guidance is provided."
 }

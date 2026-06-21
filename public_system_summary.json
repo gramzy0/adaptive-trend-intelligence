@@ -1,113 +1,38 @@
 {
-  "generated_at": "2026-06-17T03:35:57.736926+00:00",
+  "generated_at": "2026-06-21T03:36:01.312030+00:00",
   "scope": "sanitized_public_system_summary",
   "available": true,
-  "rows": 1021,
+  "rows": 1022,
   "asset_types": {
-    "unknown": 1021
+    "unknown": 1022
   },
   "colors": {
-    "Blue": 842,
-    "Gold": 103,
-    "unknown": 26,
-    "Gray": 50
+    "Gold": 104,
+    "Blue": 837,
+    "unknown": 27,
+    "Gray": 54
   },
   "signals": {
-    "Confirmed Gold \u2192 Gray \u2192 Blue \u2192 Blue": 3,
     "Confirmed Blue \u2192 Gray \u2192 Gold \u2192 Gold": 1,
-    "unknown": 1014,
+    "Confirmed Gold \u2192 Gray \u2192 Blue \u2192 Blue": 1,
+    "unknown": 1017,
     "No confirmed trend flip": 3
   },
   "decisions": {
-    "unknown": 1021
+    "unknown": 1022
   },
   "score": {
-    "count": 1021,
+    "count": 1022,
     "min": 0.0,
-    "max": 77.0,
-    "average": 0.26
+    "max": 82.0,
+    "average": 0.13
   },
-  "top_symbols": [
-    [
-      "SAHARAUSDT",
-      1
-    ],
-    [
-      "BANKUSDT",
-      1
-    ],
-    [
-      "ORCAUSDT",
-      1
-    ],
-    [
-      "GBPUSDT",
-      1
-    ],
-    [
-      "SOLUSDT",
-      1
-    ],
-    [
-      "ETHBTC",
-      1
-    ],
-    [
-      "BNBUSDT",
-      1
-    ],
-    [
-      "WLDBTC",
-      1
-    ],
-    [
-      "WLDUSDT",
-      1
-    ],
-    [
-      "BTCUSDT",
-      1
-    ],
-    [
-      "NEARUSDT",
-      1
-    ],
-    [
-      "SOLBTC",
-      1
-    ],
-    [
-      "ZECUSDT",
-      1
-    ],
-    [
-      "XRPUSDT",
-      1
-    ],
-    [
-      "BABYUSDT",
-      1
-    ],
-    [
-      "BNBBTC",
-      1
-    ],
-    [
-      "ZECBTC",
-      1
-    ],
-    [
-      "ETHUSDT",
-      1
-    ],
-    [
-      "XRPBTC",
-      1
-    ],
-    [
-      "SPCXBUSDT",
-      1
-    ]
-  ],
-  "public_note": "This file summarizes public system scan status for monitoring. It does not include private model state, credentials, or trading instructions."
+  "exposure_mode": "no_public_exposure",
+  "public_candidate_symbols_enabled": false,
+  "candidate_symbol_publication_allowed": false,
+  "pair_symbols_removed": true,
+  "public_pair_symbol_count": 0,
+  "source_provenance_public": "redacted",
+  "sanitization_scope": "phase1_no_public_exposure_pair_symbols",
+  "public_note": "This file summarizes public system scan status for informational monitoring only. The internal research coverage remains internal and is not a public asset list. No symbols are shown through this exposure mode. No recommendations, rankings, scores for public action, trading signals, allocation guidance, or execution guidance are provided."
 }
