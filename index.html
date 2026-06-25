@@ -556,7 +556,7 @@
         <a href="#cockpit">Cockpit</a>
         <a href="#observations">Observations</a>
         <a href="#history">History</a>
-        <a href="dashboard.html">Classic Dashboard</a>
+        <a href="dashboard.html">Snapshot Dashboard</a>
         <a href="data_dictionary.html">Data Dictionary</a>
         <a href="limitations.html">Limitations</a>
       </div>
@@ -567,15 +567,15 @@
     <section class="hero" aria-labelledby="hero-title">
       <div class="hero-copy">
         <p class="eyebrow">Public research cockpit</p>
-        <h1 id="hero-title">Market monitoring context, refreshed from the public data layer.</h1>
+        <h1 id="hero-title">Research context from the live public layer.</h1>
         <p class="lede">
-          A sanitized public view of Adaptive Trend Intelligence. The cockpit focuses on freshness,
-          governance state, category-level observations, and outcome history while keeping private
-          research internals out of the public surface.
+          A sanitized view of Adaptive Trend Intelligence for public monitoring. The cockpit keeps
+          freshness, safety flags, category-level observations, and outcome history easy to scan
+          while private research internals stay outside the public surface.
         </p>
         <div class="hero-actions">
           <a class="button primary" href="#observations">View Observations</a>
-          <a class="button" href="dashboard.html">Open Classic Snapshot</a>
+          <a class="button" href="dashboard.html">Open Snapshot Dashboard</a>
           <a class="button" href="limitations.html">Read Limitations</a>
         </div>
       </div>
@@ -586,8 +586,8 @@
           <span id="manifest-load-state" class="badge warn">Loading</span>
         </div>
         <div class="metric-label">Manifest generated</div>
-        <div id="manifest-generated" class="metric-value">public data unavailable</div>
-        <p id="manifest-summary" class="muted">Loading public manifest...</p>
+        <div id="manifest-generated" class="metric-value">Waiting for public data</div>
+        <p id="manifest-summary" class="muted">Checking public manifest...</p>
         <div id="safety-warning" class="notice warning">
           Safety gate warning: public manifest values are outside the expected research-only state.
         </div>
@@ -597,23 +597,23 @@
     <section class="rail" aria-label="Safety and freshness rail">
       <div class="metric">
         <div class="metric-label">Mode</div>
-        <div id="mode-value" class="metric-value">public data unavailable</div>
+        <div id="mode-value" class="metric-value">Waiting for public data</div>
       </div>
       <div class="metric">
         <div class="metric-label">Exposure</div>
-        <div id="exposure-value" class="metric-value">public data unavailable</div>
+        <div id="exposure-value" class="metric-value">Waiting for public data</div>
       </div>
       <div class="metric">
         <div class="metric-label">Financial Advice</div>
-        <div id="advice-value" class="metric-value">public data unavailable</div>
+        <div id="advice-value" class="metric-value">Waiting for public data</div>
       </div>
       <div class="metric">
         <div class="metric-label">Live Trading</div>
-        <div id="trading-value" class="metric-value">public data unavailable</div>
+        <div id="trading-value" class="metric-value">Waiting for public data</div>
       </div>
       <div class="metric">
         <div class="metric-label">Public Exposure Count</div>
-        <div id="public-count-value" class="metric-value">public data unavailable</div>
+        <div id="public-count-value" class="metric-value">Waiting for public data</div>
       </div>
     </section>
 
@@ -621,12 +621,12 @@
       <div class="section-heading">
         <div>
           <h2 id="regime-title">Current Research Context</h2>
-          <p>Latest public daily summary values, presented as monitoring context only.</p>
+          <p>Latest public daily summary values, presented as research context for monitoring.</p>
         </div>
         <span id="daily-load-state" class="badge warn">Loading</span>
       </div>
       <div id="regime-strip" class="regime-strip">
-        <div class="notice">Loading daily research context...</div>
+        <div class="notice">Checking daily research context...</div>
       </div>
     </section>
 
@@ -635,7 +635,7 @@
         <div>
           <h2 id="observations-title">Candidate Observation Mix</h2>
           <p>
-            Band-only public observation display. Candidates are grouped by
+            Band-only public observation display. Public rows are grouped by
             <code>public_watch_tier</code>, <code>signal_strength_band</code>,
             <code>market_cap_band</code>, current state, weekly state, and
             <code>observation_bucket</code>. No numeric scores, ranks, recommendations,
@@ -648,32 +648,32 @@
         <article class="chart-card">
           <h3>Public Watch Tier</h3>
           <p class="small">Distribution by public monitoring tier.</p>
-          <div id="chart-public-watch-tier" class="bar-list">public data unavailable</div>
+          <div id="chart-public-watch-tier" class="bar-list">Waiting for public data</div>
         </article>
         <article class="chart-card">
           <h3>Signal Strength Band</h3>
           <p class="small">Band-only public strength grouping.</p>
-          <div id="chart-signal-strength-band" class="bar-list">public data unavailable</div>
+          <div id="chart-signal-strength-band" class="bar-list">Waiting for public data</div>
         </article>
         <article class="chart-card">
           <h3>Observation Bucket</h3>
           <p class="small">Category-level monitoring bucket.</p>
-          <div id="chart-observation-bucket" class="bar-list">public data unavailable</div>
+          <div id="chart-observation-bucket" class="bar-list">Waiting for public data</div>
         </article>
         <article class="chart-card">
           <h3>Current State</h3>
           <p class="small">Current public state labels.</p>
-          <div id="chart-current-state" class="bar-list">public data unavailable</div>
+          <div id="chart-current-state" class="bar-list">Waiting for public data</div>
         </article>
         <article class="chart-card">
           <h3>Weekly State</h3>
           <p class="small">Weekly public state labels.</p>
-          <div id="chart-weekly-state" class="bar-list">public data unavailable</div>
+          <div id="chart-weekly-state" class="bar-list">Waiting for public data</div>
         </article>
         <article class="chart-card">
           <h3>Market Cap Band</h3>
           <p class="small">Public market-cap band grouping.</p>
-          <div id="chart-market-cap-band" class="bar-list">public data unavailable</div>
+          <div id="chart-market-cap-band" class="bar-list">Waiting for public data</div>
         </article>
       </div>
     </section>
@@ -683,16 +683,16 @@
         <article class="panel">
           <div class="panel-title">
             <h2 id="asset-context-title">Asset Context</h2>
-            <span id="candidate-row-count" class="badge">public data unavailable</span>
+            <span id="candidate-row-count" class="badge">Waiting for public data</span>
           </div>
-          <div id="chart-asset-type" class="bar-list">public data unavailable</div>
+          <div id="chart-asset-type" class="bar-list">Waiting for public data</div>
         </article>
         <article class="panel">
           <div class="panel-title">
             <h2>Status Notes</h2>
             <span class="badge good">Sanitized</span>
           </div>
-          <div id="chart-status-note" class="bar-list">public data unavailable</div>
+          <div id="chart-status-note" class="bar-list">Waiting for public data</div>
         </article>
       </div>
     </section>
@@ -701,40 +701,40 @@
       <div class="section-heading">
         <div>
           <h2 id="outcome-title">Outcome History</h2>
-          <p>Historical public tracking records summarized by status and band. These are observations, not instructions.</p>
+          <p>Historical public tracking records summarized by status and outcome band. These are observations, not instructions.</p>
         </div>
         <span id="outcome-load-state" class="badge warn">Loading</span>
       </div>
       <div class="summary-grid">
         <div class="metric">
           <div class="metric-label">Tracked Records</div>
-          <div id="outcome-total" class="metric-value">public data unavailable</div>
+          <div id="outcome-total" class="metric-value">Waiting for public data</div>
         </div>
         <div class="metric">
           <div class="metric-label">Open Records</div>
-          <div id="outcome-open" class="metric-value">public data unavailable</div>
+          <div id="outcome-open" class="metric-value">Waiting for public data</div>
         </div>
         <div class="metric">
           <div class="metric-label">Avg Favorable Move</div>
-          <div id="outcome-mfe" class="metric-value">public data unavailable</div>
+          <div id="outcome-mfe" class="metric-value">Waiting for public data</div>
         </div>
         <div class="metric">
           <div class="metric-label">Avg Adverse Move</div>
-          <div id="outcome-mae" class="metric-value">public data unavailable</div>
+          <div id="outcome-mae" class="metric-value">Waiting for public data</div>
         </div>
       </div>
       <div class="grid" style="margin-top: 14px;">
         <article class="chart-card">
           <h3>Status</h3>
-          <div id="chart-outcome-status" class="bar-list">public data unavailable</div>
+          <div id="chart-outcome-status" class="bar-list">Waiting for public data</div>
         </article>
         <article class="chart-card">
-          <h3>Score Band</h3>
-          <div id="chart-score-band" class="bar-list">public data unavailable</div>
+          <h3>Outcome Band</h3>
+          <div id="chart-score-band" class="bar-list">Waiting for public data</div>
         </article>
         <article class="chart-card">
           <h3>Confidence Band</h3>
-          <div id="chart-confidence-band" class="bar-list">public data unavailable</div>
+          <div id="chart-confidence-band" class="bar-list">Waiting for public data</div>
         </article>
       </div>
     </section>
@@ -747,7 +747,7 @@
         </div>
       </div>
       <div id="daily-history" class="timeline">
-        <div class="notice">Loading daily regime history...</div>
+        <div class="notice">Checking daily regime history...</div>
       </div>
     </section>
 
@@ -762,22 +762,22 @@
       <div class="summary-grid">
         <div class="metric">
           <div class="metric-label">Input Rows</div>
-          <div id="export-input" class="metric-value">public data unavailable</div>
+          <div id="export-input" class="metric-value">Waiting for public data</div>
         </div>
         <div class="metric">
           <div class="metric-label">Published Rows</div>
-          <div id="export-published" class="metric-value">public data unavailable</div>
+          <div id="export-published" class="metric-value">Waiting for public data</div>
         </div>
         <div class="metric">
           <div class="metric-label">Filtered Rows</div>
-          <div id="export-filtered" class="metric-value">public data unavailable</div>
+          <div id="export-filtered" class="metric-value">Waiting for public data</div>
         </div>
         <div class="metric">
           <div class="metric-label">Public Limit</div>
-          <div id="export-limit" class="metric-value">public data unavailable</div>
+          <div id="export-limit" class="metric-value">Waiting for public data</div>
         </div>
       </div>
-      <p id="export-generated" class="small" style="margin-top: 12px;">public data unavailable</p>
+      <p id="export-generated" class="small" style="margin-top: 12px;">Waiting for public data</p>
     </section>
   </main>
 
