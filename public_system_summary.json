@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T03:36:04.506823+00:00",
+  "generated_at": "2026-06-28T03:36:04.120526+00:00",
   "scope": "sanitized_public_system_summary",
   "available": true,
   "rows": 1026,
@@ -7,15 +7,15 @@
     "unknown": 1026
   },
   "colors": {
-    "Blue": 838,
-    "Gray": 55,
-    "Gold": 102,
-    "unknown": 31
+    "Blue": 841,
+    "unknown": 31,
+    "Gray": 53,
+    "Gold": 101
   },
   "signals": {
     "Confirmed Gold \u2192 Gray \u2192 Blue \u2192 Blue": 1,
-    "unknown": 1022,
-    "No confirmed trend flip": 3
+    "unknown": 1020,
+    "No confirmed trend flip": 5
   },
   "decisions": {
     "unknown": 1026
