@@ -65,6 +65,25 @@
       font-size: 13px;
     }
 
+    .site-nav {
+      display: flex;
+      gap: 18px;
+      padding: 4px 4px 18px;
+      font-size: 13px;
+    }
+
+    .site-nav a {
+      color: var(--muted);
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+    }
+
+    .site-nav a:hover,
+    .site-nav a:focus {
+      color: var(--cyan);
+      border-bottom-color: var(--cyan);
+    }
+
     .hero {
       display: grid;
       grid-template-columns: 1.35fr 0.65fr;
@@ -350,6 +369,12 @@
 </head>
 <body>
   <main class="page">
+    <nav class="site-nav" aria-label="Site navigation">
+      <a href="index.html">Home</a>
+      <a href="data_dictionary.html">Data Dictionary</a>
+      <a href="limitations.html">Limitations</a>
+    </nav>
+
     <section class="safety-banner">
       <strong>research_monitoring_only</strong>
       <span>NO_PUBLIC_PUBLICATION_OK · no trading execution · no financial advice · human review required</span>
@@ -376,6 +401,38 @@
           <div class="status-item"><span>Human review</span><b class="ok">required</b></div>
         </div>
       </aside>
+    </section>
+
+    <section class="grid">
+      <div class="panel">
+        <h2>How to read this dashboard</h2>
+        <p>
+          This dashboard is research_monitoring_only: it presents public aggregate evidence only,
+          drawn from coverage and market-color structures. It is informational and non-advisory.
+        </p>
+        <div class="evidence-list">
+          <div class="evidence">NO_PUBLIC_PUBLICATION_OK</div>
+          <div class="evidence">no trading execution</div>
+          <div class="evidence">no financial advice</div>
+          <div class="evidence">human review required</div>
+        </div>
+      </div>
+
+      <div class="panel">
+        <h2>Data freshness</h2>
+        <p>
+          Public aggregate metadata timestamps reflect when the underlying public export files were
+          generated, not when individual signals occurred.
+        </p>
+        <div class="status-list">
+          <div class="status-item"><span>public_manifest.json generated_at_utc</span><b>2026-07-02T03:36:02+00:00</b></div>
+          <div class="status-item"><span>public_system_summary.json generated_at</span><b>2026-07-02T03:36:02.361726+00:00</b></div>
+        </div>
+        <p class="lead">
+          Source files: <a href="public_manifest.json">public_manifest.json</a> ·
+          <a href="public_system_summary.json">public_system_summary.json</a>
+        </p>
+      </div>
     </section>
 
     <section class="metrics" aria-label="Coverage snapshot cards">
