@@ -234,6 +234,23 @@
       font-size: 13px;
     }
 
+    .orientation-note {
+      max-width: 720px;
+      margin-top: 16px;
+      padding: 12px 16px;
+      border-left: 3px solid var(--accent);
+      border-radius: 6px;
+      background: var(--panel-soft);
+      color: var(--text);
+      font-size: 16px;
+      line-height: 1.5;
+    }
+
+    .orientation-note strong {
+      color: var(--text);
+      font-weight: 800;
+    }
+
     .badge {
       display: inline-flex;
       align-items: center;
@@ -574,9 +591,9 @@
           freshness, safety flags, category-level observations, and outcome history easy to scan
           while private research internals stay outside the public surface.
         </p>
-        <p class="small" style="margin-top: 4px;">
-          This is a research_monitoring_only public site. It provides public aggregate evidence only
-          — no trading execution, no financial advice. Public data requires human review before any
+        <p class="orientation-note">
+          This is a <strong>research_monitoring_only</strong> public site. It provides public aggregate evidence only
+          — <strong>no trading execution, no financial advice</strong>. Public data requires <strong>human review</strong> before any
           real-world use.
         </p>
         <div class="hero-actions">
