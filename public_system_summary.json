@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T03:35:57.613127+00:00",
+  "generated_at": "2026-07-07T03:35:58.142014+00:00",
   "scope": "sanitized_public_system_summary",
   "mode": "research_monitoring_only",
   "available": true,
@@ -8,14 +8,13 @@
     "unknown": 1032
   },
   "colors": {
-    "Gold": 98,
-    "Blue": 845,
+    "Blue": 848,
+    "Gold": 101,
     "unknown": 34,
-    "Gray": 55
+    "Gray": 49
   },
   "signals": {
-    "Confirmed Blue \u2192 Gray \u2192 Gold \u2192 Gold": 1,
-    "Confirmed Gold \u2192 Gray \u2192 Blue \u2192 Blue": 1,
+    "Confirmed Gold \u2192 Gray \u2192 Blue \u2192 Blue": 2,
     "unknown": 1027,
     "No confirmed trend flip": 3
   },
@@ -25,8 +24,8 @@
   "score": {
     "count": 1032,
     "min": 0.0,
-    "max": 77.0,
-    "average": 0.12
+    "max": 85.0,
+    "average": 0.13
   },
   "exposure_mode": "no_public_exposure",
   "public_candidate_symbols_enabled": false,
