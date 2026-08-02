@@ -561,8 +561,44 @@
       }
     }
   </style>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    main.shell,
+    .hero,
+    .hero > *,
+    .rail,
+    .regime-strip,
+    .grid,
+    .grid > *,
+    .summary-grid,
+    .timeline,
+    .timeline-row,
+    .panel,
+    .chart-card {
+      min-width: 0;
+      max-width: 100%;
+    }
+
+    @media (max-width: 640px) {
+      .shell {
+        width: calc(100% - 1.25rem);
+      }
+
+      .brand-text,
+      .metric-label,
+      .metric-value {
+        overflow-wrap: anywhere;
+      }
+
+      h1 {
+        font-size: clamp(2.25rem, 12vw, 4.4rem);
+        overflow-wrap: normal;
+      }
+    }
+  </style>
 </head>
 <body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
   <header class="topbar">
     <nav class="shell nav" aria-label="Primary navigation">
       <div class="brand">
@@ -571,34 +607,29 @@
       </div>
       <div class="nav-links">
         <a href="index.html" aria-current="page">Home</a>
-        <a href="#cockpit">Cockpit</a>
-        <a href="#observations">Observations</a>
-        <a href="#history">History</a>
-        <a href="dashboard.html">Snapshot Dashboard</a>
+        <a href="dashboard.html">Dashboard</a>
         <a href="data_dictionary.html">Data Dictionary</a>
         <a href="limitations.html">Limitations</a>
       </div>
     </nav>
   </header>
 
-  <main id="cockpit" class="shell">
+  <main id="main-content" class="shell">
     <section class="hero" aria-labelledby="hero-title">
       <div class="hero-copy">
-        <p class="eyebrow">Public research cockpit</p>
-        <h1 id="hero-title">Research context from the live public layer.</h1>
+        <p class="eyebrow">Adaptive Trend Intelligence · Public research view</p>
+        <h1 id="hero-title">Structured trend monitoring, presented with clear limits.</h1>
         <p class="lede">
-          A sanitized view of Adaptive Trend Intelligence for public monitoring. The cockpit keeps
-          freshness, safety flags, category-level observations, and outcome history easy to scan
-          while private research internals stay outside the public surface.
+          Review constrained public observations, artifact availability, and outcome statuses
+          without treating any candidate as a prediction or instruction.
         </p>
         <p class="orientation-note">
-          This is a <strong>research_monitoring_only</strong> public site. It provides public aggregate evidence only
-          — <strong>no trading execution, no financial advice</strong>. Public data requires <strong>human review</strong> before any
-          real-world use.
+          <strong>Research / monitoring only.</strong> These observations are <strong>not trading signals</strong>
+          and provide <strong>no buy/sell/hold recommendation</strong>. <strong>Human review is required.</strong>
         </p>
         <div class="hero-actions">
-          <a class="button primary" href="#observations">View Observations</a>
-          <a class="button" href="dashboard.html">Open Snapshot Dashboard</a>
+          <a class="button primary" href="dashboard.html">Explore monitoring view</a>
+          <a class="button" href="data_dictionary.html">Read field definitions</a>
           <a class="button" href="limitations.html">Read Limitations</a>
         </div>
       </div>
@@ -606,11 +637,11 @@
       <aside class="hero-panel" aria-label="Public data status">
         <div class="panel-title">
           <h2>Public Layer</h2>
-          <span id="manifest-load-state" class="badge warn">Loading</span>
+          <span id="manifest-load-state" class="badge warn" role="status" aria-live="polite">Checking</span>
         </div>
-        <div class="metric-label">Manifest generated</div>
-        <div id="manifest-generated" class="metric-value">Waiting for public data</div>
-        <p id="manifest-summary" class="muted">Checking public manifest...</p>
+        <div class="metric-label">Latest available artifact timestamp</div>
+        <div id="manifest-generated" class="metric-value">Availability not yet confirmed</div>
+        <p id="manifest-summary" class="muted">Checking the approved public manifest.</p>
         <div id="safety-warning" class="notice warning">
           Safety gate warning: public manifest values are outside the expected research-only state.
         </div>
@@ -631,7 +662,7 @@
         <div id="advice-value" class="metric-value">Waiting for public data</div>
       </div>
       <div class="metric">
-        <div class="metric-label">Live Trading</div>
+        <div class="metric-label">Trading execution</div>
         <div id="trading-value" class="metric-value">Waiting for public data</div>
       </div>
       <div class="metric">
@@ -644,9 +675,9 @@
       <div class="section-heading">
         <div>
           <h2 id="regime-title">Current Research Context</h2>
-          <p>Latest public daily summary values, presented as research context for monitoring.</p>
+          <p>Latest available daily summary fields, presented as research observations that require review.</p>
         </div>
-        <span id="daily-load-state" class="badge warn">Loading</span>
+        <span id="daily-load-state" class="badge warn" role="status" aria-live="polite">Checking</span>
       </div>
       <div id="regime-strip" class="regime-strip">
         <div class="notice">Checking daily research context...</div>
@@ -665,7 +696,7 @@
             or trading signals are published.
           </p>
         </div>
-        <span id="candidate-load-state" class="badge warn">Loading</span>
+        <span id="candidate-load-state" class="badge warn" role="status" aria-live="polite">Checking</span>
       </div>
       <div class="grid">
         <article class="chart-card">
@@ -713,7 +744,7 @@
         <article class="panel">
           <div class="panel-title">
             <h2>Status Notes</h2>
-            <span class="badge good">Sanitized</span>
+            <span class="badge">Public-safe labels</span>
           </div>
           <div id="chart-status-note" class="bar-list">Waiting for public data</div>
         </article>
@@ -726,7 +757,7 @@
           <h2 id="outcome-title">Outcome History</h2>
           <p>Historical public tracking records summarized by status and outcome band. These are observations, not instructions.</p>
         </div>
-        <span id="outcome-load-state" class="badge warn">Loading</span>
+        <span id="outcome-load-state" class="badge warn" role="status" aria-live="polite">Checking</span>
       </div>
       <div class="summary-grid">
         <div class="metric">
@@ -777,10 +808,10 @@
     <section class="section" aria-labelledby="export-title">
       <div class="section-heading">
         <div>
-          <h2 id="export-title">Export Quality</h2>
-          <p>Public export counters from the latest sanitized publication summary.</p>
+          <h2 id="export-title">Artifact processing summary</h2>
+          <p>Counters from the latest available public export summary; availability does not establish freshness.</p>
         </div>
-        <span id="export-load-state" class="badge warn">Loading</span>
+        <span id="export-load-state" class="badge warn" role="status" aria-live="polite">Checking</span>
       </div>
       <div class="summary-grid">
         <div class="metric">
@@ -802,25 +833,37 @@
       </div>
       <p id="export-generated" class="small" style="margin-top: 12px;">Waiting for public data</p>
     </section>
+    <section class="section" aria-labelledby="state-guide-title">
+      <div class="panel state-guide">
+        <p class="eyebrow">Interpretation guide</p>
+        <h2 id="state-guide-title">Availability is not an assessment</h2>
+        <dl class="state-list">
+          <div><dt>Empty</dt><dd>The artifact loaded but contains no displayable records.</dd></div>
+          <div><dt>Missing</dt><dd>An expected field is absent; no favorable or unfavorable meaning is implied.</dd></div>
+          <div><dt>Stale</dt><dd>A displayed timestamp may be older than an approved freshness threshold. Review the timestamp directly.</dd></div>
+          <div><dt>Insufficient history</dt><dd>The available observation window does not support a classification.</dd></div>
+          <div><dt>Unavailable or failure</dt><dd>The artifact could not be read. No conclusion should be drawn from its absence.</dd></div>
+        </dl>
+      </div>
+    </section>
   </main>
 
   <footer class="shell footer">
     <div class="panel">
       <p id="footer-disclaimer">
-        This public cockpit is for informational monitoring only. It is not financial advice,
-        not investment advice, not a recommendation, and not a trading signal. Assets are not
-        ranked or scored for public action. No buy, sell, hold, allocation, entry, exit,
-        stop-loss, take-profit, or execution guidance is provided.
+        This public site is for research and monitoring only. It is not financial advice,
+        not trading signals, and provides no buy/sell/hold recommendation. Human review is required.
       </p>
       <p class="small">
-        Public files are sanitized outputs. Private configuration, source provenance, raw logs,
-        internal review context, and model internals are excluded from this page.
+        Public AI output is disabled unless separately authorized. Publication is disabled unless
+        separately authorized. Public files are constrained outputs and may be incomplete, delayed,
+        stale, unavailable, or incorrect.
       </p>
     </div>
   </footer>
 
   <script>
-    const unavailable = "public data unavailable";
+    const unavailable = "Unavailable — no conclusion can be drawn";
 
     function setText(id, value) {
       const el = document.getElementById(id);
@@ -922,7 +965,7 @@
         .slice(0, options.limit || 8);
 
       if (!entries.length) {
-        el.innerHTML = '<div class="notice">public data unavailable</div>';
+        el.innerHTML = '<div class="notice" data-state="empty">Empty — no displayable monitoring items are available.</div>';
         return;
       }
 
@@ -1026,7 +1069,7 @@
     async function renderManifest() {
       try {
         const manifest = await fetchJson("public_manifest.json");
-        setBadge("manifest-load-state", "good", "Loaded");
+        setBadge("manifest-load-state", "good", "Available");
         setText("manifest-generated", manifest.generated_at_utc);
         setText("manifest-summary", manifest.public_scope || "sanitized public outputs only");
         setText("mode-value", formatLabel(manifest.mode));
@@ -1045,7 +1088,7 @@
         const warning = document.getElementById("safety-warning");
         if (warning) warning.classList.toggle("visible", !safe);
       } catch (error) {
-        setBadge("manifest-load-state", "bad", "Unavailable");
+        setBadge("manifest-load-state", "bad", "Unavailable / failure");
         ["manifest-generated", "manifest-summary", "mode-value", "exposure-value", "advice-value", "trading-value", "public-count-value"]
           .forEach(id => setText(id, unavailable));
       }
@@ -1055,14 +1098,14 @@
       try {
         const summary = await fetchJson("public_export_summary.json");
         const candidate = summary.candidate_export || {};
-        setBadge("export-load-state", "good", "Loaded");
+        setBadge("export-load-state", "good", "Available");
         setText("export-input", candidate.input_rows);
         setText("export-published", candidate.published_rows);
         setText("export-filtered", candidate.filtered_rows);
         setText("export-limit", candidate.public_limit);
         setText("export-generated", "Latest public export: " + (summary.generated_at || unavailable));
       } catch (error) {
-        setBadge("export-load-state", "bad", "Unavailable");
+        setBadge("export-load-state", "bad", "Unavailable / failure");
         ["export-input", "export-published", "export-filtered", "export-limit", "export-generated"]
           .forEach(id => setText(id, unavailable));
       }
@@ -1071,8 +1114,8 @@
     async function renderCandidates() {
       try {
         const rows = await fetchCsv("unified_candidates.csv");
-        setBadge("candidate-load-state", "good", "Loaded");
-        setText("candidate-row-count", rows.length + " public rows");
+        setBadge("candidate-load-state", rows.length ? "good" : "warn", rows.length ? "Available" : "Empty");
+        setText("candidate-row-count", rows.length ? rows.length + " public rows" : "Empty — no displayable rows");
         renderBarList("chart-public-watch-tier", countBy(rows, "public_watch_tier"));
         renderBarList("chart-signal-strength-band", countBy(rows.map(row => ({
           signal_strength_band: publicCandidateBand(row)
@@ -1084,7 +1127,7 @@
         renderBarList("chart-asset-type", countBy(rows, "asset_type"));
         renderBarList("chart-status-note", countBy(rows, "status_note"));
       } catch (error) {
-        setBadge("candidate-load-state", "bad", "Unavailable");
+        setBadge("candidate-load-state", "bad", "Unavailable / failure");
         setText("candidate-row-count", unavailable);
         [
           "chart-public-watch-tier",
@@ -1105,7 +1148,7 @@
         const open = rows.filter(row => String(row.status || "").toLowerCase() === "open").length;
         const mfe = average(numericValues(rows, "max_favorable_excursion"));
         const mae = average(numericValues(rows, "max_adverse_excursion"));
-        setBadge("outcome-load-state", "good", "Loaded");
+        setBadge("outcome-load-state", rows.length ? "good" : "warn", rows.length ? "Available" : "Insufficient history");
         setText("outcome-total", rows.length);
         setText("outcome-open", open);
         setText("outcome-mfe", formatNumber(mfe));
@@ -1114,7 +1157,7 @@
         renderBarList("chart-score-band", countBy(rows, "signal_score_band"));
         renderBarList("chart-confidence-band", countBy(rows, "confidence_band"));
       } catch (error) {
-        setBadge("outcome-load-state", "bad", "Unavailable");
+        setBadge("outcome-load-state", "bad", "Unavailable / failure");
         ["outcome-total", "outcome-open", "outcome-mfe", "outcome-mae"].forEach(id => setText(id, unavailable));
         ["chart-outcome-status", "chart-score-band", "chart-confidence-band"].forEach(id => renderBarList(id, {}));
       }
@@ -1124,11 +1167,11 @@
       try {
         const rows = await fetchCsv("daily_ai_summary.csv");
         const latest = rows[rows.length - 1];
-        setBadge("daily-load-state", "good", "Loaded");
+        setBadge("daily-load-state", rows.length ? "good" : "warn", rows.length ? "Available" : "Empty");
         renderRegimeStrip(latest);
         renderDailyHistory(rows);
       } catch (error) {
-        setBadge("daily-load-state", "bad", "Unavailable");
+        setBadge("daily-load-state", "bad", "Unavailable / failure");
         const strip = document.getElementById("regime-strip");
         const history = document.getElementById("daily-history");
         if (strip) strip.innerHTML = '<div class="notice">public data unavailable</div>';
@@ -1146,5 +1189,11 @@
 
     document.addEventListener("DOMContentLoaded", init);
   </script>
+<!-- PUBLIC_STATIC_SITE_SAFETY_NOTICE_BEGIN -->
+<section class="public-safety-disclaimer" aria-label="Research monitoring safety notice">
+  <p><strong>Safety notice:</strong> research_monitoring_only; no trading execution; no financial advice; human review required; not trading signals.</p>
+</section>
+<!-- PUBLIC_STATIC_SITE_SAFETY_NOTICE_END -->
+
 </body>
 </html>

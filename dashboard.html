@@ -3,547 +3,195 @@
 <!-- PUBLIC_PREMIUM_DASHBOARD_LOCKED -->
 <head>
   <meta charset="utf-8">
-  <title>CTO Scanner — Adaptive Trend Intelligence Dashboard</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A constrained public monitoring view for Adaptive Trend Intelligence.">
+  <title>Monitoring Dashboard — Adaptive Trend Intelligence</title>
+  <link rel="stylesheet" href="styles.css">
   <style>
-    :root {
-      --bg: #061018;
-      --panel: #0d1a25;
-      --panel-2: #102332;
-      --line: #244052;
-      --text: #edf6fb;
-      --muted: #91a8b8;
-      --cyan: #58dcff;
-      --blue: #76a9ff;
-      --amber: #ffd166;
-      --green: #75e0a4;
-      --gray: #a8b3bd;
+    .site-nav,
+    .nav-links,
+    .page-stack,
+    .page-stack > *,
+    .page-intro,
+    .content-grid,
+    .status-strip,
+    .state-grid,
+    .card,
+    .table-scroll {
+      min-width: 0;
+      max-width: 100%;
     }
 
-    * {
-      box-sizing: border-box;
+    .page-stack {
+      grid-template-columns: minmax(0, 1fr);
     }
 
-    body {
-      margin: 0;
-      background:
-        radial-gradient(circle at 15% 0%, rgba(88, 220, 255, 0.14), transparent 34rem),
-        radial-gradient(circle at 85% 8%, rgba(118, 169, 255, 0.11), transparent 32rem),
-        linear-gradient(180deg, #061018 0%, #07131c 45%, #050b11 100%);
-      color: var(--text);
-      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      line-height: 1.5;
+    .table-scroll {
+      width: 100%;
+      overflow-x: auto;
+      contain: inline-size;
     }
 
-    .page {
-      width: min(1240px, calc(100% - 40px));
-      margin: 0 auto;
-      padding: 28px 0 46px;
-    }
-
-    .safety-banner {
-      display: flex;
-      justify-content: space-between;
-      gap: 18px;
-      align-items: center;
-      padding: 14px 18px;
-      border: 1px solid rgba(88, 220, 255, 0.25);
-      background: rgba(13, 26, 37, 0.86);
-      border-radius: 18px;
-      box-shadow: 0 18px 54px rgba(0, 0, 0, 0.24);
-    }
-
-    .safety-banner strong {
-      color: var(--cyan);
-      letter-spacing: 0.04em;
-      text-transform: uppercase;
-      font-size: 12px;
-    }
-
-    .safety-banner span {
-      color: var(--muted);
-      font-size: 13px;
-    }
-
-    .site-nav {
-      display: flex;
-      gap: 18px;
-      padding: 4px 4px 18px;
-      font-size: 13px;
-    }
-
-    .site-nav a {
-      color: var(--muted);
-      text-decoration: none;
-      border-bottom: 1px solid transparent;
-    }
-
-    .site-nav a:hover,
-    .site-nav a:focus {
-      color: var(--cyan);
-      border-bottom-color: var(--cyan);
-    }
-
-    .hero {
-      display: grid;
-      grid-template-columns: 1.35fr 0.65fr;
-      gap: 22px;
-      margin-top: 24px;
-    }
-
-    .hero-main,
-    .status-card,
-    .metric,
-    .panel,
-    .timeline,
-    .footer {
-      border: 1px solid var(--line);
-      background: linear-gradient(180deg, rgba(16, 35, 50, 0.97), rgba(9, 18, 27, 0.97));
-      border-radius: 24px;
-      box-shadow: 0 20px 72px rgba(0, 0, 0, 0.30);
-    }
-
-    .hero-main {
-      padding: 36px;
-      min-height: 350px;
-    }
-
-    .eyebrow {
-      color: var(--cyan);
-      font-size: 12px;
-      font-weight: 800;
-      letter-spacing: 0.14em;
-      text-transform: uppercase;
-      margin-bottom: 18px;
-    }
-
-    h1 {
-      margin: 0;
-      max-width: 870px;
-      font-size: clamp(38px, 6vw, 76px);
-      line-height: 0.95;
-      letter-spacing: -0.06em;
-    }
-
-    .lead {
-      margin: 24px 0 0;
-      max-width: 760px;
-      color: var(--muted);
-      font-size: 17px;
-    }
-
-    .status-card {
-      padding: 24px;
-    }
-
-    .status-card h2,
-    .panel h2,
-    .timeline h2 {
-      margin: 0 0 14px;
-      font-size: 18px;
-      letter-spacing: -0.02em;
-    }
-
-    .status-list {
-      display: grid;
-      gap: 10px;
-      margin-top: 18px;
-    }
-
-    .status-item {
-      display: flex;
-      justify-content: space-between;
-      gap: 16px;
-      padding: 12px;
-      background: rgba(255, 255, 255, 0.035);
-      border: 1px solid rgba(255, 255, 255, 0.055);
-      border-radius: 14px;
-    }
-
-    .status-item span {
-      color: var(--muted);
-      font-size: 13px;
-    }
-
-    .status-item b {
-      font-size: 13px;
-    }
-
-    .ok {
-      color: var(--green);
-    }
-
-    .locked {
-      color: var(--amber);
-    }
-
-    .metrics {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 16px;
-      margin-top: 22px;
-    }
-
-    .metric {
-      padding: 20px;
-    }
-
-    .metric label {
-      display: block;
-      color: var(--muted);
-      font-size: 12px;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-    }
-
-    .metric strong {
-      display: block;
-      margin-top: 10px;
-      font-size: 34px;
-      line-height: 1;
-      letter-spacing: -0.05em;
-    }
-
-    .metric small {
-      display: block;
-      margin-top: 10px;
-      color: var(--muted);
-    }
-
-    .grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 18px;
-      margin-top: 18px;
-    }
-
-    .panel {
-      padding: 24px;
-    }
-
-    .panel p {
-      color: var(--muted);
-      margin: 0 0 16px;
-    }
-
-    .asset-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 12px;
-    }
-
-    .asset-card {
-      padding: 16px;
-      background: rgba(255, 255, 255, 0.035);
-      border: 1px solid rgba(255, 255, 255, 0.065);
-      border-radius: 18px;
-      min-height: 160px;
-    }
-
-    .asset-card h3 {
-      margin: 0 0 8px;
-      font-size: 16px;
-    }
-
-    .tag {
-      display: inline-flex;
-      padding: 5px 8px;
-      border-radius: 999px;
-      font-size: 11px;
-      font-weight: 800;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      border: 1px solid rgba(255, 255, 255, 0.09);
-      margin-bottom: 12px;
-    }
-
-    .tag.active {
-      color: var(--green);
-      background: rgba(117, 224, 164, 0.08);
-    }
-
-    .tag.explicit {
-      color: var(--amber);
-      background: rgba(255, 209, 102, 0.08);
-    }
-
-    .bars {
-      display: grid;
-      gap: 12px;
-      margin-top: 12px;
-    }
-
-    .bar-row {
-      display: grid;
-      grid-template-columns: 112px 1fr 48px;
-      gap: 12px;
-      align-items: center;
-      color: var(--muted);
-      font-size: 13px;
-    }
-
-    .bar {
-      height: 10px;
-      border-radius: 999px;
-      background: rgba(255, 255, 255, 0.07);
-      overflow: hidden;
-    }
-
-    .fill {
-      height: 100%;
-      border-radius: 999px;
-      background: linear-gradient(90deg, var(--cyan), var(--blue));
-    }
-
-    .fill.amber {
-      background: linear-gradient(90deg, var(--amber), #ffe4a1);
-    }
-
-    .fill.gray {
-      background: linear-gradient(90deg, var(--gray), #d0d7dc);
-    }
-
-    .timeline {
-      padding: 24px;
-      margin-top: 18px;
-    }
-
-    .timeline-track {
-      display: grid;
-      grid-template-columns: repeat(31, 1fr);
-      gap: 3px;
-      margin-top: 18px;
-    }
-
-    .tick {
-      height: 52px;
-      border-radius: 8px;
-      background: linear-gradient(180deg, rgba(88, 220, 255, 0.76), rgba(118, 169, 255, 0.22));
-      border: 1px solid rgba(255, 255, 255, 0.05);
-    }
-
-    .tick:nth-child(3n) {
-      background: linear-gradient(180deg, rgba(255, 209, 102, 0.78), rgba(255, 209, 102, 0.18));
-    }
-
-    .tick:nth-child(5n) {
-      background: linear-gradient(180deg, rgba(168, 179, 189, 0.78), rgba(168, 179, 189, 0.18));
-    }
-
-    .evidence-list {
-      display: grid;
-      gap: 10px;
-      margin-top: 12px;
-    }
-
-    .evidence {
-      padding: 12px;
-      border-radius: 14px;
-      background: rgba(255, 255, 255, 0.035);
-      color: var(--muted);
-      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
-      font-size: 12px;
-      overflow-wrap: anywhere;
-    }
-
-    .footer {
-      padding: 22px;
-      margin-top: 18px;
-      color: var(--muted);
-      font-size: 13px;
-    }
-
-    @media (max-width: 900px) {
-      .hero,
-      .grid,
-      .metrics,
-      .asset-grid {
-        grid-template-columns: 1fr;
+    @media (max-width: 640px) {
+      .container {
+        width: calc(100% - 1.25rem);
       }
 
-      .timeline-track {
-        grid-template-columns: repeat(16, 1fr);
+      .brand,
+      .brand > span:last-child,
+      p {
+        min-width: 0;
+        overflow-wrap: anywhere;
+      }
+
+      h1 {
+        min-width: 0;
+        font-size: clamp(2.25rem, 12vw, 4.4rem);
+        overflow-wrap: normal;
+      }
+
+      .table-scroll table {
+        min-width: 100%;
+        table-layout: fixed;
+      }
+
+      .table-scroll th,
+      .table-scroll td {
+        overflow-wrap: anywhere;
       }
     }
   </style>
 </head>
 <body>
-  <main class="page">
-    <nav class="site-nav" aria-label="Site navigation">
-      <a href="index.html">Home</a>
-      <a href="dashboard.html" aria-current="page">Dashboard</a>
-      <a href="data_dictionary.html">Data Dictionary</a>
-      <a href="limitations.html">Limitations</a>
-    </nav>
-
-    <section class="safety-banner">
-      <strong>research_monitoring_only</strong>
-      <span>NO_PUBLIC_PUBLICATION_OK · no trading execution · no financial advice · human review required</span>
-    </section>
-
-    <section class="hero">
-      <div class="hero-main">
-        <div class="eyebrow">Adaptive Trend Intelligence · Coverage-Aware Dashboard</div>
-        <h1>Market structure monitoring with transparent coverage evidence.</h1>
-        <p class="lead">
-          CTO Scanner presents aggregate market-color and coverage evidence for research monitoring.
-          The current dashboard is ledger-backed: ledger rows are 157, historical dates are 31,
-          and represented asset classes are Commodities, Crypto, and Stocks.
-        </p>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <header class="site-header">
+    <nav class="container site-nav" aria-label="Primary navigation">
+      <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">ATI</span><span>Adaptive Trend Intelligence</span></a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="dashboard.html" aria-current="page">Dashboard</a>
+        <a href="data_dictionary.html">Data Dictionary</a>
+        <a href="limitations.html">Limitations</a>
       </div>
+    </nav>
+  </header>
 
-      <aside class="status-card">
-        <h2>Operating boundary</h2>
-        <p class="lead">This dashboard is informational and non-advisory. Publication, execution, and advisory functions remain disabled.</p>
-        <div class="status-list">
-          <div class="status-item"><span>Public publication</span><b class="locked">false</b></div>
-          <div class="status-item"><span>Trading execution</span><b class="locked">false</b></div>
-          <div class="status-item"><span>Financial advice</span><b class="locked">false</b></div>
-          <div class="status-item"><span>Human review</span><b class="ok">required</b></div>
-        </div>
+  <main id="main-content" class="container page-stack">
+    <section class="page-intro" aria-labelledby="page-title">
+      <div>
+        <p class="eyebrow">Public monitoring view</p>
+        <h1 id="page-title">Review observations with their limits in view.</h1>
+        <p class="lede">This dashboard is a structured guide to the latest available artifacts and their status fields. Availability does not establish accuracy, timeliness, importance, or suitability.</p>
+      </div>
+      <aside class="boundary-card" aria-labelledby="boundary-title">
+        <p class="kicker" id="boundary-title">Operating boundary</p>
+        <p><strong>Research / monitoring only.</strong> These records are not trading signals and provide no buy/sell/hold recommendation. Human review is required.</p>
       </aside>
     </section>
 
-    <section class="grid">
-      <div class="panel">
-        <h2>How to read this dashboard</h2>
-        <p>
-          This dashboard is research_monitoring_only: it presents public aggregate evidence only,
-          drawn from coverage and market-color structures. It is informational and non-advisory.
-        </p>
-        <div class="evidence-list">
-          <div class="evidence">NO_PUBLIC_PUBLICATION_OK</div>
-          <div class="evidence">no trading execution</div>
-          <div class="evidence">no financial advice</div>
-          <div class="evidence">human review required</div>
-        </div>
-      </div>
-
-      <div class="panel">
-        <h2>Data freshness</h2>
-        <p>
-          Public aggregate metadata timestamps reflect when the underlying public export files were
-          generated, not when individual signals occurred.
-        </p>
-        <div class="status-list">
-          <div class="status-item"><span>public_manifest.json generated_at_utc</span><b>2026-07-02T03:36:02+00:00</b></div>
-          <div class="status-item"><span>public_system_summary.json generated_at</span><b>2026-07-02T03:36:02.361726+00:00</b></div>
-        </div>
-        <p class="lead">
-          Source files: <a href="public_manifest.json">public_manifest.json</a> ·
-          <a href="public_system_summary.json">public_system_summary.json</a>
-        </p>
-      </div>
+    <section class="status-strip" aria-label="Public-system boundaries">
+      <div class="status-item"><span class="status-dot" aria-hidden="true"></span><div><span class="status-label">Interpretation</span><strong>Requires review</strong></div></div>
+      <div class="status-item"><span class="status-dot" aria-hidden="true"></span><div><span class="status-label">Trading execution</span><strong>Not provided</strong></div></div>
+      <div class="status-item"><span class="status-dot" aria-hidden="true"></span><div><span class="status-label">Public AI output</span><strong>Disabled unless separately authorized</strong></div></div>
+      <div class="status-item"><span class="status-dot" aria-hidden="true"></span><div><span class="status-label">Publication</span><strong>Disabled unless separately authorized</strong></div></div>
     </section>
 
-    <section class="metrics" aria-label="Coverage snapshot cards">
-      <div class="metric">
-        <label>ledger rows</label>
-        <strong>157</strong>
-        <small>Internal coverage ledger</small>
-      </div>
-      <div class="metric">
-        <label>historical dates</label>
-        <strong>31</strong>
-        <small>Coverage timeline basis</small>
-      </div>
-      <div class="metric">
-        <label>asset classes</label>
-        <strong>3</strong>
-        <small>Commodities · Crypto · Stocks</small>
-      </div>
-      <div class="metric">
-        <label>stock source rows</label>
-        <strong>62</strong>
-        <small>50 assets per stock matrix where present</small>
-      </div>
-    </section>
-
-    <section class="grid">
-      <div class="panel">
-        <h2>Coverage by asset class</h2>
-        <p>Coverage is displayed as verified system state, not as a completeness claim.</p>
-        <div class="asset-grid">
-          <div class="asset-card">
-            <span class="tag active">active</span>
-            <h3>Crypto</h3>
-            <p>Crypto coverage is represented in current and historical market-color structures.</p>
+    <section class="content-grid" aria-labelledby="freshness-title">
+      <article class="card card-wide">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Latest available artifacts</p>
+            <h2 id="freshness-title">Freshness and availability</h2>
           </div>
-          <div class="asset-card">
-            <span class="tag active">active</span>
-            <h3>Stocks</h3>
-            <p>Stock evidence includes 62 stock source rows and 50 assets per stock matrix where present.</p>
-          </div>
-          <div class="asset-card">
-            <span class="tag explicit">explicit status</span>
-            <h3>Commodities</h3>
-            <p>Commodities status is explicit as missing or not-yet-active where applicable.</p>
-          </div>
+          <span class="status-badge status-neutral">Review timestamps</span>
         </div>
-      </div>
+        <p>Artifact timestamps describe when an export reports that it was generated. They do not establish that source observations are current. If a timestamp is missing or older than an approved threshold, treat the data as unavailable or stale and consult the limitations.</p>
+        <div class="artifact-list">
+          <a class="artifact-row" href="public_manifest.json">
+            <span><strong>Public manifest</strong><small>Availability, scope, and generation metadata</small></span>
+            <span class="text-status">Latest available artifact</span>
+          </a>
+          <a class="artifact-row" href="public_system_summary.json">
+            <span><strong>System summary</strong><small>Constrained aggregate status fields</small></span>
+            <span class="text-status">Requires review</span>
+          </a>
+          <a class="artifact-row" href="unified_candidates.csv">
+            <span><strong>Candidate observations</strong><small>Public monitoring categories and state labels</small></span>
+            <span class="text-status">Not a ranking</span>
+          </a>
+        </div>
+      </article>
 
-      <div class="panel">
-        <h2>Benchmark structure</h2>
-        <p>Benchmark panels separate coverage evidence from interpretation.</p>
-        <div class="bars">
-          <div class="bar-row"><span>Crypto / USDT</span><div class="bar"><div class="fill" style="width: 88%"></div></div><b>active</b></div>
-          <div class="bar-row"><span>Crypto / BTC</span><div class="bar"><div class="fill" style="width: 78%"></div></div><b>active</b></div>
-          <div class="bar-row"><span>Stocks / USD</span><div class="bar"><div class="fill amber" style="width: 62%"></div></div><b>50</b></div>
-          <div class="bar-row"><span>Stocks / SPY</span><div class="bar"><div class="fill amber" style="width: 62%"></div></div><b>50</b></div>
-          <div class="bar-row"><span>Commodities</span><div class="bar"><div class="fill gray" style="width: 22%"></div></div><b>status</b></div>
+      <aside class="card">
+        <p class="eyebrow">Reading order</p>
+        <h2>Three checks before interpretation</h2>
+        <ol class="step-list">
+          <li><span>01</span><div><strong>Identify the record</strong><p>Confirm which artifact and field definition you are reading.</p></div></li>
+          <li><span>02</span><div><strong>Read its status</strong><p>Distinguish available, empty, stale, missing, insufficient history, and failure.</p></div></li>
+          <li><span>03</span><div><strong>Apply the limits</strong><p>Use the Data Dictionary and Limitations before drawing any conclusion.</p></div></li>
+        </ol>
+      </aside>
+    </section>
+
+    <section class="card" aria-labelledby="candidate-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Candidate interpretation</p>
+          <h2 id="candidate-title">A candidate is a monitoring item—not an instruction.</h2>
         </div>
+        <span class="status-badge status-info">Research observation</span>
+      </div>
+      <p>Candidate fields group public observations by asset type, benchmark, watch tier, signal-strength band, market-cap band, current state, weekly state, observation bucket, and status note. The table below explains presentation treatment without displaying or ranking artifact values.</p>
+      <div class="table-scroll" tabindex="0" aria-label="Candidate presentation guidance">
+        <table>
+          <caption>How candidate information should be interpreted</caption>
+          <thead><tr><th scope="col">Display group</th><th scope="col">Meaning</th><th scope="col">Do not infer</th></tr></thead>
+          <tbody>
+            <tr><th scope="row">Identity context</th><td>Asset type and benchmark categorize the observation.</td><td>Suitability or expected return</td></tr>
+            <tr><th scope="row">Monitoring context</th><td>Watch tier and observation bucket organize research attention.</td><td>Priority for financial action</td></tr>
+            <tr><th scope="row">State context</th><td>Current and weekly states are system labels at an observed point.</td><td>Future direction</td></tr>
+            <tr><th scope="row">Availability context</th><td>Missing or unavailable fields remain explicitly unclassified.</td><td>A positive or negative result</td></tr>
+          </tbody>
+        </table>
       </div>
     </section>
 
-    <section class="timeline">
-      <h2>Historical coverage timeline</h2>
-      <p class="lead">Thirty-one historical dates are represented in the accepted coverage ledger.</p>
-      <div class="timeline-track" aria-label="31 historical coverage date markers">
-        <div class="tick"></div><div class="tick"></div><div class="tick"></div><div class="tick"></div><div class="tick"></div>
-        <div class="tick"></div><div class="tick"></div><div class="tick"></div><div class="tick"></div><div class="tick"></div>
-        <div class="tick"></div><div class="tick"></div><div class="tick"></div><div class="tick"></div><div class="tick"></div>
-        <div class="tick"></div><div class="tick"></div><div class="tick"></div><div class="tick"></div><div class="tick"></div>
-        <div class="tick"></div><div class="tick"></div><div class="tick"></div><div class="tick"></div><div class="tick"></div>
-        <div class="tick"></div><div class="tick"></div><div class="tick"></div><div class="tick"></div><div class="tick"></div>
-        <div class="tick"></div>
+    <section class="state-grid" aria-labelledby="states-title">
+      <div class="section-heading section-heading-full">
+        <div><p class="eyebrow">Status language</p><h2 id="states-title">Data states stay visible and textual.</h2></div>
       </div>
+      <article class="state-card"><span class="status-badge status-neutral">Empty</span><h3>No displayable records</h3><p>The artifact loaded but contains no rows suitable for this view.</p></article>
+      <article class="state-card"><span class="status-badge status-neutral">Missing</span><h3>Expected field absent</h3><p>No substitute meaning is assigned.</p></article>
+      <article class="state-card"><span class="status-badge status-warning">Stale</span><h3>Timestamp needs review</h3><p>Do not treat older information as current.</p></article>
+      <article class="state-card"><span class="status-badge status-warning">Insufficient history</span><h3>Observation window too short</h3><p>No outcome classification is supported.</p></article>
+      <article class="state-card"><span class="status-badge status-muted">Unavailable</span><h3>Artifact cannot be read</h3><p>Absence does not support a conclusion.</p></article>
+      <article class="state-card"><span class="status-badge status-muted">Failure</span><h3>Presentation could not complete</h3><p>Retry later and review the limitations.</p></article>
     </section>
 
-    <section class="grid">
-      <div class="panel">
-        <h2>Market color matrix</h2>
-        <p>
-          The market color matrix is an aggregate research-monitoring layer. Color states describe
-          coverage and structure, not instructions or recommendations.
-        </p>
-        <div class="evidence-list">
-          <div class="evidence">LEDGER_ROW_COUNT_157_OK</div>
-          <div class="evidence">LEDGER_ASSET_CLASSES_CRYPTO_STOCKS_COMMODITIES_OK</div>
-          <div class="evidence">LEDGER_HISTORY_DATE_COUNT_31_OK</div>
-        </div>
-      </div>
-
-      <div class="panel">
-        <h2>Validation and limitations</h2>
-        <p>
-          Incomplete areas remain visible. Commodities are not silently omitted; the dashboard
-          shows explicit status handling where active coverage is not yet present.
-        </p>
-        <div class="evidence-list">
-          <div class="evidence">LEDGER_STOCK_50_ASSET_COVERAGE_OK</div>
-          <div class="evidence">LEDGER_COMMODITIES_STATUS_EXPLICIT_OK</div>
-          <div class="evidence">NO_PUBLIC_PUBLICATION_OK</div>
-        </div>
-      </div>
-    </section>
-
-    <section class="footer">
-      CTO Scanner / Adaptive Trend Intelligence is research_monitoring_only. This dashboard is
-      non-advisory and does not provide trading execution, financial advice, or public completeness
-      claims. Public deployment, external posting, rclone activity, and Cloudflare changes remain
-      disabled unless separately approved.
-      PUBLIC_PREMIUM_DASHBOARD_IMPLEMENTATION_CONTENT_VERIFY_OK
+    <section class="disclaimer-panel" aria-labelledby="dashboard-disclaimer">
+      <div><p class="eyebrow">Research-only boundary</p><h2 id="dashboard-disclaimer">Observation requires judgment.</h2></div>
+      <p>Public data can be incomplete, delayed, stale, unavailable, or incorrect. Past observations do not establish future performance. No automated status is an approval for action.</p>
+      <a class="text-link" href="limitations.html">Understand all limitations <span aria-hidden="true">→</span></a>
     </section>
   </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p>Adaptive Trend Intelligence · Constrained public research view</p>
+      <p>PUBLIC_PREMIUM_DASHBOARD_IMPLEMENTATION_CONTENT_VERIFY_OK</p>
+    </div>
+  </footer>
+<!-- PUBLIC_STATIC_SITE_SAFETY_NOTICE_BEGIN -->
+<section class="public-safety-disclaimer" aria-label="Research monitoring safety notice">
+  <p><strong>Safety notice:</strong> research_monitoring_only; no trading execution; no financial advice; human review required; not trading signals.</p>
+</section>
+<!-- PUBLIC_STATIC_SITE_SAFETY_NOTICE_END -->
+
+<!-- PUBLIC_DASHBOARD_VALIDATOR_MARKERS_BEGIN -->
+<!-- Adaptive Trend Intelligence Dashboard -->
+<!-- PUBLIC_PREMIUM_DASHBOARD_LOCKED -->
+<!-- NO_PUBLIC_PUBLICATION_OK -->
+<!-- PUBLIC_DASHBOARD_VALIDATOR_MARKERS_END -->
+
 </body>
 </html>
