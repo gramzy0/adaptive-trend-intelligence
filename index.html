@@ -809,25 +809,25 @@
       <div class="section-heading">
         <div>
           <h2 id="export-title">Artifact processing summary</h2>
-          <p>Counters from the latest available public export summary; availability does not establish freshness.</p>
+          <p>Counters and public exposure state from the latest available public system summary; availability does not establish freshness.</p>
         </div>
         <span id="export-load-state" class="badge warn" role="status" aria-live="polite">Checking</span>
       </div>
       <div class="summary-grid">
         <div class="metric">
-          <div class="metric-label">Input Rows</div>
+          <div class="metric-label">System Rows</div>
           <div id="export-input" class="metric-value">Waiting for public data</div>
         </div>
         <div class="metric">
-          <div class="metric-label">Published Rows</div>
+          <div class="metric-label">Public Pair Symbols</div>
           <div id="export-published" class="metric-value">Waiting for public data</div>
         </div>
         <div class="metric">
-          <div class="metric-label">Filtered Rows</div>
+          <div class="metric-label">Score Count</div>
           <div id="export-filtered" class="metric-value">Waiting for public data</div>
         </div>
         <div class="metric">
-          <div class="metric-label">Public Limit</div>
+          <div class="metric-label">Exposure Mode</div>
           <div id="export-limit" class="metric-value">Waiting for public data</div>
         </div>
       </div>
@@ -1094,20 +1094,47 @@
       }
     }
 
+    function nonNegativeNumber(value) {
+      return typeof value === "number" && Number.isFinite(value) && value >= 0;
+    }
+
+    function publicSystemSummaryView(summary) {
+      if (!summary || summary.available !== true) return null;
+      if (!nonNegativeNumber(summary.rows) || !nonNegativeNumber(summary.public_pair_symbol_count)) return null;
+
+      const score = summary.score || {};
+      return {
+        rows: summary.rows,
+        publicPairSymbols: summary.public_pair_symbol_count,
+        scoreCount: nonNegativeNumber(score.count) ? score.count : null,
+        exposureMode: summary.exposure_mode ? formatLabel(summary.exposure_mode) : null,
+        generatedAt: summary.generated_at
+      };
+    }
+
+    function setExportSummaryUnavailable(state, badge) {
+      setBadge("export-load-state", state, badge);
+      ["export-input", "export-published", "export-filtered", "export-limit", "export-generated"]
+        .forEach(id => setText(id, unavailable));
+    }
+
     async function renderExportSummary() {
       try {
-        const summary = await fetchJson("public_export_summary.json");
-        const candidate = summary.candidate_export || {};
+        const summary = await fetchJson("public_system_summary.json");
+        const view = publicSystemSummaryView(summary);
+        if (!view) {
+          setExportSummaryUnavailable("warn", "Unavailable");
+          return;
+        }
+
         setBadge("export-load-state", "good", "Available");
-        setText("export-input", candidate.input_rows);
-        setText("export-published", candidate.published_rows);
-        setText("export-filtered", candidate.filtered_rows);
-        setText("export-limit", candidate.public_limit);
-        setText("export-generated", "Latest public export: " + (summary.generated_at || unavailable));
+        setText("export-input", view.rows);
+        setText("export-published", view.publicPairSymbols);
+        setText("export-filtered", view.scoreCount);
+        setText("export-limit", view.exposureMode);
+        setText("export-generated", "Latest public system summary: " + (view.generatedAt || unavailable));
       } catch (error) {
-        setBadge("export-load-state", "bad", "Unavailable / failure");
-        ["export-input", "export-published", "export-filtered", "export-limit", "export-generated"]
-          .forEach(id => setText(id, unavailable));
+        setExportSummaryUnavailable("bad", "Unavailable / failure");
       }
     }
 
