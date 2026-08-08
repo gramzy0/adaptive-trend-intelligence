@@ -1,129 +1,26 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Limitations and safety boundaries for Adaptive Trend Intelligence public monitoring outputs.">
-  <title>Limitations — Adaptive Trend Intelligence</title>
-  <link rel="stylesheet" href="styles.css">
-  <style>
-    .site-nav,
-    .nav-links,
-    .page-stack,
-    .page-stack > *,
-    .page-intro,
-    .content-grid,
-    .limitation-grid,
-    .card,
-    .boundary-hero,
-    .disclaimer-panel {
-      min-width: 0;
-      max-width: 100%;
-    }
-
-    .page-stack {
-      grid-template-columns: minmax(0, 1fr);
-    }
-
-    @media (max-width: 640px) {
-      .container {
-        width: calc(100% - 1.25rem);
-      }
-
-      .brand,
-      .brand > span:last-child {
-        min-width: 0;
-        overflow-wrap: anywhere;
-      }
-
-      h1 {
-        min-width: 0;
-        font-size: clamp(2.25rem, 12vw, 4.4rem);
-        overflow-wrap: normal;
-      }
-    }
-  </style>
-</head>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Interpretation and operating limits for Adaptive Trend Intelligence Public V1."><title>Limitations — Adaptive Trend Intelligence</title><link rel="stylesheet" href="styles.css"></head>
 <body>
   <a class="skip-link" href="#main-content">Skip to main content</a>
-  <header class="site-header">
-    <nav class="container site-nav" aria-label="Primary navigation">
-      <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">ATI</span><span>Adaptive Trend Intelligence</span></a>
-      <div class="nav-links">
-        <a href="index.html">Home</a>
-        <a href="dashboard.html">Dashboard</a>
-        <a href="data_dictionary.html">Data Dictionary</a>
-        <a href="limitations.html" aria-current="page">Limitations</a>
-      </div>
-    </nav>
-  </header>
-
+  <header class="site-header"><nav class="container site-nav" aria-label="Primary navigation"><a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">ATI</span><span>Adaptive Trend Intelligence</span></a><div class="nav-links"><a href="index.html">Home</a><a href="dashboard.html">Dashboard</a><a href="data_dictionary.html">Data Dictionary</a><a href="limitations.html" aria-current="page">Limitations</a></div></nav></header>
   <main id="main-content" class="container page-stack">
-    <section class="page-intro page-intro-single" aria-labelledby="page-title">
-      <div>
-        <p class="eyebrow">Read before interpretation</p>
-        <h1 id="page-title">Limitations and safety boundaries</h1>
-        <p class="lede">The public experience is intentionally constrained. Its records support research review; they do not establish what anyone should do.</p>
-      </div>
+    <section class="page-intro" aria-labelledby="page-title"><div><p class="eyebrow">Interpretation&nbsp;boundary</p><h1 id="page-title">What the public snapshot cannot establish.</h1><p class="lede">A clear boundary is part of the product. Read these limits before using any timestamp, status, count, candidate, or history record.</p></div><aside class="boundary-card"><span class="status-badge status-caution">Non-negotiable</span><h2>Research / monitoring only</h2><p>This site is <strong>not trading signals</strong> and provides <strong>no financial advice</strong>, <strong>no buy/sell/hold recommendation</strong>, and <strong>no automated execution</strong>. Human review is required.</p></aside></section>
+
+    <section class="limitation-grid" aria-label="Public V1 limitations">
+      <article class="card"><span class="card-number">01</span><h2>No predictive certainty</h2><p>No public record claims or establishes future direction, probability, expected return, repeatability, or predictive certainty.</p></article>
+      <article class="card"><span class="card-number">02</span><h2>No guaranteed freshness</h2><p>A generated timestamp is metadata. Source observations can be older, delayed, revised, or unavailable; freshness is never guaranteed.</p></article>
+      <article class="card"><span class="card-number">03</span><h2>Stale or incomplete artifacts</h2><p>The public snapshot can be stale or incomplete. Missing fields and unavailable files support no favorable or unfavorable conclusion.</p></article>
+      <article class="card"><span class="card-number">04</span><h2>Limited public surface</h2><p>Public data is a constrained subset, not the full internal system. It omits private sources, internal context, logic, controls, and review records.</p></article>
+      <article class="card"><span class="card-number">05</span><h2>No action workflow</h2><p>The site provides no brokerage, portfolio management, allocation, entry, exit, order, deployment, or automated trading execution capability.</p></article>
+      <article class="card"><span class="card-number">06</span><h2>Human review remains required</h2><p>Automated labels are inputs to investigation, not approvals. Independent analysis must check context, definitions, recency, and uncertainty.</p></article>
     </section>
 
-    <section class="boundary-hero" aria-labelledby="principal-boundary">
-      <p class="eyebrow">Principal disclaimer</p>
-      <h2 id="principal-boundary">Research / monitoring only.</h2>
-      <p>Content is not financial advice, not trading signals, and provides no buy/sell/hold recommendation. Human review is required before interpretation or any downstream decision.</p>
-    </section>
+    <section class="split-grid"><article class="card"><p class="eyebrow">Do not infer</p><h2>Status is not direction.</h2><ul class="plain-list"><li>A candidate is not an opportunity.</li><li>A score count is not an investment score.</li><li>An exposure mode is not a market regime.</li><li>An available artifact is not necessarily current or correct.</li><li>Historical outcomes do not establish future results.</li><li>Absence does not mean safety, insignificance, or zero risk.</li></ul></article>
+      <aside class="card card-accent"><p class="eyebrow">If something is unclear</p><h2>Stop at uncertainty.</h2><p>Do not fill gaps with assumptions. Check the Data Dictionary, compare the generated timestamp with an approved freshness standard, establish semantic source freshness separately, and seek appropriate independent expertise.</p><p><a class="text-link" href="data_dictionary.html">Review artifact definitions →</a></p></aside></section>
 
-    <section class="limitation-grid" aria-label="System limitations">
-      <article class="card"><span class="card-index">01</span><h2>Data dependency</h2><p>Outputs depend on approved source data and constrained public artifacts. Data may be delayed, incomplete, stale, unavailable, incorrect, or revised.</p></article>
-      <article class="card"><span class="card-index">02</span><h2>No completeness guarantee</h2><p>Public outputs intentionally omit private sources, internal logic, review context, and non-public fields. Absence does not prove that no relevant information exists.</p></article>
-      <article class="card"><span class="card-index">03</span><h2>No accuracy or timeliness guarantee</h2><p>An artifact timestamp reports generation context only. It does not establish that every source observation is current or correct.</p></article>
-      <article class="card"><span class="card-index">04</span><h2>No execution workflow</h2><p>The public site provides no trading, brokerage, portfolio-management, allocation, entry, exit, or execution function.</p></article>
-      <article class="card"><span class="card-index">05</span><h2>Past observations are limited</h2><p>Historical records and outcome labels do not establish future performance, expected return, repeatability, or suitability.</p></article>
-      <article class="card"><span class="card-index">06</span><h2>Human review remains necessary</h2><p>Automated classifications are inputs to investigation, not approvals. Independent analysis and suitable controls remain necessary.</p></article>
-    </section>
-
-    <section class="content-grid" aria-labelledby="state-limitations-title">
-      <article class="card card-wide">
-        <div class="section-heading"><div><p class="eyebrow">Data-state limits</p><h2 id="state-limitations-title">Absence and delay have distinct meanings.</h2></div></div>
-        <dl class="definition-list">
-          <div><dt>Empty</dt><dd>The artifact loaded with no displayable records; it does not mean no risk or no noteworthy condition.</dd></div>
-          <div><dt>Missing</dt><dd>A field is absent; it must not be replaced with an inferred value.</dd></div>
-          <div><dt>Stale</dt><dd>Information may be older than an approved threshold; review its timestamp before interpretation.</dd></div>
-          <div><dt>Unavailable or failure</dt><dd>The artifact or presentation cannot be read; no conclusion follows.</dd></div>
-          <div><dt>Insufficient history</dt><dd>The available window cannot support the classification; it is not evidence for or against an outcome.</dd></div>
-        </dl>
-      </article>
-      <aside class="card">
-        <p class="eyebrow">Coverage boundary</p>
-        <h2>Constrained and reviewed</h2>
-        <p>Public presence does not authorize broader internal data, functionality, methodology claims, or system capabilities. Coverage labels describe monitoring context only.</p>
-      </aside>
-    </section>
-
-    <section class="card" aria-labelledby="label-title">
-      <div class="section-heading"><div><p class="eyebrow">Label interpretation</p><h2 id="label-title">Status is not direction.</h2></div></div>
-      <p>Candidate, monitoring, confidence, state, and outcome labels describe bounded system classifications. They do not predict price direction, rank financial opportunities, demonstrate an edge, or indicate suitability. Color is never sufficient to convey status; read the text label and definition.</p>
-    </section>
-
-    <section class="disclaimer-panel" aria-labelledby="controlled-actions-title">
-      <div><p class="eyebrow">Controlled actions</p><h2 id="controlled-actions-title">Public display is not publication authority.</h2></div>
-      <p>Public AI output remains disabled unless separately authorized. Publication remains a separately controlled action and is disabled unless separately authorized. Deployment, synchronization, hosting, upload, and release require explicit human decisions and execution authorization.</p>
-    </section>
-
-    <section class="card final-note" aria-labelledby="full-disclaimer-title">
-      <p class="eyebrow">Full interpretation boundary</p>
-      <h2 id="full-disclaimer-title">No public record is a recommendation.</h2>
-      <p>Nothing on this site constitutes financial, investment, legal, tax, or other professional advice. Nothing is a solicitation, endorsement, guarantee, or assessment of fitness for purpose. Any real-world use requires independent review and appropriate professional guidance.</p>
-      <p><a class="text-link" href="data_dictionary.html">Review field definitions <span aria-hidden="true">→</span></a></p>
-    </section>
+    <section class="notice-panel"><div><p class="eyebrow">Bottom line</p><h2>Public display is evidence, not authority.</h2></div><p>Nothing on this site authorizes financial action, publication, deployment, or execution. No record is a solicitation, endorsement, guarantee, or assessment of suitability.</p><a class="button" href="index.html">Return home</a></section>
   </main>
-
-  <footer class="site-footer"><div class="container footer-grid"><p>Adaptive Trend Intelligence · Public limitations</p><p>Publication remains separately controlled</p></div></footer>
-<!-- PUBLIC_STATIC_SITE_SAFETY_NOTICE_BEGIN -->
-<section class="public-safety-disclaimer" aria-label="Research monitoring safety notice">
-  <p><strong>Safety notice:</strong> research_monitoring_only; no trading execution; no financial advice; human review required; not trading signals.</p>
-</section>
-<!-- PUBLIC_STATIC_SITE_SAFETY_NOTICE_END -->
-
+  <footer class="site-footer"><div class="container footer-grid"><p>Adaptive Trend Intelligence · Limitations</p><p>Human review required</p></div></footer>
 </body>
 </html>
