@@ -23,59 +23,44 @@
   <main id="main-content">
     <section class="container hero" aria-labelledby="hero-title">
       <div class="hero-copy">
-        <p class="eyebrow">Portfolio proof of concept</p>
-        <h1 id="hero-title">Adaptive Trend Intelligence: a public-safe monitoring proof of concept for human review—not trading, advice, or execution.</h1>
-        <p class="lede">This project demonstrates how internal monitoring outputs can be sanitized and exposed as a static public dashboard for human review.</p>
+        <p class="eyebrow">Public-safe monitoring</p>
+        <h1 id="hero-title">Adaptive Trend Intelligence</h1>
+        <p class="lede">A public-safe monitoring dashboard that turns sanitized internal monitoring outputs into clear artifacts for human review.</p>
         <div class="action-row">
-          <a class="button button-primary" href="dashboard.html">Review the dashboard</a>
-          <a class="button" href="limitations.html">Read the limitations</a>
-          <a class="button" href="data_dictionary.html">View the data dictionary</a>
+          <a class="button button-primary" href="dashboard.html">Open Dashboard</a>
+          <a class="button" href="data_dictionary.html">View Documentation</a>
         </div>
+        <p class="microcopy">Static, same-origin publishing · Sanitized public outputs · No private data exposure</p>
       </div>
-      <aside class="boundary-card" aria-labelledby="boundary-title">
-        <span class="status-badge status-caution">Human judgment required</span>
-        <h2 id="boundary-title">Research / monitoring only</h2>
-        <p>This site's outputs are <strong>not trading signals</strong>. It provides <strong>no financial advice</strong>, <strong>no buy/sell/hold recommendation</strong>, <strong>no trading execution</strong>, and <strong>no automated execution</strong>. Human review is required.</p>
-        <p class="microcopy">The public snapshot can be stale or incomplete. Check timestamps before interpretation.</p>
+      <aside class="boundary-card product-use-card" aria-labelledby="use-case-title">
+        <span class="status-badge status-neutral">One clear use case</span>
+        <h2 id="use-case-title">Check the public snapshot before interpreting it.</h2>
+        <p>Use the dashboard to see whether the latest public monitoring snapshot is available, review its reported generation time, and inspect supporting evidence before drawing a research conclusion.</p>
+        <p class="microcopy">Unavailable, stale, or incomplete data remains unresolved.</p>
       </aside>
     </section>
 
-    <section class="container section" aria-labelledby="audience-title">
+    <section class="container section" aria-labelledby="minute-title">
       <div class="section-heading">
-        <div><p class="eyebrow">Portfolio context</p><h2 id="audience-title">Who this demo is for</h2><p>A concise technical proof of concept for people reviewing how monitored information becomes a safe, understandable public experience.</p></div>
+        <div><p class="eyebrow">A fast orientation</p><h2 id="minute-title">What a reviewer can learn in one minute</h2><p>Start with public state and provenance—not a prediction or action.</p></div>
       </div>
-      <div class="definition-card-grid">
-        <article class="card"><span class="card-number">01</span><h3>Reviewers</h3><p>Assess the clarity, boundaries, and presentation of a working public demonstration.</p></article>
-        <article class="card"><span class="card-number">02</span><h3>Analysts</h3><p>Explore how freshness, status, and change context support careful human interpretation.</p></article>
-        <article class="card"><span class="card-number">03</span><h3>Technical evaluators</h3><p>Inspect a static, same-origin design that fails closed when a public artifact is unavailable.</p></article>
-        <article class="card"><span class="card-number">04</span><h3>Public-safe workflow evaluators</h3><p>See how AI and data workflows can expose constrained outputs without exposing internal sources or controls.</p></article>
+      <div class="question-grid">
+        <article class="card"><span class="card-number">01</span><h3>Artifact availability</h3><p>Whether the canonical public snapshot loaded or failed closed.</p></article>
+        <article class="card"><span class="card-number">02</span><h3>Reported generation time</h3><p>When the public summary says it was created—not guaranteed source freshness.</p></article>
+        <article class="card"><span class="card-number">03</span><h3>Public exposure</h3><p>Whether the current public policy restricts identifying pair symbols.</p></article>
+        <article class="card"><span class="card-number">04</span><h3>Approved changes</h3><p>Whether reviewed public fields changed, matched, or could not be compared.</p></article>
+        <article class="card"><span class="card-number">05</span><h3>Supporting evidence</h3><p>Where to inspect definitions, provenance, public artifacts, and limitations.</p></article>
       </div>
     </section>
 
-    <section class="section" aria-labelledby="proof-title">
+    <section class="section" aria-labelledby="flow-title">
       <div class="container">
-        <div class="section-heading"><div><p class="eyebrow">Proof of concept</p><h2 id="proof-title">What this demo proves</h2></div></div>
-        <div class="question-grid">
-          <article class="card"><span class="card-number">01</span><h3>Static public deployment</h3><p>A focused monitoring experience can run as a simple, reviewable public site.</p></article>
-          <article class="card"><span class="card-number">02</span><h3>Sanitized artifacts</h3><p>Constrained public outputs can communicate useful system context without exposing private inputs.</p></article>
-          <article class="card"><span class="card-number">03</span><h3>Freshness visibility</h3><p>Generated timestamps and availability states can make recency limits visible instead of implicit.</p></article>
-          <article class="card"><span class="card-number">04</span><h3>Outcome-state explanations</h3><p>Plain-language guides can help visitors interpret system states consistently and cautiously.</p></article>
-          <article class="card"><span class="card-number">05</span><h3>Strict safety boundaries</h3><p>Useful monitoring context can coexist with explicit limits and required human review.</p></article>
+        <div class="section-heading"><div><p class="eyebrow">A constrained public path</p><h2 id="flow-title">How it works</h2><p>Private context stays behind a sanitization boundary; only approved review artifacts reach the public site.</p></div></div>
+        <div class="limitation-grid">
+          <article class="card card-accent"><span class="card-number">01</span><h3>Internal monitoring</h3><p>Internal workflows observe and organize monitoring context without publishing private sources or controls.</p></article>
+          <article class="card card-accent"><span class="card-number">02</span><h3>Sanitization</h3><p>Exposure rules remove identifying and internal detail, producing a constrained set of public artifacts.</p></article>
+          <article class="card card-accent"><span class="card-number">03</span><h3>Public review</h3><p>A person checks availability, timestamps, definitions, change state, and evidence on this static site.</p></article>
         </div>
-      </div>
-    </section>
-
-    <section class="container section" aria-labelledby="not-do-title">
-      <div class="section-heading">
-        <div><p class="eyebrow">Explicit boundaries</p><h2 id="not-do-title">What this demo does not do</h2><p>The demo is intentionally limited. Its public output supports inspection, not action.</p></div>
-      </div>
-      <div class="limitation-grid">
-        <article class="card"><h3>No financial advice</h3><p>Nothing presented is individualized guidance or a basis for financial action.</p></article>
-        <article class="card"><h3>No trading signals</h3><p>Statuses and observations are monitoring context, not directions to trade.</p></article>
-        <article class="card"><h3>No buy/sell/hold recommendation</h3><p>No label or output recommends a transaction or position.</p></article>
-        <article class="card"><h3>No automated execution</h3><p>The static site cannot place orders or initiate an action workflow.</p></article>
-        <article class="card"><h3>No private/internal data exposure</h3><p>Only sanitized public artifacts belong on this public surface.</p></article>
-        <article class="card"><h3>Human review required</h3><p>A person must check freshness, definitions, limitations, and context before drawing a conclusion.</p></article>
       </div>
     </section>
 
@@ -96,9 +81,9 @@
     <section class="container section" aria-labelledby="export-title">
       <div class="section-heading">
         <div>
-          <p class="eyebrow">System summary contract</p>
+          <p class="eyebrow">Public processing context</p>
           <h2 id="export-title">Artifact processing summary</h2>
-          <p>Read-only counters from the existing public system summary. Availability does not establish freshness, quality, or predictive value.</p>
+          <p>Read-only public counters help explain the snapshot without ranking assets or implying performance.</p>
         </div>
         <span id="export-load-state" class="status-badge status-neutral" role="status" aria-live="polite">Checking</span>
       </div>
@@ -112,34 +97,19 @@
     </section>
 
     <section class="section" aria-labelledby="state-guide-title">
-      <div class="container">
-        <div class="section-heading"><div><p class="eyebrow">Start here</p><h2 id="state-guide-title">Five questions this site answers</h2></div></div>
-        <div class="question-grid">
-          <article class="card"><span class="card-number">01</span><h3>What is this?</h3><p>A constrained public view of monitoring artifacts and system-level status.</p></article>
-          <article class="card"><span class="card-number">02</span><h3>What can I inspect?</h3><p>Snapshot metrics, CSV research artifacts, field definitions, and explicit limitations.</p></article>
-          <article class="card"><span class="card-number">03</span><h3>How fresh is it?</h3><p>Read the generated timestamp, then treat freshness as unconfirmed unless source recency is independently established.</p></article>
-          <article class="card"><span class="card-number">04</span><h3>What should I not infer?</h3><p>No prediction, recommendation, certainty, suitability, or permission to act follows from a public record.</p></article>
-          <article class="card"><span class="card-number">05</span><h3>Where next?</h3><p>Open the dashboard, then use the dictionary and limitations before interpreting any field.</p></article>
-        </div>
+      <div class="container notice-panel">
+        <div><p class="eyebrow">Compact safety boundary</p><h2 id="state-guide-title">Research / monitoring only</h2></div>
+        <p><strong>Not trading signals.</strong> <strong>No financial advice.</strong> <strong>No buy/sell/hold recommendation.</strong> <strong>No trading execution.</strong> <strong>No automated execution.</strong> <strong>Human review is required.</strong> The public snapshot can be stale or incomplete.</p>
+        <a class="button" href="limitations.html">Read full limitations</a>
       </div>
     </section>
 
-    <section id="how-to-read" class="container section" aria-labelledby="read-title">
-      <div class="split-grid">
-        <article class="card card-accent">
-          <p class="eyebrow">How to read this</p><h2 id="read-title">Timestamp. Availability. Meaning. Limits.</h2>
-          <ol class="reading-steps">
-            <li><strong>Check the timestamp.</strong><span>Older or missing metadata means the snapshot may be stale.</span></li>
-            <li><strong>Check availability.</strong><span>Unavailable or incomplete data supports no conclusion.</span></li>
-            <li><strong>Define the field.</strong><span>Use the dictionary instead of guessing from a label.</span></li>
-            <li><strong>Apply the limits.</strong><span>Keep human judgment and the research-only boundary in view.</span></li>
-          </ol>
-        </article>
-        <div class="destination-grid">
-          <a class="destination-card" href="dashboard.html"><span>Inspect</span><strong>Dashboard</strong><p>Review system-summary availability, counts, exposure mode, and public artifact links.</p></a>
-          <a class="destination-card" href="data_dictionary.html"><span>Understand</span><strong>Data Dictionary</strong><p>Learn what each public artifact is for—and what it does not mean.</p></a>
-          <a class="destination-card" href="limitations.html"><span>Interpret safely</span><strong>Limitations</strong><p>Review freshness, coverage, execution, and predictive-certainty boundaries.</p></a>
-        </div>
+    <section class="container section" aria-labelledby="next-title">
+      <div class="section-heading"><div><p class="eyebrow">Continue the review</p><h2 id="next-title">Choose the right level of detail.</h2></div></div>
+      <div class="limitation-grid">
+        <a class="destination-card" href="dashboard.html"><span>Inspect</span><strong>Dashboard</strong><p>Start with the intelligence brief, freshness, change state, and supporting evidence.</p></a>
+        <a class="destination-card" href="data_dictionary.html"><span>Understand</span><strong>Data Dictionary</strong><p>Define every public artifact and field before interpreting it.</p></a>
+        <a class="destination-card" href="limitations.html"><span>Interpret safely</span><strong>Limitations</strong><p>Review freshness, coverage, execution, and predictive-certainty boundaries.</p></a>
       </div>
     </section>
   </main>

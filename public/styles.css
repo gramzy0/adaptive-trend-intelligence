@@ -49,6 +49,7 @@ code { color: var(--accent-strong); font-size: 0.87em; overflow-wrap: anywhere; 
 .hero-copy, .page-intro > div:first-child, .boundary-card { padding: clamp(1.5rem, 5vw, 3.5rem); border: 1px solid var(--line-soft); border-radius: var(--radius-lg); background: rgba(13, 27, 33, 0.88); box-shadow: var(--shadow); }
 .hero-copy { background: linear-gradient(145deg, rgba(18, 38, 45, 0.92), rgba(13, 27, 33, 0.86)); }
 .boundary-card { display: flex; flex-direction: column; justify-content: flex-end; border-top: 3px solid var(--caution); }
+.product-use-card { border-top-color: var(--accent); }
 .boundary-card p:last-child { margin-bottom: 0; }
 .eyebrow, .card-number, .definition-card > span { display: block; margin-bottom: 0.65rem; color: var(--accent); font-size: 0.7rem; font-weight: 900; letter-spacing: 0.14em; text-transform: uppercase; }
 .lede { max-width: 48rem; margin-bottom: 0; font-size: clamp(1rem, 1.7vw, 1.2rem); }
