@@ -6,7 +6,7 @@
   <title>Adaptive Trend Intelligence Dashboard</title>
   <link rel="stylesheet" href="styles.css">
   <style>
-    :root {
+    .dashboard-page {
       --bg: #020617;
       --panel: #0f172a;
       --panel-2: #111827;
@@ -20,11 +20,11 @@
       --neutral: #cbd5e1;
     }
 
-    * {
+    .dashboard-page * {
       box-sizing: border-box;
     }
 
-    body {
+    .dashboard-page {
       margin: 0;
       overflow-x: clip;
       font-family: Arial, Helvetica, sans-serif;
@@ -36,7 +36,7 @@
       line-height: 1.5;
     }
 
-    .container {
+    .dashboard-shell {
       width: 100%;
       min-width: 0;
       max-width: 1180px;
@@ -44,7 +44,7 @@
       padding: 28px 20px 48px;
     }
 
-    .hero {
+    .dashboard-hero {
       border: 1px solid var(--border);
       border-radius: 20px;
       background: rgba(15, 23, 42, 0.92);
@@ -52,7 +52,7 @@
       margin-bottom: 20px;
     }
 
-    .eyebrow {
+    .dashboard-eyebrow {
       color: var(--blue);
       text-transform: uppercase;
       letter-spacing: 0.12em;
@@ -61,7 +61,7 @@
       margin-bottom: 8px;
     }
 
-    h1 {
+    .dashboard-page h1 {
       margin: 0;
       font-size: 34px;
       line-height: 1.15;
@@ -76,17 +76,48 @@
     .generated {
       color: var(--muted);
       font-size: 13px;
-      margin-top: 16px;
+      margin-top: 10px;
     }
 
-    .grid {
+    .dashboard-hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 10px 14px;
+      margin-top: 14px;
+    }
+
+    .current-takeaway {
+      flex: 1 1 420px;
+      margin: 0;
+      color: var(--text);
+      font-weight: 700;
+    }
+
+    .primary-cta {
+      display: inline-block;
+      border: 1px solid var(--blue);
+      border-radius: 10px;
+      padding: 9px 14px;
+      background: rgba(37, 99, 235, 0.28);
+      color: #ffffff;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .primary-cta:hover,
+    .primary-cta:focus-visible {
+      background: rgba(37, 99, 235, 0.42);
+    }
+
+    .dashboard-grid {
       display: grid;
       grid-template-columns: repeat(4, minmax(0, 1fr));
       gap: 14px;
       margin-bottom: 20px;
     }
 
-    .card {
+    .dashboard-card {
       background: rgba(17, 24, 39, 0.92);
       border: 1px solid var(--border);
       border-radius: 16px;
@@ -94,14 +125,14 @@
       margin-bottom: 20px;
     }
 
-    .metric {
+    .dashboard-metric {
       background: rgba(15, 23, 42, 0.92);
       border: 1px solid var(--border);
       border-radius: 16px;
       padding: 16px;
     }
 
-    .metric-label {
+    .dashboard-metric-label {
       color: var(--muted);
       font-size: 12px;
       text-transform: uppercase;
@@ -109,30 +140,30 @@
       margin-bottom: 8px;
     }
 
-    .metric-value {
+    .dashboard-metric-value {
       font-size: 19px;
       font-weight: 700;
     }
 
-    h2 {
+    .dashboard-page h2 {
       margin: 0 0 14px;
       font-size: 20px;
     }
 
-    table {
+    .dashboard-page table {
       width: 100%;
       border-collapse: collapse;
       overflow: hidden;
     }
 
-    th, td {
+    .dashboard-page th, .dashboard-page td {
       padding: 11px 10px;
       border-bottom: 1px solid var(--border);
       text-align: left;
       vertical-align: top;
     }
 
-    th {
+    .dashboard-page th {
       color: var(--blue);
       font-size: 13px;
       text-transform: uppercase;
@@ -148,7 +179,7 @@
       color: var(--neutral);
     }
 
-    .badge {
+    .dashboard-badge {
       display: inline-block;
       padding: 4px 9px;
       border-radius: 999px;
@@ -158,22 +189,22 @@
       white-space: nowrap;
     }
 
-    .badge.danger {
+    .dashboard-badge.danger {
       color: var(--danger);
       background: rgba(127, 29, 29, 0.24);
     }
 
-    .badge.warning {
+    .dashboard-badge.warning {
       color: var(--warning);
       background: rgba(113, 63, 18, 0.24);
     }
 
-    .badge.success {
+    .dashboard-badge.success {
       color: var(--success);
       background: rgba(20, 83, 45, 0.24);
     }
 
-    .badge.neutral {
+    .dashboard-badge.neutral {
       color: var(--neutral);
       background: rgba(51, 65, 85, 0.28);
     }
@@ -273,14 +304,109 @@
       padding-left: 12px;
     }
 
+    .brief-lead {
+      border-color: rgba(147, 197, 253, 0.5);
+      background:
+        linear-gradient(135deg, rgba(37, 99, 235, 0.16), transparent 48%),
+        rgba(17, 24, 39, 0.96);
+    }
+
+    .section-intro {
+      max-width: 780px;
+      margin: -4px 0 14px;
+      color: var(--muted);
+    }
+
+    .evidence-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 14px;
+    }
+
+    .evidence-card {
+      min-width: 0;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 14px;
+      background: rgba(15, 23, 42, 0.72);
+    }
+
+    .evidence-card h3 {
+      margin: 0 0 8px;
+      color: var(--blue);
+      font-size: 16px;
+    }
+
+    .evidence-card p {
+      margin: 6px 0 0;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .evidence-card strong {
+      color: var(--text);
+    }
+
+    .raw-downloads {
+      margin-top: 16px;
+      border-top: 1px solid var(--border);
+      padding-top: 14px;
+    }
+
+    .raw-downloads summary {
+      color: var(--blue);
+      cursor: pointer;
+      font-weight: 700;
+    }
+
+    .raw-downloads .download-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 12px;
+    }
+
+    .dashboard-section-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin: 0 0 20px;
+      padding: 12px;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      background: rgba(15, 23, 42, 0.86);
+    }
+
+    .dashboard-section-nav a {
+      padding: 6px 10px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      color: var(--blue);
+      font-size: 13px;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .dashboard-section-nav a:hover {
+      border-color: var(--blue);
+    }
+
+    .dashboard-page caption {
+      padding: 0 0 10px;
+      color: var(--muted);
+      text-align: left;
+      font-size: 13px;
+    }
+
     @media (max-width: 900px) {
-      .grid {
+      .dashboard-grid {
         grid-template-columns: repeat(2, minmax(0, 1fr));
       }
     }
 
     @media (max-width: 620px) {
-      .grid {
+      .dashboard-grid {
         grid-template-columns: 1fr;
       }
 
@@ -292,20 +418,37 @@
         grid-template-columns: 1fr;
       }
 
-      .container {
+      .evidence-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .dashboard-shell {
         padding-inline: 12px;
       }
 
-      .card, .hero, .metric, .warning-box {
+      .dashboard-card, .dashboard-hero, .dashboard-metric, .warning-box {
         min-width: 0;
         max-width: 100%;
       }
 
-      h1 {
+      .dashboard-page h1 {
         font-size: 26px;
       }
 
-      th, td {
+      .dashboard-hero {
+        padding: 20px;
+      }
+
+      .dashboard-hero-actions {
+        align-items: stretch;
+      }
+
+      .primary-cta {
+        width: 100%;
+        text-align: center;
+      }
+
+      .dashboard-page th, .dashboard-page td {
         font-size: 13px;
       }
     }
@@ -328,56 +471,127 @@
     }
   </style>
 </head>
-<body>
-  <main class="container">
-    <a href="index.html" class="nav-back">← Overview</a>
-    <a href="data_dictionary.html" class="nav-back">Data Dictionary</a>
-    <a href="limitations.html" class="nav-back">Limitations</a>
-    <section class="hero">
-      <div class="eyebrow">Research & Monitoring Dashboard</div>
-      <h1>Adaptive Trend Intelligence Dashboard</h1>
+<body class="dashboard-page">
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <header class="site-header">
+    <nav class="container site-nav" aria-label="Primary navigation">
+      <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">ATI</span><span>Adaptive Trend Intelligence</span></a>
+      <div class="nav-links"><a href="index.html">Home</a><a href="dashboard.html" aria-current="page">Dashboard</a><a href="data_dictionary.html">Data Dictionary</a><a href="limitations.html">Limitations</a></div>
+    </nav>
+  </header>
+  <main id="main-content" class="container dashboard-shell">
+    <section class="dashboard-hero" aria-labelledby="dashboard-title">
+      <div class="dashboard-eyebrow">Research & Monitoring Dashboard</div>
+      <h1 id="dashboard-title">Adaptive Trend Intelligence Dashboard</h1>
       <p class="subtitle">
-        This dashboard summarises public research-monitoring outputs from CTO Scanner. It is
-        designed to show data freshness, public export status, candidate monitoring rows, and
-        historical signal outcome records. It combines trend-flip signals, governance controls,
-        risk posture, and candidate observations.
-      </p>
-      <p class="subtitle">
-        This dashboard is for informational monitoring only. It is not financial advice, not
-        investment guidance, not a recommendation, and not a trading signal. Assets are not ranked
-        and not scored for public action. Data is refreshed by the scheduled scanner/export workflow
-        when the nightly run completes successfully.
-      </p>
-      <p class="subtitle">
-        <strong>Research / monitoring only.</strong> These are <strong>not trading signals</strong>.
-        There is <strong>no financial advice</strong>, <strong>no buy/sell/hold recommendation</strong>,
-        <strong>no trading execution</strong>, and <strong>no automated execution</strong>.
-        <strong>Human review is required.</strong>
-        The public snapshot may be stale, incomplete, or unavailable; if unavailable, no conclusion
-        can be drawn. Check its generation timestamp and semantic freshness before interpretation.
+        A public snapshot of artifact availability, freshness, approved changes, and monitoring outcomes.
       </p>
       <div class="generated">Generated at: 2026-08-07 03:30 UTC</div>
-    </section>
-
-    <section class="card" aria-labelledby="insight-brief-title">
-      <div class="eyebrow">High-level snapshot interpretation</div>
-      <h2 id="insight-brief-title">Insight brief</h2>
-      <p class="disclaimer">
-        <strong>Research / monitoring only.</strong> This brief summarizes existing public-safe
-        dashboard states for human review; it is <strong>not trading signals</strong> and provides
-        <strong>no financial advice</strong>.
-      </p>
-      <div class="guide-grid" aria-label="Insight brief interpretation guide">
-        <div class="guide-item"><strong>What changed</strong><p>Use the comparison state below: changed means inspect the supporting public artifacts; unchanged means no new public conclusion.</p></div>
-        <div class="guide-item"><strong>Why it matters</strong><p>Availability, freshness, and comparison state show whether the static snapshot can support careful review—not whether a market condition is important.</p></div>
-        <div class="guide-item"><strong>What to review next</strong><p>Check data freshness first when the snapshot is stale, then review the comparison, public artifacts, definitions, and limitations.</p></div>
-        <div class="guide-item"><strong>What remains uncertain</strong><p>A timestamp does not establish semantic freshness. If an artifact is unavailable, incomplete, malformed, or stale, no conclusion can be drawn.</p></div>
-        <div class="guide-item"><strong>What not to conclude</strong><p>Do not infer market direction, future performance, or actionability. There is no buy/sell/hold recommendation, no trading execution, and human review is required.</p></div>
+      <div class="dashboard-hero-actions">
+        <p id="current-takeaway" class="current-takeaway" role="status" aria-live="polite">Checking public artifact availability; no conclusion can be drawn yet.</p>
+        <a class="primary-cta" href="#freshness-confidence-title">Review freshness and supporting evidence</a>
       </div>
     </section>
 
-    <section class="card" aria-labelledby="visitor-summary-title">
-      <div class="eyebrow">Five questions before interpreting the rows</div>
+    <nav class="dashboard-section-nav" aria-label="Dashboard sections">
+      <a href="#intelligence-brief-title">Brief</a>
+      <a href="#freshness-confidence-title">Freshness</a>
+      <a href="#what-changed-title">Changes</a>
+      <a href="#outcomes-title">Outcomes</a>
+      <a href="#candidates-title">Candidates</a>
+      <a href="#supporting-artifacts-title">Evidence</a>
+      <a href="#safety-boundary-title">Limits</a>
+    </nav>
+
+    <section class="dashboard-card brief-lead" aria-labelledby="intelligence-brief-title">
+      <div class="dashboard-eyebrow">Insight brief · Human-readable public snapshot</div>
+      <h2 id="intelligence-brief-title">Today’s public intelligence brief</h2>
+      <p class="section-intro">The local public artifacts are checked on load. Their state supports careful review, not a market or trading conclusion.</p>
+      <div class="guide-grid" aria-label="Today's public intelligence brief">
+        <div class="guide-item"><strong>What is loaded</strong><p>The public system summary and approved comparison artifacts are checked locally; unavailable files fail closed.</p></div>
+        <div class="guide-item"><strong>What changed means</strong><p>Changed means inspect the supporting public artifacts; unchanged means no new public conclusion.</p></div>
+        <div class="guide-item"><strong>Check first</strong><p>Check data freshness first when the snapshot is stale, then review comparison state and source evidence. Human review is required.</p></div>
+        <div class="guide-item"><strong>What remains uncertain</strong><p>Market direction, predictive accuracy, and actionability cannot be concluded. If an artifact is unavailable, incomplete, malformed, or stale, no conclusion can be drawn.</p></div>
+      </div>
+    </section>
+
+    <section class="dashboard-card" aria-labelledby="what-changed-title">
+      <div class="dashboard-eyebrow">Accepted-baseline interpretation</div>
+      <h2 id="what-changed-title">What changed</h2>
+      <p class="section-intro">Use these states to read the detailed comparison evidence below. A difference is descriptive and does not indicate importance or direction.</p>
+      <div class="guide-grid" aria-label="Compact change-state guide">
+        <div class="guide-item"><strong>Changed</strong><p>Changed means inspect the supporting public artifacts before interpreting why the public value differs from the baseline.</p></div>
+        <div class="guide-item"><strong>Unchanged</strong><p>Unchanged means no new public conclusion; the public value simply matches the baseline.</p></div>
+        <div class="guide-item"><strong>Stale</strong><p>The evidence may be older than the review expectation. Review freshness first and do not treat it as current.</p></div>
+        <div class="guide-item"><strong>Unavailable</strong><p>The evidence could not be read, so no comparison or conclusion can be drawn.</p></div>
+        <div class="guide-item"><strong>Malformed / incomparable</strong><p>The evidence has an unexpected shape or cannot be compared safely. Stop interpretation and review the source.</p></div>
+      </div>
+      <p class="disclaimer"><a class="nav-back" href="#comparison-evidence-title">Inspect detailed comparison evidence</a></p>
+    </section>
+
+    <section class="dashboard-card" aria-labelledby="why-it-matters-title">
+      <h2 id="why-it-matters-title">Why it matters</h2>
+      <div class="guide-grid">
+        <div class="guide-item"><strong>Availability enables review</strong><p>Readable artifacts let a reviewer inspect the evidence; availability does not establish correctness, freshness, or predictive value.</p></div>
+        <div class="guide-item"><strong>State guides attention</strong><p>Freshness and comparison states indicate what needs checking next. They do not describe market quality, direction, or opportunity.</p></div>
+      </div>
+    </section>
+
+    <section class="dashboard-card" aria-labelledby="review-next-title">
+      <h2 id="review-next-title">What to review next</h2>
+      <div class="guide-grid">
+        <div class="guide-item"><strong>1. Verify freshness</strong><p>If stale or unconfirmed, check timestamps and source context before interpreting any row.</p></div>
+        <div class="guide-item"><strong>2. Inspect differences</strong><p>If changed, compare the approved fields with their supporting public artifacts.</p></div>
+        <div class="guide-item"><strong>3. Check definitions</strong><p>Use the data dictionary instead of inferring meaning from technical labels.</p></div>
+        <div class="guide-item"><strong>4. Stop at uncertainty</strong><p>If missing, unavailable, incomplete, or malformed, no conclusion can be drawn. Human review required.</p></div>
+      </div>
+    </section>
+
+    <section class="dashboard-card" aria-labelledby="freshness-confidence-title">
+      <h2 id="freshness-confidence-title">Freshness and confidence</h2>
+      <p class="section-intro">Confidence here means confidence that a public artifact is available and interpretable—not confidence in a forecast or outcome.</p>
+      <div class="guide-grid">
+        <div class="guide-item"><strong>Generated timestamp</strong><p>Shows when the static export was created. It does not prove every source observation is current.</p></div>
+        <div class="guide-item"><strong>Stale data</strong><p>May no longer describe the latest available source state. Review freshness before using it in research.</p></div>
+        <div class="guide-item"><strong>Unavailable artifacts</strong><p>Cannot support inspection or comparison. Absence is not a positive or negative finding.</p></div>
+        <div class="guide-item"><strong>Fail-closed conclusion</strong><p>Missing, stale, unavailable, incomplete, or malformed evidence means no conclusion should be drawn.</p></div>
+      </div>
+      <p class="disclaimer"><a class="nav-back" href="#system-title">Review detailed data freshness</a></p>
+    </section>
+
+    <section class="dashboard-card" aria-labelledby="supporting-artifacts-title">
+      <div class="dashboard-eyebrow">Evidence layer</div>
+      <h2 id="supporting-artifacts-title">Supporting public artifacts</h2>
+      <p class="section-intro">These sanitized same-origin files support the dashboard’s public claims. They are evidence and provenance—not the product, an endorsement, or a conclusion.</p>
+      <div class="evidence-grid">
+        <article class="evidence-card"><h3>Daily research summary</h3><p><strong>Supports:</strong> snapshot-level monitoring records and row-count checks.</p><p><strong>Does not prove:</strong> current market direction, quality, or actionability.</p></article>
+        <article class="evidence-card"><h3>Candidate observations</h3><p><strong>Supports:</strong> review of sanitized candidate-state rows.</p><p><strong>Does not prove:</strong> an opportunity, ranking, or trading signal.</p></article>
+        <article class="evidence-card"><h3>Outcome history</h3><p><strong>Supports:</strong> retrospective review of recorded outcome states.</p><p><strong>Does not prove:</strong> future performance or prediction accuracy.</p></article>
+        <article class="evidence-card"><h3>Public manifest</h3><p><strong>Supports:</strong> approved inventory and generated metadata checks.</p><p><strong>Does not prove:</strong> semantic freshness or completeness of source observations.</p></article>
+        <article class="evidence-card"><h3>System summary</h3><p><strong>Supports:</strong> public availability, counts, and exposure-policy checks.</p><p><strong>Does not prove:</strong> investment meaning, suitability, or permission to act.</p></article>
+      </div>
+      <details class="raw-downloads">
+        <summary>Raw downloads and provenance (supporting evidence)</summary>
+        <p class="disclaimer">Open files only when exact rows or metadata are needed. Read them with the data dictionary and limitations.</p>
+        <div class="download-links">
+          <a class="nav-back" href="daily_ai_summary.csv">Daily research summary (CSV)</a>
+          <a class="nav-back" href="unified_candidates.csv">Candidate observations (CSV)</a>
+          <a class="nav-back" href="signal_outcomes_history.csv">Outcome history (CSV)</a>
+          <a class="nav-back" href="public_manifest.json">Public manifest (JSON)</a>
+          <a class="nav-back" href="public_system_summary.json">System summary (JSON)</a>
+        </div>
+      </details>
+    </section>
+
+    <section class="dashboard-card comparison-safety" aria-labelledby="safety-boundary-title">
+      <h2 id="safety-boundary-title">Limitations / safety boundary</h2>
+      <p><strong>Research / monitoring only.</strong> <strong>Not trading signals.</strong> <strong>No financial advice.</strong> <strong>No buy/sell/hold recommendation.</strong> <strong>No trading execution.</strong> <strong>Human review required.</strong></p>
+      <p class="disclaimer">The dashboard exposes no private/internal data. Read the full limitations before drawing a research conclusion.</p>
+      <a class="nav-back" href="limitations.html">Read full limitations</a>
+    </section>
+
+    <section class="dashboard-card" aria-labelledby="visitor-summary-title">
+      <div class="dashboard-eyebrow">Five questions before interpreting the rows</div>
       <h2 id="visitor-summary-title">Visitor quick summary</h2>
       <div class="guide-grid">
         <div class="guide-item"><strong>1. What is this showing?</strong><p>A static public snapshot of research-monitoring status, candidate observations, and historical outcomes. It is research / monitoring only and the rows are not trading signals.</p></div>
@@ -389,15 +603,15 @@
       <p class="disclaimer"><a class="nav-back" href="#system-title">Check data freshness</a> <a class="nav-back" href="#what-changed-title">Review what changed</a> <a class="nav-back" href="limitations.html">Read limitations</a></p>
     </section>
 
-    <section class="card" aria-labelledby="system-title">
+    <section class="dashboard-card" aria-labelledby="system-title">
       <h2 id="system-title">Public System Summary</h2>
-      <div class="grid">
-        <div class="metric"><div class="metric-label">Generated timestamp</div><div id="generated-at" class="metric-value">Checking…</div></div>
-        <div class="metric"><div class="metric-label">Artifact availability</div><div id="availability" class="metric-value">Checking…</div></div>
-        <div class="metric"><div class="metric-label">Row count</div><div id="row-count" class="metric-value">—</div></div>
-        <div class="metric"><div class="metric-label">Public pair symbol count</div><div id="pair-count" class="metric-value">—</div></div>
-        <div class="metric"><div class="metric-label">Score count</div><div id="score-count" class="metric-value">—</div></div>
-        <div class="metric"><div class="metric-label">Exposure mode</div><div id="exposure-mode" class="metric-value">—</div></div>
+      <div class="dashboard-grid">
+        <div class="dashboard-metric"><div class="dashboard-metric-label">Generated timestamp</div><div id="generated-at" class="dashboard-metric-value">Checking…</div></div>
+        <div class="dashboard-metric"><div class="dashboard-metric-label">Artifact availability</div><div id="availability" class="dashboard-metric-value">Checking…</div></div>
+        <div class="dashboard-metric"><div class="dashboard-metric-label">Row count</div><div id="row-count" class="dashboard-metric-value">—</div></div>
+        <div class="dashboard-metric"><div class="dashboard-metric-label">Public pair symbol count</div><div id="pair-count" class="dashboard-metric-value">—</div></div>
+        <div class="dashboard-metric"><div class="dashboard-metric-label">Score count</div><div id="score-count" class="dashboard-metric-value">—</div></div>
+        <div class="dashboard-metric"><div class="dashboard-metric-label">Exposure mode</div><div id="exposure-mode" class="dashboard-metric-value">—</div></div>
       </div>
       <p id="freshness-message" class="disclaimer" role="status" aria-live="polite">
         Checking the local public system summary. A timestamp alone does not guarantee semantic freshness.
@@ -413,18 +627,13 @@
       </div>
     </section>
 
-    <section class="card" aria-labelledby="what-changed-title">
-      <div class="eyebrow">Public V1.1 accepted baseline</div>
-      <h2 id="what-changed-title">What changed</h2>
+    <section class="dashboard-card" aria-labelledby="comparison-evidence-title">
+      <div class="dashboard-eyebrow">Public V1.1 accepted baseline</div>
+      <h2 id="comparison-evidence-title">Detailed comparison evidence</h2>
       <p>
         Compare this accepted public snapshot with the pinned baseline. Generated timestamps describe
         artifact creation; they do not prove semantic freshness. A changed count is descriptive only
         and does not indicate direction, quality, importance, or future performance.
-      </p>
-      <p class="comparison-safety">
-        <strong>Research / monitoring only.</strong> <strong>Not trading signals.</strong>
-        <strong>No financial advice.</strong> <strong>No buy/sell/hold recommendation.</strong>
-        <strong>No trading execution.</strong> <strong>Human review required.</strong>
       </p>
       <p class="disclaimer">
         <strong>Unavailable means no conclusion can be drawn.</strong>
@@ -432,10 +641,10 @@
       </p>
 
       <div class="comparison-meta" aria-label="Accepted comparison baseline">
-        <div><div class="metric-label">Baseline commit</div><div>cba214f0651191639cfa0054ecd9e905b1d0395b</div></div>
-        <div><div class="metric-label">Baseline manifest time</div><div>2026-08-07T03:37:44+00:00</div></div>
-        <div><div class="metric-label">Baseline system-summary time</div><div>2026-08-07T03:37:44.531161+00:00</div></div>
-        <div><div class="metric-label">Baseline CSV row counts</div><div>Daily summary 256 · Candidates 7 · Outcome history 610</div></div>
+        <div><div class="dashboard-metric-label">Baseline commit</div><div>cba214f0651191639cfa0054ecd9e905b1d0395b</div></div>
+        <div><div class="dashboard-metric-label">Baseline manifest time</div><div>2026-08-07T03:37:44+00:00</div></div>
+        <div><div class="dashboard-metric-label">Baseline system-summary time</div><div>2026-08-07T03:37:44.531161+00:00</div></div>
+        <div><div class="dashboard-metric-label">Baseline CSV row counts</div><div>Daily summary 256 · Candidates 7 · Outcome history 610</div></div>
       </div>
 
       <div class="guide-grid" aria-label="What changed state guide">
@@ -449,7 +658,8 @@
 
       <div class="comparison-table-wrap" role="region" aria-label="Approved public artifact comparison table" tabindex="0">
         <table aria-label="Approved public artifact comparison">
-          <thead><tr><th>Approved field</th><th>Baseline</th><th>Current snapshot</th><th>State</th></tr></thead>
+          <caption>Approved public artifact values compared with the accepted baseline.</caption>
+          <thead><tr><th scope="col">Approved field</th><th scope="col">Baseline</th><th scope="col">Current snapshot</th><th scope="col">State</th></tr></thead>
           <tbody>
             <tr><td>Manifest generated time</td><td>2026-08-07T03:37:44+00:00</td><td id="change-manifest-current">Checking…</td><td id="change-manifest-state" class="comparison-state">Unknown</td></tr>
             <tr><td>System-summary generated time</td><td>2026-08-07T03:37:44.531161+00:00</td><td id="change-system-current">Checking…</td><td id="change-system-state" class="comparison-state">Unknown</td></tr>
@@ -471,8 +681,8 @@
       <noscript><p class="warning-box">What changed is unavailable without local script execution. Review the public artifacts directly; no conclusion can be drawn.</p></noscript>
     </section>
 
-    <section class="card" style="margin-bottom: 20px;">
-      <h2>How to read this dashboard</h2>
+    <section class="dashboard-card" aria-labelledby="how-to-read-title" style="margin-bottom: 20px;">
+      <h2 id="how-to-read-title">How to read this dashboard</h2>
       <ul class="disclaimer" style="margin: 0 0 10px; padding-left: 20px; line-height: 2;">
         <li><strong>Research / monitoring only:</strong> public status cards describe operational readiness and export freshness.</li>
         <li><strong>Not trading signals:</strong> candidate rows are observations, with no buy/sell/hold recommendation and no trading execution.</li>
@@ -490,7 +700,7 @@
       </p>
     </section>
 
-    <section class="card" aria-labelledby="outcome-guide-title">
+    <section class="dashboard-card" aria-labelledby="outcome-guide-title">
       <h2 id="outcome-guide-title">Outcome state guide</h2>
       <p class="disclaimer">Outcome labels summarize recorded monitoring history. They are not investment advice, forecasts, or instructions.</p>
       <div class="guide-grid">
@@ -501,84 +711,71 @@
         <div class="guide-item"><strong>Unavailable</strong><p>The outcome value is missing or cannot be evaluated, so no conclusion can be drawn.</p></div>
         <div class="guide-item"><strong>Human review required</strong><p>Context, data quality, and limitations must be checked manually; there is no automated execution.</p></div>
       </div>
-      <p class="disclaimer"><strong>No financial advice.</strong> <strong>No buy/sell/hold recommendation.</strong> <strong>No trading execution.</strong></p>
     </section>
 
-    <section class="card" aria-labelledby="artifact-title">
-      <h2 id="artifact-title">Public data files</h2>
-      <p class="disclaimer">Inspect each sanitized artifact with its definitions and limitations; availability is not an endorsement or conclusion.</p>
-      <p>
-        <a class="nav-back" href="daily_ai_summary.csv">Daily research summary (CSV)</a>
-        <a class="nav-back" href="unified_candidates.csv">Candidate observations (CSV)</a>
-        <a class="nav-back" href="signal_outcomes_history.csv">Outcome history (CSV)</a>
-        <a class="nav-back" href="public_manifest.json">Public manifest (JSON)</a>
-        <a class="nav-back" href="public_system_summary.json">System summary (JSON)</a>
-      </p>
-    </section>
-
-    <section class="grid">
-      <div class="metric">
-        <div class="metric-label">System State</div>
-        <div class="metric-value"><span class="badge danger">red</span></div>
+    <section class="dashboard-grid" aria-label="Current operational status">
+      <div class="dashboard-metric">
+        <div class="dashboard-metric-label">System State</div>
+        <div class="dashboard-metric-value"><span class="dashboard-badge danger">red</span></div>
       </div>
-      <div class="metric">
-        <div class="metric-label">Permission</div>
-        <div class="metric-value"><span class="badge danger">blocked</span></div>
+      <div class="dashboard-metric">
+        <div class="dashboard-metric-label">Permission</div>
+        <div class="dashboard-metric-value"><span class="dashboard-badge danger">blocked</span></div>
       </div>
-      <div class="metric">
-        <div class="metric-label">AI Readiness</div>
-        <div class="metric-value"><span class="badge danger">Not Ready</span></div>
+      <div class="dashboard-metric">
+        <div class="dashboard-metric-label">AI Readiness</div>
+        <div class="dashboard-metric-value"><span class="dashboard-badge danger">Not Ready</span></div>
       </div>
-      <div class="metric">
-        <div class="metric-label">Market Stress</div>
-        <div class="metric-value"><span class="badge danger">extreme</span></div>
+      <div class="dashboard-metric">
+        <div class="dashboard-metric-label">Market Stress</div>
+        <div class="dashboard-metric-value"><span class="dashboard-badge danger">extreme</span></div>
       </div>
     </section>
 
-    <section class="warning-box">
+    <section class="warning-box" aria-label="Governance warning">
       <strong>Governance Warning:</strong>
       Current governance state is <strong>Restricted</strong>.
       If permission is blocked or governance is restricted, this dashboard should
       be treated as monitor-only. It should not be interpreted as a capital deployment instruction.
     </section>
 
-    <section class="card">
-      <h2>Governance Summary</h2>
-      <div class="grid">
-        <div class="metric">
-          <div class="metric-label">Governance State</div>
-          <div class="metric-value"><span class="badge danger">Restricted</span></div>
+    <section class="dashboard-card" aria-labelledby="governance-summary-title">
+      <h2 id="governance-summary-title">Governance Summary</h2>
+      <div class="dashboard-grid">
+        <div class="dashboard-metric">
+          <div class="dashboard-metric-label">Governance State</div>
+          <div class="dashboard-metric-value"><span class="dashboard-badge danger">Restricted</span></div>
         </div>
-        <div class="metric">
-          <div class="metric-label">Decision Quality</div>
-          <div class="metric-value"><span class="badge danger">Poor Quality</span></div>
+        <div class="dashboard-metric">
+          <div class="dashboard-metric-label">Decision Quality</div>
+          <div class="dashboard-metric-value"><span class="dashboard-badge danger">Poor Quality</span></div>
         </div>
-        <div class="metric">
-          <div class="metric-label">Meta Confidence</div>
-          <div class="metric-value"><span class="badge danger">Very Low Confidence</span></div>
+        <div class="dashboard-metric">
+          <div class="dashboard-metric-label">Meta Confidence</div>
+          <div class="dashboard-metric-value"><span class="dashboard-badge danger">Very Low Confidence</span></div>
         </div>
       </div>
     </section>
 
 
-    <section class="card">
-      <h2>Performance & Outcome Snapshot</h2>
-      <div class="grid">
-        <div class="metric">
-          <div class="metric-label">Signal Snapshots</div>
-          <div class="metric-value">9009</div>
+    <section class="dashboard-card" aria-labelledby="performance-outcome-title">
+      <h2 id="performance-outcome-title">Performance & Outcome Snapshot</h2>
+      <div class="dashboard-grid">
+        <div class="dashboard-metric">
+          <div class="dashboard-metric-label">Signal Snapshots</div>
+          <div class="dashboard-metric-value">9009</div>
         </div>
-        <div class="metric">
-          <div class="metric-label">Tracked Outcomes</div>
-          <div class="metric-value">610</div>
+        <div class="dashboard-metric">
+          <div class="dashboard-metric-label">Tracked Outcomes</div>
+          <div class="dashboard-metric-value">610</div>
         </div>
-        <div class="metric">
-          <div class="metric-label">AI Alerts</div>
-          <div class="metric-value">20</div>
+        <div class="dashboard-metric">
+          <div class="dashboard-metric-label">AI Alerts</div>
+          <div class="dashboard-metric-value">20</div>
         </div>
-        <div class="metric">
-          <div class="metric-label">Scan Results</div>
-          <div class="metric-value">721673</div>
+        <div class="dashboard-metric">
+          <div class="dashboard-metric-label">Scan Results</div>
+          <div class="dashboard-metric-value">721673</div>
         </div>
       </div>
       <p class="disclaimer">
@@ -588,39 +785,39 @@
     </section>
 
 
-    <section class="card">
-      <h2>Outcome Quality Metrics</h2>
-      <div class="grid">
-        <div class="metric">
-          <div class="metric-label">Outcome Coverage</div>
-          <div class="metric-value">6.8%</div>
+    <section class="dashboard-card" aria-labelledby="outcome-quality-title">
+      <h2 id="outcome-quality-title">Outcome Quality Metrics</h2>
+      <div class="dashboard-grid">
+        <div class="dashboard-metric">
+          <div class="dashboard-metric-label">Outcome Coverage</div>
+          <div class="dashboard-metric-value">6.8%</div>
         </div>
-        <div class="metric">
-          <div class="metric-label">Open Outcomes</div>
-          <div class="metric-value">171</div>
+        <div class="dashboard-metric">
+          <div class="dashboard-metric-label">Open Outcomes</div>
+          <div class="dashboard-metric-value">171</div>
         </div>
-        <div class="metric">
-          <div class="metric-label">Closed Outcomes</div>
-          <div class="metric-value">439</div>
+        <div class="dashboard-metric">
+          <div class="dashboard-metric-label">Closed Outcomes</div>
+          <div class="dashboard-metric-value">439</div>
         </div>
-        <div class="metric">
-          <div class="metric-label">Data Readiness</div>
-          <div class="metric-value">
-            <span class="badge neutral">
+        <div class="dashboard-metric">
+          <div class="dashboard-metric-label">Data Readiness</div>
+          <div class="dashboard-metric-value">
+            <span class="dashboard-badge neutral">
               early
             </span>
           </div>
         </div>
       </div>
 
-      <div class="grid">
-        <div class="metric">
-          <div class="metric-label">Avg. Max Favorable Excursion</div>
-          <div class="metric-value">9.30</div>
+      <div class="dashboard-grid">
+        <div class="dashboard-metric">
+          <div class="dashboard-metric-label">Avg. Max Favorable Excursion</div>
+          <div class="dashboard-metric-value">9.30</div>
         </div>
-        <div class="metric">
-          <div class="metric-label">Avg. Max Adverse Excursion</div>
-          <div class="metric-value">-11.99</div>
+        <div class="dashboard-metric">
+          <div class="dashboard-metric-label">Avg. Max Adverse Excursion</div>
+          <div class="dashboard-metric-value">-11.99</div>
         </div>
       </div>
 
@@ -632,8 +829,8 @@
 
 
 
-    <section class="card">
-      <h2>Outcome Classification Summary</h2>
+    <section class="dashboard-card" aria-labelledby="outcomes-title">
+      <h2 id="outcomes-title">Outcome Classification Summary</h2>
     <p>
       Open outcomes are observational only and are not finalized wins or losses.
       Classification is based on MFE and MAE behavior.
@@ -644,24 +841,30 @@
       Neutral Watch means no clear advantage is visible yet.
       Negative Watch means adverse movement is currently stronger.
     </p>
-      <div class="grid">
-        <div class="metric">
-          <div class="metric-label">Positive Watch</div>
-          <div class="metric-value">38</div>
+      <div class="dashboard-grid">
+        <div class="dashboard-metric">
+          <div class="dashboard-metric-label">Positive Watch</div>
+          <div class="dashboard-metric-value">38</div>
         </div>
-        <div class="metric">
-          <div class="metric-label">Neutral Watch</div>
-          <div class="metric-value">100</div>
+        <div class="dashboard-metric">
+          <div class="dashboard-metric-label">Neutral Watch</div>
+          <div class="dashboard-metric-value">100</div>
         </div>
-        <div class="metric">
-          <div class="metric-label">Positive Watch %</div>
-      <div>6.23%</div>
-      <div class="metric-label">Neutral Watch %</div>
-      <div>16.39%</div>
-      <div class="metric-label">Negative Watch %</div>
-      <div>5.41%</div>
-      <div class="metric-label">Negative Watch</div>
-          <div class="metric-value">33</div>
+        <div class="dashboard-metric">
+          <div class="dashboard-metric-label">Positive Watch %</div>
+          <div class="dashboard-metric-value">6.23%</div>
+        </div>
+        <div class="dashboard-metric">
+          <div class="dashboard-metric-label">Neutral Watch %</div>
+          <div class="dashboard-metric-value">16.39%</div>
+        </div>
+        <div class="dashboard-metric">
+          <div class="dashboard-metric-label">Negative Watch %</div>
+          <div class="dashboard-metric-value">5.41%</div>
+        </div>
+        <div class="dashboard-metric">
+          <div class="dashboard-metric-label">Negative Watch</div>
+          <div class="dashboard-metric-value">33</div>
         </div>
       </div>
 
@@ -671,31 +874,32 @@
       </p>
     </section>
 
-    <section class="card">
-      <h2>Latest Signal Outcomes</h2>
+    <section class="dashboard-card" aria-labelledby="latest-outcomes-title">
+      <h2 id="latest-outcomes-title">Latest Signal Outcomes</h2>
       <div class="responsive-table-wrap" role="region" aria-label="Latest signal outcomes table" tabindex="0">
       <table>
+        <caption>Latest recorded public signal outcomes.</caption>
         <thead>
           <tr>
-            <th>Asset Type</th>
-            <th>Signal Band</th>
-            <th>Decision Bucket</th>
-            <th>Status</th>
-            <th>MFE</th>
-            <th>MAE</th>
+            <th scope="col">Asset Type</th>
+            <th scope="col">Signal Band</th>
+            <th scope="col">Decision Bucket</th>
+            <th scope="col">Status</th>
+            <th scope="col">MFE</th>
+            <th scope="col">MAE</th>
           </tr>
         </thead>
         <tbody>
-          <tr><td>crypto</td><td>lower_signal_band</td><td>low_priority_watch</td><td><span class='badge neutral'>open</span></td><td>0.34</td><td>-0.19</td></tr>
-<tr><td>crypto</td><td>lower_signal_band</td><td>low_priority_watch</td><td><span class='badge neutral'>open</span></td><td>1.93</td><td>-0.37</td></tr>
-<tr><td>crypto</td><td>lower_signal_band</td><td>low_priority_watch</td><td><span class='badge neutral'>open</span></td><td>0.88</td><td>-0.18</td></tr>
-<tr><td>crypto</td><td>lower_signal_band</td><td>weak_signal_watch</td><td><span class='badge neutral'>open</span></td><td>0.00</td><td>-1.35</td></tr>
-<tr><td>crypto</td><td>lower_signal_band</td><td>low_priority_watch</td><td><span class='badge neutral'>open</span></td><td>2.46</td><td>-1.79</td></tr>
-<tr><td>crypto</td><td>lower_signal_band</td><td>low_priority_watch</td><td><span class='badge neutral'>open</span></td><td>0.45</td><td>-0.14</td></tr>
-<tr><td>crypto</td><td>medium_signal_band</td><td>low_priority_watch</td><td><span class='badge neutral'>open</span></td><td>unavailable</td><td>unavailable</td></tr>
-<tr><td>crypto</td><td>lower_signal_band</td><td>low_priority_watch</td><td><span class='badge neutral'>open</span></td><td>2.20</td><td>-4.97</td></tr>
-<tr><td>crypto</td><td>lower_signal_band</td><td>low_priority_watch</td><td><span class='badge neutral'>open</span></td><td>2.94</td><td>-0.62</td></tr>
-<tr><td>crypto</td><td>lower_signal_band</td><td>weak_signal_watch</td><td><span class='badge neutral'>open</span></td><td>5.05</td><td>-1.29</td></tr>
+          <tr><td>crypto</td><td>lower_signal_band</td><td>low_priority_watch</td><td><span class='dashboard-badge neutral'>open</span></td><td>0.34</td><td>-0.19</td></tr>
+<tr><td>crypto</td><td>lower_signal_band</td><td>low_priority_watch</td><td><span class='dashboard-badge neutral'>open</span></td><td>1.93</td><td>-0.37</td></tr>
+<tr><td>crypto</td><td>lower_signal_band</td><td>low_priority_watch</td><td><span class='dashboard-badge neutral'>open</span></td><td>0.88</td><td>-0.18</td></tr>
+<tr><td>crypto</td><td>lower_signal_band</td><td>weak_signal_watch</td><td><span class='dashboard-badge neutral'>open</span></td><td>0.00</td><td>-1.35</td></tr>
+<tr><td>crypto</td><td>lower_signal_band</td><td>low_priority_watch</td><td><span class='dashboard-badge neutral'>open</span></td><td>2.46</td><td>-1.79</td></tr>
+<tr><td>crypto</td><td>lower_signal_band</td><td>low_priority_watch</td><td><span class='dashboard-badge neutral'>open</span></td><td>0.45</td><td>-0.14</td></tr>
+<tr><td>crypto</td><td>medium_signal_band</td><td>low_priority_watch</td><td><span class='dashboard-badge neutral'>open</span></td><td>unavailable</td><td>unavailable</td></tr>
+<tr><td>crypto</td><td>lower_signal_band</td><td>low_priority_watch</td><td><span class='dashboard-badge neutral'>open</span></td><td>2.20</td><td>-4.97</td></tr>
+<tr><td>crypto</td><td>lower_signal_band</td><td>low_priority_watch</td><td><span class='dashboard-badge neutral'>open</span></td><td>2.94</td><td>-0.62</td></tr>
+<tr><td>crypto</td><td>lower_signal_band</td><td>weak_signal_watch</td><td><span class='dashboard-badge neutral'>open</span></td><td>5.05</td><td>-1.29</td></tr>
         </tbody>
       </table>
       </div>
@@ -705,25 +909,26 @@
       </p>
     </section>
 
-    <section class="card">
-      <h2>Candidate Observations</h2>
+    <section class="dashboard-card" aria-labelledby="candidates-title">
+      <h2 id="candidates-title">Candidate Observations</h2>
       <div class="responsive-table-wrap" role="region" aria-label="Candidate observations table" tabindex="0">
       <table>
+        <caption>Current sanitized candidate observations.</caption>
         <thead>
           <tr>
-            <th>Signal Band</th>
-            <th>Action</th>
-            <th>Reason</th>
+            <th scope="col">Signal Band</th>
+            <th scope="col">Action</th>
+            <th scope="col">Reason</th>
           </tr>
         </thead>
         <tbody>
-          <tr><td>medium_signal_band</td><td><span class='badge warning'>low_priority_watch</span></td><td class='reason'>fresh CTO flip; young signal</td></tr>
-<tr><td>lower_signal_band</td><td><span class='badge warning'>low_priority_watch</span></td><td class='reason'>young signal</td></tr>
-<tr><td>lower_signal_band</td><td><span class='badge warning'>low_priority_watch</span></td><td class='reason'>young signal; acceptable market-cap quality</td></tr>
-<tr><td>lower_signal_band</td><td><span class='badge warning'>low_priority_watch</span></td><td class='reason'>young signal</td></tr>
-<tr><td>lower_signal_band</td><td><span class='badge warning'>low_priority_watch</span></td><td class='reason'>young signal</td></tr>
-<tr><td>lower_signal_band</td><td><span class='badge warning'>low_priority_watch</span></td><td class='reason'>young signal</td></tr>
-<tr><td>lower_signal_band</td><td><span class='badge danger'>weak_signal_watch</span></td><td class='reason'>young signal</td></tr>
+          <tr><td>medium_signal_band</td><td><span class='dashboard-badge warning'>low_priority_watch</span></td><td class='reason'>fresh CTO flip; young signal</td></tr>
+<tr><td>lower_signal_band</td><td><span class='dashboard-badge warning'>low_priority_watch</span></td><td class='reason'>young signal</td></tr>
+<tr><td>lower_signal_band</td><td><span class='dashboard-badge warning'>low_priority_watch</span></td><td class='reason'>young signal; acceptable market-cap quality</td></tr>
+<tr><td>lower_signal_band</td><td><span class='dashboard-badge warning'>low_priority_watch</span></td><td class='reason'>young signal</td></tr>
+<tr><td>lower_signal_band</td><td><span class='dashboard-badge warning'>low_priority_watch</span></td><td class='reason'>young signal</td></tr>
+<tr><td>lower_signal_band</td><td><span class='dashboard-badge warning'>low_priority_watch</span></td><td class='reason'>young signal</td></tr>
+<tr><td>lower_signal_band</td><td><span class='dashboard-badge danger'>weak_signal_watch</span></td><td class='reason'>young signal</td></tr>
         </tbody>
       </table>
       </div>
@@ -733,8 +938,8 @@
       </p>
     </section>
 
-    <section class="card">
-      <h2>Daily Briefing</h2>
+    <section class="dashboard-card" aria-labelledby="daily-briefing-title">
+      <h2 id="daily-briefing-title">Daily Briefing</h2>
       <p class="disclaimer" style="margin-bottom: 12px;">
         Status values in this briefing (such as <em>red</em>, <em>blocked</em>,
         <em>not_ready</em>, <em>extreme</em>) describe internal governance, readiness, and
@@ -744,18 +949,18 @@
       <div class="text-panel">Public briefing detail is withheld while public symbol exposure is disabled. High-level governance and monitoring status remain available above.</div>
     </section>
 
-    <section class="card">
-      <h2>Outcome Learning v3 Summary</h2>
-      <div class="metric-label">Total Outcomes</div>
+    <section class="dashboard-card" aria-labelledby="outcome-learning-title">
+      <h2 id="outcome-learning-title">Outcome Learning v3 Summary</h2>
+      <div class="dashboard-metric-label">Total Outcomes</div>
       <div>610</div>
 
-      <div class="metric-label">Positive Watch %</div>
+      <div class="dashboard-metric-label">Positive Watch %</div>
       <div>28.2%</div>
 
-      <div class="metric-label">Neutral Watch %</div>
+      <div class="dashboard-metric-label">Neutral Watch %</div>
       <div>30.16%</div>
 
-      <div class="metric-label">Negative Watch %</div>
+      <div class="dashboard-metric-label">Negative Watch %</div>
       <div>41.64%</div>
 
       <p class="note">
@@ -766,8 +971,8 @@
       </p>
     </section>
 
-    <section class="card">
-      <h2>System Governance Summary</h2>
+    <section class="dashboard-card" aria-labelledby="system-governance-title">
+      <h2 id="system-governance-title">System Governance Summary</h2>
       <p class="disclaimer">
         The public dashboard displays high-level monitoring, readiness, governance,
         and outcome-record information only. Internal model state, raw debug data,
@@ -775,28 +980,28 @@
         excluded. The internal research workflow remains human-reviewed and does not publish
         symbols through disabled exposure modes.
       </p>
-      <div class="grid">
-        <div class="metric">
-          <div class="metric-label">Scoring Mode</div>
-          <div class="metric-value">Advisory only</div>
+      <div class="dashboard-grid">
+        <div class="dashboard-metric">
+          <div class="dashboard-metric-label">Scoring Mode</div>
+          <div class="dashboard-metric-value">Advisory only</div>
         </div>
-        <div class="metric">
-          <div class="metric-label">Automatic Changes</div>
-          <div class="metric-value">Disabled</div>
+        <div class="dashboard-metric">
+          <div class="dashboard-metric-label">Automatic Changes</div>
+          <div class="dashboard-metric-value">Disabled</div>
         </div>
-        <div class="metric">
-          <div class="metric-label">Human Review</div>
-          <div class="metric-value">Required</div>
+        <div class="dashboard-metric">
+          <div class="dashboard-metric-label">Human Review</div>
+          <div class="dashboard-metric-value">Required</div>
         </div>
-        <div class="metric">
-          <div class="metric-label">Public Data Scope</div>
-          <div class="metric-value">Sanitized summary</div>
+        <div class="dashboard-metric">
+          <div class="dashboard-metric-label">Public Data Scope</div>
+          <div class="dashboard-metric-value">Sanitized summary</div>
         </div>
       </div>
     </section>
 
-    <section class="card disclaimer">
-      <h2>Disclaimer</h2>
+    <section class="dashboard-card disclaimer" aria-labelledby="closing-disclaimer-title">
+      <h2 id="closing-disclaimer-title">Disclaimer</h2>
       <p>
         This dashboard is for informational monitoring only. It is not financial advice, not
         investment guidance, not a recommendation, and not a trading signal. Assets are not ranked
@@ -806,6 +1011,7 @@
       </p>
     </section>
   </main>
+  <footer class="site-footer"><div class="container footer-grid"><p>Adaptive Trend Intelligence · Dashboard</p><p>Research / monitoring only · Human review required</p></div></footer>
   <script>
     const fallback = "Unavailable — no conclusion can be drawn";
     const whatChangedFallback = "Unavailable means no conclusion can be drawn. Snapshot may be stale or incomplete.";
@@ -838,8 +1044,10 @@
         show("score-count", summary.score && summary.score.count);
         show("exposure-mode", summary.exposure_mode);
         show("freshness-message", "Generated " + summary.generated_at + ". Review age and semantic freshness before interpretation; public artifacts can be stale or incomplete.");
+        show("current-takeaway", "Public artifacts are available; review freshness before interpretation.");
       } catch (error) {
         ["generated-at", "availability", "row-count", "pair-count", "score-count", "exposure-mode", "freshness-message"].forEach((id) => show(id, fallback));
+        show("current-takeaway", "Public artifacts are unavailable; no conclusion can be drawn.");
       }
     }
 
