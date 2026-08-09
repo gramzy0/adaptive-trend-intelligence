@@ -87,8 +87,20 @@
       margin-top: 14px;
     }
 
-    .current-takeaway {
+    .current-takeaway-group {
       flex: 1 1 420px;
+    }
+
+    .current-takeaway-label {
+      display: block;
+      margin-bottom: 3px;
+      color: var(--blue);
+      font-size: 12px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .current-takeaway {
       margin: 0;
       color: var(--text);
       font-weight: 700;
@@ -488,7 +500,10 @@
       </p>
       <div class="generated">Generated at: 2026-08-07 03:30 UTC</div>
       <div class="dashboard-hero-actions">
-        <p id="current-takeaway" class="current-takeaway" role="status" aria-live="polite">Checking public artifact availability; no conclusion can be drawn yet.</p>
+        <div class="current-takeaway-group">
+          <strong class="current-takeaway-label">Current takeaway</strong>
+          <p id="current-takeaway" class="current-takeaway" role="status" aria-live="polite">Checking public artifact availability; no conclusion can be drawn yet.</p>
+        </div>
         <a class="primary-cta" href="#freshness-confidence-title">Review freshness and supporting evidence</a>
       </div>
     </section>
