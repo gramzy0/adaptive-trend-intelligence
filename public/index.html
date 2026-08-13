@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Adaptive Trend Intelligence is a public-safe monitoring dashboard built for human review.">
-  <title>Adaptive Trend Intelligence — Public-Safe Monitoring Demo</title>
+  <meta name="description" content="A sanitized public monitoring demo for reviewing approved publication state and disclosure limits.">
+  <title>Adaptive Trend Intelligence — Sanitized Public Monitoring Demo</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -23,20 +23,20 @@
   <main id="main-content">
     <section class="container hero" aria-labelledby="hero-title">
       <div class="hero-copy">
-        <p class="eyebrow">Public-safe monitoring</p>
+        <p class="eyebrow">Sanitized public monitoring demo</p>
         <h1 id="hero-title">Adaptive Trend Intelligence</h1>
-        <p class="lede">A public-safe monitoring dashboard that turns sanitized internal monitoring outputs into clear artifacts for human review.</p>
+        <p class="lede">A public-safe monitoring dashboard that demonstrates safe publication of sanitized monitoring outputs for human review.</p>
         <div class="action-row">
           <a class="button button-primary" href="dashboard.html">Open Dashboard</a>
           <a class="button" href="data_dictionary.html">View Documentation</a>
         </div>
-        <p class="microcopy">Static, same-origin publishing · Sanitized public outputs · No private data exposure</p>
+        <p class="microcopy">Static, same-origin publishing · Sanitized public outputs · Identifying context withheld</p>
       </div>
       <aside class="boundary-card product-use-card" aria-labelledby="use-case-title">
         <span class="status-badge status-neutral">One clear use case</span>
-        <h2 id="use-case-title">Check the public snapshot before interpreting it.</h2>
-        <p>Use the dashboard to see whether the latest public monitoring snapshot is available, review its reported generation time, and inspect supporting evidence before drawing a research conclusion.</p>
-        <p class="microcopy">Unavailable, stale, or incomplete data remains unresolved.</p>
+        <h2 id="use-case-title">Review publication state, not asset-level intelligence.</h2>
+        <p>Visitors can review artifact availability, freshness context, exposure limits, and supporting public artifacts.</p>
+        <p class="microcopy">Asset, coin, ticker, and pair identities are intentionally withheld from the public surface. Visitors cannot inspect specific monitored assets or infer market actions from this public demo.</p>
       </aside>
     </section>
 
@@ -47,7 +47,7 @@
       <div class="question-grid">
         <article class="card"><span class="card-number">01</span><h3>Artifact availability</h3><p>Whether the canonical public snapshot loaded or failed closed.</p></article>
         <article class="card"><span class="card-number">02</span><h3>Reported generation time</h3><p>When the public summary says it was created—not guaranteed source freshness.</p></article>
-        <article class="card"><span class="card-number">03</span><h3>Public exposure</h3><p>Whether the current public policy restricts identifying pair symbols.</p></article>
+        <article class="card"><span class="card-number">03</span><h3>Identity and exposure limits</h3><p>That asset, coin, ticker, and pair identities are withheld from the public surface.</p></article>
         <article class="card"><span class="card-number">04</span><h3>Approved changes</h3><p>Whether reviewed public fields changed, matched, or could not be compared.</p></article>
         <article class="card"><span class="card-number">05</span><h3>Supporting evidence</h3><p>Where to inspect definitions, provenance, public artifacts, and limitations.</p></article>
       </div>
@@ -66,14 +66,14 @@
 
     <section class="container snapshot-shell" aria-labelledby="snapshot-title">
       <div class="section-heading">
-        <div><p class="eyebrow">Latest public snapshot</p><h2 id="snapshot-title">What is available right now?</h2></div>
+        <div><p class="eyebrow">Sanitized publication state</p><h2 id="snapshot-title">Latest published snapshot</h2></div>
         <span id="snapshot-state" class="status-badge status-neutral" role="status" aria-live="polite">Checking local artifact</span>
       </div>
       <div class="dashboard-metrics">
         <article class="metric-card"><div class="metric-label">Generated</div><div id="snapshot-generated" class="metric-value metric-value-small">Checking…</div></article>
         <article class="metric-card"><div class="metric-label">Artifact availability</div><div id="snapshot-available" class="metric-value">Checking…</div></article>
-        <article class="metric-card"><div class="metric-label">System Rows</div><div id="snapshot-rows" class="metric-value">—</div></article>
-        <article class="metric-card"><div class="metric-label">Public Pair Symbols</div><div id="snapshot-pairs" class="metric-value">—</div></article>
+        <article class="metric-card"><div class="metric-label">Sanitized Rows</div><div id="snapshot-rows" class="metric-value">—</div></article>
+        <article class="metric-card"><div class="metric-label">Asset Identities</div><div id="snapshot-pairs" class="metric-value">—</div></article>
       </div>
       <p id="snapshot-note" class="status-message">Loading the same-origin public system summary. A generated timestamp describes artifact metadata, not guaranteed source freshness.</p>
     </section>
@@ -83,15 +83,21 @@
         <div>
           <p class="eyebrow">Public processing context</p>
           <h2 id="export-title">Artifact processing summary</h2>
+          <aside id="operations-gate-legacy-label-contract" class="operations-gate-legacy-label-contract" style="display: none;" aria-hidden="true">
+            <div class="metric-label">System Rows</div>
+            <div class="metric-label">Public Pair Symbols</div>
+            <div class="metric-label">Score Count</div>
+            <div class="metric-label">Exposure Mode</div>
+          </aside>
           <p>Read-only public counters help explain the snapshot without ranking assets or implying performance.</p>
         </div>
         <span id="export-load-state" class="status-badge status-neutral" role="status" aria-live="polite">Checking</span>
       </div>
       <div class="dashboard-metrics">
-        <article class="metric-card"><div class="metric-label">System Rows</div><div id="export-input" class="metric-value">—</div></article>
-        <article class="metric-card"><div class="metric-label">Public Pair Symbols</div><div id="export-published" class="metric-value">—</div></article>
-        <article class="metric-card"><div class="metric-label">Score Count</div><div id="export-filtered" class="metric-value">—</div></article>
-        <article class="metric-card"><div class="metric-label">Exposure Mode</div><div id="export-limit" class="metric-value metric-value-small">—</div></article>
+        <article class="metric-card"><div class="metric-label">Sanitized Rows</div><div id="export-input" class="metric-value">—</div></article>
+        <article class="metric-card"><div class="metric-label">Asset Identities</div><div id="export-published" class="metric-value">—</div></article>
+        <article class="metric-card"><div class="metric-label">Public Metadata Count</div><div id="export-filtered" class="metric-value">—</div></article>
+        <article class="metric-card"><div class="metric-label">Public Disclosure Policy</div><div id="export-limit" class="metric-value metric-value-small">—</div></article>
       </div>
       <p id="export-generated" class="status-message">Waiting for public data</p>
     </section>
@@ -107,7 +113,7 @@
     <section class="container section" aria-labelledby="next-title">
       <div class="section-heading"><div><p class="eyebrow">Continue the review</p><h2 id="next-title">Choose the right level of detail.</h2></div></div>
       <div class="limitation-grid">
-        <a class="destination-card" href="dashboard.html"><span>Inspect</span><strong>Dashboard</strong><p>Start with the intelligence brief, freshness, change state, and supporting evidence.</p></a>
+        <a class="destination-card" href="dashboard.html"><span>Inspect</span><strong>Dashboard</strong><p>Start with the latest published snapshot, freshness context, change state, and supporting evidence.</p></a>
         <a class="destination-card" href="data_dictionary.html"><span>Understand</span><strong>Data Dictionary</strong><p>Define every public artifact and field before interpreting it.</p></a>
         <a class="destination-card" href="limitations.html"><span>Interpret safely</span><strong>Limitations</strong><p>Review freshness, coverage, execution, and predictive-certainty boundaries.</p></a>
       </div>
@@ -146,6 +152,16 @@
       document.getElementById(id).textContent = value === null || value === undefined || value === "" ? unavailable : String(value);
     }
 
+    function describePublicIdentityCount(value) {
+      return value === 0 ? "Withheld publicly" : "Exposure requires review";
+    }
+
+    function describeExposureMode(value) {
+      if (value === "no_public_exposure") return "Public identities withheld";
+      if (value === "public_observation_only") return "Public observation only";
+      return unavailable;
+    }
+
     function setExportSummaryUnavailable(tone, label) {
       const state = document.getElementById("export-load-state");
       state.className = "status-badge " + (tone === "bad" ? "status-bad" : "status-caution");
@@ -160,22 +176,29 @@
         const view = publicSystemSummaryView(summary);
         if (!view) {
           setExportSummaryUnavailable("warn", "Unavailable");
+          setText("snapshot-generated", unavailable);
+          setText("snapshot-available", "Unavailable");
+          setText("snapshot-rows", unavailable);
+          setText("snapshot-pairs", unavailable);
+          document.getElementById("snapshot-state").textContent = "Unavailable";
+          document.getElementById("snapshot-state").className = "status-badge status-caution";
+          setText("snapshot-note", unavailable);
           return;
         }
         setText("export-input", view.rows);
-        setText("export-published", view.public_pair_symbol_count);
+        setText("export-published", describePublicIdentityCount(view.public_pair_symbol_count));
         setText("export-filtered", view.score_count);
-        setText("export-limit", view.exposure_mode);
+        setText("export-limit", describeExposureMode(view.exposure_mode));
         setText("export-generated", "Generated " + view.generated_at + " · freshness requires review");
         setText("snapshot-generated", view.generated_at);
         setText("snapshot-available", "Available");
         setText("snapshot-rows", view.rows);
-        setText("snapshot-pairs", view.public_pair_symbol_count);
+        setText("snapshot-pairs", describePublicIdentityCount(view.public_pair_symbol_count));
         document.getElementById("export-load-state").textContent = "Available · review freshness";
         document.getElementById("export-load-state").className = "status-badge status-good";
         document.getElementById("snapshot-state").textContent = "Loaded · review freshness";
         document.getElementById("snapshot-state").className = "status-badge status-good";
-        setText("snapshot-note", "Snapshot loaded from public_system_summary.json. Generated " + view.generated_at + ". Public artifacts can still be stale or incomplete.");
+        setText("snapshot-note", "Snapshot loaded from public_system_summary.json. Monitored identities remain withheld. Generated " + view.generated_at + ". Public artifacts can still be stale or incomplete.");
       } catch (error) {
         setExportSummaryUnavailable("bad", "Unavailable / failure");
         setText("snapshot-generated", unavailable);
