@@ -594,11 +594,6 @@
           <div id="exposure-mode" class="dashboard-metric-value">Unavailable — no conclusion can be drawn</div>
           <p class="dashboard-metric-explanation">Explains whether identities may be published; it does not indicate market direction, readiness, or permission to act.</p>
         </article>
-        <article class="dashboard-metric">
-          <div class="dashboard-metric-label">Metadata score-field rows</div>
-          <div id="score-count" class="dashboard-metric-value">Unavailable — no conclusion can be drawn</div>
-          <p class="dashboard-metric-explanation">Internal public metadata count of sanitized rows with a score field; it is not insight, a rating, forecast, ranking, or recommendation.</p>
-        </article>
       </div>
       <p id="freshness-message" class="disclaimer" role="status" aria-live="polite">
         Unavailable — no conclusion can be drawn. A timestamp alone does not establish semantic freshness.
@@ -1161,8 +1156,7 @@
           !Number.isNaN(Date.parse(summary.generated_at)) &&
           Number.isInteger(summary.rows) && summary.rows >= 0 &&
           Number.isInteger(summary.public_pair_symbol_count) && summary.public_pair_symbol_count === 0 &&
-          typeof summary.exposure_mode === "string" && summary.exposure_mode.trim() !== "" &&
-          summary.score && Number.isInteger(summary.score.count) && summary.score.count >= 0;
+          typeof summary.exposure_mode === "string" && summary.exposure_mode.trim() !== "";
         if (!validSummary) {
           throw new Error("Required fields unavailable");
         }
@@ -1170,13 +1164,12 @@
         show("availability", "Available");
         show("row-count", summary.rows);
         show("pair-count", describePublicIdentityCount(summary.public_pair_symbol_count));
-        show("score-count", summary.score && summary.score.count);
         show("exposure-mode", describeExposureMode(summary.exposure_mode));
         show("freshness-message", "Generated " + summary.generated_at + ". Review age and semantic freshness before interpretation; public artifacts can be stale or incomplete.");
         show("current-takeaway", "Sanitized public artifacts are available; monitored identities remain withheld. Review freshness before interpretation.");
       } catch (error) {
         showGeneratedTimestamp(null);
-        ["availability", "row-count", "pair-count", "score-count", "exposure-mode", "freshness-message"].forEach((id) => show(id, fallback));
+        ["availability", "row-count", "pair-count", "exposure-mode", "freshness-message"].forEach((id) => show(id, fallback));
         show("current-takeaway", "Public artifacts are unavailable and monitored identities remain withheld; no conclusion can be drawn.");
       }
     }

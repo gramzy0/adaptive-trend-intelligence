@@ -96,7 +96,7 @@
       <div class="dashboard-metrics">
         <article class="metric-card"><div class="metric-label">Sanitized Rows</div><div id="export-input" class="metric-value">—</div></article>
         <article class="metric-card"><div class="metric-label">Asset Identities</div><div id="export-published" class="metric-value">—</div></article>
-        <article class="metric-card"><div class="metric-label">Public Metadata Count</div><div id="export-filtered" class="metric-value">—</div></article>
+        <article class="metric-card"><div class="metric-label">Public Data Scope</div><div id="export-filtered" class="metric-value">Sanitized summary</div></article>
         <article class="metric-card"><div class="metric-label">Public Disclosure Policy</div><div id="export-limit" class="metric-value metric-value-small">—</div></article>
       </div>
       <p id="export-generated" class="status-message">Waiting for public data</p>
@@ -187,7 +187,7 @@
         }
         setText("export-input", view.rows);
         setText("export-published", describePublicIdentityCount(view.public_pair_symbol_count));
-        setText("export-filtered", view.score_count);
+        setText("export-filtered", "Sanitized summary");
         setText("export-limit", describeExposureMode(view.exposure_mode));
         setText("export-generated", "Generated " + view.generated_at + " · freshness requires review");
         setText("snapshot-generated", view.generated_at);
