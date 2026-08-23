@@ -1,0 +1,69 @@
+{
+  "symbol": "GBPUSDT",
+  "date": "2026-08-23",
+  "generated_at": "2026-08-23T18:21:18.266258+00:00",
+  "scanner_evidence": {
+    "symbol": "GBPUSDT",
+    "pair": "GBP/USDT",
+    "current_state": "Blue",
+    "previous_state": "Gold",
+    "flip_direction": "Gold → Blue (Bearish)",
+    "score": "52",
+    "score_tier": "B Watch",
+    "market_cap_rank": null,
+    "gray_candles": "4",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "fresh signal",
+    "signal": "Confirmed Gold → Gray → Blue → Blue",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=GBPUSDT",
+    "execution_time": "2026-08-23T06:37:00.614234+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1085 assets scanned, 8 confirmed flips (0.7%). State distribution: Blue 69.7%, Gold 12.1%, Gray 10.7%, Unknown 7.6%. Strongest transition: Blue → Gold (6 of 8 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only.",
+      "Security-incident-related coverage",
+      "Macro/rates-related coverage",
+      "Regulatory/legal-related coverage"
+    ],
+    "context_generated_at": "2026-08-23T18:02:58.212348+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "GBP/USD Pressures Six-Month Highs Near 1.3660: What’s Driving Sterling’s Strength? - CryptoRank",
+      "source_name": "CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9zYmlyYnc5UGNjandRbnZpcVNpQk51enFnT1VTMVJoLU9kaENZSVVJRWx0Skl4OFBPWTNWYXd5b3BZSDdCeFpYUVZveElvdlA1OTRvd21ZWmhMeElGbm9qVF9MczItTW9KRVFaazdMWEEwOVU5TEE?oc=5",
+      "published_at": "Sat, 22 Aug 2026 03:31:06 GMT"
+    },
+    {
+      "title": "Weekly forex forecast: EUR/USD, XAU/USD, GBP/USD, USD/JPY, Bitcoin and more [Video] - FXStreet",
+      "source_name": "FXStreet",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPQTVPSGdJa1RJeS0zYWh1WjBaM1pJWG84cF9yTFZvYzlTYmJ6UXpQZE9fbDNMNlcxQTVHZWVXeHFKd3NDbmlPWHdrTDNJMk01TlVTekg1RlNPUFJoUnVOcEctdFB4STJNbTBxeUx5TmFBYVpveWFWVWlpd3JIWWpBVF9Kb0dFc1h3azZrZDhob3Q1YkJaeXpXR3RFZ3pKTElQZVduallZWE9keVZHNVBSY0ZWV2Qtb0dyUVNtRkl2R0E?oc=5",
+      "published_at": "Wed, 19 Aug 2026 10:53:31 GMT"
+    },
+    {
+      "title": "GBP Stablecoins are Unlocking the Future of Finance: tGBP now on Coinbase - Coinbase",
+      "source_name": "Coinbase",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZUhMRFl6d2FWUnBBeEVocmliRldPWWhIT3g1U1dPcnFLNXcwcmJhM2FvUkY5N3ZaUkdwQWx1OWxpOWwyOHB6TFphaVRqS3FiNC0zc09sY0xDaTZBaWl4dmk0SlNnRXc3S1ZJUDhOV1RoUkVDa2NfVk9FeGxSckVuRFVZcEhUR3RV?oc=5",
+      "published_at": "Wed, 22 Apr 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Revolut to test stablecoin in UK trial - Reuters",
+      "source_name": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNTmMxdW8wd2tpU3MxMU1CV0N2RGZjam5lVUc3TllCNE9pN1AwN1lULVF6Q09URWUzbmxmYmtCTmN4QXVKTHk0VnNDNlVBX1BZQW5EYlNnRnBmYjFxczFOQ2c4c0s0d21EUHBNUHlHRF96QXFYZENDeUgzaTdQTWg5X0xzRENZajlBbzF0Xzdvam1xUzFXckFqdHg5YzVidjN0RGtqTTFPU2l3UmFM?oc=5",
+      "published_at": "Thu, 26 Feb 2026 08:00:00 GMT"
+    },
+    {
+      "title": "KPL/GBP Price: Convert Kepple to British Pound - Crypto.com",
+      "source_name": "Crypto.com",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5MakxMdVladEpGZWlXQWFPdmlzNWNkNkdla2Q0WEVHU0xxTHRLcHM2eFM1RFJqbzh1V04wX3ZUbTl1YmZpaGctUzZsOUMzQms?oc=5",
+      "published_at": "Sun, 21 Jun 2026 03:31:54 GMT"
+    }
+  ],
+  "search_query_used": "GBP crypto",
+  "neutral_explanation": "GBPUSDT (GBP/USDT) recorded a confirmed state flip: Gold → Blue (Bearish). Scanner score 52 (tier B Watch); market-cap rank not available. Scanner note: Valid confirmed trend flip — fresh signal. Broader crypto market context: 1085 assets scanned, 8 confirmed flips (0.7%). State distribution: Blue 69.7%, Gold 12.1%, Gray 10.7%, Unknown 7.6%. Strongest transition: Blue → Gold (6 of 8 flips). Source: reports/private_crypto_dashboard.csv. 5 coin-specific headline(s) were found via automated search; they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

@@ -1,0 +1,69 @@
+{
+  "symbol": "GNOUSDT",
+  "date": "2026-08-23",
+  "generated_at": "2026-08-23T18:21:18.266258+00:00",
+  "scanner_evidence": {
+    "symbol": "GNOUSDT",
+    "pair": "GNO/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "77",
+    "score_tier": "A Good",
+    "market_cap_rank": "125",
+    "gray_candles": "2",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "fresh signal, clean transition",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=GNOUSDT",
+    "execution_time": "2026-08-23T06:37:00.614234+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1085 assets scanned, 8 confirmed flips (0.7%). State distribution: Blue 69.7%, Gold 12.1%, Gray 10.7%, Unknown 7.6%. Strongest transition: Blue → Gold (6 of 8 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only.",
+      "Security-incident-related coverage",
+      "Macro/rates-related coverage",
+      "Regulatory/legal-related coverage"
+    ],
+    "context_generated_at": "2026-08-23T18:02:58.212348+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "GnosisDAO approves Gnosis Chain’s move to Ethereum L2 - Crypto News",
+      "source_name": "Crypto News",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE8zTkFpc3RVblNIa24yZGNHSFNsckVXbWFlMXhfRmY1SWRwVWZVUkV1RVN2a3otR0xoWXFQM3l0eGVvWkdZWU1BT2dGZWNlQUZaXzZldjFmVmxuaHpqR1RlUEtXQVNFMVM3UkljR2FrVGVrZXlEbDlWVjJ3WEg?oc=5",
+      "published_at": "Thu, 20 Aug 2026 09:54:45 GMT"
+    },
+    {
+      "title": "A crypto network just voted to abandon its standalone blockchain and unlock 27% of its token supply - CryptoSlate",
+      "source_name": "CryptoSlate",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPTWU1VzhJUEEyVmtuNzFzVkw2UjZIekI2X1NBNmZ2UExCSmI3akw2Zk9qZkRSS2tuTXZCYlk1ZkNqSExQV293NEZWMF9NWDdORnQwdjN1VDc2aEYyQ3Z4VHYxYVVWQmJQd3lwQWxVV25pQkY4MnYwQk5xdnVILXo2dTgyQjFPWkJUYktyVjRpRXQxemJMTmFwZVFZbGN4cTc2ZGZCY09kTlF6REExLThZTnV4cVV5RV8zQ3FlV2FZX04?oc=5",
+      "published_at": "Thu, 20 Aug 2026 08:30:25 GMT"
+    },
+    {
+      "title": "Gnosis Chain to Abandon Its Validator Set and Settle to Ethereum - The Defiant",
+      "source_name": "The Defiant",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPVlFqMGVleU1HUThqMGV1TmotZlVxVElUVGEzaVlLQ2JHcUtfa1p3MUJvX2VjSm5SSFVuS2VIRHdXMG90eUpibHlFTHpVQTVSa2I2NmxqbXdLSTROQU5JeHhvRUQwS1VWS21zVE1tOXlycGJ3ZkViTGNuQmpyamMwZTd2Z0xlQ1JwM0phaDJjSkdyUXlXQUwyRUhkSGFaSnRFT0ZQVDV3?oc=5",
+      "published_at": "Wed, 19 Aug 2026 17:31:42 GMT"
+    },
+    {
+      "title": "GnosisDAO Approves Gnosis Chain Shift Toward Ethereum Rollup Model - TradingView",
+      "source_name": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQN21DZzR0Z3daUHJZaDFmM183cVhvOHJvcVBjME9mWnc5Y1RHMmZZV05GTUJJSFNlREdDWjRuWHpIdV80dHZkNUMzeG1YanlIMnRaQ0RXb1JPR0phcEMza2toZXVHcmVVU2RIakRaV0F6anNQTndEU3phRTd3dW5USWpqMVBQdkN0eGN0UWdVRTl3Z2lFZzd1NjBJRmRuS09Ta21DU3RUaXMzTjIxN3NVRFo4aHVlbUJGT3hzQ2ZCTFhBdw?oc=5",
+      "published_at": "Thu, 20 Aug 2026 11:15:00 GMT"
+    },
+    {
+      "title": "Gnosis (GNO) Surges 6% on Governance Vote, Macro Rally - CoinMarketCap",
+      "source_name": "CoinMarketCap",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1zNDduWWJxMUdnZkZGeHB0RmRWbzVsZUpzbjlKaEktZl85bFFaYWlnSGVRNmRKRFZqdG5pT3hCQmZtRVBCekNrQ040RjR0SHdVZ0JISVUtdXRmWEFBOVh5T3Q4RXg3Y0FqSmRJbHNaZ0Y?oc=5",
+      "published_at": "Thu, 20 Aug 2026 18:07:00 GMT"
+    }
+  ],
+  "search_query_used": "Gnosis crypto",
+  "neutral_explanation": "GNOUSDT (GNO/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 77 (tier A Good); market-cap rank 125. Scanner note: Valid confirmed trend flip — fresh signal, clean transition. Broader crypto market context: 1085 assets scanned, 8 confirmed flips (0.7%). State distribution: Blue 69.7%, Gold 12.1%, Gray 10.7%, Unknown 7.6%. Strongest transition: Blue → Gold (6 of 8 flips). Source: reports/private_crypto_dashboard.csv. 5 coin-specific headline(s) were found via automated search; they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

@@ -1,0 +1,60 @@
+{
+  "market": "commodities",
+  "generated_at": "2026-08-23T18:02:58.212348+00:00",
+  "scanner_summary": "No commodity scanner data available in data/output; no asset count, flip count, or state distribution can be computed locally.",
+  "possible_drivers": [
+    "General market-news coverage, reviewed for context only."
+  ],
+  "uncertainty_note": "Automatically collected from public RSS headlines and local scanner output. Headlines are cited, not verified for accuracy or causal connection to price movement. This is not investment advice and does not contain buy, sell, hold, or execution guidance. Human review is required before treating anything here as reliable market context.",
+  "sources": [
+    {
+      "title": "Private Equity Is Circling Utilities as AI Reshapes the Grid",
+      "source_name": "OilPrice.com",
+      "url": "https://oilprice.com/Energy/Energy-General/Private-Equity-Is-Circling-Utilities-as-AI-Reshapes-the-Grid.html",
+      "published_at": "Sun, 23 Aug 2026 13:00:00 -0500",
+      "note": "General market-news coverage, reviewed for context only."
+    },
+    {
+      "title": "Underwater Volcanoes Are Geothermal Energy’s Next Frontier",
+      "source_name": "OilPrice.com",
+      "url": "https://oilprice.com/Energy/Energy-General/Underwater-Volcanoes-Are-Geothermal-Energys-Next-Frontier.html",
+      "published_at": "Sun, 23 Aug 2026 10:00:00 -0500",
+      "note": "General market-news coverage, reviewed for context only."
+    },
+    {
+      "title": "Europe Dodges a Rhine Crisis for the Worst Possible Reason",
+      "source_name": "OilPrice.com",
+      "url": "https://oilprice.com/Energy/Energy-General/Europe-Dodges-a-Rhine-Crisis-for-the-Worst-Possible-Reason.html",
+      "published_at": "Sat, 22 Aug 2026 18:00:00 -0500",
+      "note": "General market-news coverage, reviewed for context only."
+    },
+    {
+      "title": "The Gas Turbine Shortage Just Became AI’s Biggest Constraint",
+      "source_name": "OilPrice.com",
+      "url": "https://oilprice.com/Energy/Energy-General/The-Gas-Turbine-Shortage-Just-Became-AIs-Biggest-Constraint.html",
+      "published_at": "Sat, 22 Aug 2026 16:00:00 -0500",
+      "note": "General market-news coverage, reviewed for context only."
+    },
+    {
+      "title": "Clean Energy Spending Tracking Toward Record $180 Billion in 2026",
+      "source_name": "OilPrice.com",
+      "url": "https://oilprice.com/Energy/Energy-General/Clean-Energy-Spending-Tracking-Toward-Record-180-Billion-in-2026.html",
+      "published_at": "Sat, 22 Aug 2026 14:00:00 -0500",
+      "note": "General market-news coverage, reviewed for context only."
+    },
+    {
+      "title": "Gold: The Calm Before the Storm",
+      "source_name": "Investing.com Metals Analysis",
+      "url": "https://www.investing.com/analysis/gold-the-calm-before-the-storm-200685150",
+      "published_at": "Aug 04, 2026 08:37 GMT",
+      "note": "General market-news coverage, reviewed for context only."
+    },
+    {
+      "title": "Gold and Silver Under Pressure, But a Technical Rebound May Be Near",
+      "source_name": "Investing.com Metals Analysis",
+      "url": "https://www.investing.com/analysis/gold-and-silver-under-pressure-but-a-technical-rebound-may-be-near-200685096",
+      "published_at": "Aug 03, 2026 14:23 GMT",
+      "note": "General market-news coverage, reviewed for context only."
+    }
+  ]
+}

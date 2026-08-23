@@ -1,0 +1,69 @@
+{
+  "symbol": "CETUSUSDT",
+  "date": "2026-08-23",
+  "generated_at": "2026-08-23T18:21:18.266258+00:00",
+  "scanner_evidence": {
+    "symbol": "CETUSUSDT",
+    "pair": "CETUS/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "74",
+    "score_tier": "A Good",
+    "market_cap_rank": "719",
+    "gray_candles": "7",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "small-cap potential, small-cap high risk, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=CETUSUSDT",
+    "execution_time": "2026-08-23T06:37:00.614234+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1085 assets scanned, 8 confirmed flips (0.7%). State distribution: Blue 69.7%, Gold 12.1%, Gray 10.7%, Unknown 7.6%. Strongest transition: Blue → Gold (6 of 8 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only.",
+      "Security-incident-related coverage",
+      "Macro/rates-related coverage",
+      "Regulatory/legal-related coverage"
+    ],
+    "context_generated_at": "2026-08-23T18:02:58.212348+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Crucial Update: OKX to Delist DEGEN and CETUS Perpetual Futures This Month - CryptoRank",
+      "source_name": "CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9RYl9UaXRmSFNONVhPN1NJYTNqemJQbTJUd3RKWlg4SEJ6bW9jMEJmR0lCODBvM0xkRUtyUVVEUWxMSExNS2tWcVZaQktBUkgwTERMWkhuM04yeXVINmR6X3pyWUNqdExFRWZXVnpjc3JUVXlZWHE4?oc=5",
+      "published_at": "Wed, 24 Dec 2025 08:00:00 GMT"
+    },
+    {
+      "title": "Sui DEX Cetus Protocol restarts platform after recovering from $223 million exploit - The Block",
+      "source_name": "The Block",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQR1J3T2Y4Y1JadGNEdXJ2QTNNUVY5ZEx1Zy1YRGtVNzRSdE9uQkNIUWhNRktCdUlyUVBMaTZRV2RDaHJKc0VRTVNJNnNtZUpsSEpleURmVWJSUEs4bjlCb0JKU3JlRC1ZZW5adnEtQVNobHV6MGpIZjJDZ0JEUWM5TlQxTkgzUnJNWHo4eXdDZTJLNFdCZ05lUnNFQ1otTUpDNWh4eHlwUmZCS1B4YThBb3F1TWZWTUxDeHZyVDFHQzlTeW50SVhQNEx4V0lYeGhCVElB?oc=5",
+      "published_at": "Sun, 08 Jun 2025 07:00:00 GMT"
+    },
+    {
+      "title": "Hackers Stole $223 Million from Cetus Crypto Exchange - Bitdefender",
+      "source_name": "Bitdefender",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVWFsck1yaDVEb3pyMlpnSjRzR0RtRm1yUVdmRmhXaGVEanlKTDl1VGpDejNUV2hhVTE3Vk1KNU9uUUVZdzV4Sm5xaWJDYWFieTlUOHc1NWg0dTNGZnEtZUxhTkRfclJRblFIRWp4ZWJ5RmJkdTYyTTdQd0U1TTNOZ0t5ZWNmLVphUjNDVy1zdkpVRkJfYW0yMWJ2OA?oc=5",
+      "published_at": "Mon, 26 May 2025 07:00:00 GMT"
+    },
+    {
+      "title": "Explained: The Cetus Hack (May 2025) - Halborn",
+      "source_name": "Halborn",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB0QTdMVWJsVTN2SUJjU1ROb2VKWW9ZNExwckJ0UkxwNlpXMzlIWHkxZHBHaUd0ZVR4VkhpNldmX05FTnpWbVJjYmRYM19NZzFydVNFbTlUenpaU1ZiaHJveXozYjl2bi1Qc19iTFFrSWhNZUpzZEE?oc=5",
+      "published_at": "Tue, 27 May 2025 07:00:00 GMT"
+    },
+    {
+      "title": "Hacker steals $223 million in Cetus Protocol cryptocurrency heist - BleepingComputer",
+      "source_name": "BleepingComputer",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPUW5NcWhyOWdfOUJBMXpFMlR5cWY1UXFxRHRQTmlpS1N2elFZbXg3MTlfWHRCZndpMDVFaFJOaTloekJMWGx3VmlBdkFweGRLNGJBMHdkaEU5WU0zLVhxQ2xUSmdSenIwY2s2dmVISmc3ZXR4bHJNTUVGcldrSjBTZFJPaDc4MGtXajFSR3M1dG5CQ0M1bjFCR2xaWlRucHp5TTQ5RHctSFNOZlhadExhaHN30gG3AUFVX3lxTE9tRXJNZEZBaDJZVl83d29IR2NOV2IwYkEweHh5bGFkOEd1b3JhaGpZRXBTcmVZSVdVS3hvQWxKeUR3X21pMmpwMjV1LXVQbGRLZ0xyS09odnczd1VMbGNYdm1IbFhDeVM2OGlha3RrWHZPa0Fyc2lac3ozUld0cGVjT1EzbmtQWEhvT250VkkyT0tLWk5ZMWRWbTRiYmlPczFNbnhNbjBVclRPT3hJaHhKZHMzQ1NYaw?oc=5",
+      "published_at": "Fri, 23 May 2025 07:00:00 GMT"
+    }
+  ],
+  "search_query_used": "Cetus Protocol crypto",
+  "neutral_explanation": "CETUSUSDT (CETUS/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 74 (tier A Good); market-cap rank 719. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 1085 assets scanned, 8 confirmed flips (0.7%). State distribution: Blue 69.7%, Gold 12.1%, Gray 10.7%, Unknown 7.6%. Strongest transition: Blue → Gold (6 of 8 flips). Source: reports/private_crypto_dashboard.csv. 5 coin-specific headline(s) were found via automated search; they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

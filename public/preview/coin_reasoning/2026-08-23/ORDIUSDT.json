@@ -1,0 +1,69 @@
+{
+  "symbol": "ORDIUSDT",
+  "date": "2026-08-23",
+  "generated_at": "2026-08-23T18:21:18.266258+00:00",
+  "scanner_evidence": {
+    "symbol": "ORDIUSDT",
+    "pair": "ORDI/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "77",
+    "score_tier": "A Good",
+    "market_cap_rank": "289",
+    "gray_candles": "2",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "fresh signal, clean transition",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=ORDIUSDT",
+    "execution_time": "2026-08-23T06:37:00.614234+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1085 assets scanned, 8 confirmed flips (0.7%). State distribution: Blue 69.7%, Gold 12.1%, Gray 10.7%, Unknown 7.6%. Strongest transition: Blue → Gold (6 of 8 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only.",
+      "Security-incident-related coverage",
+      "Macro/rates-related coverage",
+      "Regulatory/legal-related coverage"
+    ],
+    "context_generated_at": "2026-08-23T18:02:58.212348+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Ordinals (ORDI) Price Prediction 2026, 2027-2030: Can ORDI Surge 100x Again? - Coinpedia",
+      "source_name": "Coinpedia",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0xQ3BJMFFYdWxaUUt6Y2kzMklPWkFBaFBUX2lzRnZMcXhYS0FiTDl4X0o0aXhMLWZxZXVkVDVscEM2STlVVlQ5YTB5RVBIYlhOM1ZROWRPZkJxS3VMenNpOW52cjZNUHA1WkJ0NWpn0gFzQVVfeXFMTTc2VUY4RHF0ZnB3S3Zva1BXajFQVFZyVTg2UFktSzJETjZCaV9DSk94UGN1M3lFMkUzSW5URUt3QTB6Mlc4VXAxQU1HUm5KM3V2U2NZWkROU2NTbWNycHdnZHUzLU1mOVF6X3NzSHZPZmR1NA?oc=5",
+      "published_at": "Wed, 19 Aug 2026 08:53:00 GMT"
+    },
+    {
+      "title": "ORDI Breaks Out Against A Flat Bitcoin — Is The Ordinals Season Starting Again? - Yellow.com",
+      "source_name": "Yellow.com",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNbE96TVJGc1RCMzZFbHNCamhiWmttT2l1eHBCcWFtZUVjTWVBcW40bWFCeGZCOWpXbmh3MURjU19BTzBZOVdxTnJIZ3g1a0JZdlJpMGdFemZ6alFEM3BoazZ1VmpGR1JhWDRNQ2cycXd3N1ppSk5taDZuWUhwNzdySjhR?oc=5",
+      "published_at": "Thu, 20 Aug 2026 22:03:39 GMT"
+    },
+    {
+      "title": "Crypto matrix official(@ManitraderMm)'s insights - Binance",
+      "source_name": "Binance",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE80NksxM0xxcDNBanRmaERtM3BNTk1SQ2NDeElmZlA5ZWJ4MlowVk04ODRLUldkdktjaUhuUkQtamEtOWwtV0ljdUh1N3V0cW9oVkJPSXZMbmxvZFRvcTJQZlltS0g?oc=5",
+      "published_at": "Thu, 20 Aug 2026 09:23:29 GMT"
+    },
+    {
+      "title": "Bitcoin Ordinals BRC-20 Token ORDI Surges 100% to Yearly High — This Is What Could Be Next - CCN.com",
+      "source_name": "CCN.com",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNTTZxUWEzR2Jtc1V0UHAzOXFQV1pfMnduRUxCdUQtRTkyaEIyMUZfekg1alItSXk1YVNJc3Z0dXdNanVhQVB4YVBvT002NmxWWXJmd3hHVUFIVm5WNEpZVzEyTTlyNVd6S3VDTTVJM3pOZ1RaT2ZudzlMaEJwZmRVRmwzZTFnZEowbldJX3hvQ2dDVE93VmhzQUwtdjF5SVUx?oc=5",
+      "published_at": "Thu, 16 Apr 2026 07:00:00 GMT"
+    },
+    {
+      "title": "ORDI - The Block",
+      "source_name": "The Block",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBNNGpiVHAya0I3Vkk1ajFxNTFsbVdBUHJwaHczcjZxeVhVdU9vVk5oNmJ3MC1CT3hrd1pUNmVzMUgtdzVxLVV5QVF3?oc=5",
+      "published_at": "Sat, 08 Aug 2026 08:50:34 GMT"
+    }
+  ],
+  "search_query_used": "ORDI crypto",
+  "neutral_explanation": "ORDIUSDT (ORDI/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 77 (tier A Good); market-cap rank 289. Scanner note: Valid confirmed trend flip — fresh signal, clean transition. Broader crypto market context: 1085 assets scanned, 8 confirmed flips (0.7%). State distribution: Blue 69.7%, Gold 12.1%, Gray 10.7%, Unknown 7.6%. Strongest transition: Blue → Gold (6 of 8 flips). Source: reports/private_crypto_dashboard.csv. 5 coin-specific headline(s) were found via automated search; they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

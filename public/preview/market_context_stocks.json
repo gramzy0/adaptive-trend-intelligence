@@ -1,0 +1,63 @@
+{
+  "market": "stocks",
+  "generated_at": "2026-08-23T18:02:58.212348+00:00",
+  "scanner_summary": "50 assets scanned, 0 confirmed flips (0.0%). State distribution: Blue 14.0%, Gold 76.0%, Gray 10.0%, Unknown 0.0%. Source: data/output/stocks_weekly_results.json, last modified 2026-06-13 (70 days ago). Stale-data warning: source file is more than 30 days old.",
+  "possible_drivers": [
+    "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+    "General market-news coverage, reviewed for context only.",
+    "Earnings/guidance-related coverage",
+    "Regulatory/legal-related coverage"
+  ],
+  "uncertainty_note": "Automatically collected from public RSS headlines and local scanner output. Headlines are cited, not verified for accuracy or causal connection to price movement. This is not investment advice and does not contain buy, sell, hold, or execution guidance. Human review is required before treating anything here as reliable market context.",
+  "sources": [
+    {
+      "title": "Iconic fast-food fried chicken chain closes over 300 restaurants",
+      "source_name": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/small-business/articles/iconic-fast-food-fried-chicken-184700958.html",
+      "published_at": "2026-08-22T18:47:00Z",
+      "note": "General market-news coverage, reviewed for context only."
+    },
+    {
+      "title": "Dow Jones Futures Due With Nvidia Earnings, Tariffs, Warsh In Focus",
+      "source_name": "Yahoo Finance",
+      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-market-rally-nvidia-crowdstrike-warsh/?src=A00220&yptr=yahoo",
+      "published_at": "2026-08-23T17:30:17Z",
+      "note": "Earnings/guidance-related coverage"
+    },
+    {
+      "title": "Rachel Cruze and George Kamel share the spending 'clues' that reveal if you're broke, average or wealthy",
+      "source_name": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/articles/rachel-cruze-george-kamel-share-170000908.html",
+      "published_at": "2026-08-23T17:00:00Z",
+      "note": "General market-news coverage, reviewed for context only."
+    },
+    {
+      "title": "40% of companies posted fake job listings in 2024 — now lawmakers in multiple states are moving to ban them",
+      "source_name": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/small-business/articles/40-companies-posted-fake-job-153000925.html",
+      "published_at": "2026-08-23T15:30:00Z",
+      "note": "Regulatory/legal-related coverage"
+    },
+    {
+      "title": "NVIDIA, Cloverleaf Partnering to Advance Data Center Development",
+      "source_name": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-cloverleaf-partnering-advance-data-152523132.html",
+      "published_at": "2026-08-23T15:25:23Z",
+      "note": "General market-news coverage, reviewed for context only."
+    },
+    {
+      "title": "‘We are committed Christians’: Our son and daughter-in-law cut us off over politics. Should we change our $3 million will?",
+      "source_name": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/we-are-hurt-our-son-and-daughter-in-law-cut-off-contact-with-us-over-politics-should-we-change-our-3-million-will-f763b761?mod=mw_rss_topstories",
+      "published_at": "Sun, 23 Aug 2026 18:00:00 GMT",
+      "note": "General market-news coverage, reviewed for context only."
+    },
+    {
+      "title": "We’re in our 50s and have $1.5 million in traditional 401(k)s. Is it too early to start Roth conversions?",
+      "source_name": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/were-in-our-50s-and-have-1-5-million-in-traditional-401-k-s-is-it-too-early-to-start-roth-conversions-2d0f9287?mod=mw_rss_topstories",
+      "published_at": "Sun, 23 Aug 2026 17:30:00 GMT",
+      "note": "General market-news coverage, reviewed for context only."
+    }
+  ]
+}

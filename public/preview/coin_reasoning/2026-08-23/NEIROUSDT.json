@@ -1,0 +1,69 @@
+{
+  "symbol": "NEIROUSDT",
+  "date": "2026-08-23",
+  "generated_at": "2026-08-23T18:21:18.266258+00:00",
+  "scanner_evidence": {
+    "symbol": "NEIROUSDT",
+    "pair": "NEIRO/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "82",
+    "score_tier": "A+ Strong",
+    "market_cap_rank": "538",
+    "gray_candles": "2",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "small-cap potential, small-cap high risk, fresh signal, clean transition",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=NEIROUSDT",
+    "execution_time": "2026-08-23T06:37:00.614234+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1085 assets scanned, 8 confirmed flips (0.7%). State distribution: Blue 69.7%, Gold 12.1%, Gray 10.7%, Unknown 7.6%. Strongest transition: Blue → Gold (6 of 8 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only.",
+      "Security-incident-related coverage",
+      "Macro/rates-related coverage",
+      "Regulatory/legal-related coverage"
+    ],
+    "context_generated_at": "2026-08-23T18:02:58.212348+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "What Is Neiro (NEIRO)? - Binance",
+      "source_name": "Binance",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1HT2k1RlhoZjVLWThQNE9MMjYybktpbldCN2VPaXlCTUxHb211QzZmYXdBVnV2eE1kbnQ1WHEwaWNWbVhraVJ6dkNDYkVVUDVpMHRlSmVZVFctOUpkY1JraW1KY2JEeU9SY2oyOV9CQzM?oc=5",
+      "published_at": "Tue, 05 May 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Meme Coin Weekly Watch: DOGE Skyrockets, NEIRO Makes A Massive Recovery - Yellow.com",
+      "source_name": "Yellow.com",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQRDZrZEs5SzlrY2JVejJkdW9rZjJ5THgyZWdzWjRCdE5WSGNhS0N4MjNkb0hmRXBKSWxtMTFYYm9lUUdTakdHZEpNak1nVFU0aDJkRE0xODVBSEN6Y0o1S2tNUzAxUGVCcnNYLWkzeGNlMm10LUtrVFBlbzlVdlVqTWdVOU1sNUMybkcxODlUcWZMbDZOVndrb09oMUthOHFmQm5yb08wbzduZw?oc=5",
+      "published_at": "Fri, 14 Aug 2026 02:09:38 GMT"
+    },
+    {
+      "title": "Neiro Price Prediction 2026, 2027 – 2030: NEIRO Memecoin To Hit $0.0001? - Coinpedia",
+      "source_name": "Coinpedia",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPSGpfeEZCdXAwMmlhcE1KN2NmUXEtSkZuUi1BWlIwZF9IVDZfbkRCZC1sOFBkWVR4MWdqTzlZN3k5eEpvM2ZldEp4c2lTblRCaDU0c3JHeFpWR3d2Y2pKQlR0dkJTR3VsQXhHSW9lNmtXOGVoYzhYS1B0amstbExBVERSeGNKekJiYm53VHY3WdIBlAFBVV95cUxNR3RnVlVZenllWE9tMVdlY3R4Q0ozM0syX0QtWHBDY2lSXy1JcFRMeFVPVzhRYlhTaU04YWN1QWsyMm9KYjFSV1d3RDg5NWlSMDUxWWQ1MWNyUDBjeGlsX3VFYXhsMDU4bGxRanR0RUpBdjAxU1NEQmRUN05Kd2oweEw2RVZ6Vlh0VDVqNnBhTUtFVmpC?oc=5",
+      "published_at": "Sat, 18 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "title": "$56M FDV Neiro Token on Ethereum Likely a Honeypot Scam - CoinMarketCap",
+      "source_name": "CoinMarketCap",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQYUc3ZjV0NnJlejhQQ3RZTnlxNGluYXVPVFdtb2NVYjlNaGR5UEJCeEM3TGo4amhtdUVkUFB3U0lzWjdheERLSXRMR0hiNHZmbW9HNEs4NjlSNXU0elMyeG40X1dyZ1ZBSXBHMnlxTlZyU1NqMlRoNXhxbkp6OEV3aWE2UGNjWWZZejQyQnI0dVFGY29OQUJDaVV1NmVwMFh0UzBVYw?oc=5",
+      "published_at": "Tue, 28 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "title": "NEIRO Delisting: Bithumb and Coinone Sound Alarm on Inactive Token Communities - CryptoRank",
+      "source_name": "CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNLWtDV0JJVnVKUEctZmNxMnNEUGx2Tk9odElhSlJXTkVTMFREOC1iS1hnTHdfdzFiNlRjY0otOThTeTRRbzNfVHZSU3o5Xy1kR1hzclU4Wl9TQXpGaWtoY1hrR3dnOVcyTVVDXzB6bTM1cFJCQVNWejQ4dk4zbFViQzFEZFYydw?oc=5",
+      "published_at": "Mon, 09 Feb 2026 08:00:00 GMT"
+    }
+  ],
+  "search_query_used": "Neiro crypto",
+  "neutral_explanation": "NEIROUSDT (NEIRO/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 82 (tier A+ Strong); market-cap rank 538. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal, clean transition. Broader crypto market context: 1085 assets scanned, 8 confirmed flips (0.7%). State distribution: Blue 69.7%, Gold 12.1%, Gray 10.7%, Unknown 7.6%. Strongest transition: Blue → Gold (6 of 8 flips). Source: reports/private_crypto_dashboard.csv. 5 coin-specific headline(s) were found via automated search; they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

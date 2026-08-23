@@ -1,0 +1,69 @@
+{
+  "symbol": "KMNOUSDT",
+  "date": "2026-08-23",
+  "generated_at": "2026-08-23T18:21:18.266258+00:00",
+  "scanner_evidence": {
+    "symbol": "KMNOUSDT",
+    "pair": "KMNO/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "77",
+    "score_tier": "A Good",
+    "market_cap_rank": "212",
+    "gray_candles": "1",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "fresh signal, clean transition",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=KMNOUSDT",
+    "execution_time": "2026-08-23T06:37:00.614234+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1085 assets scanned, 8 confirmed flips (0.7%). State distribution: Blue 69.7%, Gold 12.1%, Gray 10.7%, Unknown 7.6%. Strongest transition: Blue → Gold (6 of 8 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only.",
+      "Security-incident-related coverage",
+      "Macro/rates-related coverage",
+      "Regulatory/legal-related coverage"
+    ],
+    "context_generated_at": "2026-08-23T18:02:58.212348+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Kamino Price: KMNO Price Index and Live Chart - The Block",
+      "source_name": "The Block",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5xemV0aVdjNlJJZGRWaERiTjVpZjRDM2diUVBqQlBSbFh2WEgzcTBQM1lRdFpyWWRSSnNUT09MbmhyRVlZSXdoS1BRX0Y?oc=5",
+      "published_at": "Sat, 08 Aug 2026 15:22:14 GMT"
+    },
+    {
+      "title": "KMNO - Kamino - AMBCrypto",
+      "source_name": "AMBCrypto",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1UVDMzUm1zaGhMZHd5aXN0X1VLck5uRkt6dTBKd3UtaURfQ1JMaUhwNVo4UE52TGFKTWc1cERWRm9HYkw3eEdQcGtR?oc=5",
+      "published_at": "Thu, 20 Aug 2026 10:17:16 GMT"
+    },
+    {
+      "title": "Kamino crypto hits 84 RSI as $0.03 resistance decides the trend - Cryptonews.net",
+      "source_name": "Cryptonews.net",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1hcjZIbEtLVkdKTkJfcmh1MWhmZWNVbTJRdHRMWTFxUHJybUVxX3QtT0tPZnYwaDc2Mlg1dktQaG5QTXdfaEluNGloNnBOUUJIT1o4QTFfOUs1blk?oc=5",
+      "published_at": "Fri, 07 Aug 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Anchorage And Kamino Build A Bridge Between Regulated Custody And On-Chain Solana Lending - Yellow.com",
+      "source_name": "Yellow.com",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPQ1VsVnVBOHY0OGxVSzd5a2lFQy1wWFNpQ00tZ2xVR2ZqYUs0cW9jTDhXZjJyNFRaZWVLUUppX3Rhd3JXSWZWY19YeVFLSUV4TTdvaDNGOUlsRXA5WXZDUkMzQ3BPLUdpVjlESHlZU1RkbnFUTDAwWmRBZWREbjVkQUs2NFdFWDBhXzhXWlhNbUlTbm41S2hUR0FUbXdjY1o1WEU2VzNPbG9mZDVLeS1kbnhIekVKbmg0TW9Kdm5WaVp1VnB1WkNtdUZ3?oc=5",
+      "published_at": "Wed, 12 Aug 2026 06:07:25 GMT"
+    },
+    {
+      "title": "What Is Kamino Finance (KMNO)? - Binance",
+      "source_name": "Binance",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9zaERtbzJ1TTZRMG1ZWUxOZVBQSERFSXpnVkR2WG9TM2kwSHFJTFJRV0RtN0tFVklHMHhZdDlVcDNEUUIwLTRLemVYRG1jTW1mOHZjM3B4Vl83Q1RJRVJtYWRJR2JVaHUzMEJVdFAxNjhYR0pCQUZLVWZJaw?oc=5",
+      "published_at": "Tue, 12 May 2026 07:00:00 GMT"
+    }
+  ],
+  "search_query_used": "Kamino crypto",
+  "neutral_explanation": "KMNOUSDT (KMNO/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 77 (tier A Good); market-cap rank 212. Scanner note: Valid confirmed trend flip — fresh signal, clean transition. Broader crypto market context: 1085 assets scanned, 8 confirmed flips (0.7%). State distribution: Blue 69.7%, Gold 12.1%, Gray 10.7%, Unknown 7.6%. Strongest transition: Blue → Gold (6 of 8 flips). Source: reports/private_crypto_dashboard.csv. 5 coin-specific headline(s) were found via automated search; they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

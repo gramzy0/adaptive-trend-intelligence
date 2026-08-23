@@ -1,0 +1,69 @@
+{
+  "symbol": "LISTAUSDT",
+  "date": "2026-08-23",
+  "generated_at": "2026-08-23T18:21:18.266258+00:00",
+  "scanner_evidence": {
+    "symbol": "LISTAUSDT",
+    "pair": "LISTA/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "62",
+    "score_tier": "B Watch",
+    "market_cap_rank": "650",
+    "gray_candles": "12",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "small-cap potential, small-cap high risk, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=LISTAUSDT",
+    "execution_time": "2026-08-23T06:37:00.614234+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1085 assets scanned, 8 confirmed flips (0.7%). State distribution: Blue 69.7%, Gold 12.1%, Gray 10.7%, Unknown 7.6%. Strongest transition: Blue → Gold (6 of 8 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only.",
+      "Security-incident-related coverage",
+      "Macro/rates-related coverage",
+      "Regulatory/legal-related coverage"
+    ],
+    "context_generated_at": "2026-08-23T18:02:58.212348+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Atlas Goes Live with Venus Protocol and Lista DAO - CoinMarketCap",
+      "source_name": "CoinMarketCap",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOMkZzVG1GNEtZSndhTGJ3R1o5aERuNzRMaVFUN2UzLWVadFpPNnhFZUtkX29ZRTZKaUVfYWFkT0JuZmh0WG8weFJ4S2NYNHlNckwxZ0ZhVkhjemRCUXBaRllOemVyR3BzZndCS3Fmbzc3QWlONVcwd0J2eF8waTBNN3JtZzVyX3FIeVE?oc=5",
+      "published_at": "Sat, 08 Aug 2026 07:03:07 GMT"
+    },
+    {
+      "title": "mXRP, a yield-bearing tokenized XRP product, expands to BNB Chain via Lista DAO - The Block",
+      "source_name": "The Block",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQcFdyT1JhQXYwWjlYWEFWYWZSNC1Hb0pHRV9zSEtJb0JiSXQxWUhGcWdoRGhRZ29oU1lIMGlfLUhrbzM0YWhRdUFrcXF5N2tiUzBLaC0xU1dkV3lCM1QzVE9jMWNzUmVCTkxENnpxTHVEd3JzQXp2NjVacC1sbjVmLWdqZlpial9sSmZkRENvQ0IwRFJI?oc=5",
+      "published_at": "Thu, 13 Nov 2025 08:00:00 GMT"
+    },
+    {
+      "title": "Lista DAO Partners with Gauntlet to Empower Lending Vault Risk Management - Bitget",
+      "source_name": "Bitget",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBGaEhGUExTSnJ6LTZWaUkxSHFyYW12bV9Dck81NVNKd2llck4tV2s5MHhBNjVlLWtaenpVSmp2cE1NMWI4UHIxd2FQcnE3WlJ6d1ZNc0NrWGpFeHQ5NzFLSU5VVdIBY0FVX3lxTFBGaEhGUExTSnJ6LTZWaUkxSHFyYW12bV9Dck81NVNKd2llck4tV2s5MHhBNjVlLWtaenpVSmp2cE1NMWI4UHIxd2FQcnE3WlJ6d1ZNc0NrWGpFeHQ5NzFLSU5VVQ?oc=5",
+      "published_at": "Mon, 27 Apr 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Revolutionary mXRP Expansion: How BNB Chain Integration Unlocks Massive Yield Opportunities - CryptoRank",
+      "source_name": "CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE85OEtocHRDR1paVUk2NWluem5xaHlUUlFZRWh2WWNnUnplaFNDTlVEenJpNS00amxLR01kTUZBb0tDWHFPcGtaZFM0MDZTUmtRZ0xfZVFBMVplc2JFaFN5MmdfZm9KbGRZdDRXU0V5UlQwZw?oc=5",
+      "published_at": "Thu, 13 Nov 2025 08:00:00 GMT"
+    },
+    {
+      "title": "Nansen - Nansen AI",
+      "source_name": "Nansen AI",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5OQlJMUTdvdEhOZUtjQ0NyRm9hdnVKZXBtek9zZE4yQzRXYTh4MGpacjlfWTd2QVdBcEdJakRLT0V6VE9KSG9YWUlXR0tKdkFmNFE?oc=5",
+      "published_at": "Wed, 18 Jun 2025 07:00:00 GMT"
+    }
+  ],
+  "search_query_used": "Lista DAO crypto",
+  "neutral_explanation": "LISTAUSDT (LISTA/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 62 (tier B Watch); market-cap rank 650. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 1085 assets scanned, 8 confirmed flips (0.7%). State distribution: Blue 69.7%, Gold 12.1%, Gray 10.7%, Unknown 7.6%. Strongest transition: Blue → Gold (6 of 8 flips). Source: reports/private_crypto_dashboard.csv. 5 coin-specific headline(s) were found via automated search; they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}
