@@ -1,7 +1,7 @@
 {
   "symbol": "GBPUSDT",
   "date": "2026-08-24",
-  "generated_at": "2026-08-24T17:47:36.329802+00:00",
+  "generated_at": "2026-08-24T17:49:23.466651+00:00",
   "scanner_evidence": {
     "symbol": "GBPUSDT",
     "pair": "GBP/USDT",
@@ -26,7 +26,7 @@
       "Locally observed scanner state distribution and flip activity (see scanner_summary).",
       "General market-news coverage, reviewed for context only."
     ],
-    "context_generated_at": "2026-08-24T17:47:34.935291+00:00"
+    "context_generated_at": "2026-08-24T17:49:21.996189+00:00"
   },
   "coin_specific_headlines": [
     {
@@ -36,28 +36,28 @@
       "published_at": "Sat, 22 Aug 2026 03:31:06 GMT"
     },
     {
-      "title": "GBP Stablecoins are Unlocking the Future of Finance: tGBP now on Coinbase - Coinbase",
-      "source_name": "Coinbase",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZUhMRFl6d2FWUnBBeEVocmliRldPWWhIT3g1U1dPcnFLNXcwcmJhM2FvUkY5N3ZaUkdwQWx1OWxpOWwyOHB6TFphaVRqS3FiNC0zc09sY0xDaTZBaWl4dmk0SlNnRXc3S1ZJUDhOV1RoUkVDa2NfVk9FeGxSckVuRFVZcEhUR3RV?oc=5",
-      "published_at": "Wed, 22 Apr 2026 07:00:00 GMT"
+      "title": "GBP/USD: Sustained Break Above 1.3650 Could Open 1.41, Says Scotiabank - CryptoRank",
+      "source_name": "CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPb3VJNEwyeGJ5UnNQNFdhQXRiVFdrZ0ZYUFhqMHlOVEZuTEprTkJXZTAyLUhxSUJzMlhfTy10cTlVOTNJeTdvQWk3QTRsT24xeWJiRTlnN3hsazdOMnkwNUpyRjBIazlFUkpMY1ZGLTJBaTJ3QmNrN0todkliV01iZDdGNFJXMjdWVzl3ZQ?oc=5",
+      "published_at": "Thu, 20 Aug 2026 23:43:37 GMT"
     },
     {
-      "title": "Revolut to test stablecoin in UK trial - Reuters",
-      "source_name": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNTmMxdW8wd2tpU3MxMU1CV0N2RGZjam5lVUc3TllCNE9pN1AwN1lULVF6Q09URWUzbmxmYmtCTmN4QXVKTHk0VnNDNlVBX1BZQW5EYlNnRnBmYjFxczFOQ2c4c0s0d21EUHBNUHlHRF96QXFYZENDeUgzaTdQTWg5X0xzRENZajlBbzF0Xzdvam1xUzFXckFqdHg5YzVidjN0RGtqTTFPU2l3UmFM?oc=5",
-      "published_at": "Thu, 26 Feb 2026 08:00:00 GMT"
+      "title": "Euro Steadies Against British Pound as Strong PMIs Support Both Currencies - CryptoRank",
+      "source_name": "CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxONGFKQ29PRDdoSUtjbmhFUzVlUjlPdGRJUFlCYjNCMnIzb2RoNko0anBxUjJqS0s2dC15eVlXNEJLU0Q0WlNhelAyV2ZDY1F4UlFkbmEwV2wweFZTNnpqdlJfWUNrZXB0amVEbjF3QkdpYVh6dUZ6WENLeWxtQ3QxZC1lRQ?oc=5",
+      "published_at": "Sat, 22 Aug 2026 03:36:57 GMT"
     },
     {
-      "title": "Coinbase Lists First GBP Stablecoin as UK Push Accelerates - Yahoo Finance",
-      "source_name": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxONUtlZEhKU3NQZW5aSkdTbXJvWTN5cVhGRzlIcWx6U28tNjhDOUlpNzMxVURyeGkyeWxwMnpyb3poR3p5am9yV1NVYzlOdjVwWFdYTFhTaU5scmh4ZlBSSnhpc1RBRW9ud3pUSUxTakRoN3ZIVUs3OGVFalFUS0N1X3VVWWZxWUtpMVhWeEhxZUFsRWh4c3Ffck5VWGxnRWhBb1E?oc=5",
-      "published_at": "Wed, 22 Apr 2026 07:00:00 GMT"
+      "title": "BTC/GBP: Convert Bitcoin (BTC) to British Pounds (GBP) - Revolut",
+      "source_name": "Revolut",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0zMUZFWkhsQTFrV0ZzVTJEQUpQbkIxS1JXd2Fmd0g1UF9lYU1hWElnSDNKOTFfVkEzckhqUV9zc2taWm1fOUpZZ1ZVVU82ZEFaYXZ3c3pMVk9aelBqbHZ3XzRLNGxIbjl1R2VkQkdmQjc?oc=5",
+      "published_at": "Fri, 05 Sep 2025 18:00:44 GMT"
     },
     {
-      "title": "KPL/GBP Price: Convert Kepple to British Pound - Crypto.com",
-      "source_name": "Crypto.com",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5MakxMdVladEpGZWlXQWFPdmlzNWNkNkdla2Q0WEVHU0xxTHRLcHM2eFM1RFJqbzh1V04wX3ZUbTl1YmZpaGctUzZsOUMzQms?oc=5",
-      "published_at": "Sun, 21 Jun 2026 03:31:54 GMT"
+      "title": "UK-Regulated Crypto Firm BCP Technologies Unveils GBP Stablecoin - CoinDesk",
+      "source_name": "CoinDesk",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPdGVJNkk0TEI5MFhkQTFrUlhOTmpmdlI3R25lSkxZRlBkMk1KTDNRY0NJY20xSXVVVkV5NFJSSFptLUVLM09ZbEg0RUx4N2tTQjlyLS14YTRENkNBMC1oLXl1UHA3WWR4ejBsZUhQQm8wQjV0NnNPRk5VTnlfeWFzdUlRc0VmWEIycWNKRXJheTl0OFhTVzZyN0wxMlFXSXpwcnVzS3J0R0lRNGprZlE?oc=5",
+      "published_at": "Tue, 03 Jun 2025 07:00:00 GMT"
     }
   ],
   "search_query_used": "GBP crypto",

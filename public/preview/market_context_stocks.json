@@ -1,6 +1,6 @@
 {
   "market": "stocks",
-  "generated_at": "2026-08-24T17:47:34.935291+00:00",
+  "generated_at": "2026-08-24T17:49:21.996189+00:00",
   "scanner_summary": "50 assets scanned, 0 confirmed flips (0.0%). State distribution: Blue 14.0%, Gold 76.0%, Gray 10.0%, Unknown 0.0%. Source: data/output/stocks_weekly_results.json, last modified 2026-06-13 (71 days ago). Stale-data warning: source file is more than 30 days old.",
   "possible_drivers": [
     "Locally observed scanner state distribution and flip activity (see scanner_summary).",

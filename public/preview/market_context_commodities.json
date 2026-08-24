@@ -1,6 +1,6 @@
 {
   "market": "commodities",
-  "generated_at": "2026-08-24T17:47:34.935291+00:00",
+  "generated_at": "2026-08-24T17:49:21.996189+00:00",
   "scanner_summary": "No commodity scanner data available in data/output; no asset count, flip count, or state distribution can be computed locally.",
   "possible_drivers": [
     "General market-news coverage, reviewed for context only.",
