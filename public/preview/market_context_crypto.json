@@ -1,6 +1,6 @@
 {
   "market": "crypto",
-  "generated_at": "2026-08-24T17:49:21.996189+00:00",
+  "generated_at": "2026-08-24T17:57:05.847914+00:00",
   "scanner_summary": "1085 assets scanned, 9 confirmed flips (0.8%). State distribution: Blue 67.5%, Gold 13.2%, Gray 11.8%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 9 flips). Source: reports/private_crypto_dashboard.csv.",
   "possible_drivers": [
     "Locally observed scanner state distribution and flip activity (see scanner_summary).",

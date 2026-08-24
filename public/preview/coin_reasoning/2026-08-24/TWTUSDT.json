@@ -1,7 +1,7 @@
 {
   "symbol": "TWTUSDT",
   "date": "2026-08-24",
-  "generated_at": "2026-08-24T17:49:23.466651+00:00",
+  "generated_at": "2026-08-24T17:57:07.053431+00:00",
   "scanner_evidence": {
     "symbol": "TWTUSDT",
     "pair": "TWT/USDT",
@@ -26,7 +26,7 @@
       "Locally observed scanner state distribution and flip activity (see scanner_summary).",
       "General market-news coverage, reviewed for context only."
     ],
-    "context_generated_at": "2026-08-24T17:49:21.996189+00:00"
+    "context_generated_at": "2026-08-24T17:57:05.847914+00:00"
   },
   "coin_specific_headlines": [
     {
@@ -48,8 +48,8 @@
       "published_at": "Sat, 01 Aug 2026 07:00:00 GMT"
     },
     {
-      "title": "Silent Crypto Wallet Takeover Unlimited USDT Approval Exploitation via Trust Wallet QR Code Phishing - cyfirma",
-      "source_name": "cyfirma",
+      "title": "Silent Crypto Wallet Takeover Unlimited USDT Approval Exploitation via Trust Wallet QR Code Phishing - Cyfirma",
+      "source_name": "Cyfirma",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPS2xBREUxWkd5T05JWHpsVW1jWVQ5Wm4yZTJiR1BRSm1MYmxqODBpc1ZTOXRSWTYwWmpKam1CRzZRRHMwekF2ZDJoblliUkdGUWNhNGhCTk10Tk4wUktwQXR3anpuRHJIMHVEeEFWLVdzN3NYWDItR0ppdDZDeTJ4bENfWHVLSmJtc0pHZFB4QVRZY3NGcHMzbmdLbm9DR2Ezc2FoY1l0XzU3NDdIZ2FXUm53b1lSQkdLNlVrc0o1WTZINXRqNDJ6U01veEpuREk?oc=5",
       "published_at": "Tue, 14 Apr 2026 07:00:00 GMT"
     },

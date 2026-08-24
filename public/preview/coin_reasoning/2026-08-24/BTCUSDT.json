@@ -1,7 +1,7 @@
 {
   "symbol": "BTCUSDT",
   "date": "2026-08-24",
-  "generated_at": "2026-08-24T17:49:23.466651+00:00",
+  "generated_at": "2026-08-24T17:57:07.053431+00:00",
   "scanner_evidence": {
     "symbol": "BTCUSDT",
     "pair": "BTC/USDT",
@@ -26,7 +26,7 @@
       "Locally observed scanner state distribution and flip activity (see scanner_summary).",
       "General market-news coverage, reviewed for context only."
     ],
-    "context_generated_at": "2026-08-24T17:49:21.996189+00:00"
+    "context_generated_at": "2026-08-24T17:57:05.847914+00:00"
   },
   "coin_specific_headlines": [
     {
@@ -54,10 +54,10 @@
       "published_at": "Sun, 23 Aug 2026 09:16:36 GMT"
     },
     {
-      "title": "Live updates: Bitcoin climbs past $79,000, with gold topping $4,700 - CoinDesk",
-      "source_name": "CoinDesk",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPaWNmZmNIOUNaeWFCbEIwNHdyaE9VcE01ZjhlaUFoaE9sbHFMSzg4THY4Y0tGTkk5cFZuZFVKTVFEQndmQzdhUDl0Njl6UXhadmp3c1UydTZKaEVzT00tX1dmUUc3MkxoQUlIRmFPYVZnMFhFX200N2hVT3hZQXZIbEppUFlRWVRFRUU3NGNBTHRZaU1JT3JmbTlvZ3NWbHpPQVZQUTIzNlNIeVF5VmQyRTV4RTVKVnJZR0dRM204M2l3MjJFbFhldg?oc=5",
-      "published_at": "Mon, 24 Aug 2026 13:48:09 GMT"
+      "title": "Bitcoin is great (for systemic theft of aid money) - Financial Times",
+      "source_name": "Financial Times",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5iengtUWFDRndQVW54aTVNRDRQenZyNmJITmpZMi1lN3VoUTdhRGZ1bk1kVUtDSkZHcTl5clBjOFZMQWp4LXBlV0VKNGt3em42NVAyZGxyTF9HS1NjV3JBbDM3MFcyLXpRVFZsbTU0bmo?oc=5",
+      "published_at": "Mon, 24 Aug 2026 08:04:30 GMT"
     }
   ],
   "search_query_used": "Bitcoin crypto",
