@@ -1,7 +1,7 @@
 {
   "symbol": "ADXUSDT",
   "date": "2026-08-24",
-  "generated_at": "2026-08-24T17:44:09.546449+00:00",
+  "generated_at": "2026-08-24T17:47:36.329802+00:00",
   "scanner_evidence": {
     "symbol": "ADXUSDT",
     "pair": "ADX/USDT",
@@ -26,7 +26,7 @@
       "Locally observed scanner state distribution and flip activity (see scanner_summary).",
       "General market-news coverage, reviewed for context only."
     ],
-    "context_generated_at": "2026-08-24T17:44:07.951422+00:00"
+    "context_generated_at": "2026-08-24T17:47:34.935291+00:00"
   },
   "coin_specific_headlines": [
     {

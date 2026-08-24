@@ -1,21 +1,13 @@
 {
   "market": "stocks",
-  "generated_at": "2026-08-24T17:44:07.951422+00:00",
+  "generated_at": "2026-08-24T17:47:34.935291+00:00",
   "scanner_summary": "50 assets scanned, 0 confirmed flips (0.0%). State distribution: Blue 14.0%, Gold 76.0%, Gray 10.0%, Unknown 0.0%. Source: data/output/stocks_weekly_results.json, last modified 2026-06-13 (71 days ago). Stale-data warning: source file is more than 30 days old.",
   "possible_drivers": [
     "Locally observed scanner state distribution and flip activity (see scanner_summary).",
-    "General market-news coverage, reviewed for context only.",
-    "Earnings/guidance-related coverage"
+    "General market-news coverage, reviewed for context only."
   ],
   "uncertainty_note": "Automatically collected from public RSS headlines and local scanner output. Headlines are cited, not verified for accuracy or causal connection to price movement. This is not investment advice and does not contain buy, sell, hold, or execution guidance. Human review is required before treating anything here as reliable market context.",
   "sources": [
-    {
-      "title": "Stock market today: S&P 500, Nasdaq slip as tech stocks sag, US-Canada trade spat escalates",
-      "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-august-24-dow-sp-500-nasdaq-080306047.html",
-      "published_at": "2026-08-24T08:03:06Z",
-      "note": "General market-news coverage, reviewed for context only."
-    },
     {
       "title": "Trump bought shares in Elon Musk's SpaceX in June, financial disclosure shows",
       "source_name": "Yahoo Finance",
@@ -31,17 +23,31 @@
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "ExxonMobil vs. Chevron: We Compared 10 Years of Dividend Growth And Here’s the Winner",
-      "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/energy/articles/exxonmobil-vs-chevron-compared-10-173023201.html",
-      "published_at": "2026-08-24T17:30:23Z",
-      "note": "General market-news coverage, reviewed for context only."
-    },
-    {
       "title": "Oil slips ahead of US announcement of new sanctions on Iran",
       "source_name": "Yahoo Finance",
       "url": "https://finance.yahoo.com/news/oil-falls-1-ahead-us-231835385.html",
       "published_at": "2026-08-24T17:17:29Z",
+      "note": "General market-news coverage, reviewed for context only."
+    },
+    {
+      "title": "California Attorney General Cancels Paramount Meeting, Citing Leaks",
+      "source_name": "Yahoo Finance",
+      "url": "https://www.wsj.com/business/media/californias-bonta-cancels-paramount-meeting-citing-leaks-b4be3859?siteid=yhoof2&yptr=yahoo",
+      "published_at": "2026-08-24T17:34:00Z",
+      "note": "General market-news coverage, reviewed for context only."
+    },
+    {
+      "title": "Stock Market Today: Dow Up As Trump Makes This Canada Warning; Steel Gains Melt (Live Coverage)",
+      "source_name": "Yahoo Finance",
+      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-economic-d-day-alibaba-stock-baba/?src=A00220&yptr=yahoo",
+      "published_at": "2026-08-24T17:05:00Z",
+      "note": "General market-news coverage, reviewed for context only."
+    },
+    {
+      "title": "Ford’s $3 billion Canadian gamble is getting caught in trade-war crosshairs",
+      "source_name": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/u-s-automakers-and-home-builders-are-among-the-big-losers-as-trump-launches-a-trade-war-against-canada-063c1d4c?mod=mw_rss_topstories",
+      "published_at": "Mon, 24 Aug 2026 17:44:00 GMT",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
@@ -50,13 +56,6 @@
       "url": "https://www.marketwatch.com/story/my-main-goal-is-to-help-people-im-single-74-with-10-million-burning-a-hole-in-my-pocket-what-should-i-do-0e6112e1?mod=mw_rss_topstories",
       "published_at": "Mon, 24 Aug 2026 17:15:00 GMT",
       "note": "General market-news coverage, reviewed for context only."
-    },
-    {
-      "title": "Dell’s stock is up 235% this year — and earnings could propel it even higher, analysts say",
-      "source_name": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/dells-stock-is-up-235-this-year-and-earnings-could-propel-it-even-higher-analysts-say-c1be29d7?mod=mw_rss_topstories",
-      "published_at": "Mon, 24 Aug 2026 17:02:00 GMT",
-      "note": "Earnings/guidance-related coverage"
     }
   ]
 }

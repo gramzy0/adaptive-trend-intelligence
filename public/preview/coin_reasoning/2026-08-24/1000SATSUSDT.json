@@ -1,7 +1,7 @@
 {
   "symbol": "1000SATSUSDT",
   "date": "2026-08-24",
-  "generated_at": "2026-08-24T17:44:09.546449+00:00",
+  "generated_at": "2026-08-24T17:47:36.329802+00:00",
   "scanner_evidence": {
     "symbol": "1000SATSUSDT",
     "pair": "1000SATS/USDT",
@@ -26,9 +26,15 @@
       "Locally observed scanner state distribution and flip activity (see scanner_summary).",
       "General market-news coverage, reviewed for context only."
     ],
-    "context_generated_at": "2026-08-24T17:44:07.951422+00:00"
+    "context_generated_at": "2026-08-24T17:47:34.935291+00:00"
   },
   "coin_specific_headlines": [
+    {
+      "title": "Binance Delisting Shakes Markets: 23 Spot Trading Pairs Including 1000SATS/FDUSD to Be Removed - CryptoRank",
+      "source_name": "CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNYVkyeHNaQnYwSDgzR3NjUzNqaTZpNnVfUTNTQkEwckRwUnNRZTVSWEk5dk1VeWhDcE5RVmxFby1PUWc2THJNRFBhbFlMemNRUGh0TTB3S3VLb2VLdmdLTVRFZnczYy0zaTVRNXBVbnliSUxFUHNPRUhjVTl5UjQtWg?oc=5",
+      "published_at": "Thu, 08 Jan 2026 08:00:00 GMT"
+    },
     {
       "title": "SATS (1000SATS) Price Prediction 2026 2027 2028 - 2040 - Changelly",
       "source_name": "Changelly",
@@ -52,12 +58,6 @@
       "source_name": "CCN.com",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5NQzhnODlvT3Vmem1VNW1pTkVLZ2NPUExNYmZYcVcwQzR2bmxwNlR6NWs2WGk2Rzh6T0JkQnEzOTBZUXJNdWdNZ0EwS3EtczRua0xDWEhneGxXOXlQSmhWUA?oc=5",
       "published_at": "Mon, 22 Jul 2024 07:00:00 GMT"
-    },
-    {
-      "title": "SATS Price, 1000SATS Price, Live Charts, and Marketcap - Coinbase Brazil - Coinbase",
-      "source_name": "Coinbase",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9jYUJpY1Nnemd3eUphVDNrYVFjQ29iT0hJMElPSnltUHkyUXJNU1U1NzV3S2hIbFlScmxSOHpfOE5mWGcxTzBWMDZ6OVpEV3JVM2E0?oc=5",
-      "published_at": "Sat, 13 Apr 2024 12:42:08 GMT"
     }
   ],
   "search_query_used": "1000SATS crypto",
