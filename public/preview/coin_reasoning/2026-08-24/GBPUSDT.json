@@ -1,7 +1,7 @@
 {
   "symbol": "GBPUSDT",
   "date": "2026-08-24",
-  "generated_at": "2026-08-24T16:11:37.443997+00:00",
+  "generated_at": "2026-08-24T17:44:09.546449+00:00",
   "scanner_evidence": {
     "symbol": "GBPUSDT",
     "pair": "GBP/USDT",
@@ -26,7 +26,7 @@
       "Locally observed scanner state distribution and flip activity (see scanner_summary).",
       "General market-news coverage, reviewed for context only."
     ],
-    "context_generated_at": "2026-08-24T16:11:35.960045+00:00"
+    "context_generated_at": "2026-08-24T17:44:07.951422+00:00"
   },
   "coin_specific_headlines": [
     {
@@ -48,16 +48,16 @@
       "published_at": "Thu, 26 Feb 2026 08:00:00 GMT"
     },
     {
-      "title": "Coinbase Lists First GBP Stablecoin as UK Push Accelerates - Yahoo Finance",
-      "source_name": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxONUtlZEhKU3NQZW5aSkdTbXJvWTN5cVhGRzlIcWx6U28tNjhDOUlpNzMxVURyeGkyeWxwMnpyb3poR3p5am9yV1NVYzlOdjVwWFdYTFhTaU5scmh4ZlBSSnhpc1RBRW9ud3pUSUxTakRoN3ZIVUs3OGVFalFUS0N1X3VVWWZxWUtpMVhWeEhxZUFsRWh4c3Ffck5VWGxnRWhBb1E?oc=5",
-      "published_at": "Wed, 22 Apr 2026 07:00:00 GMT"
-    },
-    {
       "title": "KPL/GBP Price: Convert Kepple to British Pound - Crypto.com",
       "source_name": "Crypto.com",
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5MakxMdVladEpGZWlXQWFPdmlzNWNkNkdla2Q0WEVHU0xxTHRLcHM2eFM1RFJqbzh1V04wX3ZUbTl1YmZpaGctUzZsOUMzQms?oc=5",
       "published_at": "Sun, 21 Jun 2026 03:31:54 GMT"
+    },
+    {
+      "title": "Coinbase Lists First GBP Stablecoin as UK Push Accelerates - Yahoo Finance",
+      "source_name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxONUtlZEhKU3NQZW5aSkdTbXJvWTN5cVhGRzlIcWx6U28tNjhDOUlpNzMxVURyeGkyeWxwMnpyb3poR3p5am9yV1NVYzlOdjVwWFdYTFhTaU5scmh4ZlBSSnhpc1RBRW9ud3pUSUxTakRoN3ZIVUs3OGVFalFUS0N1X3VVWWZxWUtpMVhWeEhxZUFsRWh4c3Ffck5VWGxnRWhBb1E?oc=5",
+      "published_at": "Wed, 22 Apr 2026 07:00:00 GMT"
     }
   ],
   "search_query_used": "GBP crypto",

@@ -1,6 +1,6 @@
 {
   "market": "crypto",
-  "generated_at": "2026-08-24T16:11:35.960045+00:00",
+  "generated_at": "2026-08-24T17:44:07.951422+00:00",
   "scanner_summary": "1085 assets scanned, 9 confirmed flips (0.8%). State distribution: Blue 67.5%, Gold 13.2%, Gray 11.8%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 9 flips). Source: reports/private_crypto_dashboard.csv.",
   "possible_drivers": [
     "Locally observed scanner state distribution and flip activity (see scanner_summary).",
@@ -8,6 +8,20 @@
   ],
   "uncertainty_note": "Automatically collected from public RSS headlines and local scanner output. Headlines are cited, not verified for accuracy or causal connection to price movement. This is not investment advice and does not contain buy, sell, hold, or execution guidance. Human review is required before treating anything here as reliable market context.",
   "sources": [
+    {
+      "title": "Crypto political group details list of U.S. congressional allies its backing this year",
+      "source_name": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/08/24/crypto-political-group-details-list-of-u-s-congressional-allies-its-backing-this-year",
+      "published_at": "Mon, 24 Aug 2026 17:30:10 +0000",
+      "note": "General market-news coverage, reviewed for context only."
+    },
+    {
+      "title": "Coinbase debuts tokenized stocks on Base network, joining race to bring equities on blockchain",
+      "source_name": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/08/24/coinbase-debuts-tokenized-stocks-on-base-network-joining-race-to-bring-equities-on-blockchain",
+      "published_at": "Mon, 24 Aug 2026 17:12:35 +0000",
+      "note": "General market-news coverage, reviewed for context only."
+    },
     {
       "title": "Tom Lee's Bitmine buys $81 million of ETH in largest weekly haul since early July",
       "source_name": "CoinDesk",
@@ -30,17 +44,10 @@
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Standard Chartered becomes first bank to distribute Hong Kong dollar stablecoin",
-      "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/08/24/standard-chartered-first-bank-to-distribute-anchorpoint-s-hong-kong-dollar-stablecoin",
-      "published_at": "Mon, 24 Aug 2026 11:36:55 +0000",
-      "note": "General market-news coverage, reviewed for context only."
-    },
-    {
-      "title": "Pakistan kicks off crypto licensing regime with Sept. 5 registration deadline",
-      "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/08/24/pakistan-kicks-off-crypto-licensing-regime-with-sept-5-registration-deadline",
-      "published_at": "Mon, 24 Aug 2026 11:19:16 +0000",
+      "title": "Strive buys 1,110 Bitcoin for $81.5M, holdings top 21K BTC; ASST shares surge 11%",
+      "source_name": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/strive-buys-1110-bitcoin-for-815m-holdings-top-21k-btc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "Mon, 24 Aug 2026 16:44:55 +0000",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
@@ -48,13 +55,6 @@
       "source_name": "CoinTelegraph",
       "url": "https://cointelegraph.com/news/cryptocurrency-organizations-oppose-illinois-digital-asset-tax-court?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "published_at": "Mon, 24 Aug 2026 16:05:48 +0000",
-      "note": "General market-news coverage, reviewed for context only."
-    },
-    {
-      "title": "Bitmine extends 14-month ETH buying pace as Ether breaks above $2.5K",
-      "source_name": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/bitmine-eth-holdings-5-percent-ether-price-breakout?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "Mon, 24 Aug 2026 15:29:26 +0000",
       "note": "General market-news coverage, reviewed for context only."
     }
   ]

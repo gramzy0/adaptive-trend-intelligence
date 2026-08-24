@@ -1,7 +1,7 @@
 {
   "symbol": "KGSTUSDT",
   "date": "2026-08-24",
-  "generated_at": "2026-08-24T16:11:37.443997+00:00",
+  "generated_at": "2026-08-24T17:44:09.546449+00:00",
   "scanner_evidence": {
     "symbol": "KGSTUSDT",
     "pair": "KGST/USDT",
@@ -26,7 +26,7 @@
       "Locally observed scanner state distribution and flip activity (see scanner_summary).",
       "General market-news coverage, reviewed for context only."
     ],
-    "context_generated_at": "2026-08-24T16:11:35.960045+00:00"
+    "context_generated_at": "2026-08-24T17:44:07.951422+00:00"
   },
   "coin_specific_headlines": [
     {
@@ -54,8 +54,8 @@
       "published_at": "Sat, 25 Oct 2025 07:00:00 GMT"
     },
     {
-      "title": "Kyrgyzstan to launch stablecoin on BNB, plans CBDC in partnership with adviser Changpeng Zhao - theblock.co",
-      "source_name": "theblock.co",
+      "title": "Kyrgyzstan to launch stablecoin on BNB, plans CBDC in partnership with adviser Changpeng Zhao - The Block",
+      "source_name": "The Block",
       "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNaVY2NTZJRjdWRVRWbk5wZ3ZrN25JXzJPMURWYVBPLWpmYUJsTFVtUERoNEFJdkZRMGJ6OHFXOHEwQkRVYzRQUGYzXy1ucFNIOXpvd2ozOUM5ZnFhWURnV0Zid0ZaR3drM0pwTWQwUWlQWTIxMzdvbFlUZi1IT0hEYTdFVFdPUEJrTXB4eVhDMmRGSFNkZWQ4T3I0bmFqMnpqVE9seVdDYkdOZDd1blM1Um9rX1loc0VaeEM5aEo2Q1U1ZGFQdzNSVzhDVXp5WjNKZDl4eWQ5QkI5WjN5elRSdndQVUY?oc=5",
       "published_at": "Sat, 25 Oct 2025 07:00:00 GMT"
     }

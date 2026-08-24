@@ -1,7 +1,7 @@
 {
   "symbol": "POLUSDT",
   "date": "2026-08-24",
-  "generated_at": "2026-08-24T16:11:37.443997+00:00",
+  "generated_at": "2026-08-24T17:44:09.546449+00:00",
   "scanner_evidence": {
     "symbol": "POLUSDT",
     "pair": "POL/USDT",
@@ -26,7 +26,7 @@
       "Locally observed scanner state distribution and flip activity (see scanner_summary).",
       "General market-news coverage, reviewed for context only."
     ],
-    "context_generated_at": "2026-08-24T16:11:35.960045+00:00"
+    "context_generated_at": "2026-08-24T17:44:07.951422+00:00"
   },
   "coin_specific_headlines": [
     {
@@ -36,8 +36,8 @@
       "published_at": "Thu, 07 May 2026 07:00:00 GMT"
     },
     {
-      "title": "Polygon Price: POL Price Index and Live Chart - theblock.co",
-      "source_name": "theblock.co",
+      "title": "Polygon Price: POL Price Index and Live Chart - The Block",
+      "source_name": "The Block",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE83Q1RTSWl2bWlVWmtuY0FPMTkxZzhSRE9KTjhId0tBZnctdURIR0NWNjlvc1BKbW9PM3FPVE5fSEVXRzlUWjdnLU44eWw4TS1t?oc=5",
       "published_at": "Fri, 07 Aug 2026 17:43:40 GMT"
     },

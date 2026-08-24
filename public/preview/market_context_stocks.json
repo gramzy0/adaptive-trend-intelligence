@@ -1,10 +1,11 @@
 {
   "market": "stocks",
-  "generated_at": "2026-08-24T16:11:35.960045+00:00",
+  "generated_at": "2026-08-24T17:44:07.951422+00:00",
   "scanner_summary": "50 assets scanned, 0 confirmed flips (0.0%). State distribution: Blue 14.0%, Gold 76.0%, Gray 10.0%, Unknown 0.0%. Source: data/output/stocks_weekly_results.json, last modified 2026-06-13 (71 days ago). Stale-data warning: source file is more than 30 days old.",
   "possible_drivers": [
     "Locally observed scanner state distribution and flip activity (see scanner_summary).",
-    "General market-news coverage, reviewed for context only."
+    "General market-news coverage, reviewed for context only.",
+    "Earnings/guidance-related coverage"
   ],
   "uncertainty_note": "Automatically collected from public RSS headlines and local scanner output. Headlines are cited, not verified for accuracy or causal connection to price movement. This is not investment advice and does not contain buy, sell, hold, or execution guidance. Human review is required before treating anything here as reliable market context.",
   "sources": [
@@ -16,46 +17,46 @@
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Tech stocks today: All eyes on Nvidia as Meta trial resumes",
+      "title": "Trump bought shares in Elon Musk's SpaceX in June, financial disclosure shows",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/technology/live/tech-stocks-today-all-eyes-on-nvidia-as-meta-trial-resumes-125406169.html",
-      "published_at": "2026-08-24T12:54:06Z",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/trump-bought-shares-elon-musks-171836919.html",
+      "published_at": "2026-08-24T17:24:35Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Eli Lilly Has a $100 Billion Revenue Story in the Making, 18% Upside Ahead",
+      "title": "General Motors Company (GM) Spends $4.5B on Chips: Is Ford Motor Company (F) Betting Bigger on America?",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/healthcare/articles/eli-lilly-100-billion-revenue-160050901.html",
-      "published_at": "2026-08-24T16:00:50Z",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/general-motors-company-gm-spends-172052073.html",
+      "published_at": "2026-08-24T17:20:52Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Shares dip on pressure from technology; yields and oil fall",
+      "title": "ExxonMobil vs. Chevron: We Compared 10 Years of Dividend Growth And Here’s the Winner",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/news/shares-flat-asia-iran-sanctions-004936320.html",
-      "published_at": "2026-08-24T15:47:51Z",
+      "url": "https://finance.yahoo.com/energy/articles/exxonmobil-vs-chevron-compared-10-173023201.html",
+      "published_at": "2026-08-24T17:30:23Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Bitcoin ETFs Post Strongest Weekly Inflows in 10 Months as Price Surges",
+      "title": "Oil slips ahead of US announcement of new sanctions on Iran",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-etfs-post-strongest-weekly-154700094.html",
-      "published_at": "2026-08-24T15:47:00Z",
+      "url": "https://finance.yahoo.com/news/oil-falls-1-ahead-us-231835385.html",
+      "published_at": "2026-08-24T17:17:29Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Global oil prices above $90 a barrel ahead of Bessent’s ‘economic D-Day’ announcement on Iran",
+      "title": "‘My main goal is to help people’: I’m single, 74, with $10 million burning a hole in my pocket. What should I do?",
       "source_name": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/oil-trades-lower-even-as-bessent-promises-economic-d-day-announcement-on-iran-a90d862e?mod=mw_rss_topstories",
-      "published_at": "Mon, 24 Aug 2026 16:03:00 GMT",
+      "url": "https://www.marketwatch.com/story/my-main-goal-is-to-help-people-im-single-74-with-10-million-burning-a-hole-in-my-pocket-what-should-i-do-0e6112e1?mod=mw_rss_topstories",
+      "published_at": "Mon, 24 Aug 2026 17:15:00 GMT",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "U.S. automakers and home builders are among the big losers as Trump launches a trade war against Canada",
+      "title": "Dell’s stock is up 235% this year — and earnings could propel it even higher, analysts say",
       "source_name": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/u-s-automakers-and-home-builders-are-among-the-big-losers-as-trump-launches-a-trade-war-against-canada-063c1d4c?mod=mw_rss_topstories",
-      "published_at": "Mon, 24 Aug 2026 15:46:00 GMT",
-      "note": "General market-news coverage, reviewed for context only."
+      "url": "https://www.marketwatch.com/story/dells-stock-is-up-235-this-year-and-earnings-could-propel-it-even-higher-analysts-say-c1be29d7?mod=mw_rss_topstories",
+      "published_at": "Mon, 24 Aug 2026 17:02:00 GMT",
+      "note": "Earnings/guidance-related coverage"
     }
   ]
 }
