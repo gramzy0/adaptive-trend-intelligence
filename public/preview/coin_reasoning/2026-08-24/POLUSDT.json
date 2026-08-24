@@ -1,0 +1,66 @@
+{
+  "symbol": "POLUSDT",
+  "date": "2026-08-24",
+  "generated_at": "2026-08-24T15:31:37.446102+00:00",
+  "scanner_evidence": {
+    "symbol": "POLUSDT",
+    "pair": "POL/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "72",
+    "score_tier": "A Good",
+    "market_cap_rank": "68",
+    "gray_candles": "2",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "large-cap stability, top market cap, fresh signal, clean transition",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=POLUSDT",
+    "execution_time": "2026-08-24T06:38:06.475059+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1085 assets scanned, 9 confirmed flips (0.8%). State distribution: Blue 67.5%, Gold 13.2%, Gray 11.8%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 9 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only."
+    ],
+    "context_generated_at": "2026-08-24T15:31:35.980051+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Polygon POL Price Analysis: Ex-MATIC Tests Payments Re-Rating - techi.com",
+      "source_name": "techi.com",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBTQVg5TmM2dHpxMU9OTi01aTZyLVRla055dkxDWm4ta1I0MHJrZ0M3UkdxY1RSRlNXXy02OUxkd3lraU1fV3Zvbzh0aHhiMjdocEVNeV9IUmlXYVpVVHh6WGh6Vi1RYUJER3hGREpXc2h1S3FIZHc?oc=5",
+      "published_at": "Thu, 07 May 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Polygon Price: POL Price Index and Live Chart - theblock.co",
+      "source_name": "theblock.co",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE83Q1RTSWl2bWlVWmtuY0FPMTkxZzhSRE9KTjhId0tBZnctdURIR0NWNjlvc1BKbW9PM3FPVE5fSEVXRzlUWjdnLU44eWw4TS1t?oc=5",
+      "published_at": "Fri, 07 Aug 2026 17:43:40 GMT"
+    },
+    {
+      "title": "POL (ex-MATIC) (POL) Price, Chart & Market Cap - 99Bitcoins",
+      "source_name": "99Bitcoins",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1CQVE0ekRqUl9DVjRkMlBheE1nM0swVG1vdWNKMW9QWjh1cnphYjlqVTVaMVg1Z3F1NjVWenhuaVhiMHFSVUVGdFZpcDhtWURPejBHMUdkcUVRU19qTnVURGhPOXFWb3c?oc=5",
+      "published_at": "Tue, 18 Aug 2026 15:50:36 GMT"
+    },
+    {
+      "title": "Polygon’s $1 Dream Driven By Revenue & Stablecoin Surge - DailyCoin",
+      "source_name": "DailyCoin",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1WdHlUM0VDczlaQmdKX3BRdHhldERtYkx2eWtTOWNuUUFONm5oME10X2htVDRxUlhYeGxWdzlpdXFOWVhiX05tRTNrUm9wMlFVaG1jNC1ZZ2pLRmNJQnQxX3U5ZEh4MW5sVkxZUjFjSzJaZl9RQ1VGd3dIT2dNMzA?oc=5",
+      "published_at": "Wed, 25 Feb 2026 08:00:00 GMT"
+    },
+    {
+      "title": "POL (ex-MATIC): Ithaca hardfork goes live on Polygon mainnet - 29 Jul 2026 - TradingView",
+      "source_name": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOWHo3ZGZhX2l3VUYxbF9xWWhGeXBuejZjSzd6OG9BTnJ1c3dXWFVaVWlMeUM5aElzVTZURXpjSUx3Sng0dFo4ajhKc3lfbUI0X2lNajNWc0t1dXBjRmZROFlTUEM4VVBOQ21QRHlzOG94dFU4c3RGTElsQVRpYWYwMlB0OEJFZkczMVZmbW1CQ3VFdWJHOFdXV3VsQnJGS2JjOXozUDBhVl81NXR4YzNabzNFRVJNcU1nRjBHLVNkNG12NWp5N2lyYm9CUnpadw?oc=5",
+      "published_at": "Thu, 23 Jul 2026 07:00:00 GMT"
+    }
+  ],
+  "search_query_used": "POL (ex-MATIC) crypto",
+  "neutral_explanation": "POLUSDT (POL/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 72 (tier A Good); market-cap rank 68. Scanner note: Valid confirmed trend flip — large-cap stability, top market cap, fresh signal, clean transition. Broader crypto market context: 1085 assets scanned, 9 confirmed flips (0.8%). State distribution: Blue 67.5%, Gold 13.2%, Gray 11.8%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 9 flips). Source: reports/private_crypto_dashboard.csv. 5 coin-specific headline(s) were found via automated search; they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

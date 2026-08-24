@@ -1,0 +1,42 @@
+{
+  "symbol": "ADXUSDT",
+  "date": "2026-08-24",
+  "generated_at": "2026-08-24T15:31:37.446102+00:00",
+  "scanner_evidence": {
+    "symbol": "ADXUSDT",
+    "pair": "ADX/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "52",
+    "score_tier": "B Watch",
+    "market_cap_rank": "1186",
+    "gray_candles": "12",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "small-cap potential, small-cap high risk, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=ADXUSDT",
+    "execution_time": "2026-08-24T06:38:06.475059+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1085 assets scanned, 9 confirmed flips (0.8%). State distribution: Blue 67.5%, Gold 13.2%, Gray 11.8%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 9 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only."
+    ],
+    "context_generated_at": "2026-08-24T15:31:35.980051+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "heyAura Price Prediction 2026, 2027, 2030 & Beyond: Yearly Forecast - Binance",
+      "source_name": "Binance",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9DNkZqNkZkNGVlRl9VZDRqbC1rVEplbVBwMVg4dmpXcldTOUpkd1g2b1ZNbXB3REh5eXdlVXV6X0pnclQ5SE1vX29zVkNWRXdzMW5NSWI4dzRNSFB0bzNaVl9XTE8?oc=5",
+      "published_at": "Wed, 19 Aug 2026 08:06:00 GMT"
+    }
+  ],
+  "search_query_used": "heyAura crypto",
+  "neutral_explanation": "ADXUSDT (ADX/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 52 (tier B Watch); market-cap rank 1186. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 1085 assets scanned, 9 confirmed flips (0.8%). State distribution: Blue 67.5%, Gold 13.2%, Gray 11.8%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 9 flips). Source: reports/private_crypto_dashboard.csv. 1 coin-specific headline(s) were found via automated search; they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

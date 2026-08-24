@@ -1,0 +1,66 @@
+{
+  "symbol": "TWTUSDT",
+  "date": "2026-08-24",
+  "generated_at": "2026-08-24T15:31:37.446102+00:00",
+  "scanner_evidence": {
+    "symbol": "TWTUSDT",
+    "pair": "TWT/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "57",
+    "score_tier": "B Watch",
+    "market_cap_rank": "181",
+    "gray_candles": "14",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=TWTUSDT",
+    "execution_time": "2026-08-24T06:38:06.475059+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1085 assets scanned, 9 confirmed flips (0.8%). State distribution: Blue 67.5%, Gold 13.2%, Gray 11.8%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 9 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only."
+    ],
+    "context_generated_at": "2026-08-24T15:31:35.980051+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "7 best crypto wallets of 2026: The winners on fees, security, and chain coverage - Yahoo Finance",
+      "source_name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNb08yWDJoX3dUX1F4OGF0V3lPeS1BT0N1aGk0S1hnT0RSRjBZSnExWEc4NUg1c2lMU0ZaMDFxMmlpdG9oN1F3NGp5Q2VxVG9IWU1vRWlfczZJcElxWWd2ZzlJZS1yY0pzbS1sOF9wRk91Yjc1WWw1XzFHbHRqcWpiYVk2SC12ZTYwcWdrU0NBWF85QkJOV0Z0d0ZfQQ?oc=5",
+      "published_at": "Wed, 12 Aug 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Trust Wallet to End Support for 25 Networks on September 15 - TradingView",
+      "source_name": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbDlZYUNsRjBMRklCNWVyeDIwblZNWWozRXRxNDFubGprbjZfQS1rdHk3T0FfZGwxMGtvS3E2R0NvZTQwRW8xWHJEYl82LTE0czhqdEQ5T2FTQ1NVdU1vS1ZFMmhFUDJNUUxPVkZEM2tPVEpwWGV5UDFLQXlQa1VSbXN6VnNZc0R0Uld2VmwxdWE1UkxnMkR4RnhJY2NyMHhDYUpxV0VzSlZYMGFjdXpVUGRselc1WUFW?oc=5",
+      "published_at": "Thu, 20 Aug 2026 13:12:10 GMT"
+    },
+    {
+      "title": "🚀 Best Crypto Wallet 2026 for Beginners - Bitcoin Foundation",
+      "source_name": "Bitcoin Foundation",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQY2FPMlhHTDdCbjJuSmN3MG4wdFhlVlIxTlVsMmdUSlA0RHJWa1dtb2lBbEJ5VlJFWVZ6X0tfak8tSmJ0d212UGI3NXE5eWhLbGtrNUR2MnpzOFRGY1dHY0IwNUYwOENNYnAtbW9ZcFdqY3lNQjg2N1AxWWY2eFRYWGJadVBjSkJyS2QwMQ?oc=5",
+      "published_at": "Sat, 01 Aug 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Silent Crypto Wallet Takeover Unlimited USDT Approval Exploitation via Trust Wallet QR Code Phishing - cyfirma",
+      "source_name": "cyfirma",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPS2xBREUxWkd5T05JWHpsVW1jWVQ5Wm4yZTJiR1BRSm1MYmxqODBpc1ZTOXRSWTYwWmpKam1CRzZRRHMwekF2ZDJoblliUkdGUWNhNGhCTk10Tk4wUktwQXR3anpuRHJIMHVEeEFWLVdzN3NYWDItR0ppdDZDeTJ4bENfWHVLSmJtc0pHZFB4QVRZY3NGcHMzbmdLbm9DR2Ezc2FoY1l0XzU3NDdIZ2FXUm53b1lSQkdLNlVrc0o1WTZINXRqNDJ6U01veEpuREk?oc=5",
+      "published_at": "Tue, 14 Apr 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Best Crypto Wallet Apps - Ledger",
+      "source_name": "Ledger",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1yQ0kycVhkb0Z3akRneDRDSk5QNm9XdmFwdVBQbWt4VW9LQUwzb3pwU3NDLW5lZTZEaGFkMmgzS1RoZUpGaHROOUlkWjk3TzdCc3VzMHowaUFVS1N1YWU4cWYwUUdFdHJlaWtKZGJRQUZOOElrYXRR?oc=5",
+      "published_at": "Wed, 08 Jul 2026 07:00:00 GMT"
+    }
+  ],
+  "search_query_used": "Trust Wallet crypto",
+  "neutral_explanation": "TWTUSDT (TWT/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 57 (tier B Watch); market-cap rank 181. Scanner note: Valid confirmed trend flip — fresh signal. Broader crypto market context: 1085 assets scanned, 9 confirmed flips (0.8%). State distribution: Blue 67.5%, Gold 13.2%, Gray 11.8%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 9 flips). Source: reports/private_crypto_dashboard.csv. 5 coin-specific headline(s) were found via automated search; they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

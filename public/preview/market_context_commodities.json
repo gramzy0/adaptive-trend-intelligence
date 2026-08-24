@@ -1,45 +1,46 @@
 {
   "market": "commodities",
-  "generated_at": "2026-08-23T18:02:58.212348+00:00",
+  "generated_at": "2026-08-24T15:31:35.980051+00:00",
   "scanner_summary": "No commodity scanner data available in data/output; no asset count, flip count, or state distribution can be computed locally.",
   "possible_drivers": [
+    "Supply-related coverage",
     "General market-news coverage, reviewed for context only."
   ],
   "uncertainty_note": "Automatically collected from public RSS headlines and local scanner output. Headlines are cited, not verified for accuracy or causal connection to price movement. This is not investment advice and does not contain buy, sell, hold, or execution guidance. Human review is required before treating anything here as reliable market context.",
   "sources": [
     {
-      "title": "Private Equity Is Circling Utilities as AI Reshapes the Grid",
+      "title": "Goldman Sachs: Europe Needs Much Higher Gas Prices to Secure Winter Supply",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Energy/Energy-General/Private-Equity-Is-Circling-Utilities-as-AI-Reshapes-the-Grid.html",
-      "published_at": "Sun, 23 Aug 2026 13:00:00 -0500",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Goldman-Sachs-Europe-Needs-Much-Higher-Gas-Prices-to-Secure-Winter-Supply.html",
+      "published_at": "Mon, 24 Aug 2026 10:30:00 -0500",
+      "note": "Supply-related coverage"
+    },
+    {
+      "title": "European Leaders Gather in Kyiv as Ukraine Seeks More Air Defense",
+      "source_name": "OilPrice.com",
+      "url": "https://oilprice.com/Geopolitics/Europe/European-Leaders-Gather-in-Kyiv-as-Ukraine-Seeks-More-Air-Defense.html",
+      "published_at": "Mon, 24 Aug 2026 10:00:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Underwater Volcanoes Are Geothermal Energy’s Next Frontier",
+      "title": "Russia Scrambles to Restore Fuel Supplies as Refineries Resume Operations",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Energy/Energy-General/Underwater-Volcanoes-Are-Geothermal-Energys-Next-Frontier.html",
-      "published_at": "Sun, 23 Aug 2026 10:00:00 -0500",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Russia-Scrambles-to-Restore-Fuel-Supplies-as-Refineries-Resume-Operations.html",
+      "published_at": "Mon, 24 Aug 2026 09:30:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Europe Dodges a Rhine Crisis for the Worst Possible Reason",
+      "title": "Iran Blacklists 45 Tankers as Hormuz Standoff Escalates",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Energy/Energy-General/Europe-Dodges-a-Rhine-Crisis-for-the-Worst-Possible-Reason.html",
-      "published_at": "Sat, 22 Aug 2026 18:00:00 -0500",
+      "url": "https://oilprice.com/Energy/Energy-General/Iran-Blacklists-45-Tankers-as-Hormuz-Standoff-Escalates.html",
+      "published_at": "Mon, 24 Aug 2026 09:00:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "The Gas Turbine Shortage Just Became AI’s Biggest Constraint",
+      "title": "Equinor and Aker BP Make New North Sea Gas Discovery",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Energy/Energy-General/The-Gas-Turbine-Shortage-Just-Became-AIs-Biggest-Constraint.html",
-      "published_at": "Sat, 22 Aug 2026 16:00:00 -0500",
-      "note": "General market-news coverage, reviewed for context only."
-    },
-    {
-      "title": "Clean Energy Spending Tracking Toward Record $180 Billion in 2026",
-      "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Energy/Energy-General/Clean-Energy-Spending-Tracking-Toward-Record-180-Billion-in-2026.html",
-      "published_at": "Sat, 22 Aug 2026 14:00:00 -0500",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Equinor-and-Aker-BP-Make-New-North-Sea-Gas-Discovery.html",
+      "published_at": "Mon, 24 Aug 2026 08:30:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {

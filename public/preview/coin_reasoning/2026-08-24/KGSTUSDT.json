@@ -1,0 +1,66 @@
+{
+  "symbol": "KGSTUSDT",
+  "date": "2026-08-24",
+  "generated_at": "2026-08-24T15:31:37.446102+00:00",
+  "scanner_evidence": {
+    "symbol": "KGSTUSDT",
+    "pair": "KGST/USDT",
+    "current_state": "Blue",
+    "previous_state": "Gold",
+    "flip_direction": "Gold → Blue (Bearish)",
+    "score": "55",
+    "score_tier": "B Watch",
+    "market_cap_rank": "1440",
+    "gray_candles": "11",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "small-cap potential, small-cap high risk, fresh signal",
+    "signal": "Confirmed Gold → Gray → Blue → Blue",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=KGSTUSDT",
+    "execution_time": "2026-08-24T06:38:06.475059+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1085 assets scanned, 9 confirmed flips (0.8%). State distribution: Blue 67.5%, Gold 13.2%, Gray 11.8%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 9 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only."
+    ],
+    "context_generated_at": "2026-08-24T15:31:35.980051+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Kyrgyzstan Launches National Stablecoin on BNB Chain - CoinMarketCap",
+      "source_name": "CoinMarketCap",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQdVRNNDU2aU9idC1VUV9ZVGEzaTc2SnV0aGUzZzRVbUp6UFRoWFpNaHdtRTdwLXBqbFZZdGNjcTQ5OVNQWFlKRDV3YjJ1bkIxVzdkZ2d5Zi11ckVoekZSM2hWenVZLTl5X2tmN0FrWDRoZXYzdmVwWHlSZDllcEdCX0RjbzV6YjZiZWZ0UmlEWVUxZ0lNc1d3LXlR?oc=5",
+      "published_at": "Fri, 14 Aug 2026 03:56:07 GMT"
+    },
+    {
+      "title": "Kyrgyzstan Launches Stablecoin on BNB Chain, Eyes National Digital Currency and Crypto Reserve - Yahoo Finance",
+      "source_name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPTUM3SnBDV2Y5NUVHUjZlV0JYYlN5ZUdPVUJDWUdYQ2VrdzZVTHRKR2s4cXNSOUtIcnBJUXFTVHhob2lrVDhGTTVtVkpNamF3eWhLT3hNR2FPejhhSnRNeEhvZ25XeW5HY3g0aDZuMjVVZHVRMkhWcTFrV3R4Q0pOcVZSLWh5NkZST2VxNFUtMA?oc=5",
+      "published_at": "Sun, 26 Oct 2025 07:00:00 GMT"
+    },
+    {
+      "title": "Kyrgyzstan Launches Som-Backed Stablecoin KGST on Binance - Altcoin Buzz",
+      "source_name": "Altcoin Buzz",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOUUo5RnNXa0ZNNWNOM2ZjeXBuMTdvdmNwWFhrTGdCNXllb1o5U0hJdlpXNlljWFY0S0tQSzFKRFg2OVF4ZVk0RkFBS3RPZEwxVDZMZVAxR0xlLW9fRFdhaXA3QjJHWDBuMENfZENiV3dYWkktZF9CSXFKM01DNjZUS0haWE9fazFZYjhXSA?oc=5",
+      "published_at": "Fri, 26 Dec 2025 08:00:00 GMT"
+    },
+    {
+      "title": "Kyrgyzstan launches national stablecoin in partnership with Binance - Reuters",
+      "source_name": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONXdnNXdYRnVuNnA1azNDcDc2ZGpEalNVQmk5OWJqV21JMUlkRUEyZ0RFMkZHYnFza3U4RWM2Q3o0ZjU0UTlkNDdPa19NQ3NvWm1yOEV0VkFTbW9OdDlSMnpHTm1xVzRlblNURWN2RmFBNkY3MjlwQ2J6ZVF5UkFaTzU3UFl1Y1cwUEVoVnd3cnRJaGpRLUFjOElqNUd2RF9xdmZVWTktYmJLLWNHZUpBUExyN2JORmRCUVdB?oc=5",
+      "published_at": "Sat, 25 Oct 2025 07:00:00 GMT"
+    },
+    {
+      "title": "Kyrgyzstan to launch stablecoin on BNB, plans CBDC in partnership with adviser Changpeng Zhao - theblock.co",
+      "source_name": "theblock.co",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNaVY2NTZJRjdWRVRWbk5wZ3ZrN25JXzJPMURWYVBPLWpmYUJsTFVtUERoNEFJdkZRMGJ6OHFXOHEwQkRVYzRQUGYzXy1ucFNIOXpvd2ozOUM5ZnFhWURnV0Zid0ZaR3drM0pwTWQwUWlQWTIxMzdvbFlUZi1IT0hEYTdFVFdPUEJrTXB4eVhDMmRGSFNkZWQ4T3I0bmFqMnpqVE9seVdDYkdOZDd1blM1Um9rX1loc0VaeEM5aEo2Q1U1ZGFQdzNSVzhDVXp5WjNKZDl4eWQ5QkI5WjN5elRSdndQVUY?oc=5",
+      "published_at": "Sat, 25 Oct 2025 07:00:00 GMT"
+    }
+  ],
+  "search_query_used": "Kyrgyz Som Stablecoin crypto",
+  "neutral_explanation": "KGSTUSDT (KGST/USDT) recorded a confirmed state flip: Gold → Blue (Bearish). Scanner score 55 (tier B Watch); market-cap rank 1440. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 1085 assets scanned, 9 confirmed flips (0.8%). State distribution: Blue 67.5%, Gold 13.2%, Gray 11.8%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 9 flips). Source: reports/private_crypto_dashboard.csv. 5 coin-specific headline(s) were found via automated search; they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

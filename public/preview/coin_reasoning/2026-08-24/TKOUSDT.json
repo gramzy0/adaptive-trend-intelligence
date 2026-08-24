@@ -1,0 +1,66 @@
+{
+  "symbol": "TKOUSDT",
+  "date": "2026-08-24",
+  "generated_at": "2026-08-24T15:31:37.446102+00:00",
+  "scanner_evidence": {
+    "symbol": "TKOUSDT",
+    "pair": "TKO/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "52",
+    "score_tier": "B Watch",
+    "market_cap_rank": "1769",
+    "gray_candles": "13",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "small-cap potential, small-cap high risk, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=TKOUSDT",
+    "execution_time": "2026-08-24T06:38:06.475059+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1085 assets scanned, 9 confirmed flips (0.8%). State distribution: Blue 67.5%, Gold 13.2%, Gray 11.8%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 9 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only."
+    ],
+    "context_generated_at": "2026-08-24T15:31:35.980051+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Tokocrypto rolls out tokenized stocks - Tech in Asia",
+      "source_name": "Tech in Asia",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE83MFlNUndMUUZCcUNkSEpoeUxtN1RSSkdEeUM1ZkVEVTNOenpzNXBYVVZodnVfcHNBQVRLMERFb0RyMk9ZZWsxaktWbjdxU2xrNHFRSDJaU0JlTnpraXAxNGwzQnFjakpTNW9SalVtdTc4dVVIOGxTU2xlbEM?oc=5",
+      "published_at": "Tue, 07 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "title": "ID Digest: Bybit formally launches in Indonesia; Tokocrypto rolls out tokenised stocks - DealStreetAsia",
+      "source_name": "DealStreetAsia",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE92X1dTRVlQa0lsOWFxblhISzNlNV81WTJMaDJDRFVwODVGX0pBeE44eU1Dczkxc1hxTkQ4anBBYnpWQTU1OGcyMGhWaHc5WGl6a18yMk5fX1Uxdl9senFTbWVYYWNOenNFbFBLREg5RnBUQ1FOeUdpRTNVRFk?oc=5",
+      "published_at": "Wed, 15 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Best Crypto Exchanges in Indonesia - CoinGape",
+      "source_name": "CoinGape",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPYURSNmlIdHhlYUtOa3hkSjZTekZUaGQ3LTZBa000MmdrdlBoSXVfUDlPTG9JekdxNkw4SXpCTl9mSWxZRzEyOTFBUnctZjBYSEtrdWpyS0VYcXNEZnNMUjNHZkNBcHVTX1lMOV9GR1J3Q2k0Sk1nY2VPWXZfOG43MW9lWTd4Z0VD?oc=5",
+      "published_at": "Mon, 04 May 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Gen Z Dominates Crypto Adoption, Tokocrypto: Needs to be Balanced with Education - VOI.ID",
+      "source_name": "VOI.ID",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5HUDdneUNIWWEyYmxhMDd0dUE5RTFyV3JsTmlKcWhHV0llU1lNdmJSZXFzXzBiZDByVXJvY1FadFUyalBrV2hnZTgwWdIBQkFVX3lxTFBBN3lZd1EtODJxbEpnNTRQQUp0N280eUtNRVVoMU5vQVF0NkNSWmFBUENRZTl1ZDBjT0lIU0NLZE1FZw?oc=5",
+      "published_at": "Sun, 19 Apr 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Indonesia lists 29 licensed crypto exchanges - CoinGeek",
+      "source_name": "CoinGeek",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBrZ3ZpNFJ5U1ZfZFo1NXlDS0RhWFB0SXJvRmtyeVRTaklFSGl6emcwb2tFdko3S1pwcTlSbjlrSDhVem9lcFhWaG9qbmp5U1pWcjVsaHN6anJkMjZoZEVsLWc4dzZ6cjlSUmVaMzdGQzc4TkJi?oc=5",
+      "published_at": "Mon, 12 Jan 2026 08:00:00 GMT"
+    }
+  ],
+  "search_query_used": "Tokocrypto crypto",
+  "neutral_explanation": "TKOUSDT (TKO/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 52 (tier B Watch); market-cap rank 1769. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 1085 assets scanned, 9 confirmed flips (0.8%). State distribution: Blue 67.5%, Gold 13.2%, Gray 11.8%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 9 flips). Source: reports/private_crypto_dashboard.csv. 5 coin-specific headline(s) were found via automated search; they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

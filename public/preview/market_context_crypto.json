@@ -1,64 +1,61 @@
 {
   "market": "crypto",
-  "generated_at": "2026-08-23T18:02:58.212348+00:00",
-  "scanner_summary": "1085 assets scanned, 8 confirmed flips (0.7%). State distribution: Blue 69.7%, Gold 12.1%, Gray 10.7%, Unknown 7.6%. Strongest transition: Blue → Gold (6 of 8 flips). Source: reports/private_crypto_dashboard.csv.",
+  "generated_at": "2026-08-24T15:31:35.980051+00:00",
+  "scanner_summary": "1085 assets scanned, 9 confirmed flips (0.8%). State distribution: Blue 67.5%, Gold 13.2%, Gray 11.8%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 9 flips). Source: reports/private_crypto_dashboard.csv.",
   "possible_drivers": [
     "Locally observed scanner state distribution and flip activity (see scanner_summary).",
-    "General market-news coverage, reviewed for context only.",
-    "Security-incident-related coverage",
-    "Macro/rates-related coverage",
-    "Regulatory/legal-related coverage"
+    "General market-news coverage, reviewed for context only."
   ],
   "uncertainty_note": "Automatically collected from public RSS headlines and local scanner output. Headlines are cited, not verified for accuracy or causal connection to price movement. This is not investment advice and does not contain buy, sell, hold, or execution guidance. Human review is required before treating anything here as reliable market context.",
   "sources": [
     {
-      "title": "XRP on track for biggest weekly gain in 21 months as Treasury buyback spurs 'curve control' hopes",
+      "title": "Tom Lee's Bitmine buys $81 million of ETH in largest weekly haul since early July",
       "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/08/23/xrp-on-track-for-biggest-weekly-gain-in-21-months-as-treasury-buyback-spurs-curve-control-hopes",
-      "published_at": "Sun, 23 Aug 2026 15:52:21 +0000",
+      "url": "https://www.coindesk.com/business/2026/08/24/tom-lee-s-bitmine-buys-usd81-million-of-eth-in-largest-weekly-haul-since-early-july",
+      "published_at": "Mon, 24 Aug 2026 12:59:55 +0000",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Crypto card spending tops $1 billion as stablecoins move into everyday purchases",
+      "title": "New Solana vote could ramp daily SOL burns to $800,000 and slow new token creation",
       "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/08/23/crypto-card-spending-tops-usd1-billion-as-stablecoins-move-into-everyday-purchases",
-      "published_at": "Sun, 23 Aug 2026 15:00:00 +0000",
+      "url": "https://www.coindesk.com/tech/2026/08/24/new-solana-vote-could-ramp-daily-sol-burns-to-usd800-000-and-slow-new-token-creation",
+      "published_at": "Mon, 24 Aug 2026 12:52:30 +0000",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Crypto’s next billion users might be AI agents, and they’re paying with stablecoins",
+      "title": "Strategy raises $2 billion through MSTR sales and creates new USD Cash pool",
       "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/08/23/crypto-s-next-billion-users-might-be-ai-agents-and-they-re-paying-with-stablecoins",
-      "published_at": "Sun, 23 Aug 2026 13:00:00 +0000",
+      "url": "https://www.coindesk.com/markets/2026/08/24/strategy-raises-usd2-billion-through-mstr-sales-and-creates-new-usd-cash-pool",
+      "published_at": "Mon, 24 Aug 2026 12:24:58 +0000",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Crypto exchange BitMart weighs partial restart and creditor payouts weeks after announcing shutdown",
+      "title": "Standard Chartered becomes first bank to distribute Hong Kong dollar stablecoin",
       "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/08/22/crypto-exchange-bitmart-weighs-partial-restart-and-creditor-payouts-weeks-after-announcing-shutdown",
-      "published_at": "Sat, 22 Aug 2026 15:16:41 +0000",
+      "url": "https://www.coindesk.com/business/2026/08/24/standard-chartered-first-bank-to-distribute-anchorpoint-s-hong-kong-dollar-stablecoin",
+      "published_at": "Mon, 24 Aug 2026 11:36:55 +0000",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Web3 gaming network Sandbox stops Base and BNB chain bridging after exploit",
+      "title": "Pakistan kicks off crypto licensing regime with Sept. 5 registration deadline",
       "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/web3/2026/08/22/web3-gaming-network-sandbox-stops-base-and-bnb-chain-bridging-after-exploit",
-      "published_at": "Sat, 22 Aug 2026 14:10:17 +0000",
-      "note": "Security-incident-related coverage"
+      "url": "https://www.coindesk.com/policy/2026/08/24/pakistan-kicks-off-crypto-licensing-regime-with-sept-5-registration-deadline",
+      "published_at": "Mon, 24 Aug 2026 11:19:16 +0000",
+      "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Fed study finds crypto investors driven by beliefs, easily swayed by returns",
+      "title": "Zondacrypto boss seeks leniency for testimony on political ties: Report",
       "source_name": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/fed-study-finds-crypto-investors-driven-by-beliefs-easily-swayed-by-returns?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "Sun, 23 Aug 2026 15:30:53 +0000",
-      "note": "Macro/rates-related coverage"
+      "url": "https://cointelegraph.com/news/zondacrypto-ceo-seeks-leniency-testimony-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "Mon, 24 Aug 2026 14:00:51 +0000",
+      "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "MiCA is coming for DeFi vaults, but regulation will be difficult",
+      "title": "Bitget CEO isn’t buying the Bitcoin rally — She’s waiting for $50K",
       "source_name": "CoinTelegraph",
-      "url": "https://cointelegraph.com/magazine/mica-is-coming-for-defi-vaults-but-regulation-will-be-difficult?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "Sat, 22 Aug 2026 13:30:00 +0000",
-      "note": "Regulatory/legal-related coverage"
+      "url": "https://cointelegraph.com/magazine/bitget-ceo-isnt-buying-the-bitcoin-rally-waiting-for-50k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "Mon, 24 Aug 2026 13:30:00 +0000",
+      "note": "General market-news coverage, reviewed for context only."
     }
   ]
 }

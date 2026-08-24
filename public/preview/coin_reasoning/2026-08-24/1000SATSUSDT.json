@@ -1,0 +1,66 @@
+{
+  "symbol": "1000SATSUSDT",
+  "date": "2026-08-24",
+  "generated_at": "2026-08-24T15:31:37.446102+00:00",
+  "scanner_evidence": {
+    "symbol": "1000SATSUSDT",
+    "pair": "1000SATS/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "37",
+    "score_tier": "C Weak",
+    "market_cap_rank": null,
+    "gray_candles": "13",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=1000SATSUSDT",
+    "execution_time": "2026-08-24T06:38:06.475059+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1085 assets scanned, 9 confirmed flips (0.8%). State distribution: Blue 67.5%, Gold 13.2%, Gray 11.8%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 9 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only."
+    ],
+    "context_generated_at": "2026-08-24T15:31:35.980051+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Binance Delisting Shakes Markets: 23 Spot Trading Pairs Including 1000SATS/FDUSD to Be Removed - CryptoRank",
+      "source_name": "CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNYVkyeHNaQnYwSDgzR3NjUzNqaTZpNnVfUTNTQkEwckRwUnNRZTVSWEk5dk1VeWhDcE5RVmxFby1PUWc2THJNRFBhbFlMemNRUGh0TTB3S3VLb2VLdmdLTVRFZnczYy0zaTVRNXBVbnliSUxFUHNPRUhjVTl5UjQtWg?oc=5",
+      "published_at": "Thu, 08 Jan 2026 08:00:00 GMT"
+    },
+    {
+      "title": "SATS (1000SATS) Price Prediction 2026 2027 2028 - 2040 - Changelly",
+      "source_name": "Changelly",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1nM3l1QUJoaDJILXFaQmp2OGR2VXhCOTFDRHduVzBadE9XRnFTMEFNazVtSFJtZXpacVJCUUpBS3hhaWF2czJKWE9YZ1I3VHhHanNuemlOMlpkUWtpc1pYRzFvWnFnbU9jLUE?oc=5",
+      "published_at": "Tue, 09 Jan 2024 13:07:23 GMT"
+    },
+    {
+      "title": "Falcon_猎鹰(@Harvinder_Singh_84)'s insights - Binance",
+      "source_name": "Binance",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA3aDVWUnhpUm9WNU9hZV80WXRkazBWWHZtOUU4WGFJNTRzUXpTa2F6R1RLdkl4YnlMZ0wtNzV2M2xMeTlFdENsUFVZNE1RalVZTlBQczJiNlVBT25velFPTXhuSQ?oc=5",
+      "published_at": "Sat, 18 Oct 2025 07:00:00 GMT"
+    },
+    {
+      "title": "SATS (1000SATS) Price Prediction - Forbes",
+      "source_name": "Forbes",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOendTSHBycTVyYm1rd253SzFPekZhakJYUU5xdmZydzQ1RlpRbkM5eTBBUVBvR2U1RVBrUUJjVnFoeS0zN0tOSUlMcFlXRzU0cVdUTERlWVNzTmc3MHVueWVWQWwwdmJ2ZzNnOEE3OEJSVW80ck83SVJRbVRDY0dvQW9ueWhjOEdVU0ZTbllBYWxQaDFW?oc=5",
+      "published_at": "Thu, 19 Dec 2024 08:00:00 GMT"
+    },
+    {
+      "title": "SATS Price Prediction 2024: 1000SATS Price Analysis - CCN.com",
+      "source_name": "CCN.com",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5NQzhnODlvT3Vmem1VNW1pTkVLZ2NPUExNYmZYcVcwQzR2bmxwNlR6NWs2WGk2Rzh6T0JkQnEzOTBZUXJNdWdNZ0EwS3EtczRua0xDWEhneGxXOXlQSmhWUA?oc=5",
+      "published_at": "Mon, 22 Jul 2024 07:00:00 GMT"
+    }
+  ],
+  "search_query_used": "1000SATS crypto",
+  "neutral_explanation": "1000SATSUSDT (1000SATS/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 37 (tier C Weak); market-cap rank not available. Scanner note: Valid confirmed trend flip — fresh signal. Broader crypto market context: 1085 assets scanned, 9 confirmed flips (0.8%). State distribution: Blue 67.5%, Gold 13.2%, Gray 11.8%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 9 flips). Source: reports/private_crypto_dashboard.csv. 5 coin-specific headline(s) were found via automated search; they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}
