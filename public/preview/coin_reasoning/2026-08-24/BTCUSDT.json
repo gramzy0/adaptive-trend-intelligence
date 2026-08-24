@@ -1,7 +1,7 @@
 {
   "symbol": "BTCUSDT",
   "date": "2026-08-24",
-  "generated_at": "2026-08-24T15:31:37.446102+00:00",
+  "generated_at": "2026-08-24T16:11:37.443997+00:00",
   "scanner_evidence": {
     "symbol": "BTCUSDT",
     "pair": "BTC/USDT",
@@ -26,7 +26,7 @@
       "Locally observed scanner state distribution and flip activity (see scanner_summary).",
       "General market-news coverage, reviewed for context only."
     ],
-    "context_generated_at": "2026-08-24T15:31:35.980051+00:00"
+    "context_generated_at": "2026-08-24T16:11:35.960045+00:00"
   },
   "coin_specific_headlines": [
     {
@@ -36,28 +36,28 @@
       "published_at": "Sun, 23 Aug 2026 19:18:21 GMT"
     },
     {
-      "title": "Bitcoin soars to nearly $80,000—but crypto’s new favorite coin, Hyperliquid, is stealing its thunder - Yahoo Finance",
+      "title": "Bitcoin’s Rally Leans on Fears That Fiscal Strains Are Mounting - Bloomberg",
+      "source_name": "Bloomberg",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPcHRuUjNWXzhqRGhxVDNkTnhWLVViamlBRnBJSGk5SXBJekFkdkxKZFFrMXV2VHJUdmZHZ0hWZjAyNHh4cFlXOUJrcGlFUWtNRmpvbmt3cEVXUEZaYUhJc3ltX09JaTNjdHBLMGt0WUJKcGlFQUI5VkJxOENST3dlWUFqaFIzbVQ2T2FmVW1Bc1Q2RkdlcFJkZzhaNHR3VkdjMVVqWXJsdEJEY2ZUc2hQYXZR?oc=5",
+      "published_at": "Sun, 23 Aug 2026 18:00:00 GMT"
+    },
+    {
+      "title": "Traders bet bitcoin was stuck below $67,000. The Treasury blew that trade up in one afternoon - Fortune",
+      "source_name": "Fortune",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNQmRPOWlVTUNrTGZROWNmYmZveWlvb3MweTdtOFQxQklHNUI2eE55Vy1SU3pEeHYwNzhpTXoyZHdkc0liTl8ybWZEeTFLX2tacjlnaVVwX25RQ2hucFhKVkJRUUlycWxOU2hZY1RsZ3NMSHR2bE5IcTgtOGRwaTR5TjUxeVRyekE?oc=5",
+      "published_at": "Sun, 23 Aug 2026 14:07:00 GMT"
+    },
+    {
+      "title": "Scott Bessent just kicked the bitcoin debasement trade into another gear: Chart of the Day - Yahoo Finance",
       "source_name": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSk1ORGpQc0NHcF90Ymt3ODN1dUo5UUtMckN4emtkRjhJeWxERlVXMXNiV2g1LTVsR0hoWFRzVVBuTno0QWYwdVRYU2hCOHg5NHlzbThpbWRQSW5wLUZ4aTQyc0tnS01OcXBpWWFhWEZYRHFLMWtodEFQZE4xLUdpUXVJVVN4eG1sbGx1U1BLMjA5aHJWZnlz?oc=5",
-      "published_at": "Fri, 21 Aug 2026 19:26:18 GMT"
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOeHkwMjRsRV9PLVMtMGtNR1pKZ0lqLWFkVkdhRVpkTm1ISHh0WHZ5dG4xTXhYX1BoMlNxZDh6dkhsdkZZWDNSYk1VR3R3bFdQd3B3aVBqVm5zSzhfeGc5bkFGcXhEQ2kwSlFHZnFrTUt3ZWhWV2FuLUtvbTNnR1R3RFNualpuZnQ1SWxrQUp4RDh1cjVNZGcwcU5JQjR3MnM3b0U1ZlFiWldiaXJkOUZxRTBGalU0a3ZGQk9KLW5mTG5fSlhHZy1mOVdzNVdPdF96c1JGTTJrYW1sczNpMXp3SXptMXBOZ3Jy?oc=5",
+      "published_at": "Mon, 24 Aug 2026 05:10:00 GMT"
     },
     {
-      "title": "Crypto extends gains after biggest 3-day rally since 2023 - CNBC",
-      "source_name": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOU2taT3BZSUl5LTZSSVJ5ZEtlSjR1N1NsdmRldjNBaWhfeWtBSVBqR0xFR0pKVjZLUW50RkF6VnVBMVJLWjZrYVhUZEpXakg2Q29jQXA3R3BQQ2hla1ZWZ0VHd05Jc1ptdmZhWTZxazFJRWZPME1lVTZfQzNoV1c2OFNjcGVTaFBnQ3dOVFVSWEV4RXhTNEh1YzVB0gGfAUFVX3lxTFA0RUhQT3dVbUo4OTA3azBmRHFRV1lCYXhlb2pJQzRDV2o5N2lpSWlwamoyeGRLclFReHJMZ1V5NldQUTNvQWhpc1dCLTAwNVFMUkpvRmhyVG1qbjVYZGxpdjExdHh6SndiU2dBNzNIMm1lS1VRYnV2QXc4cmo3RW9IdjdRS0dhdjRRbjBxRElaamV5clp2eEpTSVJWNU40OA?oc=5",
-      "published_at": "Mon, 24 Aug 2026 14:02:54 GMT"
-    },
-    {
-      "title": "Four Years Ago, a Crypto Boss Went Missing. Now His Successor Has. - The New York Times",
-      "source_name": "The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNRW1xQlowT3RNVzFQR1ZfenRNV3pFWk02d0ZKeGFqWkJNa2ZkZ2NRNjE4Zi13Tnp3bVFZaVdPSlVZRlkxTDZVM2kxWkhfd0ZkYUVaV1dvYWRabE9PNHNlT3pHSzFhNDZPX19SVmJkTTN2S0xPT3FwZzdHNTI3bHF5TlBhNjB5M0dSVVE?oc=5",
-      "published_at": "Sun, 23 Aug 2026 04:01:08 GMT"
-    },
-    {
-      "title": "Live updates: Bitcoin climbs past $79,000, with gold topping $4,700 - CoinDesk",
-      "source_name": "CoinDesk",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPaWNmZmNIOUNaeWFCbEIwNHdyaE9VcE01ZjhlaUFoaE9sbHFMSzg4THY4Y0tGTkk5cFZuZFVKTVFEQndmQzdhUDl0Njl6UXhadmp3c1UydTZKaEVzT00tX1dmUUc3MkxoQUlIRmFPYVZnMFhFX200N2hVT3hZQXZIbEppUFlRWVRFRUU3NGNBTHRZaU1JT3JmbTlvZ3NWbHpPQVZQUTIzNlNIeVF5VmQyRTV4RTVKVnJZR0dRM204M2l3MjJFbFhldg?oc=5",
-      "published_at": "Mon, 24 Aug 2026 13:48:09 GMT"
+      "title": "Strategy Stock Rises More Than Bitcoin as Coinbase, Robinhood Lag - Barron's",
+      "source_name": "Barron's",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNRGJYSFdrYWp2NnRoZVFrOE1mR2NaVjZJVGIxbWprTEFmS0FJWnVCMVo3ZVQ5cjV4XzMtUlo4YmJ6WTZMUHdhNlgtLUxMbnV2RUc0WWtMRGh6c01oV0FqczBHWUZIbTlXYnFQdWZmd081dWgyLXhYd2pOc1VnQ1ZGWQ?oc=5",
+      "published_at": "Mon, 24 Aug 2026 15:30:19 GMT"
     }
   ],
   "search_query_used": "Bitcoin crypto",

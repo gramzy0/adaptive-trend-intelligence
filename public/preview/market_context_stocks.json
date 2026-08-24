@@ -1,6 +1,6 @@
 {
   "market": "stocks",
-  "generated_at": "2026-08-24T15:31:35.980051+00:00",
+  "generated_at": "2026-08-24T16:11:35.960045+00:00",
   "scanner_summary": "50 assets scanned, 0 confirmed flips (0.0%). State distribution: Blue 14.0%, Gold 76.0%, Gray 10.0%, Unknown 0.0%. Source: data/output/stocks_weekly_results.json, last modified 2026-06-13 (71 days ago). Stale-data warning: source file is more than 30 days old.",
   "possible_drivers": [
     "Locally observed scanner state distribution and flip activity (see scanner_summary).",
@@ -9,20 +9,6 @@
   "uncertainty_note": "Automatically collected from public RSS headlines and local scanner output. Headlines are cited, not verified for accuracy or causal connection to price movement. This is not investment advice and does not contain buy, sell, hold, or execution guidance. Human review is required before treating anything here as reliable market context.",
   "sources": [
     {
-      "title": "IHCL to merge Oriental Hotels under proposed share-swap deal",
-      "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/ihcl-merge-oriental-hotels-under-152259508.html",
-      "published_at": "2026-08-24T15:22:59Z",
-      "note": "General market-news coverage, reviewed for context only."
-    },
-    {
-      "title": "Dollar edges up, loonie drops after U.S. announces tariffs",
-      "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/news/dollar-pinned-at-multi-month-lows-as-debt-nerves-unnerve-investors-084611780.html",
-      "published_at": "2026-08-24T15:07:00Z",
-      "note": "General market-news coverage, reviewed for context only."
-    },
-    {
       "title": "Stock market today: S&P 500, Nasdaq slip as tech stocks sag, US-Canada trade spat escalates",
       "source_name": "Yahoo Finance",
       "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-august-24-dow-sp-500-nasdaq-080306047.html",
@@ -30,31 +16,45 @@
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Billionaire Leon Cooperman Says Investors Are Acting Like ‘Pavlov’s Dog’ — Reveals 2 New Stock Picks",
+      "title": "Tech stocks today: All eyes on Nvidia as Meta trial resumes",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/billionaire-leon-cooperman-says-investors-145743521.html",
-      "published_at": "2026-08-24T14:57:43Z",
+      "url": "https://finance.yahoo.com/technology/live/tech-stocks-today-all-eyes-on-nvidia-as-meta-trial-resumes-125406169.html",
+      "published_at": "2026-08-24T12:54:06Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Guardant Health Dives After Losing A Patent Dispute; Judge Orders Royalties",
+      "title": "Eli Lilly Has a $100 Billion Revenue Story in the Making, 18% Upside Ahead",
       "source_name": "Yahoo Finance",
-      "url": "https://www.investors.com/news/technology/guardant-health-stock-twinstrand-biosciences-royalties/?src=A00220&yptr=yahoo",
-      "published_at": "2026-08-24T14:49:08Z",
+      "url": "https://finance.yahoo.com/healthcare/articles/eli-lilly-100-billion-revenue-160050901.html",
+      "published_at": "2026-08-24T16:00:50Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Think Medicare Advantage provides better care for chronic conditions? A new study suggests otherwise.",
-      "source_name": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/think-medicare-advantage-provides-better-care-for-chronic-conditions-a-new-study-suggests-otherwise-276c7ffd?mod=mw_rss_topstories",
-      "published_at": "Mon, 24 Aug 2026 15:29:00 GMT",
+      "title": "Shares dip on pressure from technology; yields and oil fall",
+      "source_name": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/news/shares-flat-asia-iran-sanctions-004936320.html",
+      "published_at": "2026-08-24T15:47:51Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "‘She looked into COBRA’: My friend was laid off and lost her health insurance. How can she find affordable coverage?",
+      "title": "Bitcoin ETFs Post Strongest Weekly Inflows in 10 Months as Price Surges",
+      "source_name": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-etfs-post-strongest-weekly-154700094.html",
+      "published_at": "2026-08-24T15:47:00Z",
+      "note": "General market-news coverage, reviewed for context only."
+    },
+    {
+      "title": "Global oil prices above $90 a barrel ahead of Bessent’s ‘economic D-Day’ announcement on Iran",
       "source_name": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/shes-desperate-my-friend-was-laid-off-and-lost-her-health-insurance-how-can-she-find-affordable-coverage-3b17b553?mod=mw_rss_topstories",
-      "published_at": "Mon, 24 Aug 2026 15:16:00 GMT",
+      "url": "https://www.marketwatch.com/story/oil-trades-lower-even-as-bessent-promises-economic-d-day-announcement-on-iran-a90d862e?mod=mw_rss_topstories",
+      "published_at": "Mon, 24 Aug 2026 16:03:00 GMT",
+      "note": "General market-news coverage, reviewed for context only."
+    },
+    {
+      "title": "U.S. automakers and home builders are among the big losers as Trump launches a trade war against Canada",
+      "source_name": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/u-s-automakers-and-home-builders-are-among-the-big-losers-as-trump-launches-a-trade-war-against-canada-063c1d4c?mod=mw_rss_topstories",
+      "published_at": "Mon, 24 Aug 2026 15:46:00 GMT",
       "note": "General market-news coverage, reviewed for context only."
     }
   ]

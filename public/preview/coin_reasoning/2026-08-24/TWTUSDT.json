@@ -1,7 +1,7 @@
 {
   "symbol": "TWTUSDT",
   "date": "2026-08-24",
-  "generated_at": "2026-08-24T15:31:37.446102+00:00",
+  "generated_at": "2026-08-24T16:11:37.443997+00:00",
   "scanner_evidence": {
     "symbol": "TWTUSDT",
     "pair": "TWT/USDT",
@@ -26,9 +26,15 @@
       "Locally observed scanner state distribution and flip activity (see scanner_summary).",
       "General market-news coverage, reviewed for context only."
     ],
-    "context_generated_at": "2026-08-24T15:31:35.980051+00:00"
+    "context_generated_at": "2026-08-24T16:11:35.960045+00:00"
   },
   "coin_specific_headlines": [
+    {
+      "title": "🚀 Best Crypto Wallet 2026 - Bitcoin Foundation",
+      "source_name": "Bitcoin Foundation",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBGSjZ1ajgzR3NLU0pHMlpzZlpadW9PQjRfVWpqLWtXWUpSZXBaXzlEZS16U2NzRjJ2bWlXYmJmaVhzeUxNT1h5OVVJeWk0aVVTU2lqbmlPcFZXdHBPeU56cWFYcWNIcXVwcENZN1NYcHNKZw?oc=5",
+      "published_at": "Sun, 09 Aug 2026 07:00:00 GMT"
+    },
     {
       "title": "7 best crypto wallets of 2026: The winners on fees, security, and chain coverage - Yahoo Finance",
       "source_name": "Yahoo Finance",
@@ -40,12 +46,6 @@
       "source_name": "TradingView",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbDlZYUNsRjBMRklCNWVyeDIwblZNWWozRXRxNDFubGprbjZfQS1rdHk3T0FfZGwxMGtvS3E2R0NvZTQwRW8xWHJEYl82LTE0czhqdEQ5T2FTQ1NVdU1vS1ZFMmhFUDJNUUxPVkZEM2tPVEpwWGV5UDFLQXlQa1VSbXN6VnNZc0R0Uld2VmwxdWE1UkxnMkR4RnhJY2NyMHhDYUpxV0VzSlZYMGFjdXpVUGRselc1WUFW?oc=5",
       "published_at": "Thu, 20 Aug 2026 13:12:10 GMT"
-    },
-    {
-      "title": "🚀 Best Crypto Wallet 2026 for Beginners - Bitcoin Foundation",
-      "source_name": "Bitcoin Foundation",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQY2FPMlhHTDdCbjJuSmN3MG4wdFhlVlIxTlVsMmdUSlA0RHJWa1dtb2lBbEJ5VlJFWVZ6X0tfak8tSmJ0d212UGI3NXE5eWhLbGtrNUR2MnpzOFRGY1dHY0IwNUYwOENNYnAtbW9ZcFdqY3lNQjg2N1AxWWY2eFRYWGJadVBjSkJyS2QwMQ?oc=5",
-      "published_at": "Sat, 01 Aug 2026 07:00:00 GMT"
     },
     {
       "title": "Silent Crypto Wallet Takeover Unlimited USDT Approval Exploitation via Trust Wallet QR Code Phishing - cyfirma",

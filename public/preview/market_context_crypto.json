@@ -1,6 +1,6 @@
 {
   "market": "crypto",
-  "generated_at": "2026-08-24T15:31:35.980051+00:00",
+  "generated_at": "2026-08-24T16:11:35.960045+00:00",
   "scanner_summary": "1085 assets scanned, 9 confirmed flips (0.8%). State distribution: Blue 67.5%, Gold 13.2%, Gray 11.8%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 9 flips). Source: reports/private_crypto_dashboard.csv.",
   "possible_drivers": [
     "Locally observed scanner state distribution and flip activity (see scanner_summary).",
@@ -44,17 +44,17 @@
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Zondacrypto boss seeks leniency for testimony on political ties: Report",
+      "title": "Crypto advocacy groups oppose Illinois digital asset tax in court",
       "source_name": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/zondacrypto-ceo-seeks-leniency-testimony-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "Mon, 24 Aug 2026 14:00:51 +0000",
+      "url": "https://cointelegraph.com/news/cryptocurrency-organizations-oppose-illinois-digital-asset-tax-court?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "Mon, 24 Aug 2026 16:05:48 +0000",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Bitget CEO isn’t buying the Bitcoin rally — She’s waiting for $50K",
+      "title": "Bitmine extends 14-month ETH buying pace as Ether breaks above $2.5K",
       "source_name": "CoinTelegraph",
-      "url": "https://cointelegraph.com/magazine/bitget-ceo-isnt-buying-the-bitcoin-rally-waiting-for-50k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "Mon, 24 Aug 2026 13:30:00 +0000",
+      "url": "https://cointelegraph.com/news/bitmine-eth-holdings-5-percent-ether-price-breakout?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "Mon, 24 Aug 2026 15:29:26 +0000",
       "note": "General market-news coverage, reviewed for context only."
     }
   ]
