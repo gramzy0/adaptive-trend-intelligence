@@ -1,0 +1,66 @@
+{
+  "symbol": "FORMUSDT",
+  "date": "2026-08-25",
+  "generated_at": "2026-08-25T07:25:03.693965+00:00",
+  "scanner_evidence": {
+    "symbol": "FORMUSDT",
+    "pair": "FORM/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "77",
+    "score_tier": "A Good",
+    "market_cap_rank": "267",
+    "gray_candles": "3",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "fresh signal, clean transition",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=FORMUSDT",
+    "execution_time": "2026-08-25T06:36:58.240039+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1085 assets scanned, 9 confirmed flips (0.8%). State distribution: Blue 67.5%, Gold 13.2%, Gray 11.8%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 9 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only."
+    ],
+    "context_generated_at": "2026-08-25T07:25:02.045149+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Four Years Ago, a Crypto Boss Went Missing. Now His Successor Has. - The New York Times",
+      "source_name": "The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNRW1xQlowT3RNVzFQR1ZfenRNV3pFWk02d0ZKeGFqWkJNa2ZkZ2NRNjE4Zi13Tnp3bVFZaVdPSlVZRlkxTDZVM2kxWkhfd0ZkYUVaV1dvYWRabE9PNHNlT3pHSzFhNDZPX19SVmJkTTN2S0xPT3FwZzdHNTI3bHF5TlBhNjB5M0dSVVE?oc=5",
+      "published_at": "Sun, 23 Aug 2026 04:01:08 GMT"
+    },
+    {
+      "title": "'Rich Dad Poor Dad' author names four assets making investors richer - thestreet.com",
+      "source_name": "thestreet.com",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNYlFnYk5RcVdCdHZERGJjakN6UkRhRkYzeGN1UV9uazNCaF9NYTkxMUhYVFNjcUU2WVZxMF9XaGpnZGxkQ2N5Q1ZtVk1FbnhBai1nQ3QzdXBSVk9SclpfclREQkFOR2ZENmhXNWFORTU0MlYyZ280WklWMDVqMTRKRTFxd2Jyb0ZJVFNnRTRNLUE1RGIyZ3JFck80a0k5enhEZ01zTWNZcTJtZnM?oc=5",
+      "published_at": "Mon, 24 Aug 2026 14:54:21 GMT"
+    },
+    {
+      "title": "Nomura-backed Laser Digital wins Japan's first crypto approval in four years - CoinDesk",
+      "source_name": "CoinDesk",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOYjNxOGVObk5xSlhMVGpTeDRNS0RuUzZRaEVRd0lqSW5EZ0dZY0xnR0Rsc0tLOWJDcDFVT19VMTQ0NVo4UnVoSENlN1l0b05YeW5aWkNMSWZ1cmUxQjdCaUs5YkhPMGVKWk1aS0w5b1RXVmpUbnJISzAzZFVPaUlQbFdYcHFLUnlyN0hWeklxQXNTa3N4WER2a2Y3bV9RQ2RuMzhoeENNUDA5ODc0M204WDVESVNlQUEzWVNz?oc=5",
+      "published_at": "Fri, 21 Aug 2026 10:38:47 GMT"
+    },
+    {
+      "title": "5 Leading Crypto Presales in 2026: MemeToro and Four Early-Stage Projects to Watch - StreetInsider",
+      "source_name": "StreetInsider",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQZi1yTWN3aUoyNUFfbFdJcWMxbWZ5SEtmd1dsTVNvTmJZT2xFMHk0OGo0MlhNd0p1Rm9UcHpDVmdCQk93QzdrMkVUVzJkUkMzNFgtZjlUMFNCSUZNb1cwTDQ3REd0TG5vS1hnVTIyellOQ2tjSGxPUENmeHdFVnpCckRLMHhsTEZJc3k0SGIzLTBPWUxHczhhb29hYnJuQkVrZlNGZ1VaNnBsdFI0azg2ZUFEYzNYMEJLTVkyc0Z5ZnJ6U1k0WFo3alNaRHB4SnJMbURLUDJnV004Uk50?oc=5",
+      "published_at": "Mon, 24 Aug 2026 13:56:19 GMT"
+    },
+    {
+      "title": "Big Four Firms Hone Crypto Advisory Services as Demand Swells - news.bloombergtax.com",
+      "source_name": "news.bloombergtax.com",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWG9WMUhPWnVrUWhzNlgyRE4yQllmSkQ2SFFYZWdocjJsOVBZeGV2U0pnSmV2YmpCcjcwcU9SZHBnZ1R6bVZyRmt6R3ZsTGxjNmpTZGx4YjA0eklXSlpFVGNwT09MczVTUml3QkRLX0pqQ3FteElDRlhMTFo4RzA5Q1FXd3BoR0hTU0JaSUVIVjJnQ0lDTUlhLWc1cWxTSThlUDVzcElfWk5LWHpkRGNYM2F3?oc=5",
+      "published_at": "Wed, 08 Jul 2026 07:00:00 GMT"
+    }
+  ],
+  "search_query_used": "Four crypto",
+  "neutral_explanation": "FORMUSDT (FORM/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 77 (tier A Good); market-cap rank 267. Scanner note: Valid confirmed trend flip — fresh signal, clean transition. Broader crypto market context: 1085 assets scanned, 9 confirmed flips (0.8%). State distribution: Blue 67.5%, Gold 13.2%, Gray 11.8%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 9 flips). Source: reports/private_crypto_dashboard.csv. 5 coin-specific headline(s) were found via automated search; they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

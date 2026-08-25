@@ -1,0 +1,66 @@
+{
+  "symbol": "PENDLEUSDT",
+  "date": "2026-08-25",
+  "generated_at": "2026-08-25T07:25:03.693965+00:00",
+  "scanner_evidence": {
+    "symbol": "PENDLEUSDT",
+    "pair": "PENDLE/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "77",
+    "score_tier": "A Good",
+    "market_cap_rank": "136",
+    "gray_candles": "1",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "fresh signal, clean transition",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=PENDLEUSDT",
+    "execution_time": "2026-08-25T06:36:58.240039+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1085 assets scanned, 9 confirmed flips (0.8%). State distribution: Blue 67.5%, Gold 13.2%, Gray 11.8%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 9 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only."
+    ],
+    "context_generated_at": "2026-08-25T07:25:02.045149+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Crypto -Insight(@raiyaseen)'s insights - Binance",
+      "source_name": "Binance",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE52ZzRaMXgteGt4OGdRWnRLSUo5QUFBVWlJUGRGeEtYLW02ZG1DaVBRMlk5a0NqOFdTOXBqeEpldVFXWVVBcE96LXJyaURRdGtjVDBLNHF6aUhYRzVPQ1d4X0FQclg?oc=5",
+      "published_at": "Mon, 24 Aug 2026 03:30:08 GMT"
+    },
+    {
+      "title": "Crypto -Insight(@raiyaseen)'s insights - Binance",
+      "source_name": "Binance",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBUYlNwcHFkUWJQdGxkeFVLa2xOcG1QbGtORjBzSTVCRS1OMHB4RHJkdXFfOUdTYlZYeEhiU0kwbElpU0paQVh4c3hRblJZY3lBdHd0TG94bllWaEFqd2NSWlVJcVg?oc=5",
+      "published_at": "Sun, 23 Aug 2026 18:16:21 GMT"
+    },
+    {
+      "title": "Pendle Price Outlook 2026–2030: What Investors Should Know About PENDLE Coin - CryptoRank",
+      "source_name": "CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBZYWtQTzY3Q0xpSDRVbWJNWnBFZmgtNno3N3NULWw1Z0xJb2tOSXZRQ1BlN0ZOejE0ZnpVdDFRMERWNDFMY2pRMU52dzlaU2E0Y1Zyakw3Slp3eU9JZS1Wc3V0eXMzckdkbzJ3dmY2NTN0WnlLLUNJ?oc=5",
+      "published_at": "Tue, 07 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Pendle's USDC vault on Morpho hits $50M deposits in under two weeks with up to 14% APY. - Pluang",
+      "source_name": "Pluang",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQVjlCY2JJeWE0b2NhRExxbXUtYzRObFZfTDhXcGx0Y3BzVlZqa1ZrZm96dGlIWHhiMUJGbEViN2d0emh0OVZzVzVHdWM3NktvdW1yWFRsc1pZbFR4V2xwX1l0NDllQm0xRFNCTVVYWFpmd2pMRHBJcThBZWs5OXlqNVJTWHNXcTVBcTJj?oc=5",
+      "published_at": "Mon, 24 Aug 2026 03:32:01 GMT"
+    },
+    {
+      "title": "Pendle raises PT Looping incentives cap to $15M, enabling up to 53.7% APY with leveraged stablecoin pools. - Pluang",
+      "source_name": "Pluang",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWUJ5aE5mS04wVzE2cHMzQVVHTmtFVC00cGdqYzQwTlY5YUtsT0RyTkZPd1dfNVVILS0wamV4M0JzY3E1WnU5cVZxQmxGbWotN29TTko0eFA0bk4xSlRZSlVZQVJwbWtwUGNZRUQ1TWJkWHpLT252UjBOcHdzYUVtbVFrajJYeS1zUXd2VA?oc=5",
+      "published_at": "Wed, 19 Aug 2026 10:53:29 GMT"
+    }
+  ],
+  "search_query_used": "Pendle crypto",
+  "neutral_explanation": "PENDLEUSDT (PENDLE/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 77 (tier A Good); market-cap rank 136. Scanner note: Valid confirmed trend flip — fresh signal, clean transition. Broader crypto market context: 1085 assets scanned, 9 confirmed flips (0.8%). State distribution: Blue 67.5%, Gold 13.2%, Gray 11.8%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 9 flips). Source: reports/private_crypto_dashboard.csv. 5 coin-specific headline(s) were found via automated search; they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

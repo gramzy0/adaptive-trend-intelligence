@@ -1,6 +1,6 @@
 {
   "market": "crypto",
-  "generated_at": "2026-08-24T17:57:05.847914+00:00",
+  "generated_at": "2026-08-25T07:25:02.045149+00:00",
   "scanner_summary": "1085 assets scanned, 9 confirmed flips (0.8%). State distribution: Blue 67.5%, Gold 13.2%, Gray 11.8%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 9 flips). Source: reports/private_crypto_dashboard.csv.",
   "possible_drivers": [
     "Locally observed scanner state distribution and flip activity (see scanner_summary).",
@@ -9,52 +9,52 @@
   "uncertainty_note": "Automatically collected from public RSS headlines and local scanner output. Headlines are cited, not verified for accuracy or causal connection to price movement. This is not investment advice and does not contain buy, sell, hold, or execution guidance. Human review is required before treating anything here as reliable market context.",
   "sources": [
     {
-      "title": "Crypto political group details list of U.S. congressional allies its backing this year",
+      "title": "Monad proposes wallet upgrade that could survive lost keys and quantum attacks",
       "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/08/24/crypto-political-group-details-list-of-u-s-congressional-allies-its-backing-this-year",
-      "published_at": "Mon, 24 Aug 2026 17:30:10 +0000",
+      "url": "https://www.coindesk.com/tech/2026/08/25/monad-proposes-wallet-upgrade-that-could-survive-lost-keys-and-quantum-attacks",
+      "published_at": "Tue, 25 Aug 2026 07:01:49 +0000",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Coinbase debuts tokenized stocks on Base network, joining race to bring equities on blockchain",
+      "title": "Crypto rally spills into dog and cat memecoins as smaller tokens double in a week",
       "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/08/24/coinbase-debuts-tokenized-stocks-on-base-network-joining-race-to-bring-equities-on-blockchain",
-      "published_at": "Mon, 24 Aug 2026 17:12:35 +0000",
+      "url": "https://www.coindesk.com/markets/2026/08/25/crypto-rally-spills-into-dog-and-cat-memecoins-as-smaller-tokens-double-in-a-week",
+      "published_at": "Tue, 25 Aug 2026 06:26:29 +0000",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Tom Lee's Bitmine buys $81 million of ETH in largest weekly haul since early July",
+      "title": "Bitcoin traders place $2.9 million bet on a rapid price jump above $82,000",
       "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/08/24/tom-lee-s-bitmine-buys-usd81-million-of-eth-in-largest-weekly-haul-since-early-july",
-      "published_at": "Mon, 24 Aug 2026 12:59:55 +0000",
+      "url": "https://www.coindesk.com/markets/2026/08/25/bitcoin-traders-place-usd2-9-million-bet-on-a-rapid-price-jump-above-usd82-000",
+      "published_at": "Tue, 25 Aug 2026 05:51:52 +0000",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "New Solana vote could ramp daily SOL burns to $800,000 and slow new token creation",
+      "title": "Bitcoin tops $80,000, solana jumps 8% but rally now runs into overbought warning",
       "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/tech/2026/08/24/new-solana-vote-could-ramp-daily-sol-burns-to-usd800-000-and-slow-new-token-creation",
-      "published_at": "Mon, 24 Aug 2026 12:52:30 +0000",
+      "url": "https://www.coindesk.com/markets/2026/08/25/bitcoin-tops-usd80-000-solana-jumps-8-but-rally-now-runs-into-overbought-warning",
+      "published_at": "Tue, 25 Aug 2026 05:25:11 +0000",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Strategy raises $2 billion through MSTR sales and creates new USD Cash pool",
+      "title": "Bitcoin hits $80,000 for the first time since May as crypto recovery accelerates",
       "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/08/24/strategy-raises-usd2-billion-through-mstr-sales-and-creates-new-usd-cash-pool",
-      "published_at": "Mon, 24 Aug 2026 12:24:58 +0000",
+      "url": "https://www.coindesk.com/markets/2026/08/24/bitcoin-hits-usd80-000-for-the-first-time-since-may-as-crypto-recovery-accelerates",
+      "published_at": "Tue, 25 Aug 2026 00:55:32 +0000",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Strive buys 1,110 Bitcoin for $81.5M, holdings top 21K BTC; ASST shares surge 11%",
+      "title": "Here’s what happened in crypto today",
       "source_name": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/strive-buys-1110-bitcoin-for-815m-holdings-top-21k-btc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "Mon, 24 Aug 2026 16:44:55 +0000",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "Tue, 25 Aug 2026 05:48:17 +0000",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Crypto advocacy groups oppose Illinois digital asset tax in court",
+      "title": "US targets Iran’s crypto sector, cites over $100M in oil-linked payments",
       "source_name": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/cryptocurrency-organizations-oppose-illinois-digital-asset-tax-court?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "Mon, 24 Aug 2026 16:05:48 +0000",
+      "url": "https://cointelegraph.com/news/us-targets-iran-crypto-sector-100m-oil-payments?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "Tue, 25 Aug 2026 05:29:29 +0000",
       "note": "General market-news coverage, reviewed for context only."
     }
   ]

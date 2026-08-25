@@ -1,0 +1,66 @@
+{
+  "symbol": "VELODROMEUSDT",
+  "date": "2026-08-25",
+  "generated_at": "2026-08-25T07:25:03.693965+00:00",
+  "scanner_evidence": {
+    "symbol": "VELODROMEUSDT",
+    "pair": "VELODROME/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "57",
+    "score_tier": "B Watch",
+    "market_cap_rank": null,
+    "gray_candles": "3",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "fresh signal, clean transition",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=VELODROMEUSDT",
+    "execution_time": "2026-08-25T06:36:58.240039+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1085 assets scanned, 9 confirmed flips (0.8%). State distribution: Blue 67.5%, Gold 13.2%, Gray 11.8%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 9 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only."
+    ],
+    "context_generated_at": "2026-08-25T07:25:02.045149+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Velodrome Finance Price Prediction 2026, 2027, 2030 & Beyond: Yearly Forecast - Binance",
+      "source_name": "Binance",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB2em1tb3ZUT1BXMFA1cUZEemhMZWg5ZE53MW9XamhEWG02RnhHVVE4SXFXQXlZc2RJX1QtS0NYNU0yejNkU2lmT0I0WUZtMzJrT3NDbHVRNEpLX1FpYXZWbWRneDFtVElLd1lOa3V3?oc=5",
+      "published_at": "Fri, 21 Aug 2026 01:49:00 GMT"
+    },
+    {
+      "title": "Aerodrome Finance (AERO) Surges 14.53% on Protocol Catalysts - CoinMarketCap",
+      "source_name": "CoinMarketCap",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBzb0FYN0hISGpsdEJTTkxBUHZ4VVVkTkVUeTZ0R0trb2c5aHd1SG5STlhfZElJN2VQRDRHNlV1Z1o5ZWlITDJyc0l3RVBBcGlzbTVEOWItY3FpOWdWSWZGQkl4Nl9hOGp5UmF1cldEODI?oc=5",
+      "published_at": "Wed, 17 Jun 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Crypto Olsson(@Janni_Olsson)'s insights - Binance",
+      "source_name": "Binance",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5PY3ZmU2pZS0F0d2dwNlZQUXRiRWx6YVpRSGNJVXJUZzhkTFh2dElXQ0YzWkw5U2cydERqc3JJMkhpZFI4dDlsZ0FON1ZycTFrUEk4QkE0QmFDVTVIRUphZTYzbU4?oc=5",
+      "published_at": "Thu, 20 Aug 2026 03:57:20 GMT"
+    },
+    {
+      "title": "Top DEXs Aerodrome, Velodrome hit with front-end compromise, urge users to avoid main domains - The Block",
+      "source_name": "The Block",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQczV5cUVaV0hLRlIwZC03SzBnN3Z3ZTNkeml4SVVleDRhdllCTlBuSUFiWDhLWGFjdi10WnY1Q2RCNElwbkNDRS1hN0hldDZwSFVIQXE1aHhUa3VZMmhnQVBReC1BUnJIUDhVaW9OMUVjbFk4cUtudHVOSFdDTVUtRW9HQVh5SGZnMi1pUGNMb0NzQW1CbFRDMkpGOFZ4YW80emp2UTdrVjl0NVhxa3drZndJNmR2blNrN3NwYy1CTHdvcmNTT0pueVdnM2hrWUFuZnctRkQ0cDY0MkZLeU5XR19uMA?oc=5",
+      "published_at": "Sat, 22 Nov 2025 08:00:00 GMT"
+    },
+    {
+      "title": "Aero DEX aims to fix liquidity fragmentation and dethrone the incumbents - CoinDesk",
+      "source_name": "CoinDesk",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxObHJLejBtdmNQZUJRa3RESHhrWnAwTHRkb3RoOEJCR2xMNHVPYU01NXhYTGYzemhyWkw4Y213QXpPbnNPSDJYdjdRSFBmbTVTUHgzazJ1dGxqTlQxX1k3alc5VHdhRGIzY1U0dGFhRWw1NnlwT2RWcjZYSVhub0lRQk1KaWt1NDk5aG9mWE4yY1c2eENaT1g3WUdFajNaY3VTS0l6Um9wa2MwbE9wR2VUckRpYjFFeC1a?oc=5",
+      "published_at": "Thu, 29 Jan 2026 08:00:00 GMT"
+    }
+  ],
+  "search_query_used": "VELODROME crypto",
+  "neutral_explanation": "VELODROMEUSDT (VELODROME/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 57 (tier B Watch); market-cap rank not available. Scanner note: Valid confirmed trend flip — fresh signal, clean transition. Broader crypto market context: 1085 assets scanned, 9 confirmed flips (0.8%). State distribution: Blue 67.5%, Gold 13.2%, Gray 11.8%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 9 flips). Source: reports/private_crypto_dashboard.csv. 5 coin-specific headline(s) were found via automated search; they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

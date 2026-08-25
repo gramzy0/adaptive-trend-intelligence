@@ -1,0 +1,66 @@
+{
+  "symbol": "RAYUSDT",
+  "date": "2026-08-25",
+  "generated_at": "2026-08-25T07:25:03.693965+00:00",
+  "scanner_evidence": {
+    "symbol": "RAYUSDT",
+    "pair": "RAY/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "77",
+    "score_tier": "A Good",
+    "market_cap_rank": "162",
+    "gray_candles": "2",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "fresh signal, clean transition",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=RAYUSDT",
+    "execution_time": "2026-08-25T06:36:58.240039+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1085 assets scanned, 9 confirmed flips (0.8%). State distribution: Blue 67.5%, Gold 13.2%, Gray 11.8%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 9 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only."
+    ],
+    "context_generated_at": "2026-08-25T07:25:02.045149+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Solana-Based Raydium Defies Market, Hits 4-Year High Near $9 - Yellow.com",
+      "source_name": "Yellow.com",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNRzR5MUxJTE05YUxyNDdTR2wyaG16ZmtRQ0gtOEFzR1ZCUmtFVEQ3bm1iSkVrd1ZLVjRzbExERmx4TlNaZlZzTlZuRDhkbkl2bzlpVlZJa3pFeGxIeVcwSXhTVjdaaklLVXRNZVZVYml5LXBac2F1N2lsNWd2T0dlczNPazVLZFhOMUhDTDJnUVhSQ3RFVFgxeTYzR2FNWEExZTZJ?oc=5",
+      "published_at": "Thu, 20 Aug 2026 04:22:37 GMT"
+    },
+    {
+      "title": "Solana Outpaces Ethereum and Base in 24-Hour DEX Trading Volume - CoinMarketCap",
+      "source_name": "CoinMarketCap",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQLUp6MHpwNHBTdlNUQm12YUlYcnhzTTM4V290SzJfenpWSHBXVi05WEh4TFloM0FkRzNJSWR5WGpQdnFEbHBCbXZidVFYSVVlclFmamZVLXV1NkZwNE9YSUVod1gyWG9kNmVBMDJSTGttVU93amRGRGVlekhYZUF6b3VWTFRwM0MtZzFSTlVOTE93MHJhOUtkUFVEcndKcjFkaU5nY3kwd3c?oc=5",
+      "published_at": "Wed, 19 Aug 2026 18:35:35 GMT"
+    },
+    {
+      "title": "Raydium Exploit Drains $1.3 Million From Legacy Solana Pools - Yahoo Finance",
+      "source_name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOOFUwWXFrYnFJdTZmVnJYNDNydjFwWWtReWVMaFNmRXVIUTdVMzNMTVBBTEZPb0tpclY0OVNzcXJoTDA4NFlUZWxXQ2l4YUxxdGJVZGhSYURSLXZFY0VzdDdad0F6NDRLaE9rNk9zS0NXcDR6aFZKSkd6RW1yelgtcGpzUWhqYXFUZVoySjJfSE9xaEJkM1E?oc=5",
+      "published_at": "Wed, 10 Jun 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Raydium Price: RAY Price Index and Live Chart - The Block",
+      "source_name": "The Block",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5pUjF0VEV2Szh0LVJHTmJGMUZmVllaQWRVZUpYSFRQbW1WNDd1Uk9QRVp0UjQ4TmhBc2syVW0yb2JZTlVHQ1lxMFMzblQzdw?oc=5",
+      "published_at": "Wed, 12 Aug 2026 17:12:04 GMT"
+    },
+    {
+      "title": "Top Solana DEXs: Jupiter, Raydium, Orca Compared - Bitcoin Foundation",
+      "source_name": "Bitcoin Foundation",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxONjI3RlE3Qjh5bTdKNk5RTGNLYS00VEx5WF9MdzhQMjhpVFl6ek8zX2tqR2ZUbTVwME1kOXZyblVHWHRtMFZ6ZnR2OExTekhGMlVWTnlnakdLenNNRnd4aVoyUEJmYTJrY0VZNXFpMHhMaElUMVhodHN0UmF3aXJIenJBSE5ZdjB2SFdCYlM4YkdaWWR5?oc=5",
+      "published_at": "Mon, 15 Jun 2026 07:00:00 GMT"
+    }
+  ],
+  "search_query_used": "Raydium crypto",
+  "neutral_explanation": "RAYUSDT (RAY/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 77 (tier A Good); market-cap rank 162. Scanner note: Valid confirmed trend flip — fresh signal, clean transition. Broader crypto market context: 1085 assets scanned, 9 confirmed flips (0.8%). State distribution: Blue 67.5%, Gold 13.2%, Gray 11.8%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 9 flips). Source: reports/private_crypto_dashboard.csv. 5 coin-specific headline(s) were found via automated search; they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

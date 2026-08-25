@@ -1,0 +1,66 @@
+{
+  "symbol": "PENGUUSDT",
+  "date": "2026-08-25",
+  "generated_at": "2026-08-25T07:25:03.693965+00:00",
+  "scanner_evidence": {
+    "symbol": "PENGUUSDT",
+    "pair": "PENGU/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "77",
+    "score_tier": "A Good",
+    "market_cap_rank": "94",
+    "gray_candles": "3",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "large-cap stability, top market cap, fresh signal, clean transition",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=PENGUUSDT",
+    "execution_time": "2026-08-25T06:36:58.240039+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1085 assets scanned, 9 confirmed flips (0.8%). State distribution: Blue 67.5%, Gold 13.2%, Gray 11.8%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 9 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only."
+    ],
+    "context_generated_at": "2026-08-25T07:25:02.045149+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Trump Coin, Pudgy Penguins, Pepe Among Top Gainers Last Week, But This One Coin Ran Up Over 100%: What You Should Know - TradingView",
+      "source_name": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPR2JXMmsyN25jS1JhMC1CUXRVa29hcTZmYWcxU1NUZXN1WTZsZFdLaElKVGlneVpoWWljaWFCdTFMTE9KSnNiOTd6b2puYll4d0R3Mkg1am9uLXVmX2xTcHRncUM2UzBDRE1sc2oyb0lBbWR1N1ltN1c4RG5zQzVDVzVhaExvb1YxZ3dHRkc3Z3hMZllLbHBlREN2a1BNNTZtRzlqR0Yzckc3N3ViV3NUbTlIemdFTTVVYkR0UWZPTGk5TUJIR1JId08xbjE1dmNxUk8yR25xMVpGT29GRVdNNDRKQmVmeVpMaS12WExDbUU3cmZnZWthd2dUTHh2bVc1TFE?oc=5",
+      "published_at": "Tue, 25 Aug 2026 03:01:07 GMT"
+    },
+    {
+      "title": "PENGU Price Jumps 15% as Pudgy Penguins Rally Gains Steam - tokenpost.com",
+      "source_name": "tokenpost.com",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1TQ3lPVDVYeldGZG53bTUtX2NEUmRLTHJtZEJhcXk1MmsyME1lWnFGNC1ib1hEcTlKVE4wcEpLY0FBSzlHMjZkZGtPLU93bnh3NHBuYkw1NTJUQQ?oc=5",
+      "published_at": "Mon, 24 Aug 2026 06:21:50 GMT"
+    },
+    {
+      "title": "Pudgy Penguins Price Prediction – PENGU Price Estimated to Drop to $ 0.007295 By Aug 29, 2026 - Cryptonews.net",
+      "source_name": "Cryptonews.net",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE83NVoxYmQ1Vl96WEdHOFhGOHN3OWJnMERRVmZKLVA3Y1pqUnJBVXpnRXRvMkNYQVI1RHB6WmRObml5c1VZWmJjMDdTbC1HT0FGUU1fM2RhRVJQUms?oc=5",
+      "published_at": "Mon, 24 Aug 2026 13:47:18 GMT"
+    },
+    {
+      "title": "How Pudgy Penguins Went From NFT Collection To Crypto’s Biggest Consumer Brand - Yellow.com",
+      "source_name": "Yellow.com",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5YQ1BmdTlwTDVZTXdHUWlqQ2Q0X05OUGNJRWNVa2RaMkR4ZVhzUU51Wnd5cllwQWpKaVRQVF96UDlaSzc2RmJqX3pWd2xIcC1TWkZoMFB3ZjMzbk84Q0ZJdC16MTFFbTN4U3B3b2M4RXFDLUI1RlNhVlhKOA?oc=5",
+      "published_at": "Thu, 20 Aug 2026 13:26:21 GMT"
+    },
+    {
+      "title": "Pudgy Penguins at $0.0103: After a 13% rally, will PENGU break out to $0.0138? - AMBCrypto",
+      "source_name": "AMBCrypto",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSy1mS0ZQWFE3Z3FyUTlzc2loNmhvRnB1RkU3MnBYR3U2OXptS21KUHA1WDF3Qk9yX21HRTBiTXMxTlBjUTd2U09IbzM3dHJYMVBfdzNLMktvNTM0ekRZcTRXU3BTUU5VendDYnpHY0k1b3NMZWNWUWxzQUhyZTJnc0RfMjZmMTBiREF3Z215b3BJMURvUlZMQUs3WQ?oc=5",
+      "published_at": "Mon, 24 Aug 2026 16:00:15 GMT"
+    }
+  ],
+  "search_query_used": "Pudgy Penguins crypto",
+  "neutral_explanation": "PENGUUSDT (PENGU/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 77 (tier A Good); market-cap rank 94. Scanner note: Valid confirmed trend flip — large-cap stability, top market cap, fresh signal, clean transition. Broader crypto market context: 1085 assets scanned, 9 confirmed flips (0.8%). State distribution: Blue 67.5%, Gold 13.2%, Gray 11.8%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 9 flips). Source: reports/private_crypto_dashboard.csv. 5 coin-specific headline(s) were found via automated search; they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

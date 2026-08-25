@@ -1,0 +1,66 @@
+{
+  "symbol": "BNTUSDT",
+  "date": "2026-08-25",
+  "generated_at": "2026-08-25T07:25:03.693965+00:00",
+  "scanner_evidence": {
+    "symbol": "BNTUSDT",
+    "pair": "BNT/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "82",
+    "score_tier": "A+ Strong",
+    "market_cap_rank": "610",
+    "gray_candles": "3",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "small-cap potential, small-cap high risk, fresh signal, clean transition",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=BNTUSDT",
+    "execution_time": "2026-08-25T06:36:58.240039+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1085 assets scanned, 9 confirmed flips (0.8%). State distribution: Blue 67.5%, Gold 13.2%, Gray 11.8%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 9 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only."
+    ],
+    "context_generated_at": "2026-08-25T07:25:02.045149+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Bancor Network (BNT) Token Price Prediction 2026, 2027-2030: Will BNT Recover? - Coinpedia",
+      "source_name": "Coinpedia",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE16MzduTEVVOE4wX3Y4RjJzRkJNbzhvalRzVHZ6eDd2TTMzU3dfNk51RHdXRDZNc1hhbVlLdkJCVllkbnhjd2hpcGQ1cGFFY3ZWVGZKUWgtU0hUWWNhd2lOSVJydUZMSmI1WGh3cWMyemJvVnp1b3fSAXtBVV95cUxNNTdHU2tOZWJMZkNlOHluSWpndUlTT1JDc2w4N0hNeHhkR0E0aU5TdjdYMk90ZUk4clR6NU1wUmU2c0JmYkhfOVI2R0Qxa2JHTTQ5dVA4S0M4U24wbWZBQ2FWZGRTSFNCQTVZRDJZSk85S19EMVFiQmp5TVU?oc=5",
+      "published_at": "Tue, 21 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Bancor Network Price: BNT Price Index and Live Chart - The Block",
+      "source_name": "The Block",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBickxldGtvS3VWVmltXzJPUjhBR2d3U2kxc0dZa0xGbFp0UW9IU2ZmOXF0NVFLUzhaRFYwM0dmTVdwcE5VdjhzRXhXeHVpMUVKMFZUdjdwWQ?oc=5",
+      "published_at": "Wed, 12 Aug 2026 22:44:44 GMT"
+    },
+    {
+      "title": "Bancor Network (BNT) Review: What You Need to Know!! - Coin Bureau",
+      "source_name": "Coin Bureau",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1aUmxGaWFlWnhhMG55YTM4c21aNFdpcG1yTXR5UTU5OVlva0UyUUo5ODFnMnNnQTVIa2ZubWxlZ2xkYzNHLVIxc3dKSHRZQTBweW5MR1FWNk5lN0RWV1dmQ3RDOWw?oc=5",
+      "published_at": "Mon, 29 May 2023 07:00:00 GMT"
+    },
+    {
+      "title": "What is Bancor (BNT)? - The Motley Fool",
+      "source_name": "The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9PUEgyMndJV3h2SkFuZFhDVXh1aVJLbEF2dlVQUGRoQndrSlZENVN6UXFIazBKX2doNkJhT1lFR1EzY2h3SHJJZzJFVGg?oc=5",
+      "published_at": "Wed, 29 Apr 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Five Charts That Tell the Story of 2020 in Crypto - Andreessen Horowitz",
+      "source_name": "Andreessen Horowitz",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9MR3NiOXlTcUY5N2I4ZW1FT3RCdE1ETUhXbDZrYmdieVhmYkFYc1dTdk5MbldNZlBhUENYMGF2WU83UkVhazV2QWd5U3FoT3JQRklxeXcwLUdEZmx6UEVNN3dhNVlwUldzSXlxdHQ2VktITmd3RXc?oc=5",
+      "published_at": "Mon, 21 Dec 2020 08:00:00 GMT"
+    }
+  ],
+  "search_query_used": "Bancor Network crypto",
+  "neutral_explanation": "BNTUSDT (BNT/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 82 (tier A+ Strong); market-cap rank 610. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal, clean transition. Broader crypto market context: 1085 assets scanned, 9 confirmed flips (0.8%). State distribution: Blue 67.5%, Gold 13.2%, Gray 11.8%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 9 flips). Source: reports/private_crypto_dashboard.csv. 5 coin-specific headline(s) were found via automated search; they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

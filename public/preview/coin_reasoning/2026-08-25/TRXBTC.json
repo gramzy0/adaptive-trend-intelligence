@@ -1,0 +1,66 @@
+{
+  "symbol": "TRXBTC",
+  "date": "2026-08-25",
+  "generated_at": "2026-08-25T07:25:03.693965+00:00",
+  "scanner_evidence": {
+    "symbol": "TRXBTC",
+    "pair": "TRX/BTC",
+    "current_state": "Blue",
+    "previous_state": "Gold",
+    "flip_direction": "Gold → Blue (Bearish)",
+    "score": "88",
+    "score_tier": "A+ Strong",
+    "market_cap_rank": "8",
+    "gray_candles": "3",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "large-cap stability, top market cap, fresh signal, clean transition",
+    "signal": "Confirmed Gold → Gray → Blue → Blue",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=TRXBTC",
+    "execution_time": "2026-08-25T06:36:58.240039+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1085 assets scanned, 9 confirmed flips (0.8%). State distribution: Blue 67.5%, Gold 13.2%, Gray 11.8%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 9 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only."
+    ],
+    "context_generated_at": "2026-08-25T07:25:02.045149+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "TRON DAO Scales AI Fund to $1B to Back Agentic Economy Infrastructure - CoinMarketCap",
+      "source_name": "CoinMarketCap",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPZU9pREVYaWEtV0dGUHQwOVhBOU54SGQybWUxSTVPQ1RKRUZsdmNYV0NfMlViLXVzdnlXSDVRWWpPcU5hODFIN2QyNjUwcnpSNnRDUUN4OFR0akREWllXclg2cS0xQWxOdkpQS0trcURoV2p3aV9KOWsxV1k5NmpUTmxjam16bE5FM1lWU0pQNlRvRWp0Zk5RaTN3VkRtYmpYSWZjbE5LcXZLMDdfSk82OFJ4eFR0SE0?oc=5",
+      "published_at": "Tue, 25 Aug 2026 00:19:10 GMT"
+    },
+    {
+      "title": "Tron Inc. Expands TRX Treasury To $245M In Nasdaq Corporate Crypto Bet - TradingView",
+      "source_name": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQSkxCQ1lCRHRfc0tBRjd0bzVHVEZ3Y2Y1Ukw1eEFzVmczVnoxOExGR2cyQ2FVWml6d1JhZVEzeWk3YlV0b1p1LWVXMXV5R3ZqRFY3NDJnM0ZFczFsMF9zVFVnRnRoOFNWeEJGSnhCRzlzUUhXVE9lbHdTM1F0ZG4tejJwaml6MVFuMDBpVzBxM1B6c2x5azdZamdVZmhacEpScWNMc0hXeVJHNXc1YzB0MzktRDY4b0xOYUZvZkVCeFlDeXRz?oc=5",
+      "published_at": "Mon, 24 Aug 2026 19:00:00 GMT"
+    },
+    {
+      "title": "Tron Inc. Extends Rally to 26% as TRX Treasury Surpasses $245 Million - finance.biggo.com",
+      "source_name": "finance.biggo.com",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5YNWx0S2thLS1IRVV6dnFtR01sYVJpTFNhbG9fVXFMWjVwSm9lWno2ZmU0VDRnbTdwbmItUUdoWi0yZUJ5NzRKX1BOeEZxWmdNWVZMa1FEWG5Ndm9HMVlDbWpleW9vR09qVVozWkN6dzVGYks1eUE?oc=5",
+      "published_at": "Mon, 24 Aug 2026 18:29:00 GMT"
+    },
+    {
+      "title": "Tron Inc. acquires 146,214 TRX as price eyes $0.36 resistance - Cryptonews.net",
+      "source_name": "Cryptonews.net",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE92RS1CSkVSUTZVdTZQWmVlWmExVnNpTUU0SXYySXpUNXJEUlNTUkNWSnVaaTBIV1NpZUplVjRKTy0wczUtSXhKb3Z4dGtHTy1BTEd3S25MdjBwaGc?oc=5",
+      "published_at": "Mon, 24 Aug 2026 10:57:12 GMT"
+    },
+    {
+      "title": "Tron Blockchain Crypto Future: Why More Users Are Choosing Other Networks Instead - Bitcoin Foundation",
+      "source_name": "Bitcoin Foundation",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPeEpyMGdoWmNhN0MxWjU0dnJPU3NBN1JrUnFWdkVSRk9ycUdhRmNudTlkaVV6NHoxNmdjeVNkV0UtSXVSS0xEeFNIc2tzNTBwUjBRWkEtOV9zY3A3NFFfOWFVVGhlaXBTTlZUV2c5RVJOVURYa1BMNE55THRialVaTkh2a1hjWlZIN0FWNkViZDV1bzVSNmtFS3ZHekRLLXRWazRJSWI4YVEySFFPVFd3XzdoM2xud2tsOEotRmlKUDRaWW8?oc=5",
+      "published_at": "Sat, 25 Jul 2026 07:00:00 GMT"
+    }
+  ],
+  "search_query_used": "TRON crypto",
+  "neutral_explanation": "TRXBTC (TRX/BTC) recorded a confirmed state flip: Gold → Blue (Bearish). Scanner score 88 (tier A+ Strong); market-cap rank 8. Scanner note: Valid confirmed trend flip — large-cap stability, top market cap, fresh signal, clean transition. Broader crypto market context: 1085 assets scanned, 9 confirmed flips (0.8%). State distribution: Blue 67.5%, Gold 13.2%, Gray 11.8%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 9 flips). Source: reports/private_crypto_dashboard.csv. 5 coin-specific headline(s) were found via automated search; they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

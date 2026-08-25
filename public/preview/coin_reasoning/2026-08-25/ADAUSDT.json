@@ -1,0 +1,66 @@
+{
+  "symbol": "ADAUSDT",
+  "date": "2026-08-25",
+  "generated_at": "2026-08-25T07:25:03.693965+00:00",
+  "scanner_evidence": {
+    "symbol": "ADAUSDT",
+    "pair": "ADA/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "47",
+    "score_tier": "C Weak",
+    "market_cap_rank": "18",
+    "gray_candles": "18",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "large-cap stability, top market cap, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=ADAUSDT",
+    "execution_time": "2026-08-25T06:36:58.240039+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1085 assets scanned, 9 confirmed flips (0.8%). State distribution: Blue 67.5%, Gold 13.2%, Gray 11.8%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 9 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only."
+    ],
+    "context_generated_at": "2026-08-25T07:25:02.045149+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Why Cardano Was on Fire Today - Yahoo Finance",
+      "source_name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPSUV2aVhDWmE2cXRMMkhiWTQtTEtJTEhMVDVKMWltb0xyUDAwV3hVMG5iMGozOVRZeTREOHYtQjYyWkw5WlhESEU5R2cwbnVFZi01RjRGNHJvQmNXdW5saEdxR1BUSF80YW1vNTdCbVl6U1ZJekF1ejI1RHZtYnUtX2FzTjI4RXl1NEdhTmwxdnM?oc=5",
+      "published_at": "Fri, 21 Aug 2026 23:30:35 GMT"
+    },
+    {
+      "title": "Latest Crypto News: XRP Eyes $1.60 While Cardano Falls 10% – Is Apeing Whitelist the Gateway to the Next 1000x Crypto? - StreetInsider",
+      "source_name": "StreetInsider",
+      "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxOSnJSLXZXZllENW1INl9YUGt5R0tMTkM2VlJiRXVDZFVERGFFaTdfU1Q2ZW9pLWRwcTZXVTR6QmxmUDNZYkk5YlQ5bjFadGpvMTJPV0pNX3RJWXYtbWFEdVM2MjNYYnBZWE9lUjVkRElfam05QnhJNnBadEVtd05sc1h4OXcwTzNVUjZJUjVrYUZ1eVpQS1ZBOS14MVJfZnN5eW5hMGZDNG9XOEstMVpRZXdJaWE4eFNBa3dldVpTenQzcFZkU3k4NlROakNaQm1QaUYwaTJJRXRvSmhRR3VuQUVPVENmbW9UeVdHeXlyalpPNnFzUXlzeldXQXdYOVNPZzBHZWpGSXhrQmNXZXRkX2dxMXFKYUtUcUpqSm9EelZvQU0?oc=5",
+      "published_at": "Tue, 25 Aug 2026 05:12:41 GMT"
+    },
+    {
+      "title": "Cardano Scores Major Japan Win as Sony-Linked Exchange Lists ADA - TradingView",
+      "source_name": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNdGdDSVVYakxiejhwal9TamJ3cFpOblhUUWNoZUFpRk9ycUd0bGlFTklhT3pvMWRPdGxIYkRnM2g2bUtrMUlUOF9lcWZSd2g0cEZxVFRqcnBrYmh2WXZ1LXc2WTNwdXVQV2djMlJrMHhmQkgyVWtJTEo2Y1RBcnJ2dHUyb3N1R3hMbzQtNER2Uk1WcEFCMjBHcWYyVXRBVjJVcEhaa3FJejNXMV9mQk1qZFVYeUV2QnFzWVE0TzJndw?oc=5",
+      "published_at": "Mon, 24 Aug 2026 13:30:27 GMT"
+    },
+    {
+      "title": "Cardano (ADA) Jumps Past $0.20: 3 AIs Debate Whether a Rally to $1 Is Possible in 2026 - CryptoPotato",
+      "source_name": "CryptoPotato",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNN3JIMlB3Nmhldk1ZaWVZZ21jbWpJRXJVYWN4ejFTRHRRUWFkYk9SUm1BNlZac3FESjJ4TWRTVUxvQU11aUdUc25HN1V4WnZMWnd6eUhXeXdBVFlUbmFjelZmMFZjTGJOc2RIT1JuaklMWXRnVzNNMjN3d2tyRUZEMHhKNGQ4cTRScElrVUZabFJ2dVFwdFpEQVd1X2FQZEt2VkJKdVRlV1p5RGs?oc=5",
+      "published_at": "Mon, 24 Aug 2026 16:10:00 GMT"
+    },
+    {
+      "title": "Cardano (ADA) Price Rally: Why ADA Is Rising and How High Can It Go? - CryptoRank",
+      "source_name": "CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdV83TFlLdHpjemJPUjJWeWhyV2Jsc2JJQzZiVVlSZW9rOFEycV9FbHFQZ3c1enRPZEU3dUppclMxMU4zd3dQSi03bmZsNk9nRDZ0U3ZHTzJXVTZoWFJBVkdqckFFQy1WU2VUelFwUTk2N1E2MnhCUnMza3JVc3Vvc204eGtkdnlMdkdCanQ1VkNxSmJrem1hcU83WjZhaEJWWEZ1VQ?oc=5",
+      "published_at": "Mon, 24 Aug 2026 18:05:42 GMT"
+    }
+  ],
+  "search_query_used": "Cardano crypto",
+  "neutral_explanation": "ADAUSDT (ADA/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 47 (tier C Weak); market-cap rank 18. Scanner note: Valid confirmed trend flip — large-cap stability, top market cap, fresh signal. Broader crypto market context: 1085 assets scanned, 9 confirmed flips (0.8%). State distribution: Blue 67.5%, Gold 13.2%, Gray 11.8%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 9 flips). Source: reports/private_crypto_dashboard.csv. 5 coin-specific headline(s) were found via automated search; they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

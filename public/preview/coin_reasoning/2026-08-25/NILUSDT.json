@@ -1,0 +1,66 @@
+{
+  "symbol": "NILUSDT",
+  "date": "2026-08-25",
+  "generated_at": "2026-08-25T07:25:03.693965+00:00",
+  "scanner_evidence": {
+    "symbol": "NILUSDT",
+    "pair": "NIL/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "62",
+    "score_tier": "B Watch",
+    "market_cap_rank": "785",
+    "gray_candles": "9",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "small-cap potential, small-cap high risk, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=NILUSDT",
+    "execution_time": "2026-08-25T06:36:58.240039+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1085 assets scanned, 9 confirmed flips (0.8%). State distribution: Blue 67.5%, Gold 13.2%, Gray 11.8%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 9 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only."
+    ],
+    "context_generated_at": "2026-08-25T07:25:02.045149+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Nillion (NIL) Price Prediction, 2026, 2030 & 2040 - CoinDCX",
+      "source_name": "CoinDCX",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5CRy14VHNwaEowczJWeDVLQnFHNF9CaGdlSGwxU0xRbTNIcF9yMGdhWWxiZ3AyQjZYbkRQVFA1T2lubE5RenJRRXBNbEs2aC0xYmFpbmhZWGg4RjlpV3V6SUVneHRYemxhLWFHNkRHTmN1LTNkVHFn?oc=5",
+      "published_at": "Tue, 04 Aug 2026 11:20:00 GMT"
+    },
+    {
+      "title": "Nillion crypto’s $0.04–$0.06 range to decide the next major trend - Cryptonews.net",
+      "source_name": "Cryptonews.net",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9FaUR5N0FPdm1MVjFkY245TDc0Mm5fc0lkMjI5UnJKNC0xa25mcEI3MFU0TEJZQlh6MUxpaERKVFpVb1JiRnotWjI0dERRX1dLY2loSkpCSjFvVUk?oc=5",
+      "published_at": "Sat, 15 Aug 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Upbit lists Biconomy, Bubblemaps, Nillion, and ETHGas, boosting their prices and trading volumes. - Pluang",
+      "source_name": "Pluang",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOWjF3aXFHSTlmd3lTNlZuLTR5UGZpVmV5QWZGajNRZjdnT0ZFNEhoZlJQeEJ5eFJtVGp1eEpIYjFVX2VBUjJhc09LRWZEQkJWMnRCdlpVSDlicjdFWl9fVU5abVItNGhpMEZsNERYcFJvUXVOU1BBU3h4TGJCT3pEeVYyQzJJLVZ6LWp5NWxHSkJhWDUw?oc=5",
+      "published_at": "Fri, 21 Aug 2026 02:45:00 GMT"
+    },
+    {
+      "title": "Successful Ethereum Migration Helps Nillion (NIL) Price Shatter 159-Day Resistance — This Is What Could Happen Next - CCN.com",
+      "source_name": "CCN.com",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPcThuUW5peXN1bFNvUFJibE1jZHlLU0dBY1ZHNEtJZzNCUG1jY2k1UmZpNVB6V1RSSG8tZDFCSWo5eVUyQVd1X0VLY09tSkZ0VFk3dzdGTkdUUk50akVWQlAwMXpIbWQ3NHBpT1ZCQUJSUktxWWZCSUoteVJmTnpzNzBpMXNJb0ptN3pXRDM5RWlaQzZOVHc?oc=5",
+      "published_at": "Fri, 08 May 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Hack VC-Backed Nillion to Shut Down Its Chain on Cosmos, Shift Focus to Ethereum - The Defiant",
+      "source_name": "The Defiant",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQUndrM0dyYjhRcEhHRXBjQVQybWF2WDdBTWlaT1NlUzhmMGhhcWxDRkpncThYTW1nUTdCcjhEYV9aX05QYi1XUEdsdXJ3a3dWOUFqUk82VnRCS0xkS1BNRGdxUDV2ZnpHWDVUSDl3TnlkVkVCekZVSVFOaUREbWM0QUNCMUpKZmdtY3c?oc=5",
+      "published_at": "Thu, 19 Feb 2026 08:00:00 GMT"
+    }
+  ],
+  "search_query_used": "Nillion crypto",
+  "neutral_explanation": "NILUSDT (NIL/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 62 (tier B Watch); market-cap rank 785. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 1085 assets scanned, 9 confirmed flips (0.8%). State distribution: Blue 67.5%, Gold 13.2%, Gray 11.8%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 9 flips). Source: reports/private_crypto_dashboard.csv. 5 coin-specific headline(s) were found via automated search; they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

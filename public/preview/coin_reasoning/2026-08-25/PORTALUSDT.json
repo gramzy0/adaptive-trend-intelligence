@@ -1,0 +1,66 @@
+{
+  "symbol": "PORTALUSDT",
+  "date": "2026-08-25",
+  "generated_at": "2026-08-25T07:25:03.693965+00:00",
+  "scanner_evidence": {
+    "symbol": "PORTALUSDT",
+    "pair": "PORTAL/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "79",
+    "score_tier": "A Good",
+    "market_cap_rank": "967",
+    "gray_candles": "7",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "small-cap potential, small-cap high risk, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=PORTALUSDT",
+    "execution_time": "2026-08-25T06:36:58.240039+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1085 assets scanned, 9 confirmed flips (0.8%). State distribution: Blue 67.5%, Gold 13.2%, Gray 11.8%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 9 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only."
+    ],
+    "context_generated_at": "2026-08-25T07:25:02.045149+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "AscendEX pushes for insolvency and rescue deals as claim portal to launch September 5 - CryptoSlate",
+      "source_name": "CryptoSlate",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOODg1ai1fUE5UdTY3c3NNSkJuZTRieVE4WHdOaEJkRzlieThRMThtX1NOUW1aLUVXU2xGVnZUM25wU1dRWWF1VFVGZHIwcTlia2pVOEUwcm9pZlpnRHNuNFA2bUZnRHNOelUtSHd3TUZ3OHlWZldMcDZBbjdwN1Y0T2pYeXRRb2RwWVZSOUJJTnlTNHVzN3I5cG1vYmtqRHlLbzY0QXVWeFlKRnQ3YVU0?oc=5",
+      "published_at": "Mon, 24 Aug 2026 19:15:18 GMT"
+    },
+    {
+      "title": "Pakistan Opens Crypto Licensing Portal, Sets Sept. 5 Registration Deadline - CoinMarketCap",
+      "source_name": "CoinMarketCap",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTXRNR1Z3WkxBbVJjVkxTV3ZpM0Q1YndieXIzVnlneV9XR0RBeTd4MUJkZ3BhTW1zZ2FfaVJ3eFpkVWprVXp2VWNQQkNkS1pHUGFFMXpTa2JPR2p0RXYwM0EtTUM3QnNkWUFaS3pxUGpkaU5jT2dxa2RIaWJwY3pqc1Rsb1FCUndFclpRSnplTE5hM3dpSE9xMG9aUWpqQW9IRGYtbmR5b2dXNGdQU0JQZHJRV0I?oc=5",
+      "published_at": "Mon, 24 Aug 2026 22:02:14 GMT"
+    },
+    {
+      "title": "Tirhang Crypto(@mohan_mgyr76)'s insights - Binance",
+      "source_name": "Binance",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE43SDlXSV9UUXdINFNjYkhHeTBCelBMM18wU2hOZDRFQkRMRlg0ZzZ1OFljSVF5djJXd1dLaXFON0VDQlU3VVJzbEZ5a1pQTExpQ3lqMnhUeElIMUtqbE9OR0k4NXM?oc=5",
+      "published_at": "Mon, 24 Aug 2026 15:01:09 GMT"
+    },
+    {
+      "title": "Pakistan Opens Licensing Portal for Crypto Service Providers, Sets September Deadline - CryptoRank",
+      "source_name": "CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNTmxrR18wcm9RSGdFY2FyNXJoMjRBX1c1c1NRaENBYmxQcHhfUlozdTJTTVpmbnZpS0tpVWM5RGJfZ0hOZWhqSjVWb1JDVkE1dmJ3NWdVelpWRERPamtPcFFVdFM0M0lCVF9CZWx1UGZPcERQdXYtQURQLVJqQ243YWp2S2JvUm5GLTF4TjB5clN5N1JkTTZadGJaMjBXWlE?oc=5",
+      "published_at": "Mon, 24 Aug 2026 08:27:13 GMT"
+    },
+    {
+      "title": "Pakistan opens crypto licensing portal, sets Sept. 5 deadline for existing firms - LCX Exchange",
+      "source_name": "LCX Exchange",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSFl1RDhjSTN0VE5wYTV2dDVYVUpHQXNUcUxTRnVhQ3JoZ2ZGVzFOZmpXT19rVmNKSnQ4TEJzY1hUSEk2SnBMWEEyVTQ3S1hmeWZLWURRQ2FDZkRQc196NHpzaDNmUDRDbHBpOE54Zm5pU25IR2hvN2M3aWdWeFVxbmduQWRjcVFRa1JVX1J2MTB2WW5fTVBhU1RxTzg0UUlZZWpUVjdDVVMtYlNW?oc=5",
+      "published_at": "Mon, 24 Aug 2026 08:02:44 GMT"
+    }
+  ],
+  "search_query_used": "Portal crypto",
+  "neutral_explanation": "PORTALUSDT (PORTAL/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 79 (tier A Good); market-cap rank 967. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 1085 assets scanned, 9 confirmed flips (0.8%). State distribution: Blue 67.5%, Gold 13.2%, Gray 11.8%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 9 flips). Source: reports/private_crypto_dashboard.csv. 5 coin-specific headline(s) were found via automated search; they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

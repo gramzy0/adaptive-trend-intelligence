@@ -1,0 +1,66 @@
+{
+  "symbol": "PEPEUSDT",
+  "date": "2026-08-25",
+  "generated_at": "2026-08-25T07:25:03.693965+00:00",
+  "scanner_evidence": {
+    "symbol": "PEPEUSDT",
+    "pair": "PEPE/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "82",
+    "score_tier": "A+ Strong",
+    "market_cap_rank": "51",
+    "gray_candles": "3",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "large-cap stability, top market cap, fresh signal, clean transition, high volume",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=PEPEUSDT",
+    "execution_time": "2026-08-25T06:36:58.240039+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1085 assets scanned, 9 confirmed flips (0.8%). State distribution: Blue 67.5%, Gold 13.2%, Gray 11.8%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 9 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only."
+    ],
+    "context_generated_at": "2026-08-25T07:25:02.045149+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Crypto News Today: AlphaPepe Passes $2.5M Presale Milestone as XRP Price Prediction Eyes $3.50 - markets.businessinsider.com",
+      "source_name": "markets.businessinsider.com",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOMDk4bHk5N2VZeDcyUUFNVjFNYkFpSEFzWXRoc0QyV3lOdGJfY0IwR1YxWFdCek0zOC11b1I5dWlOQ3lhS2N6Y00xel91elJuUUxDT0F0NFlfWEVFRnRzcmcyOVFKb1JMeUsyLWJ3bXF0dXdQY2VCTDlhckRJZjVKdmpqb1lSZnIyOGliWG8wbVl2VjgwdEg0UWtJUTEzRFRsNEpmeGJaQVdGNlhhV0lXeGdCUzdxMERuLWtuRmoxQ0pjTXl1QTYxT1gxMGpKaEpXZWdobUIwX3l0eHlwLWhVWjB3RXk?oc=5",
+      "published_at": "Tue, 25 Aug 2026 03:16:05 GMT"
+    },
+    {
+      "title": "Trump Coin, Pudgy Penguins, Pepe Among Top Gainers Last Week, But This One Coin Ran Up Over 100%: What You Should Know - TradingView",
+      "source_name": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPR2JXMmsyN25jS1JhMC1CUXRVa29hcTZmYWcxU1NUZXN1WTZsZFdLaElKVGlneVpoWWljaWFCdTFMTE9KSnNiOTd6b2puYll4d0R3Mkg1am9uLXVmX2xTcHRncUM2UzBDRE1sc2oyb0lBbWR1N1ltN1c4RG5zQzVDVzVhaExvb1YxZ3dHRkc3Z3hMZllLbHBlREN2a1BNNTZtRzlqR0Yzckc3N3ViV3NUbTlIemdFTTVVYkR0UWZPTGk5TUJIR1JId08xbjE1dmNxUk8yR25xMVpGT29GRVdNNDRKQmVmeVpMaS12WExDbUU3cmZnZWthd2dUTHh2bVc1TFE?oc=5",
+      "published_at": "Tue, 25 Aug 2026 03:01:07 GMT"
+    },
+    {
+      "title": "Dogecoin Price Eyes Breakout, Pepe Rally and Apeing’s Upcoming New Crypto Presale Attracts Investors - StreetInsider",
+      "source_name": "StreetInsider",
+      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPMXRCM0g2MHpWa2NmUThsVDZheUNpMEJXVFFZT3JrSEc0aE9XR21UYVBGVVdGWTY1QlJEdWktb0p0OVNBZlVYSFJPOUx2c2NtaXBnQ0ZFQWV6Zjk5NkpJQUFZV0xlcEZzR2RvZmF1djNZU0ZpbjBEVW5RVnBnd21Hc0FTOFQ4S0ZZa0JLdng1ZEZqakNwRmlmb19FaTF3eGdqWldyT3lfOXpZaElVZWVvUjdJZGJHSnBTak51c2lJS29sYUh2QUQ1NGt4NlpOT3VNcUU1NEt5MUxKM3lSbi1wc0NGbFVneHU3aXJQX2VUOGRuMjlaYmgtbTYzSVZlUzg?oc=5",
+      "published_at": "Tue, 25 Aug 2026 04:46:40 GMT"
+    },
+    {
+      "title": "PEPE Exchange Outflows Hit Nearly 2-Year High as Whales Accumulate - Yahoo Finance",
+      "source_name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOeGkzeU5KN2VTUHZlaGVCRjdxMFlHTm81M0JNdWFBMFczQVFzYmpEaVNzeXk0TE0xckFnbG9PT21zWXZxNUp3RkV6TnZOMUlUS2QxckZoVEhtWWlaeUU1SlI3VFpDUWhFdmRWc3FMZVlyVTA1VnNlZ1lQSjJyQ1RBbEdBVVNsandZbGdCTmhMdzdZNG41anp4SUQxM0tycnc?oc=5",
+      "published_at": "Thu, 06 Aug 2026 07:00:00 GMT"
+    },
+    {
+      "title": "What is Pepe Cate Coin | How PATE Works, Use Cases and Values - mexc.co",
+      "source_name": "mexc.co",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBmWkFFWXJDd3JGeXdiejN6M1Fka0xvcEc5TXJjeGFHOTBqdWk1ejA0QWJmSXJQb0ZsbDZnSFN3VTVwbFdHNHFfY2xQMm41c1ZubF9VSzZGSTE?oc=5",
+      "published_at": "Tue, 25 Aug 2026 02:00:00 GMT"
+    }
+  ],
+  "search_query_used": "Pepe crypto",
+  "neutral_explanation": "PEPEUSDT (PEPE/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 82 (tier A+ Strong); market-cap rank 51. Scanner note: Valid confirmed trend flip — large-cap stability, top market cap, fresh signal, clean transition, high volume. Broader crypto market context: 1085 assets scanned, 9 confirmed flips (0.8%). State distribution: Blue 67.5%, Gold 13.2%, Gray 11.8%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 9 flips). Source: reports/private_crypto_dashboard.csv. 5 coin-specific headline(s) were found via automated search; they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

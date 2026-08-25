@@ -1,0 +1,60 @@
+{
+  "symbol": "RADUSDT",
+  "date": "2026-08-25",
+  "generated_at": "2026-08-25T07:25:03.693965+00:00",
+  "scanner_evidence": {
+    "symbol": "RADUSDT",
+    "pair": "RAD/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "52",
+    "score_tier": "B Watch",
+    "market_cap_rank": "1006",
+    "gray_candles": "12",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "small-cap potential, small-cap high risk, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=RADUSDT",
+    "execution_time": "2026-08-25T06:36:58.240039+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1085 assets scanned, 9 confirmed flips (0.8%). State distribution: Blue 67.5%, Gold 13.2%, Gray 11.8%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 9 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only."
+    ],
+    "context_generated_at": "2026-08-25T07:25:02.045149+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Radworks (RAD) Price Prediction 2026 2027 2028 - 2040 - Changelly",
+      "source_name": "Changelly",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE52MHlCTkM5Y0VXdmE5cnFwVVNYelAtWWlUT0FLLUdyV3A4Q3JTeDVCekY0YmtkTEhxWGRWbGg5OUxDVXZXMVM1cV9FNlpkNFlTQU0xQ0hqci1qZVl1YUxETmlzZWlFN1Jy?oc=5",
+      "published_at": "Thu, 28 Dec 2023 01:49:46 GMT"
+    },
+    {
+      "title": "Radworks (RAD): A New Innovation in the Software Development World! - Pintu",
+      "source_name": "Pintu",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBYeGZtUkd5VEN1QWxhOW8xNTFQa0hfUm9HN3hlU0U4YnB0TjI0TGM4bkFpS2dyMk9EbHNLX0NKZGtuMmplZ0RpZkxvRk4zc1lqd2V1YXFMeFE2VG5uOGRQMnRUVUpLV3RvRVE?oc=5",
+      "published_at": "Wed, 12 Mar 2025 07:00:00 GMT"
+    },
+    {
+      "title": "What Is Radworks (RAD)? - Binance",
+      "source_name": "Binance",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBFWmliU0Z5WTFtakJfM0FEWEp0OEdscHMwRnZWWVJEeGk0VV8xbUJVdG5UMFQzQWg2a3FhYVZMMHhHM3pjdHdac0FIZVRlM0lraFhOYXRYMGV0Yk1XNnJ0RWxVVVA0VmZLZ1Y1ZTY0bTVhUQ?oc=5",
+      "published_at": "Mon, 19 Aug 2024 07:00:00 GMT"
+    },
+    {
+      "title": "Will Radworks Price Go Up? RAD Price Prediction 2026 - Coin Gabbar",
+      "source_name": "Coin Gabbar",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOeXF1R3VGeC0yRjFWcjFKSUk0NTZrOHRvT210dWkwdElWM3QyQkpEY0NNdS1QU29OTVgwdjhQMEFGX0luUGluemxBM05seDdWbkdrY3ZzMk1PLXl6QXhwVGlJbVNVSVgtVkNORC1aWEJZSzZaa0FlX2hKOGRvWTBWdXlib2ZYNTk3UWpQRHdZMk14eXl1TlNlT25DNXFpNVhQbU5SQW5B?oc=5",
+      "published_at": "Wed, 19 Aug 2026 07:31:08 GMT"
+    }
+  ],
+  "search_query_used": "Radworks crypto",
+  "neutral_explanation": "RADUSDT (RAD/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 52 (tier B Watch); market-cap rank 1006. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 1085 assets scanned, 9 confirmed flips (0.8%). State distribution: Blue 67.5%, Gold 13.2%, Gray 11.8%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 9 flips). Source: reports/private_crypto_dashboard.csv. 4 coin-specific headline(s) were found via automated search; they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

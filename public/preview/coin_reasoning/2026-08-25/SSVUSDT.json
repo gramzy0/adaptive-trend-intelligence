@@ -1,0 +1,66 @@
+{
+  "symbol": "SSVUSDT",
+  "date": "2026-08-25",
+  "generated_at": "2026-08-25T07:25:03.693965+00:00",
+  "scanner_evidence": {
+    "symbol": "SSVUSDT",
+    "pair": "SSV/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "74",
+    "score_tier": "A Good",
+    "market_cap_rank": "533",
+    "gray_candles": "4",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "small-cap potential, small-cap high risk, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=SSVUSDT",
+    "execution_time": "2026-08-25T06:36:58.240039+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1085 assets scanned, 9 confirmed flips (0.8%). State distribution: Blue 67.5%, Gold 13.2%, Gray 11.8%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 9 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only."
+    ],
+    "context_generated_at": "2026-08-25T07:25:02.045149+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Ethereum Slashing Event Hits 39 Validators Linked to SSV Network - tokenpost.com",
+      "source_name": "tokenpost.com",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5LcXJOM2I2Y2NVZkpWUDlBS3I1YUhqcGw5VUtfdWNPaVVJdFp5dmZsZmlLQlQwRkNyTW1BUjN3UGt2YTl1V2ZjSlhKMWJIS3pISXQ0VWpLLUdzS3M?oc=5",
+      "published_at": "Wed, 10 Sep 2025 07:00:00 GMT"
+    },
+    {
+      "title": "Kraken deploys distributed validator tech across its Ethereum staking infrastructure using SSV Network - The Block",
+      "source_name": "The Block",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZ2VkS1NQZWlNVFRXdTBBZnNDb1Rya2xYX21zbzZpb2ZTVEc2WUhPa09xZjhKd3B5dTc0RWxrRWxqWDg4VVZHZ0wzU21ESGhIX0F5Y3lZcFE5YkVKSHBzanJENHZ6MUxqU0V3ZVI0eHZQZXp4MWwycUJDT1ZDOWlORGFQam1xakt4VlMtb1owX3hZc2JEbUpIN1BJVHhhdmx0VGtR?oc=5",
+      "published_at": "Fri, 22 Aug 2025 07:00:00 GMT"
+    },
+    {
+      "title": "Ethereum Rare Mass Slashing Event Linked To Operator Issues - CoinDesk",
+      "source_name": "CoinDesk",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdW1pNkh2UWo3U1RLekk4OXZhNVBIWlNyN3I0b3BBcnRaZVE1WHVXeGFvakwxQ1h2bnlYWFh1ckZ6M3dmX1NBMlUwODZ6ekhsMkJBcVB1Ni1TQkJLTjREVWowM01weGlFYlN0VW56MHo4REVyMU1nOUVIQTRSZE1iNWN5b0dabWpWbjFzeWVzeVY1djlwSURlQ0lPakRJM0dhMkE?oc=5",
+      "published_at": "Wed, 10 Sep 2025 07:00:00 GMT"
+    },
+    {
+      "title": "Can SSV Skyrocket? Analyst Predictions Unveiled - Binance",
+      "source_name": "Binance",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB4SmNtVjdpcWJPdng5MGhLZUJfYTQzQ0ZvX3dUcHNsTHdCZGJKY2Y4TlBaRDdyRHRBV19Lb180T2FQdWJwbk5pLTZlLVdXcm5UWmJaRzJEUk9hS1BPNlVzWHBrWQ?oc=5",
+      "published_at": "Tue, 03 Jun 2025 07:00:00 GMT"
+    },
+    {
+      "title": "SSV Network Prices Free Falling After Founder Joins Israeli Army, What’s Next? - CryptoRank",
+      "source_name": "CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOTUp3YWMwczdVTFk4cG9GVU04eGtobGlQS05DRVEzVTNqWVpHbDFOVFRrSTlOOUZwaHEycFFGZG5XSXhTMFRxMTZ0VmlDYUZ3SnJOamxfNGlpQ2d1RDd6MmVlUVZQUkdjUnRSZWRlUy1JbFVidHo2V2VBNVpkeHF4NVFR?oc=5",
+      "published_at": "Thu, 12 Oct 2023 07:00:00 GMT"
+    }
+  ],
+  "search_query_used": "SSV Network crypto",
+  "neutral_explanation": "SSVUSDT (SSV/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 74 (tier A Good); market-cap rank 533. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 1085 assets scanned, 9 confirmed flips (0.8%). State distribution: Blue 67.5%, Gold 13.2%, Gray 11.8%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 9 flips). Source: reports/private_crypto_dashboard.csv. 5 coin-specific headline(s) were found via automated search; they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

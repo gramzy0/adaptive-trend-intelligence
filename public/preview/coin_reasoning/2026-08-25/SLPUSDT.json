@@ -1,0 +1,66 @@
+{
+  "symbol": "SLPUSDT",
+  "date": "2026-08-25",
+  "generated_at": "2026-08-25T07:25:03.693965+00:00",
+  "scanner_evidence": {
+    "symbol": "SLPUSDT",
+    "pair": "SLP/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "74",
+    "score_tier": "A Good",
+    "market_cap_rank": "756",
+    "gray_candles": "4",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "small-cap potential, small-cap high risk, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=SLPUSDT",
+    "execution_time": "2026-08-25T06:36:58.240039+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1085 assets scanned, 9 confirmed flips (0.8%). State distribution: Blue 67.5%, Gold 13.2%, Gray 11.8%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 9 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only."
+    ],
+    "context_generated_at": "2026-08-25T07:25:02.045149+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "What Is Smooth Love Potion (SLP)? - Binance",
+      "source_name": "Binance",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9TRHUxRWpCNWNpLWF0aDR4X3Rpb2hLRTkyUGlfM044OWV6aUs5Qi1yLUxEMERDVDQ0bmpFUFpVOFVZUjdCNWhGaFFBelhUS1dYX3F0ekFyWF9SbHpFNFM5ZkFoOUU5cTNXR04zZEdjTXBxU1EwT0ZiS1VMc2hYckE?oc=5",
+      "published_at": "Wed, 22 Apr 2026 07:00:00 GMT"
+    },
+    {
+      "title": "What Is Smooth Love Potion (SLP)? - OKX",
+      "source_name": "OKX",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5VcGtLTXhIVjNCOEs4cU9YRS1MMTlmcG83ckhubWpIVnRvVG8teUdMbGdoNEI2WGJnRTV2NVR5YjlHaURKM1JoblpkaUs2akE3MDc3WHhPMFRsd1BPTXFOQ3BCekNpb0U?oc=5",
+      "published_at": "Tue, 23 Dec 2025 08:00:00 GMT"
+    },
+    {
+      "title": "Axie Infinity Price Prediction 2026: GameFi’s $380M Volume Surge Signals Turnaround Play - CryptoRank",
+      "source_name": "CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNemtoVmhOeWZlT1B0QWdCMmJad1EwNUJ5MmFuNWViaDRkdnhSN0VjVTZwQTF2UmhvdkdTWl96WXV6NzNzbUJlYWpVSGhJMEhuMlN2Vk5xM0l5ZGlzMW1Kclo5WTdrQkNscURVUlRDcGlROUduU2QzN2FKWkljcHZndXZvUDZkQktPbHdDc1N1U1BDYmJsT0RsV296bzNsdEwtcElBZ2I4TzZwdVdkTlB0T0xsbnRQZDBWMjh0T1hhYVo?oc=5",
+      "published_at": "Wed, 21 Jan 2026 08:00:00 GMT"
+    },
+    {
+      "title": "Smooth Love Potion Price Prediction | Is SLP Coin a Good Investment? - Capital.com",
+      "source_name": "Capital.com",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOXy1YdktLUkJfRm1XQk9pVmJrVkdqR0NEM3ZBT3BMRGhTM0Q5ODdJa2toR2RUWEJLY21QWl9RakQ2cTVubkVQQk9mRU13RVRyWWxjVW1xTG03VmhWb3IxMlI2U0VCcUZZMHd6TGJGREhXNFdvTk9MeHJDbVljZTIwdXhmbU5BV28?oc=5",
+      "published_at": "Thu, 08 May 2025 15:23:58 GMT"
+    },
+    {
+      "title": "Sky Mavis Halts SLP Rewards in Axie Origins to Curb Bot Farming - BitPinas",
+      "source_name": "BitPinas",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBpVkJFc3JweHdlMTRIaTZMRHN5MHpyRllTTlkxODFTLWtkQ0FmVjJXSXlub283V0huV1FCTnVUYjd1VTBLQmhobHBfR3Y4R1luQnA5bGdpczQ?oc=5",
+      "published_at": "Tue, 06 Jan 2026 08:00:00 GMT"
+    }
+  ],
+  "search_query_used": "Smooth Love Potion crypto",
+  "neutral_explanation": "SLPUSDT (SLP/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 74 (tier A Good); market-cap rank 756. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 1085 assets scanned, 9 confirmed flips (0.8%). State distribution: Blue 67.5%, Gold 13.2%, Gray 11.8%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 9 flips). Source: reports/private_crypto_dashboard.csv. 5 coin-specific headline(s) were found via automated search; they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}
