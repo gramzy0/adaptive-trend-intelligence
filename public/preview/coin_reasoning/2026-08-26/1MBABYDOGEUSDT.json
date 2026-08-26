@@ -1,0 +1,55 @@
+{
+  "symbol": "1MBABYDOGEUSDT",
+  "date": "2026-08-26",
+  "generated_at": "2026-08-26T07:25:03.015948+00:00",
+  "scanner_evidence": {
+    "symbol": "1MBABYDOGEUSDT",
+    "pair": "1MBABYDOGE/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "37",
+    "score_tier": "C Weak",
+    "market_cap_rank": null,
+    "gray_candles": "14",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=1MBABYDOGEUSDT",
+    "execution_time": "2026-08-26T06:36:41.283477+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1085 assets scanned, 15 confirmed flips (1.4%). State distribution: Blue 66.4%, Gold 14.1%, Gray 12.0%, Unknown 7.6%. Strongest transition: Blue → Gold (13 of 15 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "ETF/regulatory-related coverage",
+      "General market-news coverage, reviewed for context only."
+    ],
+    "context_generated_at": "2026-08-26T07:25:01.617215+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "What is 1MBabydoge? - Binance",
+      "source_name": "Binance",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1Ha25XckVabFRzbTE0ckROZHRXYlRhSktIckNlb2pBeHk3RXdvc1dVc1JaLThWLWE1bXkybDhsTWNxak1udnRUTVluSEJWZWlxak5YNXZtb1hnaWRLSm1XaFF2RQ?oc=5",
+      "published_at": "Mon, 16 Sep 2024 07:00:00 GMT"
+    },
+    {
+      "title": "Baby Doge Coin Price Prediction 2026, 2027, 2030 & Beyond: Yearly Forecast - Binance",
+      "source_name": "Binance",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9za1BuRHVRTHZUNGc0dGQyenc4NzBrT2Q5c2VMZGlnblQ5Y0pDSUM5cWo0cDU4dDR3TDZkYnItZXJvZmRBaUJqelVXdTRPbEZmaFF4RkJHSUNQQW9fNUp4MnVERnN3ZzFfQ2c?oc=5",
+      "published_at": "Tue, 03 Dec 2024 18:08:40 GMT"
+    },
+    {
+      "title": "Binance Will List First Neiro on Ethereum (NEIRO), Turbo (TURBO), and Baby Doge Coin (1MBABYDOGE) with Seed Tag Applied - Binance",
+      "source_name": "Binance",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQOXpNR2MwamRITkk4NTdTTWNTVXRiV3hfemsxaXN4enlnZWZoSEZUZU01X2k4ZEc0dHR6VzFnOFZpWUlOamxBTVdtMTQ2SE5tcTVGZXI1V19YMUVVeFRFUUdpVWJhVlQ3Qnh2eENXdGRWOTBfU2NCYzk1RTJCRlpvdFYxV1VIdE1uZ0lqRElCWmQ?oc=5",
+      "published_at": "Sun, 15 Sep 2024 07:00:00 GMT"
+    }
+  ],
+  "search_query_used": "1MBABYDOGE crypto",
+  "neutral_explanation": "1MBABYDOGEUSDT (1MBABYDOGE/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 37 (tier C Weak); market-cap rank not available. Scanner note: Valid confirmed trend flip — fresh signal. Broader crypto market context: 1085 assets scanned, 15 confirmed flips (1.4%). State distribution: Blue 66.4%, Gold 14.1%, Gray 12.0%, Unknown 7.6%. Strongest transition: Blue → Gold (13 of 15 flips). Source: reports/private_crypto_dashboard.csv. 3 coin-specific headline(s) were found via automated search; they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

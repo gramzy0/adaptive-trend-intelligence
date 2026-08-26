@@ -1,0 +1,67 @@
+{
+  "symbol": "LTCUSDT",
+  "date": "2026-08-26",
+  "generated_at": "2026-08-26T07:25:03.015948+00:00",
+  "scanner_evidence": {
+    "symbol": "LTCUSDT",
+    "pair": "LTC/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "69",
+    "score_tier": "A Good",
+    "market_cap_rank": "27",
+    "gray_candles": "4",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "large-cap stability, top market cap, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=LTCUSDT",
+    "execution_time": "2026-08-26T06:36:41.283477+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1085 assets scanned, 15 confirmed flips (1.4%). State distribution: Blue 66.4%, Gold 14.1%, Gray 12.0%, Unknown 7.6%. Strongest transition: Blue → Gold (13 of 15 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "ETF/regulatory-related coverage",
+      "General market-news coverage, reviewed for context only."
+    ],
+    "context_generated_at": "2026-08-26T07:25:01.617215+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Binance to Delist 7 Spot Trading Pairs Including LTC and SUI — What Traders Need to Know - Bitcoin Foundation",
+      "source_name": "Bitcoin Foundation",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPZk1qV1F2YWFHLVNJZjhQaEhiMUdDdTFKQ0tfZE9neElVM3d4ZXBxOXkxOHpXSUE3VmlVYXN0VDVQLUdYcnFMZkVDemdrXzVhRFRiaTc1YUdBbHdjMEJLaVVxem16WjYwMU1qLURlS1hRbzZtSldTenVGNXNKZ2RES0dwRzZCUWNaUDMxTjF5aUpqaDZaSi1kN0dTT2hjWTNINXdsZ0hfaHpRd205YThqUjEteEt4SG9wR1Q5TG9UV3VvNFV1RURyV1c3ZXJxMFRjNzh2SncwRFRSMUVj?oc=5",
+      "published_at": "Thu, 20 Aug 2026 09:26:59 GMT"
+    },
+    {
+      "title": "Litecoin: LTC/USD Buyers May Keep an Eye on Support Near $50 - Investing.com",
+      "source_name": "Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNcGpsYy1pUTVEUTBDeTBzYWNWNUsxdENBdFNrakFuZW1aV1hRT2h5a1BTR2d2TldyZWxWRlJkTXRWMVBjOXh0ZWNPeXFCVTV4cGxxWU9nWFZGUFJSUE5JakJoQ2xmX0F2NzZzZ3M5ZFh4eEMzMTMyMjJhZHFyLVB1ZExsVzNZVm1XQTNHcDNRZl9xdjllejgydGhWSkZCNk13ZkJYaQ?oc=5",
+      "published_at": "Mon, 24 Aug 2026 08:59:14 GMT"
+    },
+    {
+      "title": "Litecoin (LTC) Plunges 8.13% in Five Minutes: What’s Driving the Sudden Drop? - CryptoRank",
+      "source_name": "CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOd2pEZ3BnaDlnRkxiU2wtNm8wUUk3LWVSM2JuR3lZRXJNTXF3SjZqcFhHekZ3RzdtV29URnlHQXZnQVVIZXVucVA0YS1MOVBSZEl0THlWNmNJMk4tTTIyQ2JSczFpTlZyRGtiVEt5T0lJV2hVY09XdjVvOXA0REFQT3J6RGxIcW9p?oc=5",
+      "published_at": "Sat, 22 Aug 2026 10:39:24 GMT"
+    },
+    {
+      "title": "Litecoin Surges 12.58% Amid Bitcoin Rally and Technical Breakout - CoinMarketCap",
+      "source_name": "CoinMarketCap",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9oWnhpZktoOWN4OXlzU0pMWGhqMm03OUZGZUFQVGNoaDBIa3ZuT2tQSXFtSG1TTjZwSUliOFlSS2U5WVNIVUVSTEE4SFRpZzdtOEliWmVmSTYxUUlMSW44VTJZSWQzeDlXT0JvRlNGNXI?oc=5",
+      "published_at": "Fri, 21 Aug 2026 23:05:00 GMT"
+    },
+    {
+      "title": "Regret Missing Litecoin at $1.11 and Hedera at $0.0098? Apeing Draws Attention as the Next 100x Crypto With Limited Whitelist Spots - StreetInsider",
+      "source_name": "StreetInsider",
+      "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxPVFFaZVlyazc2LU8welVTSTVmZWRULTFvUUlXRjN1SVlzYVNBYWlnMm1idzI4U0d0N19Hb3JtTXBuZEdIUk9wZlRNZ2JCd2N1cmtObTl2d0huZTJTSjRkMnd4TGV5Vm1vUVVGMUZmcEpfQmc1dXJyNmI2S25NVzNyY0tJNUNXVE5HY1R5Q2c5VUpsSU1xRGRsbTZaOFJMSGtJaUotSmM4alNUUUJCR3pJSkkyOFdjaTlYYXlTNFlhQk45WXZpd1NtQ1lFSXVtRGpCbHJJOWxaN1hraE0zSXBnU3NQVUFTc1ZMQ3l2azFHWUhsZjh0eUhva09qY0cwd3V1S0NoYUg0Wkg4dVlqSUxyX1RWcVdNRHJnQk5xWlBJVQ?oc=5",
+      "published_at": "Mon, 24 Aug 2026 13:52:19 GMT"
+    }
+  ],
+  "search_query_used": "Litecoin crypto",
+  "neutral_explanation": "LTCUSDT (LTC/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 69 (tier A Good); market-cap rank 27. Scanner note: Valid confirmed trend flip — large-cap stability, top market cap, fresh signal. Broader crypto market context: 1085 assets scanned, 15 confirmed flips (1.4%). State distribution: Blue 66.4%, Gold 14.1%, Gray 12.0%, Unknown 7.6%. Strongest transition: Blue → Gold (13 of 15 flips). Source: reports/private_crypto_dashboard.csv. 5 coin-specific headline(s) were found via automated search; they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

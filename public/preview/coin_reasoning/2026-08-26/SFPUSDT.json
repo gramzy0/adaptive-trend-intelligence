@@ -1,0 +1,67 @@
+{
+  "symbol": "SFPUSDT",
+  "date": "2026-08-26",
+  "generated_at": "2026-08-26T07:25:03.015948+00:00",
+  "scanner_evidence": {
+    "symbol": "SFPUSDT",
+    "pair": "SFP/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "57",
+    "score_tier": "B Watch",
+    "market_cap_rank": "217",
+    "gray_candles": "9",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=SFPUSDT",
+    "execution_time": "2026-08-26T06:36:41.283477+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1085 assets scanned, 15 confirmed flips (1.4%). State distribution: Blue 66.4%, Gold 14.1%, Gray 12.0%, Unknown 7.6%. Strongest transition: Blue → Gold (13 of 15 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "ETF/regulatory-related coverage",
+      "General market-news coverage, reviewed for context only."
+    ],
+    "context_generated_at": "2026-08-26T07:25:01.617215+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "SafePal Expanded Gas Station to Eight Networks on August 25th - TradingView",
+      "source_name": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPNXJ5ZEJUbV8yOTltR05FSUE2eUZaeGxWS09aOEJwMkFXdXk4THRSRlhaazY4a0VDN3VNZnRIUUlXR2JtakZJUXFWdUZ0VWJMSHFJVTlzT01iWUpKNk5DeWp0RS1fTmM0a1VhQzBNWlBsc3ZwTWlsRm5CRFlDY2p4Z3g0YlZvWUpzRFYtNk9yZE44Nl9CajlkYWxsWXo4X3JyejcwdlFJRFBaeXN6Z1lzNl9rNnRQVzRpLWhv?oc=5",
+      "published_at": "Tue, 25 Aug 2026 15:33:44 GMT"
+    },
+    {
+      "title": "Safepal security vulnerability exposes data of 39,798 customers - CoinDesk",
+      "source_name": "CoinDesk",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNTmp0QWVjaXhmMEZ5Q3BCbGhxWFpETWMwNFZrbWNhU2hobmRKT1B0enVVd2pWVHpVMTRuX18wR0JWZUhDelVzT19VQUxLSFZyOHdsRVZvUlBwejVCQVotX0FCdmpoN2x4d3p4OExVMzFNYTRoSl9ORVV2cFdjSnhLbWdTNFNEdU8xSmZkQ3hsYWVqSll2Sy0tNlFacUctbHd0Y3NaU25Xb2ZseGdidkZXbDA1RWRXd2M5QzA3VmlsV2lQYzRfM1Br?oc=5",
+      "published_at": "Sun, 16 Aug 2026 14:02:32 GMT"
+    },
+    {
+      "title": "Breach at Crypto Wallet Company Called ‘SafePal’ Exposes 39,798 Customers - Gizmodo",
+      "source_name": "Gizmodo",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSnVRTVlyX293QXA4YVRubm9rNGRXSWZMRXZXX2RITzlsay0zdjdRTWRDT2h1cHJ2dm5ub2pBQzNwemJ2UFBVdWdyNC1nQTNfQTVrRHl5M29CSW03eE1IRHNUZkFCaE9Kc3VRLVhycFRRMExXMnREX01DZXZ5bE5jN2xoM1BrQXhSNHVYQndFM0NYMVlXc2lVTVlfVVRPc0NwOU9J?oc=5",
+      "published_at": "Sun, 16 Aug 2026 07:00:00 GMT"
+    },
+    {
+      "title": "SafePal data breach exposes nearly 40,000 crypto wallet customers - Northeast Times",
+      "source_name": "Northeast Times",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOajJOVWhaYnQ0TnFvUzNoOVZCdEhJYzNMbHFYU1lHQW1zNEJQZFVsRUtyZW9ZekVJX0d0N0dTV2hmQmN1alRWSlZBSmxIdldNQ3lreW1iaTlvVUhibVcybE9PZ09pZkdabkFzYVFkT2xyYTFDQnBndjJCdG5HSVU0NG1wYmFVT3N2NmJpMUZkVUFXaW54b1VHb1AxQW1FLWpVblpQQl9vTQ?oc=5",
+      "published_at": "Mon, 17 Aug 2026 07:00:00 GMT"
+    },
+    {
+      "title": "SafePal breach leaks the addresses but not the crypto, which may be the bigger problem - The Next Web",
+      "source_name": "The Next Web",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9ldk9adGJtNW9aMTNoZVlWVkVIanllbkJXMjRFaVNlV2w0aktINklYVmZQTFctcnI0OWFoUGE3Z3QyYkFqRGdpVHNPZUdYRTlLbXZ1ZmhxRkl3MThIY3FWZ2lITmN6NUNDV1ljSHBB?oc=5",
+      "published_at": "Mon, 17 Aug 2026 08:58:31 GMT"
+    }
+  ],
+  "search_query_used": "SafePal crypto",
+  "neutral_explanation": "SFPUSDT (SFP/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 57 (tier B Watch); market-cap rank 217. Scanner note: Valid confirmed trend flip — fresh signal. Broader crypto market context: 1085 assets scanned, 15 confirmed flips (1.4%). State distribution: Blue 66.4%, Gold 14.1%, Gray 12.0%, Unknown 7.6%. Strongest transition: Blue → Gold (13 of 15 flips). Source: reports/private_crypto_dashboard.csv. 5 coin-specific headline(s) were found via automated search; they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

@@ -1,61 +1,61 @@
 {
   "market": "stocks",
-  "generated_at": "2026-08-25T07:25:02.045149+00:00",
-  "scanner_summary": "50 assets scanned, 0 confirmed flips (0.0%). State distribution: Blue 14.0%, Gold 76.0%, Gray 10.0%, Unknown 0.0%. Source: data/output/stocks_weekly_results.json, last modified 2026-06-13 (72 days ago). Stale-data warning: source file is more than 30 days old.",
+  "generated_at": "2026-08-26T07:25:01.617215+00:00",
+  "scanner_summary": "50 assets scanned, 0 confirmed flips (0.0%). State distribution: Blue 14.0%, Gold 76.0%, Gray 10.0%, Unknown 0.0%. Source: data/output/stocks_weekly_results.json, last modified 2026-06-13 (73 days ago). Stale-data warning: source file is more than 30 days old.",
   "possible_drivers": [
     "Locally observed scanner state distribution and flip activity (see scanner_summary).",
-    "General market-news coverage, reviewed for context only.",
-    "Earnings/guidance-related coverage"
+    "Earnings/guidance-related coverage",
+    "General market-news coverage, reviewed for context only."
   ],
   "uncertainty_note": "Automatically collected from public RSS headlines and local scanner output. Headlines are cited, not verified for accuracy or causal connection to price movement. This is not investment advice and does not contain buy, sell, hold, or execution guidance. Human review is required before treating anything here as reliable market context.",
   "sources": [
     {
-      "title": "$22 Billion in Customer Deposits Did Not Stop This Chip CEO From Selling $37 Million",
+      "title": "Louis Navellier has blunt message on Nvidia’s reign before earnings",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/22-billion-customer-deposits-did-201236753.html",
-      "published_at": "2026-08-23T20:12:36Z",
-      "note": "General market-news coverage, reviewed for context only."
-    },
-    {
-      "title": "Gilead’s Revenue Is Accelerating, But are its Acquisitions Worth the Cost?",
-      "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/healthcare/articles/gilead-revenue-accelerating-acquisitions-worth-195747159.html",
-      "published_at": "2026-08-23T19:57:47Z",
-      "note": "General market-news coverage, reviewed for context only."
-    },
-    {
-      "title": "Pfizer vs. Gilead: Which Drugmaker Has the Stronger Growth Story?",
-      "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/healthcare/articles/pfizer-vs-gilead-drugmaker-stronger-195408536.html",
-      "published_at": "2026-08-23T19:54:08Z",
-      "note": "General market-news coverage, reviewed for context only."
-    },
-    {
-      "title": "Zoetis Earnings Reveal a Divided Business, But Can its Pipeline Restore Growth?",
-      "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/healthcare/articles/zoetis-earnings-reveal-divided-business-194924344.html",
-      "published_at": "2026-08-23T19:49:24Z",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/louis-navellier-blunt-message-nvidia-214700439.html",
+      "published_at": "2026-08-25T21:47:00Z",
       "note": "Earnings/guidance-related coverage"
     },
     {
-      "title": "Oracle vs. Amazon: Which Is the Better AI Cloud Stock to Own for the Next 5 Years?",
+      "title": "Trucking Downturn: Why 85% of New Carriers Didn’t Survive",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/technology/ai/articles/oracle-vs-amazon-better-ai-201300850.html",
-      "published_at": "2026-08-23T20:13:00Z",
+      "url": "https://finance.yahoo.com/small-business/articles/trucking-downturn-why-85-carriers-200228918.html",
+      "published_at": "2026-08-24T20:02:28Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "‘She looked into COBRA’: My friend was laid off and lost her health insurance. How can she find affordable coverage?",
-      "source_name": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/shes-desperate-my-friend-was-laid-off-and-lost-her-health-insurance-how-can-she-find-affordable-coverage-3b17b553?mod=mw_rss_topstories",
-      "published_at": "Tue, 25 Aug 2026 00:15:00 GMT",
+      "title": "Case Closed: How to Play Super Micro Computer Stock as Smuggling Investigation Ends",
+      "source_name": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/case-closed-play-super-micro-195241108.html",
+      "published_at": "2026-08-24T19:52:41Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "My father-in-law passed away, leaving a house with tenants. Do I evict them?",
+      "title": "Oil drops more than $2 despite new US sanctions on Iran",
+      "source_name": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/news/oil-falls-1-ahead-us-231835385.html",
+      "published_at": "2026-08-24T19:50:20Z",
+      "note": "General market-news coverage, reviewed for context only."
+    },
+    {
+      "title": "How to Build $3,100 a Month in Dividend Income Starting From Zero",
+      "source_name": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/build-3-100-month-dividend-195912668.html",
+      "published_at": "2026-08-24T19:59:12Z",
+      "note": "General market-news coverage, reviewed for context only."
+    },
+    {
+      "title": "Are older Americans spoiling the economy for everyone else?",
       "source_name": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/my-father-in-law-passed-away-leaving-a-house-with-tenants-do-i-evict-them-f974428c?mod=mw_rss_topstories",
-      "published_at": "Tue, 25 Aug 2026 00:00:00 GMT",
+      "url": "https://www.marketwatch.com/story/are-older-americans-spoiling-the-economy-for-everyone-else-064b5820?mod=mw_rss_topstories",
+      "published_at": "Wed, 26 Aug 2026 01:41:00 GMT",
+      "note": "General market-news coverage, reviewed for context only."
+    },
+    {
+      "title": "5 cheap U.S. cities to retire in — if you can deal with this one thing",
+      "source_name": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/5-cheap-u-s-cities-to-retire-in-if-you-can-deal-with-this-one-thing-fbda5d1a?mod=mw_rss_topstories",
+      "published_at": "Wed, 26 Aug 2026 01:35:00 GMT",
       "note": "General market-news coverage, reviewed for context only."
     }
   ]

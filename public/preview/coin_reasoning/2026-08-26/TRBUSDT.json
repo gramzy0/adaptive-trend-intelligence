@@ -1,0 +1,61 @@
+{
+  "symbol": "TRBUSDT",
+  "date": "2026-08-26",
+  "generated_at": "2026-08-26T07:25:03.015948+00:00",
+  "scanner_evidence": {
+    "symbol": "TRBUSDT",
+    "pair": "TRB/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "82",
+    "score_tier": "A+ Strong",
+    "market_cap_rank": "453",
+    "gray_candles": "3",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "small-cap potential, small-cap high risk, fresh signal, clean transition",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=TRBUSDT",
+    "execution_time": "2026-08-26T06:36:41.283477+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1085 assets scanned, 15 confirmed flips (1.4%). State distribution: Blue 66.4%, Gold 14.1%, Gray 12.0%, Unknown 7.6%. Strongest transition: Blue → Gold (13 of 15 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "ETF/regulatory-related coverage",
+      "General market-news coverage, reviewed for context only."
+    ],
+    "context_generated_at": "2026-08-26T07:25:01.617215+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "TRB Price Prediction 2023-2031: Is Tellor (TRB) a Good Investment? - Binance",
+      "source_name": "Binance",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFA0cW85NHJtTWJONzcweUxvTG1rMGtCNE1zN1Ffc1NfWk0zYTR6Y1BMdU5obHVOck9FbEhib1UxdC11TVV1WTNUeXhfd2VqSjdUampxTlJ4aWc?oc=5",
+      "published_at": "Tue, 13 Dec 2022 08:00:00 GMT"
+    },
+    {
+      "title": "What Is A Tellor (TRB) Token?: Decoding the Future of Crypto - ZebPay",
+      "source_name": "ZebPay",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE80aVROVGYtRVlIRlEyYnpmT20xY3VMN0FodW42QU1sb0hoMkotSHVDa0h6RkVzUFlIUjNmd3o0WWQxQ3dfWmZPQjlLZlFwVUFHQ09uTkFIdURGekpEZElBYw?oc=5",
+      "published_at": "Fri, 09 Feb 2024 08:00:00 GMT"
+    },
+    {
+      "title": "TRB price prediction 2025-2031: Will Tellor recover its ATH? - Cryptopolitan",
+      "source_name": "Cryptopolitan",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA2aWtBNlU4UjJNbDhOeTZXQ2hDUEhhWXROVmdQaFVpOXhpVHpwRV9xN0ljaW5KSUR0RlBGVDMwcnVVUEpzS0F2TTlvMU5XYXBLM0VGTkR2dUxvcExrNTBQbg?oc=5",
+      "published_at": "Fri, 31 Oct 2025 07:00:00 GMT"
+    },
+    {
+      "title": "Crypto price forecasts: Tellor (TRB), Kaito, Hedera HBAR - Invezz",
+      "source_name": "Invezz",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNa3hJNmIyMkhEUzBGeFFSV0t4YlAzMjFmNU5KaDJHNTBEVm9ma3NpQk5xSjhaZG1MSU5fSERuMGEwYmlCa2M3SkQ4QUxiNk83QUV4LTR0YjU0SVg3NDVvSTg3ZWFPWVEwUjRxUE5EUFZlRmhoMzF2QVdpMlNZN1NVSENIa202dkZNck9JcVRRTzA?oc=5",
+      "published_at": "Tue, 27 May 2025 07:00:00 GMT"
+    }
+  ],
+  "search_query_used": "Tellor Tributes crypto",
+  "neutral_explanation": "TRBUSDT (TRB/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 82 (tier A+ Strong); market-cap rank 453. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal, clean transition. Broader crypto market context: 1085 assets scanned, 15 confirmed flips (1.4%). State distribution: Blue 66.4%, Gold 14.1%, Gray 12.0%, Unknown 7.6%. Strongest transition: Blue → Gold (13 of 15 flips). Source: reports/private_crypto_dashboard.csv. 4 coin-specific headline(s) were found via automated search; they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

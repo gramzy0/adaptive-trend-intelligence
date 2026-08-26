@@ -1,0 +1,67 @@
+{
+  "symbol": "XRPUSDT",
+  "date": "2026-08-26",
+  "generated_at": "2026-08-26T07:25:03.015948+00:00",
+  "scanner_evidence": {
+    "symbol": "XRPUSDT",
+    "pair": "XRP/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "87",
+    "score_tier": "A+ Strong",
+    "market_cap_rank": "5",
+    "gray_candles": "3",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "large-cap stability, top market cap, fresh signal, clean transition, high volume",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=XRPUSDT",
+    "execution_time": "2026-08-26T06:36:41.283477+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1085 assets scanned, 15 confirmed flips (1.4%). State distribution: Blue 66.4%, Gold 14.1%, Gray 12.0%, Unknown 7.6%. Strongest transition: Blue → Gold (13 of 15 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "ETF/regulatory-related coverage",
+      "General market-news coverage, reviewed for context only."
+    ],
+    "context_generated_at": "2026-08-26T07:25:01.617215+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "XRP Price Prediction: 20% Gain Awaits if XRP Stays Above This Support Area - Yahoo Finance",
+      "source_name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOaV9weU4yTlpRRFdXaGpoUHZOc0VEYlBKanA1LXNsNmdTSk1tXzhZM2YybnJ0LXNUSjV5dmd0WUxaM2NJdGNQLXJOUFRreHcxdWZCTmpULUFkOG9VX2o4TXNCTG9sXy1ROFNtUUVqM2hfdjhwU0hoa2RoemFzUi1zMDk0dEoybGJfMXpRUUFhb1A4ZE1lcE1XYg?oc=5",
+      "published_at": "Mon, 24 Aug 2026 13:15:31 GMT"
+    },
+    {
+      "title": "AI XRP Price Prediction: What Could XRP Be Worth by December After a 50% Rally? - Yahoo Finance",
+      "source_name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOdlRnVmtoTkdDWXN3UjEtZmpaVnIzcW9OQzAxSjg1eEpVNUlPT1VjRVFHU21BV0hZWkFYRmNCM21NNzFNRFNVbGZnYVJRSHhaVE02Vy1FX0xMSjBLNWRjTmFSUTNsV0RNMlBpWGtqMEdHNFhmMmFrQnRidzcxTFpDc2NyY1o3b25ZV2pmNzdfWkJOWDdaZHZxSXNn?oc=5",
+      "published_at": "Mon, 24 Aug 2026 11:00:44 GMT"
+    },
+    {
+      "title": "Wintermute: Bitcoin, XRP, Gold Benefited From 'Debasement Board' Last Week - TradingView",
+      "source_name": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNTjRrTXNOOVlhSUJ1bnJNNVVvNFdnTGdyMEtGejJDMWN3RWY4RF9iSkkwOHRsdE1jMnBwdTAwXy1sZnh3eTVXY09IMktpZWFqVGRfdnQ0dElvS1dkQUdNa3g5eUJDTm5Ja0JUdUVtUFhYUlNPUFlWV0J1TUFwcHJRTVExcEhHWXB4dGV5VlA2bzgzTHZmQm92aXdLME9UWjF3VjhQcUNPbTYyRnE3WFZIRXNhOWFweHFhNE1PTGdLNExENmVFMVVF?oc=5",
+      "published_at": "Tue, 25 Aug 2026 20:06:22 GMT"
+    },
+    {
+      "title": "XRP vs Ethereum: Which Crypto Will Reach Its All-Time High First? - 24/7 Wall St.",
+      "source_name": "24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNVkV4bWRIOUY2ZDdMaDRvcjl0UW1iYW9QZ3pXM0VVWURWd3RuZmRpQ1NrdG5fbjNGYzQ1bFBOOEhzNWJJanZPVnBQemxleEtHT3lmdUlGRWxSOFZVT1JIajFOVWJ2MGdMNnF5SnpYQ2w5M2oyTHZ2VFhCaVpuY2VQVlc0bUc2Y2tzSWhEMk5uNXAzNkk1Mm1KSVJEYkd6SC0ySXQtam9GdkdLaFpQcG9iRGdxMkFLZXlmSWs0OW1aSQ?oc=5",
+      "published_at": "Mon, 24 Aug 2026 09:35:47 GMT"
+    },
+    {
+      "title": "Wall Street just poured nearly $90 million into altcoins as XRP, SOL and HYPE rip higher - CryptoSlate",
+      "source_name": "CryptoSlate",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQSkhTLXBDUVNqOUVTeXlsZTJ5X2hwTHhLQUtLa1VHY1NJZTYwSGIxLVNqUHV6SWVteU5jakJyY00wX19udFgySV9xa2djclNkcFpYVW9aM3dUNFBKUUxfellveUV5eXBSQ2FJUmZnWUloMU5oZm1HYjc3TmV0YlRJZWtaYWZtcHJOWV9fMnhiNk1YRWd1dUxyakR5TC0wbFU2LXl3b2x4S1dXd2h0Z0VXUw?oc=5",
+      "published_at": "Sun, 23 Aug 2026 21:10:58 GMT"
+    }
+  ],
+  "search_query_used": "XRP crypto",
+  "neutral_explanation": "XRPUSDT (XRP/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 87 (tier A+ Strong); market-cap rank 5. Scanner note: Valid confirmed trend flip — large-cap stability, top market cap, fresh signal, clean transition, high volume. Broader crypto market context: 1085 assets scanned, 15 confirmed flips (1.4%). State distribution: Blue 66.4%, Gold 14.1%, Gray 12.0%, Unknown 7.6%. Strongest transition: Blue → Gold (13 of 15 flips). Source: reports/private_crypto_dashboard.csv. 5 coin-specific headline(s) were found via automated search; they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

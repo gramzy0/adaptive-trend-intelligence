@@ -1,0 +1,67 @@
+{
+  "symbol": "AEVOUSDT",
+  "date": "2026-08-26",
+  "generated_at": "2026-08-26T07:25:03.015948+00:00",
+  "scanner_evidence": {
+    "symbol": "AEVOUSDT",
+    "pair": "AEVO/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "62",
+    "score_tier": "B Watch",
+    "market_cap_rank": "789",
+    "gray_candles": "9",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "small-cap potential, small-cap high risk, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=AEVOUSDT",
+    "execution_time": "2026-08-26T06:36:41.283477+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1085 assets scanned, 15 confirmed flips (1.4%). State distribution: Blue 66.4%, Gold 14.1%, Gray 12.0%, Unknown 7.6%. Strongest transition: Blue → Gold (13 of 15 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "ETF/regulatory-related coverage",
+      "General market-news coverage, reviewed for context only."
+    ],
+    "context_generated_at": "2026-08-26T07:25:01.617215+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "CryptosignalIQ(@Ranjeet_rajput)'s insights - Binance",
+      "source_name": "Binance",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBIUVFOWDMycEIwcTlfTWcyMVZoSWlMT2VfN2Q3aDA5NDF6c3hQTkRGY1VMQjlSUjB1UFpKRWN6TkgxTlI0S3RTRlVFcE56Ynd6d3J6cmxfTDB3X3AzdFF0SGFqTHg?oc=5",
+      "published_at": "Fri, 21 Aug 2026 18:33:47 GMT"
+    },
+    {
+      "title": "Aevo Brings One-Tap Protected Perps to Mobile With PERPS+ Launch By Chainwire - Investing.com",
+      "source_name": "Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNMGtyTTVUNWZCNFc0ZU5Ydnp1SnlORDJ1ajJjSGR5QllKZmZCT3lKVUp0d2ViX1JXSW1wSVVWdmhvYW5LbjlJSlZaSlFCczBsNnQ2d19KYUlESVFvbDBZVGJBMEttWnJlZUkyZzByaVltYU1adDVFUFJfOVpwdWNicEU4NXdZbTRCOW9QMFQ4OWtwV2twLTFQY2I5b2dIN1YyNi1rSHRzTFo1Sy1EZ1o0QnRQZU1leFNmUUZtZHR3?oc=5",
+      "published_at": "Sun, 19 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Explained: The Aevo / Ribbon Finance Hack (December 2025) - Halborn",
+      "source_name": "Halborn",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPaFpDQ211RHRVLXZsUVktR09FbV9qcmhpN0hMWXBYYU1CcUhDRXUyaW1RSlU4eVVWNF9yZFAxX2xSaGFoVF8wZy1jWEJvMVdybVY4VnpmbVE0QVJRZUppWDJ4Vmlla1p1d25GaEZaY1U5QUZCVERqb0xtcWhIU2ZDZ3NYVzBIWHRVV3diUUxVTQ?oc=5",
+      "published_at": "Mon, 15 Dec 2025 08:00:00 GMT"
+    },
+    {
+      "title": "Aevo launches PERPS+ on mobile, enabling one-ta... - Pluang",
+      "source_name": "Pluang",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNbDhvSUd1Qms3ZUVqdnF0ZHBVWHdRdFRVaFJPQk5jUWsxOHZkUVhFcTdBakZ2S24tb1dfUTQteVdjQS04cVlBTDlnZ1BWSnhEd2thMHN2QXU1NGVrdkdfaEZKelVUdHdENFpwZkd5RXZLTVJlUTJNdXhYcnF1VjUxMm1KR3o1QQ?oc=5",
+      "published_at": "Thu, 23 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Aevo Co-founder’s Statement Goes Viral Online: I Wasted 8 Years of My Life in Crypto - Binance",
+      "source_name": "Binance",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE80aldGd3dvdmtSVWREUGZjTGxHUGdJWS1sNnJiXzBiT3BCM3NRSFYwZjNUOGVGSHl4SVkyajJqSFpYMU5ycXlLSzVYNjB0ZkVERWI1eGw5UXp2NHVucS0wbEhEbw?oc=5",
+      "published_at": "Sat, 06 Dec 2025 08:00:00 GMT"
+    }
+  ],
+  "search_query_used": "Aevo crypto",
+  "neutral_explanation": "AEVOUSDT (AEVO/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 62 (tier B Watch); market-cap rank 789. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 1085 assets scanned, 15 confirmed flips (1.4%). State distribution: Blue 66.4%, Gold 14.1%, Gray 12.0%, Unknown 7.6%. Strongest transition: Blue → Gold (13 of 15 flips). Source: reports/private_crypto_dashboard.csv. 5 coin-specific headline(s) were found via automated search; they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

@@ -1,60 +1,61 @@
 {
   "market": "crypto",
-  "generated_at": "2026-08-25T07:25:02.045149+00:00",
-  "scanner_summary": "1085 assets scanned, 9 confirmed flips (0.8%). State distribution: Blue 67.5%, Gold 13.2%, Gray 11.8%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 9 flips). Source: reports/private_crypto_dashboard.csv.",
+  "generated_at": "2026-08-26T07:25:01.617215+00:00",
+  "scanner_summary": "1085 assets scanned, 15 confirmed flips (1.4%). State distribution: Blue 66.4%, Gold 14.1%, Gray 12.0%, Unknown 7.6%. Strongest transition: Blue → Gold (13 of 15 flips). Source: reports/private_crypto_dashboard.csv.",
   "possible_drivers": [
     "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+    "ETF/regulatory-related coverage",
     "General market-news coverage, reviewed for context only."
   ],
   "uncertainty_note": "Automatically collected from public RSS headlines and local scanner output. Headlines are cited, not verified for accuracy or causal connection to price movement. This is not investment advice and does not contain buy, sell, hold, or execution guidance. Human review is required before treating anything here as reliable market context.",
   "sources": [
     {
-      "title": "Monad proposes wallet upgrade that could survive lost keys and quantum attacks",
+      "title": "BlackRock cuts bitcoin ETF swap minimum to $1 million: Report",
       "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/tech/2026/08/25/monad-proposes-wallet-upgrade-that-could-survive-lost-keys-and-quantum-attacks",
-      "published_at": "Tue, 25 Aug 2026 07:01:49 +0000",
+      "url": "https://www.coindesk.com/markets/2026/08/26/E",
+      "published_at": "Wed, 26 Aug 2026 05:52:53 +0000",
+      "note": "ETF/regulatory-related coverage"
+    },
+    {
+      "title": "Crypto greed gauge hits highest since just before October’s $19 billion wipeout",
+      "source_name": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/08/26/crypto-greed-gauge-hits-highest-since-just-before-october-s-usd19-billion-wipeout",
+      "published_at": "Wed, 26 Aug 2026 04:51:49 +0000",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Crypto rally spills into dog and cat memecoins as smaller tokens double in a week",
+      "title": "Bitcoin holds $79,000, ether, solana slip as traders bank a week of gains",
       "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/08/25/crypto-rally-spills-into-dog-and-cat-memecoins-as-smaller-tokens-double-in-a-week",
-      "published_at": "Tue, 25 Aug 2026 06:26:29 +0000",
+      "url": "https://www.coindesk.com/markets/2026/08/26/bitcoin-holds-usd79-000-ether-solana-slip-4-as-traders-bank-a-week-of-gains",
+      "published_at": "Wed, 26 Aug 2026 04:13:10 +0000",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Bitcoin traders place $2.9 million bet on a rapid price jump above $82,000",
+      "title": "U.S. state banking associations plan to launch their own nationwide blockchain network",
       "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/08/25/bitcoin-traders-place-usd2-9-million-bet-on-a-rapid-price-jump-above-usd82-000",
-      "published_at": "Tue, 25 Aug 2026 05:51:52 +0000",
+      "url": "https://www.coindesk.com/policy/2026/08/25/u-s-state-banking-associations-plan-to-launch-their-own-nationwide-blockchain-network",
+      "published_at": "Tue, 25 Aug 2026 21:56:57 +0000",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Bitcoin tops $80,000, solana jumps 8% but rally now runs into overbought warning",
+      "title": "Zerohash back for second effort at OCC trust bank charter",
       "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/08/25/bitcoin-tops-usd80-000-solana-jumps-8-but-rally-now-runs-into-overbought-warning",
-      "published_at": "Tue, 25 Aug 2026 05:25:11 +0000",
-      "note": "General market-news coverage, reviewed for context only."
-    },
-    {
-      "title": "Bitcoin hits $80,000 for the first time since May as crypto recovery accelerates",
-      "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/08/24/bitcoin-hits-usd80-000-for-the-first-time-since-may-as-crypto-recovery-accelerates",
-      "published_at": "Tue, 25 Aug 2026 00:55:32 +0000",
+      "url": "https://www.coindesk.com/policy/2026/08/25/zerohash-back-for-second-effort-at-occ-trust-bank-charter",
+      "published_at": "Tue, 25 Aug 2026 21:38:28 +0000",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
       "title": "Here’s what happened in crypto today",
       "source_name": "CoinTelegraph",
       "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "Tue, 25 Aug 2026 05:48:17 +0000",
+      "published_at": "Wed, 26 Aug 2026 06:04:55 +0000",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "US targets Iran’s crypto sector, cites over $100M in oil-linked payments",
+      "title": "US banking groups plan nationwide blockchain network for 2027",
       "source_name": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/us-targets-iran-crypto-sector-100m-oil-payments?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "Tue, 25 Aug 2026 05:29:29 +0000",
+      "url": "https://cointelegraph.com/news/us-banking-groups-nationwide-blockchain-network-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "Wed, 26 Aug 2026 04:17:39 +0000",
       "note": "General market-news coverage, reviewed for context only."
     }
   ]

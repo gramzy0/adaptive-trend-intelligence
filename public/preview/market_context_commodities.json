@@ -1,45 +1,46 @@
 {
   "market": "commodities",
-  "generated_at": "2026-08-25T07:25:02.045149+00:00",
+  "generated_at": "2026-08-26T07:25:01.617215+00:00",
   "scanner_summary": "No commodity scanner data available in data/output; no asset count, flip count, or state distribution can be computed locally.",
   "possible_drivers": [
-    "General market-news coverage, reviewed for context only."
+    "General market-news coverage, reviewed for context only.",
+    "Supply-related coverage"
   ],
   "uncertainty_note": "Automatically collected from public RSS headlines and local scanner output. Headlines are cited, not verified for accuracy or causal connection to price movement. This is not investment advice and does not contain buy, sell, hold, or execution guidance. Human review is required before treating anything here as reliable market context.",
   "sources": [
     {
-      "title": "Iran Threatens Retaliation as U.S. Widens Sanctions",
+      "title": "Oil Prices Fall as Iran-Oman Talks Fuel Hopes of Strait Reopening",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Threatens-Retaliation-as-US-Widens-Sanctions.html",
-      "published_at": "Tue, 25 Aug 2026 01:00:00 -0500",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Fall-as-Iran-Oman-Talks-Fuel-Hopes-of-Strait-Reopening.html",
+      "published_at": "Wed, 26 Aug 2026 01:30:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "The Biggest Victims Of Trump’s Economic D-Day On Iran",
+      "title": "Big Oil Is Betting Billions On Nuclear Fusion",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Energy/Energy-General/The-Biggest-Victims-Of-Trumps-Economic-D-Day-On-Iran.html",
-      "published_at": "Mon, 24 Aug 2026 19:00:00 -0500",
+      "url": "https://oilprice.com/Alternative-Energy/Nuclear-Power/Big-Oil-Is-Betting-Billions-On-Nuclear-Fusion.html",
+      "published_at": "Tue, 25 Aug 2026 19:00:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Venezuela’s Oil Revival Is Slower Than the U.S. Hoped",
+      "title": "The U.S. Power Play in Iraq That Moscow and Beijing Didn’t See Coming",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Energy/Crude-Oil/Venezuelas-Oil-Revival-Is-Slower-Than-the-US-Hoped.html",
-      "published_at": "Mon, 24 Aug 2026 18:00:00 -0500",
+      "url": "https://oilprice.com/Energy/Energy-General/The-US-Power-Play-in-Iraq-That-Moscow-and-Beijing-Didnt-See-Coming.html",
+      "published_at": "Tue, 25 Aug 2026 17:00:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "U.S. Leaves Europe Behind in Critical Minerals Race",
+      "title": "SPR Sinks Toward Operational Minimum as U.S. Crude Inventories Build",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Energy/Energy-General/US-Leaves-Europe-Behind-in-Critical-Minerals-Race.html",
-      "published_at": "Mon, 24 Aug 2026 17:00:00 -0500",
-      "note": "General market-news coverage, reviewed for context only."
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/SPR-Sinks-Toward-Operational-Minimum-as-US-Crude-Inventories-Build.html",
+      "published_at": "Tue, 25 Aug 2026 16:06:25 -0500",
+      "note": "Supply-related coverage"
     },
     {
-      "title": "Europe’s Biogas Plants Could Become Fertilizer Factories",
+      "title": "U.S. Refiners Face New Crude Squeeze as Canada Cuts Oil Sands Output",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Alternative-Energy/Biofuels/Europes-Biogas-Plants-Could-Become-Fertilizer-Factories.html",
-      "published_at": "Mon, 24 Aug 2026 16:00:00 -0500",
+      "url": "https://oilprice.com/Energy/Crude-Oil/US-Refiners-Face-New-Crude-Squeeze-as-Canada-Cuts-Oil-Sands-Output.html",
+      "published_at": "Tue, 25 Aug 2026 16:00:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {

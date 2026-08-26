@@ -1,0 +1,67 @@
+{
+  "symbol": "EDUUSDT",
+  "date": "2026-08-26",
+  "generated_at": "2026-08-26T07:25:03.015948+00:00",
+  "scanner_evidence": {
+    "symbol": "EDUUSDT",
+    "pair": "EDU/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "52",
+    "score_tier": "B Watch",
+    "market_cap_rank": "613",
+    "gray_candles": "17",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "small-cap potential, small-cap high risk, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=EDUUSDT",
+    "execution_time": "2026-08-26T06:36:41.283477+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1085 assets scanned, 15 confirmed flips (1.4%). State distribution: Blue 66.4%, Gold 14.1%, Gray 12.0%, Unknown 7.6%. Strongest transition: Blue → Gold (13 of 15 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "ETF/regulatory-related coverage",
+      "General market-news coverage, reviewed for context only."
+    ],
+    "context_generated_at": "2026-08-26T07:25:01.617215+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Open Campus and Animoca Brands partner with Nasdaq-listed ANPA for US$50 million EDU token strategy - Animoca Brands",
+      "source_name": "Animoca Brands",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxONVJPX3R4MWE2dmwwX0JVSUhDMDV2V2Q3ZFYyZzJOVVdCbmZHMG4zRnpoamRhcmVSeWR6cDdZbW1WdnZzdl94djRzZHFuU2NwSTl6bjNXZndhQ1pCZjBLcHRtOEY0eURRckFIOWVxdktPbTY5QXRyY2NBUnBDcEdUMEJ4UzNTdUJDVU01NTJGSS1DMTkwV2M0MjhreUE3U0ZzREFSeXFneHBLWFlwWG9GUmNhNW1NUnlJVnh2YmlGZGlaaXUzUWtCY1BMNGVJcGJITUdjVm95M3U?oc=5",
+      "published_at": "Fri, 21 Nov 2025 08:00:00 GMT"
+    },
+    {
+      "title": "Rivermont Schools to Open New Campus in Midlothian, Virginia, in Fall 2026 - Yahoo Finance",
+      "source_name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQdmdKRUdfZEIwcXFmYkZoQU5zd3JEUEpGSGxfYUtfNV9XRXdGNU9EUHBMRkV3aFh5RExUNm51YlZSQWxVbzVPSl9lR3VNc195OVpoQjlhQWs0bVNUZXEyV3hFTmFkY2U4NlhMNmMxVnFwdzh1ZjlCUGx4U0lJT2VzODQ5T0laMzBkU2Y2bEl1ZTM4T2FybFhxQ2xOYmFoVUxVOF9N?oc=5",
+      "published_at": "Mon, 03 Aug 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Binance Academy Launches Free Open Campus Course: Complete and Share 45,000 EDU in Rewards! - Binance",
+      "source_name": "Binance",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOeEpWTE1DRzZ4cmNGVEtnV0RhcjFfYlZIVEpaV1VGb056QlB0dU54V1BZeDQ3ZzR5dFc5Vy0zdGlNcU5La2QzS2dpY0N4UEdYQkxXS0xodVBuVW5QQzduT2Rha2phYmRxX2puV0Z5Znl3anJZcG1HX01NMlZKTTY3czhBNUxrMGtUZzdZQ05rczc?oc=5",
+      "published_at": "Thu, 02 Apr 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Open Campus partners with government of Madhya Pradesh and Geeks of Gurukul to digitize 50 million academic records - Animoca Brands",
+      "source_name": "Animoca Brands",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPNXJRTzVyS3ItWlpXbFNlV2NzdWc3LV80ZDUzNF8wV1ZhRUZDRFJZZURlUnlPcFJXTE1PbnBhREZxYm5VTHNXdFNBX0VDU3BIR2U3U2tmN0hCcXlNcHBIRm5oeXFOY08wVWx2aXFHVWVKUDVjR252VEpLbVZYVmZMNUZteEtpVUNkUUJ1WDlIOHhkUTlzZUdVaUpKTXctNDlRVndEWUNQNFFDTFFlRWRsLVo0LUNrcjg3cjVvTXBXby1zbDVYRXdoMlY2UHBwc0xkZXZvX1J4ZWQtcE1nVUl6WEg0LWxDR0U0MzZjeTllQQ?oc=5",
+      "published_at": "Thu, 08 Jan 2026 08:00:00 GMT"
+    },
+    {
+      "title": "2026 Miami Open Opening Day: Free Tickets & Fan Activities - Miami Open",
+      "source_name": "Miami Open",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPMkwzMmh5TThFVHpScGdGeEltRzZ1Um5jcllyR1kzOEpMVkhUNHVNQTBLakVzNzFYN3NudXFvaXk4U1JwazhWdGlZRFBNcjc4YVZsZGpiSHB1Q3hCeC16ODktaWlFWE16Mmo5ZktPT1lpU1dYbU5peGYwWTFRTEVHRjFtY2htQ0swMTc1SFA2a2pOLUtUaVNidG9R?oc=5",
+      "published_at": "Thu, 26 Feb 2026 08:00:00 GMT"
+    }
+  ],
+  "search_query_used": "Open Campus crypto",
+  "neutral_explanation": "EDUUSDT (EDU/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 52 (tier B Watch); market-cap rank 613. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 1085 assets scanned, 15 confirmed flips (1.4%). State distribution: Blue 66.4%, Gold 14.1%, Gray 12.0%, Unknown 7.6%. Strongest transition: Blue → Gold (13 of 15 flips). Source: reports/private_crypto_dashboard.csv. 5 coin-specific headline(s) were found via automated search; they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

@@ -1,0 +1,67 @@
+{
+  "symbol": "VIRTUALUSDT",
+  "date": "2026-08-26",
+  "generated_at": "2026-08-26T07:25:03.015948+00:00",
+  "scanner_evidence": {
+    "symbol": "VIRTUALUSDT",
+    "pair": "VIRTUAL/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "77",
+    "score_tier": "A Good",
+    "market_cap_rank": "106",
+    "gray_candles": "3",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "fresh signal, clean transition",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=VIRTUALUSDT",
+    "execution_time": "2026-08-26T06:36:41.283477+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1085 assets scanned, 15 confirmed flips (1.4%). State distribution: Blue 66.4%, Gold 14.1%, Gray 12.0%, Unknown 7.6%. Strongest transition: Blue → Gold (13 of 15 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "ETF/regulatory-related coverage",
+      "General market-news coverage, reviewed for context only."
+    ],
+    "context_generated_at": "2026-08-26T07:25:01.617215+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Virtuals Protocol Price Prediction: Can VIRTUAL Coin Reach $1? - StealthEX",
+      "source_name": "StealthEX",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNcUphbmpFeUVOUGRXUnFhMWxFWmpnV1BxbVNkQnR1aEFqZW5jdG5MRXZoVVFibmYzMTdZWkllR240RVB0UlhxZlJfOVBsUXVLOXFzTlJTcEVBRURrd2M4SDZjaGY4ZmIxWUl2OFFDYzNqdWxxUDc5aVlxcDN5aExqYWt2WXdLenNXVlY4ZzJ3OA?oc=5",
+      "published_at": "Fri, 21 Aug 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Top 3 AI Crypto Coins to Watch: TAO, RNDR, VIRTUAL - Bitget",
+      "source_name": "Bitget",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1FcGZZSm9iQXVlUzB2cmRhc1FzNTdQQkY2U1FkaE5vQWZHOC1uUEJGQ00wYm05VjZSaXJBWEEtMW01UVlYUjVFeXIxM1FwT1dYdmtGSF9rNnJDOG9Wak13bFNJc9IBY0FVX3lxTE1FcGZZSm9iQXVlUzB2cmRhc1FzNTdQQkY2U1FkaE5vQWZHOC1uUEJGQ00wYm05VjZSaXJBWEEtMW01UVlYUjVFeXIxM1FwT1dYdmtGSF9rNnJDOG9Wak13bFNJcw?oc=5",
+      "published_at": "Tue, 25 Aug 2026 20:04:29 GMT"
+    },
+    {
+      "title": "Virtuals Protocol Rises 5% To $0.74 With AI-Agent Tokens Back In Focus - Yellow.com",
+      "source_name": "Yellow.com",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQdV9GMlh5QzdrT2pHUHM0UlZaYTRrS3JXajJkVVRCZE9XQlRPWGtnY1BHQzVjN0RrNnM5b01Sb1JJY0JSNFNDdTZLdUk2NWFGNkQtTHFXWFVpYkFUdUtFcUN1bE95c1JXY3lTTWRBS1R3MWhIdDhmdXJBZEdwaXhYVlRaX0c3c3JCQ3hqVE9mUjNscjZWbk9v?oc=5",
+      "published_at": "Sun, 23 Aug 2026 13:43:17 GMT"
+    },
+    {
+      "title": "Virtuals Protocol (VIRTUAL) Surges 4.23% on Technical Hype - CoinMarketCap",
+      "source_name": "CoinMarketCap",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAzcmFVRjczbUlqN25DSXZXQTl1UFdnUFU5eDk0OVRKQ1NjcUlzVURjVVFmUnBvbkpSSVpjWTdrVllxdkVmRlJLYkp4M29ldW90UjlQV0dlNDB6bkJjckxFeFBrU1hqdnh2eGt5YVFHVFg?oc=5",
+      "published_at": "Sat, 22 Aug 2026 01:04:00 GMT"
+    },
+    {
+      "title": "Virtuals Protocol is Trading 33.37% Above Our Price Prediction for Aug 26, 2026 - Cryptonews.net",
+      "source_name": "Cryptonews.net",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1kV0ZjTVhiR1pxaGl6aXpuVUZsQkdHNW43bU8wODY3R1EzQlZjVVRMZnJaZ2ltaU1nZDhYWjl5WXhfbFJ2VnJCb2VGUUM3cGxpcXdGVlJLY2psdzg?oc=5",
+      "published_at": "Fri, 21 Aug 2026 20:50:44 GMT"
+    }
+  ],
+  "search_query_used": "Virtuals Protocol crypto",
+  "neutral_explanation": "VIRTUALUSDT (VIRTUAL/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 77 (tier A Good); market-cap rank 106. Scanner note: Valid confirmed trend flip — fresh signal, clean transition. Broader crypto market context: 1085 assets scanned, 15 confirmed flips (1.4%). State distribution: Blue 66.4%, Gold 14.1%, Gray 12.0%, Unknown 7.6%. Strongest transition: Blue → Gold (13 of 15 flips). Source: reports/private_crypto_dashboard.csv. 5 coin-specific headline(s) were found via automated search; they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

@@ -1,0 +1,67 @@
+{
+  "symbol": "ALLOUSDT",
+  "date": "2026-08-26",
+  "generated_at": "2026-08-26T07:25:03.015948+00:00",
+  "scanner_evidence": {
+    "symbol": "ALLOUSDT",
+    "pair": "ALLO/USDT",
+    "current_state": "Blue",
+    "previous_state": "Gold",
+    "flip_direction": "Gold → Blue (Bearish)",
+    "score": "55",
+    "score_tier": "B Watch",
+    "market_cap_rank": "375",
+    "gray_candles": "21",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "small-cap potential, small-cap high risk, fresh signal",
+    "signal": "Confirmed Gold → Gray → Blue → Blue",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=ALLOUSDT",
+    "execution_time": "2026-08-26T06:36:41.283477+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1085 assets scanned, 15 confirmed flips (1.4%). State distribution: Blue 66.4%, Gold 14.1%, Gray 12.0%, Unknown 7.6%. Strongest transition: Blue → Gold (13 of 15 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "ETF/regulatory-related coverage",
+      "General market-news coverage, reviewed for context only."
+    ],
+    "context_generated_at": "2026-08-26T07:25:01.617215+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "What pushed the price of Allora’s ALLO token up by over 100%? - CryptoRank",
+      "source_name": "CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNOVV1TFRqN3F2UkRJN3VNVGJkSVZ0SzFydHhfQVkxb1BPcFlhOU9CZjBXcmVMWWdfQVZCUTlKWldsU01sMmFmWUhJX09lT1Ezbzh3aldWamFia1ZsNDRiR2w1U2hEdjJkenpoTnVjS0FiMndwTW4tX2pLUFp3UUE3MlBYV2pvZS1JbVRMSzlVMnQxUDVCLUd5V1Z4LWY?oc=5",
+      "published_at": "Fri, 29 May 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Allora (ALLO) Price Prediction: Daily, Weekly 2026 – 2040 - CoinDCX",
+      "source_name": "CoinDCX",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1OMExlNTdJUEJDMktQY3piY01VZ2M4ckpUR3RNdzVJRVhPb3N4NG83eVlTUlZhYmFIWmQ1dkViMVlTTEEyTkFSTHNteEtWVzgyNERGMmZZWWU3NWhrSXEyS0N5dzZzQlp1ZjNDZHZnS3Jqdkk1TXc?oc=5",
+      "published_at": "Fri, 29 May 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Discover Allora (ALLO): Unleashing the Power of Decentralized AI - Phemex",
+      "source_name": "Phemex",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5DbWpQVlQ1U0xpU3FkT2RtdjNiR1pLR2NpNERWTEx3NG9ZZ2s1aFdLU1B0enpEZFRrR2Z4X1l2bE1rcU5IZXhUeG5PNGFvbUt6NFA3QW8yWTZFdw?oc=5",
+      "published_at": "Tue, 11 Nov 2025 08:00:00 GMT"
+    },
+    {
+      "title": "What Is Allora (ALLO)? Decentralized AI Token Falls 70% - Bitget",
+      "source_name": "Bitget",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPX2VCY3BIbnlZNUFYN3d2YTFOOVVpLXR6aW1TY01GcmNsUmotcFB6UWtMQUlHcGJDUFNRSVFId090VUZuOXdkUUhScW9JdlhPSkYzMjdzdTBZbnY4ZW5PenVOeUdHejY3Uzh6MHFIWTVLZlRTTUpURU1ZVHczb1ZwTnByWHVFQlRVSEE5SDFUUzUxYUtJM1VTNlJ1ZmJKd9IBowFBVV95cUxNaFRvNGhrSFAwZWdSTG9KRGFUR0RIMkxZaWlPRmZaTVZnX0Y2bXNhSkdHSkNtS0xTaTZScmxxQUFKcmZwZk9ucWZkaWVadWFEMWlQWGY2Y3VfblZrMmxUNWV0NEtNSFpHeXBCOEN4czhTbGxZRTRNM045OVBwekNZLVBWUUhjMWZweUItWjZYT3NKMGFkOGpYelhqaGdFT1F4SW5v?oc=5",
+      "published_at": "Wed, 12 Nov 2025 08:00:00 GMT"
+    },
+    {
+      "title": "Allora (ALLO) Crypto Explained: Next AI Powerhouse or a 65% Meltdown? - 99Bitcoins",
+      "source_name": "99Bitcoins",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdTBNb0JMNTdIZkt1REtKY1M3UjJ1TFpORS1ybWdNLU1JUmIwTm1YM01zSnZUZUpMNHlnTUJBS2ZlRE5QcklkQWlBeVNvOWFwcmE2LUg4Y2VObm1aU09sQy1xTUdxUEJDRnE5WEhWS2FIXzRQSGV5ZFEtMUo3WFRrdDJpMjJnTXVIRm1BQ1JWbmlCQ2RNcTU3X0dhNGUxUTFrQzl1Uw?oc=5",
+      "published_at": "Tue, 11 Nov 2025 08:00:00 GMT"
+    }
+  ],
+  "search_query_used": "Allora crypto",
+  "neutral_explanation": "ALLOUSDT (ALLO/USDT) recorded a confirmed state flip: Gold → Blue (Bearish). Scanner score 55 (tier B Watch); market-cap rank 375. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 1085 assets scanned, 15 confirmed flips (1.4%). State distribution: Blue 66.4%, Gold 14.1%, Gray 12.0%, Unknown 7.6%. Strongest transition: Blue → Gold (13 of 15 flips). Source: reports/private_crypto_dashboard.csv. 5 coin-specific headline(s) were found via automated search; they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}
