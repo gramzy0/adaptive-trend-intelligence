@@ -1,0 +1,69 @@
+{
+  "symbol": "FFUSDT",
+  "date": "2026-08-27",
+  "generated_at": "2026-08-27T07:25:02.836222+00:00",
+  "scanner_evidence": {
+    "symbol": "FFUSDT",
+    "pair": "FF/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "82",
+    "score_tier": "A+ Strong",
+    "market_cap_rank": "137",
+    "gray_candles": "3",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "fresh signal, clean transition",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=FFUSDT",
+    "execution_time": "2026-08-27T06:36:57.664481+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1085 assets scanned, 11 confirmed flips (1.0%). State distribution: Blue 66.0%, Gold 14.7%, Gray 11.8%, Unknown 7.6%. Strongest transition: Blue → Gold (9 of 11 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only.",
+      "Macro/rates-related coverage",
+      "Regulatory/legal-related coverage",
+      "ETF/regulatory-related coverage"
+    ],
+    "context_generated_at": "2026-08-27T07:25:01.419441+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "What Is Falcon Finance (FF)? - Binance",
+      "source_name": "Binance",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE90Zm5CbXg2RnpfT2tyQzdjVjROcWQwWE4wNURkOUh0SUlBSTFZU3NoQXZ4dGo2dEVoa0JpOXFsbUZmeVlxN1lzb0Nha21aTDZuWFFsMDZLLWZjYjU2WFpYUE9uSjZ3QjlXc213MFR4Q0xTem1CVWRHNA?oc=5",
+      "published_at": "Mon, 20 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Falcon Finance and Anchorage Digital Bank Launch fUSD, a GENIUS-Ready Stablecoin with Rewards on Ceffu - ETF.com",
+      "source_name": "ETF.com",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNTWRLR3ZON3VyT0dJZWVSRDk5T2c3ZEJLS0ZsMGt4N2k1SG51WXowOTJRa3l1U3FfcEY2Y0w2bnRhbVd2X1F5SjhMREZNOHNmMXFLZENpSFhVMEZBTHFtOHNzdHh6YzMxTGdFbTBJc1BzSVI3QWNoVDRiT2FZVTByaWxtMUg1NFdrdldzemFwNERSbEJhSzdwRVF5cDhScllVYmNKVW03bk1ueFZNM1pkcU9LY29HcjBzZElv?oc=5",
+      "published_at": "Wed, 27 May 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Falcon Finance, Anchorage and Ceffu roll out fUSD as GENIUS ready institutional stablecoin - Crypto News",
+      "source_name": "Crypto News",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUF9GaUQ1aVY0MWF4Q2E2eXdOWlZRSHU0QTBjRG0yN2NjQjhRMklySlZ4cWw3UkR6cmFOeUpFVm9weGJEcldPTFc0dmFod2pXU1lQTzAzcHBEaGlqWUVMdTVKd1ZkeU5tdjFTcHNWb3BoR0Q1VlBXa3NJNEgtRFd2em9xZVlYM19fem9qLWhsamhJZXpqcHhrcm94ZnMwczBZczlUSFVtOVRQY0MzTHdR?oc=5",
+      "published_at": "Wed, 27 May 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Collateral, not yield, will decide which stablecoins win - CoinDesk",
+      "source_name": "CoinDesk",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWUpzcEdDZTRtN0pGMGVBSGpETy1ZRm1sVXZkSGNPRlJYLWloM1Faa2Eyd0FVYWsyamVJYmQybVNTcVB4OW9xU1lqMlpVbkhyNEhuQ2QtTUVYaTliWU81cUh0cEJUQ1JYSXdsQkpueGhHaTJXVGtfTUg0aFBiTjhSYlZQNEtfR3ZGMHhsbGVkUkxBci0zRmNvZjE3bUVjTGM?oc=5",
+      "published_at": "Sun, 05 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Falcon Finance and Anchorage Digital Launch fUSD Stablecoin With 3% Yield for Institutional Holders - Coinpedia",
+      "source_name": "Coinpedia",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNMG54Q1pQb3RkcEd2dTF0U1ZPMmhpTEx5SXYtcmNXc0ZZMXN0QThuYnpVZjEtQjd3UkthUTlnNGtsODlQb1BCWVg2Q1IxalQzRXZoVEtSdmlXU0tZSDV4MWN2ODdzQ003aWVrdnhZb1UtTERzV2dsVWZQRXFTazNVREZuNW8zcXZObXc0TXI5UlhyTlBiVW5sUWdBQVRkMVZ6OUgwOXJzUVRIY0NtU2RUd1hsVzdyRDFJYmpJR1p3NlNTLWg10gHKAUFVX3lxTE4xUm1acHhvZS1zZGd4cmJLRVc5b3lDd1NZRElKekQzaDFfVUlhQkxha1dJN0t6cjVPeGVWd2RHTG8tRzdUakFvTmxQV2FpUmxBOThnMEhUeDJyX2YtRThpZXJVbHg4dlVkV3RqRmtqQ0oxSFloQkpVblU3Mjc1Rnc2d2dvckw4VnlpY3ZVV1pIY1ZTdHFSRHRRM2ppbk9qTWJPQXB1aHpYaU9GLU4wTFNoSmVOZmZQbGx2aWpfMFJHYjktZWxEZDdtaHc?oc=5",
+      "published_at": "Wed, 27 May 2026 07:00:00 GMT"
+    }
+  ],
+  "search_query_used": "Falcon Finance crypto",
+  "neutral_explanation": "FFUSDT (FF/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 82 (tier A+ Strong); market-cap rank 137. Scanner note: Valid confirmed trend flip — fresh signal, clean transition. Broader crypto market context: 1085 assets scanned, 11 confirmed flips (1.0%). State distribution: Blue 66.0%, Gold 14.7%, Gray 11.8%, Unknown 7.6%. Strongest transition: Blue → Gold (9 of 11 flips). Source: reports/private_crypto_dashboard.csv. 5 coin-specific headline(s) were found via automated search; they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

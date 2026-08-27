@@ -1,0 +1,69 @@
+{
+  "symbol": "COMPUSDT",
+  "date": "2026-08-27",
+  "generated_at": "2026-08-27T07:25:02.836222+00:00",
+  "scanner_evidence": {
+    "symbol": "COMPUSDT",
+    "pair": "COMP/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "69",
+    "score_tier": "A Good",
+    "market_cap_rank": "173",
+    "gray_candles": "5",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=COMPUSDT",
+    "execution_time": "2026-08-27T06:36:57.664481+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1085 assets scanned, 11 confirmed flips (1.0%). State distribution: Blue 66.0%, Gold 14.7%, Gray 11.8%, Unknown 7.6%. Strongest transition: Blue → Gold (9 of 11 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only.",
+      "Macro/rates-related coverage",
+      "Regulatory/legal-related coverage",
+      "ETF/regulatory-related coverage"
+    ],
+    "context_generated_at": "2026-08-27T07:25:01.419441+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Compound (COMP) Price Prediction 2026 2027 2028 - 2040 - Changelly",
+      "source_name": "Changelly",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9yWi1HSnhCYnhrOENubFFQME9rdEE0TzFhR0ZRbE1tVWpSS0dKS0VoWHJ0d1pmYmxlMDByY3g3aElqdjIzTE5IRWJNck9YVjNscTdaMDZFeExxVGJuOHAwcU5RYnVsVjhKa0E?oc=5",
+      "published_at": "Fri, 05 Dec 2025 13:43:27 GMT"
+    },
+    {
+      "title": "Compound Approves Record $52M Budget for Institutional DeFi Expansion - Yahoo Finance",
+      "source_name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOblMwRXZ6LURzY2ZrWTljeldQRHpyN25SUzJyU2FwWWFNdEc0Y1NJUVRCYVh5X01pV1FsdElQVEdoRndTcmdGbEd2bjhWOUJDRUF0Yl8ta1RzMVJVY3Q5ZVMxOWJSUWhLc1dUeGRtQU5qTUhoc1oyWmY5UHppREtORkVjSWtaN0ttYkxTbG1UcmQxOTZQMVdsSnBYYkFMY2dGUHc?oc=5",
+      "published_at": "Mon, 17 Aug 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Compound Price, COMP Price, Live Charts, and Marketcap: compound crypto price, compound price - Coinbase",
+      "source_name": "Coinbase",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE45ZW9JZUpkUkZiWjMzbkh0SkdJUlFuVjVMUi15WGNYeGdVQmtGOWlyUlROVTByMkwwSjQtVW85cDM5cUVyamJMenBKT2hpam5XWFVaZ25Kdlo?oc=5",
+      "published_at": "Mon, 17 Aug 2026 07:00:00 GMT"
+    },
+    {
+      "title": "What Happened to Compound’s Crypto Lending Empire? - The Defiant",
+      "source_name": "The Defiant",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBSbXV1Q0I5R1ZVbDFObW1aN29KWGd5TUw2WUdwV3VwWFBMdkxPY25TQ1FhdjIwdG12OWFpUXYzRGhHTHE2ZEN5a1pZWDFlWi1ldEtiNng1OThlanhmRDl5WGpuZDhUSC11cTZmR1dCLTFIVnFSYU92SQ?oc=5",
+      "published_at": "Sat, 14 Feb 2026 08:00:00 GMT"
+    },
+    {
+      "title": "Compound Price Prediction 2026, 2027 – 2030: Can COMP Surge To $100? - Coinpedia",
+      "source_name": "Coinpedia",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1pQzFweVJWQXdpMHhqbkdJRDczVHhmOERHMjltTkV5aHlwQzdmOEpFbGIzUkVjZ19wbXQ4SURsSVpueWFlMlcydFZfdEpZbmljM0tWU1VkTmM5TE96NGdTQVM5RW9NNFhZNksybFotZGZiVkk2bzNVOXRB0gF_QVVfeXFMT01Ob2c3WDZjam1nRmZzdjVTbVF0SGtWbkxVWjlyZVRpM2xMMkNiR3dvclNURk1fZVI5enFCUDdqNHBMdGw2ZWExV2NEVlpJZ2ZrdG00TVlIY3NDbFpaZklRWElmWVc2S2VZemFIbjkzam9zbWFLcktDSmlwOXlNYw?oc=5",
+      "published_at": "Wed, 05 Aug 2026 07:00:00 GMT"
+    }
+  ],
+  "search_query_used": "Compound crypto",
+  "neutral_explanation": "COMPUSDT (COMP/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 69 (tier A Good); market-cap rank 173. Scanner note: Valid confirmed trend flip — fresh signal. Broader crypto market context: 1085 assets scanned, 11 confirmed flips (1.0%). State distribution: Blue 66.0%, Gold 14.7%, Gray 11.8%, Unknown 7.6%. Strongest transition: Blue → Gold (9 of 11 flips). Source: reports/private_crypto_dashboard.csv. 5 coin-specific headline(s) were found via automated search; they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

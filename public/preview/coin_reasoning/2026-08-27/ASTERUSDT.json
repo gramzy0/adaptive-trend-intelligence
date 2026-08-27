@@ -1,0 +1,69 @@
+{
+  "symbol": "ASTERUSDT",
+  "date": "2026-08-27",
+  "generated_at": "2026-08-27T07:25:02.836222+00:00",
+  "scanner_evidence": {
+    "symbol": "ASTERUSDT",
+    "pair": "ASTER/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "64",
+    "score_tier": "B Watch",
+    "market_cap_rank": "47",
+    "gray_candles": "4",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "large-cap stability, top market cap, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=ASTERUSDT",
+    "execution_time": "2026-08-27T06:36:57.664481+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1085 assets scanned, 11 confirmed flips (1.0%). State distribution: Blue 66.0%, Gold 14.7%, Gray 11.8%, Unknown 7.6%. Strongest transition: Blue → Gold (9 of 11 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only.",
+      "Macro/rates-related coverage",
+      "Regulatory/legal-related coverage",
+      "ETF/regulatory-related coverage"
+    ],
+    "context_generated_at": "2026-08-27T07:25:01.419441+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "ASTER Crypto: Does the 99% Buyback Actually Shrink Supply? - TOP1markets",
+      "source_name": "TOP1markets",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBtMUtQRXZLSVJmQWl2cHRGMV9PWnZNZFFfdmU0VzFwTHk4VndNQkdPd1E0TzBSN0M5M2xiLU55a0Rkbm95NnB6alhNQzllVTZLS2FiaUlUeFZnWjREUmd3NVl4WmxqUUpLM2d0WUQ3ajJmUDlWb1hFQmRR?oc=5",
+      "published_at": "Sun, 23 Aug 2026 09:21:02 GMT"
+    },
+    {
+      "title": "Aster's $58M Token Unlock Leads Biggest Release Week Of The Quarter - Yellow.com",
+      "source_name": "Yellow.com",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOd0tscXdPZHZpR3AwVTBMbmZiUlNUNHZoQnpLY2czZ2RwcGlVaUJlV1NYZW53LTZjOE5PRm1Iek1KQ2lpeUZHUlFqTGZpc0FIeXZUNDd0c3gyTkMyd1hBZ0xhemFSLTNLVS1GZXdrQXVmUW1BY2FRZ0JuWjBzaUtNLUxzbGxVVGFSbTJGNnpBaDMxR0FVQi1QOV9WS3BvazEzbzFRUzEzbldKb1RRbXdja3Z3?oc=5",
+      "published_at": "Thu, 27 Aug 2026 01:19:41 GMT"
+    },
+    {
+      "title": "Aster Surges 10% Leading Altcoin Market Recovery - CoinMarketCap",
+      "source_name": "CoinMarketCap",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQUE9Qak9LWGk1dWNCZDNPT2V2cXczYkMwcDBsY3VUX2ZYU3NOQzlWUkdsWUhTazJYRnQ5dWJWLWwweUc2cFNvT0NpUDhmaThXQUR5MEF3b1ZYMVNISHdIYWRzVlRPT0dHS1phb0swU1BWT0UwVy1Kb1BTcW5hTnVPS1diZFpmbkktYWVtb21GOERMU09MME0wVUhRZTY?oc=5",
+      "published_at": "Sat, 15 Aug 2026 05:39:44 GMT"
+    },
+    {
+      "title": "Aster Price Prediction – ASTER Price Estimated to Drop to $ 0.503983 By Aug 27, 2026 - Cryptonews.net",
+      "source_name": "Cryptonews.net",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5QcllJcGJuOE95N3BOb1RKOF84c3pndFAzMW95SzdZck15Yll0NHRvZ0d2c2NqY0JaSlBydEtpeF9uYkRnYVFRRUFDS1h2TjA1UWxOQnVnci0zbG8?oc=5",
+      "published_at": "Sun, 23 Aug 2026 20:22:07 GMT"
+    },
+    {
+      "title": "Aster Expands its Token Buyback Program, Price Jumps 10% - Yahoo Finance",
+      "source_name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNUjVzbXpybkdJOWRzcFJ3TUR0VFI4OVJkV3g0V2hRV1pXMUdtZDI2SU03Y1B1Zk9Lc3VEc3FJRnU2WlFSTTJsaHNXeUZYX0N4UXBXUldiRzZtQ3d5WHlqRUQ5bmZwdFd3R0gyWTc0c3BzTHZwZkFOUzdVREdCMWhTU2swVHZjX1dVV0R2LV9hVVNmOG9keWM2OFlHc2lIYXNMN0E?oc=5",
+      "published_at": "Wed, 17 Jun 2026 07:00:00 GMT"
+    }
+  ],
+  "search_query_used": "Aster crypto",
+  "neutral_explanation": "ASTERUSDT (ASTER/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 64 (tier B Watch); market-cap rank 47. Scanner note: Valid confirmed trend flip — large-cap stability, top market cap, fresh signal. Broader crypto market context: 1085 assets scanned, 11 confirmed flips (1.0%). State distribution: Blue 66.0%, Gold 14.7%, Gray 11.8%, Unknown 7.6%. Strongest transition: Blue → Gold (9 of 11 flips). Source: reports/private_crypto_dashboard.csv. 5 coin-specific headline(s) were found via automated search; they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

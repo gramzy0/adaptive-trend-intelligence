@@ -1,61 +1,63 @@
 {
   "market": "crypto",
-  "generated_at": "2026-08-26T07:25:01.617215+00:00",
-  "scanner_summary": "1085 assets scanned, 15 confirmed flips (1.4%). State distribution: Blue 66.4%, Gold 14.1%, Gray 12.0%, Unknown 7.6%. Strongest transition: Blue → Gold (13 of 15 flips). Source: reports/private_crypto_dashboard.csv.",
+  "generated_at": "2026-08-27T07:25:01.419441+00:00",
+  "scanner_summary": "1085 assets scanned, 11 confirmed flips (1.0%). State distribution: Blue 66.0%, Gold 14.7%, Gray 11.8%, Unknown 7.6%. Strongest transition: Blue → Gold (9 of 11 flips). Source: reports/private_crypto_dashboard.csv.",
   "possible_drivers": [
     "Locally observed scanner state distribution and flip activity (see scanner_summary).",
-    "ETF/regulatory-related coverage",
-    "General market-news coverage, reviewed for context only."
+    "General market-news coverage, reviewed for context only.",
+    "Macro/rates-related coverage",
+    "Regulatory/legal-related coverage",
+    "ETF/regulatory-related coverage"
   ],
   "uncertainty_note": "Automatically collected from public RSS headlines and local scanner output. Headlines are cited, not verified for accuracy or causal connection to price movement. This is not investment advice and does not contain buy, sell, hold, or execution guidance. Human review is required before treating anything here as reliable market context.",
   "sources": [
     {
-      "title": "BlackRock cuts bitcoin ETF swap minimum to $1 million: Report",
+      "title": "Bitcoin researchers propose quantum fix that would not crowd out transactions",
       "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/08/26/E",
-      "published_at": "Wed, 26 Aug 2026 05:52:53 +0000",
+      "url": "https://www.coindesk.com/tech/2026/08/27/bitcoin-researchers-propose-quantum-fix-that-would-not-crowd-out-transactions",
+      "published_at": "Thu, 27 Aug 2026 07:15:57 +0000",
+      "note": "General market-news coverage, reviewed for context only."
+    },
+    {
+      "title": "Binance co-founders CZ and Yi He adopted Simpsons cartoon aliases ‘Homer’ and ‘Marge’ in company meetings",
+      "source_name": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/08/27/binance-co-founders-changpeng-cz-zhao-and-yi-he-used-the-simpsons-cartoon-aliases-homer-and-marge-in-company-meetings",
+      "published_at": "Thu, 27 Aug 2026 05:25:28 +0000",
+      "note": "General market-news coverage, reviewed for context only."
+    },
+    {
+      "title": "Bitcoin below $79,000, XRP leads losses as traders start betting on a Fed hike",
+      "source_name": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/08/27/bitcoin-below-usd79-000-xrp-leads-losses-as-traders-start-betting-on-a-fed-hike",
+      "published_at": "Thu, 27 Aug 2026 04:35:18 +0000",
+      "note": "Macro/rates-related coverage"
+    },
+    {
+      "title": "Lesser-tracked bitcoin market dynamic lends credibility to August surge to $80,000",
+      "source_name": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/08/27/lesser-tracked-bitcoin-market-dynamic-lends-credibility-to-august-surge-to-usd80-000",
+      "published_at": "Thu, 27 Aug 2026 04:02:57 +0000",
+      "note": "General market-news coverage, reviewed for context only."
+    },
+    {
+      "title": "SEC resurrecting U.S. crypto custody rule the previous administration failed to land",
+      "source_name": "CoinDesk",
+      "url": "https://www.coindesk.com/news-analysis/2026/08/26/sec-resurrecting-u-s-crypto-custody-rule-the-previous-administration-failed-to-land",
+      "published_at": "Wed, 26 Aug 2026 23:01:44 +0000",
+      "note": "Regulatory/legal-related coverage"
+    },
+    {
+      "title": "Bitcoin ETF inflows slow to $232M as BTC holds under $80K",
+      "source_name": "CoinTelegraph",
+      "url": "https://cointelegraph.com/markets/bitcoin-etf-inflows-slow-232-million-btc-under-80k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "Thu, 27 Aug 2026 07:01:19 +0000",
       "note": "ETF/regulatory-related coverage"
-    },
-    {
-      "title": "Crypto greed gauge hits highest since just before October’s $19 billion wipeout",
-      "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/08/26/crypto-greed-gauge-hits-highest-since-just-before-october-s-usd19-billion-wipeout",
-      "published_at": "Wed, 26 Aug 2026 04:51:49 +0000",
-      "note": "General market-news coverage, reviewed for context only."
-    },
-    {
-      "title": "Bitcoin holds $79,000, ether, solana slip as traders bank a week of gains",
-      "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/08/26/bitcoin-holds-usd79-000-ether-solana-slip-4-as-traders-bank-a-week-of-gains",
-      "published_at": "Wed, 26 Aug 2026 04:13:10 +0000",
-      "note": "General market-news coverage, reviewed for context only."
-    },
-    {
-      "title": "U.S. state banking associations plan to launch their own nationwide blockchain network",
-      "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/08/25/u-s-state-banking-associations-plan-to-launch-their-own-nationwide-blockchain-network",
-      "published_at": "Tue, 25 Aug 2026 21:56:57 +0000",
-      "note": "General market-news coverage, reviewed for context only."
-    },
-    {
-      "title": "Zerohash back for second effort at OCC trust bank charter",
-      "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/08/25/zerohash-back-for-second-effort-at-occ-trust-bank-charter",
-      "published_at": "Tue, 25 Aug 2026 21:38:28 +0000",
-      "note": "General market-news coverage, reviewed for context only."
     },
     {
       "title": "Here’s what happened in crypto today",
       "source_name": "CoinTelegraph",
       "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "Wed, 26 Aug 2026 06:04:55 +0000",
-      "note": "General market-news coverage, reviewed for context only."
-    },
-    {
-      "title": "US banking groups plan nationwide blockchain network for 2027",
-      "source_name": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/us-banking-groups-nationwide-blockchain-network-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "Wed, 26 Aug 2026 04:17:39 +0000",
+      "published_at": "Thu, 27 Aug 2026 06:47:23 +0000",
       "note": "General market-news coverage, reviewed for context only."
     }
   ]

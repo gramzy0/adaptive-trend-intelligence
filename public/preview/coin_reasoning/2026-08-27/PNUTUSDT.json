@@ -1,0 +1,69 @@
+{
+  "symbol": "PNUTUSDT",
+  "date": "2026-08-27",
+  "generated_at": "2026-08-27T07:25:02.836222+00:00",
+  "scanner_evidence": {
+    "symbol": "PNUTUSDT",
+    "pair": "PNUT/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "74",
+    "score_tier": "A Good",
+    "market_cap_rank": "441",
+    "gray_candles": "5",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "small-cap potential, small-cap high risk, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=PNUTUSDT",
+    "execution_time": "2026-08-27T06:36:57.664481+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1085 assets scanned, 11 confirmed flips (1.0%). State distribution: Blue 66.0%, Gold 14.7%, Gray 11.8%, Unknown 7.6%. Strongest transition: Blue → Gold (9 of 11 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only.",
+      "Macro/rates-related coverage",
+      "Regulatory/legal-related coverage",
+      "ETF/regulatory-related coverage"
+    ],
+    "context_generated_at": "2026-08-27T07:25:01.419441+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Elon Musk’s Response to Peanut the Squirrel Causes Surge in PNUT Meme Coin - CoinMarketCap",
+      "source_name": "CoinMarketCap",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbWstZEluaWx4TTVudVU2d0d3TV9ac19zMWU0RjRCZTNpRUJ4dG53NEl1R3c3YjFqdzNPUUdTWDRIc2JfNkZCd1F5ZExZY19VenJfSWgybGVEM3JtQ200WlNaZnJ6WmtmcWp4UkMxTmFwUFYzU2VqMjNRVTdzdzJvOEZvRlBwVTBDU0hOWHVhZEI3b3FWeWFrSzhuQkhsOUJGN21FTF95dFlEQlJnenFZUTVjVVJWZw?oc=5",
+      "published_at": "Wed, 12 Aug 2026 15:37:28 GMT"
+    },
+    {
+      "title": "Peanut the Squirrel Price Prediction 2026, 2027 – 2030: Will PNUT Price 10X? - Coinpedia",
+      "source_name": "Coinpedia",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUDJOMFdhWF9FQS15S3RCdHI4R01BVXlJVUVFLXBUaXI0ODdWQURuVk5iTWpwb0dRUDR1azBxb0xXSWNoaGZpOG80OTVYeWdXNzNjQ21hQjJLS1Ywcll4enZ3R0dxV3R0M0JhdjNOeUdpSUNveGRNSGhaZ2d0VDZ5aGU2SW1fbjdQ0gGOAUFVX3lxTE5zRXR2OVl6bHVOOUVpaUFYeXBSbHNLM2FzaS1YYzRlMHZESEo1OTNtcVpUYUZMZFRFQlNxTXJ3aVdkQlZKTWJ2bWFGbFQ2cmN6Vm0tNi1JWTVDcF85OTVibERQalNJNUlmTVFGbXR2dGpYdjU2bWN1RVZYWlBSbURVWmJMNHAwaEE1a2xkcUE?oc=5",
+      "published_at": "Sat, 18 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Peanut the Squirrel Gains 170% After Binance Listing, Becomes The Fastest Growing Meme Coin - Yellow.com",
+      "source_name": "Yellow.com",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOZ3p0bkZWOHJPbjdSZjBPUFNDUTVZa3lFb2hUTnAwcnp4ckhVdGVEcENwUXJzdU9BYS0wS2FkQUJCaVExZEI1WjJfZnl0a1V5cGtGSExia1EwRkpleHlVWlhhZlNTcWZ4UjJuN0l4MDJqVEdBdG4zSHFrUzRGWGdKRWZiX2thQWYtS05ZOTNGWVhXcm9hb3pzTnA0emxUeVdBWGRtbmJPM0x5VlBDOWt3YXdObnF0ZlVwX3ZvTmROQQ?oc=5",
+      "published_at": "Tue, 11 Aug 2026 05:37:11 GMT"
+    },
+    {
+      "title": "PNUT to SGD: Convert Peanut the Squirrel (PNUT) to Singapore Dollars (SGD) - Revolut",
+      "source_name": "Revolut",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9NMWFDeHhUSE54RWU3X203aTNoZXluTWNtVWg3QVBualowNkhacW0yd2VMbTUwN2xPSW0zb1p4d3ZiS1pIWlNVU0tIUGctUlZWejEwcjczMzE5Zw?oc=5",
+      "published_at": "Sun, 26 Oct 2025 18:21:20 GMT"
+    },
+    {
+      "title": "Peanut the Squirrel Price Prediction: Can PNUT Coin Reach $10? - StealthEX",
+      "source_name": "StealthEX",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQTk8yUFF0QU9qX0JrQ0lVcHVLQ2tSMjJJekE0SnVXcGJVMDhnN18ydGY5UFZWaWZnU1hBVjdKOWNNSFJCVGdKUURFRUJPTzBDQXBFTGhxek1iTDcxRGtEVU5lOUNBNFQtYzdTOEI4Zk1VbzNuMERoV1JGaWdyUWp5Wjd3MjhCRy1zMTJCREZDZw?oc=5",
+      "published_at": "Fri, 25 Jul 2025 07:00:00 GMT"
+    }
+  ],
+  "search_query_used": "Peanut the Squirrel crypto",
+  "neutral_explanation": "PNUTUSDT (PNUT/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 74 (tier A Good); market-cap rank 441. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 1085 assets scanned, 11 confirmed flips (1.0%). State distribution: Blue 66.0%, Gold 14.7%, Gray 11.8%, Unknown 7.6%. Strongest transition: Blue → Gold (9 of 11 flips). Source: reports/private_crypto_dashboard.csv. 5 coin-specific headline(s) were found via automated search; they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

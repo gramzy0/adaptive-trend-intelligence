@@ -1,46 +1,46 @@
 {
   "market": "commodities",
-  "generated_at": "2026-08-26T07:25:01.617215+00:00",
+  "generated_at": "2026-08-27T07:25:01.419441+00:00",
   "scanner_summary": "No commodity scanner data available in data/output; no asset count, flip count, or state distribution can be computed locally.",
   "possible_drivers": [
     "General market-news coverage, reviewed for context only.",
-    "Supply-related coverage"
+    "Security-incident-related coverage"
   ],
   "uncertainty_note": "Automatically collected from public RSS headlines and local scanner output. Headlines are cited, not verified for accuracy or causal connection to price movement. This is not investment advice and does not contain buy, sell, hold, or execution guidance. Human review is required before treating anything here as reliable market context.",
   "sources": [
     {
-      "title": "Oil Prices Fall as Iran-Oman Talks Fuel Hopes of Strait Reopening",
+      "title": "Another Tanker Struck as Hormuz Shipping Crisis Deepens",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Fall-as-Iran-Oman-Talks-Fuel-Hopes-of-Strait-Reopening.html",
-      "published_at": "Wed, 26 Aug 2026 01:30:00 -0500",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Another-Tanker-Struck-as-Hormuz-Shipping-Crisis-Deepens.html",
+      "published_at": "Thu, 27 Aug 2026 01:30:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Big Oil Is Betting Billions On Nuclear Fusion",
+      "title": "Global Oil Security Looks Shakier as Conflicts Hit 45 Million Bpd of Supply",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Alternative-Energy/Nuclear-Power/Big-Oil-Is-Betting-Billions-On-Nuclear-Fusion.html",
-      "published_at": "Tue, 25 Aug 2026 19:00:00 -0500",
+      "url": "https://oilprice.com/Energy/Energy-General/Global-Oil-Security-Looks-Shakier-as-Conflicts-Hit-45-Million-Bpd-of-Supply.html",
+      "published_at": "Wed, 26 Aug 2026 19:00:00 -0500",
+      "note": "Security-incident-related coverage"
+    },
+    {
+      "title": "MIT Uses AI to Challenge a Century-Old Process for Mass Ammonia Production",
+      "source_name": "OilPrice.com",
+      "url": "https://oilprice.com/Energy/Energy-General/MIT-Uses-AI-to-Challenge-a-Century-Old-Process-for-Mass-Ammonia-Production.html",
+      "published_at": "Wed, 26 Aug 2026 18:00:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "The U.S. Power Play in Iraq That Moscow and Beijing Didn’t See Coming",
+      "title": "Equinor Targets 27% International Production Growth by 2030",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Energy/Energy-General/The-US-Power-Play-in-Iraq-That-Moscow-and-Beijing-Didnt-See-Coming.html",
-      "published_at": "Tue, 25 Aug 2026 17:00:00 -0500",
+      "url": "https://oilprice.com/Energy/Energy-General/Equinor-Targets-27-International-Production-Growth-by-2030.html",
+      "published_at": "Wed, 26 Aug 2026 17:00:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "SPR Sinks Toward Operational Minimum as U.S. Crude Inventories Build",
+      "title": "Octopus Boss Warns UK Is Too Exposed to Global Gas Prices",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/SPR-Sinks-Toward-Operational-Minimum-as-US-Crude-Inventories-Build.html",
-      "published_at": "Tue, 25 Aug 2026 16:06:25 -0500",
-      "note": "Supply-related coverage"
-    },
-    {
-      "title": "U.S. Refiners Face New Crude Squeeze as Canada Cuts Oil Sands Output",
-      "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Energy/Crude-Oil/US-Refiners-Face-New-Crude-Squeeze-as-Canada-Cuts-Oil-Sands-Output.html",
-      "published_at": "Tue, 25 Aug 2026 16:00:00 -0500",
+      "url": "https://oilprice.com/Energy/Natural-Gas/Octopus-Boss-Warns-UK-Is-Too-Exposed-to-Global-Gas-Prices.html",
+      "published_at": "Wed, 26 Aug 2026 16:00:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {

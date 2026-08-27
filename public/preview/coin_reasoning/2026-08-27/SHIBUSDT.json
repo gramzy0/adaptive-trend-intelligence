@@ -1,0 +1,69 @@
+{
+  "symbol": "SHIBUSDT",
+  "date": "2026-08-27",
+  "generated_at": "2026-08-27T07:25:02.836222+00:00",
+  "scanner_evidence": {
+    "symbol": "SHIBUSDT",
+    "pair": "SHIB/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "64",
+    "score_tier": "B Watch",
+    "market_cap_rank": "31",
+    "gray_candles": "5",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "large-cap stability, top market cap, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=SHIBUSDT",
+    "execution_time": "2026-08-27T06:36:57.664481+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1085 assets scanned, 11 confirmed flips (1.0%). State distribution: Blue 66.0%, Gold 14.7%, Gray 11.8%, Unknown 7.6%. Strongest transition: Blue → Gold (9 of 11 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only.",
+      "Macro/rates-related coverage",
+      "Regulatory/legal-related coverage",
+      "ETF/regulatory-related coverage"
+    ],
+    "context_generated_at": "2026-08-27T07:25:01.419441+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Asia's most regulated markets just said yes to Shiba Inu - thestreet.com",
+      "source_name": "thestreet.com",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZUpIYmg5eG9Tejk0YV9oSDM0NFlyLVJGZkR6ZmU0cTJPbDBlRzNtTFY2VG1WNjBOc192N3gtSURCM3B4S1VrVU4xNmV4TjZJNzh0cVg2UkVzbm5zSmF6NnRSTWxET2lXSndxY1RKdDVwc2dlcUJzczZDMi12S3dEaFlvVEpJdml0QTk4SmlEZUhJUHRTOENPZHdIdGlKR2NqZEZxVXVpZVRrVzhPRmlv?oc=5",
+      "published_at": "Mon, 24 Aug 2026 17:27:15 GMT"
+    },
+    {
+      "title": "Can Shiba Inu Reach $1 by 2027? The Answer Will Blow Your Mind. - Yahoo Finance",
+      "source_name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNNUdzUzgyZmF3U1pQdkdQUXJ5blYxXzZUUDRzanV0MVg2a2ZhdEJKSnJNcjljRkw5d3VYOHVJU21scmdCek1vaFZ2TmVMbC11bjg0NFAzRDdmbTFVejZrX0lmNXdLWHlua0xIS2RaZG53ZkhkeWswNkJQM1A4N0RVOEIteVpoS1c5ZGc0ekdBTnU?oc=5",
+      "published_at": "Wed, 15 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Shiba Inu (SHIB) Breaks 11-Month Downtrend After Japan Approval - BeInCrypto",
+      "source_name": "BeInCrypto",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBNQ2NVWTZnWXRDWWZraU05VG5MbnpBWDBMZWZBTHdNUXJxR292UGJGd0swajF2ZlZDVFJOc3h0Y0tJOGlxdVhqRTUxV2d1dkVrTEZxOXhfeDZ4YzJSZkZRTHZPRGlXMFNV?oc=5",
+      "published_at": "Wed, 26 Aug 2026 11:20:00 GMT"
+    },
+    {
+      "title": "Shiba Inu News: Why Is SHIB Price Up Today? - CryptoRank",
+      "source_name": "CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNcnYxb0lKMF9fV0Q3cm9DNllaMGJxazd6REt0cFNSbG5DQ2psTnNjbEJjRXVTcktNY3NMNE1XRjFmQWMwcTBwTlhHV2c2WHR3aFJycGxfTlVWbi1VT29NZ0JSNV9GbzF3amRnaXZDQWUwX2xDMlhUTGZDdnFPS1RjcVZmQWswQQ?oc=5",
+      "published_at": "Tue, 25 Aug 2026 10:09:20 GMT"
+    },
+    {
+      "title": "Shiba Inu (SHIB) Erases 11-Month Bear Cycle as $3.26 Billion Becomes New Price Floor - TradingView",
+      "source_name": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxONEZJaU9pdlVidmI4bUhMalNWRXdTcHRWMFBBTF9UeWJXRnRNS0FNd3hKSFk1VUhmSWJkRDNQN3FzZl9vSG10aXpTaUFOUVcwb25XUFdxZXpFRFdfUVZ1Zy1wRFFBS040ZU1tLTFfZjZIa1pLSHh2ejUwdDFUSzFQM29Md08xY2VxMFZSenVRSlEwMVllRS1YZ0NkZzk4T0ZCVWhaTDhwYjZDMFNRSGo2VGplcmRqY1NUQXg1eGI1Z1djYUo1ZU1Wdk04RzllZzJfSWhjVHVB?oc=5",
+      "published_at": "Tue, 25 Aug 2026 12:54:30 GMT"
+    }
+  ],
+  "search_query_used": "Shiba Inu crypto",
+  "neutral_explanation": "SHIBUSDT (SHIB/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 64 (tier B Watch); market-cap rank 31. Scanner note: Valid confirmed trend flip — large-cap stability, top market cap, fresh signal. Broader crypto market context: 1085 assets scanned, 11 confirmed flips (1.0%). State distribution: Blue 66.0%, Gold 14.7%, Gray 11.8%, Unknown 7.6%. Strongest transition: Blue → Gold (9 of 11 flips). Source: reports/private_crypto_dashboard.csv. 5 coin-specific headline(s) were found via automated search; they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

@@ -1,7 +1,7 @@
 {
   "market": "stocks",
-  "generated_at": "2026-08-26T07:25:01.617215+00:00",
-  "scanner_summary": "50 assets scanned, 0 confirmed flips (0.0%). State distribution: Blue 14.0%, Gold 76.0%, Gray 10.0%, Unknown 0.0%. Source: data/output/stocks_weekly_results.json, last modified 2026-06-13 (73 days ago). Stale-data warning: source file is more than 30 days old.",
+  "generated_at": "2026-08-27T07:25:01.419441+00:00",
+  "scanner_summary": "50 assets scanned, 0 confirmed flips (0.0%). State distribution: Blue 14.0%, Gold 76.0%, Gray 10.0%, Unknown 0.0%. Source: data/output/stocks_weekly_results.json, last modified 2026-06-13 (74 days ago). Stale-data warning: source file is more than 30 days old.",
   "possible_drivers": [
     "Locally observed scanner state distribution and flip activity (see scanner_summary).",
     "Earnings/guidance-related coverage",
@@ -17,45 +17,45 @@
       "note": "Earnings/guidance-related coverage"
     },
     {
-      "title": "Trucking Downturn: Why 85% of New Carriers Didn’t Survive",
+      "title": "Gold’s Best Month Since January Comes Courtesy of Scott Bessent",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/small-business/articles/trucking-downturn-why-85-carriers-200228918.html",
-      "published_at": "2026-08-24T20:02:28Z",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/gold-best-month-since-january-191728957.html",
+      "published_at": "2026-08-25T19:17:28Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Case Closed: How to Play Super Micro Computer Stock as Smuggling Investigation Ends",
+      "title": "ZIM (ZIM) Beat Estimates but Trades 19% Below its Buyout Price. Is the Deal Discount Too Wide?",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/case-closed-play-super-micro-195241108.html",
-      "published_at": "2026-08-24T19:52:41Z",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/zim-zim-beat-estimates-trades-192133438.html",
+      "published_at": "2026-08-25T19:21:33Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Oil drops more than $2 despite new US sanctions on Iran",
+      "title": "BB Stock Alert: What to Know as Blackberry Doubles Down on Robotics",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/news/oil-falls-1-ahead-us-231835385.html",
-      "published_at": "2026-08-24T19:50:20Z",
+      "url": "https://finance.yahoo.com/technology/ai/articles/bb-stock-alert-know-blackberry-192953230.html",
+      "published_at": "2026-08-25T19:29:53Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "How to Build $3,100 a Month in Dividend Income Starting From Zero",
+      "title": "Meta, states discuss mid-trial settlement in teen addiction case",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/build-3-100-month-dividend-195912668.html",
-      "published_at": "2026-08-24T19:59:12Z",
+      "url": "https://finance.yahoo.com/media-advertising/articles/meta-states-discuss-mid-trial-111938416.html",
+      "published_at": "2026-08-26T11:19:38Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Are older Americans spoiling the economy for everyone else?",
+      "title": "What to know about Hugging Face, the open-source AI startup reportedly catching Nvidia’s eye",
       "source_name": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/are-older-americans-spoiling-the-economy-for-everyone-else-064b5820?mod=mw_rss_topstories",
-      "published_at": "Wed, 26 Aug 2026 01:41:00 GMT",
+      "url": "https://www.marketwatch.com/story/what-to-know-about-hugging-face-the-open-source-ai-startup-reportedly-catching-nvidias-eye-243771f8?mod=mw_rss_topstories",
+      "published_at": "Thu, 27 Aug 2026 03:17:00 GMT",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "5 cheap U.S. cities to retire in — if you can deal with this one thing",
+      "title": "‘My main goal is to help people’: I’m single, 74, with $10 million burning a hole in my pocket. What should I do?",
       "source_name": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/5-cheap-u-s-cities-to-retire-in-if-you-can-deal-with-this-one-thing-fbda5d1a?mod=mw_rss_topstories",
-      "published_at": "Wed, 26 Aug 2026 01:35:00 GMT",
+      "url": "https://www.marketwatch.com/story/my-main-goal-is-to-help-people-im-single-74-with-10-million-burning-a-hole-in-my-pocket-what-should-i-do-0e6112e1?mod=mw_rss_topstories",
+      "published_at": "Thu, 27 Aug 2026 02:41:00 GMT",
       "note": "General market-news coverage, reviewed for context only."
     }
   ]

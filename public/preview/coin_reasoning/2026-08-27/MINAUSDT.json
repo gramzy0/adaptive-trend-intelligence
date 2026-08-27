@@ -1,0 +1,69 @@
+{
+  "symbol": "MINAUSDT",
+  "date": "2026-08-27",
+  "generated_at": "2026-08-27T07:25:02.836222+00:00",
+  "scanner_evidence": {
+    "symbol": "MINAUSDT",
+    "pair": "MINA/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "82",
+    "score_tier": "A+ Strong",
+    "market_cap_rank": "308",
+    "gray_candles": "3",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "small-cap potential, small-cap high risk, fresh signal, clean transition",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=MINAUSDT",
+    "execution_time": "2026-08-27T06:36:57.664481+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1085 assets scanned, 11 confirmed flips (1.0%). State distribution: Blue 66.0%, Gold 14.7%, Gray 11.8%, Unknown 7.6%. Strongest transition: Blue → Gold (9 of 11 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only.",
+      "Macro/rates-related coverage",
+      "Regulatory/legal-related coverage",
+      "ETF/regulatory-related coverage"
+    ],
+    "context_generated_at": "2026-08-27T07:25:01.419441+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Mina Protocol to Launch Mainnet on September 3rd - TradingView",
+      "source_name": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMnZ3SnV6SFVDdS14S1lRYlVyM3BxdFFnRXBocngtczlVVWVfVlZsWVJ6NEhTUDZiVGVReU96bVMtMURHNmFaUHZCYW13TjVsbFpTdE1JZ0hZeHBpNU8yZlgtckszY3c4emVtdGx1OEVWTlpmNWR6MHlHbnUxRFZpeWM5WVR5S29wLXpib0xVWTJIaS1IYnoxS1lFZ3VsZTdjTzFzOVlNbVdxQQ?oc=5",
+      "published_at": "Thu, 20 Aug 2026 16:46:26 GMT"
+    },
+    {
+      "title": "Mina Protocol Price: MINA Price Index and Live Chart - The Block",
+      "source_name": "The Block",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBZM1ZOaHZLMmVlTnNLOXNaVU9KSzJPdmRrb3VEaVhtUk5sSGxQLXJUT0lyTzVFWm9DTGVvMy1uMUNFM1E1dU9Wa2hmWGN5NDk0SV9WbktR?oc=5",
+      "published_at": "Sat, 08 Aug 2026 15:22:13 GMT"
+    },
+    {
+      "title": "Coinbase to Suspend Six Trading Pairs Including MINA-EUR and CHZ-USDT on August 6 - Cryptonews.net",
+      "source_name": "Cryptonews.net",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFAwR0diaVRLY2FTQ1VZT0Q1TFhIdDk0N3BLS2FldE9ZV1V6ajFPenljQ1ZheDBxQ1haaXFRV0UwSmtMbnMxSDloY1pVZUtYOERHdEx4ZEQwcw?oc=5",
+      "published_at": "Wed, 05 Aug 2026 07:00:00 GMT"
+    },
+    {
+      "title": "MINA to PGK | Convert Mina Protocol to Papua New Guinean Kina - OKX",
+      "source_name": "OKX",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBDZVJpY3pPWThMYmNvQ051UzNFMG9qYzNRcDBjZk83QW16SlZBeXNzTElzTFJUVkRXY01fc3dQd2ItSnB1ckxXMmdJdWJPdktvWGdQeUNHcURla0tf?oc=5",
+      "published_at": "Tue, 18 Aug 2026 00:00:00 GMT"
+    },
+    {
+      "title": "Coinbase to Suspend Six Trading Pairs Including MINA-EUR and CHZ-USDT on August 6 - CryptoRank",
+      "source_name": "CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWXRHWW4tWkZNSTFXUGRNMk9pNkRfa3lGTkhyY3RIc01uZWVHeEU4LTFqYWQtSzQ0bVBoOHFrQmF0WlI2NVZxc0N4aEI0VnoyaE5FUVVEV0ZnaW5BVGpXcmx0T2hBaDN2cUVjVGFwWUhKT21fUXI2NXJEcmlMNnBvaHR3Tkw5TDZ4aTdIRVlCZ3kyaFZBOWtNLWNMWG8welZpR2FjM2xqOTFoT1J0YjdpdGJzYmZ1dDBwV2s4?oc=5",
+      "published_at": "Thu, 06 Aug 2026 07:00:00 GMT"
+    }
+  ],
+  "search_query_used": "Mina Protocol crypto",
+  "neutral_explanation": "MINAUSDT (MINA/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 82 (tier A+ Strong); market-cap rank 308. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal, clean transition. Broader crypto market context: 1085 assets scanned, 11 confirmed flips (1.0%). State distribution: Blue 66.0%, Gold 14.7%, Gray 11.8%, Unknown 7.6%. Strongest transition: Blue → Gold (9 of 11 flips). Source: reports/private_crypto_dashboard.csv. 5 coin-specific headline(s) were found via automated search; they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}
