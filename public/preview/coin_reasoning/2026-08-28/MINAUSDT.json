@@ -1,0 +1,84 @@
+{
+  "symbol": "MINAUSDT",
+  "date": "2026-08-28",
+  "generated_at": "2026-08-27T21:48:44.188549+00:00",
+  "scanner_evidence": {
+    "symbol": "MINAUSDT",
+    "pair": "MINA/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "82",
+    "score_tier": "A+ Strong",
+    "market_cap_rank": "308",
+    "gray_candles": "3",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "small-cap potential, small-cap high risk, fresh signal, clean transition",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=MINAUSDT",
+    "execution_time": "2026-08-28T00:48:42.542622+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1086 assets scanned, 10 confirmed flips (0.9%). State distribution: Blue 64.7%, Gold 15.6%, Gray 12.2%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 10 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "Regulatory/legal-related coverage",
+      "General market-news coverage, reviewed for context only."
+    ],
+    "context_generated_at": "2026-08-27T21:48:42.841291+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Mina Protocol to Deploy Mesa to Development Network on August 19th - TradingView",
+      "source_name": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNNTNuQnlCQzBUU3FhaXdvZmNTcmlEUWhUU0hWV2tvMVdrMXY5RjdmNVBHYWZMMV81akRobVpjNXZDcTRib1EyTThrbmJXQlUyWlBaSGNuOTNtUDV5Y1FoS1pEa3h2THU4MDlJZnoxeVYxUFdpLVFlTU9XRzFBa2I4MG13YTB5OU90X2pGdWl0VzhKczljTFhyUEJCeDJ1Q3BSN2VQZU95TkpRSlFVS0NjQ2JfalNYTHJvUlgyYi1LNXFfUQ?oc=5",
+      "published_at": "Tue, 18 Aug 2026 13:42:06 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Coinbase to Suspend Six Trading Pairs Including MINA-EUR and CHZ-USDT on August 6 - Cryptonews.net",
+      "source_name": "Cryptonews.net",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFAwR0diaVRLY2FTQ1VZT0Q1TFhIdDk0N3BLS2FldE9ZV1V6ajFPenljQ1ZheDBxQ1haaXFRV0UwSmtMbnMxSDloY1pVZUtYOERHdEx4ZEQwcw?oc=5",
+      "published_at": "Wed, 05 Aug 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "MINA to PGK | Convert Mina Protocol to Papua New Guinean Kina - OKX",
+      "source_name": "OKX",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBDZVJpY3pPWThMYmNvQ051UzNFMG9qYzNRcDBjZk83QW16SlZBeXNzTElzTFJUVkRXY01fc3dQd2ItSnB1ckxXMmdJdWJPdktvWGdQeUNHcURla0tf?oc=5",
+      "published_at": "Tue, 18 Aug 2026 00:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Coinbase to Suspend Six Trading Pairs Including MINA-EUR and CHZ-USDT on August 6 - CryptoRank",
+      "source_name": "CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWXRHWW4tWkZNSTFXUGRNMk9pNkRfa3lGTkhyY3RIc01uZWVHeEU4LTFqYWQtSzQ0bVBoOHFrQmF0WlI2NVZxc0N4aEI0VnoyaE5FUVVEV0ZnaW5BVGpXcmx0T2hBaDN2cUVjVGFwWUhKT21fUXI2NXJEcmlMNnBvaHR3Tkw5TDZ4aTdIRVlCZ3kyaFZBOWtNLWNMWG8welZpR2FjM2xqOTFoT1J0YjdpdGJzYmZ1dDBwV2s4?oc=5",
+      "published_at": "Thu, 06 Aug 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    },
+    {
+      "title": "o1Labs’ Co-CEO on Mina Protocol, Zero-Knowledge Proofs and Decentralization - CCN.com",
+      "source_name": "CCN.com",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVmxZY2lvNEI5UzA3ZmR1b1BfTUw5WUg5d1RvNHZnMXJCbHhtSFVCTmZKWUh6SDBCY1ZWV0pTa3VDMXNLOGtFVHhudDVLYjBqX0hSckUzQVhuUzA0LUEyd3dKVHpTTkg5N194eWUzRkQ2cFA5Tk5Zak56Q1FQem93RGlOTDZvb2xqWGRlcldxb1ROMEU?oc=5",
+      "published_at": "Mon, 02 Mar 2026 08:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "Mina Protocol crypto",
+  "reasoning_quality": "Medium",
+  "reasoning_quality_note": "Relevant evidence found (5 direct but not fresh headline(s)), but no headline is both coin-specific and fresh. Treat this as supporting context, not confirmation.",
+  "neutral_explanation": "MINAUSDT (MINA/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 82 (tier A+ Strong); market-cap rank 308. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal, clean transition. Broader crypto market context: 1086 assets scanned, 10 confirmed flips (0.9%). State distribution: Blue 64.7%, Gold 15.6%, Gray 12.2%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 10 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (5 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

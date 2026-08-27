@@ -1,12 +1,19 @@
 {
   "market": "commodities",
-  "generated_at": "2026-08-27T20:16:50.651462+00:00",
+  "generated_at": "2026-08-27T21:48:42.841291+00:00",
   "scanner_summary": "No commodity scanner data available in data/output; no asset count, flip count, or state distribution can be computed locally.",
   "possible_drivers": [
     "General market-news coverage, reviewed for context only."
   ],
   "uncertainty_note": "Automatically collected from public RSS headlines and local scanner output. Headlines are cited, not verified for accuracy or causal connection to price movement. This is not investment advice and does not contain buy, sell, hold, or execution guidance. Human review is required before treating anything here as reliable market context.",
   "sources": [
+    {
+      "title": "Europe Heads Into Winter With Gas Storage at a Two-Decade Low",
+      "source_name": "OilPrice.com",
+      "url": "https://oilprice.com/Energy/Natural-Gas/Europe-Heads-Into-Winter-With-Gas-Storage-at-a-Two-Decade-Low.html",
+      "published_at": "Thu, 27 Aug 2026 16:00:00 -0500",
+      "note": "General market-news coverage, reviewed for context only."
+    },
     {
       "title": "U.S. In Talks To Take Direct Ownership Of Venezuelan Oil Fields",
       "source_name": "OilPrice.com",
@@ -33,13 +40,6 @@
       "source_name": "OilPrice.com",
       "url": "https://oilprice.com/Energy/Energy-General/Central-Asia-Resists-US-Pressure-to-Choose-Sides-in-AI-Race.html",
       "published_at": "Thu, 27 Aug 2026 13:00:00 -0500",
-      "note": "General market-news coverage, reviewed for context only."
-    },
-    {
-      "title": "Energean in Exclusive Talks for $1 Billion BP Egypt Gas Deal",
-      "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Energean-in-Exclusive-Talks-for-1-Billion-BP-Egypt-Gas-Deal.html",
-      "published_at": "Thu, 27 Aug 2026 12:30:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {

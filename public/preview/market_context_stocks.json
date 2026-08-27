@@ -1,11 +1,11 @@
 {
   "market": "stocks",
-  "generated_at": "2026-08-27T20:16:50.651462+00:00",
+  "generated_at": "2026-08-27T21:48:42.841291+00:00",
   "scanner_summary": "50 assets scanned, 0 confirmed flips (0.0%). State distribution: Blue 14.0%, Gold 76.0%, Gray 10.0%, Unknown 0.0%. Source: data/output/stocks_weekly_results.json, last modified 2026-06-13 (75 days ago). Stale-data warning: source file is more than 30 days old.",
   "possible_drivers": [
     "Locally observed scanner state distribution and flip activity (see scanner_summary).",
     "General market-news coverage, reviewed for context only.",
-    "Earnings/guidance-related coverage"
+    "Macro/rates-related coverage"
   ],
   "uncertainty_note": "Automatically collected from public RSS headlines and local scanner output. Headlines are cited, not verified for accuracy or causal connection to price movement. This is not investment advice and does not contain buy, sell, hold, or execution guidance. Human review is required before treating anything here as reliable market context.",
   "sources": [
@@ -17,45 +17,45 @@
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Is Wall Street Bullish or Bearish on Ralph Lauren’s Stock?",
+      "title": "Cathie Wood bets on 'disrupter' stock with bullish analyst call",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-bullish-bearish-ralph-115620638.html",
-      "published_at": "2026-08-26T11:56:20Z",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/cathie-wood-bets-disrupter-stock-171503487.html",
+      "published_at": "2026-08-26T17:15:03Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Zoom Stock Retreats As Guidance Underwhelms Amid Consumer Slowdown",
+      "title": "Northern Trust Stock: Is Wall Street Bullish or Bearish?",
       "source_name": "Yahoo Finance",
-      "url": "https://www.investors.com/news/technology/zoom-stock-zm-zoom-earnings-q22026/?src=A00220&yptr=yahoo",
-      "published_at": "2026-08-26T11:59:43Z",
-      "note": "Earnings/guidance-related coverage"
-    },
-    {
-      "title": "Do Wall Street Analysts Like Arthur J. Gallagher Stock?",
-      "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-arthur-j-115126219.html",
-      "published_at": "2026-08-26T11:51:26Z",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/northern-trust-stock-wall-street-133533410.html",
+      "published_at": "2026-08-26T13:35:33Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Regeneron Pharmaceuticals Stock Outlook: Is Wall Street Bullish or Bearish?",
+      "title": "U.S. State Banking Associations To Launch Blockchain Network",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/regeneron-pharmaceuticals-stock-outlook-wall-120128745.html",
-      "published_at": "2026-08-26T12:01:28Z",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/u-state-banking-associations-launch-134500669.html",
+      "published_at": "2026-08-26T13:45:00Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "My mother, 91, has dementia. Every bank says I need her signature to unlock her $100,000 stock certificate. What can I do?",
+      "title": "Sticky PCE inflation leaves a divided central bank ahead of Fed's Jackson Hole retreat",
+      "source_name": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/economy/policy/article/sticky-pce-inflation-leaves-a-divided-central-bank-ahead-of-feds-jackson-hole-retreat-125248345.html",
+      "published_at": "2026-08-26T12:52:48Z",
+      "note": "Macro/rates-related coverage"
+    },
+    {
+      "title": "The S&P 500 is nearing a positive level — and the options market suggests a surge is likely",
       "source_name": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/my-mother-91-has-dementia-every-bank-says-i-need-her-signature-to-unlock-her-100-000-stock-certificate-what-can-i-do-4a2b702f?mod=mw_rss_topstories",
-      "published_at": "Thu, 27 Aug 2026 20:00:00 GMT",
+      "url": "https://www.marketwatch.com/story/the-s-p-500-is-nearing-an-especially-positive-price-and-the-options-market-suggests-a-surge-is-likely-a54d866d?mod=mw_rss_topstories",
+      "published_at": "Thu, 27 Aug 2026 21:31:00 GMT",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Good Good Golf ad fallout deepens as Callaway ends partnership, retailers pull gear and Golf Channel delays show",
+      "title": "Marvell is boosting its forecasts, but that’s not enough to lift its stock",
       "source_name": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/good-good-golf-ad-fallout-deepens-as-callaway-ends-partnership-retailers-pull-gear-and-golf-channel-delays-show-33546426?mod=mw_rss_topstories",
-      "published_at": "Thu, 27 Aug 2026 19:55:00 GMT",
+      "url": "https://www.marketwatch.com/story/marvell-is-boosting-its-forecasts-but-thats-not-enough-to-lift-its-stock-c769556a?mod=mw_rss_topstories",
+      "published_at": "Thu, 27 Aug 2026 21:12:00 GMT",
       "note": "General market-news coverage, reviewed for context only."
     }
   ]

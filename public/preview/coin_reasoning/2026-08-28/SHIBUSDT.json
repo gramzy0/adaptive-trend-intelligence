@@ -1,0 +1,84 @@
+{
+  "symbol": "SHIBUSDT",
+  "date": "2026-08-28",
+  "generated_at": "2026-08-27T21:48:44.188549+00:00",
+  "scanner_evidence": {
+    "symbol": "SHIBUSDT",
+    "pair": "SHIB/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "64",
+    "score_tier": "B Watch",
+    "market_cap_rank": "31",
+    "gray_candles": "5",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "large-cap stability, top market cap, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=SHIBUSDT",
+    "execution_time": "2026-08-28T00:48:42.542622+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1086 assets scanned, 10 confirmed flips (0.9%). State distribution: Blue 64.7%, Gold 15.6%, Gray 12.2%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 10 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "Regulatory/legal-related coverage",
+      "General market-news coverage, reviewed for context only."
+    ],
+    "context_generated_at": "2026-08-27T21:48:42.841291+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Asia's most regulated markets just said yes to Shiba Inu - thestreet.com",
+      "source_name": "thestreet.com",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZUpIYmg5eG9Tejk0YV9oSDM0NFlyLVJGZkR6ZmU0cTJPbDBlRzNtTFY2VG1WNjBOc192N3gtSURCM3B4S1VrVU4xNmV4TjZJNzh0cVg2UkVzbm5zSmF6NnRSTWxET2lXSndxY1RKdDVwc2dlcUJzczZDMi12S3dEaFlvVEpJdml0QTk4SmlEZUhJUHRTOENPZHdIdGlKR2NqZEZxVXVpZVRrVzhPRmlv?oc=5",
+      "published_at": "Mon, 24 Aug 2026 17:27:15 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "Japan Breakthrough Hands Shiba Inu (SHIB) Big Win in August, but September Threat Looms - Cryptonews.net",
+      "source_name": "Cryptonews.net",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE94SXoyVUR3M3QwQkx6YTdPbU5aMzJmMEVfVlBvbHhfTzg5VGxUdnFndzJocWt4bVo3Qk1WSHR0UzR6ZFN6WHJsVDR1TENnaGp3RGNSZGxsU29MMVU?oc=5",
+      "published_at": "Thu, 27 Aug 2026 14:37:49 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "Shiba Inu News: Why Is SHIB Price Up Today? - CryptoRank",
+      "source_name": "CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNcnYxb0lKMF9fV0Q3cm9DNllaMGJxazd6REt0cFNSbG5DQ2psTnNjbEJjRXVTcktNY3NMNE1XRjFmQWMwcTBwTlhHV2c2WHR3aFJycGxfTlVWbi1VT29NZ0JSNV9GbzF3amRnaXZDQWUwX2xDMlhUTGZDdnFPS1RjcVZmQWswQQ?oc=5",
+      "published_at": "Tue, 25 Aug 2026 10:09:20 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "Shiba Inu (SHIB) Breaks 11-Month Downtrend After Japan Approval - BeInCrypto",
+      "source_name": "BeInCrypto",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBNQ2NVWTZnWXRDWWZraU05VG5MbnpBWDBMZWZBTHdNUXJxR292UGJGd0swajF2ZlZDVFJOc3h0Y0tJOGlxdVhqRTUxV2d1dkVrTEZxOXhfeDZ4YzJSZkZRTHZPRGlXMFNV?oc=5",
+      "published_at": "Wed, 26 Aug 2026 11:20:00 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": false
+    },
+    {
+      "title": "Can Shiba Inu Reach $1 by 2027? The Answer Will Blow Your Mind. - Yahoo Finance",
+      "source_name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNNUdzUzgyZmF3U1pQdkdQUXJ5blYxXzZUUDRzanV0MVg2a2ZhdEJKSnJNcjljRkw5d3VYOHVJU21scmdCek1vaFZ2TmVMbC11bjg0NFAzRDdmbTFVejZrX0lmNXdLWHlua0xIS2RaZG53ZkhkeWswNkJQM1A4N0RVOEIteVpoS1c5ZGc0ekdBTnU?oc=5",
+      "published_at": "Wed, 15 Jul 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "Shiba Inu crypto",
+  "reasoning_quality": "Strong",
+  "reasoning_quality_note": "4 direct, fresh coin-specific headline(s) found (named the coin/project and published today or within the last 7 days).",
+  "neutral_explanation": "SHIBUSDT (SHIB/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 64 (tier B Watch); market-cap rank 31. Scanner note: Valid confirmed trend flip — large-cap stability, top market cap, fresh signal. Broader crypto market context: 1086 assets scanned, 10 confirmed flips (0.9%). State distribution: Blue 64.7%, Gold 15.6%, Gray 12.2%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 10 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (5 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}
