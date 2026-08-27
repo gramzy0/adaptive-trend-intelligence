@@ -1,7 +1,7 @@
 {
   "symbol": "QUICKUSDT",
   "date": "2026-08-27",
-  "generated_at": "2026-08-27T07:25:02.836222+00:00",
+  "generated_at": "2026-08-27T15:03:38.690322+00:00",
   "scanner_evidence": {
     "symbol": "QUICKUSDT",
     "pair": "QUICK/USDT",
@@ -21,15 +21,13 @@
   },
   "market_context_snapshot": {
     "available": true,
-    "scanner_summary": "1085 assets scanned, 11 confirmed flips (1.0%). State distribution: Blue 66.0%, Gold 14.7%, Gray 11.8%, Unknown 7.6%. Strongest transition: Blue → Gold (9 of 11 flips). Source: reports/private_crypto_dashboard.csv.",
+    "scanner_summary": "1086 assets scanned, 10 confirmed flips (0.9%). State distribution: Blue 64.7%, Gold 15.6%, Gray 12.2%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 10 flips). Source: reports/private_crypto_dashboard.csv.",
     "possible_drivers": [
       "Locally observed scanner state distribution and flip activity (see scanner_summary).",
       "General market-news coverage, reviewed for context only.",
-      "Macro/rates-related coverage",
-      "Regulatory/legal-related coverage",
-      "ETF/regulatory-related coverage"
+      "Macro/rates-related coverage"
     ],
-    "context_generated_at": "2026-08-27T07:25:01.419441+00:00"
+    "context_generated_at": "2026-08-27T15:03:37.188915+00:00"
   },
   "coin_specific_headlines": [
     {
@@ -41,7 +39,7 @@
     {
       "title": "What Is QuickSwap and How Does It Work? - Binance",
       "source_name": "Binance",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQcXdnRDhpWUIxamFJZl9uRXZvV1ExT19hYU1FTVRNVDF3ZnlFYzU1c29qZHJOeWlLM0UzbDJMNzZXVzNQUUwzNk5jYVFLLTllVGxNallYWnFQdWdKb3A4SVFWM0pRcG1NckJsYTVsdG5aSkdYZ0w5RnBQQkdRZUNJQ01Sd0g3azZTUVE?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOMGVlbGdFdmlac0lkSUpidS1tbFlZam9Oc3BoZUxNdTJtSk8yQUVQQWx5b1ltaEZENWlvNDU3Qkl5OTFaRXFlYUt2ZFZ6UEhTZHJIa0pKakQ3eWRKZzU1UEs0MWZOTmJkYUxIT216TVRyWXp4Z250MXVuUHlPbmpkZTRleUFrVHRUZlE?oc=5",
       "published_at": "Thu, 28 May 2026 07:00:00 GMT"
     },
     {
@@ -64,6 +62,6 @@
     }
   ],
   "search_query_used": "Quickswap crypto",
-  "neutral_explanation": "QUICKUSDT (QUICK/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 52 (tier B Watch); market-cap rank 1509. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 1085 assets scanned, 11 confirmed flips (1.0%). State distribution: Blue 66.0%, Gold 14.7%, Gray 11.8%, Unknown 7.6%. Strongest transition: Blue → Gold (9 of 11 flips). Source: reports/private_crypto_dashboard.csv. 5 coin-specific headline(s) were found via automated search; they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "neutral_explanation": "QUICKUSDT (QUICK/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 52 (tier B Watch); market-cap rank 1509. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 1086 assets scanned, 10 confirmed flips (0.9%). State distribution: Blue 64.7%, Gold 15.6%, Gray 12.2%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 10 flips). Source: reports/private_crypto_dashboard.csv. 5 coin-specific headline(s) were found via automated search; they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
   "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
 }

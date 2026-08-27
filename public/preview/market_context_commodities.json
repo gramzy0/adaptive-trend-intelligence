@@ -1,46 +1,45 @@
 {
   "market": "commodities",
-  "generated_at": "2026-08-27T07:25:01.419441+00:00",
+  "generated_at": "2026-08-27T15:03:37.188915+00:00",
   "scanner_summary": "No commodity scanner data available in data/output; no asset count, flip count, or state distribution can be computed locally.",
   "possible_drivers": [
-    "General market-news coverage, reviewed for context only.",
-    "Security-incident-related coverage"
+    "General market-news coverage, reviewed for context only."
   ],
   "uncertainty_note": "Automatically collected from public RSS headlines and local scanner output. Headlines are cited, not verified for accuracy or causal connection to price movement. This is not investment advice and does not contain buy, sell, hold, or execution guidance. Human review is required before treating anything here as reliable market context.",
   "sources": [
     {
-      "title": "Another Tanker Struck as Hormuz Shipping Crisis Deepens",
+      "title": "Strait of Hormuz Traffic Ticks Higher Amid New Diplomatic Push",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Another-Tanker-Struck-as-Hormuz-Shipping-Crisis-Deepens.html",
-      "published_at": "Thu, 27 Aug 2026 01:30:00 -0500",
+      "url": "https://oilprice.com/Energy/Energy-General/Strait-of-Hormuz-Traffic-Ticks-Higher-Amid-New-Diplomatic-Push.html",
+      "published_at": "Thu, 27 Aug 2026 10:00:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Global Oil Security Looks Shakier as Conflicts Hit 45 Million Bpd of Supply",
+      "title": "Trump Complained About Big Oil Profits, But Dumped Exxon Stock on Ceasefire Day",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Energy/Energy-General/Global-Oil-Security-Looks-Shakier-as-Conflicts-Hit-45-Million-Bpd-of-Supply.html",
-      "published_at": "Wed, 26 Aug 2026 19:00:00 -0500",
-      "note": "Security-incident-related coverage"
-    },
-    {
-      "title": "MIT Uses AI to Challenge a Century-Old Process for Mass Ammonia Production",
-      "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Energy/Energy-General/MIT-Uses-AI-to-Challenge-a-Century-Old-Process-for-Mass-Ammonia-Production.html",
-      "published_at": "Wed, 26 Aug 2026 18:00:00 -0500",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Complained-About-Big-Oil-Profits-But-Dumped-Exxon-Stock-on-Ceasefire-Day.html",
+      "published_at": "Thu, 27 Aug 2026 09:50:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Equinor Targets 27% International Production Growth by 2030",
+      "title": "Fortum Seeks State Aid for Major New Nuclear Project in Sweden",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Energy/Energy-General/Equinor-Targets-27-International-Production-Growth-by-2030.html",
-      "published_at": "Wed, 26 Aug 2026 17:00:00 -0500",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Fortum-Seeks-State-Aid-for-Major-New-Nuclear-Project-in-Sweden.html",
+      "published_at": "Thu, 27 Aug 2026 09:30:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Octopus Boss Warns UK Is Too Exposed to Global Gas Prices",
+      "title": "Baltic States Build Up Defenses Amid Rising Fears of Russian Aggression",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Energy/Natural-Gas/Octopus-Boss-Warns-UK-Is-Too-Exposed-to-Global-Gas-Prices.html",
-      "published_at": "Wed, 26 Aug 2026 16:00:00 -0500",
+      "url": "https://oilprice.com/Geopolitics/Europe/Baltic-States-Build-Up-Defenses-Amid-Rising-Fears-of-Russian-Aggression.html",
+      "published_at": "Thu, 27 Aug 2026 09:00:00 -0500",
+      "note": "General market-news coverage, reviewed for context only."
+    },
+    {
+      "title": "TotalEnergies Exits Russia’s Sanctioned Arctic LNG 2 Project",
+      "source_name": "OilPrice.com",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/TotalEnergies-Exits-Russias-Sanctioned-Arctic-LNG-2-Project.html",
+      "published_at": "Thu, 27 Aug 2026 08:30:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {

@@ -1,7 +1,7 @@
 {
   "symbol": "MINAUSDT",
   "date": "2026-08-27",
-  "generated_at": "2026-08-27T07:25:02.836222+00:00",
+  "generated_at": "2026-08-27T15:03:38.690322+00:00",
   "scanner_evidence": {
     "symbol": "MINAUSDT",
     "pair": "MINA/USDT",
@@ -21,28 +21,20 @@
   },
   "market_context_snapshot": {
     "available": true,
-    "scanner_summary": "1085 assets scanned, 11 confirmed flips (1.0%). State distribution: Blue 66.0%, Gold 14.7%, Gray 11.8%, Unknown 7.6%. Strongest transition: Blue → Gold (9 of 11 flips). Source: reports/private_crypto_dashboard.csv.",
+    "scanner_summary": "1086 assets scanned, 10 confirmed flips (0.9%). State distribution: Blue 64.7%, Gold 15.6%, Gray 12.2%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 10 flips). Source: reports/private_crypto_dashboard.csv.",
     "possible_drivers": [
       "Locally observed scanner state distribution and flip activity (see scanner_summary).",
       "General market-news coverage, reviewed for context only.",
-      "Macro/rates-related coverage",
-      "Regulatory/legal-related coverage",
-      "ETF/regulatory-related coverage"
+      "Macro/rates-related coverage"
     ],
-    "context_generated_at": "2026-08-27T07:25:01.419441+00:00"
+    "context_generated_at": "2026-08-27T15:03:37.188915+00:00"
   },
   "coin_specific_headlines": [
     {
-      "title": "Mina Protocol to Launch Mainnet on September 3rd - TradingView",
+      "title": "Mina Protocol to Deploy Mesa to Development Network on August 19th - TradingView",
       "source_name": "TradingView",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMnZ3SnV6SFVDdS14S1lRYlVyM3BxdFFnRXBocngtczlVVWVfVlZsWVJ6NEhTUDZiVGVReU96bVMtMURHNmFaUHZCYW13TjVsbFpTdE1JZ0hZeHBpNU8yZlgtckszY3c4emVtdGx1OEVWTlpmNWR6MHlHbnUxRFZpeWM5WVR5S29wLXpib0xVWTJIaS1IYnoxS1lFZ3VsZTdjTzFzOVlNbVdxQQ?oc=5",
-      "published_at": "Thu, 20 Aug 2026 16:46:26 GMT"
-    },
-    {
-      "title": "Mina Protocol Price: MINA Price Index and Live Chart - The Block",
-      "source_name": "The Block",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBZM1ZOaHZLMmVlTnNLOXNaVU9KSzJPdmRrb3VEaVhtUk5sSGxQLXJUT0lyTzVFWm9DTGVvMy1uMUNFM1E1dU9Wa2hmWGN5NDk0SV9WbktR?oc=5",
-      "published_at": "Sat, 08 Aug 2026 15:22:13 GMT"
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNNTNuQnlCQzBUU3FhaXdvZmNTcmlEUWhUU0hWV2tvMVdrMXY5RjdmNVBHYWZMMV81akRobVpjNXZDcTRib1EyTThrbmJXQlUyWlBaSGNuOTNtUDV5Y1FoS1pEa3h2THU4MDlJZnoxeVYxUFdpLVFlTU9XRzFBa2I4MG13YTB5OU90X2pGdWl0VzhKczljTFhyUEJCeDJ1Q3BSN2VQZU95TkpRSlFVS0NjQ2JfalNYTHJvUlgyYi1LNXFfUQ?oc=5",
+      "published_at": "Tue, 18 Aug 2026 13:42:06 GMT"
     },
     {
       "title": "Coinbase to Suspend Six Trading Pairs Including MINA-EUR and CHZ-USDT on August 6 - Cryptonews.net",
@@ -61,9 +53,15 @@
       "source_name": "CryptoRank",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWXRHWW4tWkZNSTFXUGRNMk9pNkRfa3lGTkhyY3RIc01uZWVHeEU4LTFqYWQtSzQ0bVBoOHFrQmF0WlI2NVZxc0N4aEI0VnoyaE5FUVVEV0ZnaW5BVGpXcmx0T2hBaDN2cUVjVGFwWUhKT21fUXI2NXJEcmlMNnBvaHR3Tkw5TDZ4aTdIRVlCZ3kyaFZBOWtNLWNMWG8welZpR2FjM2xqOTFoT1J0YjdpdGJzYmZ1dDBwV2s4?oc=5",
       "published_at": "Thu, 06 Aug 2026 07:00:00 GMT"
+    },
+    {
+      "title": "o1Labs’ Co-CEO on Mina Protocol, Zero-Knowledge Proofs and Decentralization - CCN.com",
+      "source_name": "CCN.com",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVmxZY2lvNEI5UzA3ZmR1b1BfTUw5WUg5d1RvNHZnMXJCbHhtSFVCTmZKWUh6SDBCY1ZWV0pTa3VDMXNLOGtFVHhudDVLYjBqX0hSckUzQVhuUzA0LUEyd3dKVHpTTkg5N194eWUzRkQ2cFA5Tk5Zak56Q1FQem93RGlOTDZvb2xqWGRlcldxb1ROMEU?oc=5",
+      "published_at": "Mon, 02 Mar 2026 08:00:00 GMT"
     }
   ],
   "search_query_used": "Mina Protocol crypto",
-  "neutral_explanation": "MINAUSDT (MINA/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 82 (tier A+ Strong); market-cap rank 308. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal, clean transition. Broader crypto market context: 1085 assets scanned, 11 confirmed flips (1.0%). State distribution: Blue 66.0%, Gold 14.7%, Gray 11.8%, Unknown 7.6%. Strongest transition: Blue → Gold (9 of 11 flips). Source: reports/private_crypto_dashboard.csv. 5 coin-specific headline(s) were found via automated search; they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "neutral_explanation": "MINAUSDT (MINA/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 82 (tier A+ Strong); market-cap rank 308. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal, clean transition. Broader crypto market context: 1086 assets scanned, 10 confirmed flips (0.9%). State distribution: Blue 64.7%, Gold 15.6%, Gray 12.2%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 10 flips). Source: reports/private_crypto_dashboard.csv. 5 coin-specific headline(s) were found via automated search; they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
   "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
 }

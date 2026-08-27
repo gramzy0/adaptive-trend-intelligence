@@ -1,42 +1,14 @@
 {
   "market": "stocks",
-  "generated_at": "2026-08-27T07:25:01.419441+00:00",
+  "generated_at": "2026-08-27T15:03:37.188915+00:00",
   "scanner_summary": "50 assets scanned, 0 confirmed flips (0.0%). State distribution: Blue 14.0%, Gold 76.0%, Gray 10.0%, Unknown 0.0%. Source: data/output/stocks_weekly_results.json, last modified 2026-06-13 (74 days ago). Stale-data warning: source file is more than 30 days old.",
   "possible_drivers": [
     "Locally observed scanner state distribution and flip activity (see scanner_summary).",
-    "Earnings/guidance-related coverage",
-    "General market-news coverage, reviewed for context only."
+    "General market-news coverage, reviewed for context only.",
+    "Earnings/guidance-related coverage"
   ],
   "uncertainty_note": "Automatically collected from public RSS headlines and local scanner output. Headlines are cited, not verified for accuracy or causal connection to price movement. This is not investment advice and does not contain buy, sell, hold, or execution guidance. Human review is required before treating anything here as reliable market context.",
   "sources": [
-    {
-      "title": "Louis Navellier has blunt message on Nvidia’s reign before earnings",
-      "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/louis-navellier-blunt-message-nvidia-214700439.html",
-      "published_at": "2026-08-25T21:47:00Z",
-      "note": "Earnings/guidance-related coverage"
-    },
-    {
-      "title": "Gold’s Best Month Since January Comes Courtesy of Scott Bessent",
-      "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/gold-best-month-since-january-191728957.html",
-      "published_at": "2026-08-25T19:17:28Z",
-      "note": "General market-news coverage, reviewed for context only."
-    },
-    {
-      "title": "ZIM (ZIM) Beat Estimates but Trades 19% Below its Buyout Price. Is the Deal Discount Too Wide?",
-      "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/zim-zim-beat-estimates-trades-192133438.html",
-      "published_at": "2026-08-25T19:21:33Z",
-      "note": "General market-news coverage, reviewed for context only."
-    },
-    {
-      "title": "BB Stock Alert: What to Know as Blackberry Doubles Down on Robotics",
-      "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/technology/ai/articles/bb-stock-alert-know-blackberry-192953230.html",
-      "published_at": "2026-08-25T19:29:53Z",
-      "note": "General market-news coverage, reviewed for context only."
-    },
     {
       "title": "Meta, states discuss mid-trial settlement in teen addiction case",
       "source_name": "Yahoo Finance",
@@ -45,17 +17,45 @@
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "What to know about Hugging Face, the open-source AI startup reportedly catching Nvidia’s eye",
-      "source_name": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/what-to-know-about-hugging-face-the-open-source-ai-startup-reportedly-catching-nvidias-eye-243771f8?mod=mw_rss_topstories",
-      "published_at": "Thu, 27 Aug 2026 03:17:00 GMT",
+      "title": "Stock market today: S&P 500, Nasdaq rise as Nvidia, Salesforce earnings boost tech",
+      "source_name": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-august-27-dow-sp-500-nasdaq-082144520.html",
+      "published_at": "2026-08-27T08:21:44Z",
+      "note": "Earnings/guidance-related coverage"
+    },
+    {
+      "title": "Bitcoin Price Tests $80,000 In 'Powerful Setup.' IREN Earnings Due.",
+      "source_name": "Yahoo Finance",
+      "url": "https://www.investors.com/news/bitcoin-price-test-key-level-treasury-trump-adminsitration-clarity-act-crypto-regulations-iren-earnings-crypto-stocks/?src=A00220&yptr=yahoo",
+      "published_at": "2026-08-27T14:49:39Z",
+      "note": "Earnings/guidance-related coverage"
+    },
+    {
+      "title": "KinderCare (KLC) Trims Its Footprint While Enrollment Keeps Slipping",
+      "source_name": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/kindercare-klc-trims-footprint-while-144458135.html",
+      "published_at": "2026-08-27T14:44:58Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "‘My main goal is to help people’: I’m single, 74, with $10 million burning a hole in my pocket. What should I do?",
+      "title": "How Miami International Holdings (MIAX) is Redefining Derivatives Markets",
+      "source_name": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/options/articles/miami-international-holdings-miax-redefining-144318791.html",
+      "published_at": "2026-08-27T14:43:18Z",
+      "note": "General market-news coverage, reviewed for context only."
+    },
+    {
+      "title": "My father-in-law passed away, leaving a house with tenants. Do I evict them?",
       "source_name": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/my-main-goal-is-to-help-people-im-single-74-with-10-million-burning-a-hole-in-my-pocket-what-should-i-do-0e6112e1?mod=mw_rss_topstories",
-      "published_at": "Thu, 27 Aug 2026 02:41:00 GMT",
+      "url": "https://www.marketwatch.com/story/my-father-in-law-passed-away-leaving-a-house-with-tenants-do-i-evict-them-f974428c?mod=mw_rss_topstories",
+      "published_at": "Thu, 27 Aug 2026 15:00:00 GMT",
+      "note": "General market-news coverage, reviewed for context only."
+    },
+    {
+      "title": "What to know about Hugging Face, the open-source AI startup reportedly catching Nvidia’s eye",
+      "source_name": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/what-to-know-about-hugging-face-the-open-source-ai-startup-reportedly-catching-nvidias-eye-243771f8?mod=mw_rss_topstories",
+      "published_at": "Thu, 27 Aug 2026 14:48:00 GMT",
       "note": "General market-news coverage, reviewed for context only."
     }
   ]

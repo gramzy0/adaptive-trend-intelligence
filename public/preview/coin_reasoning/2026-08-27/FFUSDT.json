@@ -1,7 +1,7 @@
 {
   "symbol": "FFUSDT",
   "date": "2026-08-27",
-  "generated_at": "2026-08-27T07:25:02.836222+00:00",
+  "generated_at": "2026-08-27T15:03:38.690322+00:00",
   "scanner_evidence": {
     "symbol": "FFUSDT",
     "pair": "FF/USDT",
@@ -21,15 +21,13 @@
   },
   "market_context_snapshot": {
     "available": true,
-    "scanner_summary": "1085 assets scanned, 11 confirmed flips (1.0%). State distribution: Blue 66.0%, Gold 14.7%, Gray 11.8%, Unknown 7.6%. Strongest transition: Blue → Gold (9 of 11 flips). Source: reports/private_crypto_dashboard.csv.",
+    "scanner_summary": "1086 assets scanned, 10 confirmed flips (0.9%). State distribution: Blue 64.7%, Gold 15.6%, Gray 12.2%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 10 flips). Source: reports/private_crypto_dashboard.csv.",
     "possible_drivers": [
       "Locally observed scanner state distribution and flip activity (see scanner_summary).",
       "General market-news coverage, reviewed for context only.",
-      "Macro/rates-related coverage",
-      "Regulatory/legal-related coverage",
-      "ETF/regulatory-related coverage"
+      "Macro/rates-related coverage"
     ],
-    "context_generated_at": "2026-08-27T07:25:01.419441+00:00"
+    "context_generated_at": "2026-08-27T15:03:37.188915+00:00"
   },
   "coin_specific_headlines": [
     {
@@ -51,19 +49,19 @@
       "published_at": "Wed, 27 May 2026 07:00:00 GMT"
     },
     {
+      "title": "Falcon Finance Crypto Review 2026: USDf, FF Token, Staking & Risks - CoinSpot.io",
+      "source_name": "CoinSpot.io",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBDNEtxWi1CcVVsVFR5UnJObnpETTVsdkljMm5YUGRjNVVHTGZiU0E3UjJqUXZ6M2FYTURWV3UycXE5NjljSDFHTkFxNnlvRFlneHM3X0p3b2pLUQ?oc=5",
+      "published_at": "Thu, 12 Mar 2026 23:09:55 GMT"
+    },
+    {
       "title": "Collateral, not yield, will decide which stablecoins win - CoinDesk",
       "source_name": "CoinDesk",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWUpzcEdDZTRtN0pGMGVBSGpETy1ZRm1sVXZkSGNPRlJYLWloM1Faa2Eyd0FVYWsyamVJYmQybVNTcVB4OW9xU1lqMlpVbkhyNEhuQ2QtTUVYaTliWU81cUh0cEJUQ1JYSXdsQkpueGhHaTJXVGtfTUg0aFBiTjhSYlZQNEtfR3ZGMHhsbGVkUkxBci0zRmNvZjE3bUVjTGM?oc=5",
       "published_at": "Sun, 05 Jul 2026 07:00:00 GMT"
-    },
-    {
-      "title": "Falcon Finance and Anchorage Digital Launch fUSD Stablecoin With 3% Yield for Institutional Holders - Coinpedia",
-      "source_name": "Coinpedia",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNMG54Q1pQb3RkcEd2dTF0U1ZPMmhpTEx5SXYtcmNXc0ZZMXN0QThuYnpVZjEtQjd3UkthUTlnNGtsODlQb1BCWVg2Q1IxalQzRXZoVEtSdmlXU0tZSDV4MWN2ODdzQ003aWVrdnhZb1UtTERzV2dsVWZQRXFTazNVREZuNW8zcXZObXc0TXI5UlhyTlBiVW5sUWdBQVRkMVZ6OUgwOXJzUVRIY0NtU2RUd1hsVzdyRDFJYmpJR1p3NlNTLWg10gHKAUFVX3lxTE4xUm1acHhvZS1zZGd4cmJLRVc5b3lDd1NZRElKekQzaDFfVUlhQkxha1dJN0t6cjVPeGVWd2RHTG8tRzdUakFvTmxQV2FpUmxBOThnMEhUeDJyX2YtRThpZXJVbHg4dlVkV3RqRmtqQ0oxSFloQkpVblU3Mjc1Rnc2d2dvckw4VnlpY3ZVV1pIY1ZTdHFSRHRRM2ppbk9qTWJPQXB1aHpYaU9GLU4wTFNoSmVOZmZQbGx2aWpfMFJHYjktZWxEZDdtaHc?oc=5",
-      "published_at": "Wed, 27 May 2026 07:00:00 GMT"
     }
   ],
   "search_query_used": "Falcon Finance crypto",
-  "neutral_explanation": "FFUSDT (FF/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 82 (tier A+ Strong); market-cap rank 137. Scanner note: Valid confirmed trend flip — fresh signal, clean transition. Broader crypto market context: 1085 assets scanned, 11 confirmed flips (1.0%). State distribution: Blue 66.0%, Gold 14.7%, Gray 11.8%, Unknown 7.6%. Strongest transition: Blue → Gold (9 of 11 flips). Source: reports/private_crypto_dashboard.csv. 5 coin-specific headline(s) were found via automated search; they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "neutral_explanation": "FFUSDT (FF/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 82 (tier A+ Strong); market-cap rank 137. Scanner note: Valid confirmed trend flip — fresh signal, clean transition. Broader crypto market context: 1086 assets scanned, 10 confirmed flips (0.9%). State distribution: Blue 64.7%, Gold 15.6%, Gray 12.2%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 10 flips). Source: reports/private_crypto_dashboard.csv. 5 coin-specific headline(s) were found via automated search; they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
   "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
 }
