@@ -1,7 +1,7 @@
 {
   "symbol": "COMPUSDT",
   "date": "2026-08-27",
-  "generated_at": "2026-08-27T18:23:48.366597+00:00",
+  "generated_at": "2026-08-27T20:16:52.121092+00:00",
   "scanner_evidence": {
     "symbol": "COMPUSDT",
     "pair": "COMP/USDT",
@@ -24,10 +24,10 @@
     "scanner_summary": "1086 assets scanned, 10 confirmed flips (0.9%). State distribution: Blue 64.7%, Gold 15.6%, Gray 12.2%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 10 flips). Source: reports/private_crypto_dashboard.csv.",
     "possible_drivers": [
       "Locally observed scanner state distribution and flip activity (see scanner_summary).",
-      "General market-news coverage, reviewed for context only.",
-      "Earnings/guidance-related coverage"
+      "Regulatory/legal-related coverage",
+      "General market-news coverage, reviewed for context only."
     ],
-    "context_generated_at": "2026-08-27T18:23:47.059254+00:00"
+    "context_generated_at": "2026-08-27T20:16:50.651462+00:00"
   },
   "coin_specific_headlines": [
     {

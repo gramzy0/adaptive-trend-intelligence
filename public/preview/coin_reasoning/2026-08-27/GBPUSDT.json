@@ -1,7 +1,7 @@
 {
   "symbol": "GBPUSDT",
   "date": "2026-08-27",
-  "generated_at": "2026-08-27T18:23:48.366597+00:00",
+  "generated_at": "2026-08-27T20:16:52.121092+00:00",
   "scanner_evidence": {
     "symbol": "GBPUSDT",
     "pair": "GBP/USDT",
@@ -24,10 +24,10 @@
     "scanner_summary": "1086 assets scanned, 10 confirmed flips (0.9%). State distribution: Blue 64.7%, Gold 15.6%, Gray 12.2%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 10 flips). Source: reports/private_crypto_dashboard.csv.",
     "possible_drivers": [
       "Locally observed scanner state distribution and flip activity (see scanner_summary).",
-      "General market-news coverage, reviewed for context only.",
-      "Earnings/guidance-related coverage"
+      "Regulatory/legal-related coverage",
+      "General market-news coverage, reviewed for context only."
     ],
-    "context_generated_at": "2026-08-27T18:23:47.059254+00:00"
+    "context_generated_at": "2026-08-27T20:16:50.651462+00:00"
   },
   "coin_specific_headlines": [
     {
@@ -67,10 +67,10 @@
       "default_visible": false
     },
     {
-      "title": "Weekly forex forecast: EUR/USD, XAU/USD, GBP/USD, USD/JPY, Bitcoin and more [Video] - FXStreet",
-      "source_name": "FXStreet",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPQTVPSGdJa1RJeS0zYWh1WjBaM1pJWG84cF9yTFZvYzlTYmJ6UXpQZE9fbDNMNlcxQTVHZWVXeHFKd3NDbmlPWHdrTDNJMk01TlVTekg1RlNPUFJoUnVOcEctdFB4STJNbTBxeUx5TmFBYVpveWFWVWlpd3JIWWpBVF9Kb0dFc1h3azZrZDhob3Q1YkJaeXpXR3RFZ3pKTElQZVduallZWE9keVZHNVBSY0ZWV2Qtb0dyUVNtRkl2R0E?oc=5",
-      "published_at": "Wed, 19 Aug 2026 10:53:31 GMT",
+      "title": "Top 10 Crypto Cards for 2026 (Updated) - CoinGecko",
+      "source_name": "CoinGecko",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5JTHJ0N1FyeUZ3emhpUHk5OWFwUW1Xc3lhSmRZaWtlN1dBenVHX29RbGNUekV4S3pzUVFteFB3NUNIWWxkVnVxdDhlSlJTQkxYY1U0WFRmNDV3Tmc4?oc=5",
+      "published_at": "Fri, 07 Aug 2026 07:00:00 GMT",
       "relevance": "unrelated",
       "freshness": "Old",
       "default_visible": false
