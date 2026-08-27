@@ -1,6 +1,6 @@
 {
   "market": "commodities",
-  "generated_at": "2026-08-27T15:03:37.188915+00:00",
+  "generated_at": "2026-08-27T18:23:47.059254+00:00",
   "scanner_summary": "No commodity scanner data available in data/output; no asset count, flip count, or state distribution can be computed locally.",
   "possible_drivers": [
     "General market-news coverage, reviewed for context only."
@@ -8,38 +8,38 @@
   "uncertainty_note": "Automatically collected from public RSS headlines and local scanner output. Headlines are cited, not verified for accuracy or causal connection to price movement. This is not investment advice and does not contain buy, sell, hold, or execution guidance. Human review is required before treating anything here as reliable market context.",
   "sources": [
     {
-      "title": "Strait of Hormuz Traffic Ticks Higher Amid New Diplomatic Push",
+      "title": "Central Asia Resists US Pressure to Choose Sides in AI Race",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Energy/Energy-General/Strait-of-Hormuz-Traffic-Ticks-Higher-Amid-New-Diplomatic-Push.html",
-      "published_at": "Thu, 27 Aug 2026 10:00:00 -0500",
+      "url": "https://oilprice.com/Energy/Energy-General/Central-Asia-Resists-US-Pressure-to-Choose-Sides-in-AI-Race.html",
+      "published_at": "Thu, 27 Aug 2026 13:00:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Trump Complained About Big Oil Profits, But Dumped Exxon Stock on Ceasefire Day",
+      "title": "Energean in Exclusive Talks for $1 Billion BP Egypt Gas Deal",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Complained-About-Big-Oil-Profits-But-Dumped-Exxon-Stock-on-Ceasefire-Day.html",
-      "published_at": "Thu, 27 Aug 2026 09:50:00 -0500",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Energean-in-Exclusive-Talks-for-1-Billion-BP-Egypt-Gas-Deal.html",
+      "published_at": "Thu, 27 Aug 2026 12:30:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Fortum Seeks State Aid for Major New Nuclear Project in Sweden",
+      "title": "Venezuela’s Oil Revival Gains Momentum",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Fortum-Seeks-State-Aid-for-Major-New-Nuclear-Project-in-Sweden.html",
-      "published_at": "Thu, 27 Aug 2026 09:30:00 -0500",
+      "url": "https://oilprice.com/Energy/Energy-General/Venezuelas-Oil-Revival-Gains-Momentum.html",
+      "published_at": "Thu, 27 Aug 2026 12:00:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Baltic States Build Up Defenses Amid Rising Fears of Russian Aggression",
+      "title": "45 Power Plants in India Running on Critically Low Levels of Coal Stocks",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Geopolitics/Europe/Baltic-States-Build-Up-Defenses-Amid-Rising-Fears-of-Russian-Aggression.html",
-      "published_at": "Thu, 27 Aug 2026 09:00:00 -0500",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/45-Power-Plants-in-India-Running-on-Critically-Low-Levels-of-Coal-Stocks.html",
+      "published_at": "Thu, 27 Aug 2026 11:30:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "TotalEnergies Exits Russia’s Sanctioned Arctic LNG 2 Project",
+      "title": "The AI Boom Is Driving a New Era of U.S. Power Demand",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/TotalEnergies-Exits-Russias-Sanctioned-Arctic-LNG-2-Project.html",
-      "published_at": "Thu, 27 Aug 2026 08:30:00 -0500",
+      "url": "https://oilprice.com/Energy/Energy-General/The-AI-Boom-Is-Driving-a-New-Era-of-US-Power-Demand.html",
+      "published_at": "Thu, 27 Aug 2026 11:00:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {

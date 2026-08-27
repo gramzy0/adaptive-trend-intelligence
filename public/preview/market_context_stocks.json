@@ -1,11 +1,11 @@
 {
   "market": "stocks",
-  "generated_at": "2026-08-27T15:03:37.188915+00:00",
+  "generated_at": "2026-08-27T18:23:47.059254+00:00",
   "scanner_summary": "50 assets scanned, 0 confirmed flips (0.0%). State distribution: Blue 14.0%, Gold 76.0%, Gray 10.0%, Unknown 0.0%. Source: data/output/stocks_weekly_results.json, last modified 2026-06-13 (74 days ago). Stale-data warning: source file is more than 30 days old.",
   "possible_drivers": [
     "Locally observed scanner state distribution and flip activity (see scanner_summary).",
     "General market-news coverage, reviewed for context only.",
-    "Earnings/guidance-related coverage"
+    "Macro/rates-related coverage"
   ],
   "uncertainty_note": "Automatically collected from public RSS headlines and local scanner output. Headlines are cited, not verified for accuracy or causal connection to price movement. This is not investment advice and does not contain buy, sell, hold, or execution guidance. Human review is required before treating anything here as reliable market context.",
   "sources": [
@@ -17,45 +17,45 @@
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Stock market today: S&P 500, Nasdaq rise as Nvidia, Salesforce earnings boost tech",
+      "title": "Japan to Unveil New Oil Diversification Strategy",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-august-27-dow-sp-500-nasdaq-082144520.html",
-      "published_at": "2026-08-27T08:21:44Z",
-      "note": "Earnings/guidance-related coverage"
-    },
-    {
-      "title": "Bitcoin Price Tests $80,000 In 'Powerful Setup.' IREN Earnings Due.",
-      "source_name": "Yahoo Finance",
-      "url": "https://www.investors.com/news/bitcoin-price-test-key-level-treasury-trump-adminsitration-clarity-act-crypto-regulations-iren-earnings-crypto-stocks/?src=A00220&yptr=yahoo",
-      "published_at": "2026-08-27T14:49:39Z",
-      "note": "Earnings/guidance-related coverage"
-    },
-    {
-      "title": "KinderCare (KLC) Trims Its Footprint While Enrollment Keeps Slipping",
-      "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/kindercare-klc-trims-footprint-while-144458135.html",
-      "published_at": "2026-08-27T14:44:58Z",
+      "url": "https://finance.yahoo.com/energy/articles/japan-unveil-oil-diversification-strategy-083000643.html",
+      "published_at": "2026-08-26T08:30:00Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "How Miami International Holdings (MIAX) is Redefining Derivatives Markets",
+      "title": "Can Converting 25% of My 401(k) Over 4 Years Help Me Avoid RMDs and Taxes Before Retirement?",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/options/articles/miami-international-holdings-miax-redefining-144318791.html",
-      "published_at": "2026-08-27T14:43:18Z",
+      "url": "https://finance.yahoo.com/news/want-retire-4-years-convert-143249461.html",
+      "published_at": "2026-08-26T09:00:00Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "My father-in-law passed away, leaving a house with tenants. Do I evict them?",
+      "title": "Goldman Sachs warns the U.S. needs 500,000 more energy workers by 2030 as 41% of the workforce nears retirement",
+      "source_name": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/energy/articles/goldman-sachs-warns-u-needs-090000506.html",
+      "published_at": "2026-08-26T09:00:00Z",
+      "note": "General market-news coverage, reviewed for context only."
+    },
+    {
+      "title": "Bitcoin Rally Stalls at $80,000 as Traders Await Inflation Data",
+      "source_name": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-rally-stalls-at-80000-as-traders-await-inflation-data-082152117.html",
+      "published_at": "2026-08-26T08:21:52Z",
+      "note": "Macro/rates-related coverage"
+    },
+    {
+      "title": "‘The estrangement isn’t about politics’: My daughter hasn’t spoken to me for 4 years. Do I leave her a monthly annuity?",
       "source_name": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/my-father-in-law-passed-away-leaving-a-house-with-tenants-do-i-evict-them-f974428c?mod=mw_rss_topstories",
-      "published_at": "Thu, 27 Aug 2026 15:00:00 GMT",
+      "url": "https://www.marketwatch.com/story/its-truly-a-tragedy-my-daughter-hasnt-spoken-to-me-for-4-years-but-it-has-nothing-to-do-with-politics-86c4bcf6?mod=mw_rss_topstories",
+      "published_at": "Thu, 27 Aug 2026 18:00:00 GMT",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "What to know about Hugging Face, the open-source AI startup reportedly catching Nvidia’s eye",
+      "title": "SpaceX’s $100 billion spaceport plan has investors asking where all the money is coming from",
       "source_name": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/what-to-know-about-hugging-face-the-open-source-ai-startup-reportedly-catching-nvidias-eye-243771f8?mod=mw_rss_topstories",
-      "published_at": "Thu, 27 Aug 2026 14:48:00 GMT",
+      "url": "https://www.marketwatch.com/story/spacexs-100-billion-spaceport-plan-has-investors-asking-where-all-the-money-is-coming-from-7395bc51?mod=mw_rss_topstories",
+      "published_at": "Thu, 27 Aug 2026 17:43:00 GMT",
       "note": "General market-news coverage, reviewed for context only."
     }
   ]

@@ -1,61 +1,61 @@
 {
   "market": "crypto",
-  "generated_at": "2026-08-27T15:03:37.188915+00:00",
+  "generated_at": "2026-08-27T18:23:47.059254+00:00",
   "scanner_summary": "1086 assets scanned, 10 confirmed flips (0.9%). State distribution: Blue 64.7%, Gold 15.6%, Gray 12.2%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 10 flips). Source: reports/private_crypto_dashboard.csv.",
   "possible_drivers": [
     "Locally observed scanner state distribution and flip activity (see scanner_summary).",
     "General market-news coverage, reviewed for context only.",
-    "Macro/rates-related coverage"
+    "Earnings/guidance-related coverage"
   ],
   "uncertainty_note": "Automatically collected from public RSS headlines and local scanner output. Headlines are cited, not verified for accuracy or causal connection to price movement. This is not investment advice and does not contain buy, sell, hold, or execution guidance. Human review is required before treating anything here as reliable market context.",
   "sources": [
     {
-      "title": "Clearing firm RQD* raises $74 million as Wall Street prepares for tokenized markets",
+      "title": "Ethena surges as buyback vote, VC unlock overhaul boost token outlook",
       "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/08/27/clearing-firm-rqd-raises-usd74-million-as-wall-street-prepares-for-tokenized-markets",
-      "published_at": "Thu, 27 Aug 2026 14:32:41 +0000",
+      "url": "https://www.coindesk.com/markets/2026/08/27/ethena-surges-as-buyback-vote-vc-unlock-overhaul-boost-token-outlook",
+      "published_at": "Thu, 27 Aug 2026 17:32:20 +0000",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Crypto traders brace for Fed Chair Kevin Warsh’s Jackson Hole speech",
+      "title": "GTA 6 leaker cashes out of his own memecoin hours before Rockstar's gameplay reveal",
       "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/08/27/bitcoin-holds-near-usd80-000-as-traders-brace-for-warsh-s-jackson-hole-fed-speech",
-      "published_at": "Thu, 27 Aug 2026 14:01:05 +0000",
-      "note": "Macro/rates-related coverage"
-    },
-    {
-      "title": "The Clarity Act will put Main Street banks at a disadvantage",
-      "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/opinion/2026/08/27/the-clarity-act-will-put-main-street-banks-at-a-disadvantage",
-      "published_at": "Thu, 27 Aug 2026 12:30:00 +0000",
+      "url": "https://www.coindesk.com/business/2026/08/27/gta-6-leaker-cashes-out-of-his-own-memecoin-hours-before-rockstar-s-gameplay-reveal",
+      "published_at": "Thu, 27 Aug 2026 16:32:38 +0000",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "AI bug reports trigger emergency warning for Bitcoin Lightning node operators",
+      "title": "Polish Olympic chief arrested as prosecutors probe suspected crypto-linked bribe",
       "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/tech/2026/08/27/ai-bug-reports-trigger-emergency-warning-for-bitcoin-lightning-node-operators",
-      "published_at": "Thu, 27 Aug 2026 12:08:33 +0000",
+      "url": "https://www.coindesk.com/business/2026/08/27/polish-olympic-chief-arrested-as-prosecutors-probe-suspected-crypto-linked-bribe",
+      "published_at": "Thu, 27 Aug 2026 16:12:10 +0000",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Mirae Asset eyes $109 billion crypto empire after acquiring Digital X",
+      "title": "MoonPay’s newest integration lets AI agents handle crypto lending on Solana",
       "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/08/27/mirae-asset-eyes-usd109-billion-crypto-empire-after-acquiring-digital-x",
-      "published_at": "Thu, 27 Aug 2026 11:37:10 +0000",
+      "url": "https://www.coindesk.com/business/2026/08/27/moonpay-s-newest-integration-lets-ai-agents-handle-crypto-lending-on-solana",
+      "published_at": "Thu, 27 Aug 2026 15:52:21 +0000",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Ripple Prime expands into US equity derivatives with Delta One business",
+      "title": "240 UK taxpayers made more than $1.3 million each from crypto holdings in fiscal 2025",
+      "source_name": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/08/27/240-uk-taxpayers-made-more-than-usd1-3-million-each-from-crypto-holdings-in-fiscal-2025",
+      "published_at": "Thu, 27 Aug 2026 15:36:25 +0000",
+      "note": "General market-news coverage, reviewed for context only."
+    },
+    {
+      "title": "Bitcoin eyes $81K as Nvidia earnings beat boosts risk assets",
       "source_name": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/ripple-prime-us-equities-delta-one?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "Thu, 27 Aug 2026 13:54:22 +0000",
-      "note": "General market-news coverage, reviewed for context only."
+      "url": "https://cointelegraph.com/markets/bitcoin-eyes-81k-as-nvidia-earnings-beat-boosts-risk-assets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "Thu, 27 Aug 2026 17:15:43 +0000",
+      "note": "Earnings/guidance-related coverage"
     },
     {
-      "title": "Bank of England set for new innovation mandate covering stablecoins",
+      "title": "Charles Schwab adda Solana, Avalanche and Chainlink to nascent crypto platform",
       "source_name": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/uk-boe-innovation-mandate-stablecoins?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "Thu, 27 Aug 2026 12:51:59 +0000",
+      "url": "https://cointelegraph.com/news/charles-schwab-to-add-solana-avalanche-and-chainlink-to-crypto-platform?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "Thu, 27 Aug 2026 16:13:10 +0000",
       "note": "General market-news coverage, reviewed for context only."
     }
   ]

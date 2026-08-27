@@ -1,7 +1,7 @@
 {
   "symbol": "EPICUSDT",
   "date": "2026-08-27",
-  "generated_at": "2026-08-27T15:03:38.690322+00:00",
+  "generated_at": "2026-08-27T18:23:48.366597+00:00",
   "scanner_evidence": {
     "symbol": "EPICUSDT",
     "pair": "EPIC/USDT",
@@ -25,43 +25,60 @@
     "possible_drivers": [
       "Locally observed scanner state distribution and flip activity (see scanner_summary).",
       "General market-news coverage, reviewed for context only.",
-      "Macro/rates-related coverage"
+      "Earnings/guidance-related coverage"
     ],
-    "context_generated_at": "2026-08-27T15:03:37.188915+00:00"
+    "context_generated_at": "2026-08-27T18:23:47.059254+00:00"
   },
   "coin_specific_headlines": [
-    {
-      "title": "10 Low-Cap Crypto Gems with 100x Potential for 2026 - YouHodler",
-      "source_name": "YouHodler",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9tdkNZZDhrbm5BbUJUbVpDdFljeXlHaXRLVXJkRFliVV9yajZ5dWo0enEycnJmc1hCaEh2RV9tWHh2QWlyZXdjQ0UzNUFCZzRBYVplcThkN1AzLWZXV2o5MDQ0VQ?oc=5",
-      "published_at": "Tue, 23 Jun 2026 15:47:46 GMT"
-    },
     {
       "title": "Epic Chain Crypto Analysis: 1.18 Rally Meets Overbought Test - The Cryptonomist",
       "source_name": "The Cryptonomist",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5KYWgwTXRRTUlGamlmZUgwQjBIN185eEF2TG9TLWJjN0pmanN1dTNBSEVUU3pPbXFmOWp4OGwxLXlxejN1eWg0cjhSMmtWeEpraGNNQVJfd0lOeGdjMm84UlAxZmg4X1BGbkhoVlhyRkttWnhISENPeHdIQTVCcW8?oc=5",
-      "published_at": "Fri, 07 Aug 2026 07:00:00 GMT"
+      "published_at": "Fri, 07 Aug 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
     },
     {
       "title": "Binance to extend monitoring tag to ALCX, COOKIE, DODO, EPIC, HEI, HFT, STORJ, SYN & TLM - FX News Group",
       "source_name": "FX News Group",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOdWNvamlrc184ZlhrU1RlVlNOb2NmUEpsWjhxMl9UdTBiekhrbEdOVTNhLWczdWVMNWZfSjZGYVlxQzJkZERFUS1JcmVhdFhVNHctTFVDdUU5ZWVxRl9keWZYNEc5U1M3Z0JKREZqM1BEVktpOU1LTmhDVWY2VFlSTEs2aGM3S2FBc1pxSWhBbEZmZ0JBa3QyYmtIazIxUTN4WFFOQm5vS3BOU2ZwN0JNOXBCOENmNndIclp4VDJMX1hlc1JZTENzUTRB?oc=5",
-      "published_at": "Fri, 22 May 2026 07:00:00 GMT"
-    },
-    {
-      "title": "What is Ethernity Chain (ERN)? - OKX",
-      "source_name": "OKX",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1EcVZ3OTgyN2Z2OGI4MDJfX3VMWnAyRVJvUzRGQ1VmZ1ZTOHVIQjBsVVkxaVpmc1d4Q3V3blNCQ1JENS1QZl8yTmtBbFJXZ1AydlIxZDVpNTVXSUxYVkFaLUtLWQ?oc=5",
-      "published_at": "Thu, 25 Dec 2025 08:00:00 GMT"
+      "published_at": "Fri, 22 May 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
     },
     {
       "title": "Epic Chain Price, EPIC Price, Live Charts, and Marketcap: epic coin price, epic chain token, epic coin - Coinbase",
       "source_name": "Coinbase",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5Ha3JLMzU5Ukg5WlZZV0h1UDZ4aVJyUW0tSWpCeFBUbmNrU2xudFNvQTMwX1Y2cHhsd1pXRDc2NVh3MVN0VDl6U2l5eHlQUnRJQXRN?oc=5",
-      "published_at": "Wed, 12 Mar 2025 14:21:22 GMT"
+      "published_at": "Wed, 12 Mar 2025 14:21:22 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "10 Low-Cap Crypto Gems with 100x Potential for 2026 - YouHodler",
+      "source_name": "YouHodler",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9tdkNZZDhrbm5BbUJUbVpDdFljeXlHaXRLVXJkRFliVV9yajZ5dWo0enEycnJmc1hCaEh2RV9tWHh2QWlyZXdjQ0UzNUFCZzRBYVplcThkN1AzLWZXV2o5MDQ0VQ?oc=5",
+      "published_at": "Tue, 23 Jun 2026 15:47:46 GMT",
+      "relevance": "unrelated",
+      "freshness": "Old",
+      "default_visible": false
+    },
+    {
+      "title": "What is Ethernity Chain (ERN)? - OKX",
+      "source_name": "OKX",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1EcVZ3OTgyN2Z2OGI4MDJfX3VMWnAyRVJvUzRGQ1VmZ1ZTOHVIQjBsVVkxaVpmc1d4Q3V3blNCQ1JENS1QZl8yTmtBbFJXZ1AydlIxZDVpNTVXSUxYVkFaLUtLWQ?oc=5",
+      "published_at": "Thu, 25 Dec 2025 08:00:00 GMT",
+      "relevance": "unrelated",
+      "freshness": "Old",
+      "default_visible": false
     }
   ],
   "search_query_used": "Epic Chain crypto",
-  "neutral_explanation": "EPICUSDT (EPIC/USDT) recorded a confirmed state flip: Gold → Blue (Bearish). Scanner score 55 (tier B Watch); market-cap rank 1111. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 1086 assets scanned, 10 confirmed flips (0.9%). State distribution: Blue 64.7%, Gold 15.6%, Gray 12.2%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 10 flips). Source: reports/private_crypto_dashboard.csv. 5 coin-specific headline(s) were found via automated search; they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "reasoning_quality": "Medium",
+  "reasoning_quality_note": "Relevant evidence found (3 direct but not fresh headline(s)), but no headline is both coin-specific and fresh. Treat this as supporting context, not confirmation.",
+  "neutral_explanation": "EPICUSDT (EPIC/USDT) recorded a confirmed state flip: Gold → Blue (Bearish). Scanner score 55 (tier B Watch); market-cap rank 1111. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 1086 assets scanned, 10 confirmed flips (0.9%). State distribution: Blue 64.7%, Gold 15.6%, Gray 12.2%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 10 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (3 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
   "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
 }

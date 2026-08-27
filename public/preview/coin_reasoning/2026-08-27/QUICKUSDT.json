@@ -1,7 +1,7 @@
 {
   "symbol": "QUICKUSDT",
   "date": "2026-08-27",
-  "generated_at": "2026-08-27T15:03:38.690322+00:00",
+  "generated_at": "2026-08-27T18:23:48.366597+00:00",
   "scanner_evidence": {
     "symbol": "QUICKUSDT",
     "pair": "QUICK/USDT",
@@ -25,43 +25,60 @@
     "possible_drivers": [
       "Locally observed scanner state distribution and flip activity (see scanner_summary).",
       "General market-news coverage, reviewed for context only.",
-      "Macro/rates-related coverage"
+      "Earnings/guidance-related coverage"
     ],
-    "context_generated_at": "2026-08-27T15:03:37.188915+00:00"
+    "context_generated_at": "2026-08-27T18:23:47.059254+00:00"
   },
   "coin_specific_headlines": [
     {
       "title": "QuickSwap expands DeFi services by building on Base - TradingView",
       "source_name": "TradingView",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZm9zbEhjUVlUZXFLNXdVeVdEOHJZdHh1bklHbDEtaUlIVkhRVXZOX0ZGRzE4ZzRYd2hKbGhTb3JLQ0VZN2R6SEgyUklOVkpKM09rYTBSa0FodmNyNVktcmJNa2ZaUTdFT0xYUFJGWTFuSUhmbkJrMzdJOFdkdEJHN2huQUo4b0JVSlNRWTd1UTVGQ0RLUXRWUkVBZDZRQzA3S0JOOWM0WWJjb3FyTTdtSHprMUtiZWc?oc=5",
-      "published_at": "Thu, 04 Jun 2026 07:00:00 GMT"
+      "published_at": "Thu, 04 Jun 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
     },
     {
       "title": "What Is QuickSwap and How Does It Work? - Binance",
       "source_name": "Binance",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOMGVlbGdFdmlac0lkSUpidS1tbFlZam9Oc3BoZUxNdTJtSk8yQUVQQWx5b1ltaEZENWlvNDU3Qkl5OTFaRXFlYUt2ZFZ6UEhTZHJIa0pKakQ3eWRKZzU1UEs0MWZOTmJkYUxIT216TVRyWXp4Z250MXVuUHlPbmpkZTRleUFrVHRUZlE?oc=5",
-      "published_at": "Thu, 28 May 2026 07:00:00 GMT"
+      "published_at": "Thu, 28 May 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
     },
     {
       "title": "QuickSwap Review: Polygon's Layer 2 DEX - Coin Bureau",
       "source_name": "Coin Bureau",
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBNUm5SVFlDTG1uSW9LVUhJUzd3NnFwbXpiNVh4VWZjVjFQSTJhRXY3aGwxZzcwaEZGcWhWNGxHcExKd0pNMm9NQnB6cEJXa3FGUnpiaUZBVnM?oc=5",
-      "published_at": "Tue, 13 Aug 2024 19:29:56 GMT"
+      "published_at": "Tue, 13 Aug 2024 19:29:56 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
     },
     {
       "title": "Polygon Extends $1 million Grant to QuickSwap to Boost Liquidity on the Platform - Polygon Labs",
       "source_name": "Polygon Labs",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNXRkUEdySTF0d3V3Nl96b096MDB2TmF5aHFmR0tzQy1CNmxaS0xBVGJ1cWlpRTF4aHhZZG9tVnI2ejZ4ZFV0bzhfLUR1NVZTUG1mZ2V6UHpHLU4wUzJrTUpBLVJncUlFbDdFRkhvTll6QU9kV19FRDI3VFhJRjZaUjNjekVIQ1lhYzRsZkFkNDItTzFYSzVnMW41dUpVQjZRZ0ZuNmVZNERqM2FscVctaQ?oc=5",
-      "published_at": "Thu, 30 Sep 2021 07:00:00 GMT"
+      "published_at": "Thu, 30 Sep 2021 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
     },
     {
       "title": "Decentralized exchange QuickSwap exploited for $220K, plans to close lending markets - The Block",
       "source_name": "The Block",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNX09ucUFiOUdwZ08zWlRpaFZMdkYzVFpoLWR1ekJHZVpIOVp4QWpZREVqZ2JQVVJVbVd6UGI4RzZvS1V2XzFXN0EtUzQ3d0hSc3VLZXhxSjNibXB6bm4yYmN1MlZFT0dIOWFNWWhLbVVVSnRLOUlJQ25OSTZhTXJTUEFxNjFlM3czVzV4NVJHck80Y1pHb2NCWEZUcHFDWFhheWVpb0RfV0NicS1aa1FjZGFGbWtQZHg4NU9fbWt0YjM0ZGNCaVRia29wM2hXWTQ?oc=5",
-      "published_at": "Mon, 24 Oct 2022 07:00:00 GMT"
+      "published_at": "Mon, 24 Oct 2022 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
     }
   ],
   "search_query_used": "Quickswap crypto",
-  "neutral_explanation": "QUICKUSDT (QUICK/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 52 (tier B Watch); market-cap rank 1509. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 1086 assets scanned, 10 confirmed flips (0.9%). State distribution: Blue 64.7%, Gold 15.6%, Gray 12.2%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 10 flips). Source: reports/private_crypto_dashboard.csv. 5 coin-specific headline(s) were found via automated search; they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "reasoning_quality": "Medium",
+  "reasoning_quality_note": "Relevant evidence found (5 direct but not fresh headline(s)), but no headline is both coin-specific and fresh. Treat this as supporting context, not confirmation.",
+  "neutral_explanation": "QUICKUSDT (QUICK/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 52 (tier B Watch); market-cap rank 1509. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 1086 assets scanned, 10 confirmed flips (0.9%). State distribution: Blue 64.7%, Gold 15.6%, Gray 12.2%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 10 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (5 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
   "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
 }

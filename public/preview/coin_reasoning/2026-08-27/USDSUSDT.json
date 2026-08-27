@@ -1,7 +1,7 @@
 {
   "symbol": "USDSUSDT",
   "date": "2026-08-27",
-  "generated_at": "2026-08-27T15:03:38.690322+00:00",
+  "generated_at": "2026-08-27T18:23:48.366597+00:00",
   "scanner_evidence": {
     "symbol": "USDSUSDT",
     "pair": "USDS/USDT",
@@ -25,43 +25,60 @@
     "possible_drivers": [
       "Locally observed scanner state distribution and flip activity (see scanner_summary).",
       "General market-news coverage, reviewed for context only.",
-      "Macro/rates-related coverage"
+      "Earnings/guidance-related coverage"
     ],
-    "context_generated_at": "2026-08-27T15:03:37.188915+00:00"
+    "context_generated_at": "2026-08-27T18:23:47.059254+00:00"
   },
   "coin_specific_headlines": [
+    {
+      "title": "Obex Deploys $1B To Back USDS With AI and Energy Yield - CoinMarketCap",
+      "source_name": "CoinMarketCap",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONjZTOXUtV3VkajdRZHVrOG04WUxRMGtyMFN6T1dWemtob3hXZUlkVkNHckwzQXF2TE16Q0pVYWwxb0dUaWRjLVZqTnRLaV9ESHo3SFJJekZnUHNVLXFFMmRHc3lfaDF3OE5ZVk1WZTY0bUZnU25TOWpXWFRXM0VEZnR5RkR0NENoQXNDQVFuck11OE9LZjhCT0FZcnJVRGdQcjJV?oc=5",
+      "published_at": "Wed, 26 Aug 2026 07:26:32 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
     {
       "title": "Why Bitcoin Surged to USD 80,000, and What May Come Next - Morningstar",
       "source_name": "Morningstar",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxONUlKbmFyUWdlZXRtRng3UmVOTFBRTUE5Y2VNVk9JaXVWU1R0LURpNy1pTFpnbTdxbThBU3gwSEt2U0QzUmpnYmszLUhjU0xPQ3JIX0pvb1FVM3owNkNjY0VzUFJURjBHRFh3RjROSENMVFh6N3dLSGxxTDVERnh6eXBTc295VXk1LXF4YS1kdm5xVGFsWnYtVkR1eWVPdElWQ1YyYQ?oc=5",
-      "published_at": "Tue, 25 Aug 2026 12:38:44 GMT"
+      "published_at": "Tue, 25 Aug 2026 12:38:44 GMT",
+      "relevance": "market_context",
+      "freshness": "Recent",
+      "default_visible": true
     },
     {
       "title": "Bitcoin’s RSI flashes overbought as crypto rebound heats up (BTC-USD:Cryptocurrency) - Seeking Alpha",
       "source_name": "Seeking Alpha",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVlVjLThJODdYWmNnQmR5Ykdya1hQa241c2tEOWNnQ0ZWWFdrSEZWNHppeENkZ1otamNCMU92d0hPbmp3dVhsa0N2Q0tCQ1VqU1ZJRjQ0ZTJqOVcwNVRKalF4c1k3TUphOEFZaThZZ05LaHhWYUNWdGR4emhRZmJqdVJKTzFNdWRWdjI2QVk1dUJHTk5LRFBDdEZGM2k?oc=5",
-      "published_at": "Mon, 24 Aug 2026 14:28:07 GMT"
+      "published_at": "Mon, 24 Aug 2026 14:28:07 GMT",
+      "relevance": "market_context",
+      "freshness": "Recent",
+      "default_visible": true
     },
     {
       "title": "Strategy adds $1.59 billion of flexible liquidity while leaving bitcoin holdings unchanged - CoinDesk",
       "source_name": "CoinDesk",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNaVhJclpaeHBMblgwSnNFZFlZX29GNFliUThMdkVaMVZJZ2xjSklTZndJWTdaS3BtdmdDdW1neERSSG1pVElGcUctOWJwTGR1OEswUkpaamkwOF9JbXR6cUNPQXhoZHptNGVSRTdZN2E2ZHo0a1J2WWhkQnk0eGJWUEU5dUJZVmtaeGczN3JkcFpMS2o1a21uQnpyNE1DNWIwcktoNW8yeDZlY19SQmU1Z1R1ZkpRaTRDUnlOQmpR?oc=5",
-      "published_at": "Mon, 24 Aug 2026 12:24:58 GMT"
+      "published_at": "Mon, 24 Aug 2026 12:24:58 GMT",
+      "relevance": "market_context",
+      "freshness": "Recent",
+      "default_visible": false
     },
     {
       "title": "Bitcoin (BTC/USD) CFD Trading - ThinkMarkets",
       "source_name": "ThinkMarkets",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5IUkYwZmJVVWh2MTV3b0g4djN6bUNKQlBzYUxEYk1oOVd0cEo4UDhZVUtFcXV2MkVjQ09IdWUxWDlfZVJ6Q3VVU2VJRlNNQThmMEQ3QXlkUzk2dmtxTi1ZLXZubjhzaExWTmc?oc=5",
-      "published_at": "Wed, 19 Aug 2026 02:35:42 GMT"
-    },
-    {
-      "title": "Historical Data for Snowflake Tokenized Stock (Robinhood) in USD - CryptoRank",
-      "source_name": "CryptoRank",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNaGdyVTk1N1hIUWtMcWdzN3J5YmhFbEhtdnlDcGRDMEp6Z1B2eVF5MlRQVHg5MnZ1bUlPbDlFUFotMjZpVXZQOXhVLU14cDhXcDlsY2ZPTHR4V2RMV1FVd3ZjNTFlcldycWhMeHltREVaMG5KOGNhN2RDR0dTOEhSZkpPVjVzdw?oc=5",
-      "published_at": "Wed, 26 Aug 2026 23:48:29 GMT"
+      "published_at": "Wed, 19 Aug 2026 02:35:42 GMT",
+      "relevance": "market_context",
+      "freshness": "Old",
+      "default_visible": false
     }
   ],
   "search_query_used": "USDS crypto",
-  "neutral_explanation": "USDSUSDT (USDS/USDT) recorded a confirmed state flip: Gold → Blue (Bearish). Scanner score 67 (tier A Good); market-cap rank 14. Scanner note: Valid confirmed trend flip — large-cap stability, top market cap, fresh signal. Broader crypto market context: 1086 assets scanned, 10 confirmed flips (0.9%). State distribution: Blue 64.7%, Gold 15.6%, Gray 12.2%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 10 flips). Source: reports/private_crypto_dashboard.csv. 5 coin-specific headline(s) were found via automated search; they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "reasoning_quality": "Strong",
+  "reasoning_quality_note": "1 direct, fresh coin-specific headline(s) found (named the coin/project and published today or within the last 7 days).",
+  "neutral_explanation": "USDSUSDT (USDS/USDT) recorded a confirmed state flip: Gold → Blue (Bearish). Scanner score 67 (tier A Good); market-cap rank 14. Scanner note: Valid confirmed trend flip — large-cap stability, top market cap, fresh signal. Broader crypto market context: 1086 assets scanned, 10 confirmed flips (0.9%). State distribution: Blue 64.7%, Gold 15.6%, Gray 12.2%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 10 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (1 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
   "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
 }
