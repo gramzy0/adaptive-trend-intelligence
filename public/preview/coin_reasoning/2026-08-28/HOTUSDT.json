@@ -1,0 +1,85 @@
+{
+  "symbol": "HOTUSDT",
+  "date": "2026-08-28",
+  "generated_at": "2026-08-28T07:25:03.410215+00:00",
+  "scanner_evidence": {
+    "symbol": "HOTUSDT",
+    "pair": "HOT/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "74",
+    "score_tier": "A Good",
+    "market_cap_rank": "357",
+    "gray_candles": "5",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "small-cap potential, small-cap high risk, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=HOTUSDT",
+    "execution_time": "2026-08-28T06:32:54.410486+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1086 assets scanned, 10 confirmed flips (0.9%). State distribution: Blue 64.6%, Gold 15.7%, Gray 12.1%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 10 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only.",
+      "Regulatory/legal-related coverage",
+      "Security-incident-related coverage"
+    ],
+    "context_generated_at": "2026-08-28T07:25:01.899685+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "MicroCloud Hologram Gains Bitcoin Indirect Exposure via $15.76M MSTR Stake - The Cryptonomist",
+      "source_name": "The Cryptonomist",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPN2ZBRGgzUlpnbjhud3FoOVd0c3RRU21PLXhhcGVCZHJDYXQ4enVSSFlSVEdzNGE4MnpqNXR6bTFYSlFGUXlKc29PbFpvc2h5V2dod1hRZ2drdzFLSHMwMVRyb2t4WHFMdnpJZVpIZ3ZrQkFHLUQ4ODhxaWtFVFFnRw?oc=5",
+      "published_at": "Mon, 24 Aug 2026 10:32:21 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "Holo (HOT) Price Prediction 2026 2027 2028 - 2040 - Changelly",
+      "source_name": "Changelly",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBmdjJ3NFlzWUpSd1NtZU9YV1pnYVEwcUxGaXlGLTNPYms3UTNTVHpLRkxDaDhqNmY1R2p3Y0xET0dGd1hqdTZVenV4aTBjRDNTaU55T290LS0ycHVRNHhvOU1JTQ?oc=5",
+      "published_at": "Fri, 05 Dec 2025 12:02:48 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Holo Price Prediction 2026,2027-2030: When Will $HOT Reach $1? | Cryptocurrency Price Prediction - CryptoRank",
+      "source_name": "CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1QQ2psTGZBc09NdlBPN3M3b2pqZGtMazRCbFJZeVBhRXlTTTFNdkk4NmVrZV9HMmxnelRwcTlkNDVnNEpHcDVaT2RXSVBJVFh6SU9kN3FieGpfamdlcHZJM0gwcW4zZmVtT3FXOVBMVDItb0hiNC05QnlGaFhFQQ?oc=5",
+      "published_at": "Wed, 24 Jun 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Holo Released Moss 0.15.7 - TradingView",
+      "source_name": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNNlctRG8xb2VUNnBKRUZVUXh2RUg3dXBERVdjRzNtSm82aThIa1llNVRiNXFMUm5Kc1dueEFYOFFPMzlSc1BqaEM5d2hIRVJSVm1iOF9GbDZxa01rWWRGblZoa0dzX0xBY2Y3Vm1fVGU5NFVCclBvZFQ1WDJYRmw0LTFhdHJobjNTSDcw?oc=5",
+      "published_at": "Thu, 11 Jun 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    },
+    {
+      "title": "Prince_1986(@Shahzadapk)'s insights - Binance",
+      "source_name": "Binance",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5hODQ5RjR3SVpBLWZqVF9ka1RDQnl1TU8xWWVFbjJJaERxZGxFbkpySW16TjR2M2JFV25JWS01SnRHRThIa3h4MjNNWG5xM1Bjc0Yzbl9qUmViU1NUcDJzYXdqaGY?oc=5",
+      "published_at": "Thu, 27 Aug 2026 01:40:08 GMT",
+      "relevance": "unrelated",
+      "freshness": "Recent",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "Holo crypto",
+  "reasoning_quality": "Strong",
+  "reasoning_quality_note": "1 direct, fresh coin-specific headline(s) found (named the coin/project and published today or within the last 7 days).",
+  "neutral_explanation": "HOTUSDT (HOT/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 74 (tier A Good); market-cap rank 357. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 1086 assets scanned, 10 confirmed flips (0.9%). State distribution: Blue 64.6%, Gold 15.7%, Gray 12.1%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 10 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (4 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

@@ -1,0 +1,85 @@
+{
+  "symbol": "QTUMUSDT",
+  "date": "2026-08-28",
+  "generated_at": "2026-08-28T07:25:03.410215+00:00",
+  "scanner_evidence": {
+    "symbol": "QTUMUSDT",
+    "pair": "QTUM/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "69",
+    "score_tier": "A Good",
+    "market_cap_rank": "288",
+    "gray_candles": "6",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=QTUMUSDT",
+    "execution_time": "2026-08-28T06:32:54.410486+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1086 assets scanned, 10 confirmed flips (0.9%). State distribution: Blue 64.6%, Gold 15.7%, Gray 12.1%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 10 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only.",
+      "Regulatory/legal-related coverage",
+      "Security-incident-related coverage"
+    ],
+    "context_generated_at": "2026-08-28T07:25:01.899685+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Qtum (QTUM) Price Prediction 2026, 2027-2030: Is a 10x Comeback Possible? - Coinpedia",
+      "source_name": "Coinpedia",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9xeklVcHhWR0VzOVM2am1haWY2UlBaWVlURzRTREJTUmk4YW1acXpZRHh6cEJvTm16MnpWOVZzWmwzMUxJMTUzNGItRVFHTnNicTZXajVZVEtPYmdnMHVrODBPeDlrdlZRaGVoYy1n0gFzQVVfeXFMUHRPS1lNeUZ0NWZXODRBYmV0OEI3WXR3cVJ5aks3RXNqUlROVXcyeUhJV0ZTT3VwR3FxN3ZPZjZzbW5WNDZEWXB0dmcyLUlSZnhkR0FwcXpGZmU2QjN1dmU1T3NGVFNLT2hEVTFXdzBrcUZVbw?oc=5",
+      "published_at": "Mon, 24 Aug 2026 09:04:01 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "QTUM to XOF: Convert Qtum to CFA Franc BCEAO | Live QTUM Price in XOF | MEXC - MEXC",
+      "source_name": "MEXC",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9GYXo5bmdvT1ZQV3ZJZnBmRU9TTmxMdEdTazh6dGdOV3ZIN2VneGlEVVhsM051ajBUOTg4TUV2Y1hkTWZURTM5czBHc1VWNzR6cmR3?oc=5",
+      "published_at": "Wed, 26 Aug 2026 06:51:38 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "Quantum risk to crypto is advancing, Google paper warns (QTUM:NASDAQ) - Seeking Alpha",
+      "source_name": "Seeking Alpha",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQRXJ3aWhSY3BUYTdpSTdqZ29iN1l0RlBfeXduU0FoT2Y0MWxVdnAzT2JJaUIwTXl1YmFHWXJwT2dDd0N4anRLZ0pVZWJocHFFcWlZREdGSl8wTkZSVDl5Z3d5VEhramVuUTB1cUlyMXpua1JRTG5WX213R2VFMG1IUEx4YVhYc1FUZ3Y5Skl0YnYxOWRqZm5v?oc=5",
+      "published_at": "Fri, 03 Apr 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Qtum Price Prediction 2026-2030: Analyzing the Realistic Potential for a Monumental Comeback - CryptoRank",
+      "source_name": "CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQLUYxM1F1dzFpVC1YTW05VmN6NGc2SHNWTlppRXMzVm5fbnl4clZEVVBmNHE5UnBBcHZzLXp1cl9ENXZzRzExUG1tUkhsQWQ3eFk5Y2hfUGJkd0FkbHN1Rmt2WDRzZ1BuTVV4elNjSzgxTVlrQnJ1QUdVNWtxVi16VjE4eHY?oc=5",
+      "published_at": "Wed, 11 Feb 2026 08:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    },
+    {
+      "title": "Ripple Teams Up With Project Eleven on Post-Quantum Upgrade — Here’s Where XRP Price Could Go Next - CCN.com",
+      "source_name": "CCN.com",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQMVF2aDg0WVdDSkJTWVdkWFRKbGRKWktwRTU1WTJSUG9FbjhiUHM4Y1FORllsX3ZDRGhCNXZ3LUVmQjRocllHVkg3MG9vYmdRTm5sVG9Hb3NLMkpaZ05CaUtNemJnRHdFN3ROYjAxMi1IZjYwSXpSemdJQkVnbjFJcW02SjFOZnhiSkFabGZKS2FhR2loZ2NtOUQ0WU8?oc=5",
+      "published_at": "Thu, 21 May 2026 07:00:00 GMT",
+      "relevance": "unrelated",
+      "freshness": "Old",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "Qtum crypto",
+  "reasoning_quality": "Strong",
+  "reasoning_quality_note": "2 direct, fresh coin-specific headline(s) found (named the coin/project and published today or within the last 7 days).",
+  "neutral_explanation": "QTUMUSDT (QTUM/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 69 (tier A Good); market-cap rank 288. Scanner note: Valid confirmed trend flip — fresh signal. Broader crypto market context: 1086 assets scanned, 10 confirmed flips (0.9%). State distribution: Blue 64.6%, Gold 15.7%, Gray 12.1%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 10 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (4 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

@@ -1,0 +1,85 @@
+{
+  "symbol": "CTSIUSDT",
+  "date": "2026-08-28",
+  "generated_at": "2026-08-28T07:25:03.410215+00:00",
+  "scanner_evidence": {
+    "symbol": "CTSIUSDT",
+    "pair": "CTSI/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "52",
+    "score_tier": "B Watch",
+    "market_cap_rank": "734",
+    "gray_candles": "18",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "small-cap potential, small-cap high risk, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=CTSIUSDT",
+    "execution_time": "2026-08-28T06:32:54.410486+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1086 assets scanned, 10 confirmed flips (0.9%). State distribution: Blue 64.6%, Gold 15.7%, Gray 12.1%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 10 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only.",
+      "Regulatory/legal-related coverage",
+      "Security-incident-related coverage"
+    ],
+    "context_generated_at": "2026-08-28T07:25:01.899685+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Discover Cartesi: Empowering blockchain with real-world applications! - Phemex",
+      "source_name": "Phemex",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9ieVd1MmZsRTVyU1FGVDE4QmJWdjZ2dnNTeWZnOXdIWXlBNVhIbkc5Zm9HV0VLVW54d05PUEdvZWZ4cHhwbERqWmRmRXlpbHI5c1JQRWFnWFNUbUx6UENucjg0eEw?oc=5",
+      "published_at": "Thu, 02 Apr 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Cartesi Price Prediction: CTSI Surges 65% — Can Bulls Break $0.045? - CryptoRank",
+      "source_name": "CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOd0xBQkx2X0V0ZmpFUDZUY0V1YW5oUFNVYi1pVWxzbTN3ZnRsUTdWWUlsUEpQd2hjODdQMVV2Z2VJM3NYcDRWdGVxMlZoaENRSU1mMVhtdEtmTWhrM2NJbFFvNlRUMHBXaG8wOHFWQVZQbGdsNjhFZi1OcmU1Zmh3NW05eUJuSGp3VGFhLVBTWmJrY000N0ZueGtGSURJVHVn?oc=5",
+      "published_at": "Fri, 03 Apr 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Cartesi price jumps over 100% as it hits Stage 2 security status, can it go higher? - Bitget",
+      "source_name": "Bitget",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFAtRnBvZzRqVUJFcjVwYzlXMGlLcFQyQkljWEN0UHdkd0ljTGRXSHVsZFNOYWVEeVJlcTU2MzZRbTBEbFBLTll3S1RnRGh6U3htYkNpMWwwTkNIZFdLU3fSAWNBVV95cUxNM1I0MHYyMHA3bTZkNkdkWDhtX01KcGxRanNIZDhQOEJ0VGlwLU5NVkdiMkZ2b1ZJWVY5VnlvNklpZU0wd2JLMTc5NDROUDlVM2t6aktkLVZCZml5cjJpVWNydE0?oc=5",
+      "published_at": "Fri, 03 Apr 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Cartesi (CTSI) Price Prediction 2026 2027 2028 - 2040 - Changelly",
+      "source_name": "Changelly",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE91Q1BFU3VGNkJZS0pRYjFEYS16RV9hazh1QVBWNXZCa1owSUltdmRfOUswYzBpRWNUOUtHZFFCOVU5b29XYWVfV1JoUGhJT1ljdDhvV25hYlBuZGhJTVB4VS01UVBrc3Bf?oc=5",
+      "published_at": "Fri, 26 Jan 2024 14:21:14 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    },
+    {
+      "title": "Cartesi Price Prediction 2026, 2027, 2030 & Beyond: Yearly Forecast - Binance",
+      "source_name": "Binance",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1RZ19Pd0lnRXhiVFBTR2dsUVROeEEwbW5OQjFyYnJvSC1ZdXlwYWo0ZnFaaldkX1hSZ2hJaXVIcnVYRksxYzZTQlF0aDhKMVFJQ0RLNUlBYlZzbFJIaXd6RFg3TEc?oc=5",
+      "published_at": "Tue, 18 Aug 2026 02:18:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "Cartesi crypto",
+  "reasoning_quality": "Medium",
+  "reasoning_quality_note": "Relevant evidence found (5 direct but not fresh headline(s)), but no headline is both coin-specific and fresh. Treat this as supporting context, not confirmation.",
+  "neutral_explanation": "CTSIUSDT (CTSI/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 52 (tier B Watch); market-cap rank 734. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 1086 assets scanned, 10 confirmed flips (0.9%). State distribution: Blue 64.6%, Gold 15.7%, Gray 12.1%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 10 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (5 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

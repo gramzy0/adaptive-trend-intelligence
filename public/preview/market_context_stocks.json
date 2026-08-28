@@ -1,61 +1,60 @@
 {
   "market": "stocks",
-  "generated_at": "2026-08-27T21:48:42.841291+00:00",
+  "generated_at": "2026-08-28T07:25:01.899685+00:00",
   "scanner_summary": "50 assets scanned, 0 confirmed flips (0.0%). State distribution: Blue 14.0%, Gold 76.0%, Gray 10.0%, Unknown 0.0%. Source: data/output/stocks_weekly_results.json, last modified 2026-06-13 (75 days ago). Stale-data warning: source file is more than 30 days old.",
   "possible_drivers": [
     "Locally observed scanner state distribution and flip activity (see scanner_summary).",
-    "General market-news coverage, reviewed for context only.",
-    "Macro/rates-related coverage"
+    "General market-news coverage, reviewed for context only."
   ],
   "uncertainty_note": "Automatically collected from public RSS headlines and local scanner output. Headlines are cited, not verified for accuracy or causal connection to price movement. This is not investment advice and does not contain buy, sell, hold, or execution guidance. Human review is required before treating anything here as reliable market context.",
   "sources": [
     {
-      "title": "Meta, states discuss mid-trial settlement in teen addiction case",
+      "title": "Bank of America doubles down on Nvidia stock",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/media-advertising/articles/meta-states-discuss-mid-trial-111938416.html",
-      "published_at": "2026-08-26T11:19:38Z",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/bank-america-doubles-down-nvidia-153054071.html",
+      "published_at": "2026-08-27T15:30:54Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Cathie Wood bets on 'disrupter' stock with bullish analyst call",
+      "title": "Here Is How to Play IBM Stock After Its Arm and IBM Z Breakthrough",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/cathie-wood-bets-disrupter-stock-171503487.html",
-      "published_at": "2026-08-26T17:15:03Z",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/play-ibm-stock-arm-ibm-191927616.html",
+      "published_at": "2026-08-26T19:19:27Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Northern Trust Stock: Is Wall Street Bullish or Bearish?",
+      "title": "MU Stock Alert: What to Know as Micron Appoints New Executives",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/northern-trust-stock-wall-street-133533410.html",
-      "published_at": "2026-08-26T13:35:33Z",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/mu-stock-alert-know-micron-191851333.html",
+      "published_at": "2026-08-26T19:18:51Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "U.S. State Banking Associations To Launch Blockchain Network",
+      "title": "Jim Cramer on Palantir (PLTR): “It’s a Great Spec, But It Is a Spec”",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/u-state-banking-associations-launch-134500669.html",
-      "published_at": "2026-08-26T13:45:00Z",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-palantir-pltr-great-192217829.html",
+      "published_at": "2026-08-26T19:22:17Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Sticky PCE inflation leaves a divided central bank ahead of Fed's Jackson Hole retreat",
+      "title": "Why Urban Outfitters Stock Rallied Today",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/economy/policy/article/sticky-pce-inflation-leaves-a-divided-central-bank-ahead-of-feds-jackson-hole-retreat-125248345.html",
-      "published_at": "2026-08-26T12:52:48Z",
-      "note": "Macro/rates-related coverage"
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-urban-outfitters-stock-rallied-191740191.html",
+      "published_at": "2026-08-26T19:17:40Z",
+      "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "The S&P 500 is nearing a positive level — and the options market suggests a surge is likely",
+      "title": "Judge says Trump administration’s blacklist of Anthropic was illegal",
       "source_name": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/the-s-p-500-is-nearing-an-especially-positive-price-and-the-options-market-suggests-a-surge-is-likely-a54d866d?mod=mw_rss_topstories",
-      "published_at": "Thu, 27 Aug 2026 21:31:00 GMT",
+      "url": "https://www.marketwatch.com/story/judge-says-trump-administrations-blacklist-of-anthropic-was-illegal-5d3411e7?mod=mw_rss_topstories",
+      "published_at": "Fri, 28 Aug 2026 03:16:00 GMT",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Marvell is boosting its forecasts, but that’s not enough to lift its stock",
+      "title": "Marvell boosts its forecasts, but the stock slides as Wall Street wonders if there’s more to the story",
       "source_name": "MarketWatch",
       "url": "https://www.marketwatch.com/story/marvell-is-boosting-its-forecasts-but-thats-not-enough-to-lift-its-stock-c769556a?mod=mw_rss_topstories",
-      "published_at": "Thu, 27 Aug 2026 21:12:00 GMT",
+      "published_at": "Fri, 28 Aug 2026 00:20:00 GMT",
       "note": "General market-news coverage, reviewed for context only."
     }
   ]

@@ -1,0 +1,85 @@
+{
+  "symbol": "THETAUSDT",
+  "date": "2026-08-28",
+  "generated_at": "2026-08-28T07:25:03.410215+00:00",
+  "scanner_evidence": {
+    "symbol": "THETAUSDT",
+    "pair": "THETA/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "69",
+    "score_tier": "A Good",
+    "market_cap_rank": "183",
+    "gray_candles": "6",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=THETAUSDT",
+    "execution_time": "2026-08-28T06:32:54.410486+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1086 assets scanned, 10 confirmed flips (0.9%). State distribution: Blue 64.6%, Gold 15.7%, Gray 12.1%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 10 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only.",
+      "Regulatory/legal-related coverage",
+      "Security-incident-related coverage"
+    ],
+    "context_generated_at": "2026-08-28T07:25:01.899685+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Theta Network Price: THETA Price Index and Live Chart - The Block",
+      "source_name": "The Block",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9uX0lyMjVQTnNISjhuTGEtSDZOQ0tjWm1GMW40bmlDZk5KMzF3eDVOYWJuZjhuQ0k1QnRLRzBrMEo5Vm1BbUNEcWJoaUdXbnhfR3AwZEd3?oc=5",
+      "published_at": "Fri, 07 Aug 2026 15:41:02 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Former Theta Executives Accuse Crypto Firm's CEO of Fraud, Retaliation - Yahoo Finance",
+      "source_name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQOThjcU5zYzhIMDZlTmZMN1AtOHFMWnRhenVxRHVqNEZmelY1X2xYaHc2dWViMmFKcVFJUVYyclhzTlJxMXRYZl9sT1ZXd3NrelZmOGxnTlNRMFJOaWxuc1VuR1EyRktrS1VZQlQtd042bzhKWUVWWWxxVzlHTVhpRHRxb0dWN294Z3Br?oc=5",
+      "published_at": "Tue, 16 Dec 2025 08:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Theta Network Price Prediction 2026, 2027 and 2030: Does Theta Have the Potential to Bring a Wave? - Bitget",
+      "source_name": "Bitget",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE0wNktrcEtsNEJ4dEM5SEs3dUpkX2phRGRYcW9rdXgxSzVSbS1XUTA4cWhadlp3Mkk5czFKUnNyeC1PRk91NmN2a05TOTlJakJnUHEtRUgybFMwaExHZnfSAWNBVV95cUxPRzZFYi1Pa0prRTM0dGhWMkZtQVdPZXNUaURtMm5jalZBZ1d0TkNKbG9KSnBEUzRRa0h3NW40dzFuVWRaX21hdDk5eHJlbjlZZHYwWGNZX3llQWpld2RJV3FtUTA?oc=5",
+      "published_at": "Wed, 01 Apr 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Explosive Theta Labs Lawsuit: Former Execs Accuse CEO of Fraud and Price Manipulation | Crypto fraud Theta Network - CryptoRank",
+      "source_name": "CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4xLXRFNEFGN1Vydks4Yy16VV9BVDZKWlN0eDVfbjdzTDREUFZueFB0djhFdlNIUUJVOTlPN21CLTl6MnpGbl9TblhrVkJyZ1poUDdGcGQ3eF9KN0RXR0lhYUY1VHR3S0NsS3BfREFMTW9vQVF4RjJUQnFtcF9ybHM?oc=5",
+      "published_at": "Wed, 17 Dec 2025 08:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    },
+    {
+      "title": "California crypto company accused of illegally inflating Katy Perry NFTs and fraud - Los Angeles Times",
+      "source_name": "Los Angeles Times",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdi1LQ0tHOTJ0eUZSRjRXQXZ4bVFqSm1LWUotQmNTal9IT1dvYmZXbTRhNGFDWjFodURuZ3dHNGw0bHdrS1VjZHRsR29ySk5PT1RtbEdIOTd2OEVGRHR4QTV0M1ZqMnpYVF9ENzRoeGRtUGNIYlBJMEM1eUlQNTJBTjJCX2ZacXQ4d0V1cm8xaVdyWWdna1NJRHkyX0pTeHNZTE1tQ2dWNUxqSnBQd2ZXUThvZEJoUQ?oc=5",
+      "published_at": "Wed, 24 Dec 2025 08:00:00 GMT",
+      "relevance": "unrelated",
+      "freshness": "Old",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "Theta Network crypto",
+  "reasoning_quality": "Medium",
+  "reasoning_quality_note": "Relevant evidence found (4 direct but not fresh headline(s)), but no headline is both coin-specific and fresh. Treat this as supporting context, not confirmation.",
+  "neutral_explanation": "THETAUSDT (THETA/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 69 (tier A Good); market-cap rank 183. Scanner note: Valid confirmed trend flip — fresh signal. Broader crypto market context: 1086 assets scanned, 10 confirmed flips (0.9%). State distribution: Blue 64.6%, Gold 15.7%, Gray 12.1%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 10 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (4 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

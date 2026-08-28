@@ -1,0 +1,85 @@
+{
+  "symbol": "TRUMPUSDT",
+  "date": "2026-08-28",
+  "generated_at": "2026-08-28T07:25:03.410215+00:00",
+  "scanner_evidence": {
+    "symbol": "TRUMPUSDT",
+    "pair": "TRUMP/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "74",
+    "score_tier": "A Good",
+    "market_cap_rank": "91",
+    "gray_candles": "5",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "large-cap stability, top market cap, fresh signal, high volume",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=TRUMPUSDT",
+    "execution_time": "2026-08-28T06:32:54.410486+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1086 assets scanned, 10 confirmed flips (0.9%). State distribution: Blue 64.6%, Gold 15.7%, Gray 12.1%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 10 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only.",
+      "Regulatory/legal-related coverage",
+      "Security-incident-related coverage"
+    ],
+    "context_generated_at": "2026-08-28T07:25:01.899685+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Exclusive | Trump Family’s New Crypto Bank Is Backed by Abu Dhabi Sheikh - WSJ",
+      "source_name": "WSJ",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOcnpKYTYwa0FwU3piSWZUczBZck1ZTHJIWWVULUhjZ2FlYmV6TWwyZGxhNkxVUEgxYlNNRVhrU0s1RS1qZk1aLTNvdkU4b2JpUG5wUF9KTl9lNV96aGJsRVNKUEtqVEttR21HN1IyaGNEbVR3bEFjeXBMUDNtNWphT2E5YXl3dndRdDRKWG9DeFRlWjVKb0tLWDFRMmVuRHFkcHB4MlZ5NDZkcms?oc=5",
+      "published_at": "Thu, 27 Aug 2026 19:15:00 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "Trump wants to bring an obscure crypto platform to the US. Wall Street will be watching. - Politico",
+      "source_name": "Politico",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNaDRpQ2FxdUdQc3U0VmpfWHlUQjJTX1BRN1BibnF6dFhnRlhYbHFOLUktU3loYzhFYk54a2RYRm5YTS1RNThwd1JzZ094Q3o2b3ZXa2lOczZQVGVKN1VUT3NFUjZJb0pKaHRSZmNfR3hSQ3Flak0teWxCc2pTYmFudFh5dTJpZXBjSW1UMUh4QUk2ZndRdTRueGNnMi1Ld0s0cG51NzRZY1MxZWhGMFpRazdFR2hORGlCV3c?oc=5",
+      "published_at": "Thu, 27 Aug 2026 14:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "‘Thin Air,’ Real Money: Donald Trump’s Crypto Products Have Left Investors at Least $4.7 Billion Underwater - Public Citizen",
+      "source_name": "Public Citizen",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQeWYyOFUyX0hoSWFZRXFQZWEyTnFBbGxRMldoZFB6SEt4Ri1xUm9rM0RTdXczRlpNR3VNQTk0UUtIcFI0TFA5eUF6NUtQd0hOcFNMWEl3SERuX3VBbllPa1NzVFZtTENCRFRrdGJIOVZfbE9qUVgzMmozNmhVa3Z2dnZtd05DOVZpOGEyaFBB?oc=5",
+      "published_at": "Thu, 27 Aug 2026 13:02:33 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "New Report Reveals How Much Investors in Trump’s Crypto Ventures Have Lost - News of the United States - NOTUS",
+      "source_name": "News of the United States - NOTUS",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9OelJTdjZidHZYUFZ5SzlPSTZPY1ZlSlBuVkJwQ05jTUZ4UG9ORE04SjE1QTI1Nm1lam16ZlNER2FkbnlpSjFUal91U25ZVzRmWkFGTVFwYUF4UVZIR0tyS0dIZkdPMG44aWt2Wg?oc=5",
+      "published_at": "Thu, 27 Aug 2026 19:49:03 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": false
+    },
+    {
+      "title": "UAE ‘spy sheikh’ backs 49% stake in Trump family’s crypto bank venture, WSJ reports - CNBC",
+      "source_name": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQa09HdVpEaEJiemFYSEJ4MGFGWk5nZXRXcVJYbDJtUEJhbjlZTjhLMnUwQ2E0VkM2VFdzTFpOZnBoSTNwaW80WjhOV3pUN3BPYjlPTm9FeFhBYjVDTlVQeTVvWnQwRmFKRVhLVVNSZVdjSF9FQTZPeTZZYXk5YW02TjZR0gGHAUFVX3lxTE1USTFOd1FaZ2JhemR3LTNFRkc0MGJMUkdlWEJUZXdzT01Tb1ZaNWxrd0swUXYwTy1fTGFaLUZkcVBBZG5QeGpTYnhXSG1vMjdaaEtrZ1dJbVcxZXBkX29wNm9iQTBGMS16b1B6aDIwME1yLWt5c3BfNmMyZng4WUI1VHczNmtQUQ?oc=5",
+      "published_at": "Thu, 27 Aug 2026 20:16:22 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "Official Trump crypto",
+  "reasoning_quality": "Strong",
+  "reasoning_quality_note": "5 direct, fresh coin-specific headline(s) found (named the coin/project and published today or within the last 7 days).",
+  "neutral_explanation": "TRUMPUSDT (TRUMP/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 74 (tier A Good); market-cap rank 91. Scanner note: Valid confirmed trend flip — large-cap stability, top market cap, fresh signal, high volume. Broader crypto market context: 1086 assets scanned, 10 confirmed flips (0.9%). State distribution: Blue 64.6%, Gold 15.7%, Gray 12.1%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 10 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (5 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

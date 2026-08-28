@@ -1,0 +1,85 @@
+{
+  "symbol": "ARUSDT",
+  "date": "2026-08-28",
+  "generated_at": "2026-08-28T07:25:03.410215+00:00",
+  "scanner_evidence": {
+    "symbol": "ARUSDT",
+    "pair": "AR/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "69",
+    "score_tier": "A Good",
+    "market_cap_rank": "208",
+    "gray_candles": "4",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=ARUSDT",
+    "execution_time": "2026-08-28T06:32:54.410486+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1086 assets scanned, 10 confirmed flips (0.9%). State distribution: Blue 64.6%, Gold 15.7%, Gray 12.1%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 10 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only.",
+      "Regulatory/legal-related coverage",
+      "Security-incident-related coverage"
+    ],
+    "context_generated_at": "2026-08-28T07:25:01.899685+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Price of Arweave (AR) today in EUR – Quote and market trends - Bit2Me",
+      "source_name": "Bit2Me",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE8zOWpEYmM3TlhHaHF1djJEQnZxanNUdnp1V1VNdkFJTktVLVctcmJ3dHZYeGRuaTJtQXp1T3F5ODM4cUdkY0d2dFRFNA?oc=5",
+      "published_at": "Wed, 22 Jul 2026 10:58:23 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Arweave Price Prediction 2026-2030: The Critical Analysis Behind a Potential $15 Rally - CryptoRank",
+      "source_name": "CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE13U2NDMHBTWV8yaDJhQnMtQklwc0N3LUI1X2hIZEFfeU50VGFsMGZWM2lnU1lsY3J3ZjVmNjF1ODV5MW1TNUQ5a2YtUEtFRm4tbjBXekU0dVB5bTRCZWh1dzVIdi10R3pOX0gwZ0JyX2hjT1plTVpSOXJkakRBcVU?oc=5",
+      "published_at": "Sat, 11 Apr 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Arweave (AR) Price Prediction 2026, 2027-2030: Can AR Rally to $6 This Year? - Coinpedia",
+      "source_name": "Coinpedia",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5pTWhmTE1lMDFOa3hzb19XcjlmU2g1eDNHQkhUYnhyNjZwUEllV25SR2NjYmY1Rnhqc0laVG1TMDgtRS1ESk1WeC1hUzM5MHNiZTQyY3FrdERObk5kTU1RbWR6bzhIVEN1M09STl9ybjRZdXBPU0HSAXtBVV95cUxQOVFUZ01EVkZpSG5pMTQ5cWVNVTVIQVhJNlY3U01WN05IWl9XbkdXcUNpYUNJd3FXcWh6LXRfLTgwNV9lV0V4U0ptaVRrSjJRcTNaXzM4emxCc0FwWDlzX0plazlIc1pTZm13ZnI5ZVU4VW5sMWFFa0xNRXM?oc=5",
+      "published_at": "Mon, 06 Jul 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "This 19-Year-Old is Making Waves in The Arweave Ecosystem - Blockworks",
+      "source_name": "Blockworks",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPSjlYX2o1YVFOcFVBRUgtRDY0cGxncWNGTThCcXRVSjRGbld0TEpyVXF3aGNDcWRzLUIxRndtWFZZc3plT1lGV2haTXh4SjI5YTlPVjNyREl2TW9wRDYzMU9IQ0NMLXBYSzkwNEhzU1cwbERwREFKdDEwbXpRSzdHV1J0TU9GUEh1bFhMYzBn?oc=5",
+      "published_at": "Thu, 05 Mar 2026 16:44:33 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    },
+    {
+      "title": "Arweave Price Prediction 2025, 2026 - 2030: Will AR Price Hit $50? - Bitget",
+      "source_name": "Bitget",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5UdzBUWHI0MmtCYjhLSkd1Y185d2hYN0NfMFctd2VtZFBadWNocG1waGVzUTdGMjFzLVFicERITEJNWE1YeXlwMkhmS2FndjVzV1dzY01YZFVQWlZnV0HSAWNBVV95cUxQdDhZay1LcDNPT050dk1VdXZDNlU4SkU4NjJUODVvblpTSFA3U3lWWjVpYWR1RFgwTmVRYTZiVDMtcUZTMTF6Y0dnTEpqRks2c3o5Wm41cFFNUlBvdzhpS0tWWm8?oc=5",
+      "published_at": "Thu, 12 Feb 2026 08:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "Arweave crypto",
+  "reasoning_quality": "Medium",
+  "reasoning_quality_note": "Relevant evidence found (5 direct but not fresh headline(s)), but no headline is both coin-specific and fresh. Treat this as supporting context, not confirmation.",
+  "neutral_explanation": "ARUSDT (AR/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 69 (tier A Good); market-cap rank 208. Scanner note: Valid confirmed trend flip — fresh signal. Broader crypto market context: 1086 assets scanned, 10 confirmed flips (0.9%). State distribution: Blue 64.6%, Gold 15.7%, Gray 12.1%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 10 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (5 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

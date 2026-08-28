@@ -1,7 +1,7 @@
 {
   "symbol": "GBPUSDT",
   "date": "2026-08-28",
-  "generated_at": "2026-08-27T21:48:44.188549+00:00",
+  "generated_at": "2026-08-28T07:25:03.410215+00:00",
   "scanner_evidence": {
     "symbol": "GBPUSDT",
     "pair": "GBP/USDT",
@@ -17,17 +17,18 @@
     "reasoning": "fresh signal",
     "signal": "Confirmed Gold → Gray → Blue → Blue",
     "tradingview_link": "https://www.tradingview.com/chart/?symbol=GBPUSDT",
-    "execution_time": "2026-08-28T00:48:42.542622+03:00"
+    "execution_time": "2026-08-28T06:32:54.410486+03:00"
   },
   "market_context_snapshot": {
     "available": true,
-    "scanner_summary": "1086 assets scanned, 10 confirmed flips (0.9%). State distribution: Blue 64.7%, Gold 15.6%, Gray 12.2%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 10 flips). Source: reports/private_crypto_dashboard.csv.",
+    "scanner_summary": "1086 assets scanned, 10 confirmed flips (0.9%). State distribution: Blue 64.6%, Gold 15.7%, Gray 12.1%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 10 flips). Source: reports/private_crypto_dashboard.csv.",
     "possible_drivers": [
       "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only.",
       "Regulatory/legal-related coverage",
-      "General market-news coverage, reviewed for context only."
+      "Security-incident-related coverage"
     ],
-    "context_generated_at": "2026-08-27T21:48:42.841291+00:00"
+    "context_generated_at": "2026-08-28T07:25:01.899685+00:00"
   },
   "coin_specific_headlines": [
     {
@@ -79,6 +80,6 @@
   "search_query_used": "GBP crypto",
   "reasoning_quality": "Medium",
   "reasoning_quality_note": "Relevant evidence found (2 direct but not fresh, 1 sector/market-wide headline(s)), but no headline is both coin-specific and fresh. Treat this as supporting context, not confirmation.",
-  "neutral_explanation": "GBPUSDT (GBP/USDT) recorded a confirmed state flip: Gold → Blue (Bearish). Scanner score 52 (tier B Watch); market-cap rank not available. Scanner note: Valid confirmed trend flip — fresh signal. Broader crypto market context: 1086 assets scanned, 10 confirmed flips (0.9%). State distribution: Blue 64.7%, Gold 15.6%, Gray 12.2%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 10 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (2 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "neutral_explanation": "GBPUSDT (GBP/USDT) recorded a confirmed state flip: Gold → Blue (Bearish). Scanner score 52 (tier B Watch); market-cap rank not available. Scanner note: Valid confirmed trend flip — fresh signal. Broader crypto market context: 1086 assets scanned, 10 confirmed flips (0.9%). State distribution: Blue 64.6%, Gold 15.7%, Gray 12.1%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 10 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (2 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
   "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
 }

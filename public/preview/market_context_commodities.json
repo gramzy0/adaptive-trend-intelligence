@@ -1,6 +1,6 @@
 {
   "market": "commodities",
-  "generated_at": "2026-08-27T21:48:42.841291+00:00",
+  "generated_at": "2026-08-28T07:25:01.899685+00:00",
   "scanner_summary": "No commodity scanner data available in data/output; no asset count, flip count, or state distribution can be computed locally.",
   "possible_drivers": [
     "General market-news coverage, reviewed for context only."
@@ -8,38 +8,38 @@
   "uncertainty_note": "Automatically collected from public RSS headlines and local scanner output. Headlines are cited, not verified for accuracy or causal connection to price movement. This is not investment advice and does not contain buy, sell, hold, or execution guidance. Human review is required before treating anything here as reliable market context.",
   "sources": [
     {
-      "title": "Europe Heads Into Winter With Gas Storage at a Two-Decade Low",
+      "title": "Hormuz Tanker Traffic Drops Despite Recovery in Oil Flows",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Energy/Natural-Gas/Europe-Heads-Into-Winter-With-Gas-Storage-at-a-Two-Decade-Low.html",
-      "published_at": "Thu, 27 Aug 2026 16:00:00 -0500",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-Shipping-Slumps-Even-as-Gulf-Oil-Flows-Rise.html",
+      "published_at": "Fri, 28 Aug 2026 02:00:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "U.S. In Talks To Take Direct Ownership Of Venezuelan Oil Fields",
+      "title": "Oil Prices Head for a Weekly Loss Despite Escalating Iran Tensions",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/US-In-Talks-To-Take-Direct-Ownership-Of-Venezuelan-Oil-Fields.html",
-      "published_at": "Thu, 27 Aug 2026 14:51:00 -0500",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Head-for-a-Weekly-Loss-Despite-Escalating-Iran-Tensions.html",
+      "published_at": "Fri, 28 Aug 2026 00:15:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Trump’s War on Offshore Wind Leaves U.S. Workers in Limbo",
+      "title": "Egypt’s LNG Comeback Is Set to Start in Cyprus",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Energy/Energy-General/Trumps-War-on-Offshore-Wind-Leaves-US-Workers-in-Limbo.html",
-      "published_at": "Thu, 27 Aug 2026 14:00:00 -0500",
+      "url": "https://oilprice.com/Energy/Natural-Gas/Egypts-LNG-Comeback-Is-Set-to-Start-in-Cyprus.html",
+      "published_at": "Thu, 27 Aug 2026 19:00:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Trump Sends Saudi Nuclear Deal to Congress as Riyadh Rejects Israel Condition",
+      "title": "East Africa’s Oil Rivalry Spurs Multi-Billion-Dollar Projects Across The Region",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Sends-Saudi-Nuclear-Deal-to-Congress-as-Riyadh-Rejects-Israel-Condition.html",
-      "published_at": "Thu, 27 Aug 2026 13:30:00 -0500",
+      "url": "https://oilprice.com/Energy/Crude-Oil/East-Africas-Oil-Rivalry-Spurs-Multi-Billion-Dollar-Projects-Across-The-Region.html",
+      "published_at": "Thu, 27 Aug 2026 18:00:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Central Asia Resists US Pressure to Choose Sides in AI Race",
+      "title": "DoE Begins Tests for Fracked Geothermal",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Energy/Energy-General/Central-Asia-Resists-US-Pressure-to-Choose-Sides-in-AI-Race.html",
-      "published_at": "Thu, 27 Aug 2026 13:00:00 -0500",
+      "url": "https://oilprice.com/Alternative-Energy/Geothermal-Energy/DoE-Begins-Tests-for-Fracked-Geothermal.html",
+      "published_at": "Thu, 27 Aug 2026 17:00:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {

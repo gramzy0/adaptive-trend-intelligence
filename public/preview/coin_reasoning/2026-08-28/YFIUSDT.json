@@ -1,0 +1,85 @@
+{
+  "symbol": "YFIUSDT",
+  "date": "2026-08-28",
+  "generated_at": "2026-08-28T07:25:03.410215+00:00",
+  "scanner_evidence": {
+    "symbol": "YFIUSDT",
+    "pair": "YFI/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "74",
+    "score_tier": "A Good",
+    "market_cap_rank": "304",
+    "gray_candles": "5",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "small-cap potential, small-cap high risk, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=YFIUSDT",
+    "execution_time": "2026-08-28T06:32:54.410486+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1086 assets scanned, 10 confirmed flips (0.9%). State distribution: Blue 64.6%, Gold 15.7%, Gray 12.1%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 10 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only.",
+      "Regulatory/legal-related coverage",
+      "Security-incident-related coverage"
+    ],
+    "context_generated_at": "2026-08-28T07:25:01.899685+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Yearn.finance (YFI) Price Outlook 2026–2030: What Investors Should Know - CryptoRank",
+      "source_name": "CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQYmQtRUhJaE93SGx6YVFPY2xkcVh3UE04eU9pTnZINXVEbWd6MDRKVjg0TFBKNHhhZE1jdzRNaVp2aXlPR2VTZmJGUU9td24zRUlBTGo2LWkzcDNOcDhCY0RRWkJCODhkSk5paXV3Nlk3cUUtRmhRTmlVeTNaZElFUEdIck9WUQ?oc=5",
+      "published_at": "Wed, 24 Jun 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Yearn.finance ($YFI) Price Prediction for 2026, 2027 – 2030: Is YFI A Good Investment For The Future? - Coinpedia",
+      "source_name": "Coinpedia",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBFWVpRZnRpRDNhQ203NUdacm13a2xMYnlHQXpXVEJqSXN0eElrSEFITnpEaTUxYlJwSUJUdEgxUURReE5KYkNjNkxORzQ0bU5zc2R0VFBKQzk3RVpSSkpUc1NKT2RNVGxHM25YWEhHT0lmaTFndDlibDZyX1NfRkHSAYQBQVVfeXFMTmlTV2psWWYwMzFoa01pS055Vk1hdzR0UUwtZTY5ZnBCdlgyV2dSTjFEQWlyOUdqM2xEaU41d1dTaFlSRTBxN3pZa1RPMXNnRXVSemhVMEdjb0lScDRSc01RNVVJVzV0T0N5VjJ0aS05Zl8zcWdKVHJ0VXk3b0g4eUFXay1o?oc=5",
+      "published_at": "Wed, 24 Jun 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "yearn.finance Price: YFI Price Index and Live Chart - The Block",
+      "source_name": "The Block",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1peGlma0NfLVNDLXcyTTROOXVNRjl0Z3djSTFQZERWYUdmT09fTWZLRDgxZGVsZTBPdVhzR044OUhoTXFtRkwwdy1odHh0bjlxT3JnSzNB?oc=5",
+      "published_at": "Sat, 08 Aug 2026 02:58:07 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Crypto Falls as Yearn Finance Breach Hits Bitcoin, Ether - Mexico Business News",
+      "source_name": "Mexico Business News",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMmNDT3JWbFpxc0c3V0tOQjhIT1RHZ3RFWDI1aGZjRWE5a1NucnRfcnF6a0tDZ2hDLWhEcDZ4bVU1TDc0X25jMV9nZ3NDdHlBSGpaS012NkVITTdOTTBYdm5GNmtyc0d0eko1TnFzWGE3OW82TEdvTWpkXzd5RHo5ekNCX0poeDNqX09GclNCYU9yUWhWUG95TA?oc=5",
+      "published_at": "Tue, 02 Dec 2025 08:00:00 GMT",
+      "relevance": "market_context",
+      "freshness": "Old",
+      "default_visible": false
+    },
+    {
+      "title": "Yearn Finance Hit by Major yETH Exploit as Attacker Drains Funds - Yahoo Finance",
+      "source_name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA2cWp6Wjh6aEhUX3h4SHdDUXlSY25IdHVMNHllYlpPSU5samR2N3k4OHNCTndoa1MzMVo0MjlkU1hLRFoxbGVTcGNCTVpnaTYwczFyMW5ob09mUjluZkVXbkpiM2RGY1VXRmE3MGlsZnB5U3NqN2FKUlhKNFlEaHc?oc=5",
+      "published_at": "Sun, 30 Nov 2025 08:00:00 GMT",
+      "relevance": "unrelated",
+      "freshness": "Old",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "yearn.finance crypto",
+  "reasoning_quality": "Medium",
+  "reasoning_quality_note": "Relevant evidence found (3 direct but not fresh, 1 sector/market-wide headline(s)), but no headline is both coin-specific and fresh. Treat this as supporting context, not confirmation.",
+  "neutral_explanation": "YFIUSDT (YFI/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 74 (tier A Good); market-cap rank 304. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 1086 assets scanned, 10 confirmed flips (0.9%). State distribution: Blue 64.6%, Gold 15.7%, Gray 12.1%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 10 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (3 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

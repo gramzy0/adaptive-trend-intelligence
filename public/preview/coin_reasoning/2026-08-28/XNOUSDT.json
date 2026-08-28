@@ -1,0 +1,85 @@
+{
+  "symbol": "XNOUSDT",
+  "date": "2026-08-28",
+  "generated_at": "2026-08-28T07:25:03.410215+00:00",
+  "scanner_evidence": {
+    "symbol": "XNOUSDT",
+    "pair": "XNO/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "52",
+    "score_tier": "B Watch",
+    "market_cap_rank": "430",
+    "gray_candles": "34",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "small-cap potential, small-cap high risk, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=XNOUSDT",
+    "execution_time": "2026-08-28T06:32:54.410486+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1086 assets scanned, 10 confirmed flips (0.9%). State distribution: Blue 64.6%, Gold 15.7%, Gray 12.1%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 10 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only.",
+      "Regulatory/legal-related coverage",
+      "Security-incident-related coverage"
+    ],
+    "context_generated_at": "2026-08-28T07:25:01.899685+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Nano Nuclear Energy Tokenized Stock (Robinhood) Analytics - CryptoRank",
+      "source_name": "CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPN3JvTmRqaENUbmZYem4xSHZUcE1ORWRqQng3N3I1RnZFc2NCZHFKNGVHc0VZZWw2Qm8wR0VJNmh0OUNKQ2RJMk5vdTJuQWZKQzBJSGp1VGItQXJVTnhZRTkwUThyeXFxWGxyVUE2VkR3WmhJQUQwRXlhSTFRbVN3enJTX09aQlBROW5V?oc=5",
+      "published_at": "Wed, 26 Aug 2026 06:03:30 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "How to Use Ledger Nano & Hardware Wallets: Step-by-Step Guide to Secure Your Crypto in 2026 - Bitcoin Foundation",
+      "source_name": "Bitcoin Foundation",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOc0FZNk5oUkRmSS1ER2tZajJ5U0dGWnVkZ1pDRjRNUGR5bmpydFBzdDJldExBRzJpbjlVbXhYekxwZ1B2ams1NmtOVWRDQnpLTVYyb1YzXzhzcWR4Y0Z5MEFUZm1oY3pZb2RodElkeWdNZmdyZlJSSUMyYTJVYjliRlVETWlOTVc0c0RDYVVHT3lienhtQlR4MHpKRHk2dnI5YVZIMHlwNTdoSHRkNmgxci1PVzMxOHZkVE42a3FhYlJzLVJMMGxNNnhUNFU?oc=5",
+      "published_at": "Fri, 26 Jun 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Interactive Brokers Adds Nano Bitcoin Futures Via Coinbase Derivatives - Bitcoin Magazine",
+      "source_name": "Bitcoin Magazine",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1EVG9pY0hxcnhkamhBVVFoRHJpbmFnTTZlUWFXc0Zpc1kyOURFQXBMeVgyaEpKbUk4em1tOFpxVkpUbzBPcEpjenVMVzhyRG9Vd3hiR0ZqbEViV2NZZGx5WVlQdzZUS0hDTV9hZE1RbDRMUVFlMkpFMndvUzdHdw?oc=5",
+      "published_at": "Tue, 10 Feb 2026 08:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Interactive Brokers Taps Coinbase Derivatives For 24/7 Nano Crypto Futures Access - Yellow.com",
+      "source_name": "Yellow.com",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQLXM3a0ZESHJ4OGNCZTNaZUhzQWd4WmhVMWFBUlRGbmNmNlJvUnU3QUZRMXotY0ZSMkNDeW8xYUNNeXlMUmpiUkR3Vk1JOW1xcmpLLVFDT3FPY3BKb0EwRmpacURnX1dUODdzT1NWMGFic1FuNDhGUFMtRERxSU5DRy1ISHg2QS1va3gzYUZ2UDBrQkpfdVRIanF0RFJhWUYzdW4xQXVHNWlNWHVaTWJyTEtjcXdhVWZrYlNv?oc=5",
+      "published_at": "Sat, 15 Aug 2026 13:02:31 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    },
+    {
+      "title": "XRP Futures - CME Group",
+      "source_name": "CME Group",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBTd3lmVHFDWGpOeEhXa2swWVN5M0ItNzRZTW1OWnZhVWdTQ0lwOThScl9rVnYxWHhoMGJ0cjl3QlhVcVppa2NaUGx0ZGlHc0VOYldpanI4MExqNnVrMHN0eGJSV21vX3Rx?oc=5",
+      "published_at": "Fri, 24 Jul 2026 06:59:14 GMT",
+      "relevance": "unrelated",
+      "freshness": "Old",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "Nano crypto",
+  "reasoning_quality": "Strong",
+  "reasoning_quality_note": "1 direct, fresh coin-specific headline(s) found (named the coin/project and published today or within the last 7 days).",
+  "neutral_explanation": "XNOUSDT (XNO/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 52 (tier B Watch); market-cap rank 430. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 1086 assets scanned, 10 confirmed flips (0.9%). State distribution: Blue 64.6%, Gold 15.7%, Gray 12.1%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 10 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (4 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

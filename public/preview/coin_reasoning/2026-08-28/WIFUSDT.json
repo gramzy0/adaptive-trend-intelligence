@@ -1,0 +1,85 @@
+{
+  "symbol": "WIFUSDT",
+  "date": "2026-08-28",
+  "generated_at": "2026-08-28T07:25:03.410215+00:00",
+  "scanner_evidence": {
+    "symbol": "WIFUSDT",
+    "pair": "WIF/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "69",
+    "score_tier": "A Good",
+    "market_cap_rank": "164",
+    "gray_candles": "4",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=WIFUSDT",
+    "execution_time": "2026-08-28T06:32:54.410486+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1086 assets scanned, 10 confirmed flips (0.9%). State distribution: Blue 64.6%, Gold 15.7%, Gray 12.1%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 10 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only.",
+      "Regulatory/legal-related coverage",
+      "Security-incident-related coverage"
+    ],
+    "context_generated_at": "2026-08-28T07:25:01.899685+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "dogwifhat volume surges 128% to $190M – $0.26 next for WIF if supply breaks - AMBCrypto",
+      "source_name": "AMBCrypto",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPNVhhZFRoQjZFUGtQQnFKdlJOMHFaenNYTjRIbGJsam9ZV0R6WHFTM2dqMW5vUjNpVXZwVzNzZEdGZUVwVGlJMFVsazRNS3pNaGRDcl9pU29LZjlXMWl1WVczNVVYQmc3YTdZbC1TOTlMczBuWVQyakU4Z21GbGYxQUNoa1pxbTJpOXQ0VlA0WVVTWlQ1SExRSw?oc=5",
+      "published_at": "Tue, 25 Aug 2026 15:00:11 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "Dogwifhat Drops Out of Top 50 Cryptocurrencies, Game Over for Our Beloved Meme Coin? - Yellow.com",
+      "source_name": "Yellow.com",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOVzZfUHFLZURUOVZrNThGYWVTenZES1h0dEZRYVBMY19tR2owREJTR1o5OFhpUlhQalgxVExrUjkzODNNREVpSXotUnV6WUVMS1FwVXkyWHhMSEJnUW4tSUc4bVctOUMwelBueXdlX0pZdE1ra29OdlRGbXl3ZU05aWJrYXFuWHJUT0JEU1dQM21SMUpwUUtjWmgzMElkQWViZThHcGFlMlFlbWx0eEF5QWx6WHpUR2RaeWg2VnIzNA?oc=5",
+      "published_at": "Sat, 22 Aug 2026 13:52:52 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "How Did Dogwifhat (WIF) Rise to Billions, and Can It Get There Again? - Cryptonews.net",
+      "source_name": "Cryptonews.net",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBsRDVXRGNjZXlYc3lWVi16akFremZMbjFlMWNaNGR6LWpEOGhXVlFpRTRSYXlTWDlFeTh4Qzl0cktvM2dHNDJkMGlZZjJraEQySEs5NmpPd1IyQQ?oc=5",
+      "published_at": "Tue, 25 Aug 2026 14:11:35 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "Dogwifhat Price: WIF Price Index and Live Chart - The Block",
+      "source_name": "The Block",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0xMjBaZjZZY0RmemliZlRiSXJJakpvZ3VzSkVUeU5JMnlWVjJDV1hON2lEWG02MkcwNzJ3MFBjeFAycENCc3dyek5EVUNuZW9M?oc=5",
+      "published_at": "Sat, 08 Aug 2026 06:42:01 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    },
+    {
+      "title": "Price of dogwifhat (WIF) today in EUR – Quote and market trends - Bit2Me",
+      "source_name": "Bit2Me",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9uZE82WXM4d05SV0tSR1hVai1TVWgzaXUtWVRQZVJER1ByUlI2UFREYWo4cTBmSmZiN0FzSXB1bWdQVTcyaGFPM25BS3FVZw?oc=5",
+      "published_at": "Wed, 22 Jul 2026 05:59:01 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "dogwifhat crypto",
+  "reasoning_quality": "Strong",
+  "reasoning_quality_note": "3 direct, fresh coin-specific headline(s) found (named the coin/project and published today or within the last 7 days).",
+  "neutral_explanation": "WIFUSDT (WIF/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 69 (tier A Good); market-cap rank 164. Scanner note: Valid confirmed trend flip — fresh signal. Broader crypto market context: 1086 assets scanned, 10 confirmed flips (0.9%). State distribution: Blue 64.6%, Gold 15.7%, Gray 12.1%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 10 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (5 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

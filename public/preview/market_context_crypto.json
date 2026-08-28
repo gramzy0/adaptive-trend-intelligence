@@ -1,14 +1,43 @@
 {
   "market": "crypto",
-  "generated_at": "2026-08-27T21:48:42.841291+00:00",
-  "scanner_summary": "1086 assets scanned, 10 confirmed flips (0.9%). State distribution: Blue 64.7%, Gold 15.6%, Gray 12.2%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 10 flips). Source: reports/private_crypto_dashboard.csv.",
+  "generated_at": "2026-08-28T07:25:01.899685+00:00",
+  "scanner_summary": "1086 assets scanned, 10 confirmed flips (0.9%). State distribution: Blue 64.6%, Gold 15.7%, Gray 12.1%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 10 flips). Source: reports/private_crypto_dashboard.csv.",
   "possible_drivers": [
     "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+    "General market-news coverage, reviewed for context only.",
     "Regulatory/legal-related coverage",
-    "General market-news coverage, reviewed for context only."
+    "Security-incident-related coverage"
   ],
   "uncertainty_note": "Automatically collected from public RSS headlines and local scanner output. Headlines are cited, not verified for accuracy or causal connection to price movement. This is not investment advice and does not contain buy, sell, hold, or execution guidance. Human review is required before treating anything here as reliable market context.",
   "sources": [
+    {
+      "title": "Here’s why Warsh’s Jackson Hole speech is a major event for bitcoin and gold",
+      "source_name": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/08/28/here-s-why-warsh-s-jackson-hole-speech-is-a-major-event-for-bitcoin-and-gold",
+      "published_at": "Fri, 28 Aug 2026 06:30:10 +0000",
+      "note": "General market-news coverage, reviewed for context only."
+    },
+    {
+      "title": "Solana’s faster disinflation plan leads vote as $800K burn proposal trails",
+      "source_name": "CoinDesk",
+      "url": "https://www.coindesk.com/tech/2026/08/28/solana-s-faster-supply-cuts-lead-vote-while-usd800-000-daily-burn-plan-trails",
+      "published_at": "Fri, 28 Aug 2026 06:22:10 +0000",
+      "note": "General market-news coverage, reviewed for context only."
+    },
+    {
+      "title": "Bitcoin under $80,000, solana leads majors higher before Warsh's Jackson Hole debut",
+      "source_name": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/08/28/bitcoin-holds-usd80-000-solana-leads-majors-higher-before-warsh-s-jackson-hole-debut",
+      "published_at": "Fri, 28 Aug 2026 04:40:52 +0000",
+      "note": "General market-news coverage, reviewed for context only."
+    },
+    {
+      "title": "An XRP treasury company backed by Ripple is a shareholder vote away from Nasdaq",
+      "source_name": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/08/28/an-xrp-treasury-company-backed-by-ripple-is-a-shareholder-vote-away-from-nasdaq",
+      "published_at": "Fri, 28 Aug 2026 04:21:22 +0000",
+      "note": "General market-news coverage, reviewed for context only."
+    },
     {
       "title": "Connecticut's new lawsuit against Kalshi piles on to prediction market legal fight",
       "source_name": "CoinDesk",
@@ -17,46 +46,18 @@
       "note": "Regulatory/legal-related coverage"
     },
     {
-      "title": "Ethena surges as buyback vote, VC unlock overhaul boost token outlook",
-      "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/08/27/ethena-surges-as-buyback-vote-vc-unlock-overhaul-boost-token-outlook",
-      "published_at": "Thu, 27 Aug 2026 17:32:20 +0000",
-      "note": "General market-news coverage, reviewed for context only."
-    },
-    {
-      "title": "GTA 6 leaker cashes out of his own memecoin hours before Rockstar's gameplay reveal",
-      "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/08/27/gta-6-leaker-cashes-out-of-his-own-memecoin-hours-before-rockstar-s-gameplay-reveal",
-      "published_at": "Thu, 27 Aug 2026 16:32:38 +0000",
-      "note": "General market-news coverage, reviewed for context only."
-    },
-    {
-      "title": "Polish Olympic chief arrested as prosecutors probe suspected crypto-linked bribe",
-      "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/08/27/polish-olympic-chief-arrested-as-prosecutors-probe-suspected-crypto-linked-bribe",
-      "published_at": "Thu, 27 Aug 2026 16:12:10 +0000",
-      "note": "General market-news coverage, reviewed for context only."
-    },
-    {
-      "title": "MoonPay’s newest integration lets AI agents handle crypto lending on Solana",
-      "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/08/27/moonpay-s-newest-integration-lets-ai-agents-handle-crypto-lending-on-solana",
-      "published_at": "Thu, 27 Aug 2026 15:52:21 +0000",
-      "note": "General market-news coverage, reviewed for context only."
-    },
-    {
-      "title": "Virtu, Tradeweb complete onchain repo using Marshall Islands digital bond",
-      "source_name": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/virtu-tradeweb-complete-onchain-repo-using-marshall-islands-digital-bond?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "Thu, 27 Aug 2026 20:39:40 +0000",
-      "note": "General market-news coverage, reviewed for context only."
-    },
-    {
       "title": "Here’s what happened in crypto today",
       "source_name": "CoinTelegraph",
       "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "Thu, 27 Aug 2026 19:27:53 +0000",
+      "published_at": "Fri, 28 Aug 2026 05:50:05 +0000",
       "note": "General market-news coverage, reviewed for context only."
+    },
+    {
+      "title": "The Sandbox pledges 1:1 repayment after $700K bridge exploit",
+      "source_name": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/the-sandbox-compensation-sand-bridge-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "Fri, 28 Aug 2026 05:40:48 +0000",
+      "note": "Security-incident-related coverage"
     }
   ]
 }
