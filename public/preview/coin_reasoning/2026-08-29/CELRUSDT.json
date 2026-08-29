@@ -1,0 +1,84 @@
+{
+  "symbol": "CELRUSDT",
+  "date": "2026-08-29",
+  "generated_at": "2026-08-29T07:25:03.788719+00:00",
+  "scanner_evidence": {
+    "symbol": "CELRUSDT",
+    "pair": "CELR/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "62",
+    "score_tier": "B Watch",
+    "market_cap_rank": "866",
+    "gray_candles": "11",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "small-cap potential, small-cap high risk, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=CELRUSDT",
+    "execution_time": "2026-08-29T06:36:57.072242+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1086 assets scanned, 13 confirmed flips (1.2%). State distribution: Blue 63.4%, Gold 16.3%, Gray 12.7%, Unknown 7.6%. Strongest transition: Blue → Gold (12 of 13 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only.",
+      "Macro/rates-related coverage"
+    ],
+    "context_generated_at": "2026-08-29T07:25:02.269686+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Celer Network Price Prediction 2026, 2027, 2030 & Beyond: Yearly Forecast - Binance",
+      "source_name": "Binance",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBwYWRvX0s3TDZHaGIxNElBZUZuVlRzTmVicXRJeWQ0NktvdlJxYzlNblNTUlpobnpEQmpwQ0tKMXhNbGpXOVFFb045alNZWnltaEpTbFNMVGI3MEF0dFI1WGRFbjExMXUxSklSZw?oc=5",
+      "published_at": "Sun, 23 Aug 2026 16:29:00 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "Price of Celer Network (CELR) today in EUR – Quote and market trends - Bit2Me",
+      "source_name": "Bit2Me",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE13MnB3My05Y1JnYjdmak1KMEhWaFZKWWY3T3dZMlVnaUxDcjFPcThPa2QzX0JGU2U0ZFA4UmtsdmtCZmVHQmpmOTY2RTc4enFuRFA0?oc=5",
+      "published_at": "Fri, 07 Aug 2026 16:56:05 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Celer Network Price: CELR Price Index and Live Chart - The Block",
+      "source_name": "The Block",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE00akRfYzlORTVNdjhOVzZSUEpzbWQ1d2IyckJZMGRxZ05tdXoyNFQxOUpmenZ5YUhOVGhEVmx5M0VjbGpwUUpYOGlhbHZlNU1QWmk5RlB3?oc=5",
+      "published_at": "Sat, 08 Aug 2026 04:21:52 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "What is Celer Network (CELR) and How Does it Work - OKX",
+      "source_name": "OKX",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1qekkzcGcxOG0zVVM0SDBZZEtnS2RPMDhHYlBYUG9vRkh2cWUyYm5TcnNtM1lpUlUxZ2VIM3ZvRVZVSldoLTBTdTg1RWVndXJ0em5MYjl6Z19iR2s2VGFmanM4RQ?oc=5",
+      "published_at": "Mon, 16 Feb 2026 08:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    },
+    {
+      "title": "Celer Network Price Prediction 2025–2030 | Future Forecast - Capital.com",
+      "source_name": "Capital.com",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbXZHaUQ1TFNEY0VyaVFOTUtEX0JKTTNHT0x3SktrZlZWRDV1SWl6N2kzVm9GVFdJRzhGS09pOUgxYmkxZE9vQm1vT1NRUmQ0WHBsRVlROHFrZFhSR28yblZGU3dSbXBYSTFPTGJEXzJZdjlPTkc3czJFNUI4VmFhZk5Ed1dDT0RaRGRPd0l1eE1pMWdXaVVPWnJuQXViZmEzVlQ1SWxMTjlNV1k?oc=5",
+      "published_at": "Fri, 07 Nov 2025 08:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "Celer Network crypto",
+  "reasoning_quality": "Strong",
+  "reasoning_quality_note": "1 direct, fresh coin-specific headline(s) found (named the coin/project and published today or within the last 7 days).",
+  "neutral_explanation": "CELRUSDT (CELR/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 62 (tier B Watch); market-cap rank 866. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 1086 assets scanned, 13 confirmed flips (1.2%). State distribution: Blue 63.4%, Gold 16.3%, Gray 12.7%, Unknown 7.6%. Strongest transition: Blue → Gold (12 of 13 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (5 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

@@ -1,63 +1,62 @@
 {
   "market": "crypto",
-  "generated_at": "2026-08-28T07:25:01.899685+00:00",
-  "scanner_summary": "1086 assets scanned, 10 confirmed flips (0.9%). State distribution: Blue 64.6%, Gold 15.7%, Gray 12.1%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 10 flips). Source: reports/private_crypto_dashboard.csv.",
+  "generated_at": "2026-08-29T07:25:02.269686+00:00",
+  "scanner_summary": "1086 assets scanned, 13 confirmed flips (1.2%). State distribution: Blue 63.4%, Gold 16.3%, Gray 12.7%, Unknown 7.6%. Strongest transition: Blue → Gold (12 of 13 flips). Source: reports/private_crypto_dashboard.csv.",
   "possible_drivers": [
     "Locally observed scanner state distribution and flip activity (see scanner_summary).",
     "General market-news coverage, reviewed for context only.",
-    "Regulatory/legal-related coverage",
-    "Security-incident-related coverage"
+    "Macro/rates-related coverage"
   ],
   "uncertainty_note": "Automatically collected from public RSS headlines and local scanner output. Headlines are cited, not verified for accuracy or causal connection to price movement. This is not investment advice and does not contain buy, sell, hold, or execution guidance. Human review is required before treating anything here as reliable market context.",
   "sources": [
     {
-      "title": "Here’s why Warsh’s Jackson Hole speech is a major event for bitcoin and gold",
+      "title": "Bitcoin wallets untouched for 10 years moved $40 million. Most avoided exchanges",
       "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/08/28/here-s-why-warsh-s-jackson-hole-speech-is-a-major-event-for-bitcoin-and-gold",
-      "published_at": "Fri, 28 Aug 2026 06:30:10 +0000",
+      "url": "https://www.coindesk.com/markets/2026/08/28/bitcoin-wallets-untouched-for-10-years-moved-usd40-million-most-avoided-exchanges",
+      "published_at": "Sat, 29 Aug 2026 04:30:00 +0000",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Solana’s faster disinflation plan leads vote as $800K burn proposal trails",
+      "title": "Ripple is preparing XRP Ledger for quantum computers before ‘Q-Day’ arrives",
       "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/tech/2026/08/28/solana-s-faster-supply-cuts-lead-vote-while-usd800-000-daily-burn-plan-trails",
-      "published_at": "Fri, 28 Aug 2026 06:22:10 +0000",
+      "url": "https://www.coindesk.com/tech/2026/08/28/ripple-is-preparing-xrp-ledger-for-quantum-computers-before-q-day-arrives",
+      "published_at": "Sat, 29 Aug 2026 02:30:00 +0000",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Bitcoin under $80,000, solana leads majors higher before Warsh's Jackson Hole debut",
+      "title": "Kalshi takes legal blow in court ruling confirming state powers over prediction markets",
       "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/08/28/bitcoin-holds-usd80-000-solana-leads-majors-higher-before-warsh-s-jackson-hole-debut",
-      "published_at": "Fri, 28 Aug 2026 04:40:52 +0000",
+      "url": "https://www.coindesk.com/policy/2026/08/28/kalshi-takes-legal-blow-in-court-ruling-confirming-state-powers-over-prediction-markets",
+      "published_at": "Fri, 28 Aug 2026 21:28:12 +0000",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "An XRP treasury company backed by Ripple is a shareholder vote away from Nasdaq",
+      "title": "Solana vote to double disinflation passes by a hair in dramatic finish",
       "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/08/28/an-xrp-treasury-company-backed-by-ripple-is-a-shareholder-vote-away-from-nasdaq",
-      "published_at": "Fri, 28 Aug 2026 04:21:22 +0000",
+      "url": "https://www.coindesk.com/tech/2026/08/28/solana-vote-to-double-disinflation-passes-by-a-hair-in-dramatic-finish",
+      "published_at": "Fri, 28 Aug 2026 16:12:45 +0000",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Connecticut's new lawsuit against Kalshi piles on to prediction market legal fight",
+      "title": "Fed Chair Kevin Warsh at Jackson Hole: 'We have work to do' on inflation",
       "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/news-analysis/2026/08/27/connecticut-s-new-lawsuit-against-kalshi-piles-on-to-prediction-market-legal-fight",
-      "published_at": "Thu, 27 Aug 2026 18:28:53 +0000",
-      "note": "Regulatory/legal-related coverage"
+      "url": "https://www.coindesk.com/markets/2026/08/28/warsh-at-jackson-hole-we-have-work-to-do-on-inflaiton",
+      "published_at": "Fri, 28 Aug 2026 14:05:12 +0000",
+      "note": "Macro/rates-related coverage"
+    },
+    {
+      "title": "Bitcoin ETFs end 9-day inflow streak as BTC dips below $78K",
+      "source_name": "CoinTelegraph",
+      "url": "https://cointelegraph.com/markets/bitcoin-etf-end-9-day-inflow-streak-btc-below-78k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "Sat, 29 Aug 2026 06:47:12 +0000",
+      "note": "General market-news coverage, reviewed for context only."
     },
     {
       "title": "Here’s what happened in crypto today",
       "source_name": "CoinTelegraph",
       "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "Fri, 28 Aug 2026 05:50:05 +0000",
+      "published_at": "Fri, 28 Aug 2026 20:42:54 +0000",
       "note": "General market-news coverage, reviewed for context only."
-    },
-    {
-      "title": "The Sandbox pledges 1:1 repayment after $700K bridge exploit",
-      "source_name": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/the-sandbox-compensation-sand-bridge-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "Fri, 28 Aug 2026 05:40:48 +0000",
-      "note": "Security-incident-related coverage"
     }
   ]
 }

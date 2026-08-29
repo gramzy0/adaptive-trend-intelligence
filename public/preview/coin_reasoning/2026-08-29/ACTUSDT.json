@@ -1,0 +1,84 @@
+{
+  "symbol": "ACTUSDT",
+  "date": "2026-08-29",
+  "generated_at": "2026-08-29T07:25:03.788719+00:00",
+  "scanner_evidence": {
+    "symbol": "ACTUSDT",
+    "pair": "ACT/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "42",
+    "score_tier": "C Weak",
+    "market_cap_rank": "1142",
+    "gray_candles": "17",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "small-cap potential, small-cap high risk, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=ACTUSDT",
+    "execution_time": "2026-08-29T06:36:57.072242+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1086 assets scanned, 13 confirmed flips (1.2%). State distribution: Blue 63.4%, Gold 16.3%, Gray 12.7%, Unknown 7.6%. Strongest transition: Blue → Gold (12 of 13 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only.",
+      "Macro/rates-related coverage"
+    ],
+    "context_generated_at": "2026-08-29T07:25:02.269686+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "The AI Prophecy (ACT) Price Prediction: Daily, Weekly 2026-2040 - CoinDCX",
+      "source_name": "CoinDCX",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1kNWx4dUlRNVJMVEdEeXh3WWFYLWdWSExCZU9GVHplQmM4bGdVZGp1Y1ZqZ2x6Njk2d1VkZHQ2eUptN0hXTzd4QXNMejdQR3ByN1oxd1NOb3JOSm9PRXVGMEsydUJpRGEzUWhhU3BFMkZSd2c?oc=5",
+      "published_at": "Mon, 29 Jun 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "CLARITY Act Crypto Regulation Bill Faces July 4 Deadline From White House - MEXC",
+      "source_name": "MEXC",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNcDJoVGN1YWRET0dGNmhWNHdDTzdMeWk2LW02YTNFbF9KZ1BUVEpWUzUwOUx6bFZYRFVDT2J1MVpkWnhKTTBrbU51S3B2X1ZLNGdtT2xkOXhRdlJ1TXoxS1hCVDU1aVUxeGtUcVIxTC1qUGFuZlpBYklUWUJvbkE5dFZUZTc0V1BCaG5Sa0RoT1hxcEtvNGpzQ3RwWFZWOFB1VWZRcnFKWk4tMGU4dGc?oc=5",
+      "published_at": "Sat, 09 May 2026 03:32:08 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Act I: The AI Prophecy Price Prediction 2024-2030: WIll ACT Hit $10 Soon? - CryptoRank",
+      "source_name": "CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOamctSDZsdHJEaDRGZlNZWU9HazByTm9HcnZOeWt1M1p3MmtBZ0tab1VJUGhFX0VkMkFkdENCQnJUV2d3cjhDcERQSl8zWTBOcG5qUjFtWUcyNUYzS1BqNDZCTVRHQS1sRTBwcHNPMTV3bVpXTUNmVk5jbVkydXpLa1NR?oc=5",
+      "published_at": "Thu, 14 Nov 2024 08:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Trending Cryptos of the Week: Market Goes Squirrely, BTC at New ATH, AI Projects Lead, XRP Makes A Comeback - Yellow.com",
+      "source_name": "Yellow.com",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQRVpsTU1qaVdyRTlWMzFTT3J1eGpMTTFOVTVyYVVsOUNBM1UyLUdrTkZwem5YaEV6WkFzamkwcnl6SGNob1dVOTJTLVRfWi1ON09DV1RIUFc5ay1WUzY1ektxRlh5eWlKd1J2T3BCMVJhM1dEUFREeDhGcHdmTloza0tIcUpVb1ZpZGdQcVhtRjdfbUloQzVTemZIclpSdXdXNHN4WDRLcFdZX1RRWDhTNkRQVldTT21VTUV0LUdEVDFZeWNERm1ybFZfVVZlSjVVZnh5aXFZbEk?oc=5",
+      "published_at": "Thu, 27 Aug 2026 16:57:51 GMT",
+      "relevance": "market_context",
+      "freshness": "Recent",
+      "default_visible": false
+    },
+    {
+      "title": "Artificial Intelligence (AI) Coins: Live Prices, Market Cap, Charts, News - Crypto.com",
+      "source_name": "Crypto.com",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBVY1I0UXEtUTNvYUExUG9EbUx2UExTUHoxYlZUVUgwUGY0dEFxUkhNdi1NTkw1WnlVcDBSbXcydXlyVG1HV3YxaFpIS2tOa3FyS0U0dmZhSDhyX3J4ZkZ3VlEtZGdmUFVRSTFLVG5VLU8tdjQ?oc=5",
+      "published_at": "Thu, 20 Nov 2025 14:45:49 GMT",
+      "relevance": "market_context",
+      "freshness": "Old",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "Act I The AI Prophecy crypto",
+  "reasoning_quality": "Medium",
+  "reasoning_quality_note": "Relevant evidence found (3 direct but not fresh, 2 sector/market-wide headline(s)), but no headline is both coin-specific and fresh. Treat this as supporting context, not confirmation.",
+  "neutral_explanation": "ACTUSDT (ACT/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 42 (tier C Weak); market-cap rank 1142. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 1086 assets scanned, 13 confirmed flips (1.2%). State distribution: Blue 63.4%, Gold 16.3%, Gray 12.7%, Unknown 7.6%. Strongest transition: Blue → Gold (12 of 13 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (3 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

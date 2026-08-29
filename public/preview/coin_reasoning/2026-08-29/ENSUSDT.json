@@ -1,0 +1,84 @@
+{
+  "symbol": "ENSUSDT",
+  "date": "2026-08-29",
+  "generated_at": "2026-08-29T07:25:03.788719+00:00",
+  "scanner_evidence": {
+    "symbol": "ENSUSDT",
+    "pair": "ENS/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "69",
+    "score_tier": "A Good",
+    "market_cap_rank": "157",
+    "gray_candles": "5",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=ENSUSDT",
+    "execution_time": "2026-08-29T06:36:57.072242+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1086 assets scanned, 13 confirmed flips (1.2%). State distribution: Blue 63.4%, Gold 16.3%, Gray 12.7%, Unknown 7.6%. Strongest transition: Blue → Gold (12 of 13 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only.",
+      "Macro/rates-related coverage"
+    ],
+    "context_generated_at": "2026-08-29T07:25:02.269686+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Google Integrates Ethereum Name Service: Wallet Balances Now Visible in Search Results - Yellow.com",
+      "source_name": "Yellow.com",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOSXpzZk16a0NiQXhqbGNHRzY2MkJjZWhoSTBXZE40dDlGdE1SSVdoS1NnVlJMdkVoU251NzZjelpUUG9TWGR5WTgxU29MMnlGdFhXTTRhVTh4bi11YU82R0tqTElkb0p6MkhTVHB3dTBKbW40N2xEZWtySHR0RHNZUkpIa21lODFrOGNVTE1xTGFYTXp3N3FiU2FNODVsTjVBTExLd25sWDJ0VmI2dkRqakZGSGRaX1BkNGc?oc=5",
+      "published_at": "Fri, 28 Aug 2026 15:51:55 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "Ethereum Name Service (ENS) Rallies 50.8% in 7 Days — What Is Driving the Move? - Bitget",
+      "source_name": "Bitget",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1DRkpPZUZWeDVmc2RWcjhsSndQdDYwbVQ5SThaaVBNX1lqQXVwVWZ4MzJkaVFGc2xlRUhEVlpfdWd0dGpTWkhvcXg5RmdvWE5TdFVFRFhxdUhiU21WS0VtU0JsSdIBY0FVX3lxTE1DRkpPZUZWeDVmc2RWcjhsSndQdDYwbVQ5SThaaVBNX1lqQXVwVWZ4MzJkaVFGc2xlRUhEVlpfdWd0dGpTWkhvcXg5RmdvWE5TdFVFRFhxdUhiU21WS0VtU0JsSQ?oc=5",
+      "published_at": "Mon, 24 Aug 2026 21:38:53 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "What Is Ethereum Name Service (ENS)? - Binance",
+      "source_name": "Binance",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZk1yWW0wQ25FcF9HZVprS2R0anU1MWNvR1ZNWDNpVFRHZHdMSVlWTXdvd0NRNF9JVXJLbjRzeTlPZV9KbzJtOFRITjRuZUVhN3NudmhMcHJlQURRMVBEQVQwU2pEYkdEb21LVVppdUZ3eXVOWW9tUHdzSXNCamNpekxrcw?oc=5",
+      "published_at": "Thu, 06 Aug 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Price of Ethereum Name Service (ENS) today in EUR – Quote and market trends - Bit2Me",
+      "source_name": "Bit2Me",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE0xdDF0R0FJWFBNU0JySENsZXpQRTdFa2JTbkVIelNYeGtaZXFZSDVQV3pEQ2RmemlKLXpiVlpKY3NPMkJTM2l6SWxDYlBJVm03LXFsMUplRG5mQUFOMEE?oc=5",
+      "published_at": "Wed, 22 Jul 2026 22:02:16 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    },
+    {
+      "title": "Unstoppable Domains Abandons ICANN Bid for .crypto and .bitcoin, Citing $2 Million Cost - finance.biggo.com",
+      "source_name": "finance.biggo.com",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1UR19yTFpUM0dQUW4zVENqdXNsMGdqYkIzOVJwYzdZdVJlWU0wRG9pc0xYcjltY0ppU20ydTZHa21pQmRmZGRyZU9YWjZ1d1VPTUhCSTZjOHlVTTZiRWhubTVQa09LSHVNVGZhUHc1MHIwN2FWR1E?oc=5",
+      "published_at": "Thu, 27 Aug 2026 18:48:00 GMT",
+      "relevance": "market_context",
+      "freshness": "Recent",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "Ethereum Name Service crypto",
+  "reasoning_quality": "Strong",
+  "reasoning_quality_note": "2 direct, fresh coin-specific headline(s) found (named the coin/project and published today or within the last 7 days).",
+  "neutral_explanation": "ENSUSDT (ENS/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 69 (tier A Good); market-cap rank 157. Scanner note: Valid confirmed trend flip — fresh signal. Broader crypto market context: 1086 assets scanned, 13 confirmed flips (1.2%). State distribution: Blue 63.4%, Gold 16.3%, Gray 12.7%, Unknown 7.6%. Strongest transition: Blue → Gold (12 of 13 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (4 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

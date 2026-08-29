@@ -1,0 +1,84 @@
+{
+  "symbol": "STXUSDT",
+  "date": "2026-08-29",
+  "generated_at": "2026-08-29T07:25:03.788719+00:00",
+  "scanner_evidence": {
+    "symbol": "STXUSDT",
+    "pair": "STX/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "69",
+    "score_tier": "A Good",
+    "market_cap_rank": "110",
+    "gray_candles": "4",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=STXUSDT",
+    "execution_time": "2026-08-29T06:36:57.072242+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1086 assets scanned, 13 confirmed flips (1.2%). State distribution: Blue 63.4%, Gold 16.3%, Gray 12.7%, Unknown 7.6%. Strongest transition: Blue → Gold (12 of 13 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only.",
+      "Macro/rates-related coverage"
+    ],
+    "context_generated_at": "2026-08-29T07:25:02.269686+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Stacks (STX) Drops 6% Amid Macro Pullback and High-Beta Dynamics - CoinMarketCap",
+      "source_name": "CoinMarketCap",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5BU3FMbmhFejNxMF9fUlJCUEtveDd5cXUtY1pEVGtNVE9mQWo2TnpRLTk3WUtMdS1pSVY1LUpOeU1ldjB5UEFSOGRPd1Q0YTQ1LUgwcXZuaEFqZkZrck1MbHVXN2x4LW9FTTN2NVFjSno?oc=5",
+      "published_at": "Sat, 29 Aug 2026 02:04:00 GMT",
+      "relevance": "direct",
+      "freshness": "Today",
+      "default_visible": true
+    },
+    {
+      "title": "STX Price Prediction 2026: The Two Forces Behind Stacks’ Bitcoin-Native Finance Demand - Coinpedia",
+      "source_name": "Coinpedia",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9TaG94d2dUMWZqQzZlZnN0YlpCR2FJeEExOUp6VXlfamlRcmNxUFlBMTgxUlNZSTlIRFV6bE1nTDJSc08zeEVPX09QOTRpd01WSHhWbU55NThhRTV2N0RHMWJLSHpwUWtMSXhQUEJvM1VQcWRnUFHSAXtBVV95cUxOeXBwS2hDb1BwVWdiNkQ4bkVIVGRNOS0xQW1TTjFJc3Axdk5telRQZnpudXNBa19paWhQNV9xSldYTTVtb2ZaSmRoVGRFU3Z4ZU1qWUthQXI2WWRlWE8zVk11eFdaTWZXb2RBODNVQkFDbXJ5YkFiaVRaNWs?oc=5",
+      "published_at": "Fri, 28 Aug 2026 20:48:21 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "HashKey Cloud backs Stacks’ Genesis Bond to prove institutional appetite for native Bitcoin yield - CryptoSlate",
+      "source_name": "CryptoSlate",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPdGdvMGpVOEJPZ19rd2Y3WEp0NFVVZ0NwbVRVZWVqT0dpLXdweGVBOFZORG4wNXJfbDl5VHM3czdsMkc5dEZJdXdYWnYwMzhiVnlhaFhiVkRlYmg1amVOenhJUWJoeWFWcGdPMHFtN21qWXdjVWRyazFQcWNJWFQzTzh5dTlfMWpGNVZwU2xhN0xiVEJmOGc1TGJYcld6OFRtU1cwUDRCRGNmdEd3SlJ5NWFUV0dMMjZ5QjVUcUl3?oc=5",
+      "published_at": "Fri, 28 Aug 2026 01:10:50 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "STX crypto review 2026: Tokenomics, BTC yield and staking demand - Crypto News",
+      "source_name": "Crypto News",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPdkZKVXY0RTJYRzBkc0FFZC1BZjNpenBOM2dOV013TGJDSU5DQmZKY0p2TDNVSm9Fd2VlVk5QR1VVTm1LNG1QOXFEa2NEOHV2VHhnZ051alh0MVFYLXg3S1U1SHBhUGgxcmNMWE1LSFZmeVVmdEQyM05PX2p5b0VCSWVhN1Bjb05jVWRN?oc=5",
+      "published_at": "Fri, 28 Aug 2026 10:15:49 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": false
+    },
+    {
+      "title": "What Is Stacks (STX)? The Bitcoin Layer Behind sBTC - Phemex",
+      "source_name": "Phemex",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5hUDlEdU15dTQ2UkpRSVp0WmIxanA2RTFrTzc3QmVzV0R3QWhnemlneFo1TnpIc0E4U0hYdnozQ3B4MDdGY2dOTVJwV3lVN3VxTXE0eTJMNkc?oc=5",
+      "published_at": "Wed, 26 Aug 2026 08:21:20 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "Stacks crypto",
+  "reasoning_quality": "Strong",
+  "reasoning_quality_note": "5 direct, fresh coin-specific headline(s) found (named the coin/project and published today or within the last 7 days).",
+  "neutral_explanation": "STXUSDT (STX/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 69 (tier A Good); market-cap rank 110. Scanner note: Valid confirmed trend flip — fresh signal. Broader crypto market context: 1086 assets scanned, 13 confirmed flips (1.2%). State distribution: Blue 63.4%, Gold 16.3%, Gray 12.7%, Unknown 7.6%. Strongest transition: Blue → Gold (12 of 13 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (5 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

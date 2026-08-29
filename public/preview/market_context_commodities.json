@@ -1,45 +1,46 @@
 {
   "market": "commodities",
-  "generated_at": "2026-08-28T07:25:01.899685+00:00",
+  "generated_at": "2026-08-29T07:25:02.269686+00:00",
   "scanner_summary": "No commodity scanner data available in data/output; no asset count, flip count, or state distribution can be computed locally.",
   "possible_drivers": [
-    "General market-news coverage, reviewed for context only."
+    "General market-news coverage, reviewed for context only.",
+    "Supply-related coverage"
   ],
   "uncertainty_note": "Automatically collected from public RSS headlines and local scanner output. Headlines are cited, not verified for accuracy or causal connection to price movement. This is not investment advice and does not contain buy, sell, hold, or execution guidance. Human review is required before treating anything here as reliable market context.",
   "sources": [
     {
-      "title": "Hormuz Tanker Traffic Drops Despite Recovery in Oil Flows",
+      "title": "Europe’s Russia Sanctions Have a Major Blind Spot",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-Shipping-Slumps-Even-as-Gulf-Oil-Flows-Rise.html",
-      "published_at": "Fri, 28 Aug 2026 02:00:00 -0500",
+      "url": "https://oilprice.com/Energy/Energy-General/Europes-Russia-Sanctions-Have-a-Major-Blind-Spot.html",
+      "published_at": "Fri, 28 Aug 2026 15:00:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Oil Prices Head for a Weekly Loss Despite Escalating Iran Tensions",
+      "title": "The AI Boom Could Triple Data Center Water Use by 2030",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Head-for-a-Weekly-Loss-Despite-Escalating-Iran-Tensions.html",
-      "published_at": "Fri, 28 Aug 2026 00:15:00 -0500",
+      "url": "https://oilprice.com/Energy/Energy-General/The-AI-Boom-Could-Triple-Data-Center-Water-Use-by-2030.html",
+      "published_at": "Fri, 28 Aug 2026 14:00:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Egypt’s LNG Comeback Is Set to Start in Cyprus",
+      "title": "Venezuela Helped Build OPEC. Now It May Help Break It Apart",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Energy/Natural-Gas/Egypts-LNG-Comeback-Is-Set-to-Start-in-Cyprus.html",
-      "published_at": "Thu, 27 Aug 2026 19:00:00 -0500",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Venezuela-Helped-Build-OPEC-Now-It-May-Help-Break-It-Apart.html",
+      "published_at": "Fri, 28 Aug 2026 13:30:00 -0500",
+      "note": "Supply-related coverage"
+    },
+    {
+      "title": "Russia’s Energy Crisis Puts Kazakhstan in a Tough Spot",
+      "source_name": "OilPrice.com",
+      "url": "https://oilprice.com/Energy/Energy-General/Russias-Energy-Crisis-Puts-Kazakhstan-in-a-Tough-Spot.html",
+      "published_at": "Fri, 28 Aug 2026 13:00:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "East Africa’s Oil Rivalry Spurs Multi-Billion-Dollar Projects Across The Region",
+      "title": "The Iran War Has Turned VLCCs Into $650,000-a-Day Assets",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Energy/Crude-Oil/East-Africas-Oil-Rivalry-Spurs-Multi-Billion-Dollar-Projects-Across-The-Region.html",
-      "published_at": "Thu, 27 Aug 2026 18:00:00 -0500",
-      "note": "General market-news coverage, reviewed for context only."
-    },
-    {
-      "title": "DoE Begins Tests for Fracked Geothermal",
-      "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Alternative-Energy/Geothermal-Energy/DoE-Begins-Tests-for-Fracked-Geothermal.html",
-      "published_at": "Thu, 27 Aug 2026 17:00:00 -0500",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/The-Iran-War-Has-Turned-VLCCs-Into-650000-a-Day-Assets.html",
+      "published_at": "Fri, 28 Aug 2026 12:30:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {

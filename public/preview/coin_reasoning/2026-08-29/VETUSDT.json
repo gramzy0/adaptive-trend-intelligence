@@ -1,0 +1,84 @@
+{
+  "symbol": "VETUSDT",
+  "date": "2026-08-29",
+  "generated_at": "2026-08-29T07:25:03.788719+00:00",
+  "scanner_evidence": {
+    "symbol": "VETUSDT",
+    "pair": "VET/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "64",
+    "score_tier": "B Watch",
+    "market_cap_rank": "93",
+    "gray_candles": "5",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "large-cap stability, top market cap, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=VETUSDT",
+    "execution_time": "2026-08-29T06:36:57.072242+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1086 assets scanned, 13 confirmed flips (1.2%). State distribution: Blue 63.4%, Gold 16.3%, Gray 12.7%, Unknown 7.6%. Strongest transition: Blue → Gold (12 of 13 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only.",
+      "Macro/rates-related coverage"
+    ],
+    "context_generated_at": "2026-08-29T07:25:02.269686+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "VeChain (VET) Drops 4% on Profit Taking, Mean Reversion - CoinMarketCap",
+      "source_name": "CoinMarketCap",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBJYVdyM1JWVEFFWTJrbkdtYzJyYTR0R1VCcVgxMGkxZWFySlpCUm44WWhzc2pZNWQxeUhLcktTLWpYbkhiZm93enJhalkzVlpuRjNVNW1xVEhkWDdYX2dhVTZORHRRa1lrcmt3dXpWaDM?oc=5",
+      "published_at": "Sat, 29 Aug 2026 00:04:00 GMT",
+      "relevance": "direct",
+      "freshness": "Today",
+      "default_visible": true
+    },
+    {
+      "title": "VeChain Price Prediction: Can VET Get Back to Its 2024 Market Cap? - CryptoRank",
+      "source_name": "CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdGdkSHZPWElHOVYtQWI4QXdtOXFpNzA4X0xFbUV0ZVFTZkNVOUQ5ejZlbE5CWTYtelJ6anI2Y1RSX25vZ1VRbjE4MnNWeG9mLUhKNHZCR0JVX0IySk5wV1JsendvX19QeFIyTHNfb2p1cjZOZUJDQlJ6UnF0N3UzX1VYMW9VT3JWdFRQQUFoMndPbDlZNHVlLTE5dXZzMEk1UnNSeA?oc=5",
+      "published_at": "Thu, 27 Aug 2026 12:51:27 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "VeChain surges 15% in 24 hours: Will VET face a rejection at $0.0073? - AMBCrypto",
+      "source_name": "AMBCrypto",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOcFVRUmh0b1h2LV9yOUVCNTlwSkhhTkVXdWRVWE9ROXJrMFpqc05wbzBuWTJ1c0czWGc3dHhMbDhjd1o0SVZkRHZtVFFGcVEzaHd4ajN3NkVNVmhXaGhvc21pTTg5Nmxac1VVVzJrSWFLOF8tTHNuSW5DendWU3lNS0FRSU5UWjhzTldsYXlYWVRkUQ?oc=5",
+      "published_at": "Thu, 27 Aug 2026 11:00:35 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "VeChain Price Surges as VET Breaks 2026 Downtrend: $0.01 in Sight? - Coinpedia",
+      "source_name": "Coinpedia",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPaDR4RDl6XzFNVmN6Q3M5ZnUxaTJ5YUdQbHFzRzBlWFVyWXlaXzBac1RDclFSaDByQnZfRm9FRHhRNElrb1VXWW5tNE9TNmtwMVhWcVpMdHpkTjRQck04U2FnSVFaMzFEc1RvR1RZYUx0UUw5SHB5Z3JqQ3FTMzlNUUEzTmlLX3h2SjFLZERaXy05TzNmR2VzUFQ2anBXbDRMazNR0gGoAUFVX3lxTFBhVTVnb2ZWeGNYdWFuYkZ3Ri1QNmx1dmhFU3JoMmQ4UzRVTkZ3bFNHRDdqMjBBa3FCOUdFUmEweVFPbGhhLVZaUEc0OF9xUDhma2c2dS0wUENoTFZtQlduUk11eFVFS1ZZNEoyUHVuN1g2M1dfSWZwVlk0cy12T2hwazYyeUkwbE11VkxzQ1hHcTlQZ29lMzNQb1VwSGpDQ01vMlhQYWNENw?oc=5",
+      "published_at": "Tue, 25 Aug 2026 23:40:00 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": false
+    },
+    {
+      "title": "VeChain surges 15% in 24 hours, up 48% since la... - Pluang",
+      "source_name": "Pluang",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQNXUxSU1jX3l0cVlZTlRQQzlwUTZtUS1FZnhPY2ljRHA2OXEtdFZTSjg0VjJ5c3NZOWVHNmdMRDRQTURGRG9GM3FJRjN5anRYcFZqM2t5UWJMaEdtWkJTY2dpenBqaTBQNnNJU3R6bURZODJ0d1I1bnVDUjFQbnRnYXRiSXpxYWJsWnJ5QzJWdk9SSU0zLWc?oc=5",
+      "published_at": "Thu, 27 Aug 2026 13:34:27 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "VeChain crypto",
+  "reasoning_quality": "Strong",
+  "reasoning_quality_note": "5 direct, fresh coin-specific headline(s) found (named the coin/project and published today or within the last 7 days).",
+  "neutral_explanation": "VETUSDT (VET/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 64 (tier B Watch); market-cap rank 93. Scanner note: Valid confirmed trend flip — large-cap stability, top market cap, fresh signal. Broader crypto market context: 1086 assets scanned, 13 confirmed flips (1.2%). State distribution: Blue 63.4%, Gold 16.3%, Gray 12.7%, Unknown 7.6%. Strongest transition: Blue → Gold (12 of 13 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (5 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

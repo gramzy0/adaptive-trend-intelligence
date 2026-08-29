@@ -1,0 +1,84 @@
+{
+  "symbol": "OGUSDT",
+  "date": "2026-08-29",
+  "generated_at": "2026-08-29T07:25:03.788719+00:00",
+  "scanner_evidence": {
+    "symbol": "OGUSDT",
+    "pair": "OG/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "64",
+    "score_tier": "B Watch",
+    "market_cap_rank": "1005",
+    "gray_candles": "5",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "small-cap potential, small-cap high risk, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=OGUSDT",
+    "execution_time": "2026-08-29T06:36:57.072242+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1086 assets scanned, 13 confirmed flips (1.2%). State distribution: Blue 63.4%, Gold 16.3%, Gray 12.7%, Unknown 7.6%. Strongest transition: Blue → Gold (12 of 13 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only.",
+      "Macro/rates-related coverage"
+    ],
+    "context_generated_at": "2026-08-29T07:25:02.269686+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "OG Esports fan token surpasses $100m market cap on Chiliz network - Esports Insider",
+      "source_name": "Esports Insider",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1oWWVvZWQxdzcxWmZzY2s2cVZPLVhyMnVBcUlkTUsxNThPZzBrWFZaQnZYMzVxak9HOHdvN2JVSDFWSFJjcmM4XzFsdGxZU3o5VjVVLV9KOXVHaUl2eVZBdjh0RURrTndneU0tSUUwS2tTMy1jdm9jWlMyTVZuQQ?oc=5",
+      "published_at": "Wed, 10 Sep 2025 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Chiliz OG Esports acquisition: $OG Fan Token powers new competitive era - Esports.gg",
+      "source_name": "Esports.gg",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5UcGN1ajlFRk5BNThudGlBdU0zR1gxRWpybEZleTVHOVUwbXJOUk9NUDlISjI0T29mWmZURXJlQzVVQmZvandNMnUxNFhzTW1DRVBjWWlheXk2T05QcklqWnlkMEJwUzFFVGtwZXl2TEp4S0s3Q25acXZROUU?oc=5",
+      "published_at": "Tue, 16 Sep 2025 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Exploring OG Fan Token: A Deep Dive into the OG Esports Project - CoinEx",
+      "source_name": "CoinEx",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONHphU01rRmhUd25VSnp4dEhLdGw3d0xPSlItek1LeHhDSGlFRW5IQXlJNjZZZWtENnNKa0ZFdlN5MTZodnA5YnZlVDQwMVQwbTdSMDV2Z1JfMFBoNWFYYUpJVmh0eWFRYXBjTWx3UlNPaE5manFQckNVeGw1RXQyMW9mc0J6NWdUYm9HWnhnZy1pT2ZZM3lQYlhyUDNoV2lOelNaWmJmb0l3c2RV?oc=5",
+      "published_at": "Mon, 11 Nov 2024 08:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "💥 What Happened to OG FAN TOKEN? 💥 - Binance",
+      "source_name": "Binance",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB1bkZGMkp4NDVta09XMWM4dnNJa1ZrZktOd25TOWQ4MUhJQmJjZG5vVlBaWE1TRlRZam5rc0djV3VCTWl2S2VqbDFybmRsYm53MjM0bG9EbjdMcVNNeEpEZUFLSQ?oc=5",
+      "published_at": "Wed, 09 Oct 2024 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    },
+    {
+      "title": "World Cup 2026 Is Coming 🚀 10 Fan Tokens to Watch & How Smart Crypto Investors Are Positioning - Binance",
+      "source_name": "Binance",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5xUG1zRXNxbzBac1hRSVQtaDdiQTVRanU1ckd5UmJXdXZ6RWdPZm5mMzVMYm1uN0FTQU9YWHp1TE01bDg2QWU5N2c5ajZnZ3lPcy1Ob1U4MHJXTzBQellraFBqa3k?oc=5",
+      "published_at": "Sun, 08 Feb 2026 08:00:00 GMT",
+      "relevance": "unrelated",
+      "freshness": "Old",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "OG Fan Token crypto",
+  "reasoning_quality": "Medium",
+  "reasoning_quality_note": "Relevant evidence found (4 direct but not fresh headline(s)), but no headline is both coin-specific and fresh. Treat this as supporting context, not confirmation.",
+  "neutral_explanation": "OGUSDT (OG/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 64 (tier B Watch); market-cap rank 1005. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 1086 assets scanned, 13 confirmed flips (1.2%). State distribution: Blue 63.4%, Gold 16.3%, Gray 12.7%, Unknown 7.6%. Strongest transition: Blue → Gold (12 of 13 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (4 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}
