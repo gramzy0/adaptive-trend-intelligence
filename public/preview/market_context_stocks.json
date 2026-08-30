@@ -1,61 +1,60 @@
 {
   "market": "stocks",
-  "generated_at": "2026-08-29T07:25:02.269686+00:00",
-  "scanner_summary": "50 assets scanned, 0 confirmed flips (0.0%). State distribution: Blue 14.0%, Gold 76.0%, Gray 10.0%, Unknown 0.0%. Source: data/output/stocks_weekly_results.json, last modified 2026-06-13 (76 days ago). Stale-data warning: source file is more than 30 days old.",
+  "generated_at": "2026-08-30T07:25:02.115197+00:00",
+  "scanner_summary": "50 assets scanned, 0 confirmed flips (0.0%). State distribution: Blue 14.0%, Gold 76.0%, Gray 10.0%, Unknown 0.0%. Source: data/output/stocks_weekly_results.json, last modified 2026-06-13 (77 days ago). Stale-data warning: source file is more than 30 days old.",
   "possible_drivers": [
     "Locally observed scanner state distribution and flip activity (see scanner_summary).",
-    "General market-news coverage, reviewed for context only.",
-    "Regulatory/legal-related coverage"
+    "General market-news coverage, reviewed for context only."
   ],
   "uncertainty_note": "Automatically collected from public RSS headlines and local scanner output. Headlines are cited, not verified for accuracy or causal connection to price movement. This is not investment advice and does not contain buy, sell, hold, or execution guidance. Human review is required before treating anything here as reliable market context.",
   "sources": [
     {
-      "title": "183-year-old giant tool company closes factory, lays off dozens",
+      "title": "How the US Helped Japan Pull Off a $97 Billion Yen Rescue",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/183-old-giant-tool-company-160300042.html",
-      "published_at": "2026-08-28T16:03:00Z",
+      "url": "https://finance.yahoo.com/markets/currencies/articles/us-helped-japan-pull-off-230529719.html",
+      "published_at": "2026-08-28T23:05:29Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Senstar (SNT) Grew Revenue 8% but Operating Income Fell. Is Blickfeld Paying Off?",
+      "title": "Forget Nvidia. Johnson & Johnson and 2 Other AI Stocks Are Beating the Market by 29 Points.",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/senstar-snt-grew-revenue-8-023925702.html",
-      "published_at": "2026-08-28T02:39:25Z",
+      "url": "https://finance.yahoo.com/healthcare/articles/forget-nvidia-johnson-johnson-2-230002012.html",
+      "published_at": "2026-08-28T23:00:02Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "EHang (EH) Withdrew Its 2026 Revenue Guidance Amid Regulatory Delays. Can Overseas Growth Fill the Gap?",
+      "title": "Permian Resources (PR) Just Hit a Record High. But Raymond James Says the Rally Isn’t Over",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/ehang-eh-withdrew-2026-revenue-023636071.html",
-      "published_at": "2026-08-28T02:36:36Z",
-      "note": "Regulatory/legal-related coverage"
-    },
-    {
-      "title": "Zoom (ZM) Grew Enterprise Revenue 7.8% but Online Revenue Only 0.6%. Can AI Restore Broader Growth?",
-      "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/technology/ai/articles/zoom-zm-grew-enterprise-revenue-024841961.html",
-      "published_at": "2026-08-28T02:48:41Z",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/permian-resources-pr-just-hit-020928108.html",
+      "published_at": "2026-08-29T02:09:28Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Noah (NOAH) Grew Operating Income 34% as Revenue Fell. Can Cost Cuts Keep Working?",
+      "title": "Chevron (CVX) Nears Major Venezuela Oil Deal: Is a New Growth Engine Emerging?",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/noah-noah-grew-operating-income-025427118.html",
-      "published_at": "2026-08-28T02:54:27Z",
+      "url": "https://finance.yahoo.com/energy/articles/chevron-cvx-nears-major-venezuela-020912972.html",
+      "published_at": "2026-08-29T02:09:12Z",
+      "note": "General market-news coverage, reviewed for context only."
+    },
+    {
+      "title": "At 65, He Thought COBRA Would Let Him Delay Medicare Without a Penalty. He Was Wrong.",
+      "source_name": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/healthcare/articles/65-thought-cobra-let-him-230349959.html",
+      "published_at": "2026-08-28T23:03:49Z",
+      "note": "General market-news coverage, reviewed for context only."
+    },
+    {
+      "title": "Am I too old for Roth conversions? I’m 84 and my wife is 77. We have $8 million saved.",
+      "source_name": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/am-i-too-old-for-roth-conversions-im-84-and-my-wife-is-77-we-have-8-million-saved-fb08fccd?mod=mw_rss_topstories",
+      "published_at": "Sat, 29 Aug 2026 16:30:00 GMT",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
       "title": "My mother, 91, has dementia. Every bank says I need her signature to unlock her $100,000 stock certificate. What can I do?",
       "source_name": "MarketWatch",
       "url": "https://www.marketwatch.com/story/my-mother-91-has-dementia-every-bank-says-i-need-her-signature-to-unlock-her-100-000-stock-certificate-what-can-i-do-4a2b702f?mod=mw_rss_topstories",
-      "published_at": "Fri, 28 Aug 2026 23:00:00 GMT",
-      "note": "General market-news coverage, reviewed for context only."
-    },
-    {
-      "title": "Does a 2% beneficiary inherit 100% if the 98% beneficiary dies in a car accident? Asking for a friend.",
-      "source_name": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/does-a-2-beneficiary-inherit-100-if-the-98-beneficiary-dies-in-a-car-accident-asking-for-a-friend-67aacc06?mod=mw_rss_topstories",
-      "published_at": "Fri, 28 Aug 2026 22:15:00 GMT",
+      "published_at": "Sat, 29 Aug 2026 16:00:00 GMT",
       "note": "General market-news coverage, reviewed for context only."
     }
   ]

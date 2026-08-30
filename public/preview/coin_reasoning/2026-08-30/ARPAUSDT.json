@@ -1,0 +1,84 @@
+{
+  "symbol": "ARPAUSDT",
+  "date": "2026-08-30",
+  "generated_at": "2026-08-30T07:25:03.538753+00:00",
+  "scanner_evidence": {
+    "symbol": "ARPAUSDT",
+    "pair": "ARPA/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "62",
+    "score_tier": "B Watch",
+    "market_cap_rank": "912",
+    "gray_candles": "8",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "small-cap potential, small-cap high risk, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=ARPAUSDT",
+    "execution_time": "2026-08-30T06:36:58.227549+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1086 assets scanned, 7 confirmed flips (0.6%). State distribution: Blue 63.4%, Gold 16.8%, Gray 12.3%, Unknown 7.6%. Strongest transition: Blue → Gold (6 of 7 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "Security-incident-related coverage",
+      "General market-news coverage, reviewed for context only."
+    ],
+    "context_generated_at": "2026-08-30T07:25:02.115197+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "ARPA Surges After Launching RNG Product “Randcast”; Manta Network Launches Privacy-Focused Soulbound Tokens - Bybit",
+      "source_name": "Bybit",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPSHVXMlBseG1nU0E5RTVHRjV1d2dGeVdIOUE0eVFHekFnUkZpaDJSRGlRM0ZOclpFZmJPV0FZTlg4ci1zTE9SLUlsNzJFRjN6VU95UmRTUXpLN0s3am5aOXN6bS04Nk5URUQwT01IU1RjNnZpTVRGYmQzYVBGZEh6NkxJWGhNMFphbnktQVI3dk5PWjMxMGhpUDFNbEJHQVVVS3BLcGhfejRvNU9HRkJLSDNDdEtUNWJKT0NBbXdaLXRuQlpjdTBoOGFLSGFpeTV3UVItSExtRHdKUS1EdFJqMVFTMWxqZFdfdmtwQXZmdmpuZw?oc=5",
+      "published_at": "Sat, 11 Jul 2026 22:18:50 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "ARPA/INR: Convert ARPA (ARPA) to Indian Rupees (INR) - Revolut",
+      "source_name": "Revolut",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBYQ0QzckoyRk1LTlZiampmZ3JFeWVDN2E3MUYxTXNHWGhoR0hSLUYxR0h0MEw1WV9ZWVFFTld6aFhaejU1aFRuejdZeV9EUmFORVEzeEZZTDhjWWZkck1acWViajE1STRVRTdEbnFQVUVUdw?oc=5",
+      "published_at": "Tue, 11 Nov 2025 05:27:22 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "ARPA Price Predictions: Where Will the Red-Hot ARPA Crypto Go Next? - InvestorPlace",
+      "source_name": "InvestorPlace",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMWRpOFNJU3J3b2FpaDI0VHg4VHBvU3hST0F1NUJyVkNiR0xkYldPenFINF9RQ1kxX0sxdFZhcnMyRlN3dkZyVGdyZTJSNXdLOE5iM0pXanAxdnFrb3JnOW9DS1BuM28xREEzQm5PT1JvTzk4OUthcW1wY2FBaGFfNjlubVRfN2tncnBlY2ZxMVdISjZkM3RNRDllNXlNRldJTFE?oc=5",
+      "published_at": "Fri, 15 Mar 2024 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "ARPA to PGK: Convert ARPA to Papua New Guinean Kina | Live ARPA Price in PGK | MEXC - MEXC",
+      "source_name": "MEXC",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1OdlZZWUtydEFPVjVxY0tGYkswMWdoWWhtRDJkQUNNci1DNFFvQXBFNGxxY0JEcFVDLTlHWks1MXVKWnZkSUtRMDF6LUNtT0o1bVE?oc=5",
+      "published_at": "Tue, 30 Sep 2025 17:48:34 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    },
+    {
+      "title": "Trinity Magaldi VzLr(@Square-Creator-77e4392264ef3)'s insights - Binance",
+      "source_name": "Binance",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAtMmtja3Nra2Y5NExqaS1BWXhvYTM2MjJrbWNHYU5Kb2RZem8xZkd5OEFNYzVYN1JHSmdhQTRIenNiQTRGSzNQNE5DTGxwemplZEhFWkpHbjhFTVBHMGZaVndnRzA?oc=5",
+      "published_at": "Fri, 28 Aug 2026 10:42:36 GMT",
+      "relevance": "unrelated",
+      "freshness": "Recent",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "ARPA crypto",
+  "reasoning_quality": "Medium",
+  "reasoning_quality_note": "Relevant evidence found (4 direct but not fresh headline(s)), but no headline is both coin-specific and fresh. Treat this as supporting context, not confirmation.",
+  "neutral_explanation": "ARPAUSDT (ARPA/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 62 (tier B Watch); market-cap rank 912. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 1086 assets scanned, 7 confirmed flips (0.6%). State distribution: Blue 63.4%, Gold 16.8%, Gray 12.3%, Unknown 7.6%. Strongest transition: Blue → Gold (6 of 7 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (4 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

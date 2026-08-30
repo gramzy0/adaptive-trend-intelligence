@@ -1,46 +1,45 @@
 {
   "market": "commodities",
-  "generated_at": "2026-08-29T07:25:02.269686+00:00",
+  "generated_at": "2026-08-30T07:25:02.115197+00:00",
   "scanner_summary": "No commodity scanner data available in data/output; no asset count, flip count, or state distribution can be computed locally.",
   "possible_drivers": [
-    "General market-news coverage, reviewed for context only.",
-    "Supply-related coverage"
+    "General market-news coverage, reviewed for context only."
   ],
   "uncertainty_note": "Automatically collected from public RSS headlines and local scanner output. Headlines are cited, not verified for accuracy or causal connection to price movement. This is not investment advice and does not contain buy, sell, hold, or execution guidance. Human review is required before treating anything here as reliable market context.",
   "sources": [
     {
-      "title": "Europe’s Russia Sanctions Have a Major Blind Spot",
+      "title": "Iran War Adds $330 Billion to Global Energy Import Bill",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Energy/Energy-General/Europes-Russia-Sanctions-Have-a-Major-Blind-Spot.html",
-      "published_at": "Fri, 28 Aug 2026 15:00:00 -0500",
+      "url": "https://oilprice.com/Energy/Energy-General/Iran-War-Adds-330-Billion-to-Global-Energy-Import-Bill.html",
+      "published_at": "Sat, 29 Aug 2026 18:00:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "The AI Boom Could Triple Data Center Water Use by 2030",
+      "title": "Solar Has Crossed a Critical Economic Tipping Point",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Energy/Energy-General/The-AI-Boom-Could-Triple-Data-Center-Water-Use-by-2030.html",
-      "published_at": "Fri, 28 Aug 2026 14:00:00 -0500",
+      "url": "https://oilprice.com/Alternative-Energy/Solar-Energy/Solar-Has-Crossed-a-Critical-Economic-Tipping-Point.html",
+      "published_at": "Sat, 29 Aug 2026 16:00:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Venezuela Helped Build OPEC. Now It May Help Break It Apart",
+      "title": "Mexico’s Green Energy Push Is Finally Gaining Momentum",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Venezuela-Helped-Build-OPEC-Now-It-May-Help-Break-It-Apart.html",
-      "published_at": "Fri, 28 Aug 2026 13:30:00 -0500",
-      "note": "Supply-related coverage"
-    },
-    {
-      "title": "Russia’s Energy Crisis Puts Kazakhstan in a Tough Spot",
-      "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Energy/Energy-General/Russias-Energy-Crisis-Puts-Kazakhstan-in-a-Tough-Spot.html",
-      "published_at": "Fri, 28 Aug 2026 13:00:00 -0500",
+      "url": "https://oilprice.com/Energy/Energy-General/Mexicos-Green-Energy-Push-Is-Finally-Gaining-Momentum.html",
+      "published_at": "Sat, 29 Aug 2026 14:00:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "The Iran War Has Turned VLCCs Into $650,000-a-Day Assets",
+      "title": "America’s Electricity Boom Is Outrunning Its Power Grid",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/The-Iran-War-Has-Turned-VLCCs-Into-650000-a-Day-Assets.html",
-      "published_at": "Fri, 28 Aug 2026 12:30:00 -0500",
+      "url": "https://oilprice.com/Energy/Energy-General/Americas-Electricity-Boom-Is-Outrunning-Its-Power-Grid.html",
+      "published_at": "Sat, 29 Aug 2026 12:00:00 -0500",
+      "note": "General market-news coverage, reviewed for context only."
+    },
+    {
+      "title": "Oil-Rich Azerbaijan Bets Big on a Clean Energy Boom",
+      "source_name": "OilPrice.com",
+      "url": "https://oilprice.com/Energy/Energy-General/Oil-Rich-Azerbaijan-Bets-Big-on-a-Clean-Energy-Boom.html",
+      "published_at": "Sat, 29 Aug 2026 10:00:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {

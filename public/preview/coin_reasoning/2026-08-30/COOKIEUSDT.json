@@ -1,0 +1,84 @@
+{
+  "symbol": "COOKIEUSDT",
+  "date": "2026-08-30",
+  "generated_at": "2026-08-30T07:25:03.538753+00:00",
+  "scanner_evidence": {
+    "symbol": "COOKIEUSDT",
+    "pair": "COOKIE/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "42",
+    "score_tier": "C Weak",
+    "market_cap_rank": "1178",
+    "gray_candles": "19",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "small-cap potential, small-cap high risk, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=COOKIEUSDT",
+    "execution_time": "2026-08-30T06:36:58.227549+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1086 assets scanned, 7 confirmed flips (0.6%). State distribution: Blue 63.4%, Gold 16.8%, Gray 12.3%, Unknown 7.6%. Strongest transition: Blue → Gold (6 of 7 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "Security-incident-related coverage",
+      "General market-news coverage, reviewed for context only."
+    ],
+    "context_generated_at": "2026-08-30T07:25:02.115197+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Cookie DAO Holders And Distribution Chart - CryptoRank",
+      "source_name": "CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1xTG9vejBBSzFhRlVxalhEZ2p0bnhUN0ZhYjZnNllvdWJEY1Q4cnVnWVBjUHFGMlMzT2FOUU1zNy1sX2N2cm5zLXFrT2JDQk5wSTdIS2tfcjU?oc=5",
+      "published_at": "Fri, 28 Aug 2026 08:10:50 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "What Is CookieDAO (COOKIE)? - Binance",
+      "source_name": "Binance",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9BU1l3aUg1V20yWXVzenpDYmlHSldWUzI4TVplSU1OUVpocEhLRkdrOXhKOUtwek92ekIwSGV0Z3ptOEc4T1dmNnhhRlg2R3VaTTRxbzh2eC00NnJkNDZLM2VOSjJkNGVQNWRwZC1NQVlhSFJuTWFN?oc=5",
+      "published_at": "Fri, 26 Jun 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Binance to extend monitoring tag to ALCX, COOKIE, DODO, EPIC, HEI, HFT, STORJ, SYN & TLM - FX News Group",
+      "source_name": "FX News Group",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOdWNvamlrc184ZlhrU1RlVlNOb2NmUEpsWjhxMl9UdTBiekhrbEdOVTNhLWczdWVMNWZfSjZGYVlxQzJkZERFUS1JcmVhdFhVNHctTFVDdUU5ZWVxRl9keWZYNEc5U1M3Z0JKREZqM1BEVktpOU1LTmhDVWY2VFlSTEs2aGM3S2FBc1pxSWhBbEZmZ0JBa3QyYmtIazIxUTN4WFFOQm5vS3BOU2ZwN0JNOXBCOENmNndIclp4VDJMX1hlc1JZTENzUTRB?oc=5",
+      "published_at": "Fri, 22 May 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Cookie DAO Price Prediction: Is COOKIE Coin a Good Investment? - StealthEX",
+      "source_name": "StealthEX",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTGlJYVJ0RzRON2hoU2hLUjhqbXRHQVNQbU4yaThLWWxaa1VPQmlYTldhaE9BZlczVlg0bTgtY0FfaTZpbG10aUZLSVV6N3I5d2ZubjFDdFVKZkVzOVFhUi1mUEoyMzZNdEJjZFBSbElnc3A4REpjOFNVZUdpbGQ5T2NoemV3bGo2ZWszREZvdDU?oc=5",
+      "published_at": "Tue, 17 Jun 2025 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    },
+    {
+      "title": "What Are InfoFi Tokens and Why Did Their Prices Collapse in January 2026? - CryptoRank",
+      "source_name": "CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRTZfdXh0bDc1SU5nSWFRMTVfemd2WmtqUFNjeURQMnNsMXdST0pTS2RIV0hOOFVxZGo4QUhsWHhQSnMyR3FvNjNDMlRycXc0Rk0tYXhfZVMxRkpGXzROYXZDaEloTXcyTFIxODl3UV9JWkhiR3Vwb2pWMGlkbWpMRkNVcHZTb0VURU04dWgyRHRWc3hQVUFLMTk0MA?oc=5",
+      "published_at": "Fri, 16 Jan 2026 08:00:00 GMT",
+      "relevance": "unrelated",
+      "freshness": "Old",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "Cookie DAO crypto",
+  "reasoning_quality": "Strong",
+  "reasoning_quality_note": "1 direct, fresh coin-specific headline(s) found (named the coin/project and published today or within the last 7 days).",
+  "neutral_explanation": "COOKIEUSDT (COOKIE/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 42 (tier C Weak); market-cap rank 1178. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 1086 assets scanned, 7 confirmed flips (0.6%). State distribution: Blue 63.4%, Gold 16.8%, Gray 12.3%, Unknown 7.6%. Strongest transition: Blue → Gold (6 of 7 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (4 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

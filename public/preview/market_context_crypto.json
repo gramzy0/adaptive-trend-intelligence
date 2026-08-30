@@ -1,61 +1,61 @@
 {
   "market": "crypto",
-  "generated_at": "2026-08-29T07:25:02.269686+00:00",
-  "scanner_summary": "1086 assets scanned, 13 confirmed flips (1.2%). State distribution: Blue 63.4%, Gold 16.3%, Gray 12.7%, Unknown 7.6%. Strongest transition: Blue → Gold (12 of 13 flips). Source: reports/private_crypto_dashboard.csv.",
+  "generated_at": "2026-08-30T07:25:02.115197+00:00",
+  "scanner_summary": "1086 assets scanned, 7 confirmed flips (0.6%). State distribution: Blue 63.4%, Gold 16.8%, Gray 12.3%, Unknown 7.6%. Strongest transition: Blue → Gold (6 of 7 flips). Source: reports/private_crypto_dashboard.csv.",
   "possible_drivers": [
     "Locally observed scanner state distribution and flip activity (see scanner_summary).",
-    "General market-news coverage, reviewed for context only.",
-    "Macro/rates-related coverage"
+    "Security-incident-related coverage",
+    "General market-news coverage, reviewed for context only."
   ],
   "uncertainty_note": "Automatically collected from public RSS headlines and local scanner output. Headlines are cited, not verified for accuracy or causal connection to price movement. This is not investment advice and does not contain buy, sell, hold, or execution guidance. Human review is required before treating anything here as reliable market context.",
   "sources": [
     {
-      "title": "Bitcoin wallets untouched for 10 years moved $40 million. Most avoided exchanges",
+      "title": "A $1.1 million crypto card hack crashed a neobank's token 49%",
       "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/08/28/bitcoin-wallets-untouched-for-10-years-moved-usd40-million-most-avoided-exchanges",
-      "published_at": "Sat, 29 Aug 2026 04:30:00 +0000",
+      "url": "https://www.coindesk.com/web3/2026/08/29/a-usd1-1-million-crypto-card-hack-crashed-a-neobank-s-token-49",
+      "published_at": "Sat, 29 Aug 2026 23:49:17 +0000",
+      "note": "Security-incident-related coverage"
+    },
+    {
+      "title": "Ditching 'digital gold': BPI study suggests everyday Americans prefer control and micro-investing",
+      "source_name": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/08/28/ditch-digital-gold-bpi-study-suggests-everyday-americans-prefer-control-and-micro-investing",
+      "published_at": "Sat, 29 Aug 2026 15:00:00 +0000",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Ripple is preparing XRP Ledger for quantum computers before ‘Q-Day’ arrives",
+      "title": "Inside the high-stakes battle between digital dollars and Swift's massive money engine",
       "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/tech/2026/08/28/ripple-is-preparing-xrp-ledger-for-quantum-computers-before-q-day-arrives",
-      "published_at": "Sat, 29 Aug 2026 02:30:00 +0000",
+      "url": "https://www.coindesk.com/business/2026/08/29/swift-s-usd1-5-quadrillion-network-faces-a-blockchain-test",
+      "published_at": "Sat, 29 Aug 2026 15:00:00 +0000",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Kalshi takes legal blow in court ruling confirming state powers over prediction markets",
+      "title": "The next trillion-dollar currency may not be a stablecoin — it might not even have a name yet",
       "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/08/28/kalshi-takes-legal-blow-in-court-ruling-confirming-state-powers-over-prediction-markets",
-      "published_at": "Fri, 28 Aug 2026 21:28:12 +0000",
+      "url": "https://www.coindesk.com/business/2026/08/29/the-next-trillion-dollar-currency-may-not-be-a-stablecoin-it-might-not-even-have-a-name-yet",
+      "published_at": "Sat, 29 Aug 2026 15:00:00 +0000",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Solana vote to double disinflation passes by a hair in dramatic finish",
+      "title": "Tokenized assets are busier than the data shows",
       "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/tech/2026/08/28/solana-vote-to-double-disinflation-passes-by-a-hair-in-dramatic-finish",
-      "published_at": "Fri, 28 Aug 2026 16:12:45 +0000",
+      "url": "https://www.coindesk.com/opinion/2026/08/29/tokenized-assets-are-busier-than-the-data-shows",
+      "published_at": "Sat, 29 Aug 2026 13:00:00 +0000",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Fed Chair Kevin Warsh at Jackson Hole: 'We have work to do' on inflation",
-      "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/08/28/warsh-at-jackson-hole-we-have-work-to-do-on-inflaiton",
-      "published_at": "Fri, 28 Aug 2026 14:05:12 +0000",
-      "note": "Macro/rates-related coverage"
-    },
-    {
-      "title": "Bitcoin ETFs end 9-day inflow streak as BTC dips below $78K",
+      "title": "Polygon discloses security flaws fixed in recent hard forks",
       "source_name": "CoinTelegraph",
-      "url": "https://cointelegraph.com/markets/bitcoin-etf-end-9-day-inflow-streak-btc-below-78k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "Sat, 29 Aug 2026 06:47:12 +0000",
-      "note": "General market-news coverage, reviewed for context only."
+      "url": "https://cointelegraph.com/news/polygon-discloses-security-flaws-fixed-in-recent-hard-forks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "Sat, 29 Aug 2026 20:28:51 +0000",
+      "note": "Security-incident-related coverage"
     },
     {
-      "title": "Here’s what happened in crypto today",
+      "title": "Stellar tokenized RWA market more than quadruples to nearly $4B",
       "source_name": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "Fri, 28 Aug 2026 20:42:54 +0000",
+      "url": "https://cointelegraph.com/markets/stellar-tokenized-rwa-market-nears-4b-after-fourfold-2026-growth?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "Sat, 29 Aug 2026 19:12:42 +0000",
       "note": "General market-news coverage, reviewed for context only."
     }
   ]

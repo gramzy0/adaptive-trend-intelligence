@@ -1,0 +1,84 @@
+{
+  "symbol": "CATIUSDT",
+  "date": "2026-08-30",
+  "generated_at": "2026-08-30T07:25:03.538753+00:00",
+  "scanner_evidence": {
+    "symbol": "CATIUSDT",
+    "pair": "CATI/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "62",
+    "score_tier": "B Watch",
+    "market_cap_rank": "571",
+    "gray_candles": "9",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "small-cap potential, small-cap high risk, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=CATIUSDT",
+    "execution_time": "2026-08-30T06:36:58.227549+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1086 assets scanned, 7 confirmed flips (0.6%). State distribution: Blue 63.4%, Gold 16.8%, Gray 12.3%, Unknown 7.6%. Strongest transition: Blue → Gold (6 of 7 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "Security-incident-related coverage",
+      "General market-news coverage, reviewed for context only."
+    ],
+    "context_generated_at": "2026-08-30T07:25:02.115197+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "What Is Catizen (CATI)? - Binance",
+      "source_name": "Binance",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5fVDRvSmlKbm5feVc2QjFfc0hQVzBXeXJwY1ZITm4yRzhwQmVaUUN5SURxMnVwejFwcnE1QUFQQW1NdkZ3ZDZGdUM4UmFHbXpRSHp4T05iVzFYdHprT0I1RzdvUy04anNrcDU0LWc5OVRYQQ?oc=5",
+      "published_at": "Mon, 08 Jun 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "How to Withdraw Catizen (CATI) Airdrop Tokens to KuCoin - KuCoin",
+      "source_name": "KuCoin",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRDQwTWhLMTZhMEhYbmo3UTRIVkpSV185RkRONDNZdWJ6MFUyNDVtaWRBeVFtNlk0cW9FSWlmcmFrbW82dHljUG9hcEFEd1BSMmI5NmVvR2xocElsbWlQcW1pTHlVVGZQaFpiZmhwT1h5dmRSeDB5dkRZbnBFM3VEc3dOMHV3UUJUSmpKcTRtT3NKMjE0VlRNQ0Q2cw?oc=5",
+      "published_at": "Tue, 14 Oct 2025 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Catizen: The Largest and Fastest-Growing Crypto Gaming Community on Telegram, Surpassing $10 Million in Revenue - The Block",
+      "source_name": "The Block",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNczVpaUpRbGtyV24xZWctVDVtZlNfa0NZM3k0VVE5eXRsN1FMck1ERXd1ZWU3dW9hdFFxMFFWYTY2VWp6bGFFUVN4eXl5bWdNSjJxbC10WmVTbjlkYmNkeHhUbFFrS1VpRTd5RC1XWDlWdGViN2R3anZQMVhudTg0alM5aVoyQzFSdWFBVENNeFgwYVprRktIb2kzdk1wNUYzdUc0eDJQcktZRkE5R1duaVZuQmUwckV2VU5kc25QdWRaYWhtbmVkUy1JUmFJZllVbTI5eExoZkYwc2FHQWNmTTg2cVhxQmRaTlRYSzc5dXRoRHllSE5OSQ?oc=5",
+      "published_at": "Fri, 31 May 2024 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Catizen Price Prediction 2025: CATI Could See More Growth After All-time Low - CCN.com",
+      "source_name": "CCN.com",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1Dc2NpVmxQNUdYX1FZMExtV1dSTm9pVnM3WWhoWUJ6bmNtQ1pINEZmcWo3YXRuQ29KZWlhbDZtcGpYQTNIQ1QzTmJ3VFMtbkRkckZLUFNJYk45TmFRcDd2aVR2MFhmLVdqZ29BbVpBX2NjY3Rw?oc=5",
+      "published_at": "Tue, 19 Nov 2024 08:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    },
+    {
+      "title": "Coinbase to List Catizen (CATI) on Futures Market - BeInCrypto",
+      "source_name": "BeInCrypto",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1xMEg0UWYtX2tYM25XQ3MwSm94dzlnQlppVVNzcGNWV1lNY1ZZYndPRWNpODJRcWVESGZUXzJ2dmphR3I5c3Q1bzlDTmlaOW1ZTERXVVVwRkFGeS1ZTjZWX1VYYw?oc=5",
+      "published_at": "Tue, 24 Sep 2024 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "Catizen crypto",
+  "reasoning_quality": "Medium",
+  "reasoning_quality_note": "Relevant evidence found (5 direct but not fresh headline(s)), but no headline is both coin-specific and fresh. Treat this as supporting context, not confirmation.",
+  "neutral_explanation": "CATIUSDT (CATI/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 62 (tier B Watch); market-cap rank 571. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 1086 assets scanned, 7 confirmed flips (0.6%). State distribution: Blue 63.4%, Gold 16.8%, Gray 12.3%, Unknown 7.6%. Strongest transition: Blue → Gold (6 of 7 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (5 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

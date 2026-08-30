@@ -1,0 +1,84 @@
+{
+  "symbol": "DASHUSDT",
+  "date": "2026-08-30",
+  "generated_at": "2026-08-30T07:25:03.538753+00:00",
+  "scanner_evidence": {
+    "symbol": "DASHUSDT",
+    "pair": "DASH/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "69",
+    "score_tier": "A Good",
+    "market_cap_rank": "99",
+    "gray_candles": "6",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "large-cap stability, top market cap, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=DASHUSDT",
+    "execution_time": "2026-08-30T06:36:58.227549+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1086 assets scanned, 7 confirmed flips (0.6%). State distribution: Blue 63.4%, Gold 16.8%, Gray 12.3%, Unknown 7.6%. Strongest transition: Blue → Gold (6 of 7 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "Security-incident-related coverage",
+      "General market-news coverage, reviewed for context only."
+    ],
+    "context_generated_at": "2026-08-30T07:25:02.115197+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Dash (DASH) Surges 9.5% on Privacy Upgrade and Technical Breakout - CoinMarketCap",
+      "source_name": "CoinMarketCap",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE01VmlTV00wWkZ4TU5Fc1pIazdVOXV1OVhPaU5neFlYazR3ZzE3d2xHUE9KR182RlRHLV94YVdsV09Sc0VjSUVyUl9ONXcwZmRpWVRSZzFmOFhMWFQtUldYZ1N0MjNlY1hfSjlKekdpcC0?oc=5",
+      "published_at": "Sat, 29 Aug 2026 20:04:00 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "Best Privacy Coins 2026: Why Monero, Zcash & DASH Are Making a Comeback - Bitcoin Foundation",
+      "source_name": "Bitcoin Foundation",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWk45Qi1YY3dXX0JIZmFSXzM5REgzMFIzZ0dRbVdzYVpucW0ycTRjR0JuRGlGQVBfb0ZndE1nSk5EZHAyQmZxWExXNHZSaDctYXMzTV8xOGpsTF83NHpWeWxzOEEwTGwxb3Nwam9UNG5fZDFsQXZsWEx6b2dZVC0yUTBSX2tVbzg4eU41Zk5GQ1lTQjAxU3lnbURwTnloOHI3NXNWdTI3RUxHT0tSYUMzVVR3?oc=5",
+      "published_at": "Wed, 03 Jun 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Dash (DASH) Price Prediction 2026 2027 2028 - 2040 - Changelly",
+      "source_name": "Changelly",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1MeW9RN2psdWFNNEFzbEozR1VNUzAyNUZvQThlTkNIME5pQ3p4ZTJHRU9LQU02X2ZZNlRPam50U056MzhuYjZRb2plN1RvTlF5UDhXT3RJdk9DRDYteUZuNE5qbW0?oc=5",
+      "published_at": "Fri, 05 Dec 2025 09:21:52 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Updated Crypto Bill Unveiled by Senators in Dash for Passage (2) - Bloomberg Government News",
+      "source_name": "Bloomberg Government News",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUUZkQWxhREtqVEhkbUFwY2F2OTRJcjQxQlpQbW5Rb0lqYk1GbElGdjRsRGxQYWFQWUNRTzZMbEp5VE1JRnZQSGtqdFYxS2lRLWdoVHdFN1ZqTjRZMF9DOWVsY0FMcHh2cEhoY2lmSG1NU295N0VGa1VBYUM4c2MwTDUzWldoZWtHaHM5Z3J3b0ZYcHlOaTlRZlpkLV9JclJVczVlTUU5bkpvZ1pkVFl3?oc=5",
+      "published_at": "Wed, 22 Jul 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    },
+    {
+      "title": "Crypto Olsson(@Janni_Olsson)'s insights - Binance",
+      "source_name": "Binance",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE45WXpBa0NnVk8yXy1sWThjdHc4b05BVHZ2d0VMaVU3MDExQ2JSVnJud0lxaDZUbHEzR3RRQzFvNXU2b29ZT3kyV291Y2IwLXRNek1Cb2xFUXYwM29JSmxlVnBWaFU?oc=5",
+      "published_at": "Sat, 29 Aug 2026 13:16:46 GMT",
+      "relevance": "unrelated",
+      "freshness": "Recent",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "Dash crypto",
+  "reasoning_quality": "Strong",
+  "reasoning_quality_note": "1 direct, fresh coin-specific headline(s) found (named the coin/project and published today or within the last 7 days).",
+  "neutral_explanation": "DASHUSDT (DASH/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 69 (tier A Good); market-cap rank 99. Scanner note: Valid confirmed trend flip — large-cap stability, top market cap, fresh signal. Broader crypto market context: 1086 assets scanned, 7 confirmed flips (0.6%). State distribution: Blue 63.4%, Gold 16.8%, Gray 12.3%, Unknown 7.6%. Strongest transition: Blue → Gold (6 of 7 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (4 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

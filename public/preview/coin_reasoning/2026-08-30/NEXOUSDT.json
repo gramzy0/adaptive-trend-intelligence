@@ -1,0 +1,84 @@
+{
+  "symbol": "NEXOUSDT",
+  "date": "2026-08-30",
+  "generated_at": "2026-08-30T07:25:03.538753+00:00",
+  "scanner_evidence": {
+    "symbol": "NEXOUSDT",
+    "pair": "NEXO/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "64",
+    "score_tier": "B Watch",
+    "market_cap_rank": "77",
+    "gray_candles": "6",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "large-cap stability, top market cap, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=NEXOUSDT",
+    "execution_time": "2026-08-30T06:36:58.227549+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1086 assets scanned, 7 confirmed flips (0.6%). State distribution: Blue 63.4%, Gold 16.8%, Gray 12.3%, Unknown 7.6%. Strongest transition: Blue → Gold (6 of 7 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "Security-incident-related coverage",
+      "General market-news coverage, reviewed for context only."
+    ],
+    "context_generated_at": "2026-08-30T07:25:02.115197+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Nexo (NEXO) Falls 3.72% Amid Broad Market Pullback - CoinMarketCap",
+      "source_name": "CoinMarketCap",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBYem56Q3BlUndyVDMzSURyQWR0UnNYR0ZZd1RublJVdnhXYzFZYmF0RVRtN2NTTll4bVdMcllIb0dUVGFrelFST1FKTEZvMnhCQ3NxcEhQZWRDRXBmWUtfUE1nWDZIRUpBdDl0NUtkN2E?oc=5",
+      "published_at": "Sat, 29 Aug 2026 03:04:00 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "NEXO to Join Future Proof in Huntington Beach on September 14th–17th - TradingView",
+      "source_name": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQNVpuWVZiTFR2UnNiTGZBYzV4M1pwTlBDMUJicTFLZFdUbHBuWGJtNjVuYW9yME4yWUZVMldaUkgzMmJhdldCY1lvejEwYzlqM0daUUZwbWcxb2FxZVB2b3o2TXI1ZWxnMDI1Rnp4VThxNVY1Ymc2dGhWMFlQR2htUThFNlk0OXNFLWo0X01pSzIyZnNkcU1pV3FPWGJiN0J4X2hBR1RHWC03c1ZKS0RUclI2UkhJUENucW9ZM25GRFlrVXVk?oc=5",
+      "published_at": "Tue, 25 Aug 2026 20:57:20 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "Crypto lender Nexo fined $500K by California regulator - Banking Dive",
+      "source_name": "Banking Dive",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMFphMDRpNjgzY3loZDNhanEtOEhhaTItakFwWHdlMjJqcHVLRDl2bFFURGhjUVloZ0JQcXJ5ZFhBU0sySEpVNFQ2M2VwOG05cnVBaHNEcDcwSUo2MzlDbVM0U09NX2lrMUlEV1E1S1JZM1JET3NlaW1lUW9HbzVrNm5ka0xqbjJVcnYxd0UyOGJrck9UWFYtZXo2ZjBXTUs2YzM3WW9R?oc=5",
+      "published_at": "Wed, 21 Jan 2026 08:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Crypto company hit with $500,000 penalty by California regulator - White & Case LLP",
+      "source_name": "White & Case LLP",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUDFJWVRHNFBGMHNOTG5YUDh0V3oxSzV5T3JFUC1KV2RTbDJtMENpb0VrTnphcEFhNlFFOWhieDdUZDhhQlRmZkZvR1ZPeHJsamQxd1V1Z1NVRUk0Yk1RTGJBQzN4TVFmMUkxeEpRcTMzYTVPTTJtT3lidTI2ZjBYM1lNNkpMbU8yUW5FV2RONGJ4ZS1keHRFTXl3?oc=5",
+      "published_at": "Tue, 27 Jan 2026 08:00:00 GMT",
+      "relevance": "market_context",
+      "freshness": "Old",
+      "default_visible": false
+    },
+    {
+      "title": "San Diego man says he lost life savings in crypto retirement plan - ABC 10News San Diego",
+      "source_name": "ABC 10News San Diego",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOd0prMUhTZVBDNGdBVjNwelY4Ynp6MzVmVENId0JvYmxDaDNWM2dESWJ1MFoxSVg3MDZzN1dPU2JrMGlEMklJZUZiS1lLTlVEN1hDSnBSU2paSjdaZkdNalA2QlZSVXFLdElRQzVvMUVoSEplOHdYQk1fM05hZHQtdGkzeThGWXp2TzZpd29UUmV3NWdVZTl3NDNiYlJ6N3Q0SUlLVDFnbHN3ajN3TF9xMTZxa0E1RnYtek0tMVhR?oc=5",
+      "published_at": "Mon, 17 Aug 2026 07:00:00 GMT",
+      "relevance": "unrelated",
+      "freshness": "Old",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "NEXO crypto",
+  "reasoning_quality": "Strong",
+  "reasoning_quality_note": "2 direct, fresh coin-specific headline(s) found (named the coin/project and published today or within the last 7 days).",
+  "neutral_explanation": "NEXOUSDT (NEXO/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 64 (tier B Watch); market-cap rank 77. Scanner note: Valid confirmed trend flip — large-cap stability, top market cap, fresh signal. Broader crypto market context: 1086 assets scanned, 7 confirmed flips (0.6%). State distribution: Blue 63.4%, Gold 16.8%, Gray 12.3%, Unknown 7.6%. Strongest transition: Blue → Gold (6 of 7 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (3 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

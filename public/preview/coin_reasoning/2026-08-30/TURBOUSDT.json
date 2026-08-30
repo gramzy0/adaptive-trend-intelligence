@@ -1,0 +1,84 @@
+{
+  "symbol": "TURBOUSDT",
+  "date": "2026-08-30",
+  "generated_at": "2026-08-30T07:25:03.538753+00:00",
+  "scanner_evidence": {
+    "symbol": "TURBOUSDT",
+    "pair": "TURBO/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "74",
+    "score_tier": "A Good",
+    "market_cap_rank": "343",
+    "gray_candles": "6",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "small-cap potential, small-cap high risk, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=TURBOUSDT",
+    "execution_time": "2026-08-30T06:36:58.227549+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1086 assets scanned, 7 confirmed flips (0.6%). State distribution: Blue 63.4%, Gold 16.8%, Gray 12.3%, Unknown 7.6%. Strongest transition: Blue → Gold (6 of 7 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "Security-incident-related coverage",
+      "General market-news coverage, reviewed for context only."
+    ],
+    "context_generated_at": "2026-08-30T07:25:02.115197+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "How Does Turbo (SOL) (TURBO) Work？ - KuCoin",
+      "source_name": "KuCoin",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPcl9aRmxLYmRWam1QWXZua0thNk9ybWRxZjBwejlEU1lVeV9fQjZ2RVNBajRIMUVNZ2ktNXIxT21Zdl96X0pMTTBtT2hWZnQ5RWpIOWRQc01RWWdQRlZCSV9QaGx3b09uQUhabXZkcWwycG1DWVNzMTB1SHZVRC1ybXdtZw?oc=5",
+      "published_at": "Thu, 27 Aug 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "TURBO Meme Token Teams Up With NEAR Protocol for New Blockchain Launch - Yellow.com",
+      "source_name": "Yellow.com",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQcTQ0ZWRxeGV6WFpPQXVOaDloSjdXTUJlTm5EdlBwZDdOdTdxSWNnc21jY04tVUpqZ2NrR0o2WHA3QU84THN4dmV3cFdBcEdFODNfUnIwS2gxT3BYS0xkd2EzcExobE9PMXdFSWs0YzFwZjV6NEViVVN5SkZTMXBSUko1SWxvQ05qQjFLLTk1d2JfZnZkdWR3Z3FCNjRWYlhGS3gtMWV6Yl8?oc=5",
+      "published_at": "Sun, 16 Aug 2026 14:27:58 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "The Crypto Trades That Amplified Gains Are Now Turbocharging Losses - WSJ",
+      "source_name": "WSJ",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQS1hhb05vd3k2Z1NiRWQ1X3RNXzBXRWY1TzVsb2c1ZjNNbU1rbEpkLWFuYVRsRXFVc1FPelh0Tk56M0ZqalhlSWk5Y0JKZkcwTEZWSzdRdkZVTlJmZk1TQUp4R2pKbGRqZE04blhYQ3E2LXRERjhPOEhvSy12RTRvMjlsa3RYU3c?oc=5",
+      "published_at": "Wed, 19 Nov 2025 08:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "The Next Crypto Wave Could Be Bigger Than Expected: 5 Coins to Watch as Institutions Embrace DeFi and Digital Assets - Bitget",
+      "source_name": "Bitget",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1XZjVUeG52UklSODBIbzMxMy1uYnBrSGduSkJWX1pTclFLTkdBLW5DcE9JbEM2S09zbzhtMVpaQ3FUcUZ1Zlc1d2lUYXZFVDlueEdsWkV4SXo2anhaandYQVhUa9IBY0FVX3lxTE1XZjVUeG52UklSODBIbzMxMy1uYnBrSGduSkJWX1pTclFLTkdBLW5DcE9JbEM2S09zbzhtMVpaQ3FUcUZ1Zlc1d2lUYXZFVDlueEdsWkV4SXo2anhaandYQVhUaw?oc=5",
+      "published_at": "Sat, 29 Aug 2026 17:00:14 GMT",
+      "relevance": "market_context",
+      "freshness": "Recent",
+      "default_visible": false
+    },
+    {
+      "title": "Blockchainballer 777(@Blockchainballer_777)'s insights - Binance",
+      "source_name": "Binance",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAyUW04ODJETnlRc2xWZUh2eXZscWh0MVZSMWVOSm55OGdDLXI0Mmkzal9VZF9DMFFFeW1lcE1QV3A5cXhiN0g4d1dXVFgzbW1URHlNQWRVLUtkQjc3ZWREaEpfZ0w?oc=5",
+      "published_at": "Sat, 29 Aug 2026 04:31:54 GMT",
+      "relevance": "unrelated",
+      "freshness": "Recent",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "Turbo crypto",
+  "reasoning_quality": "Strong",
+  "reasoning_quality_note": "1 direct, fresh coin-specific headline(s) found (named the coin/project and published today or within the last 7 days).",
+  "neutral_explanation": "TURBOUSDT (TURBO/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 74 (tier A Good); market-cap rank 343. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 1086 assets scanned, 7 confirmed flips (0.6%). State distribution: Blue 63.4%, Gold 16.8%, Gray 12.3%, Unknown 7.6%. Strongest transition: Blue → Gold (6 of 7 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (3 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

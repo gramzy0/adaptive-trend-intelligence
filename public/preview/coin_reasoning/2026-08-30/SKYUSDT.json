@@ -1,0 +1,84 @@
+{
+  "symbol": "SKYUSDT",
+  "date": "2026-08-30",
+  "generated_at": "2026-08-30T07:25:03.538753+00:00",
+  "scanner_evidence": {
+    "symbol": "SKYUSDT",
+    "pair": "SKY/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "64",
+    "score_tier": "B Watch",
+    "market_cap_rank": "51",
+    "gray_candles": "6",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "large-cap stability, top market cap, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=SKYUSDT",
+    "execution_time": "2026-08-30T06:36:58.227549+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1086 assets scanned, 7 confirmed flips (0.6%). State distribution: Blue 63.4%, Gold 16.8%, Gray 12.3%, Unknown 7.6%. Strongest transition: Blue → Gold (6 of 7 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "Security-incident-related coverage",
+      "General market-news coverage, reviewed for context only."
+    ],
+    "context_generated_at": "2026-08-30T07:25:02.115197+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Sky Gained 17.43% in Last Month and is Predicted to Drop to $ 0.052379 By Aug 29, 2026 - Cryptonews.net",
+      "source_name": "Cryptonews.net",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1GOHlvWG5obEJiZVkwU1k3dDNfamR5UzBuRzlabEpVZm1NNHZlaDlqMGFlRHg3THB5Vkl2eXZ5YlhiaGhOTmtsWmsySEZqdmFPa1BmNjQ5dEt3NTg?oc=5",
+      "published_at": "Mon, 24 Aug 2026 15:13:23 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "Tether Backed a $134M SKY Crypto Token Deal: What It Says About Stablecoin Power - Yahoo Finance",
+      "source_name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQUkxqVVhHUU05cXhPX3FobTIxclVTSzJtbUlnaDdYYmZuYzBFWWh6QVN4LTlXeS12NkV0OGh5ZFF6NXBfb24wT2o4OXQ0aDdOM1kyVHJzQlppUWUzcjAyaWFwMncydENqVm4tQS1nV29jVUVMUlJjVlhxVWVERW9MZXp6MXJKZ2xPdWRKaWxWX2xVUGVSRkl1N3pB?oc=5",
+      "published_at": "Thu, 16 Apr 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Is the Cryptography Sky Falling? - Comcast Corporation",
+      "source_name": "Comcast Corporation",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9mel80T0RJNlhSaXI5b3daVWxaNTBqbmY3RlNVZ0pRUjlNS0Mydm9VMWN4UkR4X1JGOTJCVGxtSzdBekt5MHFnOXcyVmZlcmtHbXRJdElXZVJIUnJsMENGNXFlYjcxYm04TWFNUElEUEhyS1ZXd3piZw?oc=5",
+      "published_at": "Thu, 21 May 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Can SKY keep outperforming Bitcoin? - Milk Road",
+      "source_name": "Milk Road",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE44OWtBeGl0RUdrU3c3d2FZMmlsQkl1V05qdzJ1eVhrNWV3Z3Nva1JnWmNVN0o1eTVSUlZpb05QQWQxZkVycTdmTnlmXzVBYVpkOGxSblZmVmc0YXhEekl2UFp1M1ZFbXFid3hRTFh1Yw?oc=5",
+      "published_at": "Wed, 22 Apr 2026 20:30:34 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    },
+    {
+      "title": "Obex Deploys $1B To Back USDS With AI and Energy Yield - CoinMarketCap",
+      "source_name": "CoinMarketCap",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONjZTOXUtV3VkajdRZHVrOG04WUxRMGtyMFN6T1dWemtob3hXZUlkVkNHckwzQXF2TE16Q0pVYWwxb0dUaWRjLVZqTnRLaV9ESHo3SFJJekZnUHNVLXFFMmRHc3lfaDF3OE5ZVk1WZTY0bUZnU25TOWpXWFRXM0VEZnR5RkR0NENoQXNDQVFuck11OE9LZjhCT0FZcnJVRGdQcjJV?oc=5",
+      "published_at": "Wed, 26 Aug 2026 07:26:32 GMT",
+      "relevance": "unrelated",
+      "freshness": "Recent",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "Sky crypto",
+  "reasoning_quality": "Strong",
+  "reasoning_quality_note": "1 direct, fresh coin-specific headline(s) found (named the coin/project and published today or within the last 7 days).",
+  "neutral_explanation": "SKYUSDT (SKY/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 64 (tier B Watch); market-cap rank 51. Scanner note: Valid confirmed trend flip — large-cap stability, top market cap, fresh signal. Broader crypto market context: 1086 assets scanned, 7 confirmed flips (0.6%). State distribution: Blue 63.4%, Gold 16.8%, Gray 12.3%, Unknown 7.6%. Strongest transition: Blue → Gold (6 of 7 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (4 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}
