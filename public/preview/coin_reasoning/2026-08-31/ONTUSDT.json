@@ -1,0 +1,85 @@
+{
+  "symbol": "ONTUSDT",
+  "date": "2026-08-31",
+  "generated_at": "2026-08-31T07:25:03.333795+00:00",
+  "scanner_evidence": {
+    "symbol": "ONTUSDT",
+    "pair": "ONT/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "74",
+    "score_tier": "A Good",
+    "market_cap_rank": "416",
+    "gray_candles": "6",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "small-cap potential, small-cap high risk, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=ONTUSDT",
+    "execution_time": "2026-08-31T06:36:43.275792+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1086 assets scanned, 8 confirmed flips (0.7%). State distribution: Blue 62.6%, Gold 17.3%, Gray 12.5%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 8 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "Macro/rates-related coverage",
+      "General market-news coverage, reviewed for context only.",
+      "Security-incident-related coverage"
+    ],
+    "context_generated_at": "2026-08-31T07:25:01.743065+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Ontology Holders And Distribution Chart - CryptoRank",
+      "source_name": "CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1lVDBzaU0zanR4SXplaXZyZ2NkYVM4dkI1WFJVWEFIX3o4UzdCX3VLSjZRSkxKYzJ5cDJTdk43LW9RVjVTbUxyNWJib3J4OGRudlFoQWpIUQ?oc=5",
+      "published_at": "Sun, 30 Aug 2026 13:03:53 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "Ontology to Undergo Hard Fork on August 21st - TradingView",
+      "source_name": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOVU9XcUUwNHRaMzJVWFRoc3E3Wk9lMHE4eWFhbXpNaGNSQXFGX203RzJUeW9kdExfYmZvLVJvUEplUFZubE41QW5JUmRBQmV1UUw4NFExM3UtaWRPWi13V19PSV9FRjNTSE1TMTNSOWRteEgwdEpDQ0FBcTdSdUdpODU3R0oxLXBqaGVONXlPYjZRaXozcDQ1Q3h0Y3ZFdjh2ZjhRdg?oc=5",
+      "published_at": "Thu, 13 Aug 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Ontology MainNet v3.1.2 At block 20,800,000, Ontology bring - KuCoin",
+      "source_name": "KuCoin",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9IY0UxQjc0YnM1QXczd2Q0QXdmVkE4azdGUFFfREhCczdZaXY4ZXduRzdESVY5Z0FaWnM4Q3FMMHh0Q2tnclQyaDB3cndrRFo3emQ1YmsyMFA1a1BHcjYyMWZ3NnR0WXBrdkotenYzWlk?oc=5",
+      "published_at": "Sun, 23 Aug 2026 22:06:19 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Crypto analytics firm Chainalysis proposes standards for blockchain tracing - CoinDesk",
+      "source_name": "CoinDesk",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNa25KMGs2SlF5WVpWeFJIMUhWSUI1TkJZR3hTTjNDNllOV3ZkUUoxcHA4cTZfdGRqNWI3cFBwOXYzT2lsajhScWxWbkJoV3BDWFhXUmJ5bWFxanlmLUtpbDZKblFvQ1dFRlpaOVd2Vi1oRTVPX0pQY3hDMEJlVWxkdjROSzBxWnZ0bVkwQ1ZKMGltNVNDRXpyUVA0bFhhRmVWZXJBVUgzam5Dam1Ma1dDSEJOa1dRa1VVZHc?oc=5",
+      "published_at": "Mon, 29 Jun 2026 07:00:00 GMT",
+      "relevance": "market_context",
+      "freshness": "Old",
+      "default_visible": false
+    },
+    {
+      "title": "Chainalysis Proposes Standards for Tracing Blockchain Transactions - PYMNTS.com",
+      "source_name": "PYMNTS.com",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNmhIME9ocXo3a01Pc3NnLXJqUjJMR0RpZkc0UU1wMTRhd3lFZmZSNXcyZFU3ekVETGJUY1BJYVVjWFVQMUx2LXV3SC00a1lhbzc4blVGaDgzWGhMdUkwUnNrNHpoUWRybzdXckh5UGMtOFVqQlZfemtPa2FtMF8talRJWTFlSVNCLTFtSGhhVUxpWlBlalJ0MXM2ZWZRaS1uSk1KRXJpRXdzdw?oc=5",
+      "published_at": "Mon, 29 Jun 2026 07:00:00 GMT",
+      "relevance": "market_context",
+      "freshness": "Old",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "Ontology crypto",
+  "reasoning_quality": "Strong",
+  "reasoning_quality_note": "1 direct, fresh coin-specific headline(s) found (named the coin/project and published today or within the last 7 days).",
+  "neutral_explanation": "ONTUSDT (ONT/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 74 (tier A Good); market-cap rank 416. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 1086 assets scanned, 8 confirmed flips (0.7%). State distribution: Blue 62.6%, Gold 17.3%, Gray 12.5%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 8 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (3 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

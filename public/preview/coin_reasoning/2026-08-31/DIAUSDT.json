@@ -1,0 +1,85 @@
+{
+  "symbol": "DIAUSDT",
+  "date": "2026-08-31",
+  "generated_at": "2026-08-31T07:25:03.333795+00:00",
+  "scanner_evidence": {
+    "symbol": "DIAUSDT",
+    "pair": "DIA/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "52",
+    "score_tier": "B Watch",
+    "market_cap_rank": "905",
+    "gray_candles": "17",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "small-cap potential, small-cap high risk, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=DIAUSDT",
+    "execution_time": "2026-08-31T06:36:43.275792+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1086 assets scanned, 8 confirmed flips (0.7%). State distribution: Blue 62.6%, Gold 17.3%, Gray 12.5%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 8 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "Macro/rates-related coverage",
+      "General market-news coverage, reviewed for context only.",
+      "Security-incident-related coverage"
+    ],
+    "context_generated_at": "2026-08-31T07:25:01.743065+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "DIA Launches Oracle To Price Illiquid DeFi Assets As Tokenized Markets Cross $100B - Yellow.com",
+      "source_name": "Yellow.com",
+      "url": "https://news.google.com/rss/articles/CBMi5AJBVV95cUxPdE1GRThBdERVNHQtNDNrbHctMnhITFZZZDZqZkI2NWZ5N3NrVkxabHZaZlU3SWNYQ2VYTFJJU210SGstS0pDVmRGb3NLN1BYUFhvdWRKdUIweTdHSnE5bXdPRXp0LTdQUTZ4US1wS0xPaGpCaUxfT3c1eDZESWdIYmgtNllRazFweUgwa2pDeEtYWGpvQ3VfNnd1QV92NHl3Y1NWS2d4eUE5TWxLbVQwTENYYzZGdnhTUE5hN0lUanVGdnNjcE9yeHBXVll5SDlYb1A2N0doQ1BQNEFiWlF4YW15NENsb0ZsZW5QSk9nVndOWVJicnRBTVRlUjVWQmdqc2lkNG9rQUxnNFZyUXlXZ2ZYdWJaR3M5cWFKSy1XYWRHYVlyQ0tGV2laODd2bndGQ0RlRklUVzBHS3ktZUJOQW1PYTVBQnVCTzNtU3YyMFdjNlk0R1lNQ0s2MDRQbHUxTWt2cA?oc=5",
+      "published_at": "Thu, 27 Aug 2026 18:36:16 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "The U.S. SEC Has Sent Crypto Custody Reforms to the White House for Review - Tekedia",
+      "source_name": "Tekedia",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVW01QkpNRnZUN1VybFc1OE5lYTFGaDlvSnFNc2dTUmJ0YzN6Q21UUS1VQWU4S2xvLTExOXNPYXhnUEdYT2JJaFF2eFUzTDlndTZxNGtxYXJRY1VGZmpQTElaWkViRFQ0cHNRaVF0SG9iTWwxZVBqcUwySWRpTUk1Y3dMMTNkd2c3VkUwbHNBRGV2eFlnak5PZlpla3NKOUE?oc=5",
+      "published_at": "Sat, 29 Aug 2026 10:21:43 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "DIA Price Surges 40% Off Record Low: What's Behind It - CoinDCX",
+      "source_name": "CoinDCX",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdy05c2lhZ0xEakVCQUpGbFVkaWxfX19HdUVTRXRUbHVOS213ZjYtTFZja3ZqTWpxRVVQN0NiSC1oX3hobWNzZnROM08xbU40MFNYell3ZjNpZFBmNmp6cnFTRnQwWTJMM1BpSTF2Y2lSMHNDYUFWbkJqeHFMaWRpZ2NNUUtXcXdrS0pMaEFXaXVfN1N2WGoyS1Y0czdTZw?oc=5",
+      "published_at": "Mon, 27 Jul 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Discover DIA Crypto: Powering Trustworthy Data for Web3's Future - Phemex",
+      "source_name": "Phemex",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE02M3RoQUhTUUE1b2VoNnR5bmtqNlRBRGxrdGlMTXY0Q25IejJpNzZlcmJPUV9ndjJRTHI4dlZuVzJXbmtNRXZPcTZqR3ByYUJSai1EN3Rnc3U?oc=5",
+      "published_at": "Sun, 26 Oct 2025 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    },
+    {
+      "title": "DIA Launches Oracle to Price $100B+ Illiquid Digital Assets - DailyCoin",
+      "source_name": "DailyCoin",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNQldmUjZZWEFtRnJHY0FBc1lReUtFeHFDUW5kSVNNTXNSelRnaWI0NTFpak4yVjJKTzlUWFowOW5EMjJWblMzOE9HemdKTks1SGRLbnp1ejZxci1RYThFZlNuQzFGNVVJLURhSzJNdV9IZzJFYkN1NmtXdHNZOTRVWGhUSFJkV2c?oc=5",
+      "published_at": "Tue, 10 Mar 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "DIA crypto",
+  "reasoning_quality": "Strong",
+  "reasoning_quality_note": "2 direct, fresh coin-specific headline(s) found (named the coin/project and published today or within the last 7 days).",
+  "neutral_explanation": "DIAUSDT (DIA/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 52 (tier B Watch); market-cap rank 905. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 1086 assets scanned, 8 confirmed flips (0.7%). State distribution: Blue 62.6%, Gold 17.3%, Gray 12.5%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 8 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (5 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

@@ -1,60 +1,61 @@
 {
   "market": "stocks",
-  "generated_at": "2026-08-30T07:25:02.115197+00:00",
-  "scanner_summary": "50 assets scanned, 0 confirmed flips (0.0%). State distribution: Blue 14.0%, Gold 76.0%, Gray 10.0%, Unknown 0.0%. Source: data/output/stocks_weekly_results.json, last modified 2026-06-13 (77 days ago). Stale-data warning: source file is more than 30 days old.",
+  "generated_at": "2026-08-31T07:25:01.743065+00:00",
+  "scanner_summary": "50 assets scanned, 0 confirmed flips (0.0%). State distribution: Blue 14.0%, Gold 76.0%, Gray 10.0%, Unknown 0.0%. Source: data/output/stocks_weekly_results.json, last modified 2026-06-13 (78 days ago). Stale-data warning: source file is more than 30 days old.",
   "possible_drivers": [
     "Locally observed scanner state distribution and flip activity (see scanner_summary).",
-    "General market-news coverage, reviewed for context only."
+    "General market-news coverage, reviewed for context only.",
+    "Macro/rates-related coverage"
   ],
   "uncertainty_note": "Automatically collected from public RSS headlines and local scanner output. Headlines are cited, not verified for accuracy or causal connection to price movement. This is not investment advice and does not contain buy, sell, hold, or execution guidance. Human review is required before treating anything here as reliable market context.",
   "sources": [
     {
-      "title": "How the US Helped Japan Pull Off a $97 Billion Yen Rescue",
+      "title": "Major fruit grower lays off nearly 1,000 workers",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/currencies/articles/us-helped-japan-pull-off-230529719.html",
-      "published_at": "2026-08-28T23:05:29Z",
+      "url": "https://finance.yahoo.com/small-business/articles/major-fruit-grower-lays-off-010300694.html",
+      "published_at": "2026-08-30T01:03:00Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Forget Nvidia. Johnson & Johnson and 2 Other AI Stocks Are Beating the Market by 29 Points.",
+      "title": "Apple Was Always 1 Step Behind in AI. In Chipmaking, It’s Now 1 Step Ahead.",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/healthcare/articles/forget-nvidia-johnson-johnson-2-230002012.html",
-      "published_at": "2026-08-28T23:00:02Z",
+      "url": "https://finance.yahoo.com/technology/ai/articles/apple-always-1-step-behind-203002772.html",
+      "published_at": "2026-08-29T20:30:02Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Permian Resources (PR) Just Hit a Record High. But Raymond James Says the Rally Isn’t Over",
+      "title": "A $100 Billion Buildout In Louisiana Is Planned for Starship. What This Means for SPCX Stock.",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/permian-resources-pr-just-hit-020928108.html",
-      "published_at": "2026-08-29T02:09:28Z",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/100-billion-buildout-louisiana-planned-193002508.html",
+      "published_at": "2026-08-29T19:30:02Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Chevron (CVX) Nears Major Venezuela Oil Deal: Is a New Growth Engine Emerging?",
+      "title": "Solar Has Crossed a Critical Economic Tipping Point",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/energy/articles/chevron-cvx-nears-major-venezuela-020912972.html",
-      "published_at": "2026-08-29T02:09:12Z",
+      "url": "https://finance.yahoo.com/energy/articles/solar-crossed-critical-economic-tipping-210000010.html",
+      "published_at": "2026-08-29T21:00:00Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "At 65, He Thought COBRA Would Let Him Delay Medicare Without a Penalty. He Was Wrong.",
+      "title": "Iran War Adds $330 Billion to Global Energy Import Bill",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/healthcare/articles/65-thought-cobra-let-him-230349959.html",
-      "published_at": "2026-08-28T23:03:49Z",
+      "url": "https://finance.yahoo.com/energy/articles/iran-war-adds-330-billion-230000013.html",
+      "published_at": "2026-08-29T23:00:00Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Am I too old for Roth conversions? I’m 84 and my wife is 77. We have $8 million saved.",
+      "title": "U.S. stock futures slip as chances of rate hike rise after Warsh’s Jackson Hole comments",
       "source_name": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/am-i-too-old-for-roth-conversions-im-84-and-my-wife-is-77-we-have-8-million-saved-fb08fccd?mod=mw_rss_topstories",
-      "published_at": "Sat, 29 Aug 2026 16:30:00 GMT",
-      "note": "General market-news coverage, reviewed for context only."
+      "url": "https://www.marketwatch.com/story/u-s-stock-futures-flat-as-chances-of-rate-hike-rise-after-warshs-jackson-hole-comments-1f5287f2?mod=mw_rss_topstories",
+      "published_at": "Mon, 31 Aug 2026 03:03:00 GMT",
+      "note": "Macro/rates-related coverage"
     },
     {
-      "title": "My mother, 91, has dementia. Every bank says I need her signature to unlock her $100,000 stock certificate. What can I do?",
+      "title": "‘It’s the ultimate regifting’: My mom gave me a house. Should I transfer it back to her to reduce capital gains?",
       "source_name": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/my-mother-91-has-dementia-every-bank-says-i-need-her-signature-to-unlock-her-100-000-stock-certificate-what-can-i-do-4a2b702f?mod=mw_rss_topstories",
-      "published_at": "Sat, 29 Aug 2026 16:00:00 GMT",
+      "url": "https://www.marketwatch.com/story/its-the-ultimate-regifting-my-mom-gave-me-a-house-should-i-transfer-it-back-to-her-to-reduce-capital-gains-e357f49c?mod=mw_rss_topstories",
+      "published_at": "Sun, 30 Aug 2026 22:31:00 GMT",
       "note": "General market-news coverage, reviewed for context only."
     }
   ]

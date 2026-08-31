@@ -1,62 +1,63 @@
 {
   "market": "crypto",
-  "generated_at": "2026-08-30T07:25:02.115197+00:00",
-  "scanner_summary": "1086 assets scanned, 7 confirmed flips (0.6%). State distribution: Blue 63.4%, Gold 16.8%, Gray 12.3%, Unknown 7.6%. Strongest transition: Blue → Gold (6 of 7 flips). Source: reports/private_crypto_dashboard.csv.",
+  "generated_at": "2026-08-31T07:25:01.743065+00:00",
+  "scanner_summary": "1086 assets scanned, 8 confirmed flips (0.7%). State distribution: Blue 62.6%, Gold 17.3%, Gray 12.5%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 8 flips). Source: reports/private_crypto_dashboard.csv.",
   "possible_drivers": [
     "Locally observed scanner state distribution and flip activity (see scanner_summary).",
-    "Security-incident-related coverage",
-    "General market-news coverage, reviewed for context only."
+    "Macro/rates-related coverage",
+    "General market-news coverage, reviewed for context only.",
+    "Security-incident-related coverage"
   ],
   "uncertainty_note": "Automatically collected from public RSS headlines and local scanner output. Headlines are cited, not verified for accuracy or causal connection to price movement. This is not investment advice and does not contain buy, sell, hold, or execution guidance. Human review is required before treating anything here as reliable market context.",
   "sources": [
     {
-      "title": "A $1.1 million crypto card hack crashed a neobank's token 49%",
+      "title": "September Fed rate hike fears look overblown as the probability stands at just 58%, not 90%",
       "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/web3/2026/08/29/a-usd1-1-million-crypto-card-hack-crashed-a-neobank-s-token-49",
-      "published_at": "Sat, 29 Aug 2026 23:49:17 +0000",
+      "url": "https://www.coindesk.com/markets/2026/08/31/september-fed-rate-hike-fears-appear-overblown-as-the-probability-is-just-58-not-90",
+      "published_at": "Mon, 31 Aug 2026 06:42:45 +0000",
+      "note": "Macro/rates-related coverage"
+    },
+    {
+      "title": "Zcash private transactions could go from three-second waits to under 200 milliseconds",
+      "source_name": "CoinDesk",
+      "url": "https://www.coindesk.com/tech/2026/08/31/zcash-private-transactions-could-go-from-three-second-waits-to-under-200-milliseconds",
+      "published_at": "Mon, 31 Aug 2026 05:23:57 +0000",
+      "note": "General market-news coverage, reviewed for context only."
+    },
+    {
+      "title": "Cronos halts blockchain after $75 million lending exploit hits lending app Tectonic",
+      "source_name": "CoinDesk",
+      "url": "https://www.coindesk.com/tech/2026/08/31/cronos-halts-blockchain-after-usd75-million-lending-exploit-hits-lending-app-tectonic",
+      "published_at": "Mon, 31 Aug 2026 04:57:13 +0000",
       "note": "Security-incident-related coverage"
     },
     {
-      "title": "Ditching 'digital gold': BPI study suggests everyday Americans prefer control and micro-investing",
+      "title": "Bitcoin barely blinks as U.S. hits Iran, sending oil higher and stocks lower",
       "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/08/28/ditch-digital-gold-bpi-study-suggests-everyday-americans-prefer-control-and-micro-investing",
-      "published_at": "Sat, 29 Aug 2026 15:00:00 +0000",
+      "url": "https://www.coindesk.com/markets/2026/08/31/bitcoin-barely-blinks-as-u-s-hits-iran-sending-oil-higher-and-stocks-lower",
+      "published_at": "Mon, 31 Aug 2026 04:29:10 +0000",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Inside the high-stakes battle between digital dollars and Swift's massive money engine",
+      "title": "Michael Saylor hints at first bitcoin purchase in two months",
       "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/08/29/swift-s-usd1-5-quadrillion-network-faces-a-blockchain-test",
-      "published_at": "Sat, 29 Aug 2026 15:00:00 +0000",
+      "url": "https://www.coindesk.com/markets/2026/08/30/bitcoin-nears-usd79-000-as-michael-saylor-hints-at-first-bitcoin-purchase-in-two-months",
+      "published_at": "Sun, 30 Aug 2026 15:39:55 +0000",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "The next trillion-dollar currency may not be a stablecoin — it might not even have a name yet",
-      "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/08/29/the-next-trillion-dollar-currency-may-not-be-a-stablecoin-it-might-not-even-have-a-name-yet",
-      "published_at": "Sat, 29 Aug 2026 15:00:00 +0000",
-      "note": "General market-news coverage, reviewed for context only."
-    },
-    {
-      "title": "Tokenized assets are busier than the data shows",
-      "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/opinion/2026/08/29/tokenized-assets-are-busier-than-the-data-shows",
-      "published_at": "Sat, 29 Aug 2026 13:00:00 +0000",
-      "note": "General market-news coverage, reviewed for context only."
-    },
-    {
-      "title": "Polygon discloses security flaws fixed in recent hard forks",
+      "title": "Here’s what happened in crypto today",
       "source_name": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/polygon-discloses-security-flaws-fixed-in-recent-hard-forks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "Sat, 29 Aug 2026 20:28:51 +0000",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "Mon, 31 Aug 2026 05:59:08 +0000",
+      "note": "General market-news coverage, reviewed for context only."
+    },
+    {
+      "title": "Cronos halts network after Tectonic exploit involving estimated $75M",
+      "source_name": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/cronos-network-halt-tectonic-exploit-75-million?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "Mon, 31 Aug 2026 03:25:48 +0000",
       "note": "Security-incident-related coverage"
-    },
-    {
-      "title": "Stellar tokenized RWA market more than quadruples to nearly $4B",
-      "source_name": "CoinTelegraph",
-      "url": "https://cointelegraph.com/markets/stellar-tokenized-rwa-market-nears-4b-after-fourfold-2026-growth?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "Sat, 29 Aug 2026 19:12:42 +0000",
-      "note": "General market-news coverage, reviewed for context only."
     }
   ]
 }

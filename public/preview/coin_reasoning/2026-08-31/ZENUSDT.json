@@ -1,0 +1,85 @@
+{
+  "symbol": "ZENUSDT",
+  "date": "2026-08-31",
+  "generated_at": "2026-08-31T07:25:03.333795+00:00",
+  "scanner_evidence": {
+    "symbol": "ZENUSDT",
+    "pair": "ZEN/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "57",
+    "score_tier": "B Watch",
+    "market_cap_rank": "282",
+    "gray_candles": "8",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=ZENUSDT",
+    "execution_time": "2026-08-31T06:36:43.275792+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1086 assets scanned, 8 confirmed flips (0.7%). State distribution: Blue 62.6%, Gold 17.3%, Gray 12.5%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 8 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "Macro/rates-related coverage",
+      "General market-news coverage, reviewed for context only.",
+      "Security-incident-related coverage"
+    ],
+    "context_generated_at": "2026-08-31T07:25:01.743065+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Horizen Price Prediction: Is ZEN Coin a Good Investment? - StealthEX",
+      "source_name": "StealthEX",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSnhkRlQ0WFd1WVJ3eVQ4WXFjRjZFeUhIU0xwWDladHZjY3k5SzlkQjFreHExODZIa3JMQ1JFOTRud215Tnp0QnlOOXIzcnFLUl9scUt5TnYtbE5IcGxUa3o1SVJpd3Z1OUtoZUZZb3doNzktTjJMNGFEcHdqZm95RC1SeXNOWGIy?oc=5",
+      "published_at": "Fri, 16 Jan 2026 08:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Horizen Price, ZEN Price, Live Charts, and Marketcap - Coinbase Mexico - Coinbase",
+      "source_name": "Coinbase",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5Ga2F6a01adzBUYkVhWHBKMW05S1UySTM2eUxIVjBrNmtRcEo2WXRqNGJheUJ2Vll6cnYxaDBEa3lSRUpEamdveFdRTDFELUlTcHIzeFlVQQ?oc=5",
+      "published_at": "Wed, 05 Nov 2025 04:27:50 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "DCG-backed Horizen transitions ZEN to ERC-20 token on Base for compliant privacy L3 appchain - The Block",
+      "source_name": "The Block",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNaG5HOG11NFM5NHVrQVE2RVlVT3A5OHo3MWM3RlRHTUVLLXNkYThqaHB4dG5aeXkzcGp6Mm9GZlBDMjV5Z1RxS1EzdXFnSVJaNFhBamw0LXZweXNmVmt6cUJMWUd5SjFHUFZ3eUVyck9CenRjX3l4cE9SSWdyd2M1dUN4YU9VQWU5Zkc4?oc=5",
+      "published_at": "Thu, 24 Jul 2025 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "The Privacy Layer Is Finally Coming to Ethereum, And Why It Will Define the Next Cycle - The Defiant",
+      "source_name": "The Defiant",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRjJvdUxtTk5Pd0dla2JpODg5WVhBUGptYlVFcjJQUmlHMnNKcEpqd3NEbFRSVlgxeFo1aGpScnlOc0x4V3JkazFJS3UxWUwtSkQzUC03WE16aE9DZks0SEdwUEdIS0QtdWdBNnprTGt2czhQMW8wUmY0TExJU0tkSnJLUlNkNjlTbUNMRkk2UnJxVHRjQ09yb3FvWmkxQjQ3WXR0djJBdVJhT3ZnSkM0b0RES3dWbmpU?oc=5",
+      "published_at": "Mon, 15 Dec 2025 08:00:00 GMT",
+      "relevance": "market_context",
+      "freshness": "Old",
+      "default_visible": false
+    },
+    {
+      "title": "Top 5 Privacy Tokens in June 2026 [By Market Cap] - CoinDCX",
+      "source_name": "CoinDCX",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE14UXVyV1dDTnV4eUZnaGo0NGZveWF2RFIyd2tHeURjTGhUekRWZDVrMVVadXF3Y3BHVlh5LUgxM3ZvUVpZUHRaLUNzek5UYlZlNlVDUVdwbDlYTzlSWDVIMXBtN3RGY2hlMzYwY3BKVQ?oc=5",
+      "published_at": "Sat, 30 May 2026 07:00:00 GMT",
+      "relevance": "market_context",
+      "freshness": "Old",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "Horizen crypto",
+  "reasoning_quality": "Medium",
+  "reasoning_quality_note": "Relevant evidence found (3 direct but not fresh, 2 sector/market-wide headline(s)), but no headline is both coin-specific and fresh. Treat this as supporting context, not confirmation.",
+  "neutral_explanation": "ZENUSDT (ZEN/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 57 (tier B Watch); market-cap rank 282. Scanner note: Valid confirmed trend flip — fresh signal. Broader crypto market context: 1086 assets scanned, 8 confirmed flips (0.7%). State distribution: Blue 62.6%, Gold 17.3%, Gray 12.5%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 8 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (3 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

@@ -1,0 +1,85 @@
+{
+  "symbol": "ORCAUSDT",
+  "date": "2026-08-31",
+  "generated_at": "2026-08-31T07:25:03.333795+00:00",
+  "scanner_evidence": {
+    "symbol": "ORCAUSDT",
+    "pair": "ORCA/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "74",
+    "score_tier": "A Good",
+    "market_cap_rank": "315",
+    "gray_candles": "4",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "small-cap potential, small-cap high risk, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=ORCAUSDT",
+    "execution_time": "2026-08-31T06:36:43.275792+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1086 assets scanned, 8 confirmed flips (0.7%). State distribution: Blue 62.6%, Gold 17.3%, Gray 12.5%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 8 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "Macro/rates-related coverage",
+      "General market-news coverage, reviewed for context only.",
+      "Security-incident-related coverage"
+    ],
+    "context_generated_at": "2026-08-31T07:25:01.743065+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Orca Jumps 63% In 24 Hours As Solana DEX Volumes Surge - Yellow.com",
+      "source_name": "Yellow.com",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOeEl6dWR4bjZtZEhzWWxGRGpNcUF1aFZFSmZ6S1R0UjZqYVFCNG56VG4zV3Z6VzV2UndyaUo0eG03Z0xhTzgydlI4cGExUW9QTGlKSmY2WmpQVVF3ZXBqY2psM3FEcWFYVGpiOGFNTkh1Qi1qTWFtWkhlUndTTGpkWA?oc=5",
+      "published_at": "Thu, 27 Aug 2026 16:02:33 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "Price of Orca (ORCA) today in EUR – Quote and market trends - Bit2Me",
+      "source_name": "Bit2Me",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1GRmJ3LVU1MDRZVVptR29SS0N5a0xXSFB3UHVkTG1VSWxTYXBwaVVZSkNkOWRnSVdFSHRvOXVXM0FWWTUyaHJQZkcxUQ?oc=5",
+      "published_at": "Sat, 25 Jul 2026 00:52:30 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "South Korea's Shinhan partners with Solana Foundation, Etherfuse, Orca for tokenized fund issuance - The Block",
+      "source_name": "The Block",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxObVQtdExMWWI5MXhxYW9VeWpSa0ttOWcycFk2RkFEangyTmp1V2F0LVFKc1NiRkJEWWpTMV91dVVYclBiZEZzVjU0UGdTN2E0WG5yc2V0RnNLQ3QtUzh0eFZlVmZPMGtmbTd5U1ItdzF6Z0FHUGdWQXZKd1RFN21ZMktuTi1ZYkxxZ29Ba2FzYkUzNEI5NHcxUQ?oc=5",
+      "published_at": "Fri, 21 Aug 2026 06:32:48 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Top Solana DEXs: Jupiter, Raydium, Orca Compared - Bitcoin Foundation",
+      "source_name": "Bitcoin Foundation",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxONjI3RlE3Qjh5bTdKNk5RTGNLYS00VEx5WF9MdzhQMjhpVFl6ek8zX2tqR2ZUbTVwME1kOXZyblVHWHRtMFZ6ZnR2OExTekhGMlVWTnlnakdLenNNRnd4aVoyUEJmYTJrY0VZNXFpMHhMaElUMVhodHN0UmF3aXJIenJBSE5ZdjB2SFdCYlM4YkdaWWR5?oc=5",
+      "published_at": "Mon, 15 Jun 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    },
+    {
+      "title": "Crypto -Insight(@raiyaseen)'s insights - Binance",
+      "source_name": "Binance",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE91R3N1cldGVjNGcUNzcm1zWWoya01HN19HN2pua1hyNmU5QXJOb01Iby10Z2k2VmRmUEE0YlcxOW40aThmajFDcXVGUWozNzVYUWJMS3c5TFFZczJxZmdCMlVoenE?oc=5",
+      "published_at": "Sun, 30 Aug 2026 14:25:37 GMT",
+      "relevance": "unrelated",
+      "freshness": "Recent",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "Orca crypto",
+  "reasoning_quality": "Strong",
+  "reasoning_quality_note": "1 direct, fresh coin-specific headline(s) found (named the coin/project and published today or within the last 7 days).",
+  "neutral_explanation": "ORCAUSDT (ORCA/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 74 (tier A Good); market-cap rank 315. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 1086 assets scanned, 8 confirmed flips (0.7%). State distribution: Blue 62.6%, Gold 17.3%, Gray 12.5%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 8 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (4 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

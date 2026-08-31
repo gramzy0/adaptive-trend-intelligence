@@ -1,0 +1,85 @@
+{
+  "symbol": "EGLDUSDT",
+  "date": "2026-08-31",
+  "generated_at": "2026-08-31T07:25:03.333795+00:00",
+  "scanner_evidence": {
+    "symbol": "EGLDUSDT",
+    "pair": "EGLD/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "69",
+    "score_tier": "A Good",
+    "market_cap_rank": "235",
+    "gray_candles": "6",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=EGLDUSDT",
+    "execution_time": "2026-08-31T06:36:43.275792+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1086 assets scanned, 8 confirmed flips (0.7%). State distribution: Blue 62.6%, Gold 17.3%, Gray 12.5%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 8 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "Macro/rates-related coverage",
+      "General market-news coverage, reviewed for context only.",
+      "Security-incident-related coverage"
+    ],
+    "context_generated_at": "2026-08-31T07:25:01.743065+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "MultiversX (EGLD) Price Prediction 2026-2030: Can It Reach $100 This Year? - CryptoRank",
+      "source_name": "CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOdEUtRkJZTDlzbEg2R0taaDVJR1FQZ3h4cEJLWDF1b2pTajhyQTRuNWVpdVRfbDVGeWFaUGRLZms5dmp6MVpHajFjTmhtSGZpV0JPSVRqRnhrM2NmZkZwc3F2dU9TZWtEU3pVQlJwVGRkbzRHSXp4NFZzY2RMTVRRdnc2NW1OalU?oc=5",
+      "published_at": "Sat, 27 Jun 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Price of MultiversX (EGLD) today in EUR – Quote and market trends - Bit2Me",
+      "source_name": "Bit2Me",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBtVnU4THBjSUUwSjdWZFdZdURkSFp5WV9NaDhaMGpvU1pqUThBWDVzVUJFWTNvbzVTSG95NlYzVG9FZUhrZjlSb3czWXR6Uzg?oc=5",
+      "published_at": "Sat, 25 Jul 2026 20:08:59 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "MultiversX Price: EGLD Price Index and Live Chart - The Block",
+      "source_name": "The Block",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5kQWVwcF95ZHlCdm1aLWRNamRfVGU0V3k1aVhWaTJQQ3pSQTNrc19oZFU1WjN2Sk1nVGExZldNTmo4LWJQR0NTdC1iV1poSkx1cVE?oc=5",
+      "published_at": "Thu, 13 Aug 2026 04:12:29 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "MultiversX Price Prediction 2026, 2027 – 2030: Will EGLD Price Hit $100 This Year? - Coinpedia",
+      "source_name": "Coinpedia",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE96MHU0bUYwbUFCRWdtSGkzYWVuUnVQUXE4dTJCRi1ZbFB3Mmwxa1pmazhvQlNwaFh3ZGprWlJKSEVnUzMzWF9HS3B6NDBQOVFqVHFPZ1BEWnM1WXNGaHFDR21OZDdDLUhhSDdBbzVlcVh0M3dwSDZz0gF8QVVfeXFMTVR5cXhIUTJQbzRBOEdTanU2bW9SNVdWci1BdWdvSnF4eHlWenA3NkFBR0tjSkJ0ejREUHJCLUx1UXBIZU5SMHpScTZEbGhZZXBfOVFwV3gxbkg1Ri1nVzFzRVJiQzdvcDRjckFfLVNnWERaWERhMldQYmVXZQ?oc=5",
+      "published_at": "Sat, 27 Jun 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    },
+    {
+      "title": "MultiversX Moves to Lift EGLD Supply Cap, Shaking Up Token Economics - Bitget",
+      "source_name": "Bitget",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5kNjRZUWhGVEE5ckYzTHl3bkNZOEFDOWRfQUNwaklXM05wclVvRFZOUVJNT2wyOG51eFZGbDhfVjNVZTVSOC1JTkVMVjNLVWlnSFJVRkRWRkFzSXhrTnfSAWNBVV95cUxQbmI5Y2ZJRDFfNnQwM3p2UW4tSi1tQ3hkSTg3Q0NxOE1NVXh3N0NIVnZuR3BmTkNLby13dHpnZzJrd3J3MU15bEpmNWxaejJPQ3JaeHhzbXZ3dmw0Vy1WQmJrczg?oc=5",
+      "published_at": "Tue, 27 Jan 2026 08:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "MultiversX crypto",
+  "reasoning_quality": "Medium",
+  "reasoning_quality_note": "Relevant evidence found (5 direct but not fresh headline(s)), but no headline is both coin-specific and fresh. Treat this as supporting context, not confirmation.",
+  "neutral_explanation": "EGLDUSDT (EGLD/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 69 (tier A Good); market-cap rank 235. Scanner note: Valid confirmed trend flip — fresh signal. Broader crypto market context: 1086 assets scanned, 8 confirmed flips (0.7%). State distribution: Blue 62.6%, Gold 17.3%, Gray 12.5%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 8 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (5 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}
