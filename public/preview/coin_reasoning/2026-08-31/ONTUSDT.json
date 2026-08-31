@@ -1,7 +1,7 @@
 {
   "symbol": "ONTUSDT",
   "date": "2026-08-31",
-  "generated_at": "2026-08-31T07:25:03.333795+00:00",
+  "generated_at": "2026-08-31T19:34:38.133417+00:00",
   "scanner_evidence": {
     "symbol": "ONTUSDT",
     "pair": "ONT/USDT",
@@ -21,16 +21,33 @@
   },
   "market_context_snapshot": {
     "available": true,
-    "scanner_summary": "1086 assets scanned, 8 confirmed flips (0.7%). State distribution: Blue 62.6%, Gold 17.3%, Gray 12.5%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 8 flips). Source: reports/private_crypto_dashboard.csv.",
+    "scanner_summary": "1086 assets scanned, 8 confirmed flips (0.7%). State distribution: Blue 62.5%, Gold 17.7%, Gray 12.2%, Unknown 7.6%. Strongest transition: Blue → Gold (6 of 8 flips). Source: reports/private_crypto_dashboard.csv.",
     "possible_drivers": [
       "Locally observed scanner state distribution and flip activity (see scanner_summary).",
-      "Macro/rates-related coverage",
-      "General market-news coverage, reviewed for context only.",
-      "Security-incident-related coverage"
+      "Regulatory/legal-related coverage",
+      "General market-news coverage, reviewed for context only."
     ],
-    "context_generated_at": "2026-08-31T07:25:01.743065+00:00"
+    "context_generated_at": "2026-08-31T19:34:36.724238+00:00"
   },
   "coin_specific_headlines": [
+    {
+      "title": "Ontology halts mainnet block production over potential security concern - Crypto News",
+      "source_name": "Crypto News",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNcDRrRS02XzVTV0p1T2x3NjFEUnRraDFnSWpMcHQ2eUd5WmtRempfWnVFaTNadWFJNVpHOEJLZWh6TzNSQlIzdnlZdmwxZHVvLVpPX08tc3NNdVBCZGcyOHBfWlhZT1dkMGlDUjJZRE9QSkxfR092ZjI2bkl4S1pNamoxMkVNVG5sTnN0c3pVdmV2NHFQM1FR?oc=5",
+      "published_at": "Mon, 31 Aug 2026 10:29:45 GMT",
+      "relevance": "direct",
+      "freshness": "Today",
+      "default_visible": true
+    },
+    {
+      "title": "Bithumb Halts ONT, ONG, And MBL Transactions On Ontology Network - Bitcoin World",
+      "source_name": "Bitcoin World",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNTkw0Zk9DQ29BQnNkOG1TcmlaQl90OVJZQ0VTYnBPNmlIcDBURW9ucHkzY3pHUFkxQllIMG9NbUhrdFJ5dXh4VUhickx6cXZvYXlzZHpDZXR4cFRkZ2JxMndrb2R3SUlKdFpNZ3RZSjU3azJFLVdHYmtFaHBmbTRkdkI2VVZkZ2dKbGlr?oc=5",
+      "published_at": "Mon, 31 Aug 2026 09:40:11 GMT",
+      "relevance": "direct",
+      "freshness": "Today",
+      "default_visible": true
+    },
     {
       "title": "Ontology Holders And Distribution Chart - CryptoRank",
       "source_name": "CryptoRank",
@@ -47,16 +64,7 @@
       "published_at": "Thu, 13 Aug 2026 07:00:00 GMT",
       "relevance": "direct",
       "freshness": "Old",
-      "default_visible": true
-    },
-    {
-      "title": "Ontology MainNet v3.1.2 At block 20,800,000, Ontology bring - KuCoin",
-      "source_name": "KuCoin",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9IY0UxQjc0YnM1QXczd2Q0QXdmVkE4azdGUFFfREhCczdZaXY4ZXduRzdESVY5Z0FaWnM4Q3FMMHh0Q2tnclQyaDB3cndrRFo3emQ1YmsyMFA1a1BHcjYyMWZ3NnR0WXBrdkotenYzWlk?oc=5",
-      "published_at": "Sun, 23 Aug 2026 22:06:19 GMT",
-      "relevance": "direct",
-      "freshness": "Old",
-      "default_visible": true
+      "default_visible": false
     },
     {
       "title": "Crypto analytics firm Chainalysis proposes standards for blockchain tracing - CoinDesk",
@@ -66,20 +74,11 @@
       "relevance": "market_context",
       "freshness": "Old",
       "default_visible": false
-    },
-    {
-      "title": "Chainalysis Proposes Standards for Tracing Blockchain Transactions - PYMNTS.com",
-      "source_name": "PYMNTS.com",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNmhIME9ocXo3a01Pc3NnLXJqUjJMR0RpZkc0UU1wMTRhd3lFZmZSNXcyZFU3ekVETGJUY1BJYVVjWFVQMUx2LXV3SC00a1lhbzc4blVGaDgzWGhMdUkwUnNrNHpoUWRybzdXckh5UGMtOFVqQlZfemtPa2FtMF8talRJWTFlSVNCLTFtSGhhVUxpWlBlalJ0MXM2ZWZRaS1uSk1KRXJpRXdzdw?oc=5",
-      "published_at": "Mon, 29 Jun 2026 07:00:00 GMT",
-      "relevance": "market_context",
-      "freshness": "Old",
-      "default_visible": false
     }
   ],
   "search_query_used": "Ontology crypto",
   "reasoning_quality": "Strong",
-  "reasoning_quality_note": "1 direct, fresh coin-specific headline(s) found (named the coin/project and published today or within the last 7 days).",
-  "neutral_explanation": "ONTUSDT (ONT/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 74 (tier A Good); market-cap rank 416. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 1086 assets scanned, 8 confirmed flips (0.7%). State distribution: Blue 62.6%, Gold 17.3%, Gray 12.5%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 8 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (3 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "reasoning_quality_note": "3 direct, fresh coin-specific headline(s) found (named the coin/project and published today or within the last 7 days).",
+  "neutral_explanation": "ONTUSDT (ONT/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 74 (tier A Good); market-cap rank 416. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 1086 assets scanned, 8 confirmed flips (0.7%). State distribution: Blue 62.5%, Gold 17.7%, Gray 12.2%, Unknown 7.6%. Strongest transition: Blue → Gold (6 of 8 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (4 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
   "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
 }

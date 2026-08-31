@@ -1,7 +1,7 @@
 {
   "symbol": "USUALUSDT",
   "date": "2026-08-31",
-  "generated_at": "2026-08-31T07:25:03.333795+00:00",
+  "generated_at": "2026-08-31T19:34:38.133417+00:00",
   "scanner_evidence": {
     "symbol": "USUALUSDT",
     "pair": "USUAL/USDT",
@@ -21,14 +21,13 @@
   },
   "market_context_snapshot": {
     "available": true,
-    "scanner_summary": "1086 assets scanned, 8 confirmed flips (0.7%). State distribution: Blue 62.6%, Gold 17.3%, Gray 12.5%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 8 flips). Source: reports/private_crypto_dashboard.csv.",
+    "scanner_summary": "1086 assets scanned, 8 confirmed flips (0.7%). State distribution: Blue 62.5%, Gold 17.7%, Gray 12.2%, Unknown 7.6%. Strongest transition: Blue → Gold (6 of 8 flips). Source: reports/private_crypto_dashboard.csv.",
     "possible_drivers": [
       "Locally observed scanner state distribution and flip activity (see scanner_summary).",
-      "Macro/rates-related coverage",
-      "General market-news coverage, reviewed for context only.",
-      "Security-incident-related coverage"
+      "Regulatory/legal-related coverage",
+      "General market-news coverage, reviewed for context only."
     ],
-    "context_generated_at": "2026-08-31T07:25:01.743065+00:00"
+    "context_generated_at": "2026-08-31T19:34:36.724238+00:00"
   },
   "coin_specific_headlines": [
     {
@@ -50,13 +49,22 @@
       "default_visible": true
     },
     {
+      "title": "XRP poised for 12.19% gain in September, defyin... - Pluang",
+      "source_name": "Pluang",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbzdiNHhDaDhmRDZvX1V5OEo0aVk5Rnp6ZGl5UXREYVBsbG4yV2xhSmM5TlRPUEhXVXgxTVVZR2FIVmRhcWNZWVFIaWpnbm1vNnExZnk1Wk1KWVVUMGJvdDlibTREa1AtSDg2cnJVd0czeDRFZFVqX1lsQkd4WUI3d0Q1Q2JUYVpVVUVVS3FaRlhWQmthUGhCZ1RpTzk3elhreGFTR3NrQXU?oc=5",
+      "published_at": "Mon, 31 Aug 2026 13:47:47 GMT",
+      "relevance": "unrelated",
+      "freshness": "Today",
+      "default_visible": true
+    },
+    {
       "title": "What Happens When the Most Powerful AI Gets Its Own Crypto Wallet - Yellow.com",
       "source_name": "Yellow.com",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5FdmFCTTFnaFljZm9XWWNaNHp4Mm9TUFpubkJKa3JBdVJyNVJtbWROSjBWOVphRWtZYVRwaXk0c29LcVVXelY5OThDZ092VEJDRWc4NlNYMk1GWE9TX1VZaFRuVEZ3c1JLVU1UYlFMY0hRSWh0?oc=5",
       "published_at": "Thu, 27 Aug 2026 18:18:23 GMT",
       "relevance": "unrelated",
       "freshness": "Recent",
-      "default_visible": true
+      "default_visible": false
     },
     {
       "title": "The new kingmakers: Crypto, AI and betting firms fuel record spending on the 2026 midterms - Reuters",
@@ -66,20 +74,11 @@
       "relevance": "unrelated",
       "freshness": "Old",
       "default_visible": false
-    },
-    {
-      "title": "'Wrench' attacks against crypto holders appear to be on the rise - The Record from Recorded Future News",
-      "source_name": "The Record from Recorded Future News",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE52Tl9ueGlaSDJDQi16VFJIbGZ5ZVlSelBsS1pSZ0lCMXF2dmpnaDkxSU9UN1dRbThacFJ6Wk1Wa25ETlFXN1Jhdk1NRXJiSTFibjh5akFHLUlpT1IxMWpxNWZ1UWRrNGc5NkYwaHdLczczN2hyQXcyYg?oc=5",
-      "published_at": "Fri, 24 Jul 2026 07:00:00 GMT",
-      "relevance": "unrelated",
-      "freshness": "Old",
-      "default_visible": false
     }
   ],
   "search_query_used": "Usual crypto",
   "reasoning_quality": "Strong",
   "reasoning_quality_note": "1 direct, fresh coin-specific headline(s) found (named the coin/project and published today or within the last 7 days).",
-  "neutral_explanation": "USUALUSDT (USUAL/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 62 (tier B Watch); market-cap rank 771. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 1086 assets scanned, 8 confirmed flips (0.7%). State distribution: Blue 62.6%, Gold 17.3%, Gray 12.5%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 8 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (1 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "neutral_explanation": "USUALUSDT (USUAL/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 62 (tier B Watch); market-cap rank 771. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 1086 assets scanned, 8 confirmed flips (0.7%). State distribution: Blue 62.5%, Gold 17.7%, Gray 12.2%, Unknown 7.6%. Strongest transition: Blue → Gold (6 of 8 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (1 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
   "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
 }

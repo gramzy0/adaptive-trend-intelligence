@@ -1,61 +1,60 @@
 {
   "market": "stocks",
-  "generated_at": "2026-08-31T07:25:01.743065+00:00",
-  "scanner_summary": "50 assets scanned, 0 confirmed flips (0.0%). State distribution: Blue 14.0%, Gold 76.0%, Gray 10.0%, Unknown 0.0%. Source: data/output/stocks_weekly_results.json, last modified 2026-06-13 (78 days ago). Stale-data warning: source file is more than 30 days old.",
+  "generated_at": "2026-08-31T19:34:36.724238+00:00",
+  "scanner_summary": "50 assets scanned, 0 confirmed flips (0.0%). State distribution: Blue 14.0%, Gold 76.0%, Gray 10.0%, Unknown 0.0%. Source: data/output/stocks_weekly_results.json, last modified 2026-06-13 (79 days ago). Stale-data warning: source file is more than 30 days old.",
   "possible_drivers": [
     "Locally observed scanner state distribution and flip activity (see scanner_summary).",
-    "General market-news coverage, reviewed for context only.",
-    "Macro/rates-related coverage"
+    "General market-news coverage, reviewed for context only."
   ],
   "uncertainty_note": "Automatically collected from public RSS headlines and local scanner output. Headlines are cited, not verified for accuracy or causal connection to price movement. This is not investment advice and does not contain buy, sell, hold, or execution guidance. Human review is required before treating anything here as reliable market context.",
   "sources": [
     {
-      "title": "Major fruit grower lays off nearly 1,000 workers",
+      "title": "Goldman Sachs sends blunt message on oil price, economy",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/small-business/articles/major-fruit-grower-lays-off-010300694.html",
-      "published_at": "2026-08-30T01:03:00Z",
+      "url": "https://finance.yahoo.com/energy/articles/goldman-sachs-sends-blunt-message-003700417.html",
+      "published_at": "2026-08-31T00:37:00Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Apple Was Always 1 Step Behind in AI. In Chipmaking, It’s Now 1 Step Ahead.",
+      "title": "David Einhorn Says SpaceX Could Mark a Speculative Top. Morgan Stanley Sees 113% Upside",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/technology/ai/articles/apple-always-1-step-behind-203002772.html",
-      "published_at": "2026-08-29T20:30:02Z",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/david-einhorn-says-spacex-could-100706151.html",
+      "published_at": "2026-08-30T10:07:06Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "A $100 Billion Buildout In Louisiana Is Planned for Starship. What This Means for SPCX Stock.",
+      "title": "Healthcare’s Best Week Since June Traces Back to a Single Moderna and Merck Cancer Trial",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/100-billion-buildout-louisiana-planned-193002508.html",
-      "published_at": "2026-08-29T19:30:02Z",
+      "url": "https://finance.yahoo.com/healthcare/articles/healthcare-best-week-since-june-100300319.html",
+      "published_at": "2026-08-30T10:03:00Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Solar Has Crossed a Critical Economic Tipping Point",
+      "title": "Klarna Recently Went for Its Worst Week Ever, Down More Than 30%",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/energy/articles/solar-crossed-critical-economic-tipping-210000010.html",
-      "published_at": "2026-08-29T21:00:00Z",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/klarna-recently-went-worst-week-095444609.html",
+      "published_at": "2026-08-30T09:54:44Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Iran War Adds $330 Billion to Global Energy Import Bill",
+      "title": "History Says This Is What Happens to Nvidia Stock in September",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/energy/articles/iran-war-adds-330-billion-230000013.html",
-      "published_at": "2026-08-29T23:00:00Z",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/history-says-happens-nvidia-stock-102500057.html",
+      "published_at": "2026-08-30T10:25:00Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "U.S. stock futures slip as chances of rate hike rise after Warsh’s Jackson Hole comments",
+      "title": "‘My main goal is to help people’: I’m single, 74, with $10 million burning a hole in my pocket. What should I do?",
       "source_name": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/u-s-stock-futures-flat-as-chances-of-rate-hike-rise-after-warshs-jackson-hole-comments-1f5287f2?mod=mw_rss_topstories",
-      "published_at": "Mon, 31 Aug 2026 03:03:00 GMT",
-      "note": "Macro/rates-related coverage"
+      "url": "https://www.marketwatch.com/story/my-main-goal-is-to-help-people-im-single-74-with-10-million-burning-a-hole-in-my-pocket-what-should-i-do-0e6112e1?mod=mw_rss_topstories",
+      "published_at": "Mon, 31 Aug 2026 19:30:00 GMT",
+      "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "‘It’s the ultimate regifting’: My mom gave me a house. Should I transfer it back to her to reduce capital gains?",
+      "title": "Why Dell’s stock stands to gain from developments at Nvidia and SpaceX",
       "source_name": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/its-the-ultimate-regifting-my-mom-gave-me-a-house-should-i-transfer-it-back-to-her-to-reduce-capital-gains-e357f49c?mod=mw_rss_topstories",
-      "published_at": "Sun, 30 Aug 2026 22:31:00 GMT",
+      "url": "https://www.marketwatch.com/story/why-dells-stock-stands-to-gain-from-developments-at-nvidia-and-spacex-7978fcaf?mod=mw_rss_topstories",
+      "published_at": "Mon, 31 Aug 2026 19:29:00 GMT",
       "note": "General market-news coverage, reviewed for context only."
     }
   ]

@@ -1,7 +1,7 @@
 {
   "symbol": "GBPUSDT",
   "date": "2026-08-31",
-  "generated_at": "2026-08-31T07:25:03.333795+00:00",
+  "generated_at": "2026-08-31T19:34:38.133417+00:00",
   "scanner_evidence": {
     "symbol": "GBPUSDT",
     "pair": "GBP/USDT",
@@ -21,21 +21,29 @@
   },
   "market_context_snapshot": {
     "available": true,
-    "scanner_summary": "1086 assets scanned, 8 confirmed flips (0.7%). State distribution: Blue 62.6%, Gold 17.3%, Gray 12.5%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 8 flips). Source: reports/private_crypto_dashboard.csv.",
+    "scanner_summary": "1086 assets scanned, 8 confirmed flips (0.7%). State distribution: Blue 62.5%, Gold 17.7%, Gray 12.2%, Unknown 7.6%. Strongest transition: Blue → Gold (6 of 8 flips). Source: reports/private_crypto_dashboard.csv.",
     "possible_drivers": [
       "Locally observed scanner state distribution and flip activity (see scanner_summary).",
-      "Macro/rates-related coverage",
-      "General market-news coverage, reviewed for context only.",
-      "Security-incident-related coverage"
+      "Regulatory/legal-related coverage",
+      "General market-news coverage, reviewed for context only."
     ],
-    "context_generated_at": "2026-08-31T07:25:01.743065+00:00"
+    "context_generated_at": "2026-08-31T19:34:36.724238+00:00"
   },
   "coin_specific_headlines": [
     {
-      "title": "BTC to GBP: Bitcoin Price in British Pound Sterling - CoinGecko",
+      "title": "FNB/GBP Price: Convert FNB Protocol to British Pound - Crypto.com",
+      "source_name": "Crypto.com",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBZRTJ1ZFhCZThJY1liMDBCQ1dlMGwwdURFNUN2MzByZ1VQNVhKSXh4b250bWxQd2dvMlNwSklGOFhNV1o4LXY5c2NmODZuLUczV3puYXhtQQ?oc=5",
+      "published_at": "Mon, 31 Aug 2026 09:52:49 GMT",
+      "relevance": "direct",
+      "freshness": "Today",
+      "default_visible": true
+    },
+    {
+      "title": "ETH to GBP: Ethereum Price in British Pound Sterling - CoinGecko",
       "source_name": "CoinGecko",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5wYTZ5MWJSZUxGenlkSzlTYlRQTjUxSi1ESzlKbXh4U3FwZG5FNHBTZW9NMjNoXzZiY19IWE1oX25MVDBITmRWZkQ2Q2RQMm9SQUJmcnUxUEZOQQ?oc=5",
-      "published_at": "Mon, 31 Aug 2026 04:30:57 GMT",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB2WEs0WVQxSGdVYVpQVkZzS09GazBrb1FUTzJNalYtSjNUbVFqV1pRdy1melhRVjl1VHd5a3NaWjRPdG9DRDNHYXhwa1VwUVRvanpmSFl3LUlEOVU?oc=5",
+      "published_at": "Mon, 31 Aug 2026 16:36:43 GMT",
       "relevance": "direct",
       "freshness": "Today",
       "default_visible": true
@@ -47,15 +55,6 @@
       "published_at": "Sat, 29 Aug 2026 06:33:16 GMT",
       "relevance": "direct",
       "freshness": "Recent",
-      "default_visible": true
-    },
-    {
-      "title": "KPL/GBP Price: Convert Kepple to British Pound - Crypto.com",
-      "source_name": "Crypto.com",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5MakxMdVladEpGZWlXQWFPdmlzNWNkNkdla2Q0WEVHU0xxTHRLcHM2eFM1RFJqbzh1V04wX3ZUbTl1YmZpaGctUzZsOUMzQms?oc=5",
-      "published_at": "Sun, 21 Jun 2026 03:31:54 GMT",
-      "relevance": "direct",
-      "freshness": "Old",
       "default_visible": true
     },
     {
@@ -79,7 +78,7 @@
   ],
   "search_query_used": "GBP crypto",
   "reasoning_quality": "Strong",
-  "reasoning_quality_note": "2 direct, fresh coin-specific headline(s) found (named the coin/project and published today or within the last 7 days).",
-  "neutral_explanation": "GBPUSDT (GBP/USDT) recorded a confirmed state flip: Gold → Blue (Bearish). Scanner score 52 (tier B Watch); market-cap rank not available. Scanner note: Valid confirmed trend flip — fresh signal. Broader crypto market context: 1086 assets scanned, 8 confirmed flips (0.7%). State distribution: Blue 62.6%, Gold 17.3%, Gray 12.5%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 8 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (3 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "reasoning_quality_note": "3 direct, fresh coin-specific headline(s) found (named the coin/project and published today or within the last 7 days).",
+  "neutral_explanation": "GBPUSDT (GBP/USDT) recorded a confirmed state flip: Gold → Blue (Bearish). Scanner score 52 (tier B Watch); market-cap rank not available. Scanner note: Valid confirmed trend flip — fresh signal. Broader crypto market context: 1086 assets scanned, 8 confirmed flips (0.7%). State distribution: Blue 62.5%, Gold 17.7%, Gray 12.2%, Unknown 7.6%. Strongest transition: Blue → Gold (6 of 8 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (3 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
   "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
 }

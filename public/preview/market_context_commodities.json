@@ -1,45 +1,46 @@
 {
   "market": "commodities",
-  "generated_at": "2026-08-31T07:25:01.743065+00:00",
+  "generated_at": "2026-08-31T19:34:36.724238+00:00",
   "scanner_summary": "No commodity scanner data available in data/output; no asset count, flip count, or state distribution can be computed locally.",
   "possible_drivers": [
-    "General market-news coverage, reviewed for context only."
+    "General market-news coverage, reviewed for context only.",
+    "Supply-related coverage"
   ],
   "uncertainty_note": "Automatically collected from public RSS headlines and local scanner output. Headlines are cited, not verified for accuracy or causal connection to price movement. This is not investment advice and does not contain buy, sell, hold, or execution guidance. Human review is required before treating anything here as reliable market context.",
   "sources": [
     {
-      "title": "Goldman Sachs Sees Diesel Refining Margins Soaring to $63 a Barrel",
+      "title": "Chevron, ONGC and GE Vernova Near Final Venezuela Energy Deals",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Goldman-Sachs-Sees-Diesel-Refining-Margins-Soaring-to-63-a-Barrel.html",
-      "published_at": "Mon, 31 Aug 2026 01:45:00 -0500",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Chevron-ONGC-and-GE-Vernova-Near-Final-Venezuela-Energy-Deals.html",
+      "published_at": "Mon, 31 Aug 2026 14:30:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Trump Says Venezuelan Oil Will Refill U.S. Strategic Petroleum Reserve",
+      "title": "Trump’s “Historic Deal” With Venezuela Isn’t Fooling Oil Traders",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Says-Venezuelan-Oil-Will-Refill-US-Strategic-Petroleum-Reserve.html",
-      "published_at": "Mon, 31 Aug 2026 00:35:00 -0500",
+      "url": "https://oilprice.com/Energy/Crude-Oil/Trumps-Historic-Deal-With-Venezuela-Isnt-Fooling-Oil-Traders.html",
+      "published_at": "Mon, 31 Aug 2026 14:00:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Oil Prices Surge as U.S. and Iran Exchange Strikes",
+      "title": "BP Adds 80 MMcf/d to Egypt’s Gas Supply Two Years Ahead of Schedule",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Energy/Oil-Prices/Oil-Prices-Surge-as-US-and-Iran-Exchange-Strikes.html",
-      "published_at": "Sun, 30 Aug 2026 21:30:06 -0500",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/BP-Adds-80-MMcfd-to-Egypts-Gas-Supply-Two-Years-Ahead-of-Schedule.html",
+      "published_at": "Mon, 31 Aug 2026 13:30:00 -0500",
+      "note": "Supply-related coverage"
+    },
+    {
+      "title": "Russian Oil Is No Longer India’s Easy Bargain",
+      "source_name": "OilPrice.com",
+      "url": "https://oilprice.com/Energy/Crude-Oil/Russian-Oil-Is-No-Longer-Indias-Easy-Bargain.html",
+      "published_at": "Mon, 31 Aug 2026 13:00:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "U.S. Army To Spend $2.2B On Nuclear Microreactors At Military Bases",
+      "title": "SLB Makes $3.4 Billion Bet on AI Data Center Boom",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Alternative-Energy/Nuclear-Power/US-Army-To-Spend-22B-On-Nuclear-Microreactors-At-Military-Bases.html",
-      "published_at": "Sun, 30 Aug 2026 18:00:00 -0500",
-      "note": "General market-news coverage, reviewed for context only."
-    },
-    {
-      "title": "‘Soap Cocktails’ Help U.S. Shale Boost Oil Production",
-      "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Energy/Crude-Oil/Soap-Cocktails-Help-US-Shale-Boost-Oil-Production.html",
-      "published_at": "Sun, 30 Aug 2026 16:00:00 -0500",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/SLB-Makes-34-Billion-Bet-on-AI-Data-Center-Boom.html",
+      "published_at": "Mon, 31 Aug 2026 12:30:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {

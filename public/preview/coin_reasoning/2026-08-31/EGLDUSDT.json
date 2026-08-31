@@ -1,7 +1,7 @@
 {
   "symbol": "EGLDUSDT",
   "date": "2026-08-31",
-  "generated_at": "2026-08-31T07:25:03.333795+00:00",
+  "generated_at": "2026-08-31T19:34:38.133417+00:00",
   "scanner_evidence": {
     "symbol": "EGLDUSDT",
     "pair": "EGLD/USDT",
@@ -21,14 +21,13 @@
   },
   "market_context_snapshot": {
     "available": true,
-    "scanner_summary": "1086 assets scanned, 8 confirmed flips (0.7%). State distribution: Blue 62.6%, Gold 17.3%, Gray 12.5%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 8 flips). Source: reports/private_crypto_dashboard.csv.",
+    "scanner_summary": "1086 assets scanned, 8 confirmed flips (0.7%). State distribution: Blue 62.5%, Gold 17.7%, Gray 12.2%, Unknown 7.6%. Strongest transition: Blue → Gold (6 of 8 flips). Source: reports/private_crypto_dashboard.csv.",
     "possible_drivers": [
       "Locally observed scanner state distribution and flip activity (see scanner_summary).",
-      "Macro/rates-related coverage",
-      "General market-news coverage, reviewed for context only.",
-      "Security-incident-related coverage"
+      "Regulatory/legal-related coverage",
+      "General market-news coverage, reviewed for context only."
     ],
-    "context_generated_at": "2026-08-31T07:25:01.743065+00:00"
+    "context_generated_at": "2026-08-31T19:34:36.724238+00:00"
   },
   "coin_specific_headlines": [
     {
@@ -80,6 +79,6 @@
   "search_query_used": "MultiversX crypto",
   "reasoning_quality": "Medium",
   "reasoning_quality_note": "Relevant evidence found (5 direct but not fresh headline(s)), but no headline is both coin-specific and fresh. Treat this as supporting context, not confirmation.",
-  "neutral_explanation": "EGLDUSDT (EGLD/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 69 (tier A Good); market-cap rank 235. Scanner note: Valid confirmed trend flip — fresh signal. Broader crypto market context: 1086 assets scanned, 8 confirmed flips (0.7%). State distribution: Blue 62.6%, Gold 17.3%, Gray 12.5%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 8 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (5 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "neutral_explanation": "EGLDUSDT (EGLD/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 69 (tier A Good); market-cap rank 235. Scanner note: Valid confirmed trend flip — fresh signal. Broader crypto market context: 1086 assets scanned, 8 confirmed flips (0.7%). State distribution: Blue 62.5%, Gold 17.7%, Gray 12.2%, Unknown 7.6%. Strongest transition: Blue → Gold (6 of 8 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (5 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
   "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
 }

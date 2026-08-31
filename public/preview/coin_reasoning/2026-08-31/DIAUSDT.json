@@ -1,7 +1,7 @@
 {
   "symbol": "DIAUSDT",
   "date": "2026-08-31",
-  "generated_at": "2026-08-31T07:25:03.333795+00:00",
+  "generated_at": "2026-08-31T19:34:38.133417+00:00",
   "scanner_evidence": {
     "symbol": "DIAUSDT",
     "pair": "DIA/USDT",
@@ -21,14 +21,13 @@
   },
   "market_context_snapshot": {
     "available": true,
-    "scanner_summary": "1086 assets scanned, 8 confirmed flips (0.7%). State distribution: Blue 62.6%, Gold 17.3%, Gray 12.5%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 8 flips). Source: reports/private_crypto_dashboard.csv.",
+    "scanner_summary": "1086 assets scanned, 8 confirmed flips (0.7%). State distribution: Blue 62.5%, Gold 17.7%, Gray 12.2%, Unknown 7.6%. Strongest transition: Blue → Gold (6 of 8 flips). Source: reports/private_crypto_dashboard.csv.",
     "possible_drivers": [
       "Locally observed scanner state distribution and flip activity (see scanner_summary).",
-      "Macro/rates-related coverage",
-      "General market-news coverage, reviewed for context only.",
-      "Security-incident-related coverage"
+      "Regulatory/legal-related coverage",
+      "General market-news coverage, reviewed for context only."
     ],
-    "context_generated_at": "2026-08-31T07:25:01.743065+00:00"
+    "context_generated_at": "2026-08-31T19:34:36.724238+00:00"
   },
   "coin_specific_headlines": [
     {
@@ -50,19 +49,19 @@
       "default_visible": true
     },
     {
+      "title": "Crypto Industry Loses $3.63 Billion to 245 Security Incidents in 19 Months - Tekedia",
+      "source_name": "Tekedia",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMmVZTXFmMTRHVHVocG1CdDJFZnBlSUJza25JNG96bGNoU0gyYl82a3YyWkYzT2NUTnVrWGs3MkhZWnJkMFlETERQQ2tYZGRiNkQ3endwMlBFOF9LMGctQWJIamFTMmx1NGl5TFIycFRtUzA2ckFtWFhOOERSV2F1QWNockRYVTVld0RvRER3VlhpUW43aTZHYUY2VFF6S0k?oc=5",
+      "published_at": "Fri, 28 Aug 2026 12:52:19 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
       "title": "DIA Price Surges 40% Off Record Low: What's Behind It - CoinDCX",
       "source_name": "CoinDCX",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdy05c2lhZ0xEakVCQUpGbFVkaWxfX19HdUVTRXRUbHVOS213ZjYtTFZja3ZqTWpxRVVQN0NiSC1oX3hobWNzZnROM08xbU40MFNYell3ZjNpZFBmNmp6cnFTRnQwWTJMM1BpSTF2Y2lSMHNDYUFWbkJqeHFMaWRpZ2NNUUtXcXdrS0pMaEFXaXVfN1N2WGoyS1Y0czdTZw?oc=5",
       "published_at": "Mon, 27 Jul 2026 07:00:00 GMT",
-      "relevance": "direct",
-      "freshness": "Old",
-      "default_visible": true
-    },
-    {
-      "title": "Discover DIA Crypto: Powering Trustworthy Data for Web3's Future - Phemex",
-      "source_name": "Phemex",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE02M3RoQUhTUUE1b2VoNnR5bmtqNlRBRGxrdGlMTXY0Q25IejJpNzZlcmJPUV9ndjJRTHI4dlZuVzJXbmtNRXZPcTZqR3ByYUJSai1EN3Rnc3U?oc=5",
-      "published_at": "Sun, 26 Oct 2025 07:00:00 GMT",
       "relevance": "direct",
       "freshness": "Old",
       "default_visible": false
@@ -79,7 +78,7 @@
   ],
   "search_query_used": "DIA crypto",
   "reasoning_quality": "Strong",
-  "reasoning_quality_note": "2 direct, fresh coin-specific headline(s) found (named the coin/project and published today or within the last 7 days).",
-  "neutral_explanation": "DIAUSDT (DIA/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 52 (tier B Watch); market-cap rank 905. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 1086 assets scanned, 8 confirmed flips (0.7%). State distribution: Blue 62.6%, Gold 17.3%, Gray 12.5%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 8 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (5 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "reasoning_quality_note": "3 direct, fresh coin-specific headline(s) found (named the coin/project and published today or within the last 7 days).",
+  "neutral_explanation": "DIAUSDT (DIA/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 52 (tier B Watch); market-cap rank 905. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 1086 assets scanned, 8 confirmed flips (0.7%). State distribution: Blue 62.5%, Gold 17.7%, Gray 12.2%, Unknown 7.6%. Strongest transition: Blue → Gold (6 of 8 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (5 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
   "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
 }

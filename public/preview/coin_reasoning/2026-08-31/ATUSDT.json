@@ -1,7 +1,7 @@
 {
   "symbol": "ATUSDT",
   "date": "2026-08-31",
-  "generated_at": "2026-08-31T07:25:03.333795+00:00",
+  "generated_at": "2026-08-31T19:34:38.133417+00:00",
   "scanner_evidence": {
     "symbol": "ATUSDT",
     "pair": "AT/USDT",
@@ -21,14 +21,13 @@
   },
   "market_context_snapshot": {
     "available": true,
-    "scanner_summary": "1086 assets scanned, 8 confirmed flips (0.7%). State distribution: Blue 62.6%, Gold 17.3%, Gray 12.5%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 8 flips). Source: reports/private_crypto_dashboard.csv.",
+    "scanner_summary": "1086 assets scanned, 8 confirmed flips (0.7%). State distribution: Blue 62.5%, Gold 17.7%, Gray 12.2%, Unknown 7.6%. Strongest transition: Blue → Gold (6 of 8 flips). Source: reports/private_crypto_dashboard.csv.",
     "possible_drivers": [
       "Locally observed scanner state distribution and flip activity (see scanner_summary).",
-      "Macro/rates-related coverage",
-      "General market-news coverage, reviewed for context only.",
-      "Security-incident-related coverage"
+      "Regulatory/legal-related coverage",
+      "General market-news coverage, reviewed for context only."
     ],
-    "context_generated_at": "2026-08-31T07:25:01.743065+00:00"
+    "context_generated_at": "2026-08-31T19:34:36.724238+00:00"
   },
   "coin_specific_headlines": [
     {
@@ -59,8 +58,8 @@
       "default_visible": true
     },
     {
-      "title": "Binance Launches APRO (AT) With 20M Token Airdrop as AT Trading Goes Live Nov. 27 - CryptoNinjas",
-      "source_name": "CryptoNinjas",
+      "title": "Binance Launches APRO (AT) With 20M Token Airdrop as AT Trading Goes Live Nov. 27 - cryptoninjas.net",
+      "source_name": "cryptoninjas.net",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQcVhleklnSTI1UUVMLUd3SFMyb2VzbDNLd0xGRTZWdEtWRjVWVTVyRW1sWWY1c2EtZjhEeTQ1WkpkZFlMOTRrdmxiSnB2Z2NCUXQwS3JYYUVsZ2F6ZW9Gd1AxZ3hEZXNKSWpYSUN2UUdQRWxqWE9BVVdkRDZHVE51UG16WnRYdm5rNDJLZHd5bU01aUhHRWd0b3B6Tm8yRG1NaFJaTXl6OUxYOVBNQnJiaHlqd9IBuAFBVV95cUxQNGNuU3hmeUJER1Q1YXJIcDAtU2I0blZ3MmlLWjRqcHEyZ1FQOGtSWWtYaGNOUVhHVk9PNU9UY3dQNXNsSWdzS0JOa3VhWW1sX3J2OUZMZ2FvMlhpRjV4N2s0bjVPZDFxcmJlTVUyVENtY3ZVQ0gxZURmSVpXc0JwOGQ4T3ZlenhZMVVHQVotZktVOGhYN0NVZ2lRS1l1R3hsSnVGU3RQRXFvLURCb216RXlRTmx0Z1Jo?oc=5",
       "published_at": "Fri, 28 Nov 2025 08:00:00 GMT",
       "relevance": "direct",
@@ -80,6 +79,6 @@
   "search_query_used": "Apro crypto",
   "reasoning_quality": "Strong",
   "reasoning_quality_note": "1 direct, fresh coin-specific headline(s) found (named the coin/project and published today or within the last 7 days).",
-  "neutral_explanation": "ATUSDT (AT/USDT) recorded a confirmed state flip: Gold → Blue (Bearish). Scanner score 85 (tier A+ Strong); market-cap rank 628. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal, clean transition. Broader crypto market context: 1086 assets scanned, 8 confirmed flips (0.7%). State distribution: Blue 62.6%, Gold 17.3%, Gray 12.5%, Unknown 7.6%. Strongest transition: Blue → Gold (7 of 8 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (5 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "neutral_explanation": "ATUSDT (AT/USDT) recorded a confirmed state flip: Gold → Blue (Bearish). Scanner score 85 (tier A+ Strong); market-cap rank 628. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal, clean transition. Broader crypto market context: 1086 assets scanned, 8 confirmed flips (0.7%). State distribution: Blue 62.5%, Gold 17.7%, Gray 12.2%, Unknown 7.6%. Strongest transition: Blue → Gold (6 of 8 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (5 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
   "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
 }
