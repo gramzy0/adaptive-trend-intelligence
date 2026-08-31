@@ -1,7 +1,7 @@
 {
   "symbol": "ZENUSDT",
   "date": "2026-08-31",
-  "generated_at": "2026-08-31T19:34:38.133417+00:00",
+  "generated_at": "2026-08-31T20:22:39.385163+00:00",
   "scanner_evidence": {
     "symbol": "ZENUSDT",
     "pair": "ZEN/USDT",
@@ -27,12 +27,12 @@
       "Regulatory/legal-related coverage",
       "General market-news coverage, reviewed for context only."
     ],
-    "context_generated_at": "2026-08-31T19:34:36.724238+00:00"
+    "context_generated_at": "2026-08-31T20:22:37.949999+00:00"
   },
   "coin_specific_headlines": [
     {
-      "title": "Horizen Price Prediction: Is ZEN Coin a Good Investment? - StealthEX",
-      "source_name": "StealthEX",
+      "title": "Horizen Price Prediction: Is ZEN Coin a Good Investment? - stealthex.io",
+      "source_name": "stealthex.io",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSnhkRlQ0WFd1WVJ3eVQ4WXFjRjZFeUhIU0xwWDladHZjY3k5SzlkQjFreHExODZIa3JMQ1JFOTRud215Tnp0QnlOOXIzcnFLUl9scUt5TnYtbE5IcGxUa3o1SVJpd3Z1OUtoZUZZb3doNzktTjJMNGFEcHdqZm95RC1SeXNOWGIy?oc=5",
       "published_at": "Fri, 16 Jan 2026 08:00:00 GMT",
       "relevance": "direct",
