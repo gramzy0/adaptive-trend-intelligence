@@ -1,0 +1,86 @@
+{
+  "symbol": "ICPUSDT",
+  "date": "2026-09-01",
+  "generated_at": "2026-09-01T07:25:02.890115+00:00",
+  "scanner_evidence": {
+    "symbol": "ICPUSDT",
+    "pair": "ICP/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "52",
+    "score_tier": "B Watch",
+    "market_cap_rank": "60",
+    "gray_candles": "10",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "large-cap stability, top market cap, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=ICPUSDT",
+    "execution_time": "2026-09-01T06:37:01.480589+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1086 assets scanned, 8 confirmed flips (0.7%). State distribution: Blue 62.5%, Gold 17.7%, Gray 12.2%, Unknown 7.6%. Strongest transition: Blue → Gold (6 of 8 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only.",
+      "Macro/rates-related coverage",
+      "Security-incident-related coverage",
+      "ETF/regulatory-related coverage"
+    ],
+    "context_generated_at": "2026-09-01T07:25:01.409570+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "ICP Crypto Price Prediction: Can Internet Computer Return To $20? Rb Leipzig (wdBc4vFTzb) - Mshale",
+      "source_name": "Mshale",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9pX2NyclkwLXFhRUtBQlFzU3VuYWhyc2ZaQmdsWkotMXM0ZTNCMWphOE1tMXI1ejRSV2ZKa1pTdVI2eW5ONE9VLXNjeUkybG9MeTFSTFd3UUVFTVdxYk9JVw?oc=5",
+      "published_at": "Fri, 28 Aug 2026 10:22:31 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "Internet Computer (ICP) Surges 3.64% on Key Partnerships - CoinMarketCap",
+      "source_name": "CoinMarketCap",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1HUWpmVnZGM3FlUGNKVnpqQ2o1M2VsenhvTENfUEN5OTExdzNGdVRLMXhTRFM1YlBKWWdOaXdWZXJwdlo1aTRZQTA0OFg3aXduM1hNeGpIRXdDNkItdzJVQ2hWMkNqOEVZTDc4aUFnVGI?oc=5",
+      "published_at": "Sat, 29 Aug 2026 11:05:00 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "ICP Price Prediction 2026: Can Internet Computer Become Crypto’s Biggest AI Comeback Story? - Bitcoin Foundation",
+      "source_name": "Bitcoin Foundation",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5FVVNaU1V1RkhIYVlvU2dNSzIzWWxNWWp3WWROM0VPeG1NVERsSjVnV01NSHdtMlpvUHY0R1dzaHBOTXY3bU1mQnBxaXRXc05DLWJabmo4dmYzVWdsMG1CSWR0b19ZRk5LMGhST29KZ3VaQ3M?oc=5",
+      "published_at": "Fri, 19 Jun 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Why Nobody's Talking About Internet Computer (But They Should Be) - finance.yahoo.com",
+      "source_name": "finance.yahoo.com",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNYlJWZzF4V3NhYVQyVFlHSmtfRF9kekpfQlVxanV3d3l5Mm5RUmowalVPeDRpeW9yZ0VEUUJkcGZjSDd0alRRUHJ3VkN6NTJwOFVrUzFVME5BbUNUS0E2YW5pTjROTjZMTmZTalc3RmRuM09qVDVTczJSNkdUcWxUOFJNVkpVN1VaYlJ3?oc=5",
+      "published_at": "Tue, 03 Feb 2026 08:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    },
+    {
+      "title": "ICP Price Eyes Breakout as Internet Computer Becomes Crypto’s Most Used Blockchain - TradingView",
+      "source_name": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOYXQ1b3R1UHRiRWdTelluVTlEZUZHQWZKUjN6bXlqWnZueS1HQ0JQbHFnM0x0VG1VVjZ0UFhoMF9HLUJTTXNjSDNJZUlhN3U4WUtHNmM3bWZla0VaYW9jNGU5ZVRSU3dxRFFLaXhJUjVFSFdHRFpLTWxkblFldDF2RUtsT2JoYlljU1pPZ2dncWhrdEcxckNVYmYyX2xwOXRNYS05MmFnd3pDSl9ZUTFaVzdXVWpmQllPNmhTVWRyV3QwYzkyVnkwMjBVQlFzV1NBQlFSbEpad213Zw?oc=5",
+      "published_at": "Tue, 02 Jun 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "Internet Computer crypto",
+  "reasoning_quality": "Strong",
+  "reasoning_quality_note": "2 direct, fresh coin-specific headline(s) found (named the coin/project and published today or within the last 7 days).",
+  "neutral_explanation": "ICPUSDT (ICP/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 52 (tier B Watch); market-cap rank 60. Scanner note: Valid confirmed trend flip — large-cap stability, top market cap, fresh signal. Broader crypto market context: 1086 assets scanned, 8 confirmed flips (0.7%). State distribution: Blue 62.5%, Gold 17.7%, Gray 12.2%, Unknown 7.6%. Strongest transition: Blue → Gold (6 of 8 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (5 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

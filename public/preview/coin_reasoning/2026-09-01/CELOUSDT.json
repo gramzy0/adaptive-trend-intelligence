@@ -1,0 +1,86 @@
+{
+  "symbol": "CELOUSDT",
+  "date": "2026-09-01",
+  "generated_at": "2026-09-01T07:25:02.890115+00:00",
+  "scanner_evidence": {
+    "symbol": "CELOUSDT",
+    "pair": "CELO/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "74",
+    "score_tier": "A Good",
+    "market_cap_rank": "490",
+    "gray_candles": "7",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "small-cap potential, small-cap high risk, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=CELOUSDT",
+    "execution_time": "2026-09-01T06:37:01.480589+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1086 assets scanned, 8 confirmed flips (0.7%). State distribution: Blue 62.5%, Gold 17.7%, Gray 12.2%, Unknown 7.6%. Strongest transition: Blue → Gold (6 of 8 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only.",
+      "Macro/rates-related coverage",
+      "Security-incident-related coverage",
+      "ETF/regulatory-related coverage"
+    ],
+    "context_generated_at": "2026-09-01T07:25:01.409570+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Celo (CELO) Price Prediction 2026, 2027-2030: Is Now the Best Time to Accumulate CELO? - Coinpedia",
+      "source_name": "Coinpedia",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE54M3BPeUx4djMwYTg0MmgxYmo2RGpFU2tlM3M5OGVnakNCNTB4QzhGUzJOd2hkUXgweGJNMUZNZEFZa0tEd2JPUjhJejVXMFJHbUVZNzJJT1BIejhndGRXRXVXS0hEdXpJdm1RUU1R0gFzQVVfeXFMTWszbUVVdFp1SlJLZzBQdWdYYmJRUUJaeWRCaHFMYkRtZmxPREp6c183azdNT25wNnFWenJWRXY2SjRwVk1BXzZPTEt6cXNuOXA3SUV1b2VlSTFvQzB3Z1VNcGE2SUUyeEJyaXhYeEF4c3NoSQ?oc=5",
+      "published_at": "Thu, 27 Aug 2026 06:39:00 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "Price of Celo (CELO) today in EUR – Quote and market trends - Bit2Me",
+      "source_name": "Bit2Me",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBiV2NXbVpSazdMaEJWZWEwWnE2VVVPXzlFakN1cjBDUXh3dXpubFRKV0hrRlJhN19hclExVTVjYW8wWExqWWJZ?oc=5",
+      "published_at": "Thu, 23 Jul 2026 19:27:10 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Opera Bids for 160M CELO Tokens To Replace Cash Payments - CoinMarketCap",
+      "source_name": "CoinMarketCap",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOOXNSQWNrc3V5dDQxZVFVY1hXb0FzQTVHei1wVjJndkhWRW1MYnBjbXctUzlxWUlpR3YwU25CMWtqSkpyNkNrN29NNWl2UFhuVk01ZU91bE1iRHJ3cnV0RHdubUtpeFZ0ZHRkSkxyYUJwTllDMmhFR2N1S3RRNlhVREJqSXIwRWluMTQwdXlYc0VTUGJJYWU3QzBDa0xWZWc?oc=5",
+      "published_at": "Sat, 22 Aug 2026 12:49:18 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Celo Upgraded Mainnet to Op-Reth - TradingView",
+      "source_name": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQVm1jV2hLSWFxc0F0LVpwUkhER1ZRQkk3U1NRUzc4ckxqOEdLWUMycTA0Y3JTNk1IN2RpTUZKQl9fUkNDZllKcW5DSHZxdVhtRDh6NXZxSk1HZHd2SlVHaG9qQlhPV2ZUMU1BMFl1UzExOEx3WkRYQms0YVlSajZQSy00UnhkU080UDJlakVnRWtoRS0z?oc=5",
+      "published_at": "Wed, 22 Jul 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    },
+    {
+      "title": "Celo Goes Live on Bridge, Bringing One of Crypto's Most Active Stablecoin Networks to the Stripe-Owned Platform - FF News",
+      "source_name": "FF News",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQRHNlbVRXV1J5a2Z0cHlFOUhNbFl1Y2N0SE1YQXJUcjZJOXdBVmNkcXZFU1o3NTN5bEJMcUZYQlhIUXd0N3l4REJwdS1QX2NXOUJjX202OU01cnB2OUdUVDF3cEI0RzBHelpQaDc4OGxmYl9FengydVBhRk1wTDNBSXR5RG80YUU4ekxKbWZETDBfRG80T2RRVEJ1cnpPcWFYLUptV0E3NmZMNzhxMmJyY3ktejU5QkZaM1dyN1cyenZ4eWh2VWs5VHJRbEhiTjdZUElCaGhWZw?oc=5",
+      "published_at": "Wed, 06 May 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "Celo crypto",
+  "reasoning_quality": "Strong",
+  "reasoning_quality_note": "1 direct, fresh coin-specific headline(s) found (named the coin/project and published today or within the last 7 days).",
+  "neutral_explanation": "CELOUSDT (CELO/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 74 (tier A Good); market-cap rank 490. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 1086 assets scanned, 8 confirmed flips (0.7%). State distribution: Blue 62.5%, Gold 17.7%, Gray 12.2%, Unknown 7.6%. Strongest transition: Blue → Gold (6 of 8 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (5 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

@@ -1,46 +1,45 @@
 {
   "market": "commodities",
-  "generated_at": "2026-08-31T20:22:37.949999+00:00",
+  "generated_at": "2026-09-01T07:25:01.409570+00:00",
   "scanner_summary": "No commodity scanner data available in data/output; no asset count, flip count, or state distribution can be computed locally.",
   "possible_drivers": [
-    "General market-news coverage, reviewed for context only.",
-    "Supply-related coverage"
+    "General market-news coverage, reviewed for context only."
   ],
   "uncertainty_note": "Automatically collected from public RSS headlines and local scanner output. Headlines are cited, not verified for accuracy or causal connection to price movement. This is not investment advice and does not contain buy, sell, hold, or execution guidance. Human review is required before treating anything here as reliable market context.",
   "sources": [
     {
-      "title": "Norway Wants Europe’s Energy Market, Without Sharing Its Trade-Offs",
+      "title": "U.S. Oil Deal Pushes China and Russia Out of Venezuelan Fields",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Energy/Energy-General/Norway-Wants-Europes-Energy-Market-Without-Sharing-Its-Trade-Offs.html",
-      "published_at": "Mon, 31 Aug 2026 15:00:00 -0500",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Oil-Deal-Pushes-China-and-Russia-Out-of-Venezuelan-Fields.html",
+      "published_at": "Tue, 01 Sep 2026 01:45:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Chevron, ONGC and GE Vernova Near Final Venezuela Energy Deals",
+      "title": "Oil Prices Climb as Trump Threatens New Strikes on Iran",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Chevron-ONGC-and-GE-Vernova-Near-Final-Venezuela-Energy-Deals.html",
-      "published_at": "Mon, 31 Aug 2026 14:30:00 -0500",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Climb-as-Trump-Threatens-New-Strikes-on-Iran.html",
+      "published_at": "Tue, 01 Sep 2026 00:30:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Trump’s “Historic Deal” With Venezuela Isn’t Fooling Oil Traders",
+      "title": "New Tech Breakthrough Aims To Solve The World's Plastic Waste Problem",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Energy/Crude-Oil/Trumps-Historic-Deal-With-Venezuela-Isnt-Fooling-Oil-Traders.html",
-      "published_at": "Mon, 31 Aug 2026 14:00:00 -0500",
+      "url": "https://oilprice.com/Energy/Energy-General/New-Tech-Breakthrough-Aims-To-Solve-The-Worlds-Plastic-Waste-Problem.html",
+      "published_at": "Mon, 31 Aug 2026 19:00:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "BP Adds 80 MMcf/d to Egypt’s Gas Supply Two Years Ahead of Schedule",
+      "title": "Why More Venezuelan Oil Won’t Solve America’s Gasoline Problem",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/BP-Adds-80-MMcfd-to-Egypts-Gas-Supply-Two-Years-Ahead-of-Schedule.html",
-      "published_at": "Mon, 31 Aug 2026 13:30:00 -0500",
-      "note": "Supply-related coverage"
+      "url": "https://oilprice.com/Energy/Energy-General/Why-More-Venezuelan-Oil-Wont-Solve-Americas-Gasoline-Problem.html",
+      "published_at": "Mon, 31 Aug 2026 18:00:00 -0500",
+      "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Russian Oil Is No Longer India’s Easy Bargain",
+      "title": "Iran War Triggers Billions in New Oil Pipeline and Port Investment",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Energy/Crude-Oil/Russian-Oil-Is-No-Longer-Indias-Easy-Bargain.html",
-      "published_at": "Mon, 31 Aug 2026 13:00:00 -0500",
+      "url": "https://oilprice.com/Energy/Energy-General/Iran-War-Triggers-Billions-in-New-Oil-Pipeline-and-Port-Investment.html",
+      "published_at": "Mon, 31 Aug 2026 16:00:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {

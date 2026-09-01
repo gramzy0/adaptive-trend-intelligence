@@ -1,0 +1,86 @@
+{
+  "symbol": "NOTUSDT",
+  "date": "2026-09-01",
+  "generated_at": "2026-09-01T07:25:02.890115+00:00",
+  "scanner_evidence": {
+    "symbol": "NOTUSDT",
+    "pair": "NOT/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "62",
+    "score_tier": "B Watch",
+    "market_cap_rank": "449",
+    "gray_candles": "10",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "small-cap potential, small-cap high risk, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=NOTUSDT",
+    "execution_time": "2026-09-01T06:37:01.480589+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1086 assets scanned, 8 confirmed flips (0.7%). State distribution: Blue 62.5%, Gold 17.7%, Gray 12.2%, Unknown 7.6%. Strongest transition: Blue → Gold (6 of 8 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only.",
+      "Macro/rates-related coverage",
+      "Security-incident-related coverage",
+      "ETF/regulatory-related coverage"
+    ],
+    "context_generated_at": "2026-09-01T07:25:01.409570+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Bitcoin ‘Kimchi Premium’ Is Back as South Korean Market Stirs - bloomberg.com",
+      "source_name": "bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQjF4SlBLeXp1aFpCRGZQa201V1ByQV9FTE1OdDN6ZHZpTjdQSmMwNG93bFd6Y3pvdGJ3bHlyRVdZQ09OQm53WndsQVhCOUx6RVN0WFNmWWRDSFF2TzJaRWsxR2JYenhEZDV1Vi1mVzlfTXNjUEV3WGdzZmFvb0Zjb1VMYThaM2VOWUlNVXFWeTBySE5hdldDVkZuQWZqRXgzTGNOQUE4Nkg0RGp1dlcw?oc=5",
+      "published_at": "Tue, 01 Sep 2026 06:03:00 GMT",
+      "relevance": "market_context",
+      "freshness": "Today",
+      "default_visible": true
+    },
+    {
+      "title": "Bitcoin steady above $78,000, HYPE leads as majors slip on hawkish Fed bets - CoinDesk",
+      "source_name": "CoinDesk",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOTUpRaWRYLW5xR3drSl90QkUxcmVxTkVxN09PWWhaMGlpWDV6ODQ4Qzg2WDJkb3Y4Nmc3OEFxeHFaVTBNc1pIVUVHbndQdDMwRHJldldJUEI1VXNMWnlva2gwNE1uQVlGaWYxN3VvSnVrS0pUYjdSejVyZjlsZ1NMS2I3Q2taVWkxelQyVlAyYzFfT0hseF9QYVh5Nm9VVm1DNG1XSUZ0VU1zWnNZeWtGdlBHWFRLWmVxZzlYZA?oc=5",
+      "published_at": "Tue, 01 Sep 2026 04:30:28 GMT",
+      "relevance": "market_context",
+      "freshness": "Today",
+      "default_visible": true
+    },
+    {
+      "title": "Will Bitcoin remain resilient at $78,000 as capital rotates to altcoins? - FXStreet",
+      "source_name": "FXStreet",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQZHBURkRQdWJPbnZPNko1emdMaFV2bmdSWVhYYTJWdnZfMXZCLTI1YjBpZ3JmUFFHNUtBdnhXU1hXa1VzczUya3JoZ3ZKMDJjTnBCVGoxWjNVU0E1Tm9PSWEwUWNWZ2ZWTWdrVXpheU5ydWRvZjJmT1UybmdKcnJCUWZRNmJNaS1hNGlwRTZoeGVWVXJRYlVZTVl5Qm9qWnVIblNVQ3N6cVVsaHlNV2Z6Y2l1TUVGakJmXzRCb2RNOUFtWEtJbmdqM1JHcnNkOEZO?oc=5",
+      "published_at": "Tue, 01 Sep 2026 02:46:11 GMT",
+      "relevance": "market_context",
+      "freshness": "Today",
+      "default_visible": true
+    },
+    {
+      "title": "Bitcoin and ethereum prices today, Monday, August 31, 2026: Higher rate expectations pressure crypto prices lower - finance.yahoo.com",
+      "source_name": "finance.yahoo.com",
+      "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxPNmlXdWc5dHJxNW9BejBkbHhVZ0xqLWQwWVA0Zk4weThwd29OZDZ3U0tSUjZrUzhvaHdlR0FjN2xadDlhX2dPVGY0U29GUXRmczAzOU5DZ1poWWdlRXFRZ1NXVURmR2lPUjhHajdBRkNsSFlVYkZCdF90VlFqWlJEdUQ0TzBUbmVudC1tdXkyb3FhbGw1YzJiUEZIOFp4eUVXMmc0YjhxVXVtd2pFV19SckhZUUhNcXhvMjVycVlNaHdwLXgyM1R5Y1JVS0E1dXhHTVhEX0VyZk5uM2JPdmpMLTN1bDBUaDFTeExsMlQ4Yy1JU2JPa0otYnhrdzZON045allqVHd2YkJ6VFdOZXFNNDNiSQ?oc=5",
+      "published_at": "Mon, 31 Aug 2026 13:22:22 GMT",
+      "relevance": "market_context",
+      "freshness": "Recent",
+      "default_visible": false
+    },
+    {
+      "title": "Strategy splits $603 million share sale between Bitcoin purchases and STRC support - CryptoSlate",
+      "source_name": "CryptoSlate",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdUVtMDVTWnZubXhhb3hyRnIyT2ZqdFpaNV9pRHk3cGdOYUR0OXNqdmlJZFpPUXVUNW1qb1ktWkVmRkh2ZU1JQWRIWHJ3RFZpa200dnY2S2d5WnlOemhoT0lJaER2UHZhWEJ5bTJPR2RKQlROMFJHS3ZFVDQ3bWFXenRyeDhYOG1OWE9PdFd1ejdhemR5WGQxMHU4TE00NEhzMkQ3V25mVjZIZw?oc=5",
+      "published_at": "Mon, 31 Aug 2026 23:20:42 GMT",
+      "relevance": "market_context",
+      "freshness": "Recent",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "Notcoin crypto",
+  "reasoning_quality": "Medium",
+  "reasoning_quality_note": "Relevant evidence found (5 sector/market-wide headline(s)), but no headline is both coin-specific and fresh. Treat this as supporting context, not confirmation.",
+  "neutral_explanation": "NOTUSDT (NOT/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 62 (tier B Watch); market-cap rank 449. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 1086 assets scanned, 8 confirmed flips (0.7%). State distribution: Blue 62.5%, Gold 17.7%, Gray 12.2%, Unknown 7.6%. Strongest transition: Blue → Gold (6 of 8 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (0 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

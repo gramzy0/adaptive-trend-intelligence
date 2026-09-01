@@ -1,0 +1,86 @@
+{
+  "symbol": "GBPUSDT",
+  "date": "2026-09-01",
+  "generated_at": "2026-09-01T07:25:02.890115+00:00",
+  "scanner_evidence": {
+    "symbol": "GBPUSDT",
+    "pair": "GBP/USDT",
+    "current_state": "Blue",
+    "previous_state": "Gold",
+    "flip_direction": "Gold → Blue (Bearish)",
+    "score": "52",
+    "score_tier": "B Watch",
+    "market_cap_rank": null,
+    "gray_candles": "4",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "fresh signal",
+    "signal": "Confirmed Gold → Gray → Blue → Blue",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=GBPUSDT",
+    "execution_time": "2026-09-01T06:37:01.480589+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1086 assets scanned, 8 confirmed flips (0.7%). State distribution: Blue 62.5%, Gold 17.7%, Gray 12.2%, Unknown 7.6%. Strongest transition: Blue → Gold (6 of 8 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only.",
+      "Macro/rates-related coverage",
+      "Security-incident-related coverage",
+      "ETF/regulatory-related coverage"
+    ],
+    "context_generated_at": "2026-09-01T07:25:01.409570+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "BTC to GBP: Bitcoin Price in British Pound Sterling - CoinGecko",
+      "source_name": "CoinGecko",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5wYTZ5MWJSZUxGenlkSzlTYlRQTjUxSi1ESzlKbXh4U3FwZG5FNHBTZW9NMjNoXzZiY19IWE1oX25MVDBITmRWZkQ2Q2RQMm9SQUJmcnUxUEZOQQ?oc=5",
+      "published_at": "Mon, 31 Aug 2026 22:04:45 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "FNB/GBP Price: Convert FNB Protocol to British Pound - Crypto.com",
+      "source_name": "Crypto.com",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBZRTJ1ZFhCZThJY1liMDBCQ1dlMGwwdURFNUN2MzByZ1VQNVhKSXh4b250bWxQd2dvMlNwSklGOFhNV1o4LXY5c2NmODZuLUczV3puYXhtQQ?oc=5",
+      "published_at": "Mon, 31 Aug 2026 09:52:49 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "UK CFTC GBP Net Positions Improve to -£44.5K as Speculative Pressure Eases - CryptoRank",
+      "source_name": "CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBUWXVpNDZ1Yi1RcHl5NHlHLWV3bmNyN3p6MXNfbmRocHFRXzQ3MWpmMHAtTVpYajVSR2hRanZJZERoNzhaZGxmbVBWYTZSYkRJOWdoSnphWDRCM3dtZ0xzY3BHa0dpbVRxTkxYV3BGcjd6Ml9KVTl6RWVPT2FWdw?oc=5",
+      "published_at": "Sat, 29 Aug 2026 06:33:16 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "Revolut to test stablecoin in UK trial - Reuters",
+      "source_name": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNTmMxdW8wd2tpU3MxMU1CV0N2RGZjam5lVUc3TllCNE9pN1AwN1lULVF6Q09URWUzbmxmYmtCTmN4QXVKTHk0VnNDNlVBX1BZQW5EYlNnRnBmYjFxczFOQ2c4c0s0d21EUHBNUHlHRF96QXFYZENDeUgzaTdQTWg5X0xzRENZajlBbzF0Xzdvam1xUzFXckFqdHg5YzVidjN0RGtqTTFPU2l3UmFM?oc=5",
+      "published_at": "Thu, 26 Feb 2026 08:00:00 GMT",
+      "relevance": "market_context",
+      "freshness": "Old",
+      "default_visible": false
+    },
+    {
+      "title": "DXY, GBP/USD, USD/CAD, USD/JPY, Oil, Bitcoin Weekly Technical Outlook - FOREX.com",
+      "source_name": "FOREX.com",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPdGhtRmlOMTZ6d2dhQ3RTeXBrZFVfRktIRzFqbjJTVjE2a2FBekVaNllWM2hNYWZ0SHFQQ055OFB3MnpBNkc1Q2dvN2ZIbDc3Yk96WFQ1TlFFdmp5dDRWLWNKVWpFZjlSWUZxWlZ0aTAzTElIRWdZUEtFb09JYzVpcS12Z0NibWJDUmt5cjVNWWwyV29LVGVWT2ZnR2RqbFdyM2tLSndkWHZGOHhOdGRiNVZkYXVhS2FzaGdyRUVn0gHKAUFVX3lxTE5za19sbThxN0JuQTd5TVhRRjk5eFo3dEptMlBhSG93dURpaWNoRnk4VkFFaWRXbXpNcU1tZ0hKUDd5ekI0TEd3NGEtblJuUGtod09obEJ4OUlHQmtiS2xzUG5lNmJ3Ul9uWlpHaER2dlR2X3g4NFh3VTdQZzRZYk1xT1R3NnplR2xwbnZNcU10b1NKcjl0Ukppb1Z2cXM2b1VQcUxVTTRpZUdCb1FoUnFKTzN0Y0hVeHFMT1V1NlFVa3huYUN4UTJMYVE?oc=5",
+      "published_at": "Mon, 29 Jun 2026 07:00:00 GMT",
+      "relevance": "unrelated",
+      "freshness": "Old",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "GBP crypto",
+  "reasoning_quality": "Strong",
+  "reasoning_quality_note": "3 direct, fresh coin-specific headline(s) found (named the coin/project and published today or within the last 7 days).",
+  "neutral_explanation": "GBPUSDT (GBP/USDT) recorded a confirmed state flip: Gold → Blue (Bearish). Scanner score 52 (tier B Watch); market-cap rank not available. Scanner note: Valid confirmed trend flip — fresh signal. Broader crypto market context: 1086 assets scanned, 8 confirmed flips (0.7%). State distribution: Blue 62.5%, Gold 17.7%, Gray 12.2%, Unknown 7.6%. Strongest transition: Blue → Gold (6 of 8 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (3 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}
