@@ -1,0 +1,83 @@
+{
+  "symbol": "ZRXUSDT",
+  "date": "2026-09-02",
+  "generated_at": "2026-09-02T07:25:03.686673+00:00",
+  "scanner_evidence": {
+    "symbol": "ZRXUSDT",
+    "pair": "ZRX/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "62",
+    "score_tier": "B Watch",
+    "market_cap_rank": "309",
+    "gray_candles": "8",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "small-cap potential, small-cap high risk, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=ZRXUSDT",
+    "execution_time": "2026-09-02T06:37:03.325662+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1086 assets scanned, 4 confirmed flips (0.4%). State distribution: Blue 61.8%, Gold 18.1%, Gray 12.5%, Unknown 7.6%. Strongest transition: Blue → Gold (3 of 4 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only."
+    ],
+    "context_generated_at": "2026-09-02T07:25:02.010069+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "0x Protocol (ZRX) Price Prediction 2026 2027 2028 - 2040 - Changelly",
+      "source_name": "Changelly",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE93NTk2QmJhRi1nX2w0SEd0cUxLNFdPb3lrQXFoeXBzMTB0d0NITFlKbW9iM1NGLXRLZ0hHLXA5UGY3MExuUmVrTWtpVlRkYV9ITFNiaWJ4OWdoYUhXYW0zcHZ3cXc2YlpPR3U5Qg?oc=5",
+      "published_at": "Fri, 05 Dec 2025 10:02:09 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "What is ZRX (0x)? - okx.com",
+      "source_name": "okx.com",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1zZ1RhUFNlNjktZFhxbXZfOVY5SWQtNng3cEpZNEdORDNBS1pmaHQwS0NwNVd0cllQeXJGNGdoX2hyZnNwT1J5ejRhbTRFRHhqR3VCdkRxLUxPUQ?oc=5",
+      "published_at": "Thu, 25 Dec 2025 08:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "0x Protocol (ZRX) Price Prediction 2026, 2027 and 2030: Can ZRX See a Price Hike? - Bitget",
+      "source_name": "Bitget",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1RaVBQTThKN1RJZGhYQ1BESnlKVGVaNlVzZEl1NHhVc2ZRU3NFNC1ONkNrQWxpOE8yR2JtNzd4dTRLS0lOTUZINU9HRlhtamh3cEVMMVRrYmExWjZKSGfSAWNBVV95cUxPdlU0RnVuZXk1RV83cmhsWV93OUFodTN0MUdFQ1QzdHplNjhWc3p6UFNYczBVanA4QnY0VHdxRHFXNjNTLWprNDlSNnJkU0pPa3ZqVmhTRVhBSVExQ2RTSG9TZWM?oc=5",
+      "published_at": "Tue, 07 Apr 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "0x Price Prediction 2026-2030: Will ZRX Price Moon-Shot By 2X? - Coinpedia",
+      "source_name": "Coinpedia",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1GUmczSGJtV3lUdXBLNFFXQm9ZdTd3R3hVa21hXzBkQXNoTU9LTEVWY3o2MmNaOC00YlNlOFM2TFp4Zm05N0dNTjRhY3kxbW5jRzMwb2lfekNiNDJjSkdrTHZBbHU2R1lTM09oSkVSeUjSAXZBVV95cUxQc3JNYWFYNjhhZlB2eHZKMWM2REUwZGZCdU0tenNWUzY1c1JES19jeV9QQWZuLVlvRF85M0h0cU1yam5SS3BiY3ZJYU1McC1MaU1YbGYxNEU2bjlyWUljQ2xkUm1wTXo1NERPRjhVRE1PVXlGNWVR?oc=5",
+      "published_at": "Thu, 13 Aug 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    },
+    {
+      "title": "What is 0x? - The Motley Fool",
+      "source_name": "The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5ROFVRSUh0MHdkbE1yV2U2LXRBQVB6Ri15a0UwdFNzY2FSN3VXRV96azhyUndJS0R3UGJMcjNMQ3NRWWNTOE14Z1p3?oc=5",
+      "published_at": "Wed, 29 Apr 2026 07:00:00 GMT",
+      "relevance": "unrelated",
+      "freshness": "Old",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "0x Protocol crypto",
+  "reasoning_quality": "Medium",
+  "reasoning_quality_note": "Relevant evidence found (4 direct but not fresh headline(s)), but no headline is both coin-specific and fresh. Treat this as supporting context, not confirmation.",
+  "neutral_explanation": "ZRXUSDT (ZRX/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 62 (tier B Watch); market-cap rank 309. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 1086 assets scanned, 4 confirmed flips (0.4%). State distribution: Blue 61.8%, Gold 18.1%, Gray 12.5%, Unknown 7.6%. Strongest transition: Blue → Gold (3 of 4 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (4 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

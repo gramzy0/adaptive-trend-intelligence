@@ -1,0 +1,83 @@
+{
+  "symbol": "AUSDT",
+  "date": "2026-09-02",
+  "generated_at": "2026-09-02T07:25:03.686673+00:00",
+  "scanner_evidence": {
+    "symbol": "AUSDT",
+    "pair": "A/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "57",
+    "score_tier": "B Watch",
+    "market_cap_rank": "230",
+    "gray_candles": "8",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=AUSDT",
+    "execution_time": "2026-09-02T06:37:03.325662+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1086 assets scanned, 4 confirmed flips (0.4%). State distribution: Blue 61.8%, Gold 18.1%, Gray 12.5%, Unknown 7.6%. Strongest transition: Blue → Gold (3 of 4 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only."
+    ],
+    "context_generated_at": "2026-09-02T07:25:02.010069+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Death Toll Rings For EOS Crypto, Enter Age of VAULTA: Coinbase Set To Delist EOS? - Yahoo Finance",
+      "source_name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1xVmlfZ3gzWVRRNGxyWlZuYV9BSFM0dmdrREpXUElBQ3ZQQ0sweHNxLUtnWDdqeExKMmgzV1gxOUc4RzA1WVpIcEtsdWlaRDhmX05OeTZIVFlneXRwV1NMTFJETlRIY2hxeG9rd0k5ajV0a2pIQWFUdVAwWjI2QQ?oc=5",
+      "published_at": "Wed, 12 Nov 2025 08:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Price of Vaulta (A) today in EUR – Quote and market trends - Bit2Me",
+      "source_name": "Bit2Me",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBkSzVhcFNaUFNJM0d2cU9aTWYxeUQtV09mc2tmS3RaWG5GdXZrS0RlUjFBZnlTMGRaLUl5aTd5ZWgyc0Q4RTFWTzhn?oc=5",
+      "published_at": "Sat, 25 Jul 2026 05:14:11 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Announcing Bitcoin Vault: earning on Bitcoin is now easy - Kraken Blog",
+      "source_name": "Kraken Blog",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1PQkRBTEE4NjNEUmFoMDBmVlpMYXlsM3ZPczhLQVppaTIxRmpSS2tWSjVjcF9UWFJfZklHY0lONGt6YjZUN2xNdV9PQTdKNkFVLTlMVlVvTzh0ZWc3Tm9HOGpNTlkyc1JaMmtvSVBxLXlUSzJNcnZySXVUYw?oc=5",
+      "published_at": "Wed, 27 May 2026 07:00:00 GMT",
+      "relevance": "market_context",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Kraken Launches Bitcoin Vault, Offering Yield On BTC Holdings - Bitcoin Magazine",
+      "source_name": "Bitcoin Magazine",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBwTmdpZDY1YlI0VVU4MkpKYTNHOUhTR0ZscHQxMFVwS1k1ZEJtVVRWUjZVcXdRWnlta0Q2RVdmZldBd3VCZkNNdVVFZ3pseUM1cU5DRUtDR0VMTU53UEtFMWxUMkQ3SktRbGQycWczUUhtQ01vTVcw?oc=5",
+      "published_at": "Wed, 27 May 2026 15:32:57 GMT",
+      "relevance": "market_context",
+      "freshness": "Old",
+      "default_visible": false
+    },
+    {
+      "title": "Vaulta (EOS) Forecast: AUSD (EOSUSD) Price Prediction for 2026, 2027, 2028–2030 and Beyond - LiteFinance",
+      "source_name": "LiteFinance",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQdE1NZHRZWElZd0o4SzV0SGtvSWNteXNfcFFHUnZSa2Z2WXp0cXFXbkJvLUthUmZDb01qb0RXY0tiRVo0UEtMQzg5cUtjU2lkVzR1aHZxX0JoNDBDTU1QZ0RWT3Q0eVVOY0MxS3h6RUlwbmI0bHZGRi1EMXVLQU1Kd3B6VQ?oc=5",
+      "published_at": "Mon, 09 Mar 2026 07:00:00 GMT",
+      "relevance": "unrelated",
+      "freshness": "Old",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "Vaulta crypto",
+  "reasoning_quality": "Medium",
+  "reasoning_quality_note": "Relevant evidence found (2 direct but not fresh, 2 sector/market-wide headline(s)), but no headline is both coin-specific and fresh. Treat this as supporting context, not confirmation.",
+  "neutral_explanation": "AUSDT (A/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 57 (tier B Watch); market-cap rank 230. Scanner note: Valid confirmed trend flip — fresh signal. Broader crypto market context: 1086 assets scanned, 4 confirmed flips (0.4%). State distribution: Blue 61.8%, Gold 18.1%, Gray 12.5%, Unknown 7.6%. Strongest transition: Blue → Gold (3 of 4 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (2 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

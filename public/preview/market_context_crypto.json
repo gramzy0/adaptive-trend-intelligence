@@ -1,64 +1,61 @@
 {
   "market": "crypto",
-  "generated_at": "2026-09-01T07:25:01.409570+00:00",
-  "scanner_summary": "1086 assets scanned, 8 confirmed flips (0.7%). State distribution: Blue 62.5%, Gold 17.7%, Gray 12.2%, Unknown 7.6%. Strongest transition: Blue → Gold (6 of 8 flips). Source: reports/private_crypto_dashboard.csv.",
+  "generated_at": "2026-09-02T07:25:02.010069+00:00",
+  "scanner_summary": "1086 assets scanned, 4 confirmed flips (0.4%). State distribution: Blue 61.8%, Gold 18.1%, Gray 12.5%, Unknown 7.6%. Strongest transition: Blue → Gold (3 of 4 flips). Source: reports/private_crypto_dashboard.csv.",
   "possible_drivers": [
     "Locally observed scanner state distribution and flip activity (see scanner_summary).",
-    "General market-news coverage, reviewed for context only.",
-    "Macro/rates-related coverage",
-    "Security-incident-related coverage",
-    "ETF/regulatory-related coverage"
+    "General market-news coverage, reviewed for context only."
   ],
   "uncertainty_note": "Automatically collected from public RSS headlines and local scanner output. Headlines are cited, not verified for accuracy or causal connection to price movement. This is not investment advice and does not contain buy, sell, hold, or execution guidance. Human review is required before treating anything here as reliable market context.",
   "sources": [
     {
-      "title": "OpenAI’s ‘Trust Us’ TIME cover raises an old warning for AI bulls",
+      "title": "XRP ETFs pull in $170 million over eleven days. Goldman tops institutional holders",
       "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/09/01/time-is-putting-openai-s-founders-on-its-cover-paul-montgomery-s-contrary-indicator-says-hello",
-      "published_at": "Tue, 01 Sep 2026 06:52:10 +0000",
+      "url": "https://www.coindesk.com/markets/2026/09/02/xrp-etfs-pull-in-usd160-million-over-nine-days-as-goldman-tops-institutional-holders",
+      "published_at": "Wed, 02 Sep 2026 07:20:03 +0000",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Bitcoin steady above $78,000, HYPE leads as majors slip on hawkish Fed bets",
+      "title": "A China indicator that greases risk-taking in stocks and bitcoin is flashing red",
       "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/09/01/bitcoin-steady-above-usd78-000-hype-leads-as-majors-slip-on-hawkish-fed-bets",
-      "published_at": "Tue, 01 Sep 2026 04:30:28 +0000",
-      "note": "Macro/rates-related coverage"
-    },
-    {
-      "title": "Trump Jr's firm leads $1 billion Polymarket raise at $21 billion value: Report",
-      "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/09/01/trump-jr-s-firm-leads-usd1-billion-polymarket-raise-at-usd21-billion-value-report",
-      "published_at": "Tue, 01 Sep 2026 04:19:54 +0000",
+      "url": "https://www.coindesk.com/markets/2026/09/02/a-china-indicator-that-greases-risk-taking-in-stocks-and-bitcoin-is-flashing-red",
+      "published_at": "Wed, 02 Sep 2026 06:53:22 +0000",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "CME’s share of XRP futures jumps as token rallies 40% in a week",
+      "title": "OpenAI says its new 'Astra' AI can build attacks without human help",
       "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/09/01/xrp-futures-are-shifting-toward-cme-as-institutional-participation-grows",
-      "published_at": "Tue, 01 Sep 2026 03:49:39 +0000",
+      "url": "https://www.coindesk.com/tech/2026/09/02/openai-says-its-new-astra-ai-can-build-attacks-without-human-help",
+      "published_at": "Wed, 02 Sep 2026 05:28:51 +0000",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "North Korean hackers are moving tens of millions on Hyperliquid as Trump pushes to onshore the crypto platform",
+      "title": "Solana, ether, xrp lead majors slide as Iran strikes drive a broad risk selloff",
       "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/08/31/north-korean-hackers-are-moving-tens-of-millions-on-hyperliquid-as-trump-pushes-to-onshore-the-crypto-platform",
-      "published_at": "Mon, 31 Aug 2026 20:48:40 +0000",
-      "note": "Security-incident-related coverage"
+      "url": "https://www.coindesk.com/markets/2026/09/02/solana-ether-xrp-lead-majors-slide-as-iran-strikes-drive-a-broad-risk-selloff",
+      "published_at": "Wed, 02 Sep 2026 05:01:25 +0000",
+      "note": "General market-news coverage, reviewed for context only."
+    },
+    {
+      "title": "Bitcoin withstands $90 oil and rising yields while gold slides. A firm dollar is the catch",
+      "source_name": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/09/02/bitcoin-withstands-usd90-oil-and-rising-yields-as-gold-slides-a-firm-dollar-is-the-catch",
+      "published_at": "Wed, 02 Sep 2026 04:40:36 +0000",
+      "note": "General market-news coverage, reviewed for context only."
     },
     {
       "title": "Here’s what happened in crypto today",
       "source_name": "CoinTelegraph",
       "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "Tue, 01 Sep 2026 05:58:48 +0000",
+      "published_at": "Wed, 02 Sep 2026 05:54:06 +0000",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "BlackRock drives $217M Bitcoin ETF rebound as altcoin funds continue streaks",
+      "title": "HYPE treasury firm Hyperliquid Strategies boosts equity facility to $2.5B",
       "source_name": "CoinTelegraph",
-      "url": "https://cointelegraph.com/markets/blackrock-bitcoin-etf-inflow-rebound?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "Tue, 01 Sep 2026 04:48:47 +0000",
-      "note": "ETF/regulatory-related coverage"
+      "url": "https://cointelegraph.com/news/hyperliquid-strategies-equity-facility-2-5-billion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "Wed, 02 Sep 2026 05:48:21 +0000",
+      "note": "General market-news coverage, reviewed for context only."
     }
   ]
 }

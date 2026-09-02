@@ -1,0 +1,83 @@
+{
+  "symbol": "BTTCUSDT",
+  "date": "2026-09-02",
+  "generated_at": "2026-09-02T07:25:03.686673+00:00",
+  "scanner_evidence": {
+    "symbol": "BTTCUSDT",
+    "pair": "BTTC/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "37",
+    "score_tier": "C Weak",
+    "market_cap_rank": null,
+    "gray_candles": "10",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=BTTCUSDT",
+    "execution_time": "2026-09-02T06:37:03.325662+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1086 assets scanned, 4 confirmed flips (0.4%). State distribution: Blue 61.8%, Gold 18.1%, Gray 12.5%, Unknown 7.6%. Strongest transition: Blue → Gold (3 of 4 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only."
+    ],
+    "context_generated_at": "2026-09-02T07:25:02.010069+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Black Titan (BTTC) Stock Forum and Discussion - Moomoo",
+      "source_name": "Moomoo",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE02TGE3RUlla0lvUUpRQm01U3h2dzA3RDNhaDZBcDlrdHNYRUhCa1hrYlg2NTdoYmVDR3UzcGtoa1g0b3VGMUpRaXhoOGg0Wko0T2tnYTlQbXlBZw?oc=5",
+      "published_at": "Sun, 22 Mar 2026 03:49:23 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Roughly 200 million machine-payment transactions were processed, most below 50 cents - stocktitan.net",
+      "source_name": "stocktitan.net",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQX2dGRVBHQjJNTUtOd2ZLa00zTzQ5MTNBSktELTdZWHlZOG5FWVlkQlMwd3NieGhqSFgwdTc4MVdCZGJEWnBjQTczVzR1SnFXMlNwdXFtcC14X09WVmQ5aTd1SkhhcmVHSDlqbkRYRXFwMkhiUmo5T3ktNDZfWTJGVWlINTRJVTlzVGlNN3kxWFFHOWVHTDIzY2NUVWVzdXBXX28yM0I0OEphakdpcWZ5aEVDblpVWU1ONHphLWl3TQ?oc=5",
+      "published_at": "Wed, 19 Aug 2026 13:00:00 GMT",
+      "relevance": "unrelated",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "BTCC Exchange to List BlockDAG Network (BDAG) for Spot Trading - TMX Newsfile",
+      "source_name": "TMX Newsfile",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOTVFhczMzd2hXeHhiTnJFY04zcGREQmNmOTRFalJpX3RtTURUT3JidHR4ZGtGWUF4N1JvbzlfbENha2RPMTVCX0RIdGp3UGgxSWdsMVVzY19wVlFvZ011T2JEMWVJNzNPUVNlbTZURDBieEhmS0F5X1gzRkJvUTBFenNBdWpIZUR4c3haNElfN3c3X3lxSHFyMDNhUkNUN0pTNHd6MWlR?oc=5",
+      "published_at": "Wed, 25 Mar 2026 07:00:00 GMT",
+      "relevance": "unrelated",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Trade crypto with BTCC directly on TradingView - tradingview.com",
+      "source_name": "tradingview.com",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1OLWpreTkxdy1kRVl1c2hRUVJuZ28zQmEwd0swb3pwU2dYRnNtSUNFSnJmV1ZvWE84Q2pLdDh4cTF1cW9OX1pJdlVrNGEzekRnTUd2cXdSdW93VW1XczVQSWRlYWFVc2VIVDZuQmwtUDdMcklSOXRpNw?oc=5",
+      "published_at": "Tue, 09 Dec 2025 08:00:00 GMT",
+      "relevance": "unrelated",
+      "freshness": "Old",
+      "default_visible": false
+    },
+    {
+      "title": "BTCC Exchange Launches BTCC Earn with Flexible 20% APY and Exclusive New User Offer - Chainwire",
+      "source_name": "Chainwire",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMVZzTkgwZkxqY2s0VEFFa3NUY2VxM3g1RHNHTm1UY3RXM2ZWNHFnak9tR2lFb1VBWU9xUW1jV0xfLU1lYUgtWmdqSHctejB1XzROMnZQdVEyTUNMVjcyWE11cVRTNXMxbGRnSkNJT2x0UGdJZnZjSFpfeEEwNnpUNUQ5QS03aWZKWkJQYUI4QlNNTUpxeE5vQkxhU2dZM3BmcWV1WnI3RXJhX2JXa1JoRXN1RUZaVmc?oc=5",
+      "published_at": "Wed, 11 Feb 2026 08:00:00 GMT",
+      "relevance": "unrelated",
+      "freshness": "Old",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "BTTC crypto",
+  "reasoning_quality": "Medium",
+  "reasoning_quality_note": "Relevant evidence found (1 direct but not fresh headline(s)), but no headline is both coin-specific and fresh. Treat this as supporting context, not confirmation.",
+  "neutral_explanation": "BTTCUSDT (BTTC/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 37 (tier C Weak); market-cap rank not available. Scanner note: Valid confirmed trend flip — fresh signal. Broader crypto market context: 1086 assets scanned, 4 confirmed flips (0.4%). State distribution: Blue 61.8%, Gold 18.1%, Gray 12.5%, Unknown 7.6%. Strongest transition: Blue → Gold (3 of 4 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (1 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

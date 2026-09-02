@@ -1,61 +1,62 @@
 {
   "market": "stocks",
-  "generated_at": "2026-09-01T07:25:01.409570+00:00",
-  "scanner_summary": "50 assets scanned, 0 confirmed flips (0.0%). State distribution: Blue 14.0%, Gold 76.0%, Gray 10.0%, Unknown 0.0%. Source: data/output/stocks_weekly_results.json, last modified 2026-06-13 (79 days ago). Stale-data warning: source file is more than 30 days old.",
+  "generated_at": "2026-09-02T07:25:02.010069+00:00",
+  "scanner_summary": "50 assets scanned, 0 confirmed flips (0.0%). State distribution: Blue 14.0%, Gold 76.0%, Gray 10.0%, Unknown 0.0%. Source: data/output/stocks_weekly_results.json, last modified 2026-06-13 (80 days ago). Stale-data warning: source file is more than 30 days old.",
   "possible_drivers": [
     "Locally observed scanner state distribution and flip activity (see scanner_summary).",
-    "General market-news coverage, reviewed for context only."
+    "General market-news coverage, reviewed for context only.",
+    "Earnings/guidance-related coverage"
   ],
   "uncertainty_note": "Automatically collected from public RSS headlines and local scanner output. Headlines are cited, not verified for accuracy or causal connection to price movement. This is not investment advice and does not contain buy, sell, hold, or execution guidance. Human review is required before treating anything here as reliable market context.",
   "sources": [
     {
-      "title": "Goldman Sachs sends blunt message on oil price, economy",
+      "title": "Denny’s rival dining chain files for Chapter 11 bankruptcy",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/energy/articles/goldman-sachs-sends-blunt-message-003700417.html",
-      "published_at": "2026-08-31T00:37:00Z",
+      "url": "https://finance.yahoo.com/small-business/articles/denny-rival-dining-chain-files-153300154.html",
+      "published_at": "2026-09-01T15:33:00Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Tesla Stock Could Benefit as Trump Locks Down the U.S. Power Grid",
+      "title": "How to get a personal loan with bad credit",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-stock-could-benefit-trump-203002693.html",
-      "published_at": "2026-08-30T20:30:02Z",
+      "url": "https://finance.yahoo.com/news/personal-loan-bad-credit-020040897.html",
+      "published_at": "2026-08-31T20:03:10Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Strategy Stock Surges as Bitcoin Briefly Tops $80K",
+      "title": "Why large evergreen funds might be the losers in VC",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/strategy-stock-surges-bitcoin-briefly-193515545.html",
-      "published_at": "2026-08-30T19:35:15Z",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-large-evergreen-funds-might-200316358.html",
+      "published_at": "2026-08-31T20:03:16Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Chevron Stock: Is CVX Underperforming the Energy Sector?",
+      "title": "Norway Wants Europe’s Energy Market, Without Sharing Its Trade-Offs",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/chevron-stock-cvx-underperforming-energy-193129112.html",
-      "published_at": "2026-08-30T19:31:29Z",
+      "url": "https://finance.yahoo.com/energy/articles/norway-wants-europe-energy-market-200000128.html",
+      "published_at": "2026-08-31T20:00:00Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Uber Spent Its Entire 2026 AI Budget in 4 Months. It Just Found a Way to Fix It.",
+      "title": "Sony and Warner sue Anthropic over AI music training",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/technology/ai/articles/uber-spent-entire-2026-ai-193002803.html",
-      "published_at": "2026-08-30T19:30:02Z",
+      "url": "https://finance.yahoo.com/technology/ai/articles/sony-warner-sue-anthropic-over-200355087.html",
+      "published_at": "2026-08-31T20:03:55Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Amazon’s stock slips as the FTC alleges billions of dollars in hidden ad fees",
+      "title": "AI capital expenditure forecast to exceed the cost of building railways in both the U.S. and the U.K. — with the internet added on top",
       "source_name": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/amazons-stock-slips-as-the-ftc-alleges-billions-of-dollars-in-hidden-ad-fees-4ae44ee4?mod=mw_rss_topstories",
-      "published_at": "Mon, 31 Aug 2026 22:24:00 GMT",
+      "url": "https://www.marketwatch.com/story/ai-capital-expenditure-forecasted-to-exceed-the-cost-of-building-railways-in-both-the-u-s-and-the-u-k-with-the-internet-added-on-top-765b927f?mod=mw_rss_topstories",
+      "published_at": "Wed, 02 Sep 2026 06:36:00 GMT",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "‘I’m leaving money on the table’: I’m 64 and my husband is 70. Should I take spousal benefits or wait for my own?",
+      "title": "Dell’s AI servers drive a stellar earnings performance, and a raised outlook",
       "source_name": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/im-leaving-money-on-the-table-im-64-and-my-husband-is-70-should-i-take-spousal-benefits-or-wait-for-my-own-2490f5cd?mod=mw_rss_topstories",
-      "published_at": "Mon, 31 Aug 2026 22:00:00 GMT",
-      "note": "General market-news coverage, reviewed for context only."
+      "url": "https://www.marketwatch.com/story/dells-ai-servers-drive-a-stellar-earnings-performance-and-a-raised-outlook-86476ace?mod=mw_rss_topstories",
+      "published_at": "Wed, 02 Sep 2026 00:19:00 GMT",
+      "note": "Earnings/guidance-related coverage"
     }
   ]
 }

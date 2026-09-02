@@ -1,0 +1,83 @@
+{
+  "symbol": "BNBBTC",
+  "date": "2026-09-02",
+  "generated_at": "2026-09-02T07:25:03.686673+00:00",
+  "scanner_evidence": {
+    "symbol": "BNBBTC",
+    "pair": "BNB/BTC",
+    "current_state": "Blue",
+    "previous_state": "Gold",
+    "flip_direction": "Gold → Blue (Bearish)",
+    "score": "85",
+    "score_tier": "A+ Strong",
+    "market_cap_rank": "4",
+    "gray_candles": "5",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "large-cap stability, top market cap, fresh signal, high volume",
+    "signal": "Confirmed Gold → Gray → Blue → Blue",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=BNBBTC",
+    "execution_time": "2026-09-02T06:37:03.325662+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1086 assets scanned, 4 confirmed flips (0.4%). State distribution: Blue 61.8%, Gold 18.1%, Gray 12.5%, Unknown 7.6%. Strongest transition: Blue → Gold (3 of 4 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only."
+    ],
+    "context_generated_at": "2026-09-02T07:25:02.010069+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "New Crypto Pepeto Announces Its Cross-Chain Bridge Linking Ethereum, BNB Chain, and Solana - lincolnjournal.com",
+      "source_name": "lincolnjournal.com",
+      "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxNN3RPR3V2TmtwUDE3YXVpdkRVczdZMGRXakUtSl9kZkhNYUJQVTl5WW5MdlVDX18xR3JpUUkzaGx2R3FuXzBwcXJTX3NQMkoxWVRQMmtoeGlBa3RBVXozazMxLVhhLWhqNG5mOWhOWlRyajNVZ0dUQ05FRy1zNTliZ2JEM2lNVUd0RjlSTHA1eTJVdW5LcmJMM0tTYmVuZGNrdHVMcXE0VGRuTE1GY0R6Y1Y2Q0pnNWh2RmhsejJodFBrZjJNeTZXQ2JUNjJmME16V2lQcVh1ZmE3UzVmMGJIVUs4bW9POHZkT0VwUEtlX29ldnhPX3pCY0dMT3pKUjVYOWVfZ1JFZDIweHpndVlLbXU1YVVkT3FXMEd1X2NPWGdPNHo4dFUw?oc=5",
+      "published_at": "Tue, 01 Sep 2026 16:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "BNB Extended Zero-Fee Campaign Through September - tradingview.com",
+      "source_name": "tradingview.com",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQRFFlWlBwUXVWbE82NGw3RU9BeXYweUItdDRQS0FZZVJiSHZRV2VLWlVHNUdZNVdwWE10NXh5YjJCY3BuSEw4RFlxNUNDQk83TC00TWNOOFQxYVJtZW13NW41MFJYUVVUbzdhbDlzNzM5ZUpGaHpNQVptNjVBYThubFIyVHFXcmdWaHVJanRHSGtqMTY5WGtCME00QlZqWmVWNkFVZENrdktiZw?oc=5",
+      "published_at": "Tue, 01 Sep 2026 12:10:34 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "New Crypto Pepeto Announces Its Cross-Chain Bridge Linking Ethereum, BNB Chain, and Solana - manilatimes.net",
+      "source_name": "manilatimes.net",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOem5iM0lNVWhTUWRRZ3g0TUlRbUJRM191UXdnYkU4UHRIdHhLd21jRy1mVFRvOGhrZnNBQVBQSDZtNjg3Qkp5Zi1CTVFsejd0WE1tdG1CMlN6dGVkVnRoYjlWLVhqaUdyTkcybzBOZFlBUW1nN0xzQXZSUE9pYkJSMlpYa1I0WE5JV1Y2bjB6TEZwU3NRaVJ2Q3dHQkxwQld3Q2tfNENMdmFZeDRWQWoxUklGRDcwenRNVm9meENia01NTDBHd0NJZ0todTlLWko3SG5GbFI3SEppVUFQU1FHZFhmVEcyLW1NLTRVd0NBblV2Y3lf0gH6AUFVX3lxTE5SdE4zaWlBTWJuSHZfV1F0MFBZMmFJcHVZWHBaR2llenRySV9ZeUg5R2dQSmRHQ2gxeDA4SXd1VDdxb3NSQzJoTXk2OXBNdTFUZjg5emRWM3ZIOEkyaGNEYU8zV3pDc3Q1Ymg0NVdmaWdBOC1XaGRURzBFclpIZnJIeVY1VDlRUFVxTUtubzQ4TlZDOThuQ1B5SHBCMXpQZk9RUndITmpRVnR6a05mZ0RidE8xS3puc2MxazFTa1gwRGlWT2EwV1dSbjB4aFF3enpOWjBaRzdoWVN6aUlpSjB5MHV0ekhCV1IydGhXc19sdjZIRjBDUi05eVE?oc=5",
+      "published_at": "Tue, 01 Sep 2026 16:15:42 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "BNB Chain News: PENGU Rips on Paxos Deal, Justin Sun Files $1B WLFI Lawsuit - CoinMarketCap",
+      "source_name": "CoinMarketCap",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQeUpfWUNXOU1DM2pudTdMNVJuOUU2LXJCczg2TWYzZXRrdDhmUWh6NVN3NHZYR0NiMk9DcTR0RFV0NEdpSjhyUGxnbDhUekFwai1PaEJxakpHQkRTSlo2OFJzMmh0eG9EeTd3b3lQUUppREtTWkt3all0NnBrZzRuZUlrOGNKYm1PYWVuTEZLblBTRDFxSjRIQ0tITkUtbi1zRGdvSGFrb1lRZ1daNlVqZVE4eTIwSkZpYXo3Vg?oc=5",
+      "published_at": "Sat, 29 Aug 2026 17:49:38 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": false
+    },
+    {
+      "title": "Crypto Price Analysis August-28: ETH, XRP, ADA, BNB, and HYPE - CryptoPotato",
+      "source_name": "CryptoPotato",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOd3B1LTlJeDJXXzdIa3dmNHpNbXl1ejBCN3B4NFRKckl1SWhkazVBNWNaVENVR2FkVDRTT2tGcjZJM0JSNFBYNGpwZW5FNlJLUkNDcTJWUDQ0dlNLeDlKM1ZfVGJ2Z2haZXpaRFRFWVdsUFJfYWR5Q2VkX1hUOTIwYktRbEswc0lhNFE?oc=5",
+      "published_at": "Fri, 28 Aug 2026 09:04:00 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "BNB crypto",
+  "reasoning_quality": "Strong",
+  "reasoning_quality_note": "5 direct, fresh coin-specific headline(s) found (named the coin/project and published today or within the last 7 days).",
+  "neutral_explanation": "BNBBTC (BNB/BTC) recorded a confirmed state flip: Gold → Blue (Bearish). Scanner score 85 (tier A+ Strong); market-cap rank 4. Scanner note: Valid confirmed trend flip — large-cap stability, top market cap, fresh signal, high volume. Broader crypto market context: 1086 assets scanned, 4 confirmed flips (0.4%). State distribution: Blue 61.8%, Gold 18.1%, Gray 12.5%, Unknown 7.6%. Strongest transition: Blue → Gold (3 of 4 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (5 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

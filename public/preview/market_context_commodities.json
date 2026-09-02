@@ -1,6 +1,6 @@
 {
   "market": "commodities",
-  "generated_at": "2026-09-01T07:25:01.409570+00:00",
+  "generated_at": "2026-09-02T07:25:02.010069+00:00",
   "scanner_summary": "No commodity scanner data available in data/output; no asset count, flip count, or state distribution can be computed locally.",
   "possible_drivers": [
     "General market-news coverage, reviewed for context only."
@@ -8,38 +8,38 @@
   "uncertainty_note": "Automatically collected from public RSS headlines and local scanner output. Headlines are cited, not verified for accuracy or causal connection to price movement. This is not investment advice and does not contain buy, sell, hold, or execution guidance. Human review is required before treating anything here as reliable market context.",
   "sources": [
     {
-      "title": "U.S. Oil Deal Pushes China and Russia Out of Venezuelan Fields",
+      "title": "Hormuz Shipping Slumps as U.S.-Iran Strikes Rattle Oil Markets",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Oil-Deal-Pushes-China-and-Russia-Out-of-Venezuelan-Fields.html",
-      "published_at": "Tue, 01 Sep 2026 01:45:00 -0500",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-Shipping-Slumps-as-US-Iran-Strikes-Rattle-Oil-Markets.html",
+      "published_at": "Wed, 02 Sep 2026 02:15:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Oil Prices Climb as Trump Threatens New Strikes on Iran",
+      "title": "U.S. Energy Secretary Says Venezuela Could More Than Double Oil Production",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Climb-as-Trump-Threatens-New-Strikes-on-Iran.html",
-      "published_at": "Tue, 01 Sep 2026 00:30:00 -0500",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Energy-Secretary-Says-Venezuela-Could-More-Than-Double-Oil-Production.html",
+      "published_at": "Wed, 02 Sep 2026 01:00:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "New Tech Breakthrough Aims To Solve The World's Plastic Waste Problem",
+      "title": "Oil Prices Rally as U.S. Targets Iranian Tankers in New Escalation",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Energy/Energy-General/New-Tech-Breakthrough-Aims-To-Solve-The-Worlds-Plastic-Waste-Problem.html",
-      "published_at": "Mon, 31 Aug 2026 19:00:00 -0500",
+      "url": "https://oilprice.com/Energy/Energy-General/Oil-Prices-Rally-as-US-Targets-Iranian-Tankers-in-New-Escalation.html",
+      "published_at": "Tue, 01 Sep 2026 22:53:42 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Why More Venezuelan Oil Won’t Solve America’s Gasoline Problem",
+      "title": "Saudi Arabia Plans To Free 1 Mb/d As it Invests in Nuclear Power",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Energy/Energy-General/Why-More-Venezuelan-Oil-Wont-Solve-Americas-Gasoline-Problem.html",
-      "published_at": "Mon, 31 Aug 2026 18:00:00 -0500",
+      "url": "https://oilprice.com/Alternative-Energy/Nuclear-Power/Saudi-Arabia-Plans-To-Free-1-Mbd-As-it-Invests-in-Nuclear-Power.html",
+      "published_at": "Tue, 01 Sep 2026 19:00:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Iran War Triggers Billions in New Oil Pipeline and Port Investment",
+      "title": "Major U.S. Oil Port Selected for Nuclear Power Project",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Energy/Energy-General/Iran-War-Triggers-Billions-in-New-Oil-Pipeline-and-Port-Investment.html",
-      "published_at": "Mon, 31 Aug 2026 16:00:00 -0500",
+      "url": "https://oilprice.com/Alternative-Energy/Nuclear-Power/Major-US-Oil-Port-Selected-for-Nuclear-Power-Project.html",
+      "published_at": "Tue, 01 Sep 2026 18:00:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {

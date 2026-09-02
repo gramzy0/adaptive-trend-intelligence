@@ -1,0 +1,83 @@
+{
+  "symbol": "MASKUSDT",
+  "date": "2026-09-02",
+  "generated_at": "2026-09-02T07:25:03.686673+00:00",
+  "scanner_evidence": {
+    "symbol": "MASKUSDT",
+    "pair": "MASK/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "62",
+    "score_tier": "B Watch",
+    "market_cap_rank": "495",
+    "gray_candles": "8",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "small-cap potential, small-cap high risk, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=MASKUSDT",
+    "execution_time": "2026-09-02T06:37:03.325662+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1086 assets scanned, 4 confirmed flips (0.4%). State distribution: Blue 61.8%, Gold 18.1%, Gray 12.5%, Unknown 7.6%. Strongest transition: Blue → Gold (3 of 4 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only."
+    ],
+    "context_generated_at": "2026-09-02T07:25:02.010069+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Price of Mask Network (MASK) today in EUR – Quote and market trends - Bit2Me",
+      "source_name": "Bit2Me",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBwMWRzZEI3WkxacXdUY196RURwdTVmd1cyclNSZzRlUmRJZXUxdFRIR0RUYlloYUZpZ0JrdWdHR0tNUUlicFZOMzQwZ21JcHdNSEE?oc=5",
+      "published_at": "Fri, 24 Jul 2026 14:08:16 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Mask Network (MASK) Price Prediction 2026 2027 2028 - 2040 - Changelly",
+      "source_name": "Changelly",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9ITzQ2SnZTT044eWs1MEdONzBmUHNjV3V5R2hoVDI3OHp5aUNyM2hxMGJ4NlpZb1pFQXYxaWhWaTFmOVM0Yi0ybEpTQ3ExdWNLY0hkWkttanhzUDJNajRwa1BtUEk3U0swcjRfZm4yRQ?oc=5",
+      "published_at": "Wed, 10 Jan 2024 18:30:35 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Mask Network Price Prediction: Is MASK Crypto a Good Investment? - stealthex.io",
+      "source_name": "stealthex.io",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNR2Z5VDl4YzQ4REcwRjlBS2UyWnFGVHBYQnZsaHp0NklZX3VJSzF1VWRqb2ptZ1E5M0preXpHdFJkU016cWdhSXhuMUFURGRjOS1oM3I3WWtmV3BaSjRzR1VONklNWkUyRjdramJJSjh1T2h5LUEzeDN2Y2VSZFZkd285ckw4ZHdUQ1R5SndZRFFEaTQ?oc=5",
+      "published_at": "Thu, 19 Jun 2025 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Mask Network (MASK) and Rally (RLY) are launching on Coinbase Pro - Coinbase",
+      "source_name": "Coinbase",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOV2F4ZjBUV3hrQy1pVkprRC1lNjByaFhmRVl3VFR4LVhiTDFwSEJQb0E0eFNiRHE5ZFNYVGZDVXRTR0xWZGRvblFGMWdwOTdfcVpqOFRGS0NhNDRGTDlGVHVMNTJYcDRBTU5NbU5uVDJlY2c1eHdFWG9uNUxoZXBqLXBTM01iWFNoTGdsLVVGYTliMVBuTGc?oc=5",
+      "published_at": "Wed, 14 Jul 2021 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    },
+    {
+      "title": "What is Mask Network | How MASK Works, Use Cases and Values | MEXC - MEXC",
+      "source_name": "MEXC",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9jZE1ud0FoU3FST2w3SVpTNWFPTWtjWUVhQ3JjYlhlNEFPeE1lVGUwUDFZSEtubDJfeGhlaTlaMGtIUF8td0RvT2VkNkg?oc=5",
+      "published_at": "Fri, 31 Oct 2025 19:30:47 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "Mask Network crypto",
+  "reasoning_quality": "Medium",
+  "reasoning_quality_note": "Relevant evidence found (5 direct but not fresh headline(s)), but no headline is both coin-specific and fresh. Treat this as supporting context, not confirmation.",
+  "neutral_explanation": "MASKUSDT (MASK/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 62 (tier B Watch); market-cap rank 495. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 1086 assets scanned, 4 confirmed flips (0.4%). State distribution: Blue 61.8%, Gold 18.1%, Gray 12.5%, Unknown 7.6%. Strongest transition: Blue → Gold (3 of 4 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (5 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}
