@@ -1,0 +1,84 @@
+{
+  "symbol": "GBPUSDT",
+  "date": "2026-09-03",
+  "generated_at": "2026-09-03T07:25:03.260199+00:00",
+  "scanner_evidence": {
+    "symbol": "GBPUSDT",
+    "pair": "GBP/USDT",
+    "current_state": "Blue",
+    "previous_state": "Gold",
+    "flip_direction": "Gold → Blue (Bearish)",
+    "score": "52",
+    "score_tier": "B Watch",
+    "market_cap_rank": null,
+    "gray_candles": "4",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "fresh signal",
+    "signal": "Confirmed Gold → Gray → Blue → Blue",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=GBPUSDT",
+    "execution_time": "2026-09-03T06:37:05.017188+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1086 assets scanned, 7 confirmed flips (0.6%). State distribution: Blue 61.7%, Gold 18.2%, Gray 12.5%, Unknown 7.6%. Strongest transition: Blue → Gold (5 of 7 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only.",
+      "Macro/rates-related coverage"
+    ],
+    "context_generated_at": "2026-09-03T07:25:01.877018+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "SPIKE/GBP Price: Convert Spike 1984 to British Pound - Crypto.com",
+      "source_name": "Crypto.com",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1Sd0JFYjJreU5yUDBRUm1SYkxldGlPQzZST2FrRmN0UWtaN3BROVNrRGVvR2U3cGdySlBsYVljZzFLQXMwRmZIMlo0c3lGTGlyLXhUVA?oc=5",
+      "published_at": "Sun, 30 Aug 2026 08:05:38 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "Mainframe to GBP (MFT/GBP) Today | 1 MFT to GBP Live Rate & Calculator - Binance",
+      "source_name": "Binance",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5YcFJFM0h6THh3Z2dXdHpFeDVBZG1RLVBObnR2MEVpOFp0MklYRDQwUm93dFBrbVVydl9pbHFFckJtT2pPYUZMN3pNeGk2YkcxRHJ0WHFR?oc=5",
+      "published_at": "Tue, 01 Sep 2026 11:44:14 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "HUNT/GBP Price: Convert Token Hunters to British Pound - Crypto.com",
+      "source_name": "Crypto.com",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9oMGIzM0Vic21HMlNHb20xMjJncnppLU4yems2bkhrR09QZGxiMGVBXy0xaXh3T29iSlVQLTl0TUh1RV9wSEFGdHZvQlFiaEtrS1hCa1AzLXk?oc=5",
+      "published_at": "Fri, 28 Aug 2026 20:21:14 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "Coinbase Lists First GBP Stablecoin as UK Push Accelerates - Yahoo Finance",
+      "source_name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxONUtlZEhKU3NQZW5aSkdTbXJvWTN5cVhGRzlIcWx6U28tNjhDOUlpNzMxVURyeGkyeWxwMnpyb3poR3p5am9yV1NVYzlOdjVwWFdYTFhTaU5scmh4ZlBSSnhpc1RBRW9ud3pUSUxTakRoN3ZIVUs3OGVFalFUS0N1X3VVWWZxWUtpMVhWeEhxZUFsRWh4c3Ffck5VWGxnRWhBb1E?oc=5",
+      "published_at": "Wed, 22 Apr 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    },
+    {
+      "title": "British Pound Slips Toward 1.3500 as US-Iran Tensions Boost Dollar Demand - CryptoRank",
+      "source_name": "CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPeWNJZmw2bFpNQmpPVTdTX0RnckpvT3ZIMkNlNVhUNVkwSjNDaDFGYnl1ZDdTRkMwZFAxNENCdWNadG9GVzd4SjdPQ2ZmN0ZBQ1ZWME9OaGx0QnpQM0laYVQwRGIzYTU1ejVobkpXbUF0X0VwNzVtdnQwcG5HeWJxR0dfVQ?oc=5",
+      "published_at": "Wed, 02 Sep 2026 11:02:39 GMT",
+      "relevance": "unrelated",
+      "freshness": "Recent",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "GBP crypto",
+  "reasoning_quality": "Strong",
+  "reasoning_quality_note": "3 direct, fresh coin-specific headline(s) found (named the coin/project and published today or within the last 7 days).",
+  "neutral_explanation": "GBPUSDT (GBP/USDT) recorded a confirmed state flip: Gold → Blue (Bearish). Scanner score 52 (tier B Watch); market-cap rank not available. Scanner note: Valid confirmed trend flip — fresh signal. Broader crypto market context: 1086 assets scanned, 7 confirmed flips (0.6%). State distribution: Blue 61.7%, Gold 18.2%, Gray 12.5%, Unknown 7.6%. Strongest transition: Blue → Gold (5 of 7 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (4 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

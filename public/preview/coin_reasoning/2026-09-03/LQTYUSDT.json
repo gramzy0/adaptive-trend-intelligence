@@ -1,0 +1,84 @@
+{
+  "symbol": "LQTYUSDT",
+  "date": "2026-09-03",
+  "generated_at": "2026-09-03T07:25:03.260199+00:00",
+  "scanner_evidence": {
+    "symbol": "LQTYUSDT",
+    "pair": "LQTY/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "52",
+    "score_tier": "B Watch",
+    "market_cap_rank": "788",
+    "gray_candles": "17",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "small-cap potential, small-cap high risk, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=LQTYUSDT",
+    "execution_time": "2026-09-03T06:37:05.017188+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1086 assets scanned, 7 confirmed flips (0.6%). State distribution: Blue 61.7%, Gold 18.2%, Gray 12.5%, Unknown 7.6%. Strongest transition: Blue → Gold (5 of 7 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only.",
+      "Macro/rates-related coverage"
+    ],
+    "context_generated_at": "2026-09-03T07:25:01.877018+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Liquity USD Price: LUSD Price Index and Live Chart - theblock.co",
+      "source_name": "theblock.co",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5PWjQ4N1NhN1JBLTVTOUxGNFZoNWRTTnJlR0NPVEFYUTVBLVVkNU1ibGFCcnpmYkUySlcyY0JvWnAwYlc2SXJnSjlidFU5cDl2WUlz?oc=5",
+      "published_at": "Thu, 13 Aug 2026 07:53:46 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Liquity Price: LQTY Price Index and Live Chart - theblock.co",
+      "source_name": "theblock.co",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5PNDU0TnFMUEMwQzJWYThTMS15M2U5Um1zZ1RxWm9GQm9vT1B2RkVTQWRBRGl3eDZLbWlxWF9qNzNoNXFpU0kwck1WcWtvZw?oc=5",
+      "published_at": "Sat, 08 Aug 2026 06:26:31 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Stablecoins Are No Longer Just Crypto Liquidity — Are They Becoming the New Financial Rails? - Bitcoin Foundation",
+      "source_name": "Bitcoin Foundation",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNS3ZKdkdCQ25uUWNKLTl5eGZNN0M0ZzJYOTlNOUtIQ0hPVlR3VDRGNUctdzVSUnVEb0pXc1JtdmxrZTV5S0h2LVN4ZTJXU21mejFmMDBVSUl3ZDhETlRfSEh1dkhEODhJUmJXRjJVY3pvcktHSE1SczJDQWlLOThuRGtwUi1VWkRKOFdyZERPZDlMdllrRkFjTWQyaUczQTQzd1FTYjQ4M1FOZmV1MVJKcHRjUUw2cVpJRkdBMVY3eW9UTVRUc1Rfc1pGTVNEX0hWa3RmdExBZDE?oc=5",
+      "published_at": "Mon, 24 Aug 2026 07:00:00 GMT",
+      "relevance": "market_context",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Hong Kong-based Linear Finance Hacked, Stablecoin Liquidity Drained - coinmarketcap.com",
+      "source_name": "coinmarketcap.com",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPOF9MZHNyTFhRMVVBbTI4Wkk4WjIxZXI0a0xjOVI5Ti1EQkVLd3NudW95cjBHRC1VVEZwYmFCUVVqOF9RZmszM0Y1dmFxbjFOYTZFMUlycjVZSXYzVGNETnZOTWgzSW9zSncwaHVhamktM3ljZHV5c0kydWNnZTlBUHJXQkNSS0o5S3hUcUx4T3pWWC0yZldySzRhQmd6TTNuMGtOZ0IzZkZNUHQ5?oc=5",
+      "published_at": "Mon, 24 Aug 2026 07:48:22 GMT",
+      "relevance": "market_context",
+      "freshness": "Old",
+      "default_visible": false
+    },
+    {
+      "title": "Tokenised infrastructure pushes Pharos deeper into RWA markets - grafa.com",
+      "source_name": "grafa.com",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxObFFSMkUzeExzRDhpUE1tMlJRbC1vTWdGWWtWaUpiWnJ5X1RORTlndFhJWlEydXhJY0FmMk5vbExpanVJbGVhYThNVDhFenRES2JOTGJldG4tMFFoQjBJWW5MVmZ3Mm1iSENMdHFoMG1vME1HYjNjV0FCaWpuMFYxX0lDdkpMeUhmVGFGRTgzcG9tbzZObG1wQXliRQ?oc=5",
+      "published_at": "Sat, 22 Aug 2026 07:00:00 GMT",
+      "relevance": "unrelated",
+      "freshness": "Old",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "Liquity crypto",
+  "reasoning_quality": "Medium",
+  "reasoning_quality_note": "Relevant evidence found (2 direct but not fresh, 2 sector/market-wide headline(s)), but no headline is both coin-specific and fresh. Treat this as supporting context, not confirmation.",
+  "neutral_explanation": "LQTYUSDT (LQTY/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 52 (tier B Watch); market-cap rank 788. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 1086 assets scanned, 7 confirmed flips (0.6%). State distribution: Blue 61.7%, Gold 18.2%, Gray 12.5%, Unknown 7.6%. Strongest transition: Blue → Gold (5 of 7 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (2 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

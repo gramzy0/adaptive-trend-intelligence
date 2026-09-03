@@ -1,7 +1,7 @@
 {
   "market": "stocks",
-  "generated_at": "2026-09-02T07:25:02.010069+00:00",
-  "scanner_summary": "50 assets scanned, 0 confirmed flips (0.0%). State distribution: Blue 14.0%, Gold 76.0%, Gray 10.0%, Unknown 0.0%. Source: data/output/stocks_weekly_results.json, last modified 2026-06-13 (80 days ago). Stale-data warning: source file is more than 30 days old.",
+  "generated_at": "2026-09-03T07:25:01.877018+00:00",
+  "scanner_summary": "50 assets scanned, 0 confirmed flips (0.0%). State distribution: Blue 14.0%, Gold 76.0%, Gray 10.0%, Unknown 0.0%. Source: data/output/stocks_weekly_results.json, last modified 2026-06-13 (81 days ago). Stale-data warning: source file is more than 30 days old.",
   "possible_drivers": [
     "Locally observed scanner state distribution and flip activity (see scanner_summary).",
     "General market-news coverage, reviewed for context only.",
@@ -10,53 +10,53 @@
   "uncertainty_note": "Automatically collected from public RSS headlines and local scanner output. Headlines are cited, not verified for accuracy or causal connection to price movement. This is not investment advice and does not contain buy, sell, hold, or execution guidance. Human review is required before treating anything here as reliable market context.",
   "sources": [
     {
-      "title": "Denny’s rival dining chain files for Chapter 11 bankruptcy",
+      "title": "Costco shuts down key service without notice",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/small-business/articles/denny-rival-dining-chain-files-153300154.html",
-      "published_at": "2026-09-01T15:33:00Z",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/costco-shuts-down-key-no-011218190.html",
+      "published_at": "2026-09-02T01:12:18Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "How to get a personal loan with bad credit",
+      "title": "Best credit cards for shopping at Walmart (2026)",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/news/personal-loan-bad-credit-020040897.html",
-      "published_at": "2026-08-31T20:03:10Z",
+      "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/best-credit-cards-for-walmart-182948137.html",
+      "published_at": "2025-12-01T19:37:25Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Why large evergreen funds might be the losers in VC",
+      "title": "Best credit cards for home improvement (2026)",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/why-large-evergreen-funds-might-200316358.html",
-      "published_at": "2026-08-31T20:03:16Z",
+      "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/best-credit-cards-for-home-improvement-214525388.html",
+      "published_at": "2024-09-13T22:17:38Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Norway Wants Europe’s Energy Market, Without Sharing Its Trade-Offs",
+      "title": "Ally Unlimited Cash Back Mastercard review: A simplistic approach to cash back",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/energy/articles/norway-wants-europe-energy-market-200000128.html",
-      "published_at": "2026-08-31T20:00:00Z",
+      "url": "https://finance.yahoo.com/personal-finance/credit-cards/review/ally-unlimited-cash-back-review-165948540.html",
+      "published_at": "2024-04-04T16:59:48Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Sony and Warner sue Anthropic over AI music training",
+      "title": "How to protect your credit card rewards as CFPB responds to a surge in customer complaints",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/technology/ai/articles/sony-warner-sue-anthropic-over-200355087.html",
-      "published_at": "2026-08-31T20:03:55Z",
+      "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/how-to-protect-credit-card-rewards-012404263.html",
+      "published_at": "2024-05-24T13:24:04Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "AI capital expenditure forecast to exceed the cost of building railways in both the U.S. and the U.K. — with the internet added on top",
+      "title": "Broadcom’s stock falls despite upbeat earnings, extending a frustrating stretch for investors",
       "source_name": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/ai-capital-expenditure-forecasted-to-exceed-the-cost-of-building-railways-in-both-the-u-s-and-the-u-k-with-the-internet-added-on-top-765b927f?mod=mw_rss_topstories",
-      "published_at": "Wed, 02 Sep 2026 06:36:00 GMT",
-      "note": "General market-news coverage, reviewed for context only."
-    },
-    {
-      "title": "Dell’s AI servers drive a stellar earnings performance, and a raised outlook",
-      "source_name": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/dells-ai-servers-drive-a-stellar-earnings-performance-and-a-raised-outlook-86476ace?mod=mw_rss_topstories",
-      "published_at": "Wed, 02 Sep 2026 00:19:00 GMT",
+      "url": "https://www.marketwatch.com/story/broadcoms-stock-falls-despite-upbeat-earnings-extending-a-frustrating-stretch-for-investors-81de3f53?mod=mw_rss_topstories",
+      "published_at": "Thu, 03 Sep 2026 00:25:00 GMT",
       "note": "Earnings/guidance-related coverage"
+    },
+    {
+      "title": "Snowflake’s stock soars as the company blows away estimates with its AI-fueled forecast",
+      "source_name": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/snowflakes-stock-soars-as-the-company-blows-away-estimates-with-its-ai-fueled-forecast-5b5cf36c?mod=mw_rss_topstories",
+      "published_at": "Thu, 03 Sep 2026 00:23:00 GMT",
+      "note": "General market-news coverage, reviewed for context only."
     }
   ]
 }

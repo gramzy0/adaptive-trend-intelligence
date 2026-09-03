@@ -1,0 +1,84 @@
+{
+  "symbol": "ARBUSDT",
+  "date": "2026-09-03",
+  "generated_at": "2026-09-03T07:25:03.260199+00:00",
+  "scanner_evidence": {
+    "symbol": "ARBUSDT",
+    "pair": "ARB/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "57",
+    "score_tier": "B Watch",
+    "market_cap_rank": "77",
+    "gray_candles": "10",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "large-cap stability, top market cap, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=ARBUSDT",
+    "execution_time": "2026-09-03T06:37:05.017188+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1086 assets scanned, 7 confirmed flips (0.6%). State distribution: Blue 61.7%, Gold 18.2%, Gray 12.5%, Unknown 7.6%. Strongest transition: Blue → Gold (5 of 7 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only.",
+      "Macro/rates-related coverage"
+    ],
+    "context_generated_at": "2026-09-03T07:25:01.877018+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Arbitrum Surges Over 14% in a Single Day, Outperforming Major Coins to Lead Crypto Market - TradingKey",
+      "source_name": "TradingKey",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOQVhjb1hqU1lyeUxyOVpnNWw5YV9QSGw0Zko5QUV3eGNMRXQ3SEQtRFFaOTdBc1ZOb28tckQyOEs3cnh0WHB4MV8wbGFqeTRlMkxZUVFWcVA3RlMyd2xZakNqS1JaQ3lVblZxOExRLXBUQjA3Qm14S1phRlMxejZscmhKTEhrbS1oQ1Vsc0xwcWdUUzZVdEJMd0pzTHk2cjhDYnEwRkt4c0MzU00xQ0JsdXpwbWxFaGs5TUw1RnRRQmFPX1poYm1aMm45MGQ?oc=5",
+      "published_at": "Thu, 03 Sep 2026 01:33:05 GMT",
+      "relevance": "direct",
+      "freshness": "Today",
+      "default_visible": true
+    },
+    {
+      "title": "Walmart-Backed OnePay Adds Solana, Arbitrum and More to Crypto Platform - coinmarketcap.com",
+      "source_name": "coinmarketcap.com",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNLWNqRHc4UzZFOGd1VVdxcDd2Ul9Ra3lUZlRmSFRYMFNIWUNCVllRZDd3MkIwNEhyNDI3Nk53ZWZ4d21YOVQzNU1mN0tPclhFTHllRm1zdDRRQ0tiOUMzTWo4X3pLVEhXTEN1MnB1ZnlPWmJoYThNWWtUTXJ0aVpQRXJybS14LUYzX3p6dmxET18wcUNCa1dFYlpGcTg3NmN5eHUtUkN3NWV4TG5INlE0V3J3?oc=5",
+      "published_at": "Sun, 30 Aug 2026 09:00:54 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "Robinhood Chain hits record daily fee revenue, boosts Arbitrum - FXStreet",
+      "source_name": "FXStreet",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQbHNoeEs5RzVTY0JCV0RjLXVJWGNITmZteV92NWhkb28zNmlWZ0VaRzlDc0wxWk9zUldwUDFNazFGNlhRSEU3UnBXQzZVWTdXWGpZMzJyYmpuYnJ6cUhkZFRSbHhiS3gzSWtXMEUyMVphdXl3cFZ6OU1YOGFTU29XTi1wMkNGNDVjeks5VWNOYmRFeWRxU0x6OS11NjBveld5WERsTEZuclJJcDAtRDgwSElqaklJQnpFY241cGNn?oc=5",
+      "published_at": "Wed, 02 Sep 2026 20:35:19 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "Robinhood Chain Fees Hit Record High, Boosting Arbitrum DAO Revenue - Coinpedia",
+      "source_name": "Coinpedia",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPQ1RVM2puajNGUUZ4cHpnNlBmQnZ3bmpNb2lUMko5SFlrWkJwUTQ5NmJ1cUNMdVBNTzZzbkVxckJUdjlHVDRHc0hyb0VxUzluOGFaQ0RQV2lyRXJ0QWttYUpxZGVNLWl0UmY5ZTNoY0FZNzZacHJVcDNFeHAzX2hTbHIxS0VfS0t2WThPWHpJb1V1TUNqNk5TX0JR0gGfAUFVX3lxTFAwc2ZjbEFxOUlzcDE4alduU09ydXVYXzFMUWNfWGtJZkNGcFhTelZHR3Q1MmZ6bnNzaVp6djFqcmRjdU9oVlJMb253UGdjRWxHVXhnVkJsM0d0dHljZVFBaUVEQ0dybkZMdFltbTRYdXl2M0ZTMC1wX2RJcndFX2pXLUhEWXRIZkRwUFJSdlZRZ2JFczY0TEo2YnBWLWttYw?oc=5",
+      "published_at": "Wed, 02 Sep 2026 12:31:06 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": false
+    },
+    {
+      "title": "Who Is Steven Goldfeder the Offchain Labs CEO Behind Arbitrum - Phemex",
+      "source_name": "Phemex",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5CZUlFNXlOOHROLU1LRTcwLW9QeDdhT25kUlJxTTVEY3piLU80aWg2UWxlS3g1UkpyeGlnc00xdkpRaFhVbDNwZ19HWlEwa1VyczUyMkVUNjF0NWp5ekRjLUJSMnZ1blNENEo1Y0w0VmZ3RHJrZzcycERR?oc=5",
+      "published_at": "Wed, 02 Sep 2026 05:43:05 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "Arbitrum crypto",
+  "reasoning_quality": "Strong",
+  "reasoning_quality_note": "5 direct, fresh coin-specific headline(s) found (named the coin/project and published today or within the last 7 days).",
+  "neutral_explanation": "ARBUSDT (ARB/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 57 (tier B Watch); market-cap rank 77. Scanner note: Valid confirmed trend flip — large-cap stability, top market cap, fresh signal. Broader crypto market context: 1086 assets scanned, 7 confirmed flips (0.6%). State distribution: Blue 61.7%, Gold 18.2%, Gray 12.5%, Unknown 7.6%. Strongest transition: Blue → Gold (5 of 7 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (5 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}
