@@ -1,61 +1,60 @@
 {
   "market": "stocks",
-  "generated_at": "2026-09-03T07:25:01.877018+00:00",
-  "scanner_summary": "50 assets scanned, 0 confirmed flips (0.0%). State distribution: Blue 14.0%, Gold 76.0%, Gray 10.0%, Unknown 0.0%. Source: data/output/stocks_weekly_results.json, last modified 2026-06-13 (81 days ago). Stale-data warning: source file is more than 30 days old.",
+  "generated_at": "2026-09-04T07:25:01.419274+00:00",
+  "scanner_summary": "50 assets scanned, 0 confirmed flips (0.0%). State distribution: Blue 14.0%, Gold 76.0%, Gray 10.0%, Unknown 0.0%. Source: data/output/stocks_weekly_results.json, last modified 2026-06-13 (82 days ago). Stale-data warning: source file is more than 30 days old.",
   "possible_drivers": [
     "Locally observed scanner state distribution and flip activity (see scanner_summary).",
-    "General market-news coverage, reviewed for context only.",
-    "Earnings/guidance-related coverage"
+    "General market-news coverage, reviewed for context only."
   ],
   "uncertainty_note": "Automatically collected from public RSS headlines and local scanner output. Headlines are cited, not verified for accuracy or causal connection to price movement. This is not investment advice and does not contain buy, sell, hold, or execution guidance. Human review is required before treating anything here as reliable market context.",
   "sources": [
     {
-      "title": "Costco shuts down key service without notice",
+      "title": "Why you can't find McDonald's $3 value menu",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/costco-shuts-down-key-no-011218190.html",
-      "published_at": "2026-09-02T01:12:18Z",
+      "url": "https://finance.yahoo.com/small-business/articles/mcdonalds-3-menu-problem-hits-231000768.html",
+      "published_at": "2026-09-02T23:10:00Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Best credit cards for shopping at Walmart (2026)",
+      "title": "Mortgage & refinance rates today, Wednesday, September 2, 2026: Rates up double digits as Iran war reescalates",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/best-credit-cards-for-walmart-182948137.html",
-      "published_at": "2025-12-01T19:37:25Z",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage--refinance-rates-today-wednesday-september-2-2026-rates-up-double-digits-as-iran-war-reescalates-100000964.html",
+      "published_at": "2026-09-02T10:00:00Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Best credit cards for home improvement (2026)",
+      "title": "Dear Zscaler Stock Fans, Mark Your Calendars for September 3",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/best-credit-cards-for-home-improvement-214525388.html",
-      "published_at": "2024-09-13T22:17:38Z",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/dear-zscaler-stock-fans-mark-192742718.html",
+      "published_at": "2026-09-02T19:27:42Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Ally Unlimited Cash Back Mastercard review: A simplistic approach to cash back",
+      "title": "What is the FDIC, and how does it work?",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/personal-finance/credit-cards/review/ally-unlimited-cash-back-review-165948540.html",
-      "published_at": "2024-04-04T16:59:48Z",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/what-is-the-fdic-and-how-does-it-work-102118542.html",
+      "published_at": "2023-12-15T22:26:49Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "How to protect your credit card rewards as CFPB responds to a surge in customer complaints",
+      "title": "Apple May Need a Foldable iPhone to Avoid a Revenue Slowdown Next Year",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/how-to-protect-credit-card-rewards-012404263.html",
-      "published_at": "2024-05-24T13:24:04Z",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/apple-may-foldable-iphone-avoid-193326903.html",
+      "published_at": "2026-09-02T19:33:26Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Broadcom’s stock falls despite upbeat earnings, extending a frustrating stretch for investors",
+      "title": "Snowflake has a secret weapon that’s powering its stock toward a huge gain",
       "source_name": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/broadcoms-stock-falls-despite-upbeat-earnings-extending-a-frustrating-stretch-for-investors-81de3f53?mod=mw_rss_topstories",
-      "published_at": "Thu, 03 Sep 2026 00:25:00 GMT",
-      "note": "Earnings/guidance-related coverage"
+      "url": "https://www.marketwatch.com/story/shares-in-snowflake-are-surging-heres-what-wall-street-analysts-are-saying-0b6343c0?mod=mw_rss_topstories",
+      "published_at": "Fri, 04 Sep 2026 00:35:00 GMT",
+      "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Snowflake’s stock soars as the company blows away estimates with its AI-fueled forecast",
+      "title": "‘I currently give him $1,000 a month’: My grandson has severe mental illness. How do I protect him after I’m gone?",
       "source_name": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/snowflakes-stock-soars-as-the-company-blows-away-estimates-with-its-ai-fueled-forecast-5b5cf36c?mod=mw_rss_topstories",
-      "published_at": "Thu, 03 Sep 2026 00:23:00 GMT",
+      "url": "https://www.marketwatch.com/story/im-desperately-trying-to-plan-ahead-im-leaving-everything-to-my-grandson-who-has-severe-mental-illness-how-can-i-protect-him-d8df2646?mod=mw_rss_topstories",
+      "published_at": "Fri, 04 Sep 2026 00:31:00 GMT",
       "note": "General market-news coverage, reviewed for context only."
     }
   ]

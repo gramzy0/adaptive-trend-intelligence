@@ -1,6 +1,6 @@
 {
   "market": "commodities",
-  "generated_at": "2026-09-03T07:25:01.877018+00:00",
+  "generated_at": "2026-09-04T07:25:01.419274+00:00",
   "scanner_summary": "No commodity scanner data available in data/output; no asset count, flip count, or state distribution can be computed locally.",
   "possible_drivers": [
     "General market-news coverage, reviewed for context only."
@@ -8,38 +8,38 @@
   "uncertainty_note": "Automatically collected from public RSS headlines and local scanner output. Headlines are cited, not verified for accuracy or causal connection to price movement. This is not investment advice and does not contain buy, sell, hold, or execution guidance. Human review is required before treating anything here as reliable market context.",
   "sources": [
     {
-      "title": "Asian Oil Buying Spree Sends Dubai Crude Toward $100",
+      "title": "ADNOC Keeps Loading LNG as Hormuz Risks Intensify",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Asian-Oil-Buying-Spree-Sends-Dubai-Crude-Toward-100.html",
-      "published_at": "Thu, 03 Sep 2026 01:30:00 -0500",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/ADNOC-Keeps-Loading-LNG-as-Hormuz-Risks-Intensify.html",
+      "published_at": "Fri, 04 Sep 2026 02:00:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Why Uranium Stocks Are Falling as U.S. Production Triples",
+      "title": "Brent Nears $96 as Iran Conflict Keeps Oil Market on Edge",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Alternative-Energy/Nuclear-Power/Why-Uranium-Stocks-Are-Falling-as-US-Production-Triples.html",
-      "published_at": "Wed, 02 Sep 2026 19:00:00 -0500",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Nears-96-as-Iran-Conflict-Keeps-Oil-Market-on-Edge.html",
+      "published_at": "Fri, 04 Sep 2026 00:40:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "U.S. SPR Depletion Threatens Further Oil Price Volatility",
+      "title": "U.S.-Venezuela Oil Deal Threatens China’s Oil-Backed Loans",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Energy/Crude-Oil/US-SPR-Depletion-Threatens-Further-Oil-Price-Volatility.html",
-      "published_at": "Wed, 02 Sep 2026 18:00:00 -0500",
+      "url": "https://oilprice.com/Energy/Crude-Oil/US-Venezuela-Oil-Deal-Threatens-Chinas-Oil-Backed-Loans.html",
+      "published_at": "Thu, 03 Sep 2026 19:00:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "White Hydrogen Drilling Push Gains Momentum Across Three Continents",
+      "title": "Why Oil Majors Don’t Want to Build New U.S. Refineries",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Alternative-Energy/Renewable-Energy/White-Hydrogen-Drilling-Push-Gains-Momentum-Across-Three-Continents.html",
-      "published_at": "Wed, 02 Sep 2026 17:00:00 -0500",
+      "url": "https://oilprice.com/Energy/Crude-Oil/Why-Oil-Majors-Dont-Want-to-Build-New-US-Refineries.html",
+      "published_at": "Thu, 03 Sep 2026 18:00:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Superhot Geothermal Just Got A $180 Million Vote Of Confidence",
+      "title": "AI Data Center Boom Pushes U.S. Power Equipment to the Breaking Point",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Energy/Energy-General/Superhot-Geothermal-Just-Got-A-180-Million-Vote-Of-Confidence.html",
-      "published_at": "Wed, 02 Sep 2026 16:00:00 -0500",
+      "url": "https://oilprice.com/Energy/Energy-General/AI-Data-Center-Boom-Pushes-US-Power-Equipment-to-the-Breaking-Point.html",
+      "published_at": "Thu, 03 Sep 2026 17:00:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {

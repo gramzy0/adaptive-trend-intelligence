@@ -1,0 +1,83 @@
+{
+  "symbol": "ANKRUSDT",
+  "date": "2026-09-04",
+  "generated_at": "2026-09-04T07:25:02.876164+00:00",
+  "scanner_evidence": {
+    "symbol": "ANKRUSDT",
+    "pair": "ANKR/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "62",
+    "score_tier": "B Watch",
+    "market_cap_rank": "523",
+    "gray_candles": "10",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "small-cap potential, small-cap high risk, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=ANKRUSDT",
+    "execution_time": "2026-09-04T06:37:10.235767+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1090 assets scanned, 4 confirmed flips (0.4%). State distribution: Blue 61.0%, Gold 18.4%, Gray 12.7%, Unknown 7.9%. Strongest transition: Blue → Gold (3 of 4 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only."
+    ],
+    "context_generated_at": "2026-09-04T07:25:01.419274+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Ankr ankrFLOW exploit drains $410K from MORE Markets - crypto.news",
+      "source_name": "crypto.news",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1ONXZOb3Z3TGRvRFE2eEhRT2I2UzFGVmZJZGtMZDhSNm1lZkkyWi1Jck9NempUdTNmZXl5MlQxeVRsSkxTNXNxYXZYMkRjV3VObXF5bl81SUVqR2s1RTNBNUFLVUtLTVNFdDNkS25WbmVLenlrUFRDcGhyaFE?oc=5",
+      "published_at": "Wed, 02 Sep 2026 09:53:47 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "What Is Ankr (ANKR)? - Binance",
+      "source_name": "Binance",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9zc05LTUlLdW1YUVN3WHk4OThwYV9DaGZjODRQRzc2ZmktRTV1Sml6OUJmZW1CY3JzSHJrRzM2VHdncXdZall5YkRSaVNVdkJpVFlaZFBVT3FLRndoYW9xWWJzRFVVb3ZjSHUxdzlB?oc=5",
+      "published_at": "Wed, 20 May 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Ankr Price Prediction 2026, 2027 and 2030: Can We See a Price Hike? - Bitget",
+      "source_name": "Bitget",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE44VzNITVlxcEFQUG5Kd3dVdjc5SWxTSGp3OXFTa1FQeWV4dVZPbkh4cHF2MVF2OXFzRnpqeG1ERXMwYURvVFdWdmJkZlJwTGdVRmlOR0hGR1R6TzhvRlHSAWNBVV95cUxPV3c0T2dLbjNlWFYxdTV2NnNlX1h6eEZKTVZGT1M4eGxudkhfMGVGVVMxLUNmdTFqUFRkZ19vUmdsdXVYandaUEhXQmZHS29lbjB0aFVja2hsUm5VSDFialZWd0k?oc=5",
+      "published_at": "Sat, 28 Mar 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Ankr joins sBTC signer set to boost Bitcoin sec... - Pluang",
+      "source_name": "Pluang",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRGN1QW9DakRfblM5M2FQWHVYSWNZczRQTEoxenB5cDlTcEtSUHFMNEFEQmtUaTZVMS01Z0ROTzR5SEpNSHdlSk5oUVRBVDM2QXNsY21tU0szU0F5OTJQUU5rcm9uLUNyZ09KalhqTXE4T0RHV0pJUGIzbmFuSjFJbkY4VGV4QzRUTHc2U0tRTHBNd0hTcHFOX3RGWEhVbkdOcGZ0V3h1MkQ4TGNYZVZV?oc=5",
+      "published_at": "Tue, 25 Aug 2026 03:10:30 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    },
+    {
+      "title": "Ankr Network and Neura to Introduce RPCfi - TradingView",
+      "source_name": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQTEtFbjJMNFF3dWpFMEIxWnIwaVI3WHVrbnBGUV9fWDR0OVhKVXlvX0xTazVTM2NXVHMyaWMyRFlpdVlZMlRBOFNZY09CVF9TenhLdVE4X3dEWk5STXB2LVpWQV8xcThvNUJndVgwRzZXWjJmc0NRaWs2Yl9vWDdMUHdjSmlrRlcyMENtR19jbTUwV0pOelFNakJJSmcwelVk?oc=5",
+      "published_at": "Thu, 23 Oct 2025 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "Ankr Network crypto",
+  "reasoning_quality": "Strong",
+  "reasoning_quality_note": "1 direct, fresh coin-specific headline(s) found (named the coin/project and published today or within the last 7 days).",
+  "neutral_explanation": "ANKRUSDT (ANKR/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 62 (tier B Watch); market-cap rank 523. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 1090 assets scanned, 4 confirmed flips (0.4%). State distribution: Blue 61.0%, Gold 18.4%, Gray 12.7%, Unknown 7.9%. Strongest transition: Blue → Gold (3 of 4 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (5 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

@@ -1,61 +1,60 @@
 {
   "market": "crypto",
-  "generated_at": "2026-09-03T07:25:01.877018+00:00",
-  "scanner_summary": "1086 assets scanned, 7 confirmed flips (0.6%). State distribution: Blue 61.7%, Gold 18.2%, Gray 12.5%, Unknown 7.6%. Strongest transition: Blue → Gold (5 of 7 flips). Source: reports/private_crypto_dashboard.csv.",
+  "generated_at": "2026-09-04T07:25:01.419274+00:00",
+  "scanner_summary": "1090 assets scanned, 4 confirmed flips (0.4%). State distribution: Blue 61.0%, Gold 18.4%, Gray 12.7%, Unknown 7.9%. Strongest transition: Blue → Gold (3 of 4 flips). Source: reports/private_crypto_dashboard.csv.",
   "possible_drivers": [
     "Locally observed scanner state distribution and flip activity (see scanner_summary).",
-    "General market-news coverage, reviewed for context only.",
-    "Macro/rates-related coverage"
+    "General market-news coverage, reviewed for context only."
   ],
   "uncertainty_note": "Automatically collected from public RSS headlines and local scanner output. Headlines are cited, not verified for accuracy or causal connection to price movement. This is not investment advice and does not contain buy, sell, hold, or execution guidance. Human review is required before treating anything here as reliable market context.",
   "sources": [
     {
-      "title": "Bitcoin’s fabled golden cross is coming. And USDT may be the real signal this time",
+      "title": "OpenAI puts $1 billion behind cyber defense after unveiling AI that can find zero-days",
       "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/09/03/bitcoin-s-fabled-golden-cross-is-coming-and-usdt-may-be-the-real-signal-this-time",
-      "published_at": "Thu, 03 Sep 2026 07:01:28 +0000",
+      "url": "https://www.coindesk.com/tech/2026/09/04/openai-puts-usd1-billion-behind-cyber-defense-after-unveiling-ai-that-can-find-zero-days",
+      "published_at": "Fri, 04 Sep 2026 05:49:43 +0000",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Dogecoin becomes only losing bet for Japan-listed firm as it sells altcoins for bitcoin",
+      "title": "One full bitcoin now buys a little more than 18 ounces of gold, the most since January",
       "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/09/03/dogecoin-becomes-losing-bet-for-japan-listed-firm-remixpoint-as-it-sells-altcoins-for-bitcoin",
-      "published_at": "Thu, 03 Sep 2026 04:58:05 +0000",
+      "url": "https://www.coindesk.com/markets/2026/09/04/one-full-bitcoin-now-buys-a-little-more-than-18-ounces-of-gold-the-most-since-january",
+      "published_at": "Fri, 04 Sep 2026 05:10:34 +0000",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Bitcoin back above $77,500, XRP leads majors as Fed hike odds slide to 62%",
+      "title": "Bitcoin back above $81,000 as hike odds fade, Zcash leads with 15% jump",
       "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/09/03/bitcoin-back-above-usd77-500-xrp-leads-majors-as-fed-hike-odds-near-66",
-      "published_at": "Thu, 03 Sep 2026 04:22:40 +0000",
-      "note": "Macro/rates-related coverage"
-    },
-    {
-      "title": "DOJ says Hamas crypto seizures reached $560,000 as FBI took over fundraising sites",
-      "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/09/02/doj-says-hamas-crypto-seizures-reached-usd560-000-as-fbi-took-over-fundraising-sites",
-      "published_at": "Wed, 02 Sep 2026 21:24:26 +0000",
+      "url": "https://www.coindesk.com/markets/2026/09/04/bitcoin-back-above-usd81-000-as-hike-odds-fade-zcash-leads-with-15-jump",
+      "published_at": "Fri, 04 Sep 2026 04:22:01 +0000",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Kraken parent Payward delays IPO to second quarter of 2027 at earliest",
+      "title": "U.S. banking agency gives blockchain bank OpenReserve initial OK to operate",
       "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/09/02/kraken-parent-payward-pushes-ipo-back-to-mid-2027-at-earliest",
-      "published_at": "Wed, 02 Sep 2026 20:08:34 +0000",
+      "url": "https://www.coindesk.com/policy/2026/09/03/u-s-banking-agency-gives-blockchain-bank-openreserve-initial-ok-to-operate",
+      "published_at": "Fri, 04 Sep 2026 03:26:50 +0000",
+      "note": "General market-news coverage, reviewed for context only."
+    },
+    {
+      "title": "AMC CEO blasts Robinhood for stock token, putting synthetic shares in spotlight",
+      "source_name": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/09/03/amc-ceo-blasts-robinhood-for-stock-token-putting-synthetic-shares-in-spotlight",
+      "published_at": "Fri, 04 Sep 2026 03:03:25 +0000",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
       "title": "Here’s what happened in crypto today",
       "source_name": "CoinTelegraph",
       "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "Thu, 03 Sep 2026 06:10:27 +0000",
+      "published_at": "Fri, 04 Sep 2026 06:22:29 +0000",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Hyperscale Data ends Michigan BTC mining as holdings fall 79%",
+      "title": "El Salvador’s post-review Bitcoin accumulation used no public funds: IMF",
       "source_name": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/hyperscale-data-ends-michigan-bitcoin-mining-ai?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "Thu, 03 Sep 2026 04:57:55 +0000",
+      "url": "https://cointelegraph.com/news/el-salvador-bitcoin-private-donations-imf?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "Fri, 04 Sep 2026 06:16:35 +0000",
       "note": "General market-news coverage, reviewed for context only."
     }
   ]

@@ -1,0 +1,83 @@
+{
+  "symbol": "BANDUSDT",
+  "date": "2026-09-04",
+  "generated_at": "2026-09-04T07:25:02.876164+00:00",
+  "scanner_evidence": {
+    "symbol": "BANDUSDT",
+    "pair": "BAND/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "62",
+    "score_tier": "B Watch",
+    "market_cap_rank": "611",
+    "gray_candles": "11",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "small-cap potential, small-cap high risk, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=BANDUSDT",
+    "execution_time": "2026-09-04T06:37:10.235767+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1090 assets scanned, 4 confirmed flips (0.4%). State distribution: Blue 61.0%, Gold 18.4%, Gray 12.7%, Unknown 7.9%. Strongest transition: Blue → Gold (3 of 4 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only."
+    ],
+    "context_generated_at": "2026-09-04T07:25:01.419274+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Bitcoin Rainbow Chart predicts BTC price for September 30, 2026 - Cryptonews.net",
+      "source_name": "Cryptonews.net",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBzeTJHRHBpS19wSExHalJGOUZ2OGxHdjNaaW9lZzMtdEl5SG9WY0hCTXhJMDU1YkFUdlI4bFl1clNyY1dGUmRyU2dGZU1aNkNhMFdBMHMxUmQ?oc=5",
+      "published_at": "Tue, 01 Sep 2026 18:19:21 GMT",
+      "relevance": "market_context",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "What is the Bitcoin rainbow chart? - Robinhood",
+      "source_name": "Robinhood",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE4xaThyeExfZ256TE1QZEZod0g2cmtpREk2T3c3MkRZbkpOMU8zV0VyWkhsMTl2T2ExbGNDVy0zOHZQS2hDMEs0MXBmX0J6U2g0UjBnZmtKcDZPVkROUXR4dVg5NERiUmdrd3VGbExZQTZFUEhnWUp5TDNpUQ?oc=5",
+      "published_at": "Thu, 13 Aug 2026 07:00:00 GMT",
+      "relevance": "market_context",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Journey Bring Their Final Frontier Tour to LA's Crypto.com Arena This September - wewriteaboutmusic.com",
+      "source_name": "wewriteaboutmusic.com",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNUk1pdEpLcEk0dElBY1FaSXdHSlZCa2NJN1EtN1VBLTQ5UnJEZ3NBeVpNRFFlUTlwT2x4X0N6Y1VIUGxwYThTRDcxLVpiek1hemE1a25yajJ6a2JMc3VIYTNxVzdrNjNIaTBGc1ZDRFRtT1Y3SUg1U3FQRnZFYlhuN2VvS2xlWkc0RTNQUndFRlNxWUNhWnFLa1dB?oc=5",
+      "published_at": "Thu, 03 Sep 2026 22:17:26 GMT",
+      "relevance": "unrelated",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "Crypto -Insight(@raiyaseen)'s insights - Binance",
+      "source_name": "Binance",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE14SVdGN1RBSGxlZHlEUmZ4bzFCY1YzUXRzLUVDdFlOM1UtSlJQdGxlWjI4TEFxNmxfRFVYUjF1RFIzTWxIYjJaOUpUUmYyQ1ZaVFpaWGNmMEFKRXRqQWNoU0o4eS0?oc=5",
+      "published_at": "Mon, 31 Aug 2026 10:12:16 GMT",
+      "relevance": "unrelated",
+      "freshness": "Recent",
+      "default_visible": false
+    },
+    {
+      "title": "Arbitrum crypto Analysis: September 2026 Resistance & Momentum Insights - The Cryptonomist",
+      "source_name": "The Cryptonomist",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPaDU5S3UyQVdGS3U3SS1OaVFhRXRQS2JPYmV1M1lLZk5mN09PMk1zR1V3YXB2cG5mUWNtVmJ1UWNDbndZOE5qeS0tZWlYTVhkblg1cGtsZzNYUHA2ellXZkhMbG02UGY4YTVLS0JNaUZJNm5Ma2ZkTUpTNDJ2dnpyUjRrVkJ0VE9aOVNn?oc=5",
+      "published_at": "Thu, 03 Sep 2026 14:33:23 GMT",
+      "relevance": "unrelated",
+      "freshness": "Recent",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "Band crypto",
+  "reasoning_quality": "Medium",
+  "reasoning_quality_note": "Relevant evidence found (2 sector/market-wide headline(s)), but no headline is both coin-specific and fresh. Treat this as supporting context, not confirmation.",
+  "neutral_explanation": "BANDUSDT (BAND/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 62 (tier B Watch); market-cap rank 611. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 1090 assets scanned, 4 confirmed flips (0.4%). State distribution: Blue 61.0%, Gold 18.4%, Gray 12.7%, Unknown 7.9%. Strongest transition: Blue → Gold (3 of 4 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (0 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

@@ -1,0 +1,83 @@
+{
+  "symbol": "REDUSDT",
+  "date": "2026-09-04",
+  "generated_at": "2026-09-04T07:25:02.876164+00:00",
+  "scanner_evidence": {
+    "symbol": "REDUSDT",
+    "pair": "RED/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "62",
+    "score_tier": "B Watch",
+    "market_cap_rank": "397",
+    "gray_candles": "11",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "small-cap potential, small-cap high risk, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=REDUSDT",
+    "execution_time": "2026-09-04T06:37:10.235767+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1090 assets scanned, 4 confirmed flips (0.4%). State distribution: Blue 61.0%, Gold 18.4%, Gray 12.7%, Unknown 7.9%. Strongest transition: Blue → Gold (3 of 4 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only."
+    ],
+    "context_generated_at": "2026-09-04T07:25:01.419274+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Tectonic’s $75M exploit was not an oracle failure, RedStone co-founder says - crypto.news",
+      "source_name": "crypto.news",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5OLXRicFlGa3lUV2tFTFo1OGYzTTZZbnJYdmthbHBZellYQmRmcGxuLWxTR1JMY19nczgxaWpUZ2l1T3dvbW1oQ1ZPVW9zdThLT1RIQm8yYWJWSWlUcVFLVl9wQU40eUNOSUg1ck05Z2xUS0lkRjE1bFFxUFc?oc=5",
+      "published_at": "Tue, 01 Sep 2026 18:17:02 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "Price of RedStone (RED) today in EUR – Quote and market trends - bit2me.com",
+      "source_name": "bit2me.com",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE8xTEF2enJXNWNfSlA5cW5LOXEyUUpPaXI1WkJxb3dEbEczaHliNFl5ZGpJQXdtZnpOVTVuMDNFX01za1hhNDJRWFozTms?oc=5",
+      "published_at": "Thu, 23 Jul 2026 18:31:53 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Banks will run RWAs on two blockchain rails, says RedStone co-founder - TradingView",
+      "source_name": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQTUxtd0ZlSUZSeXVCbHhTdlVqX3MzazlhX1hYaXBqVHk1dnBKcDNaeTFKTmMzYXFWWDNpV3BGX0tHcXlZdFgzT3B1TXRLcjhDSEw3MXRfNGVadGxzaDJNdGF5bmlDa1VEd2dZTk1zV1Y4UW0tY1llY1luZFNiTHlrLWdHOEZOdmxiVnFscEphdVJHM010SzVoWFhtTFpuVmxuRTV0b0RvRFRNRnM2VllqdHAtZUFRbkJ4ODVDZlNsX1lMbDRnQjRpS3dJeHk?oc=5",
+      "published_at": "Mon, 09 Mar 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "RedStone oracle provider integrates with open source Tempo mainnet - The Block",
+      "source_name": "The Block",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdjViOGhCMm9ScW1MUm5zMHRfNDllOWhIbHZ1c1dVQk1uZzF6M1lkWlBXWHpPSU9tckxia25SZGJRdmFyTEpwWFNKVC0xWmk0Z0UxQ2xBel92SHkyZWZCYUFBMWJoSlNYX1l2N2lMY0kzLXQ4NUNMcVVvYXNuVWtDVjNhcGt2TlFLQm1NeV9GWXNmdEdwQi1STzlJNzFLLThMUkl5YmRmSUZ2UXNHTHBvVWRB?oc=5",
+      "published_at": "Wed, 18 Mar 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    },
+    {
+      "title": "What Is RedStone (RED)? - Binance",
+      "source_name": "Binance",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE8wb1ptMjdhRDhqdzNYbW0zci01dk9zMXk2Q1ZKRW13SGpEUVpnM3Mta0l5c3ctWThSNDdCN2hkYXpaMG1sdFhER25zck5HQTcwNmFBMDF6UGdheWhxWTZucG5ZalMzWWlldG9kVGZfc2tPUQ?oc=5",
+      "published_at": "Fri, 26 Jun 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "RedStone crypto",
+  "reasoning_quality": "Strong",
+  "reasoning_quality_note": "1 direct, fresh coin-specific headline(s) found (named the coin/project and published today or within the last 7 days).",
+  "neutral_explanation": "REDUSDT (RED/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 62 (tier B Watch); market-cap rank 397. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 1090 assets scanned, 4 confirmed flips (0.4%). State distribution: Blue 61.0%, Gold 18.4%, Gray 12.7%, Unknown 7.9%. Strongest transition: Blue → Gold (3 of 4 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (5 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

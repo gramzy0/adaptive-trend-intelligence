@@ -1,0 +1,83 @@
+{
+  "symbol": "GASUSDT",
+  "date": "2026-09-04",
+  "generated_at": "2026-09-04T07:25:02.876164+00:00",
+  "scanner_evidence": {
+    "symbol": "GASUSDT",
+    "pair": "GAS/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "62",
+    "score_tier": "B Watch",
+    "market_cap_rank": "319",
+    "gray_candles": "10",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "small-cap potential, small-cap high risk, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=GASUSDT",
+    "execution_time": "2026-09-04T06:37:10.235767+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1090 assets scanned, 4 confirmed flips (0.4%). State distribution: Blue 61.0%, Gold 18.4%, Gray 12.7%, Unknown 7.9%. Strongest transition: Blue → Gold (3 of 4 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only."
+    ],
+    "context_generated_at": "2026-09-04T07:25:01.419274+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Robinhood Chain Gas Fees Jump 82-Fold In 11 Days To Top Every Other Chain - Cryptonews.net",
+      "source_name": "Cryptonews.net",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9CejhvaTg3VjBBdWN1Qjdua1AzUmhjM1hyRS1pbU5xcWh2eFRNblZ6YV9ubDlaUHlMak5Yay03N2ZEN3hkand5dXc4U3JTdGJzRDBnTWszblVOQWxF?oc=5",
+      "published_at": "Fri, 04 Sep 2026 02:13:52 GMT",
+      "relevance": "direct",
+      "freshness": "Today",
+      "default_visible": true
+    },
+    {
+      "title": "New natural gas pipelines could power Cipher Digital’s data center expansion - Stock Titan",
+      "source_name": "Stock Titan",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNQXUtSDlBRlFrUmFQQVZjWU4tUmdocXdUMXBEY3hVbzhZaDB2MDZfRXlOaGp4TjdrWUJsU3JJM0pwakRoY3lTbndFakZraGpBLVF2Y2NnV1V1cUVVZ1BwUlJKT0NyajBaMjZuaHlfMWJCdDFScEZZdFFHclNQY0JTMG9YRV96dTB6Z281bzJFNnIzLXliLTE3Z29HM3M2V1VpNDRCMzBGVFdqWjdNcjlDWUlNclJiMU1oOVZPa0FJNjE?oc=5",
+      "published_at": "Thu, 03 Sep 2026 12:25:00 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "European Gas Jumps 25% While U.S. Prices Fall on Record Production - CryptoRank",
+      "source_name": "CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMTQtWXdWTjBKTjFkWTRQVEt4SHhOQW5OcThXc3VCNUduOEJKX3RISVg4UDBpbXN5VU54RGVYdnV6aFhBeUtoalJZYkpLZlA2YkNOdVFPZ2FDc0RWUXBoU3pDZlNoSVhyVkl5RGJyNU5sQWVGNHVHNmlGWTRQRmZKWmtoMUxYdUQ5bUdtT25rRUJUSTFGTTB5LVlwQXk3ckJjYzJN?oc=5",
+      "published_at": "Wed, 02 Sep 2026 19:11:49 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "What Is ETH Gas? Ethereum Fees & Gwei Explained - Britannica",
+      "source_name": "Britannica",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9INkxaMnF5dFRveERwaVBBRnVYcE9LRDZTSkQzNzRQZVVfTkthcDUycXh4SjVHaDFGejVfcVRQMjMzY21Ydzc3YVRkX3lfbzlKZGtOaDZQcVp3dmx4U1I1WWd6Q2k?oc=5",
+      "published_at": "Wed, 15 Jul 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    },
+    {
+      "title": "Robinhood Chain hit $945M in daily DEX volume and nobody on crypto Twitter noticed - crypto.news",
+      "source_name": "crypto.news",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9td1d1bGc4T05veEVVSFI5U0NXT2l4UlMyVEFEV3N0UEpRWEl6RWpXUmdtazBTbDlMOElYYUtTSlNTNThNVm5HTl9ZYzJ5WEI3RXo3YkVmb2JzRDFGaWc4SGd3cXltd2VuYUNNN0NEcmwwZ3hEQ1E?oc=5",
+      "published_at": "Thu, 03 Sep 2026 07:37:33 GMT",
+      "relevance": "unrelated",
+      "freshness": "Recent",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "Gas crypto",
+  "reasoning_quality": "Strong",
+  "reasoning_quality_note": "3 direct, fresh coin-specific headline(s) found (named the coin/project and published today or within the last 7 days).",
+  "neutral_explanation": "GASUSDT (GAS/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 62 (tier B Watch); market-cap rank 319. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 1090 assets scanned, 4 confirmed flips (0.4%). State distribution: Blue 61.0%, Gold 18.4%, Gray 12.7%, Unknown 7.9%. Strongest transition: Blue → Gold (3 of 4 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (4 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

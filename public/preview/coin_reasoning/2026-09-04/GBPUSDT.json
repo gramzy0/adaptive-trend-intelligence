@@ -1,0 +1,83 @@
+{
+  "symbol": "GBPUSDT",
+  "date": "2026-09-04",
+  "generated_at": "2026-09-04T07:25:02.876164+00:00",
+  "scanner_evidence": {
+    "symbol": "GBPUSDT",
+    "pair": "GBP/USDT",
+    "current_state": "Blue",
+    "previous_state": "Gold",
+    "flip_direction": "Gold → Blue (Bearish)",
+    "score": "52",
+    "score_tier": "B Watch",
+    "market_cap_rank": null,
+    "gray_candles": "4",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "fresh signal",
+    "signal": "Confirmed Gold → Gray → Blue → Blue",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=GBPUSDT",
+    "execution_time": "2026-09-04T06:37:10.235767+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1090 assets scanned, 4 confirmed flips (0.4%). State distribution: Blue 61.0%, Gold 18.4%, Gray 12.7%, Unknown 7.9%. Strongest transition: Blue → Gold (3 of 4 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only."
+    ],
+    "context_generated_at": "2026-09-04T07:25:01.419274+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "XRP to GBP: XRP Price in British Pound Sterling - CoinGecko",
+      "source_name": "CoinGecko",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5fNjRUd0VlckV4czFuRjk0dGQ5cW0xWnIxUWN3VC1Fakp5TjA3T3RMbHhBSlNyb24yQkRyZ0RFNVNhZVhnX3pwX3NUanFBVW5faS1LZg?oc=5",
+      "published_at": "Fri, 04 Sep 2026 03:32:35 GMT",
+      "relevance": "direct",
+      "freshness": "Today",
+      "default_visible": true
+    },
+    {
+      "title": "SPIKE/GBP Price: Convert Spike 1984 to British Pound - Crypto.com",
+      "source_name": "Crypto.com",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1Sd0JFYjJreU5yUDBRUm1SYkxldGlPQzZST2FrRmN0UWtaN3BROVNrRGVvR2U3cGdySlBsYVljZzFLQXMwRmZIMlo0c3lGTGlyLXhUVA?oc=5",
+      "published_at": "Sun, 30 Aug 2026 08:05:38 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "Mainframe to GBP (MFT/GBP) Today | 1 MFT to GBP Live Rate & Calculator - Binance",
+      "source_name": "Binance",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5YcFJFM0h6THh3Z2dXdHpFeDVBZG1RLVBObnR2MEVpOFp0MklYRDQwUm93dFBrbVVydl9pbHFFckJtT2pPYUZMN3pNeGk2YkcxRHJ0WHFR?oc=5",
+      "published_at": "Tue, 01 Sep 2026 11:44:14 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "Revolut to test stablecoin in UK trial - Reuters",
+      "source_name": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNTmMxdW8wd2tpU3MxMU1CV0N2RGZjam5lVUc3TllCNE9pN1AwN1lULVF6Q09URWUzbmxmYmtCTmN4QXVKTHk0VnNDNlVBX1BZQW5EYlNnRnBmYjFxczFOQ2c4c0s0d21EUHBNUHlHRF96QXFYZENDeUgzaTdQTWg5X0xzRENZajlBbzF0Xzdvam1xUzFXckFqdHg5YzVidjN0RGtqTTFPU2l3UmFM?oc=5",
+      "published_at": "Thu, 26 Feb 2026 08:00:00 GMT",
+      "relevance": "market_context",
+      "freshness": "Old",
+      "default_visible": false
+    },
+    {
+      "title": "Weekly forex forecast: EUR/USD, XAU/USD, GBP/USD, USD/JPY, Bitcoin and more [Video] - FXStreet",
+      "source_name": "FXStreet",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVlVvZnY0RW82N0tnZ0VZOW5HT2xRQ0lIazBCM0QtclQyelVGNXZJY3BmVU1HTUFSdF9oRW4yX1d1aHltdGl5VWNHY3pEYzhKNkV5ZDRnU3FwNWFBNTVabnUzR3FSVkdYb3l2RlJkVFhBVmNkR3JDTkV2UFY0YXRibzBiT0FwZjlfSWQxYlZZQVZJSHM5LU1jaGo4bDF2UktoYlRnTzlObjZkZm9GVVJ3dDREX2RMTXQ3OWR1NXBjaEo?oc=5",
+      "published_at": "Mon, 31 Aug 2026 12:41:09 GMT",
+      "relevance": "unrelated",
+      "freshness": "Recent",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "GBP crypto",
+  "reasoning_quality": "Strong",
+  "reasoning_quality_note": "3 direct, fresh coin-specific headline(s) found (named the coin/project and published today or within the last 7 days).",
+  "neutral_explanation": "GBPUSDT (GBP/USDT) recorded a confirmed state flip: Gold → Blue (Bearish). Scanner score 52 (tier B Watch); market-cap rank not available. Scanner note: Valid confirmed trend flip — fresh signal. Broader crypto market context: 1090 assets scanned, 4 confirmed flips (0.4%). State distribution: Blue 61.0%, Gold 18.4%, Gray 12.7%, Unknown 7.9%. Strongest transition: Blue → Gold (3 of 4 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (3 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

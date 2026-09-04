@@ -1,0 +1,83 @@
+{
+  "symbol": "PENDLEBTC",
+  "date": "2026-09-04",
+  "generated_at": "2026-09-04T07:25:02.876164+00:00",
+  "scanner_evidence": {
+    "symbol": "PENDLEBTC",
+    "pair": "PENDLE/BTC",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "85",
+    "score_tier": "A+ Strong",
+    "market_cap_rank": "124",
+    "gray_candles": "1",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "fresh signal, clean transition",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=PENDLEBTC",
+    "execution_time": "2026-09-04T06:37:10.235767+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1090 assets scanned, 4 confirmed flips (0.4%). State distribution: Blue 61.0%, Gold 18.4%, Gray 12.7%, Unknown 7.9%. Strongest transition: Blue → Gold (3 of 4 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only."
+    ],
+    "context_generated_at": "2026-09-04T07:25:01.419274+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Pendle Surges 7.1% on Milestones and Narrative Shifts - CoinMarketCap",
+      "source_name": "CoinMarketCap",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1STndsM3RfdWM3cENCblFwWkpYMnhfeDNxclFHZGxTQlhwMnNRSVh6eFFuUUkwRVlyRGNJSXlEQzNPUTJabkROUE1jR0F1TUpjT2RXTGJlNTBjNmNPd2tRT0R1OFVtTWJoaTBSdVRVUEg?oc=5",
+      "published_at": "Thu, 03 Sep 2026 18:10:00 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "Pendle Launches New USDC Vault and Arbitrage Features - Cryptonews.net",
+      "source_name": "Cryptonews.net",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE53S3l4YU8wNHNiMWljSDBmeE9fWTMzRzUzR2EyTGpFOUVNTTk3RGNWWTFJeEVuRVZuOEtITHJPRFZfRm5BTmJKQkl1Z0RyekVZZW1wYllLWEREQQ?oc=5",
+      "published_at": "Thu, 03 Sep 2026 18:15:21 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "Price of Pendle (PENDLE) today in EUR – Quote and market trends - bit2me.com",
+      "source_name": "bit2me.com",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5ybG4ydDBZT3VkSVZTVXFUWXEtZWZXSS1tN2paZmtnelJDa254UFp6VzNzRHhXcDhPVXJCSUl4ZlltV1JXX0lfTTdlaVh0dw?oc=5",
+      "published_at": "Fri, 24 Jul 2026 13:10:57 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Valantis Uses Pendle to Launch a Market for Hyperliquid Trading Fee Discounts By Chainwire - Investing.com",
+      "source_name": "Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNcFhKWXFkNWc1SzV6bEhGRTM2OXpHNVhuZ1lQTFl5bDc5MF9fSWtkbGExOXhxbVNzZzhVSjJnaEg3RDdBbmlGOWpJbzVGRFo2SlV6QVREd1RjZG9RdWN4OFRQSkhna0RyNEFXLTBCeU1pWGhfRElGN1NLNXZ3eDRvd2RvMGpCUm9IQVAtOWQ3XzRFNXJoYlZPZ1FCOHgxY21UMDZlSGpTVlBTaFFPeWhTaktzZmVnRnZiV3hFd0I3ckUtV0xUVXN1OWlWYVNyaXFLMHc?oc=5",
+      "published_at": "Thu, 27 Aug 2026 13:13:04 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    },
+    {
+      "title": "Crypto -Insight(@raiyaseen)'s insights - Binance",
+      "source_name": "Binance",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8ya3lhYy1tS3h3aExLT0FwQVpDZVNfcTgzcmE3UEhERXVXU1R4UUtLemVRQkVlZ2tYenM4NDVybUV2bkhuVW9IZEQtSEZqc3JfVHBDOTZJSHRjY0VuejhLQmxEQlc?oc=5",
+      "published_at": "Tue, 01 Sep 2026 06:48:19 GMT",
+      "relevance": "unrelated",
+      "freshness": "Recent",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "Pendle crypto",
+  "reasoning_quality": "Strong",
+  "reasoning_quality_note": "2 direct, fresh coin-specific headline(s) found (named the coin/project and published today or within the last 7 days).",
+  "neutral_explanation": "PENDLEBTC (PENDLE/BTC) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 85 (tier A+ Strong); market-cap rank 124. Scanner note: Valid confirmed trend flip — fresh signal, clean transition. Broader crypto market context: 1090 assets scanned, 4 confirmed flips (0.4%). State distribution: Blue 61.0%, Gold 18.4%, Gray 12.7%, Unknown 7.9%. Strongest transition: Blue → Gold (3 of 4 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (4 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}
