@@ -1,7 +1,7 @@
 {
   "market": "crypto",
-  "generated_at": "2026-09-04T07:25:01.419274+00:00",
-  "scanner_summary": "1090 assets scanned, 4 confirmed flips (0.4%). State distribution: Blue 61.0%, Gold 18.4%, Gray 12.7%, Unknown 7.9%. Strongest transition: Blue → Gold (3 of 4 flips). Source: reports/private_crypto_dashboard.csv.",
+  "generated_at": "2026-09-05T07:25:02.189989+00:00",
+  "scanner_summary": "1090 assets scanned, 6 confirmed flips (0.6%). State distribution: Blue 60.2%, Gold 19.1%, Gray 12.8%, Unknown 7.9%. Strongest transition: Blue → Gold (5 of 6 flips). Source: reports/private_crypto_dashboard.csv.",
   "possible_drivers": [
     "Locally observed scanner state distribution and flip activity (see scanner_summary).",
     "General market-news coverage, reviewed for context only."
@@ -9,52 +9,52 @@
   "uncertainty_note": "Automatically collected from public RSS headlines and local scanner output. Headlines are cited, not verified for accuracy or causal connection to price movement. This is not investment advice and does not contain buy, sell, hold, or execution guidance. Human review is required before treating anything here as reliable market context.",
   "sources": [
     {
-      "title": "OpenAI puts $1 billion behind cyber defense after unveiling AI that can find zero-days",
+      "title": "XRP Ledger has fewer active accounts than last year, but bigger trades and more value",
       "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/tech/2026/09/04/openai-puts-usd1-billion-behind-cyber-defense-after-unveiling-ai-that-can-find-zero-days",
-      "published_at": "Fri, 04 Sep 2026 05:49:43 +0000",
+      "url": "https://www.coindesk.com/markets/2026/09/05/xrp-ledger-has-fewer-active-accounts-but-bigger-trades-and-more-value",
+      "published_at": "Sat, 05 Sep 2026 05:30:45 +0000",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "One full bitcoin now buys a little more than 18 ounces of gold, the most since January",
+      "title": "Southeast Asia’s crypto funding rebounds to $680 million as investors focus on mature firms",
       "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/09/04/one-full-bitcoin-now-buys-a-little-more-than-18-ounces-of-gold-the-most-since-january",
-      "published_at": "Fri, 04 Sep 2026 05:10:34 +0000",
+      "url": "https://www.coindesk.com/business/2026/09/05/southeast-asia-s-crypto-funding-rebounds-to-usd680-million-as-investors-focus-on-mature-firms",
+      "published_at": "Sat, 05 Sep 2026 05:00:00 +0000",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Bitcoin back above $81,000 as hike odds fade, Zcash leads with 15% jump",
+      "title": "Robinhood isn't backing down after AMC CEO demands halt to stock tokens",
       "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/09/04/bitcoin-back-above-usd81-000-as-hike-odds-fade-zcash-leads-with-15-jump",
-      "published_at": "Fri, 04 Sep 2026 04:22:01 +0000",
+      "url": "https://www.coindesk.com/business/2026/09/04/amc-ceo-tells-robinhood-to-stop-issuing-stock-token-as-industry-executives-weigh-in",
+      "published_at": "Fri, 04 Sep 2026 14:56:00 +0000",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "U.S. banking agency gives blockchain bank OpenReserve initial OK to operate",
+      "title": "From warning to listing: UK’s largest retail investment platform opens access to crypto ETNs",
       "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/09/03/u-s-banking-agency-gives-blockchain-bank-openreserve-initial-ok-to-operate",
-      "published_at": "Fri, 04 Sep 2026 03:26:50 +0000",
+      "url": "https://www.coindesk.com/business/2026/09/04/from-warning-to-listing-uk-s-largest-wealth-platform-opens-access-to-crypto-etns",
+      "published_at": "Fri, 04 Sep 2026 14:23:11 +0000",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "AMC CEO blasts Robinhood for stock token, putting synthetic shares in spotlight",
+      "title": "U.S. Sheriff’s association shifts opposition stance to Clarity Act to 'neutral'",
       "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/09/03/amc-ceo-blasts-robinhood-for-stock-token-putting-synthetic-shares-in-spotlight",
-      "published_at": "Fri, 04 Sep 2026 03:03:25 +0000",
+      "url": "https://www.coindesk.com/policy/2026/09/04/u-s-sheriff-s-association-shifts-opposition-stance-to-clarity-act-to-neutral",
+      "published_at": "Fri, 04 Sep 2026 14:12:34 +0000",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Here’s what happened in crypto today",
+      "title": "Surprise nonfarm payrolls print sends Bitcoin back below 80K",
       "source_name": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "Fri, 04 Sep 2026 06:22:29 +0000",
+      "url": "https://cointelegraph.com/markets/surprise-labor-market-print-sends-bitcoin-back-below-80k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "Fri, 04 Sep 2026 20:30:47 +0000",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "El Salvador’s post-review Bitcoin accumulation used no public funds: IMF",
+      "title": "Pineapple Financial puts $1B in mortgage records on Injective",
       "source_name": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/el-salvador-bitcoin-private-donations-imf?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "Fri, 04 Sep 2026 06:16:35 +0000",
+      "url": "https://cointelegraph.com/news/pineapple-financial-puts-1b-in-mortgage-records-on-injective?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "Fri, 04 Sep 2026 19:31:38 +0000",
       "note": "General market-news coverage, reviewed for context only."
     }
   ]

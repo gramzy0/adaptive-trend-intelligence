@@ -1,0 +1,83 @@
+{
+  "symbol": "TAOUSDT",
+  "date": "2026-09-05",
+  "generated_at": "2026-09-05T07:25:03.663198+00:00",
+  "scanner_evidence": {
+    "symbol": "TAOUSDT",
+    "pair": "TAO/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "57",
+    "score_tier": "B Watch",
+    "market_cap_rank": "43",
+    "gray_candles": "12",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "large-cap stability, top market cap, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=TAOUSDT",
+    "execution_time": "2026-09-05T06:36:57.962217+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1090 assets scanned, 6 confirmed flips (0.6%). State distribution: Blue 60.2%, Gold 19.1%, Gray 12.8%, Unknown 7.9%. Strongest transition: Blue → Gold (5 of 6 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only."
+    ],
+    "context_generated_at": "2026-09-05T07:25:02.189989+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Bittensor Jumps On Anthropic’s AI Model Shutdown Order — Here’s Why - Stocktwits",
+      "source_name": "Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZ0d0bEp3T3ZqRVB4bmhJWG1HNkxVcnhHXzh4RW1SZDQ3RTlHbWw1cjZQU1R2aTNuVzg1Rlh0V3ZjQ21BdlVmb2V2MEd0SkdGbGRtcWRGR19ZUW4yWDJtckZydVJDbzFmdHRwSzZoTzU5Z2RITjdJbEhScjJfZEFuVXNKa0pfaENZbzJHblZVdnZwSFRnSXQyWWtlaDhYQm8tdWZRTXNmaEpwa2lTeWEzNlZXbUVtVjhGeWMyMUJtbkZKT3M?oc=5",
+      "published_at": "Thu, 03 Sep 2026 16:28:40 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "TAO Price Doubles After Bittensor Proves Distributed AI Can Compete - CoinMarketCap",
+      "source_name": "CoinMarketCap",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxON2RQQ2lZZlpZYV9KVnl0ZTdPRXFlNlA0R3hxeDdJM1VtUHA0cm9tQ3publJTOHFkS0tjN1NwTGV0aHVNajI1TjhscVpHWUN5ZGJSRlZIblN0Unk3bFptQWttaU9iZ2NWdWRoS05OVlJGQV8zUURid19aRnk0dFdzb2xKN1kzY2VvdEFzbk5aanBQZDlJZXd1OHB4WW1pcmgwbWg1QUV4S2Q5MUpJaHc?oc=5",
+      "published_at": "Fri, 04 Sep 2026 15:44:30 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "TAO Rises 4% in 24 Hours: Is Bittensor Becoming AI Crypto’s Next Major Trade? - yellow.com",
+      "source_name": "yellow.com",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPYWkyV1VoMURHRUpMRHFUTmpzQk5WNkpCZlBfa1F3WEd3UjZVelMtUFl0clZDYjFlMmoxOWRIaTJpM0o0NnZWQ1VoS0M1M04xd1VpaUV3X19mMzI1bV9ieFNReVhaa2xJM0hxWnZNd09GR28xU1NoYldxZDhsRm1oS1RaZGxGUW94UVIzMFczSTF1UVJkalZPTWFaQi1XNkxV?oc=5",
+      "published_at": "Thu, 03 Sep 2026 16:41:31 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "Is Bittensor (TAO) the Next Crypto to Go Mainstream? - Yahoo Finance",
+      "source_name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSTNwNEJNNGdUUllQcW8wQUlxd21FOEVGTUhscUp0aVVBdGJjNDR0XzhnNVA3T1Nmd29ScW1YSkZucDBOREtPZmpsLXhOQl9jU21sLXNHMFFveUlaZW12R0pUbllpb29wdDJkdnZsR3Z3VnQ0eUVIS1JRVWt3SFg5aWFiNW1LazlqSUZTZ3ZWUm42SEttbE9Sa3pvcG9NN2U5VDZv?oc=5",
+      "published_at": "Wed, 03 Jun 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    },
+    {
+      "title": "TAO Crypto Is on Fire: Can Bittensor Price Surge to $200 Next? - Bitcoin Foundation",
+      "source_name": "Bitcoin Foundation",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNWnFNNWwwMnllUWxhWVdrTmlQTFJfV1hzajFnZVZGZmV1YkFWY21BTmdkX0p0QUhna3NUMW92b3BPQUNVd2JEX2lEeF8ySjJ4T0VpVFRwWEQxRmtYUW84ZkFwTlNxT0JHOTljcnRXS3FwcjhneUVuNmxhM1p2M2RnWktfYlhQOGZxUWFidVA1RGZBQjYwcEw4LU44VklYb0oxcl9RanVfUQ?oc=5",
+      "published_at": "Wed, 29 Jul 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "Bittensor crypto",
+  "reasoning_quality": "Strong",
+  "reasoning_quality_note": "3 direct, fresh coin-specific headline(s) found (named the coin/project and published today or within the last 7 days).",
+  "neutral_explanation": "TAOUSDT (TAO/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 57 (tier B Watch); market-cap rank 43. Scanner note: Valid confirmed trend flip — large-cap stability, top market cap, fresh signal. Broader crypto market context: 1090 assets scanned, 6 confirmed flips (0.6%). State distribution: Blue 60.2%, Gold 19.1%, Gray 12.8%, Unknown 7.9%. Strongest transition: Blue → Gold (5 of 6 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (5 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

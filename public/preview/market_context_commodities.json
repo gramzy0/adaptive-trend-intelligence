@@ -1,6 +1,6 @@
 {
   "market": "commodities",
-  "generated_at": "2026-09-04T07:25:01.419274+00:00",
+  "generated_at": "2026-09-05T07:25:02.189989+00:00",
   "scanner_summary": "No commodity scanner data available in data/output; no asset count, flip count, or state distribution can be computed locally.",
   "possible_drivers": [
     "General market-news coverage, reviewed for context only."
@@ -8,38 +8,38 @@
   "uncertainty_note": "Automatically collected from public RSS headlines and local scanner output. Headlines are cited, not verified for accuracy or causal connection to price movement. This is not investment advice and does not contain buy, sell, hold, or execution guidance. Human review is required before treating anything here as reliable market context.",
   "sources": [
     {
-      "title": "ADNOC Keeps Loading LNG as Hormuz Risks Intensify",
+      "title": "How The U.S. Fell Behind China On Nuclear Power",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/ADNOC-Keeps-Loading-LNG-as-Hormuz-Risks-Intensify.html",
-      "published_at": "Fri, 04 Sep 2026 02:00:00 -0500",
+      "url": "https://oilprice.com/Alternative-Energy/Nuclear-Power/How-The-US-Fell-Behind-China-On-Nuclear-Power.html",
+      "published_at": "Fri, 04 Sep 2026 17:00:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Brent Nears $96 as Iran Conflict Keeps Oil Market on Edge",
+      "title": "Will We Control AI—or Will AI Control Us?",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Nears-96-as-Iran-Conflict-Keeps-Oil-Market-on-Edge.html",
-      "published_at": "Fri, 04 Sep 2026 00:40:00 -0500",
+      "url": "https://oilprice.com/Energy/Energy-General/Artificial-Intelligence-Is-It-Good-Bad-or-a-Game-Changer.html",
+      "published_at": "Fri, 04 Sep 2026 16:00:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "U.S.-Venezuela Oil Deal Threatens China’s Oil-Backed Loans",
+      "title": "BLM Moves to Fast-Track Oil Permits in Alaska Petroleum Reserve",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Energy/Crude-Oil/US-Venezuela-Oil-Deal-Threatens-Chinas-Oil-Backed-Loans.html",
-      "published_at": "Thu, 03 Sep 2026 19:00:00 -0500",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/BLM-Moves-to-Fast-Track-Oil-Permits-in-Alaska-Petroleum-Reserve.html",
+      "published_at": "Fri, 04 Sep 2026 15:30:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Why Oil Majors Don’t Want to Build New U.S. Refineries",
+      "title": "Ukraine Pushes Congress for Russia Sanctions Before Election Recess",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Energy/Crude-Oil/Why-Oil-Majors-Dont-Want-to-Build-New-US-Refineries.html",
-      "published_at": "Thu, 03 Sep 2026 18:00:00 -0500",
+      "url": "https://oilprice.com/Geopolitics/Europe/Ukraine-Pushes-Congress-for-Russia-Sanctions-Before-Election-Recess.html",
+      "published_at": "Fri, 04 Sep 2026 13:00:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "AI Data Center Boom Pushes U.S. Power Equipment to the Breaking Point",
+      "title": "Citadel Eyes U.S. Shale as Oil Trading Moves Closer to the Wellhead",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Energy/Energy-General/AI-Data-Center-Boom-Pushes-US-Power-Equipment-to-the-Breaking-Point.html",
-      "published_at": "Thu, 03 Sep 2026 17:00:00 -0500",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Citadel-Eyes-US-Shale-as-Oil-Trading-Moves-Closer-to-the-Wellhead.html",
+      "published_at": "Fri, 04 Sep 2026 12:30:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {

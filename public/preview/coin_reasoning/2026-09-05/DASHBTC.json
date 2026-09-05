@@ -1,0 +1,83 @@
+{
+  "symbol": "DASHBTC",
+  "date": "2026-09-05",
+  "generated_at": "2026-09-05T07:25:03.663198+00:00",
+  "scanner_evidence": {
+    "symbol": "DASHBTC",
+    "pair": "DASH/BTC",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "90",
+    "score_tier": "A+ Strong",
+    "market_cap_rank": "80",
+    "gray_candles": "3",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "large-cap stability, top market cap, fresh signal, clean transition, high volume",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=DASHBTC",
+    "execution_time": "2026-09-05T06:36:57.962217+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1090 assets scanned, 6 confirmed flips (0.6%). State distribution: Blue 60.2%, Gold 19.1%, Gray 12.8%, Unknown 7.9%. Strongest transition: Blue → Gold (5 of 6 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only."
+    ],
+    "context_generated_at": "2026-09-05T07:25:02.189989+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Dash Surges Amid DashCon 2026 and Privacy Coin Rally, But Overbought Signals Loom - InteractiveCrypto",
+      "source_name": "InteractiveCrypto",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZnViOXJCbGkwYV9BLXF0VjVtVF9Hd3g3WEd5d2E4ajNnSS1MNkVSMTMtWWtCOGFZMkZSQ2tDeEpuazJsbzFfYjBtVmhLcjZtYjFGWGI4blFvaWFZb2xnb0pWZDA3eDZhMk5sVzJGcVZTUl9mQm1oMEFXM0pEc21LRDJCQ3BUbWRJV2J0UXZaWW1KeTJXZ3RpclFKTmVrMUUyUjhmWlVOeFhtZHFhemk0V1owYnR5WG9GUlhLRlZyZnc?oc=5",
+      "published_at": "Sat, 05 Sep 2026 01:05:12 GMT",
+      "relevance": "direct",
+      "freshness": "Today",
+      "default_visible": true
+    },
+    {
+      "title": "DASH crypto jumps 17% as privacy-coin rally spreads beyond Zcash - AMBCrypto",
+      "source_name": "AMBCrypto",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPNWJVaDlCSzMwY3RSbUxPU2pXZFJIRlRrUjVETGJaaU9WWndyVFh2bHBoRFZJVDZqYkR2MVByQzRXelRnOWxfa0JldGRnNVl2SE9ZVVZONURJYzZJSy1GQ0t6M1JacTF5aTBOck5BbTgwREF2U0VkeHZvUGNwMDY1SlpNTWFiTExZQV9rZTM3WQ?oc=5",
+      "published_at": "Fri, 04 Sep 2026 20:57:39 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "DASH Price Eyes $72 as Zcash ETF Fuels Privacy Coin Rally - CryptoRank",
+      "source_name": "CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONEpmNzRrTC1WXzE0d0xhbV9POTVxRk9ucXhVcXd4UWxOOWh2dlpsbEZDcWxzS2QyODJoRE1OelhiUGZoRTdYdmZuc2ptTVlUVFZBOTFvaF81ZmZaam9DRTRabllRWW9VMG5MMTFicHoxUDA2X1pVZnZ4RVpMNTdaLTZLYjB0X3VNYXFUMEhucGpVZTkyaUh0SXBB?oc=5",
+      "published_at": "Fri, 04 Sep 2026 18:04:32 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "DASH Price Eyes $72 as Zcash ETF Fuels Privacy Coin Rally - Coinpedia",
+      "source_name": "Coinpedia",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPWlJwQWNSQTlmUEVCTkl4YlhFZVlhOWNLVHp5SDJYdGlPZG0yY2JkdlZpSDdCeHFuNXJ5bW9mVEZVajd1ZERiVHljaTM3Z2l3T2tZNjBzR3YxNFZKcDlkcWlqLXhLZ29Bc21idTBkZF80em5zdWhPUHIzZXFjZl9TVUE5ZXRYSUNaQ2U0QdIBkgFBVV95cUxQdkJ2bFBlOVFJbDd4WXplUG9feWpxSXpZQktRTVNZRFlkbHZ5c3NXNW5NNmt0TVJXRW9TZ0k4R19pbEpJWnFReEl1MU9SZHdwZU5CVkt3VXRWRm1rZnBEVnBaWUgwVTVadVY4d2UxRkEteFk1YXFpek5NNExERzBqeWZYVW82bE8yX0ZaSVVkeDQwQQ?oc=5",
+      "published_at": "Fri, 04 Sep 2026 12:50:14 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": false
+    },
+    {
+      "title": "Bitcoin clears $81,000 as privacy coins lead a broad crypto rally: Crypto Markets Today - CoinDesk",
+      "source_name": "CoinDesk",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOT0pwanhtQ3lpOXVfUkNjNlhuZ3NmamVVRjJmY1J3emdHZGJtWDBVeE9FZERCTmduS0g2TDFFekFnaUI0bzlfOUg3bFRNTTlGN2JLdEFmWWpLVUxuemJJVVo4d09SNkFWQWUwRXp1Sk4xcVlvLU5JNmU4WkRtUlU2NnhyNi1VMzlraXRQTzAxNDVreVg0eDFsVlczNmN5WmtlSmdfOE9Oa08yalhsRG5mRA?oc=5",
+      "published_at": "Fri, 04 Sep 2026 09:57:01 GMT",
+      "relevance": "market_context",
+      "freshness": "Recent",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "Dash crypto",
+  "reasoning_quality": "Strong",
+  "reasoning_quality_note": "4 direct, fresh coin-specific headline(s) found (named the coin/project and published today or within the last 7 days).",
+  "neutral_explanation": "DASHBTC (DASH/BTC) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 90 (tier A+ Strong); market-cap rank 80. Scanner note: Valid confirmed trend flip — large-cap stability, top market cap, fresh signal, clean transition, high volume. Broader crypto market context: 1090 assets scanned, 6 confirmed flips (0.6%). State distribution: Blue 60.2%, Gold 19.1%, Gray 12.8%, Unknown 7.9%. Strongest transition: Blue → Gold (5 of 6 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (4 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

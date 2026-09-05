@@ -1,7 +1,7 @@
 {
   "market": "stocks",
-  "generated_at": "2026-09-04T07:25:01.419274+00:00",
-  "scanner_summary": "50 assets scanned, 0 confirmed flips (0.0%). State distribution: Blue 14.0%, Gold 76.0%, Gray 10.0%, Unknown 0.0%. Source: data/output/stocks_weekly_results.json, last modified 2026-06-13 (82 days ago). Stale-data warning: source file is more than 30 days old.",
+  "generated_at": "2026-09-05T07:25:02.189989+00:00",
+  "scanner_summary": "50 assets scanned, 0 confirmed flips (0.0%). State distribution: Blue 14.0%, Gold 76.0%, Gray 10.0%, Unknown 0.0%. Source: data/output/stocks_weekly_results.json, last modified 2026-06-13 (83 days ago). Stale-data warning: source file is more than 30 days old.",
   "possible_drivers": [
     "Locally observed scanner state distribution and flip activity (see scanner_summary).",
     "General market-news coverage, reviewed for context only."
@@ -9,52 +9,52 @@
   "uncertainty_note": "Automatically collected from public RSS headlines and local scanner output. Headlines are cited, not verified for accuracy or causal connection to price movement. This is not investment advice and does not contain buy, sell, hold, or execution guidance. Human review is required before treating anything here as reliable market context.",
   "sources": [
     {
-      "title": "Why you can't find McDonald's $3 value menu",
+      "title": "US official directs Fannie Mae, Freddie Mac to approve VantageScore for all lenders",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/small-business/articles/mcdonalds-3-menu-problem-hits-231000768.html",
-      "published_at": "2026-09-02T23:10:00Z",
+      "url": "https://finance.yahoo.com/news/us-official-directs-fannie-mae-024247633.html",
+      "published_at": "2026-09-04T02:42:47Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Mortgage & refinance rates today, Wednesday, September 2, 2026: Rates up double digits as Iran war reescalates",
+      "title": "Robinhood Now Runs 13 Revenue Lines Above $100 Million a Year. A 2-Month-Old Network Could Be Next.",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage--refinance-rates-today-wednesday-september-2-2026-rates-up-double-digits-as-iran-war-reescalates-100000964.html",
-      "published_at": "2026-09-02T10:00:00Z",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/robinhood-now-runs-13-revenue-024601428.html",
+      "published_at": "2026-09-04T02:46:01Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Dear Zscaler Stock Fans, Mark Your Calendars for September 3",
+      "title": "Williams Closes $5.5 Billion Momentum Midstream Acquisition",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/dear-zscaler-stock-fans-mark-192742718.html",
-      "published_at": "2026-09-02T19:27:42Z",
+      "url": "https://finance.yahoo.com/energy/articles/williams-closes-5-5-billion-030000101.html",
+      "published_at": "2026-09-04T03:00:00Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "What is the FDIC, and how does it work?",
+      "title": "Oil ETFs Are Crushing Oil Itself, Thanks to the Futures Curve",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/personal-finance/banking/article/what-is-the-fdic-and-how-does-it-work-102118542.html",
-      "published_at": "2023-12-15T22:26:49Z",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/oil-etfs-crushing-oil-itself-014911123.html",
+      "published_at": "2026-09-04T01:49:11Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Apple May Need a Foldable iPhone to Avoid a Revenue Slowdown Next Year",
+      "title": "The Williams Companies(WMB) Strengthens its Natural Gas Growth Engine with Momentum Deal",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/apple-may-foldable-iphone-avoid-193326903.html",
-      "published_at": "2026-09-02T19:33:26Z",
+      "url": "https://finance.yahoo.com/energy/articles/williams-companies-wmb-strengthens-natural-013156029.html",
+      "published_at": "2026-09-04T01:31:56Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Snowflake has a secret weapon that’s powering its stock toward a huge gain",
+      "title": "Bloom Energy was just named to the S&P 500. These other stocks are joining the index as well.",
       "source_name": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/shares-in-snowflake-are-surging-heres-what-wall-street-analysts-are-saying-0b6343c0?mod=mw_rss_topstories",
-      "published_at": "Fri, 04 Sep 2026 00:35:00 GMT",
+      "url": "https://www.marketwatch.com/story/s-p-500-changes-are-coming-soon-these-stocks-could-be-named-to-the-index-today-2d0d7c14?mod=mw_rss_topstories",
+      "published_at": "Fri, 04 Sep 2026 21:46:00 GMT",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "‘I currently give him $1,000 a month’: My grandson has severe mental illness. How do I protect him after I’m gone?",
+      "title": "Tesla’s stock falls as Cybercab launch lands with a thud",
       "source_name": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/im-desperately-trying-to-plan-ahead-im-leaving-everything-to-my-grandson-who-has-severe-mental-illness-how-can-i-protect-him-d8df2646?mod=mw_rss_topstories",
-      "published_at": "Fri, 04 Sep 2026 00:31:00 GMT",
+      "url": "https://www.marketwatch.com/story/teslas-stock-falls-as-cybercab-launch-lands-with-a-thud-1108376b?mod=mw_rss_topstories",
+      "published_at": "Fri, 04 Sep 2026 20:18:00 GMT",
       "note": "General market-news coverage, reviewed for context only."
     }
   ]

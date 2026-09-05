@@ -1,0 +1,83 @@
+{
+  "symbol": "CHIPUSDT",
+  "date": "2026-09-05",
+  "generated_at": "2026-09-05T07:25:03.663198+00:00",
+  "scanner_evidence": {
+    "symbol": "CHIPUSDT",
+    "pair": "CHIP/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "62",
+    "score_tier": "B Watch",
+    "market_cap_rank": "255",
+    "gray_candles": "8",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=CHIPUSDT",
+    "execution_time": "2026-09-05T06:36:57.962217+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1090 assets scanned, 6 confirmed flips (0.6%). State distribution: Blue 60.2%, Gold 19.1%, Gray 12.8%, Unknown 7.9%. Strongest transition: Blue → Gold (5 of 6 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only."
+    ],
+    "context_generated_at": "2026-09-05T07:25:02.189989+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "AI News: Tradoor Sinks, TAO Stabilizes, USD.AI Surges - CoinMarketCap",
+      "source_name": "CoinMarketCap",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNay1QTS1Cb3Q4dXRlN21IYlZhTUFoZFYxV3ZSTjM2aVlUbWVvM1FXM0NzOTFTSWRhbzFod1RrU0Y4cUUzYkxjalNEUEw3UTc3M2padUhHNHBEQ29tRl85dVQzdXNmSFJFNEtZYXk4U2czVXNvZmE2UVo2WUV4b3ZTVC04QjJWTUhjblZjV1RiZ3JmT0h6b3c?oc=5",
+      "published_at": "Sun, 30 Aug 2026 04:00:07 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "USD.AI: The AI-Narrative Token Posting $428M Daily Volume At A $126M Valuation - yellow.com",
+      "source_name": "yellow.com",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQRzFLRVRwSTZNdGZtbDc5c1VNcTJRWVFRS3NVb3dicjUyMWV0UUFIanA2RUkxdGRGVGUyVEMwM3pmVGV2UmpJQVFERU9OdThtMi1lRlozdU9BY3FDZHdVaTA1ZVNMYUk2a0txYlY5V0hqSWZMMzU3SlJFVW1VTElFSEx2cXJLUk02c2tMVGRFMTJ6VmxRRmJBQUI1N1FxVHptVGdXTkRwbXc?oc=5",
+      "published_at": "Tue, 01 Sep 2026 08:10:06 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "USD.AI Price Prediction 2026, 2027, 2030 & Beyond: Yearly Forecast - Binance",
+      "source_name": "Binance",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE45RVJwVTF4TG02aUxXWmRydEhFU1VqcHZoSUE3T1pGb2hrSXUzVG16WUlKNE91RmowRXpFc3dCdWZ4eDNKbFVCYmIzcHp3Zm15ZGlGXzVUS0E3aU1TUGo4?oc=5",
+      "published_at": "Thu, 03 Sep 2026 09:08:00 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "Bullish Provides $100 Million to USD.AI for AI Chip Financing - Yahoo Finance",
+      "source_name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOUmdKRkJyajUxeWdQVmZfbmxRbmZLSnJwRHVOSHdOSXVhZlg3UjNWUExlUWpLb1dTc1g1ZXJmdDViOEF1VHl6WnpPNzBXNm9rd0xwandTWEZIX0JjbjJwQ2Y1MXAwSzVUc3VTS0pxdWJRZW9qVE9NOXB2MXRPUkRNMFJyTTBtX2xPaTBnVnZnSGdxMUhKbmFQLUZjZEg?oc=5",
+      "published_at": "Fri, 28 Aug 2026 14:59:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    },
+    {
+      "title": "USD.AI Price, CHIP Price, Live Charts, and Marketcap: chip coin, chip token, chip coin price - Coinbase Spain - Coinbase",
+      "source_name": "Coinbase",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1lT0lKYjZxSWlncWJPWk5NcGFtazlxRHFqUE80Wmo1cm9VMGJtS25tcDN2SVZuTFdkaURtRHRfWmNINkhpNmUyaC16YXA3MldSWTJfbm81Nk9jQQ?oc=5",
+      "published_at": "Fri, 28 Aug 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "USD.AI crypto",
+  "reasoning_quality": "Strong",
+  "reasoning_quality_note": "3 direct, fresh coin-specific headline(s) found (named the coin/project and published today or within the last 7 days).",
+  "neutral_explanation": "CHIPUSDT (CHIP/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 62 (tier B Watch); market-cap rank 255. Scanner note: Valid confirmed trend flip — fresh signal. Broader crypto market context: 1090 assets scanned, 6 confirmed flips (0.6%). State distribution: Blue 60.2%, Gold 19.1%, Gray 12.8%, Unknown 7.9%. Strongest transition: Blue → Gold (5 of 6 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (5 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

@@ -1,0 +1,83 @@
+{
+  "symbol": "DOGEUSDT",
+  "date": "2026-09-05",
+  "generated_at": "2026-09-05T07:25:03.663198+00:00",
+  "scanner_evidence": {
+    "symbol": "DOGEUSDT",
+    "pair": "DOGE/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "62",
+    "score_tier": "B Watch",
+    "market_cap_rank": "12",
+    "gray_candles": "12",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "large-cap stability, top market cap, fresh signal, high volume",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=DOGEUSDT",
+    "execution_time": "2026-09-05T06:36:57.962217+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1090 assets scanned, 6 confirmed flips (0.6%). State distribution: Blue 60.2%, Gold 19.1%, Gray 12.8%, Unknown 7.9%. Strongest transition: Blue → Gold (5 of 6 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only."
+    ],
+    "context_generated_at": "2026-09-05T07:25:02.189989+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Bitcoin, Ethereum, XRP, Dogecoin Plunge 2% as Jobs Report Spurs Rate Hike Bets - Benzinga",
+      "source_name": "Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOMFRORHB1VEtKR3Jzb2JuQWpRTXFUVVhjWlFydGc0d2M0MW5uWDg3SFFLc0VFTm50cUhmcTMydlU1VFM0V05OX0F4SE1ZRUE4ZEQ0Umx5b2xxM001MWRSQTNiZmsxdWcydkFZM3hYV2tvSEJFWUw3Z0FGdk1hUFY0RjNDWDRFSXR4bklFMGdNYTRUVTdfZmpQZ1JoRlJqRXRoTmt0NGhmaHAydl8yckxOVnI0U2ItTGF3dVk3OFpmQmJXWWU1eklHQlZIR0N3UXVZM2c?oc=5",
+      "published_at": "Fri, 04 Sep 2026 18:06:34 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "Why Is Dogecoin Down? - The Motley Fool",
+      "source_name": "The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5PQlhqVVA0ckgzQ01DTk1rVF9SZkszNDBOREVudTluT3BfbVc4TmEzVm9RTjU2UUIxbmZaYjdlaTNpQVdQOWFaSW1xQXQxNjdtU3JXNHpNVDU1dDRFd0hCQVRXemZCYVZsMDY0RUx2cUk?oc=5",
+      "published_at": "Fri, 04 Sep 2026 22:35:00 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "Why Is Dogecoin Down? - Yahoo Finance",
+      "source_name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQTWFPT2NlNXBuRkNVSVE2dVBQaDFKdV8wOHYxVGdNbWQ2WmExNUE3bDhNU2lGcmZyNFVvRDJRWG5EUTJqRDktZUplSjB2SnJaMXR0YUR1VnNrekJhcVJ0TG0yZm1HR2x4V3llLVRfbmFxNHpnaU0wTi1tbTRPbUhzd3ZjMXZRMFAxWXc?oc=5",
+      "published_at": "Fri, 04 Sep 2026 21:55:08 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "Can This Popular Altcoin Hit a Price of $1 by 2027? The Answer Will Blow Your Mind - The Motley Fool",
+      "source_name": "The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRGIxeGNIUUI2dkFDOU9vSm42VnZSdW9jdUpsUmN3LTJvcHl0cmNoQXVXWVlaaDBMVEhUN1NrY0QyWUl3YkJTeWktQ1ZQMFVPa08zV21lTzlRY3FVQWdpS2REY1dKNzFJRDEtV0cxdzBVQktwY01BbWg0N2xWbzBKV0Jua0tlMmhLRl9OTHdYQjhWWEx3N051QQ?oc=5",
+      "published_at": "Wed, 02 Sep 2026 11:24:00 GMT",
+      "relevance": "market_context",
+      "freshness": "Recent",
+      "default_visible": false
+    },
+    {
+      "title": "Top firm dumps XRP but keeps Bitcoin - thestreet.com",
+      "source_name": "thestreet.com",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOSkxPR3Y0OG5Hc0s1MjdwZXBvNWdhckVscF9VeFA5Yl9EOGRscE9XOGR1djZQTlV3N0FQaWduWUk3Wm1yNC1VT3hCdHUtdS1DLUNiSmtHeExMNklMLWJtNV9HS1lZZ0xBSTI2c2hWbERUa3ZTVW93bWwtd09OaVlOUWxDOA?oc=5",
+      "published_at": "Wed, 02 Sep 2026 17:43:32 GMT",
+      "relevance": "market_context",
+      "freshness": "Recent",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "Dogecoin crypto",
+  "reasoning_quality": "Strong",
+  "reasoning_quality_note": "3 direct, fresh coin-specific headline(s) found (named the coin/project and published today or within the last 7 days).",
+  "neutral_explanation": "DOGEUSDT (DOGE/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 62 (tier B Watch); market-cap rank 12. Scanner note: Valid confirmed trend flip — large-cap stability, top market cap, fresh signal, high volume. Broader crypto market context: 1090 assets scanned, 6 confirmed flips (0.6%). State distribution: Blue 60.2%, Gold 19.1%, Gray 12.8%, Unknown 7.9%. Strongest transition: Blue → Gold (5 of 6 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (3 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

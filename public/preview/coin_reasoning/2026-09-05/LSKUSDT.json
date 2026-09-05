@@ -1,0 +1,83 @@
+{
+  "symbol": "LSKUSDT",
+  "date": "2026-09-05",
+  "generated_at": "2026-09-05T07:25:03.663198+00:00",
+  "scanner_evidence": {
+    "symbol": "LSKUSDT",
+    "pair": "LSK/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "62",
+    "score_tier": "B Watch",
+    "market_cap_rank": "756",
+    "gray_candles": "9",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "small-cap potential, small-cap high risk, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=LSKUSDT",
+    "execution_time": "2026-09-05T06:36:57.962217+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1090 assets scanned, 6 confirmed flips (0.6%). State distribution: Blue 60.2%, Gold 19.1%, Gray 12.8%, Unknown 7.9%. Strongest transition: Blue → Gold (5 of 6 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only."
+    ],
+    "context_generated_at": "2026-09-05T07:25:02.189989+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Lisk is Shutting Down Its Blockchain After 10 Years. It was Once Worth $4 Billion - BeInCrypto",
+      "source_name": "BeInCrypto",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1wZk1qMmVYd2FNTnJieDd0VUNySnQ1SVIxZS1UWGc5SkdWTmVMOEZQZGZKM3N4eXB0RmpScnIzWHhHaHc3bURKLTJEalhTMFBaeFJlcVVaZTFOejMwZWxldy1ESDJqUU1t?oc=5",
+      "published_at": "Tue, 25 Aug 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Lisk to Shut Down Chain on Oct. 31, Pivots to Enterprise Payments and Burns 25% of LSK Supply - CryptoRank",
+      "source_name": "CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWXBoQkNpNDdtVnQyMmo3dHJ0SGl0OHRQM0RRY2pFaDNxTTlaUXNHelhpMmFIR2Ryb3FjUDJ4dkxyNUFlUjZMV3dSQjRSRVhXdXpiRzRMbm5nVmpsSWRWczFFOE0tLXVRTnZEb09wR2tHLU9XTkVNNGN2aXVEdHBMQzRhSQ?oc=5",
+      "published_at": "Thu, 27 Aug 2026 13:10:06 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "REALITY CHECK | Lisk’s Africa Bet Ends as Blockchain Shuts Down - BitKE",
+      "source_name": "BitKE",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBaZnFUQXZzVk5WOTc5Zm9qdHhFMlBQZExmaE1RdWxfeUhZREpJaGdmVlZ0Z05FbnJNRkM0cEluNFlfNUptQnZ1VlJsamxVWXdvNWRheE1nbXk?oc=5",
+      "published_at": "Wed, 26 Aug 2026 12:00:47 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "What is Lisk Coin (LSK) and is it a Good Investment? - crypto.news",
+      "source_name": "crypto.news",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8xM281VS1uS3g4eWNLVjlfV2V0alVwRVpIREZXZHBKV1ZYeDJ1WVdXYktFMjE2Wnppd1FuaWRPODJ6X2U1SkhMRFBmMzV3QWN0VHoyMFBXelRXZVpiMTRURGFSVTFudi1iOEloeHFDM3M1dms?oc=5",
+      "published_at": "Fri, 26 Jun 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    },
+    {
+      "title": "Lisk to Shut Down Its Own Chain at End of October, Pivoting Fully to Corporate Finance Platform - finance.biggo.com",
+      "source_name": "finance.biggo.com",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9MYTdtQWxwSmpTTnhnVEVGZ2c1R1VpTFJUZGkxQVZkZjQ2aEhJdE1pMDdfN2tEOWgxc01nM2xvUU1hTXA1SzA0QjdXWkpwdE9lbi1YdzZaSEpzdW82T2FyX3NxSlQwbmszdkE5b1IzR3pfVWUydVE?oc=5",
+      "published_at": "Thu, 27 Aug 2026 01:06:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "Lisk crypto",
+  "reasoning_quality": "Medium",
+  "reasoning_quality_note": "Relevant evidence found (5 direct but not fresh headline(s)), but no headline is both coin-specific and fresh. Treat this as supporting context, not confirmation.",
+  "neutral_explanation": "LSKUSDT (LSK/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 62 (tier B Watch); market-cap rank 756. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 1090 assets scanned, 6 confirmed flips (0.6%). State distribution: Blue 60.2%, Gold 19.1%, Gray 12.8%, Unknown 7.9%. Strongest transition: Blue → Gold (5 of 6 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (5 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

@@ -1,0 +1,83 @@
+{
+  "symbol": "ZROUSDT",
+  "date": "2026-09-05",
+  "generated_at": "2026-09-05T07:25:03.663198+00:00",
+  "scanner_evidence": {
+    "symbol": "ZROUSDT",
+    "pair": "ZRO/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "57",
+    "score_tier": "B Watch",
+    "market_cap_rank": "120",
+    "gray_candles": "12",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=ZROUSDT",
+    "execution_time": "2026-09-05T06:36:57.962217+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1090 assets scanned, 6 confirmed flips (0.6%). State distribution: Blue 60.2%, Gold 19.1%, Gray 12.8%, Unknown 7.9%. Strongest transition: Blue → Gold (5 of 6 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only."
+    ],
+    "context_generated_at": "2026-09-05T07:25:02.189989+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Kraken Drops LayerZero for Chainlink After $292M Kelp Exploit - CoinMarketCap",
+      "source_name": "CoinMarketCap",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQOFN1OGFRS3lYVkdic00wTTZKenpkZVZzOHBkZEZTMmVDWXBCWFNYNkNIWXZzRkpCNE1CcHU5d0RkUlZfbi1iX0xoVGtDdmlZRVBHVHc4UnctZUIxV1VUYktka2tPQjljMFRpdVFGcU1kMTVGZTNBeEp6MWd1WWZVZ0VDT2ZKRnMtclVpUg?oc=5",
+      "published_at": "Fri, 04 Sep 2026 18:35:25 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "LayerZero Says Zero Blockchain Can Process 5 Million Transactions a Second - bloomingbit",
+      "source_name": "bloomingbit",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9BQkU0Zndfazl4X29Xb3d0UldjZmNrY1ZTV1h2MzI4ZU44ZnpmQV9KSFBZZUY2X3JuYm1jZkZHWEZsV2tUMXlxcmZfTEFDMVMzb2Rlbw?oc=5",
+      "published_at": "Mon, 31 Aug 2026 14:29:05 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "LayerZero’s ZRO Token Sees $36.5M Volume As Cross-Chain Narrative Builds - yellow.com",
+      "source_name": "yellow.com",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNUlVlbW5JYXR4NVJfZkJ2cUFYWUhIRlRQMEI3V0pLM3REcEJ1cENpeDB4N01lWGRZUndQWm91V1hiZ1NxbmlLd2NRSnhvR3k2MmMtRGxpQ3hCX2RFM2F2TWlWaTFJYkc3cFdiTTRBS29XUTIzTk5IRXR1Uk8tM2JWckZWdFlBNUJFQUVR?oc=5",
+      "published_at": "Thu, 03 Sep 2026 17:53:52 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "LayerZero’s Zero Blockchain Claims Scalability to 5 Million TPS - CryptoRank",
+      "source_name": "CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObW1DV2pjcHVjc29OSXhGTVFZeThZQ0pfejJHZ2pSdXNqaFRpSVczQmVuOTZNN1BDRU5FcGhkdEpkOHhFUWdjNjItUndvY1UteTdSSVJSTGFpX2RkNS1sYkhoQnc0MzluYnYweENnTFJuR3NuM0N3dXliRGYycW5BVTN6aw?oc=5",
+      "published_at": "Mon, 31 Aug 2026 19:27:09 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": false
+    },
+    {
+      "title": "LayerZero unveils trading infrastructure for crypto and tokenized markets, ZRO surges - CoinDesk",
+      "source_name": "CoinDesk",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNRjNoWXZiY2pyVm9ESnEzQThxYW1EbWIwOGNoaTh6dXBXTmRySnlGM01TaXRmcS0tZmtqa1JnQXlTbTR6Qk92U1FYRDg0NUtXdTg4WTZWdXBuUWx0aWVkU2Z3SEVxb2JXdWRHRFJCbl95YXFjNmZMM3g3ZU5DNGRGVEJieGxFVlZYRWNsaVF5YkZNVTNZNUZiZktjeWV6aGlFWkY3cnZNQ01YX2hCZU9SMHE4Qks5bmZ0ZFZxT0JPS2V5VjVBMHJoSA?oc=5",
+      "published_at": "Tue, 25 Aug 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "LayerZero crypto",
+  "reasoning_quality": "Strong",
+  "reasoning_quality_note": "4 direct, fresh coin-specific headline(s) found (named the coin/project and published today or within the last 7 days).",
+  "neutral_explanation": "ZROUSDT (ZRO/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 57 (tier B Watch); market-cap rank 120. Scanner note: Valid confirmed trend flip — fresh signal. Broader crypto market context: 1090 assets scanned, 6 confirmed flips (0.6%). State distribution: Blue 60.2%, Gold 19.1%, Gray 12.8%, Unknown 7.9%. Strongest transition: Blue → Gold (5 of 6 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (5 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}
