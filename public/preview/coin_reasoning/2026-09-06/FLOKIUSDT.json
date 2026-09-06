@@ -1,0 +1,83 @@
+{
+  "symbol": "FLOKIUSDT",
+  "date": "2026-09-06",
+  "generated_at": "2026-09-06T07:25:03.638943+00:00",
+  "scanner_evidence": {
+    "symbol": "FLOKIUSDT",
+    "pair": "FLOKI/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "37",
+    "score_tier": "C Weak",
+    "market_cap_rank": null,
+    "gray_candles": "13",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=FLOKIUSDT",
+    "execution_time": "2026-09-06T06:37:30.602607+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1091 assets scanned, 7 confirmed flips (0.6%). State distribution: Blue 59.8%, Gold 19.6%, Gray 12.6%, Unknown 8.0%. Strongest transition: Blue → Gold (6 of 7 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only."
+    ],
+    "context_generated_at": "2026-09-06T07:25:02.199364+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "FLOKI Set to Surge, Says Renowned Bitcoin Analyst - Yellow.com",
+      "source_name": "Yellow.com",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQUGdYT1RYQ1poNF9vM2NrSVRkYTJkSUE5UnpIVzB4eng4X2hYc3V0TWhudkdzT1FVU1NfY0NTbFZTTzNyb202MXUtenJqMWlGdV8ySG5LUjJEQUZ6ZzRVd0JXeDlyeTNPUlBGVTVoR0FWTS1fV2VxVnBpRUlUNTItZVhhLTlmMkJJZF90cktPYUM?oc=5",
+      "published_at": "Sun, 30 Aug 2026 17:04:08 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "Just 5 Days Left: Apeing’s Upcoming Crypto Presale Fuels 100x Buzz as FLOKI and Official Trump Make Headlines - Bitget",
+      "source_name": "Bitget",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBXNDRqWE1uN3czVEt0RTlGcWZNcklNSmVCSGE2WnNNVE0tWWpyeEwzZHRSYnFVOVJhRm1wcV83MERvLVhpaHVCdVo3VXotMjRPUnEtUzU3UEZjLTF3Ty1wU3g0RdIBY0FVX3lxTFBXNDRqWE1uN3czVEt0RTlGcWZNcklNSmVCSGE2WnNNVE0tWWpyeEwzZHRSYnFVOVJhRm1wcV83MERvLVhpaHVCdVo3VXotMjRPUnEtUzU3UEZjLTF3Ty1wU3g0RQ?oc=5",
+      "published_at": "Fri, 04 Sep 2026 13:13:45 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "The Daily Breakdown's Crypto Corner: JASMY & FLOKI - eToro",
+      "source_name": "eToro",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQLTI3NHFKd0tLYV9aa1BhclNBM3hmM3dXVkktZmJ6VjdweEJIMjRNQ0dRV1NPRmwyY3RmS1ZHa25EeEJXSmRIUnFYNHd0dWtXbFBCNlRjVFd6V2NBeVlOUG9rSlRwLUdQYXc3OGZqZjZPNVh2ZVAzTkdDUF9tcVZqbl9JdjVBSzYxeFp2Q2dMTXJFNHV0YnN3?oc=5",
+      "published_at": "Wed, 11 Mar 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "PEPE, SHIB, FLOKI Seeing Massive Whale Moves, but It’s Risky - Yahoo Finance",
+      "source_name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPa2tSc1VjWUhzR1dDY1V5emw3R0gyeHJuRzhLU05jbDNibm91cmZWeVE5SVg5ZkRVSGZMTkd4a0hEanpodFdQUXlHSkVGSVdDM3lWUHl0TXU5X2xUVFA1S19VRmdTQXFBYVJyY0pGRGl0bXBXWm5ManJuVmY4Q0NwVUd3?oc=5",
+      "published_at": "Thu, 08 Jan 2026 08:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    },
+    {
+      "title": "Dogecoin and Floki Got Away While You Waited: APEING Could Be the Next 100x Meme Coin With Over 12,000+ Whitelist Members - StreetInsider",
+      "source_name": "StreetInsider",
+      "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPUl9Pb2JQMWJRS2l1M1htUTh6THM5QU02bGNtZ3JDbzQ2SkRnWW5ROFpBdGxfVExXZnJUZnVueGpIdFZXaHZ2RmFIazBKSmtaaVREMFpWdm9faGd6TVFpMkVrR2JJQVVjQzVUYXdfTVNnaUgtZE9HVml2d3BBRkt0alZqSzdTLTZwNThmbC1PZGRlQWItWXo4UGxfN2ZobVlBYnhuUjBKU3ViUENNX2lsVU5ET2tKcHljcHJ0dEprVC1BZEhTMmxwWXFZX3pOamJsY1VFSU5zcUx2ZmVzTDZxdTVmeW9YakpJWkRzZFJzZm1yd3BicVZzbjk1SjF5eDhXblhSdi1UeUcxaDZFWC1HUWtwN2pvdw?oc=5",
+      "published_at": "Sun, 23 Aug 2026 18:20:23 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "FLOKI crypto",
+  "reasoning_quality": "Strong",
+  "reasoning_quality_note": "2 direct, fresh coin-specific headline(s) found (named the coin/project and published today or within the last 7 days).",
+  "neutral_explanation": "FLOKIUSDT (FLOKI/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 37 (tier C Weak); market-cap rank not available. Scanner note: Valid confirmed trend flip — fresh signal. Broader crypto market context: 1091 assets scanned, 7 confirmed flips (0.6%). State distribution: Blue 59.8%, Gold 19.6%, Gray 12.6%, Unknown 8.0%. Strongest transition: Blue → Gold (6 of 7 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (5 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

@@ -1,0 +1,83 @@
+{
+  "symbol": "DCRUSDT",
+  "date": "2026-09-06",
+  "generated_at": "2026-09-06T07:25:03.638943+00:00",
+  "scanner_evidence": {
+    "symbol": "DCRUSDT",
+    "pair": "DCR/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "57",
+    "score_tier": "B Watch",
+    "market_cap_rank": "143",
+    "gray_candles": "12",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=DCRUSDT",
+    "execution_time": "2026-09-06T06:37:30.602607+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1091 assets scanned, 7 confirmed flips (0.6%). State distribution: Blue 59.8%, Gold 19.6%, Gray 12.6%, Unknown 8.0%. Strongest transition: Blue → Gold (6 of 7 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only."
+    ],
+    "context_generated_at": "2026-09-06T07:25:02.199364+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Decred (DCR) Price Prediction 2026 2027 2028 - 2040 - changelly.com",
+      "source_name": "changelly.com",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5wZnVGMjFReUdwdlJmRUhHaW5US2RxaGJEOVBid1dqb2JCdG5EeVpyZDBOY29qWXpBRFZlUl9QOXR5QWJQMW9QWnd4MDNoM1JhS3JoeGZ6cmlpNjYyRlVUeDdkTXZ0UQ?oc=5",
+      "published_at": "Fri, 04 Sep 2026 13:31:41 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "BTC price falls with ETH, SOL while decred, AI-linked tokens advance: Crypto Markets Today - CoinDesk",
+      "source_name": "CoinDesk",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQYUc1VzRKTFR5eG5YQ1haeTdjTFNmVXVkeFVlZVVVZ3R3SWxfWmtibFhiamozbElueEdmZUV4bzFpa1UwaGRNRjFvQi1OQU84elFMQUhzWHZHdkxfS0puVGhHSThrcDQ0QTI0NmppNmNNX1M3VXQ5RFF0VnVObVphcTl4YTNUMjJQS2JOOG40QlRXYU9FOHFLS3pKVzJ3eWhmck8yb2JxVU5wcjN3aGpia01OUQ?oc=5",
+      "published_at": "Fri, 27 Feb 2026 08:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Decred patches critical flaw that could enable mixing deanonymization attack - Crypto News",
+      "source_name": "Crypto News",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxONjVxOWFscXZmUThMOUFyaDEtMW5IYmM4X0N4Y2pPRGtraWEyeHdPR09GdEJGSW1xRDNET1h5R2ZVQkpaVjlxRi1qck9HeU1md0tBSXcyWHBxUVhXenoyaGFsV0ljek55LTNoRnhFX2EtVlR3TkV0SGw3NjE0Q05vVm1wQTZMaXgzS3VObWdSc1VOejVoWVhMSFNaRk40Zw?oc=5",
+      "published_at": "Wed, 19 Aug 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Decred Price Prediction 2026-2030: the Critical Analysis of DCR’s $1000 Potential - Binance",
+      "source_name": "Binance",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5DaU51QjB5M19uRVY1NjhoWnJEbjN0TjJvRk9DbUZNNXFWVUs2QVJyZXg4d1pTb2ZzUEtZNm1LNFlXUTJRcWFGdURHWXY5S3ZCcW1TRzlmYi1vbXJFYzV6WE05cks?oc=5",
+      "published_at": "Tue, 14 Apr 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    },
+    {
+      "title": "Cryptocurrencies Price Prediction: Solana, Bitcoin & Aster — Asian Wrap 09 February - FXStreet",
+      "source_name": "FXStreet",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOQzZkczFwUjRyLUtvdkY1MWhXODIzXzd3ZnNJYVRYUkJ4SHFsdVUzNVVUWlAyeFVXZzZscGR3OTU0VEdoQ1k2bDdNTEtEV05ZQXVzLUV4S2p0RC1qS3ZmUlFDTlVmbk9yTUphcG1TQzZpUm5aOTEzRmowRGJSZWQ4Z2hBSGx4QWM0V1lnRENoSHh3N0llWXRwN0tSZm1OdEVUT3dKdEQzaUNKOUlvaFlhUTBEMDlKZUdRWFE3ajZ1OUNKUjZsbHlVQUFVSDRuSmxzX2NF0gHYAUFVX3lxTE1ocFdVWXpGR2Z2VmI4cTJ0bUY0a3VBXzlFMnFYRDdmcFctaUdiR05zZ0k0MkFaWS1ZVFhmSnliUVp1eUVoQmFJS1pILXA1cWM1ZWE2WUtPVUlaZWxGbFYzNU54RlJoQ1dGejBuVHRKUmxzcFR0WGtuS01UUVpycEJGZkV3TndCOHVZUW5ubmt3c3VYU0x4eTR6OWQ0eXZYXzBtaVU1dDR5S25hSW5fUTNaTDk2TWhyem1tNGJzUktaWldaUG1xejJKbndBdjVfX013eUp3VWNmQg?oc=5",
+      "published_at": "Wed, 02 Sep 2026 05:21:05 GMT",
+      "relevance": "market_context",
+      "freshness": "Recent",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "Decred crypto",
+  "reasoning_quality": "Strong",
+  "reasoning_quality_note": "1 direct, fresh coin-specific headline(s) found (named the coin/project and published today or within the last 7 days).",
+  "neutral_explanation": "DCRUSDT (DCR/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 57 (tier B Watch); market-cap rank 143. Scanner note: Valid confirmed trend flip — fresh signal. Broader crypto market context: 1091 assets scanned, 7 confirmed flips (0.6%). State distribution: Blue 59.8%, Gold 19.6%, Gray 12.6%, Unknown 8.0%. Strongest transition: Blue → Gold (6 of 7 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (4 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

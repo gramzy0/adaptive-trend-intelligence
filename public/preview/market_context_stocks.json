@@ -1,60 +1,61 @@
 {
   "market": "stocks",
-  "generated_at": "2026-09-05T07:25:02.189989+00:00",
-  "scanner_summary": "50 assets scanned, 0 confirmed flips (0.0%). State distribution: Blue 14.0%, Gold 76.0%, Gray 10.0%, Unknown 0.0%. Source: data/output/stocks_weekly_results.json, last modified 2026-06-13 (83 days ago). Stale-data warning: source file is more than 30 days old.",
+  "generated_at": "2026-09-06T07:25:02.199364+00:00",
+  "scanner_summary": "50 assets scanned, 0 confirmed flips (0.0%). State distribution: Blue 14.0%, Gold 76.0%, Gray 10.0%, Unknown 0.0%. Source: data/output/stocks_weekly_results.json, last modified 2026-06-13 (84 days ago). Stale-data warning: source file is more than 30 days old.",
   "possible_drivers": [
     "Locally observed scanner state distribution and flip activity (see scanner_summary).",
-    "General market-news coverage, reviewed for context only."
+    "General market-news coverage, reviewed for context only.",
+    "Security-incident-related coverage"
   ],
   "uncertainty_note": "Automatically collected from public RSS headlines and local scanner output. Headlines are cited, not verified for accuracy or causal connection to price movement. This is not investment advice and does not contain buy, sell, hold, or execution guidance. Human review is required before treating anything here as reliable market context.",
   "sources": [
     {
-      "title": "US official directs Fannie Mae, Freddie Mac to approve VantageScore for all lenders",
+      "title": "ChronoScale Says It Plans a 50 MW Microsoft AI Deployment. Can CHRN Fund the Build Without Diluting Shareholders?",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/news/us-official-directs-fannie-mae-024247633.html",
-      "published_at": "2026-09-04T02:42:47Z",
+      "url": "https://finance.yahoo.com/technology/ai/articles/chronoscale-says-plans-50-mw-231034421.html",
+      "published_at": "2026-09-04T23:10:34Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Robinhood Now Runs 13 Revenue Lines Above $100 Million a Year. A 2-Month-Old Network Could Be Next.",
+      "title": "Concrete Pumping (BBCP) Raised Outlook and Initiated a Dividend After Revenue Growth. Can Infrastructure Demand Fund Returns and Deleveraging?",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/robinhood-now-runs-13-revenue-024601428.html",
-      "published_at": "2026-09-04T02:46:01Z",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/concrete-pumping-bbcp-raised-outlook-231319705.html",
+      "published_at": "2026-09-04T23:13:19Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Williams Closes $5.5 Billion Momentum Midstream Acquisition",
+      "title": "Jim Cramer Bullish on MP Materials (MP) But Warns Investors Not to Expect Quick Results",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/energy/articles/williams-closes-5-5-billion-030000101.html",
-      "published_at": "2026-09-04T03:00:00Z",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-bullish-mp-materials-231441735.html",
+      "published_at": "2026-09-04T23:14:41Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Oil ETFs Are Crushing Oil Itself, Thanks to the Futures Curve",
+      "title": "Ambarella (AMBA) Grew 2Q Revenue 13.2% and Signed 7-Year Channel Agreements. Can Edge-AI Scale Reverse Margin Compression?",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/oil-etfs-crushing-oil-itself-014911123.html",
-      "published_at": "2026-09-04T01:49:11Z",
+      "url": "https://finance.yahoo.com/technology/ai/articles/ambarella-amba-grew-2q-revenue-231537538.html",
+      "published_at": "2026-09-04T23:15:37Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "The Williams Companies(WMB) Strengthens its Natural Gas Growth Engine with Momentum Deal",
+      "title": "Self-Driving’s Next Task: Potholes",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/energy/articles/williams-companies-wmb-strengthens-natural-013156029.html",
-      "published_at": "2026-09-04T01:31:56Z",
+      "url": "https://www.barrons.com/articles/self-drivings-next-task-potholes-a696a3f5?siteid=yhoof2&yptr=yahoo",
+      "published_at": "2026-09-04T23:17:00Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Bloom Energy was just named to the S&P 500. These other stocks are joining the index as well.",
+      "title": "‘Poverty doesn’t have to be my reality’: I thought I’d have to rely on Social Security. Then I taught myself how to invest.",
       "source_name": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/s-p-500-changes-are-coming-soon-these-stocks-could-be-named-to-the-index-today-2d0d7c14?mod=mw_rss_topstories",
-      "published_at": "Fri, 04 Sep 2026 21:46:00 GMT",
-      "note": "General market-news coverage, reviewed for context only."
+      "url": "https://www.marketwatch.com/story/i-didnt-know-what-i-didnt-know-i-thought-id-have-to-depend-on-social-security-then-i-taught-myself-how-to-invest-0129870b?mod=mw_rss_topstories",
+      "published_at": "Sat, 05 Sep 2026 23:45:00 GMT",
+      "note": "Security-incident-related coverage"
     },
     {
-      "title": "Tesla’s stock falls as Cybercab launch lands with a thud",
+      "title": "Why does almost nobody want to befriend older people like me — except scammers?",
       "source_name": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/teslas-stock-falls-as-cybercab-launch-lands-with-a-thud-1108376b?mod=mw_rss_topstories",
-      "published_at": "Fri, 04 Sep 2026 20:18:00 GMT",
+      "url": "https://www.marketwatch.com/story/why-does-almost-nobody-want-to-befriend-older-people-like-me-except-scammers-fda849d1?mod=mw_rss_topstories",
+      "published_at": "Sat, 05 Sep 2026 23:07:00 GMT",
       "note": "General market-news coverage, reviewed for context only."
     }
   ]

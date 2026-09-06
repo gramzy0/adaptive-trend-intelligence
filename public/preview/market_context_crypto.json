@@ -1,13 +1,34 @@
 {
   "market": "crypto",
-  "generated_at": "2026-09-05T07:25:02.189989+00:00",
-  "scanner_summary": "1090 assets scanned, 6 confirmed flips (0.6%). State distribution: Blue 60.2%, Gold 19.1%, Gray 12.8%, Unknown 7.9%. Strongest transition: Blue → Gold (5 of 6 flips). Source: reports/private_crypto_dashboard.csv.",
+  "generated_at": "2026-09-06T07:25:02.199364+00:00",
+  "scanner_summary": "1091 assets scanned, 7 confirmed flips (0.6%). State distribution: Blue 59.8%, Gold 19.6%, Gray 12.6%, Unknown 8.0%. Strongest transition: Blue → Gold (6 of 7 flips). Source: reports/private_crypto_dashboard.csv.",
   "possible_drivers": [
     "Locally observed scanner state distribution and flip activity (see scanner_summary).",
     "General market-news coverage, reviewed for context only."
   ],
   "uncertainty_note": "Automatically collected from public RSS headlines and local scanner output. Headlines are cited, not verified for accuracy or causal connection to price movement. This is not investment advice and does not contain buy, sell, hold, or execution guidance. Human review is required before treating anything here as reliable market context.",
   "sources": [
+    {
+      "title": "Why crypto experts say buying and holding bitcoin easily beats trying to time the market",
+      "source_name": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/09/05/why-crypto-experts-say-buying-and-holding-bitcoin-easily-beats-trying-to-time-the-market",
+      "published_at": "Sat, 05 Sep 2026 18:05:11 +0000",
+      "note": "General market-news coverage, reviewed for context only."
+    },
+    {
+      "title": "Dollar-backed stablecoins can push local currencies lower, Bank of Korea study finds",
+      "source_name": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/09/05/dollar-backed-stablecoins-can-push-local-currencies-lower-bank-of-korea-study-finds",
+      "published_at": "Sat, 05 Sep 2026 16:43:13 +0000",
+      "note": "General market-news coverage, reviewed for context only."
+    },
+    {
+      "title": "British investor thought he lost $2,000 in bitcoin in 2012. He just recovered $4.5 million",
+      "source_name": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/09/02/british-investor-thought-he-lost-usd2-000-in-bitcoin-in-2012-he-just-recovered-usd4-5-million",
+      "published_at": "Sat, 05 Sep 2026 12:00:00 +0000",
+      "note": "General market-news coverage, reviewed for context only."
+    },
     {
       "title": "XRP Ledger has fewer active accounts than last year, but bigger trades and more value",
       "source_name": "CoinDesk",
@@ -23,38 +44,17 @@
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Robinhood isn't backing down after AMC CEO demands halt to stock tokens",
-      "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/09/04/amc-ceo-tells-robinhood-to-stop-issuing-stock-token-as-industry-executives-weigh-in",
-      "published_at": "Fri, 04 Sep 2026 14:56:00 +0000",
-      "note": "General market-news coverage, reviewed for context only."
-    },
-    {
-      "title": "From warning to listing: UK’s largest retail investment platform opens access to crypto ETNs",
-      "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/09/04/from-warning-to-listing-uk-s-largest-wealth-platform-opens-access-to-crypto-etns",
-      "published_at": "Fri, 04 Sep 2026 14:23:11 +0000",
-      "note": "General market-news coverage, reviewed for context only."
-    },
-    {
-      "title": "U.S. Sheriff’s association shifts opposition stance to Clarity Act to 'neutral'",
-      "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/09/04/u-s-sheriff-s-association-shifts-opposition-stance-to-clarity-act-to-neutral",
-      "published_at": "Fri, 04 Sep 2026 14:12:34 +0000",
-      "note": "General market-news coverage, reviewed for context only."
-    },
-    {
-      "title": "Surprise nonfarm payrolls print sends Bitcoin back below 80K",
+      "title": "Here’s what happened in crypto today",
       "source_name": "CoinTelegraph",
-      "url": "https://cointelegraph.com/markets/surprise-labor-market-print-sends-bitcoin-back-below-80k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "Fri, 04 Sep 2026 20:30:47 +0000",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "Sat, 05 Sep 2026 11:16:19 +0000",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Pineapple Financial puts $1B in mortgage records on Injective",
+      "title": "Poland upholds crypto bill veto as Zondacrypto scandal widens",
       "source_name": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/pineapple-financial-puts-1b-in-mortgage-records-on-injective?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "Fri, 04 Sep 2026 19:31:38 +0000",
+      "url": "https://cointelegraph.com/news/poland-upholds-crypto-bill-veto-zondacrypto-scandal-widens?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "Sat, 05 Sep 2026 10:44:29 +0000",
       "note": "General market-news coverage, reviewed for context only."
     }
   ]

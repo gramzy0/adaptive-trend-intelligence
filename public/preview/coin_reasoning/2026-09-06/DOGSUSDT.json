@@ -1,0 +1,83 @@
+{
+  "symbol": "DOGSUSDT",
+  "date": "2026-09-06",
+  "generated_at": "2026-09-06T07:25:03.638943+00:00",
+  "scanner_evidence": {
+    "symbol": "DOGSUSDT",
+    "pair": "DOGS/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "62",
+    "score_tier": "B Watch",
+    "market_cap_rank": "771",
+    "gray_candles": "9",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "small-cap potential, small-cap high risk, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=DOGSUSDT",
+    "execution_time": "2026-09-06T06:37:30.602607+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1091 assets scanned, 7 confirmed flips (0.6%). State distribution: Blue 59.8%, Gold 19.6%, Gray 12.6%, Unknown 8.0%. Strongest transition: Blue → Gold (6 of 7 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only."
+    ],
+    "context_generated_at": "2026-09-06T07:25:02.199364+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Dogs - The Block",
+      "source_name": "The Block",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE53RlpGNEhqLTFPeUtSMENKeDB4alJ3cWlVd0N6aVhBaDgwb1ZSQXN4ZWllUHlXa0l6Y2RNRGd5MWREdk1VMlZoRmNn?oc=5",
+      "published_at": "Thu, 13 Aug 2026 00:48:25 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Ripple CLO: More Americans Own Crypto Than Pet Dogs, Signaling Mainstream Shift - CryptoRank",
+      "source_name": "CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9mS25tWlZDYlNPMWhXbVAySEE4b1Y4SHVXV0VtdVBXbkNNV1hvd29OZHl4bjFpWFVJNHg3U1lRWE14MUVJVXBDMVRCRFF5WFZkZzl4bmdBdXdnMTlWWjNCdXNBcEYxN04tYzZDcExuQXphbGF5bGhUN21RTzZvR1U?oc=5",
+      "published_at": "Tue, 18 Aug 2026 19:50:07 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Dogecoin Foundation Donates 1 Million DOGE for Dogs in America - Yahoo Finance",
+      "source_name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQeWdGaDcwR0RlekRCa3NpQ0Y4Zk9MUHVUSk5ma0x1cTR1QjlFdXJPd0czNjc2dHkzbElTS2l1eC04cWRSZC1Qb09iaUwwUVhucFZDam5uS2ZzYnBXNWJSS1NMWmtqVWxrdFEyWkdGc3hEbGd3UU5pV2x2ZHpDRk1sYkRfVWtZWkJaLWdpcl9iaU9ieC1KQktoWlNxUTJEaFNxTkp2dg?oc=5",
+      "published_at": "Wed, 22 Apr 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Dogecoin, SHIB price news: Crypto rally reaches cat and dog tokens as some jump 100% - CoinDesk",
+      "source_name": "CoinDesk",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUXBaOVlscEF0dlRtaFpRZmFnSnZic09FRWZVem5TM3FNU3ZQUnFJNWlueFY3UndfZERZTnVlbDFROWZvMGs0NWFsa25uQXBsN013SG5NS2hWSXd0X0xLU1hLUWJzd3hOSWlQMzlIZnV2VTFhR1gwdkloa29DaHhvZm5NbnFVMHBldGU3QnNnM1kwN2U5LXZ3bnl1UE50VGpaS2pYbDZQRHpFZzBfVW1uUUlVVG1obk5SZnM1b1RWbWRzMW8?oc=5",
+      "published_at": "Tue, 25 Aug 2026 06:26:29 GMT",
+      "relevance": "unrelated",
+      "freshness": "Old",
+      "default_visible": false
+    },
+    {
+      "title": "This International Dog Day, Binance celebrates a rescue story close to home - Crypto News",
+      "source_name": "Crypto News",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNandBa21IUC1pakVhYmhCalRtWkJsaXR3dDdNNmVXWkRKcmQyLWVRenY5ejBrTWwzamN0SDlvcWVpZU4zTjRjXzJnRWxQb0phazdlRjhGaEo3QzJSXzRMOTVONmI5REducGFjb0g2bFFhbVJOVVhEVV9mUVBGd0dacFZZbTlhVGhpenJlbmVqaWFTaVNVWDVhU0pVMA?oc=5",
+      "published_at": "Wed, 26 Aug 2026 07:00:00 GMT",
+      "relevance": "unrelated",
+      "freshness": "Old",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "Dogs crypto",
+  "reasoning_quality": "Medium",
+  "reasoning_quality_note": "Relevant evidence found (3 direct but not fresh headline(s)), but no headline is both coin-specific and fresh. Treat this as supporting context, not confirmation.",
+  "neutral_explanation": "DOGSUSDT (DOGS/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 62 (tier B Watch); market-cap rank 771. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 1091 assets scanned, 7 confirmed flips (0.6%). State distribution: Blue 59.8%, Gold 19.6%, Gray 12.6%, Unknown 8.0%. Strongest transition: Blue → Gold (6 of 7 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (3 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

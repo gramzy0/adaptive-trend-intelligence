@@ -1,6 +1,6 @@
 {
   "market": "commodities",
-  "generated_at": "2026-09-05T07:25:02.189989+00:00",
+  "generated_at": "2026-09-06T07:25:02.199364+00:00",
   "scanner_summary": "No commodity scanner data available in data/output; no asset count, flip count, or state distribution can be computed locally.",
   "possible_drivers": [
     "General market-news coverage, reviewed for context only."
@@ -8,38 +8,38 @@
   "uncertainty_note": "Automatically collected from public RSS headlines and local scanner output. Headlines are cited, not verified for accuracy or causal connection to price movement. This is not investment advice and does not contain buy, sell, hold, or execution guidance. Human review is required before treating anything here as reliable market context.",
   "sources": [
     {
-      "title": "How The U.S. Fell Behind China On Nuclear Power",
+      "title": "Iran War Forces a Rewrite of Global Oil Trade Routes",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Alternative-Energy/Nuclear-Power/How-The-US-Fell-Behind-China-On-Nuclear-Power.html",
-      "published_at": "Fri, 04 Sep 2026 17:00:00 -0500",
+      "url": "https://oilprice.com/Energy/Crude-Oil/Iran-War-Forces-a-Rewrite-of-Global-Oil-Trade-Routes.html",
+      "published_at": "Sat, 05 Sep 2026 18:00:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Will We Control AI—or Will AI Control Us?",
+      "title": "Japan, South Korea and the U.S. Forge a New Nuclear Alliance",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Energy/Energy-General/Artificial-Intelligence-Is-It-Good-Bad-or-a-Game-Changer.html",
-      "published_at": "Fri, 04 Sep 2026 16:00:00 -0500",
+      "url": "https://oilprice.com/Alternative-Energy/Nuclear-Power/Japan-South-Korea-and-the-US-Forge-a-New-Nuclear-Alliance.html",
+      "published_at": "Sat, 05 Sep 2026 16:00:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "BLM Moves to Fast-Track Oil Permits in Alaska Petroleum Reserve",
+      "title": "America Is Betting Big on a New Generation of Small Nuclear Reactors",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/BLM-Moves-to-Fast-Track-Oil-Permits-in-Alaska-Petroleum-Reserve.html",
-      "published_at": "Fri, 04 Sep 2026 15:30:00 -0500",
+      "url": "https://oilprice.com/Alternative-Energy/Nuclear-Power/America-Is-Betting-Big-on-a-New-Generation-of-Small-Nuclear-Reactors.html",
+      "published_at": "Sat, 05 Sep 2026 14:00:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Ukraine Pushes Congress for Russia Sanctions Before Election Recess",
+      "title": "This Cattle Feedlot Turns Manure Into 1.2 Million MMBtu of Natural Gas a Year",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Geopolitics/Europe/Ukraine-Pushes-Congress-for-Russia-Sanctions-Before-Election-Recess.html",
-      "published_at": "Fri, 04 Sep 2026 13:00:00 -0500",
+      "url": "https://oilprice.com/Energy/Natural-Gas/Nebraska-Cattle-Feedlot-Turns-Manure-Into-12-Million-MMBtu-of-Natural-Gas-a-Yea.html",
+      "published_at": "Sat, 05 Sep 2026 12:00:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Citadel Eyes U.S. Shale as Oil Trading Moves Closer to the Wellhead",
+      "title": "Green Bonds Hit Record High Despite Persistent Challenges",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Citadel-Eyes-US-Shale-as-Oil-Trading-Moves-Closer-to-the-Wellhead.html",
-      "published_at": "Fri, 04 Sep 2026 12:30:00 -0500",
+      "url": "https://oilprice.com/Energy/Energy-General/Green-Bonds-Hit-Record-High-Despite-Persistent-Challenges.html",
+      "published_at": "Sat, 05 Sep 2026 10:00:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {

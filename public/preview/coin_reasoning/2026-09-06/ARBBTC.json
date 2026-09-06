@@ -1,0 +1,83 @@
+{
+  "symbol": "ARBBTC",
+  "date": "2026-09-06",
+  "generated_at": "2026-09-06T07:25:03.638943+00:00",
+  "scanner_evidence": {
+    "symbol": "ARBBTC",
+    "pair": "ARB/BTC",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "90",
+    "score_tier": "A+ Strong",
+    "market_cap_rank": "65",
+    "gray_candles": "2",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "large-cap stability, top market cap, fresh signal, clean transition, high volume",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=ARBBTC",
+    "execution_time": "2026-09-06T06:37:30.602607+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1091 assets scanned, 7 confirmed flips (0.6%). State distribution: Blue 59.8%, Gold 19.6%, Gray 12.6%, Unknown 8.0%. Strongest transition: Blue → Gold (6 of 7 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only."
+    ],
+    "context_generated_at": "2026-09-06T07:25:02.199364+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Arbitrum jumps nearly 46%, leading crypto gains amid growing interest in Ethereum layer-2 solutions. - Pluang",
+      "source_name": "Pluang",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNSGlDQU9ic2xNVEE3M3gzTWstX0U4OVlHZXhOUFRUWGo0YnR3bS1PbVpWZ0ZRQjE5ZktkRUJCV2toX1NKRUgtOU03ZDBRaWNEYk02Y2JZeUpCT1U0TFpENXlKdFNsY00xaUh6OFJYNEFQVTI2bzV4ODNXZGNoNHRNWHFjVVFOc3htQk5jSGNiQ0pkRHRMeExOX0xR?oc=5",
+      "published_at": "Sun, 06 Sep 2026 02:27:47 GMT",
+      "relevance": "direct",
+      "freshness": "Today",
+      "default_visible": true
+    },
+    {
+      "title": "Arbitrum (ARB) price jumps 30% after revenue surge from its partnership with Robinhood - CoinDesk",
+      "source_name": "CoinDesk",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOd3ZzaU9OUUtHdGI1Z2dIdzNEU3YtdU5hUVJ5NEpIMVFPVElJTGhXV2JGdS1aTFlUWTA3cy1jdG5JUS1YSktTaUMxRWxsV1h4U1BlY1c4dUMyRWptVjM5enhiLU5VYXRNNDh2c29JNl9zc0FVS3d3NUtjdjNoSlA3S2hKQnU2QWw4SzJ1UE1pT0w2SE1XaVZyS29NeWZ4OGdfenptWkROd1FoRVl3MHhUSm9zQWo4N0tFckYtVmpySkNRU19SamVWZXBRRFZvQQ?oc=5",
+      "published_at": "Tue, 01 Sep 2026 15:28:29 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "Kelp DAO Exploiter Moves $175M in ETH After Arbitrum Freeze - CoinMarketCap",
+      "source_name": "CoinMarketCap",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOUjI5c2FFd1VFOUlUdFdGQ3MzeUQ4akU2UmxYTlZXWHVUN3NucGhzYWtiQjczUFJwdDRHS05mNGlLN0QwTlNzY3JVTk5rb3IxZGFieVV3SzFqS05YUExSUUp5NUVVMkY5RDFrRE93YkFPM2ZESjRJQTI5bVZSLUtfdW56dXNCRDhRQTEwaFFPclkwY1M3dk1ia29TQVJPdmN1MmlBMVN0Ymtkdw?oc=5",
+      "published_at": "Sat, 05 Sep 2026 17:56:39 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "Arbitrum Surges 38%. Its $206 Million Economy Is Not ARB Revenue - TechStock²",
+      "source_name": "TechStock²",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOSG1nTEZHMWtxWnp0SXVDR3JBLWl3ejhsbzNZTTJoekRsTEowbzdjTllCS3Z6QVhaaEF3WlhQMTdycWlZaFdjVmE1WTItZ2VwT0tBb0dNcndFNzhiMTFmUmdBd2stZW9KUkdKSkdXVG1fSjhxXzlVeDVGV1RsMmZacmhlcmhZX2tmNUE?oc=5",
+      "published_at": "Sat, 05 Sep 2026 22:35:53 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": false
+    },
+    {
+      "title": "Arbitrum (ARB) Jumps 35%: Robinhood’s Billion-Dollar Chain Could Change the Token’s Outlook - Bitcoin Foundation",
+      "source_name": "Bitcoin Foundation",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOckwtMnE0TVpzOU81UTJtb1NBUWItb1V6MlY2NkRFUE5CNnNKY0F4VnJVQ2lfYVVsamZFTFBQUlJHd1pWWkJUYXB2UUdQeDI0VFZCU1B6UHl1Mk9TdVlOVTVmOXFLd0RtNVo5OTJzZmx0NGM3dFpwMjZhZmU1MWUxZkN0VV9YY0I0WW43RExrTU9pcDFlaDR4Y1gwako5MC1yU0N5dHUyUVgwbDVSeFlmanEtbmUtczVpVlBKNmlGYUhmQUFKYXJRRmRn?oc=5",
+      "published_at": "Tue, 01 Sep 2026 10:58:40 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "Arbitrum crypto",
+  "reasoning_quality": "Strong",
+  "reasoning_quality_note": "5 direct, fresh coin-specific headline(s) found (named the coin/project and published today or within the last 7 days).",
+  "neutral_explanation": "ARBBTC (ARB/BTC) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 90 (tier A+ Strong); market-cap rank 65. Scanner note: Valid confirmed trend flip — large-cap stability, top market cap, fresh signal, clean transition, high volume. Broader crypto market context: 1091 assets scanned, 7 confirmed flips (0.6%). State distribution: Blue 59.8%, Gold 19.6%, Gray 12.6%, Unknown 8.0%. Strongest transition: Blue → Gold (6 of 7 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (5 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

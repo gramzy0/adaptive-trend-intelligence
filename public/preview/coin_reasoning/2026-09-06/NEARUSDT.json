@@ -1,0 +1,83 @@
+{
+  "symbol": "NEARUSDT",
+  "date": "2026-09-06",
+  "generated_at": "2026-09-06T07:25:03.638943+00:00",
+  "scanner_evidence": {
+    "symbol": "NEARUSDT",
+    "pair": "NEAR/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "69",
+    "score_tier": "A Good",
+    "market_cap_rank": "34",
+    "gray_candles": "5",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "large-cap stability, top market cap, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=NEARUSDT",
+    "execution_time": "2026-09-06T06:37:30.602607+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1091 assets scanned, 7 confirmed flips (0.6%). State distribution: Blue 59.8%, Gold 19.6%, Gray 12.6%, Unknown 8.0%. Strongest transition: Blue → Gold (6 of 7 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only."
+    ],
+    "context_generated_at": "2026-09-06T07:25:02.199364+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "NEAR Protocol Price Is Back Above $2: What’s Behind The Rally? - Coinpedia",
+      "source_name": "Coinpedia",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNNzE2aWRfYVFBT2NLMW5ETUtBcVFrSHE0Nnl5bFBaX2thN01JU1MyZ0dJQlJwUk5nN0dNX016dUpXSGNuWi01TmZvLWJXd3ZIM2pGQ2F2aVB5N1BEdW9odHNOUmlxal9wbGRFTkUwS0lWN0wzcC1EcUJZaTNmMGdpaUR3UEVoTGVMNkRWT1FFc3Y3T2ZzQXpVcVRaV2bSAaIBQVVfeXFMT1J1NU5aUGQzeWlCNm9lNDk2Rm9SYl9vUnBNYWRUVThyWDRHLVhzOURUc01uNklYdDBJckJKZnBZMlp6cGdMaFFFVGpZZzFlZmplNW8wb21oOEJseEZzUUJzR3NjUUVCeTk4TEFnUzNWT212cjZiRTNMNzdQRWZNaldPaTQ3dEI1alFRdGhwZF9mV1VXWlRtX291ZmMzWEhpcjJB?oc=5",
+      "published_at": "Sat, 05 Sep 2026 12:41:15 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "Venice Token, Near Protocol, Worldcoin Tokens Jump as AI Tailwinds Rise - Benzinga",
+      "source_name": "Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNWpzdDhxVklTdkR4OFhoejU0bjlLcjlmUHVBaHBJZ3c4d0ZXWUNlUTNtRlQyNUxHZUFpejNQeWhzaEpWY2FMajBLa3hQY1ZUeW9jeGs0a1lGNFM2NGtJNXZfUm42Z1NSaVdsN2NKRFhUc3ZhUmk2Vk5PMjVRZ1NrcmdxWjZqTHM1Q1Brd2RnYmRLNjJ3MU1EZmM0RFJucEZOc0NyS2VHSE0tQzROaG9NV0tuTng4U1E?oc=5",
+      "published_at": "Sat, 05 Sep 2026 18:20:17 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "NEAR: Revenue Growth Mirrors ZEC Rally Path - blockchain.news",
+      "source_name": "blockchain.news",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNbUNKQmVsTm14M3RIVENUOTJPcVkzSWZseEJLSVNUR3FBT0ppUnM4VFc0Z0x6bjJVOFJLOXQ1N180RDEzNWdFT1prUUctZkdsUklTaVMxT3c0VUZoSEx6LXZCT1Ewdk9ldllPc3R1bEVCRWZIc1c2ek11aHlfR2ZJb0hR?oc=5",
+      "published_at": "Fri, 04 Sep 2026 19:17:20 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "NEAR Protocol Launches AI Infrastructure to Empower Users - Cryptonews.net",
+      "source_name": "Cryptonews.net",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5VWWQ2Q3Y4X3hrdzlDZDZ1ckVMOGFDcXNkWGlIdC1MaURvMjZERTlZamZuN2k0WDJZaHhUVmh0akRFQ2xybDRENHExMzdaNVJJSWlLc01xLXdoUQ?oc=5",
+      "published_at": "Sat, 05 Sep 2026 17:04:14 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": false
+    },
+    {
+      "title": "NEAR Protocol Surges 6% as $10.1 Million Institutional Inflows Drive Crypto Rally - Yellow.com",
+      "source_name": "Yellow.com",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQczBCd1k4SXdzdk5RRmRRZ2dfSWdwTVZreDZiRXl1NnhVTWxWX0Myd3ZTVGEwcUVnUHBzSzF3OExub3BSWnpmNjJtdFdqTEVNS3V4V1NLY0czNG1OdC1iX3VPeHFuNk5KS0lHdEI0aGt0VGdXTHZ2aTAxa1VDQVFQRy1URm1fRWF4cG5NTW5fZUdrUWtmT21pZE00N1BkV2VKV29qU1F3cjdUN29ZT0pfenpKZV9UUUlTWnpoN0tlYm5sRDlVMTQ0aw?oc=5",
+      "published_at": "Thu, 03 Sep 2026 16:34:37 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "NEAR Protocol crypto",
+  "reasoning_quality": "Strong",
+  "reasoning_quality_note": "5 direct, fresh coin-specific headline(s) found (named the coin/project and published today or within the last 7 days).",
+  "neutral_explanation": "NEARUSDT (NEAR/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 69 (tier A Good); market-cap rank 34. Scanner note: Valid confirmed trend flip — large-cap stability, top market cap, fresh signal. Broader crypto market context: 1091 assets scanned, 7 confirmed flips (0.6%). State distribution: Blue 59.8%, Gold 19.6%, Gray 12.6%, Unknown 8.0%. Strongest transition: Blue → Gold (6 of 7 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (5 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

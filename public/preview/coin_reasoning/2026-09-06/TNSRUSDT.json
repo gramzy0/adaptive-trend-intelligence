@@ -1,0 +1,83 @@
+{
+  "symbol": "TNSRUSDT",
+  "date": "2026-09-06",
+  "generated_at": "2026-09-06T07:25:03.638943+00:00",
+  "scanner_evidence": {
+    "symbol": "TNSRUSDT",
+    "pair": "TNSR/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "62",
+    "score_tier": "B Watch",
+    "market_cap_rank": "698",
+    "gray_candles": "12",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "small-cap potential, small-cap high risk, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=TNSRUSDT",
+    "execution_time": "2026-09-06T06:37:30.602607+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "1091 assets scanned, 7 confirmed flips (0.6%). State distribution: Blue 59.8%, Gold 19.6%, Gray 12.6%, Unknown 8.0%. Strongest transition: Blue → Gold (6 of 7 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only."
+    ],
+    "context_generated_at": "2026-09-06T07:25:02.199364+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Tensor Price Prediction 2026: Will TNSR Crypto Reverse Its Downtrend as Solana NFTs Rebound? - Bitcoin Foundation",
+      "source_name": "Bitcoin Foundation",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPcUVWVEEzSkNTa2REd201WjZUdFRxa3prcmc0T3VKelllcDlsRWhPOVlTLWtkdlR1aUctREEzRjVvTXRLSkloWkZORmdwNmdiMXgyUV9nb01JMl9ET214MkR5b09uUkR2ckxyalVob1Y2TzVwd0REcGx5Z1VMWWp2MERqUUZZNkR3NUQ1VjJGU0dEWExMNzdhNTkxSkFvc0pFQ1Y2QXVRb01JOFd2c0h0YlcxVUtscnhsbDBOUi1Ib0kzQkJfaVI2WGVZcExLYUw2UVkyTkttVDRwVDI1THc?oc=5",
+      "published_at": "Mon, 22 Jun 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Tensor Price Prediction 2026, 2027-2030: Will TNSR Rise? - CoinDCX",
+      "source_name": "CoinDCX",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5XU3hneVliMWlmTEpGMWpWLWVOOHhQdGJEdWhKdlZSaFNHVm9aTGhEOERxVWFjQ2x0NmpvVjlxblQ4Y1lpUGFISmtOWkZ5RGg5MEZ2RXN4Q2JHdWF6TW13X2VTamxVN1lwODktSXB0OTlBT2hhbHc?oc=5",
+      "published_at": "Sun, 21 Jun 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Solana News: Coinbase, Tensor and SEC Cook as Markets Bounce - Yahoo Finance",
+      "source_name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNzhWbEtKMWdkRVZ5OUVYLTNBTVZRQmZMMU9qYWxOaVVtZjlDTk5RTXZqWVpWbFQ1UW5DeXE5WWYwR1gzTXVaSnlaRnZCd25Pdm14LUp5OFdzZGNZRDJVQVdmU0RoVTRYT3BOLWlnTmd0dkF4T1ZHU2JZa3ZfVkNxZVZKTVA5ZzBIcFRQRWo4TmdtQkVGamlMZjdpVFc?oc=5",
+      "published_at": "Tue, 25 Nov 2025 08:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Coinbase to acquire Vector.fun, the Tensor-built Solana trading platform, to advance 'everything exchange' vision - The Block",
+      "source_name": "The Block",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNR0JBcEZXUTRsSHFUMTRodEt3Nm9EN2N3VUdCNzdTa09wYldJeUE2MGE1MnJkRkp4dV9FUEFyc0lGWTVac3kzd0w1RXhKNThBMWpoUFNOOE5ENDlrMzcyOWtlU1ZINHJNYUxsNk5GLUtZWXMwSlJYT3EtZUhxNllvc09abl9QWE9GcUZOejFKWU9zXzUxUGlvUXl3anBESV9CVllWZTdlbE43RTdvMzI2VFM3SQ?oc=5",
+      "published_at": "Fri, 21 Nov 2025 08:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    },
+    {
+      "title": "Tensor (TNSR) Surge: Solana’s NFT Trader Hub Breaks Out in Style - Finance Magnates",
+      "source_name": "Finance Magnates",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRDA1ZUVDdHRGV25NUGVIQVRiRDB2cVhhSXZOSXdWU05ORkZSS2R3aHNOUW1qR0lnUFV3bkhZMmhRQVRBbk5aMHJYOXZGNHk0SVE0UVNjMUlRdkJMb01UTldWZUx2WkpWcFVDelVJUUg0aUZxbUs0RmdkU1d0dWZYZHU3TkxfY0tGTGY3UW04LXd0V1RwQlVjNVotbVZLdTg2OERPZw?oc=5",
+      "published_at": "Fri, 21 Nov 2025 08:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "Tensor crypto",
+  "reasoning_quality": "Medium",
+  "reasoning_quality_note": "Relevant evidence found (5 direct but not fresh headline(s)), but no headline is both coin-specific and fresh. Treat this as supporting context, not confirmation.",
+  "neutral_explanation": "TNSRUSDT (TNSR/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 62 (tier B Watch); market-cap rank 698. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 1091 assets scanned, 7 confirmed flips (0.6%). State distribution: Blue 59.8%, Gold 19.6%, Gray 12.6%, Unknown 8.0%. Strongest transition: Blue → Gold (6 of 7 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (5 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}
