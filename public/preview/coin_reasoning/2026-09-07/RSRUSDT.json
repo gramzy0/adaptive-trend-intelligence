@@ -1,0 +1,84 @@
+{
+  "symbol": "RSRUSDT",
+  "date": "2026-09-07",
+  "generated_at": "2026-09-07T07:25:03.614055+00:00",
+  "scanner_evidence": {
+    "symbol": "RSRUSDT",
+    "pair": "RSR/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "62",
+    "score_tier": "B Watch",
+    "market_cap_rank": "302",
+    "gray_candles": "14",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "small-cap potential, small-cap high risk, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=RSRUSDT",
+    "execution_time": "2026-09-07T06:36:22.767599+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "506 assets scanned, 6 confirmed flips (1.2%). State distribution: Blue 26.5%, Gold 34.4%, Gray 23.5%, Unknown 15.6%. Strongest transition: Blue → Gold (6 of 6 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only.",
+      "Security-incident-related coverage"
+    ],
+    "context_generated_at": "2026-09-07T07:25:02.178310+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Reserve Rights Price Prediction 2026, 2027 – 2030: Is RSR Token A Good Investment? - Coinpedia",
+      "source_name": "Coinpedia",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPZVYyMkx2OWRFNVZUN0NVME9zc3BFTVBNMUdxN1d1X2hSZWEwMkxkU1ZzNWRxbnRlZ0lsT0NPZFlLbmZTOWRUVjJGNWpyc091c1VfbEdQbnVHRGFiUGxNVW9XVTk5eHNwRnVPSmR2QW1lNFEwZGZ3N2FEMnFJY3lHX9IBhgFBVV95cUxOXy1OalRGQmZGTDM5XzVGOUdBaWtGZ0hsNkFQTWRtaGxnd0NWNnd3T00yaTk5UldKal9fZGFVUHZSbTMzSldlLXpUZFVSeG1QM25Vb3l5WHZweGpybTY5eGI2eEdJanRyZktfNDRUVzlUaDU2cXk0dTF0RUhpSm10dEhhY3RCZw?oc=5",
+      "published_at": "Wed, 17 Jun 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Price of Reserve Rights (RSR) today in EUR – Quote and market trends - Bit2Me",
+      "source_name": "Bit2Me",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1EYmFZVmEyLV9mNUZsU29kVGI0QkJaS1JnMGlGSWJBZnN4RVo2TzF2SGdpRFFUbzI0cnZWbGZvUzVBNndxdDZBdFgtMHhEakkzcjRPUg?oc=5",
+      "published_at": "Mon, 27 Jul 2026 06:51:16 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "What is Reserve Rights (RSR) Token - OKX",
+      "source_name": "OKX",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5MZXNtakxpR2dlSWNUODZtU2RDazRONVVVUjc5bFVLejVMRVRQZnEwd21xWDNhYW9FWkcxSU1TR1JMYW1pR3V2bFgxVDJybk1sY1ktQkJUN01UY0FURnV1UFhtcmg3NFZZdGc?oc=5",
+      "published_at": "Fri, 12 Dec 2025 08:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Reserve Rights (RSR) - Unlocking Pause - 17 January 2026 - TradingView",
+      "source_name": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUEpINDV5U2ZjR2lsQjVkdk8xT3JyYTJVV0RpUDkzT1M3UWFWOG9CX3AxeTd2ckhKcEthSVJFOUZxa3F5UjlGMnpoVTZ6dEtzVFkyR253MDVDU2FOSmd6UVJQTVlXdjZiSmFkT2RqaW9BWVpTY3g0UWV4eS1QNVlXVUJYZmRXVElFdHZhOUctSmFidVNZMUc5LUNhdEpNWnNlcXNyUEE0bWVMYVY2VmM4WWg4TGI?oc=5",
+      "published_at": "Fri, 16 Jan 2026 08:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    },
+    {
+      "title": "USWR Crypto: Revolutionary Water Investment or Just Another Solana Memecoin? - Bitcoin Foundation",
+      "source_name": "Bitcoin Foundation",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZnFyWlFYbVEyNkxlOXRlSmFKUThPYzNFWWU2eXlGUUVrMlRsMkJXZjM2azNNc3cybVoyMEw3Y2JYX0kzQjFpUDduSDlScEZvR3pPUERjdEQydG83Vk5rRzlORWJGb3RzX28xY1lRRUFBXzZQdmN5NlhnaEFuc1JEXzdlbFJkYVBKTF9TSEF1Wl9WZW93aHVJUnBSamxVOWlzMmh5S0x5bDRvNnEwcXZkeVNlQ3Job3JWaG1J?oc=5",
+      "published_at": "Tue, 23 Jun 2026 07:00:00 GMT",
+      "relevance": "market_context",
+      "freshness": "Old",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "Reserve Rights crypto",
+  "reasoning_quality": "Medium",
+  "reasoning_quality_note": "Relevant evidence found (4 direct but not fresh, 1 sector/market-wide headline(s)), but no headline is both coin-specific and fresh. Treat this as supporting context, not confirmation.",
+  "neutral_explanation": "RSRUSDT (RSR/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 62 (tier B Watch); market-cap rank 302. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 506 assets scanned, 6 confirmed flips (1.2%). State distribution: Blue 26.5%, Gold 34.4%, Gray 23.5%, Unknown 15.6%. Strongest transition: Blue → Gold (6 of 6 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (4 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

@@ -1,6 +1,6 @@
 {
   "market": "commodities",
-  "generated_at": "2026-09-06T07:25:02.199364+00:00",
+  "generated_at": "2026-09-07T07:25:02.178310+00:00",
   "scanner_summary": "No commodity scanner data available in data/output; no asset count, flip count, or state distribution can be computed locally.",
   "possible_drivers": [
     "General market-news coverage, reviewed for context only."
@@ -8,38 +8,38 @@
   "uncertainty_note": "Automatically collected from public RSS headlines and local scanner output. Headlines are cited, not verified for accuracy or causal connection to price movement. This is not investment advice and does not contain buy, sell, hold, or execution guidance. Human review is required before treating anything here as reliable market context.",
   "sources": [
     {
-      "title": "Iran War Forces a Rewrite of Global Oil Trade Routes",
+      "title": "South Korea Eyes $22.3 Billion Texas Gas Plant to Power AI Data Centers",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Energy/Crude-Oil/Iran-War-Forces-a-Rewrite-of-Global-Oil-Trade-Routes.html",
-      "published_at": "Sat, 05 Sep 2026 18:00:00 -0500",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/South-Korea-Eyes-223-Billion-Texas-Gas-Plant-to-Power-AI-Data-Centers.html",
+      "published_at": "Mon, 07 Sep 2026 02:15:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Japan, South Korea and the U.S. Forge a New Nuclear Alliance",
+      "title": "Shipping Fuel Shortage Looms as Refiners Prioritize Diesel",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Alternative-Energy/Nuclear-Power/Japan-South-Korea-and-the-US-Forge-a-New-Nuclear-Alliance.html",
-      "published_at": "Sat, 05 Sep 2026 16:00:00 -0500",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Shipping-Fuel-Shortage-Looms-as-Refiners-Prioritize-Diesel.html",
+      "published_at": "Mon, 07 Sep 2026 00:50:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "America Is Betting Big on a New Generation of Small Nuclear Reactors",
+      "title": "Oil Prices Climb After U.S. Strikes Three Iranian Tankers and Iran Vows Revenge",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Alternative-Energy/Nuclear-Power/America-Is-Betting-Big-on-a-New-Generation-of-Small-Nuclear-Reactors.html",
-      "published_at": "Sat, 05 Sep 2026 14:00:00 -0500",
+      "url": "https://oilprice.com/Energy/Energy-General/Oil-Prices-Climb-After-US-Strikes-Three-Iranian-Tankers-and-Iran-Vows-Revenge.html",
+      "published_at": "Sun, 06 Sep 2026 22:40:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "This Cattle Feedlot Turns Manure Into 1.2 Million MMBtu of Natural Gas a Year",
+      "title": "Russia Is Redrawing Its Energy Map Through the Arctic",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Energy/Natural-Gas/Nebraska-Cattle-Feedlot-Turns-Manure-Into-12-Million-MMBtu-of-Natural-Gas-a-Yea.html",
-      "published_at": "Sat, 05 Sep 2026 12:00:00 -0500",
+      "url": "https://oilprice.com/Energy/Energy-General/Russia-Is-Redrawing-Its-Energy-Map-Through-the-Arctic.html",
+      "published_at": "Sun, 06 Sep 2026 18:00:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Green Bonds Hit Record High Despite Persistent Challenges",
+      "title": "Most Critical Minerals Aren’t Going to the Energy Transition",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Energy/Energy-General/Green-Bonds-Hit-Record-High-Despite-Persistent-Challenges.html",
-      "published_at": "Sat, 05 Sep 2026 10:00:00 -0500",
+      "url": "https://oilprice.com/Energy/Energy-General/Most-Critical-Minerals-Arent-Going-to-the-Energy-Transition.html",
+      "published_at": "Sun, 06 Sep 2026 17:00:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {

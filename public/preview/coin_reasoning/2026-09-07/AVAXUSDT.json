@@ -1,0 +1,84 @@
+{
+  "symbol": "AVAXUSDT",
+  "date": "2026-09-07",
+  "generated_at": "2026-09-07T07:25:03.614055+00:00",
+  "scanner_evidence": {
+    "symbol": "AVAXUSDT",
+    "pair": "AVAX/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "47",
+    "score_tier": "C Weak",
+    "market_cap_rank": "29",
+    "gray_candles": "15",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "large-cap stability, top market cap, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=AVAXUSDT",
+    "execution_time": "2026-09-07T06:36:22.767599+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "506 assets scanned, 6 confirmed flips (1.2%). State distribution: Blue 26.5%, Gold 34.4%, Gray 23.5%, Unknown 15.6%. Strongest transition: Blue → Gold (6 of 6 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only.",
+      "Security-incident-related coverage"
+    ],
+    "context_generated_at": "2026-09-07T07:25:02.178310+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Hanwha taps Avalanche for tokenized securities platform in South Korea - Crypto News",
+      "source_name": "Crypto News",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQYml2SlQ2R01VVllYY1VoU19QVnIzWl9wYWZIZjhfeWIzX05ZRXFzSUJHZzc0YXBMbEJrWlQ0cWhtbWVENnprUF9rT0JkdEFRTGV2TkJuV2t6dWNoWHhLbXlfREV2VjFrbU55dktIOTFZdGtZTzhPbHhVNUhKLVotdGZFREpPUUxxWVdQWExna1lIZUdQaGc?oc=5",
+      "published_at": "Mon, 07 Sep 2026 06:59:00 GMT",
+      "relevance": "direct",
+      "freshness": "Today",
+      "default_visible": true
+    },
+    {
+      "title": "Avalanche (AVAX) price rebounds above $7, showi... - Pluang",
+      "source_name": "Pluang",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOOHdzM0V4QjNhRkNGd09CUmxJazlqdXZzS1FrRjAwbmRXeW9BT1p5SXZuYzBqTmZCS3NNQTZaY3ZjSnpjenBrMmh6RFhrN2ZlMTBsTFRLa18xV3dHampydExKbGVFMFJMRWJKdFJINVJKTnA2a2w3OWVrLTZRc3Jxd0VoMEQwOVZlUG1kZS1Nb0trdFpaZWF4NVJaSDZvWkVTR2dhR0RKY2g3QQ?oc=5",
+      "published_at": "Mon, 07 Sep 2026 07:16:03 GMT",
+      "relevance": "direct",
+      "freshness": "Today",
+      "default_visible": true
+    },
+    {
+      "title": "Avalanche (AVAX) Gains 3.6% on Payments, Tokenization, Market - CoinMarketCap",
+      "source_name": "CoinMarketCap",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9jQmZyNXVWYlJoMTBKRERLeS1IWE1Ya29EYkMxdEdGMGVDcVNHUkJfWDUxMlR6TXVvZzRQM0NOdTh0OWowaHI1b0VENGk4Y1M1Ukhjd1RTcF92cmw4bVFaZXNmVU9nZXp6eE4wZmVRZHo?oc=5",
+      "published_at": "Sun, 06 Sep 2026 21:04:00 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "Avalanche (AVAX) Falling: Can It Recover? - Bitcoin Foundation",
+      "source_name": "Bitcoin Foundation",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5sejVseEgzNnVURmpjcUtnUmJsc0phQ0ZZM2tkM0FxZEpOSWxTWWMtVnYtQnZZQW9UQmRqdTM1bHJrR3cyZ3hETkNkQUk3WGhHcnA3WFJxQ0EtZUMxamFTbGlkVnRhYzlqbk9GaEJqMWlhZW50Unc?oc=5",
+      "published_at": "Wed, 19 Aug 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    },
+    {
+      "title": "Charles Schwab Adds Solana, Avalanche, Chainlink to Crypto Platform - Yahoo Finance",
+      "source_name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPdVRyS0Z1bURuNHlnU1l5WWt3NWtqcm1hZElMS0xnbXlBOUE2NmQtcDBQcEVEb1E4b21tcFV1bTk2Zkw0ZWxlaHZjb3JIVFBwbV9CR21DWE5uS3c5N0ZaMTNsMm1PZ0lsVTNXaUhKQ25HUFN2U2JpNXN4T1ZmWVdjaEItRktzQ0xZU1BkRnBXVzhkT1NWbDdIU2lzN3ZJUGd4bG9j?oc=5",
+      "published_at": "Thu, 27 Aug 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "Avalanche crypto",
+  "reasoning_quality": "Strong",
+  "reasoning_quality_note": "3 direct, fresh coin-specific headline(s) found (named the coin/project and published today or within the last 7 days).",
+  "neutral_explanation": "AVAXUSDT (AVAX/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 47 (tier C Weak); market-cap rank 29. Scanner note: Valid confirmed trend flip — large-cap stability, top market cap, fresh signal. Broader crypto market context: 506 assets scanned, 6 confirmed flips (1.2%). State distribution: Blue 26.5%, Gold 34.4%, Gray 23.5%, Unknown 15.6%. Strongest transition: Blue → Gold (6 of 6 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (5 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

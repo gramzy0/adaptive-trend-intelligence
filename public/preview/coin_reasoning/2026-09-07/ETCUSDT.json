@@ -1,0 +1,84 @@
+{
+  "symbol": "ETCUSDT",
+  "date": "2026-09-07",
+  "generated_at": "2026-09-07T07:25:03.614055+00:00",
+  "scanner_evidence": {
+    "symbol": "ETCUSDT",
+    "pair": "ETC/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "52",
+    "score_tier": "B Watch",
+    "market_cap_rank": "65",
+    "gray_candles": "13",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "large-cap stability, top market cap, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=ETCUSDT",
+    "execution_time": "2026-09-07T06:36:22.767599+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "506 assets scanned, 6 confirmed flips (1.2%). State distribution: Blue 26.5%, Gold 34.4%, Gray 23.5%, Unknown 15.6%. Strongest transition: Blue → Gold (6 of 6 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only.",
+      "Security-incident-related coverage"
+    ],
+    "context_generated_at": "2026-09-07T07:25:02.178310+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Ethereum Classic's 3.14% Move: Macro and ETF Flows - CoinMarketCap",
+      "source_name": "CoinMarketCap",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9zemd1VnJhMzNDU0RzTGNLcTZDRW4yWVhFeXJIZUViLU93R2ZXcVlxQS0xZm9nLTBBV010Y0xrRF95UEU0dVJsM0NiM0gtbEJVSlVaV0MwLVZmb2NseWpNRlA5RDIxaU9Iamw4UDRoZ3A?oc=5",
+      "published_at": "Sat, 05 Sep 2026 03:04:00 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "Ethereum Classic Drops 3.7% Amid Broader Market Pullback - CoinMarketCap",
+      "source_name": "CoinMarketCap",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBKMWIyTExwWjZfYzV6MnVFUElDNUR4ekgzYmMyTmxfNHdEeHdKTU45enVHbXpZa3Fnc25BQ09TYnd2QVo0ekI2SDVXTUR5N0dreVVvUlRCbGx0SHU1ckFscXg2aEpMRjZjcHNCc3NxXzU?oc=5",
+      "published_at": "Mon, 31 Aug 2026 00:05:00 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "3 Things Investors Need to Know About Ethereum Classic in 2026 - Yahoo Finance",
+      "source_name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUlVSbG1uVzkzalo3LS0tc3lyVDNYUV9HcmhmVkd4c1M3MXdBaTZIeHZFNUVsMlRHUVAxMWQ0ZXhobTBudDVIS1pxVGlKdmhQN1ItMGVnMktKVXF5eldxX1czWWh0c0xJSTNHSFNBWVJrRjJYTUhwSXNqNzg0X1N3X3JUMEk?oc=5",
+      "published_at": "Tue, 03 Feb 2026 08:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "3 Things Investors Need to Know About Ethereum Classic in 2026 - The Motley Fool",
+      "source_name": "The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNX2RoeWdxZmEzRHhBVEhmbVAySE1ZcnBZcHhHTG91eGlCUVdQb09UT1ZYQ01CR0ZkdkNpMTI2TWFUU1hmc3p3V0F0bWhnMG9oSl9fOGk2TU8xWFRKQUFJRzFJZ2hhREZJVV82UnI2V3pzREs5Um84aEtGcXJ6c1ZMVnlXQjdrOUllb21NX203eTJWNWFhSk9fVA?oc=5",
+      "published_at": "Tue, 03 Feb 2026 08:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    },
+    {
+      "title": "Ethereum Classic’s 2026 ‘Fifthening’: Will the 5th Reward Reduction Push ETC Past $20? - KuCoin",
+      "source_name": "KuCoin",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZmxXa2dDbHNTS0o4Rzc0Rm5sVTJRXy1yZkhUcGE0UGFBT2dNZU9TRkZZcExRWjgtNnN1QXpteGtQS0ZZeVJTOWVaS29iZER5SDJRa0tlQS00dm9ZSHJCZkU0NTVpVW94b05fUjNhemNUcVZqYlZWODl1enJrRVBqdkd0dw?oc=5",
+      "published_at": "Sat, 18 Apr 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "Ethereum Classic crypto",
+  "reasoning_quality": "Strong",
+  "reasoning_quality_note": "2 direct, fresh coin-specific headline(s) found (named the coin/project and published today or within the last 7 days).",
+  "neutral_explanation": "ETCUSDT (ETC/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 52 (tier B Watch); market-cap rank 65. Scanner note: Valid confirmed trend flip — large-cap stability, top market cap, fresh signal. Broader crypto market context: 506 assets scanned, 6 confirmed flips (1.2%). State distribution: Blue 26.5%, Gold 34.4%, Gray 23.5%, Unknown 15.6%. Strongest transition: Blue → Gold (6 of 6 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (5 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

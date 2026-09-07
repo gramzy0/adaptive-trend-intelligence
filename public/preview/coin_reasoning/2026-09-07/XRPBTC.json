@@ -1,0 +1,84 @@
+{
+  "symbol": "XRPBTC",
+  "date": "2026-09-07",
+  "generated_at": "2026-09-07T07:25:03.614055+00:00",
+  "scanner_evidence": {
+    "symbol": "XRPBTC",
+    "pair": "XRP/BTC",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "75",
+    "score_tier": "A Good",
+    "market_cap_rank": "5",
+    "gray_candles": "13",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "large-cap stability, top market cap, fresh signal, high volume",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=XRPBTC",
+    "execution_time": "2026-09-07T06:36:22.767599+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "506 assets scanned, 6 confirmed flips (1.2%). State distribution: Blue 26.5%, Gold 34.4%, Gray 23.5%, Unknown 15.6%. Strongest transition: Blue → Gold (6 of 6 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only.",
+      "Security-incident-related coverage"
+    ],
+    "context_generated_at": "2026-09-07T07:25:02.178310+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Florida Athletics Debuts XRP cryptocurrency logo at Ben Hill Griffin Stadium - Florida Gators",
+      "source_name": "Florida Gators",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxObkZsVFowZVZIOEh2MnVrbXByWWVNczF1UmlXZlhURjVQVTVjQlVTNjVmMnVrblRUQlNwRnEwMDFNVDJQQUJxNjF3ZGRaNi1iYVNTczNnV0RGYUxVRnBwN05RMmFNZG05MXJGbFZkRmNwOUF6R3V3dUQ2akpHWVlCOHdaT1RFUlBEb2NxRzZxQTRUSTMzTXEyUXRwT2hadU1ncUFHLTh2amlkQ1FpYXNmSU55WDNIVVN4YnVqamhjcUtvVVU?oc=5",
+      "published_at": "Fri, 04 Sep 2026 13:08:09 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "XRP Trades at $1.41 With a $1.43 Wall Overhead. Can It Break $1.50 Before the Fed Decides on September 16? - 24/7 Wall St.",
+      "source_name": "24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNdW9sSEEyeWxkeTItWmpVR3NUU0lVZ09JcnNkYmtBMk04dW5TYmFIcS1hUmY5dHN0NGxscGJicS03dlR5MFBCRjg5ZW8xV1FmamUwbUt1b05BLUtTLV8yYmFITDljZU9kSUt2OXdQOFZCemRKYXN6WVhrdTZFSkRjb0FrdEMxMTZzQjhoY2xhTnY2NVlsSllLQWx5WWgwTHpKT281QnNqeHNuUHhCVEJ4UE85QmNUaDNoZGhmeUlwREF5OWw2UTJWbzVaTkRCdFVQVGg2UWJMMnowV3BXQXhIWW5keHdrVExzdm5HY1V4a3owdw?oc=5",
+      "published_at": "Sun, 06 Sep 2026 21:56:00 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "Ripple CEO Is 'Proud' About White House Crypto Meeting: What's Next for XRP? - Yahoo Finance",
+      "source_name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNS2dGb2NxV0IyazBiRUlINkJDZ3VRazkxTmdWVzV1cTBSZ3FTWENlOGdmYng4X1dwSFZPSVRtY0hkQTBvVWtPZ18ydDdWaVo3Umk3ZWEtbW02UGxPTzdkU1VEd2xjRVdPVWRubzY3R3Z2a1FFSXpxTHBHZ2Z3TWg1WjFFM3M2b0g5MUxaTG53SXdYUEtJazZGZw?oc=5",
+      "published_at": "Sat, 05 Sep 2026 16:31:15 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "XRP Ledger has fewer active accounts than last year, but bigger trades and more value - CoinDesk",
+      "source_name": "CoinDesk",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNXzc0WGpUaHZqU1RPUUtJdWZwTXEwMVZXUFVia2JRNHFNUWUyeUFWVWlLR01TT3R2NF9oQW4tVFV2X3JTVE5oWGdCMEV2Q29Bb21GTWREb0M1RUZyMnIyQTBYdldDbldnOUhrNlc1RUdYdUxpTWNUdW5TQWtpMDdYdXBjb1NRdjh2cUJkeG40VlE0X1Q4aC1YZXJOSmlXZGF4SGZkZlRtYURJMU40SHpDemxHQQ?oc=5",
+      "published_at": "Sat, 05 Sep 2026 05:31:51 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": false
+    },
+    {
+      "title": "Ripple Price Analysis: Where Is XRP Heading Next Week After Defending Its 200-Day EMA? - CryptoPotato",
+      "source_name": "CryptoPotato",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNeVRqY1ZGTFFjSXhra2VDU3M5UHl0bWpIaEYwZUhZeVd4VzdXWnVoSm1HM25KWVZlQnZMa0tQeVVwV1lfU3lUeHhHZ0toeUFfRGtDaGNCa29MTXZEcG5neWtIVHlqbVFsQkxudVdjdkVjQzVxTVQwbzlRYjV6U3M3TEJzQ3NINUdacEZFNlFzMk9mZDlkUEdxdG5CbzktendCYnl6SFppajBXNVQ2d09F?oc=5",
+      "published_at": "Sun, 06 Sep 2026 17:09:00 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "XRP crypto",
+  "reasoning_quality": "Strong",
+  "reasoning_quality_note": "5 direct, fresh coin-specific headline(s) found (named the coin/project and published today or within the last 7 days).",
+  "neutral_explanation": "XRPBTC (XRP/BTC) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 75 (tier A Good); market-cap rank 5. Scanner note: Valid confirmed trend flip — large-cap stability, top market cap, fresh signal, high volume. Broader crypto market context: 506 assets scanned, 6 confirmed flips (1.2%). State distribution: Blue 26.5%, Gold 34.4%, Gray 23.5%, Unknown 15.6%. Strongest transition: Blue → Gold (6 of 6 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (5 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

@@ -1,60 +1,61 @@
 {
   "market": "crypto",
-  "generated_at": "2026-09-06T07:25:02.199364+00:00",
-  "scanner_summary": "1091 assets scanned, 7 confirmed flips (0.6%). State distribution: Blue 59.8%, Gold 19.6%, Gray 12.6%, Unknown 8.0%. Strongest transition: Blue → Gold (6 of 7 flips). Source: reports/private_crypto_dashboard.csv.",
+  "generated_at": "2026-09-07T07:25:02.178310+00:00",
+  "scanner_summary": "506 assets scanned, 6 confirmed flips (1.2%). State distribution: Blue 26.5%, Gold 34.4%, Gray 23.5%, Unknown 15.6%. Strongest transition: Blue → Gold (6 of 6 flips). Source: reports/private_crypto_dashboard.csv.",
   "possible_drivers": [
     "Locally observed scanner state distribution and flip activity (see scanner_summary).",
-    "General market-news coverage, reviewed for context only."
+    "General market-news coverage, reviewed for context only.",
+    "Security-incident-related coverage"
   ],
   "uncertainty_note": "Automatically collected from public RSS headlines and local scanner output. Headlines are cited, not verified for accuracy or causal connection to price movement. This is not investment advice and does not contain buy, sell, hold, or execution guidance. Human review is required before treating anything here as reliable market context.",
   "sources": [
     {
-      "title": "Why crypto experts say buying and holding bitcoin easily beats trying to time the market",
+      "title": "This cat memecoin has paid holders $2.8 million in Zcash as ZEC tops $1,200",
       "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/09/05/why-crypto-experts-say-buying-and-holding-bitcoin-easily-beats-trying-to-time-the-market",
-      "published_at": "Sat, 05 Sep 2026 18:05:11 +0000",
+      "url": "https://www.coindesk.com/markets/2026/09/07/this-cat-memecoin-has-paid-holders-usd2-8-million-in-zcash-as-zec-tops-usd1-200",
+      "published_at": "Mon, 07 Sep 2026 05:52:44 +0000",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Dollar-backed stablecoins can push local currencies lower, Bank of Korea study finds",
+      "title": "Oil up, bitcoin down as U.S. strikes Iranian crude carriers",
       "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/09/05/dollar-backed-stablecoins-can-push-local-currencies-lower-bank-of-korea-study-finds",
-      "published_at": "Sat, 05 Sep 2026 16:43:13 +0000",
+      "url": "https://www.coindesk.com/markets/2026/09/07/oil-up-bitcoin-down-as-u-s-strikes-iranian-crude-carriers",
+      "published_at": "Mon, 07 Sep 2026 04:44:16 +0000",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "British investor thought he lost $2,000 in bitcoin in 2012. He just recovered $4.5 million",
+      "title": "Bitcoin network used by exchanges hit by $320 million exploit. Hackers claim they're the 'good guys'",
       "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/09/02/british-investor-thought-he-lost-usd2-000-in-bitcoin-in-2012-he-just-recovered-usd4-5-million",
-      "published_at": "Sat, 05 Sep 2026 12:00:00 +0000",
+      "url": "https://www.coindesk.com/markets/2026/09/07/bitcoin-network-used-by-exchanges-hit-by-usd320-million-exploit-hackers-claim-they-re-the-good-guys",
+      "published_at": "Mon, 07 Sep 2026 03:43:12 +0000",
+      "note": "Security-incident-related coverage"
+    },
+    {
+      "title": "Prediction markets inch closer to the Supreme Court: State of Crypto",
+      "source_name": "CoinDesk",
+      "url": "https://www.coindesk.com/news-analysis/2026/09/06/prediction-markets-inch-closer-to-the-supreme-court-state-of-crypto",
+      "published_at": "Sun, 06 Sep 2026 18:30:00 +0000",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "XRP Ledger has fewer active accounts than last year, but bigger trades and more value",
+      "title": "Ukrainian police took down a crypto scam that stole up to $1 million a month",
       "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/09/05/xrp-ledger-has-fewer-active-accounts-but-bigger-trades-and-more-value",
-      "published_at": "Sat, 05 Sep 2026 05:30:45 +0000",
-      "note": "General market-news coverage, reviewed for context only."
-    },
-    {
-      "title": "Southeast Asia’s crypto funding rebounds to $680 million as investors focus on mature firms",
-      "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/09/05/southeast-asia-s-crypto-funding-rebounds-to-usd680-million-as-investors-focus-on-mature-firms",
-      "published_at": "Sat, 05 Sep 2026 05:00:00 +0000",
+      "url": "https://www.coindesk.com/business/2026/09/06/ukrainian-police-took-down-a-crypto-scam-that-stole-up-to-usd1-million-a-month",
+      "published_at": "Sun, 06 Sep 2026 16:00:00 +0000",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
       "title": "Here’s what happened in crypto today",
       "source_name": "CoinTelegraph",
       "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "Sat, 05 Sep 2026 11:16:19 +0000",
+      "published_at": "Mon, 07 Sep 2026 06:29:41 +0000",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Poland upholds crypto bill veto as Zondacrypto scandal widens",
+      "title": "Bitcoin sidechain Liquid pauses after purported ‘white hats’ withdraw $320M in BTC",
       "source_name": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/poland-upholds-crypto-bill-veto-zondacrypto-scandal-widens?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "Sat, 05 Sep 2026 10:44:29 +0000",
+      "url": "https://cointelegraph.com/news/liquid-network-pauses-320m-bitcoin-withdrawal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "Mon, 07 Sep 2026 05:40:05 +0000",
       "note": "General market-news coverage, reviewed for context only."
     }
   ]

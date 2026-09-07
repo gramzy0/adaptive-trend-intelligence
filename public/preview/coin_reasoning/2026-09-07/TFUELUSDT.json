@@ -1,0 +1,84 @@
+{
+  "symbol": "TFUELUSDT",
+  "date": "2026-09-07",
+  "generated_at": "2026-09-07T07:25:03.614055+00:00",
+  "scanner_evidence": {
+    "symbol": "TFUELUSDT",
+    "pair": "TFUEL/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "62",
+    "score_tier": "B Watch",
+    "market_cap_rank": "349",
+    "gray_candles": "11",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "small-cap potential, small-cap high risk, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=TFUELUSDT",
+    "execution_time": "2026-09-07T06:36:22.767599+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "506 assets scanned, 6 confirmed flips (1.2%). State distribution: Blue 26.5%, Gold 34.4%, Gray 23.5%, Unknown 15.6%. Strongest transition: Blue → Gold (6 of 6 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only.",
+      "Security-incident-related coverage"
+    ],
+    "context_generated_at": "2026-09-07T07:25:02.178310+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Theta Fuel Price Prediction 2026, 2027, 2030 & Beyond: Yearly Forecast - Binance",
+      "source_name": "Binance",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0tZHV5R24zUlVOMWhRQjU3UWFBLXlXMGJxdExMSHQ5SkxONzNxZzlpMmNLTEJwYXpYa09fMk9pcndTbkp0cFlPSlAtTGpvbUlaQlJjdnVkRnU5ZXhnWjd2T2h2eUhpRnZG?oc=5",
+      "published_at": "Sun, 30 Aug 2026 07:39:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Theta Fuel (TFUEL) Price Prediction 2026 2027 2028 - 2040 - Changelly",
+      "source_name": "Changelly",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5WNWN4UkJpeHZWaHRXa3N5U0NjQ19zb1VKWThDY2J4LWctTlB5cjF2TUo2YmhyR2l6WW1VTUNRekJvTGdjdUtTZnpWb0JtcE9kSUxzWU5GLUg2azAwMmQ0SWI5WVlTUm45ZFc3bzJn?oc=5",
+      "published_at": "Sun, 07 Jan 2024 17:30:51 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Theta Network Price: THETA Price Index and Live Chart - theblock.co",
+      "source_name": "theblock.co",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9uX0lyMjVQTnNISjhuTGEtSDZOQ0tjWm1GMW40bmlDZk5KMzF3eDVOYWJuZjhuQ0k1QnRLRzBrMEo5Vm1BbUNEcWJoaUdXbnhfR3AwZEd3?oc=5",
+      "published_at": "Fri, 07 Aug 2026 15:41:02 GMT",
+      "relevance": "unrelated",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Theta Network Partners With Deutsche Telekom - TradingView",
+      "source_name": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNLWg3NUJJclhyS0VHSzF2V3VISVN0YWgtYlNqOGE3QjhuWlh5cFQ5Mm9fcElfZzRiSG5vZEpNalIySS1mT0dVTHFzSVVWOGQtWm93bGh5Z3dDQk00eC1QUjJoaUlqb2h2bktyVnAwdXNJYjNkQXktUzdkek9fMTZNdW9McVhNaXlqZHNzSU9ST21lTFpxVlNEQ3dDeXBMV1A5TW5yUg?oc=5",
+      "published_at": "Fri, 31 Oct 2025 07:00:00 GMT",
+      "relevance": "unrelated",
+      "freshness": "Old",
+      "default_visible": false
+    },
+    {
+      "title": "Revealed: Theta’s Game-Changing TDROP Whitepaper v2.0 Unlocks AI Agent Economy - CryptoRank",
+      "source_name": "CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5SdXp0X2hiMU9DbHBFNG4yUmhZdVVpbi1JQnpGcUttQWpGV0Z0RjFTRDBLZzRHeEtjOWpPdHpTUktaNDhtX19GZjdDSWV5c3lBZTZmX2tGNWJzTDdZcFBrVkQ0Ny1GRTlySG5OUUFwRVU4Y1JQZmRCcm9hdw?oc=5",
+      "published_at": "Wed, 17 Dec 2025 08:00:00 GMT",
+      "relevance": "unrelated",
+      "freshness": "Old",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "Theta Fuel crypto",
+  "reasoning_quality": "Medium",
+  "reasoning_quality_note": "Relevant evidence found (2 direct but not fresh headline(s)), but no headline is both coin-specific and fresh. Treat this as supporting context, not confirmation.",
+  "neutral_explanation": "TFUELUSDT (TFUEL/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 62 (tier B Watch); market-cap rank 349. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 506 assets scanned, 6 confirmed flips (1.2%). State distribution: Blue 26.5%, Gold 34.4%, Gray 23.5%, Unknown 15.6%. Strongest transition: Blue → Gold (6 of 6 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (2 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}
