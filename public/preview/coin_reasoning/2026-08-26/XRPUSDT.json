@@ -55,7 +55,7 @@
       "published_at": "Mon, 24 Aug 2026 09:35:47 GMT"
     },
     {
-      "title": "Wall Street just poured nearly $90 million into altcoins as XRP, SOL and HYPE rip higher - CryptoSlate",
+      "title": "Wall Street just poured nearly $90 million into altcoins as XRP, SOL and [redacted] rip higher - CryptoSlate",
       "source_name": "CryptoSlate",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQSkhTLXBDUVNqOUVTeXlsZTJ5X2hwTHhLQUtLa1VHY1NJZTYwSGIxLVNqUHV6SWVteU5jakJyY00wX19udFgySV9xa2djclNkcFpYVW9aM3dUNFBKUUxfellveUV5eXBSQ2FJUmZnWUloMU5oZm1HYjc3TmV0YlRJZWtaYWZtcHJOWV9fMnhiNk1YRWd1dUxyakR5TC0wbFU2LXl3b2x4S1dXd2h0Z0VXUw?oc=5",
       "published_at": "Sun, 23 Aug 2026 21:10:58 GMT"
@@ -63,5 +63,13 @@
   ],
   "search_query_used": "XRP crypto",
   "neutral_explanation": "XRPUSDT (XRP/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 87 (tier A+ Strong); market-cap rank 5. Scanner note: Valid confirmed trend flip — large-cap stability, top market cap, fresh signal, clean transition, high volume. Broader crypto market context: 1085 assets scanned, 15 confirmed flips (1.4%). State distribution: Blue 66.4%, Gold 14.1%, Gray 12.0%, Unknown 7.6%. Strongest transition: Blue → Gold (13 of 15 flips). Source: reports/private_crypto_dashboard.csv. 5 coin-specific headline(s) were found via automated search; they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
-  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable.",
+  "public_output_sanitization": {
+    "applied": true,
+    "marker": "[redacted]",
+    "redacted_identifier_count": 1,
+    "policy_ref": "config/public_output/crypto_phase1_public_exposure_schema_v1.json#phase1_internal_candidates_not_public",
+    "scope": "public_preview_serialization_only",
+    "note": "One or more identifiers restricted from public output appeared inside third-party quoted/headline text and were visibly replaced with '[redacted]' for public exposure. The raw internal coin_reasoning record retains the original verbatim source text."
+  }
 }

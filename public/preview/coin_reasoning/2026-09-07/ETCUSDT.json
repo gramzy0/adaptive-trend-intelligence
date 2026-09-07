@@ -1,7 +1,7 @@
 {
   "symbol": "ETCUSDT",
   "date": "2026-09-07",
-  "generated_at": "2026-09-07T07:25:03.614055+00:00",
+  "generated_at": "2026-09-07T13:01:18.938930+00:00",
   "scanner_evidence": {
     "symbol": "ETCUSDT",
     "pair": "ETC/USDT",
@@ -21,13 +21,14 @@
   },
   "market_context_snapshot": {
     "available": true,
-    "scanner_summary": "506 assets scanned, 6 confirmed flips (1.2%). State distribution: Blue 26.5%, Gold 34.4%, Gray 23.5%, Unknown 15.6%. Strongest transition: Blue → Gold (6 of 6 flips). Source: reports/private_crypto_dashboard.csv.",
+    "scanner_summary": "506 assets scanned, 6 confirmed flips (1.2%). State distribution: Blue 24.1%, Gold 35.0%, Gray 25.3%, Unknown 15.6%. Strongest transition: Blue → Gold (6 of 6 flips). Source: reports/private_crypto_dashboard.csv.",
     "possible_drivers": [
       "Locally observed scanner state distribution and flip activity (see scanner_summary).",
       "General market-news coverage, reviewed for context only.",
+      "Regulatory/legal-related coverage",
       "Security-incident-related coverage"
     ],
-    "context_generated_at": "2026-09-07T07:25:02.178310+00:00"
+    "context_generated_at": "2026-09-07T13:01:17.534462+00:00"
   },
   "coin_specific_headlines": [
     {
@@ -79,6 +80,6 @@
   "search_query_used": "Ethereum Classic crypto",
   "reasoning_quality": "Strong",
   "reasoning_quality_note": "2 direct, fresh coin-specific headline(s) found (named the coin/project and published today or within the last 7 days).",
-  "neutral_explanation": "ETCUSDT (ETC/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 52 (tier B Watch); market-cap rank 65. Scanner note: Valid confirmed trend flip — large-cap stability, top market cap, fresh signal. Broader crypto market context: 506 assets scanned, 6 confirmed flips (1.2%). State distribution: Blue 26.5%, Gold 34.4%, Gray 23.5%, Unknown 15.6%. Strongest transition: Blue → Gold (6 of 6 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (5 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "neutral_explanation": "ETCUSDT (ETC/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 52 (tier B Watch); market-cap rank 65. Scanner note: Valid confirmed trend flip — large-cap stability, top market cap, fresh signal. Broader crypto market context: 506 assets scanned, 6 confirmed flips (1.2%). State distribution: Blue 24.1%, Gold 35.0%, Gray 25.3%, Unknown 15.6%. Strongest transition: Blue → Gold (6 of 6 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (5 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
   "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
 }

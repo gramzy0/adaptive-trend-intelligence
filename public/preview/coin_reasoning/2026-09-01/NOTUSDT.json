@@ -42,7 +42,7 @@
       "default_visible": true
     },
     {
-      "title": "Bitcoin steady above $78,000, HYPE leads as majors slip on hawkish Fed bets - CoinDesk",
+      "title": "Bitcoin steady above $78,000, [redacted] leads as majors slip on hawkish Fed bets - CoinDesk",
       "source_name": "CoinDesk",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOTUpRaWRYLW5xR3drSl90QkUxcmVxTkVxN09PWWhaMGlpWDV6ODQ4Qzg2WDJkb3Y4Nmc3OEFxeHFaVTBNc1pIVUVHbndQdDMwRHJldldJUEI1VXNMWnlva2gwNE1uQVlGaWYxN3VvSnVrS0pUYjdSejVyZjlsZ1NMS2I3Q2taVWkxelQyVlAyYzFfT0hseF9QYVh5Nm9VVm1DNG1XSUZ0VU1zWnNZeWtGdlBHWFRLWmVxZzlYZA?oc=5",
       "published_at": "Tue, 01 Sep 2026 04:30:28 GMT",
@@ -82,5 +82,13 @@
   "reasoning_quality": "Medium",
   "reasoning_quality_note": "Relevant evidence found (5 sector/market-wide headline(s)), but no headline is both coin-specific and fresh. Treat this as supporting context, not confirmation.",
   "neutral_explanation": "NOTUSDT (NOT/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 62 (tier B Watch); market-cap rank 449. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 1086 assets scanned, 8 confirmed flips (0.7%). State distribution: Blue 62.5%, Gold 17.7%, Gray 12.2%, Unknown 7.6%. Strongest transition: Blue → Gold (6 of 8 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (0 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
-  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable.",
+  "public_output_sanitization": {
+    "applied": true,
+    "marker": "[redacted]",
+    "redacted_identifier_count": 1,
+    "policy_ref": "config/public_output/crypto_phase1_public_exposure_schema_v1.json#phase1_internal_candidates_not_public",
+    "scope": "public_preview_serialization_only",
+    "note": "One or more identifiers restricted from public output appeared inside third-party quoted/headline text and were visibly replaced with '[redacted]' for public exposure. The raw internal coin_reasoning record retains the original verbatim source text."
+  }
 }

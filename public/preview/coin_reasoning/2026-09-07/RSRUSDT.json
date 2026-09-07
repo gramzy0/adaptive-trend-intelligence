@@ -1,7 +1,7 @@
 {
   "symbol": "RSRUSDT",
   "date": "2026-09-07",
-  "generated_at": "2026-09-07T07:25:03.614055+00:00",
+  "generated_at": "2026-09-07T13:01:18.938930+00:00",
   "scanner_evidence": {
     "symbol": "RSRUSDT",
     "pair": "RSR/USDT",
@@ -21,13 +21,14 @@
   },
   "market_context_snapshot": {
     "available": true,
-    "scanner_summary": "506 assets scanned, 6 confirmed flips (1.2%). State distribution: Blue 26.5%, Gold 34.4%, Gray 23.5%, Unknown 15.6%. Strongest transition: Blue → Gold (6 of 6 flips). Source: reports/private_crypto_dashboard.csv.",
+    "scanner_summary": "506 assets scanned, 6 confirmed flips (1.2%). State distribution: Blue 24.1%, Gold 35.0%, Gray 25.3%, Unknown 15.6%. Strongest transition: Blue → Gold (6 of 6 flips). Source: reports/private_crypto_dashboard.csv.",
     "possible_drivers": [
       "Locally observed scanner state distribution and flip activity (see scanner_summary).",
       "General market-news coverage, reviewed for context only.",
+      "Regulatory/legal-related coverage",
       "Security-incident-related coverage"
     ],
-    "context_generated_at": "2026-09-07T07:25:02.178310+00:00"
+    "context_generated_at": "2026-09-07T13:01:17.534462+00:00"
   },
   "coin_specific_headlines": [
     {
@@ -67,18 +68,18 @@
       "default_visible": false
     },
     {
-      "title": "USWR Crypto: Revolutionary Water Investment or Just Another Solana Memecoin? - Bitcoin Foundation",
-      "source_name": "Bitcoin Foundation",
+      "title": "USWR Crypto: Revolutionary Water Investment or Just Another Solana Memecoin? - bitcoinfoundation.org",
+      "source_name": "bitcoinfoundation.org",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZnFyWlFYbVEyNkxlOXRlSmFKUThPYzNFWWU2eXlGUUVrMlRsMkJXZjM2azNNc3cybVoyMEw3Y2JYX0kzQjFpUDduSDlScEZvR3pPUERjdEQydG83Vk5rRzlORWJGb3RzX28xY1lRRUFBXzZQdmN5NlhnaEFuc1JEXzdlbFJkYVBKTF9TSEF1Wl9WZW93aHVJUnBSamxVOWlzMmh5S0x5bDRvNnEwcXZkeVNlQ3Job3JWaG1J?oc=5",
       "published_at": "Tue, 23 Jun 2026 07:00:00 GMT",
-      "relevance": "market_context",
+      "relevance": "unrelated",
       "freshness": "Old",
       "default_visible": false
     }
   ],
   "search_query_used": "Reserve Rights crypto",
   "reasoning_quality": "Medium",
-  "reasoning_quality_note": "Relevant evidence found (4 direct but not fresh, 1 sector/market-wide headline(s)), but no headline is both coin-specific and fresh. Treat this as supporting context, not confirmation.",
-  "neutral_explanation": "RSRUSDT (RSR/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 62 (tier B Watch); market-cap rank 302. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 506 assets scanned, 6 confirmed flips (1.2%). State distribution: Blue 26.5%, Gold 34.4%, Gray 23.5%, Unknown 15.6%. Strongest transition: Blue → Gold (6 of 6 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (4 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "reasoning_quality_note": "Relevant evidence found (4 direct but not fresh headline(s)), but no headline is both coin-specific and fresh. Treat this as supporting context, not confirmation.",
+  "neutral_explanation": "RSRUSDT (RSR/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 62 (tier B Watch); market-cap rank 302. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 506 assets scanned, 6 confirmed flips (1.2%). State distribution: Blue 24.1%, Gold 35.0%, Gray 25.3%, Unknown 15.6%. Strongest transition: Blue → Gold (6 of 6 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (4 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
   "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
 }

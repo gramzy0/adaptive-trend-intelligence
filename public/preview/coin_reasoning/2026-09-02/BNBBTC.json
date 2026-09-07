@@ -66,7 +66,7 @@
       "default_visible": false
     },
     {
-      "title": "Crypto Price Analysis August-28: ETH, XRP, ADA, BNB, and HYPE - CryptoPotato",
+      "title": "Crypto Price Analysis August-28: ETH, XRP, ADA, BNB, and [redacted] - CryptoPotato",
       "source_name": "CryptoPotato",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOd3B1LTlJeDJXXzdIa3dmNHpNbXl1ejBCN3B4NFRKckl1SWhkazVBNWNaVENVR2FkVDRTT2tGcjZJM0JSNFBYNGpwZW5FNlJLUkNDcTJWUDQ0dlNLeDlKM1ZfVGJ2Z2haZXpaRFRFWVdsUFJfYWR5Q2VkX1hUOTIwYktRbEswc0lhNFE?oc=5",
       "published_at": "Fri, 28 Aug 2026 09:04:00 GMT",
@@ -79,5 +79,13 @@
   "reasoning_quality": "Strong",
   "reasoning_quality_note": "5 direct, fresh coin-specific headline(s) found (named the coin/project and published today or within the last 7 days).",
   "neutral_explanation": "BNBBTC (BNB/BTC) recorded a confirmed state flip: Gold → Blue (Bearish). Scanner score 85 (tier A+ Strong); market-cap rank 4. Scanner note: Valid confirmed trend flip — large-cap stability, top market cap, fresh signal, high volume. Broader crypto market context: 1086 assets scanned, 4 confirmed flips (0.4%). State distribution: Blue 61.8%, Gold 18.1%, Gray 12.5%, Unknown 7.6%. Strongest transition: Blue → Gold (3 of 4 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (5 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
-  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable.",
+  "public_output_sanitization": {
+    "applied": true,
+    "marker": "[redacted]",
+    "redacted_identifier_count": 1,
+    "policy_ref": "config/public_output/crypto_phase1_public_exposure_schema_v1.json#phase1_internal_candidates_not_public",
+    "scope": "public_preview_serialization_only",
+    "note": "One or more identifiers restricted from public output appeared inside third-party quoted/headline text and were visibly replaced with '[redacted]' for public exposure. The raw internal coin_reasoning record retains the original verbatim source text."
+  }
 }

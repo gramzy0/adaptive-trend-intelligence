@@ -1,6 +1,6 @@
 {
   "market": "commodities",
-  "generated_at": "2026-09-07T07:25:02.178310+00:00",
+  "generated_at": "2026-09-07T13:01:17.534462+00:00",
   "scanner_summary": "No commodity scanner data available in data/output; no asset count, flip count, or state distribution can be computed locally.",
   "possible_drivers": [
     "General market-news coverage, reviewed for context only."
@@ -8,38 +8,38 @@
   "uncertainty_note": "Automatically collected from public RSS headlines and local scanner output. Headlines are cited, not verified for accuracy or causal connection to price movement. This is not investment advice and does not contain buy, sell, hold, or execution guidance. Human review is required before treating anything here as reliable market context.",
   "sources": [
     {
-      "title": "South Korea Eyes $22.3 Billion Texas Gas Plant to Power AI Data Centers",
+      "title": "Saudi Aramco's Jizan Refinery Hit Again as Houthi Attacks Escalate",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/South-Korea-Eyes-223-Billion-Texas-Gas-Plant-to-Power-AI-Data-Centers.html",
-      "published_at": "Mon, 07 Sep 2026 02:15:00 -0500",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Aramcos-Jizan-Refinery-Hit-Again-as-Houthi-Attacks-Escalate.html",
+      "published_at": "Mon, 07 Sep 2026 07:34:07 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Shipping Fuel Shortage Looms as Refiners Prioritize Diesel",
+      "title": "Iran Says It Will Control New Hormuz Shipping Corridor",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Shipping-Fuel-Shortage-Looms-as-Refiners-Prioritize-Diesel.html",
-      "published_at": "Mon, 07 Sep 2026 00:50:00 -0500",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Says-It-Will-Control-New-Hormuz-Shipping-Corridor.html",
+      "published_at": "Mon, 07 Sep 2026 06:47:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Oil Prices Climb After U.S. Strikes Three Iranian Tankers and Iran Vows Revenge",
+      "title": "India’s Crude Oil Benchmark Tops $100 as Middle East War Escalates",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Energy/Energy-General/Oil-Prices-Climb-After-US-Strikes-Three-Iranian-Tankers-and-Iran-Vows-Revenge.html",
-      "published_at": "Sun, 06 Sep 2026 22:40:00 -0500",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Indias-Crude-Oil-Benchmark-Tops-100-as-Middle-East-War-Escalates.html",
+      "published_at": "Mon, 07 Sep 2026 06:00:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Russia Is Redrawing Its Energy Map Through the Arctic",
+      "title": "Goldman Sachs Warns Oil Could Hit $120 as Shipping Risks Rise",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Energy/Energy-General/Russia-Is-Redrawing-Its-Energy-Map-Through-the-Arctic.html",
-      "published_at": "Sun, 06 Sep 2026 18:00:00 -0500",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Goldman-Sachs-Warns-Oil-Could-Hit-120-as-Shipping-Risks-Rise.html",
+      "published_at": "Mon, 07 Sep 2026 04:30:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Most Critical Minerals Aren’t Going to the Energy Transition",
+      "title": "Qatar Moves Six LNG Tankers Toward Gulf as Export Restart Looms",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Energy/Energy-General/Most-Critical-Minerals-Arent-Going-to-the-Energy-Transition.html",
-      "published_at": "Sun, 06 Sep 2026 17:00:00 -0500",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Qatar-Moves-Six-LNG-Tankers-Toward-Gulf-as-Export-Restart-Looms.html",
+      "published_at": "Mon, 07 Sep 2026 03:30:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {

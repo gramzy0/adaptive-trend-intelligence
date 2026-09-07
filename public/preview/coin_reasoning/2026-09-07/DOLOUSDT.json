@@ -1,7 +1,7 @@
 {
   "symbol": "DOLOUSDT",
   "date": "2026-09-07",
-  "generated_at": "2026-09-07T07:25:03.614055+00:00",
+  "generated_at": "2026-09-07T13:01:18.938930+00:00",
   "scanner_evidence": {
     "symbol": "DOLOUSDT",
     "pair": "DOLO/USDT",
@@ -21,13 +21,14 @@
   },
   "market_context_snapshot": {
     "available": true,
-    "scanner_summary": "506 assets scanned, 6 confirmed flips (1.2%). State distribution: Blue 26.5%, Gold 34.4%, Gray 23.5%, Unknown 15.6%. Strongest transition: Blue → Gold (6 of 6 flips). Source: reports/private_crypto_dashboard.csv.",
+    "scanner_summary": "506 assets scanned, 6 confirmed flips (1.2%). State distribution: Blue 24.1%, Gold 35.0%, Gray 25.3%, Unknown 15.6%. Strongest transition: Blue → Gold (6 of 6 flips). Source: reports/private_crypto_dashboard.csv.",
     "possible_drivers": [
       "Locally observed scanner state distribution and flip activity (see scanner_summary).",
       "General market-news coverage, reviewed for context only.",
+      "Regulatory/legal-related coverage",
       "Security-incident-related coverage"
     ],
-    "context_generated_at": "2026-09-07T07:25:02.178310+00:00"
+    "context_generated_at": "2026-09-07T13:01:17.534462+00:00"
   },
   "coin_specific_headlines": [
     {
@@ -35,15 +36,6 @@
       "source_name": "Binance",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8zeWFkZzFXWmZiUHRGR29GREplU254bVRGTTRqTlZSQjVYNjhuYzRsbWhsdWUxYUxIRklaZ3h3Vjg2bHhwYkJBbDlIM0NBZWw1VVZtZDFUT2lrbURhUVBkQTZRbGhpNUIzWDhxdDRZd1hBTnc?oc=5",
       "published_at": "Fri, 24 Jul 2026 07:00:00 GMT",
-      "relevance": "direct",
-      "freshness": "Old",
-      "default_visible": true
-    },
-    {
-      "title": "Lending Pool Heist: Are Trump Crypto Insiders Setting Up To Crash DOLO Crypto? - Yahoo Finance",
-      "source_name": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNSlJibUdIMVB0WjU1dVE5RmZIbXo0d0d4V1BjdVUwQ3pEd1RGcnRETWYxajZ6dzJsLVFSNFZUbE9ZZDNRYUxsQzJSUDI0Vng1ZXlsaVdmVnlvcm5DQTB6dE9vZlpGYXJEc2JaNDIyeVN6bnk5aDJLWFR0OGVaNUNpRnJwc29nVXBVeEUwWVVoY0JpN3pPdDdWLTFVUm4?oc=5",
-      "published_at": "Thu, 09 Apr 2026 07:00:00 GMT",
       "relevance": "direct",
       "freshness": "Old",
       "default_visible": true
@@ -64,7 +56,7 @@
       "published_at": "Fri, 10 Apr 2026 07:00:00 GMT",
       "relevance": "unrelated",
       "freshness": "Old",
-      "default_visible": false
+      "default_visible": true
     },
     {
       "title": "Trump's World Liberty Financial uses 5 billion WLFI to borrow $75 million from a platform its adviser co-founded - CoinDesk",
@@ -74,11 +66,20 @@
       "relevance": "unrelated",
       "freshness": "Old",
       "default_visible": false
+    },
+    {
+      "title": "World Liberty Financial Borrows $75 Million Against Its Own Token on a Protocol Its Advisor Co-Founded - unchainedcrypto.com",
+      "source_name": "unchainedcrypto.com",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPVkYtYjRLU29FeVRHd21DVVVNUWdBSFhjZTZNa29QdW1UX0F6UzVEVUpxUzh2bjFYWExlUnp6bEw1ZFJrR0drNHBJY3R6c0NVQVlhZkJsSFdrcXNFajk5M2M0RU81UlY2WVdtdml5VVpBT0k2YktPc0kyLWhpcHM0dkxXT3dkZV9SUmtLdDZNVzRuWEM4WUdtdjIwTDNkWTQ5ZksyOEhHT2Z4T25XTXd4emxxX2FEYXlqcWNQclZZSGo2U2ZFVjlRMTFtQ2h3LS1Ndms2VUEwUQ?oc=5",
+      "published_at": "Fri, 10 Apr 2026 07:00:00 GMT",
+      "relevance": "unrelated",
+      "freshness": "Old",
+      "default_visible": false
     }
   ],
   "search_query_used": "Dolomite crypto",
   "reasoning_quality": "Medium",
-  "reasoning_quality_note": "Relevant evidence found (3 direct but not fresh headline(s)), but no headline is both coin-specific and fresh. Treat this as supporting context, not confirmation.",
-  "neutral_explanation": "DOLOUSDT (DOLO/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 42 (tier C Weak); market-cap rank 1047. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 506 assets scanned, 6 confirmed flips (1.2%). State distribution: Blue 26.5%, Gold 34.4%, Gray 23.5%, Unknown 15.6%. Strongest transition: Blue → Gold (6 of 6 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (3 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "reasoning_quality_note": "Relevant evidence found (2 direct but not fresh headline(s)), but no headline is both coin-specific and fresh. Treat this as supporting context, not confirmation.",
+  "neutral_explanation": "DOLOUSDT (DOLO/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 42 (tier C Weak); market-cap rank 1047. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 506 assets scanned, 6 confirmed flips (1.2%). State distribution: Blue 24.1%, Gold 35.0%, Gray 25.3%, Unknown 15.6%. Strongest transition: Blue → Gold (6 of 6 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (2 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
   "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
 }
