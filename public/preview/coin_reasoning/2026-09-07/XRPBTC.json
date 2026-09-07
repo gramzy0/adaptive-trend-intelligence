@@ -1,7 +1,7 @@
 {
   "symbol": "XRPBTC",
   "date": "2026-09-07",
-  "generated_at": "2026-09-07T13:01:18.938930+00:00",
+  "generated_at": "2026-09-07T18:42:44.147080+00:00",
   "scanner_evidence": {
     "symbol": "XRPBTC",
     "pair": "XRP/BTC",
@@ -25,30 +25,11 @@
     "possible_drivers": [
       "Locally observed scanner state distribution and flip activity (see scanner_summary).",
       "General market-news coverage, reviewed for context only.",
-      "Regulatory/legal-related coverage",
-      "Security-incident-related coverage"
+      "Macro/rates-related coverage"
     ],
-    "context_generated_at": "2026-09-07T13:01:17.534462+00:00"
+    "context_generated_at": "2026-09-07T18:42:42.623752+00:00"
   },
   "coin_specific_headlines": [
-    {
-      "title": "XRP price at Sep 7, 2026 at 7am EDT Crypto Prediction Market - Robinhood",
-      "source_name": "Robinhood",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQWp0YmRQYk05d0dzVGpxa0FqUFNQSHFqN1FLclVWbmFCSWhnTzhselY0QmtEREt6d2tTMnpuTWtBWGEzVy1Jd0FaNjhfOGZjVWhBT3hGSEk4emJTbUhoUGFTMXc1Mktyc2tNVTNYUnR1cFRxLTBJSDMxV05uem9uX2lrZ2oxSFN0T0p6LTJraDVaNmFhLWJDb2RvaXR0SUFSTUxZZUFYLWRVUnlk?oc=5",
-      "published_at": "Mon, 07 Sep 2026 10:02:22 GMT",
-      "relevance": "direct",
-      "freshness": "Today",
-      "default_visible": true
-    },
-    {
-      "title": "XRP Price Could Hit $60 if It Breaks $3.66 Resistance: Analyst - Yahoo Finance",
-      "source_name": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQZWdMRHEtWmg2VDNJLUxtUWhUN2xKZnV4Umk1N3BxbHhhYk9MUHY1WjBjbHYtc2hOQmJYekF5ZFZ0S2xucG5GUWtNTW1xQUF0N29uTTJuRUljT1B0SmdFemJtWUpkYVJiRk03Zl9WSGtkek14TFZYNW02ZUZyMDNreEZfRUg3bEZkdlJYUGVkM0U?oc=5",
-      "published_at": "Mon, 07 Sep 2026 11:22:15 GMT",
-      "relevance": "direct",
-      "freshness": "Today",
-      "default_visible": true
-    },
     {
       "title": "Florida Athletics Debuts XRP cryptocurrency logo at Ben Hill Griffin Stadium - Florida Gators",
       "source_name": "Florida Gators",
@@ -65,13 +46,31 @@
       "published_at": "Sun, 06 Sep 2026 21:56:00 GMT",
       "relevance": "direct",
       "freshness": "Recent",
-      "default_visible": false
+      "default_visible": true
+    },
+    {
+      "title": "The House Leaves Washington Two Days After the CLARITY Act Vote. What That Means for XRP - Yahoo Finance",
+      "source_name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQM0QyZWt1UmVNRjhOamtfSjd6dVFXV0RXUVQ4dXJSNVJZVjdoZ0k5MGo0NEFXenVDeHlfekxWd043RGRaLUVVTS1MQTRpeEZaUnJHcVdUbExnU3Vjc0RYQWRiUmlXZDIxblNGSzdQLW95Z0E4Z0tHUjVlUG9ZdWxsbE1HTkFNWGI5bEUyWWVLem91OGRnQmxTM3loSjNnUQ?oc=5",
+      "published_at": "Sun, 06 Sep 2026 17:27:41 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
     },
     {
       "title": "XRP Ledger has fewer active accounts than last year, but bigger trades and more value - CoinDesk",
       "source_name": "CoinDesk",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNXzc0WGpUaHZqU1RPUUtJdWZwTXEwMVZXUFVia2JRNHFNUWUyeUFWVWlLR01TT3R2NF9oQW4tVFV2X3JTVE5oWGdCMEV2Q29Bb21GTWREb0M1RUZyMnIyQTBYdldDbldnOUhrNlc1RUdYdUxpTWNUdW5TQWtpMDdYdXBjb1NRdjh2cUJkeG40VlE0X1Q4aC1YZXJOSmlXZGF4SGZkZlRtYURJMU40SHpDemxHQQ?oc=5",
       "published_at": "Sat, 05 Sep 2026 05:31:51 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": false
+    },
+    {
+      "title": "Former Ripple Devs Reveal Critical Red Flags as 4,000 XRP Ledger Wallets Are Affected - TradingView",
+      "source_name": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOUUdOczltN2dLZWRVVXpfQ1dUc1dMRWNyMll1TTVJRlFySDYwMUdIcDVPNzBPR2VjaHozbVRGQk1NYzN3aFp0RGNtY0RKbnVoU2ZVazRuTWZjamdMNllTdG9FS002U21TRV84VG5DeTVMR0g3bzZ3S0I5cjQ4RVpwZjZScExWN1RzVUJlR1llcDFUNGRlNm9DNTZSbC1fZ2N4STduSGFxdTMzZUdrQnhoWXQxNDItWGU0SnVuZzRFNU1Hbm9RWmYweTM4dG5SM3ZnNzliazZuRzR5cVE?oc=5",
+      "published_at": "Sun, 06 Sep 2026 16:51:05 GMT",
       "relevance": "direct",
       "freshness": "Recent",
       "default_visible": false

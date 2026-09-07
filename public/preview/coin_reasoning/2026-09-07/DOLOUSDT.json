@@ -1,7 +1,7 @@
 {
   "symbol": "DOLOUSDT",
   "date": "2026-09-07",
-  "generated_at": "2026-09-07T13:01:18.938930+00:00",
+  "generated_at": "2026-09-07T18:42:44.147080+00:00",
   "scanner_evidence": {
     "symbol": "DOLOUSDT",
     "pair": "DOLO/USDT",
@@ -25,10 +25,9 @@
     "possible_drivers": [
       "Locally observed scanner state distribution and flip activity (see scanner_summary).",
       "General market-news coverage, reviewed for context only.",
-      "Regulatory/legal-related coverage",
-      "Security-incident-related coverage"
+      "Macro/rates-related coverage"
     ],
-    "context_generated_at": "2026-09-07T13:01:17.534462+00:00"
+    "context_generated_at": "2026-09-07T18:42:42.623752+00:00"
   },
   "coin_specific_headlines": [
     {

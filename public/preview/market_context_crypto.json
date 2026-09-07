@@ -1,15 +1,35 @@
 {
   "market": "crypto",
-  "generated_at": "2026-09-07T13:01:17.534462+00:00",
+  "generated_at": "2026-09-07T18:42:42.623752+00:00",
   "scanner_summary": "506 assets scanned, 6 confirmed flips (1.2%). State distribution: Blue 24.1%, Gold 35.0%, Gray 25.3%, Unknown 15.6%. Strongest transition: Blue → Gold (6 of 6 flips). Source: reports/private_crypto_dashboard.csv.",
   "possible_drivers": [
     "Locally observed scanner state distribution and flip activity (see scanner_summary).",
     "General market-news coverage, reviewed for context only.",
-    "Regulatory/legal-related coverage",
-    "Security-incident-related coverage"
+    "Macro/rates-related coverage"
   ],
   "uncertainty_note": "Automatically collected from public RSS headlines and local scanner output. Headlines are cited, not verified for accuracy or causal connection to price movement. This is not investment advice and does not contain buy, sell, hold, or execution guidance. Human review is required before treating anything here as reliable market context.",
   "sources": [
+    {
+      "title": "Hunter Biden debuts 'LAPTOP' memecoin targeting TRUMP holders",
+      "source_name": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/09/07/hunter-biden-is-launching-a-memecoin-named-after-his-laptop",
+      "published_at": "Mon, 07 Sep 2026 15:44:30 +0000",
+      "note": "General market-news coverage, reviewed for context only."
+    },
+    {
+      "title": "Polish prosecutors charge fifth suspect in a massive crypto probe",
+      "source_name": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/09/07/polish-prosecutors-charge-fifth-suspect-in-a-massive-crypto-probe",
+      "published_at": "Mon, 07 Sep 2026 15:28:43 +0000",
+      "note": "General market-news coverage, reviewed for context only."
+    },
+    {
+      "title": "Stablecoin wallets challenge traditional bank accounts as main consumer money hub",
+      "source_name": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/09/07/stablecoin-wallets-challenge-traditional-bank-accounts-as-main-consumer-money-hub",
+      "published_at": "Mon, 07 Sep 2026 14:12:15 +0000",
+      "note": "General market-news coverage, reviewed for context only."
+    },
     {
       "title": "Solana to triple transaction size as apps get room for more complex trades",
       "source_name": "CoinDesk",
@@ -25,39 +45,18 @@
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Bitcoin blinks less than gold when Treasury yields move",
-      "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/daybook-us/2026/09/07/bitcoin-blinks-less-than-gold-when-treasury-yields-move",
-      "published_at": "Mon, 07 Sep 2026 11:15:00 +0000",
-      "note": "General market-news coverage, reviewed for context only."
-    },
-    {
-      "title": "UK regulator weighs easing financial prediction market ban: Times",
-      "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/09/07/uk-regulator-weighs-easing-financial-prediction-market-ban-times",
-      "published_at": "Mon, 07 Sep 2026 10:42:58 +0000",
-      "note": "Regulatory/legal-related coverage"
-    },
-    {
-      "title": "A two-key breach could hand control of $91 billion in USDT to hackers, report finds",
-      "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/tech/2026/09/04/tether-receives-bluechip-rating-upgrade-but-hacken-finds-major-key-security-gaps",
-      "published_at": "Mon, 07 Sep 2026 10:35:23 +0000",
-      "note": "Security-incident-related coverage"
-    },
-    {
-      "title": "Here’s what happened in crypto today",
+      "title": "Polish prosecutors charge suspect in Zondacrypto probe, seek pretrial detention",
       "source_name": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "Mon, 07 Sep 2026 12:54:14 +0000",
+      "url": "https://cointelegraph.com/news/polish-prosecutors-charge-man-in-zondacrypto-probe-seek-pretrial-detention?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "Mon, 07 Sep 2026 17:58:00 +0000",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Zcash hits highest price since 2016 as market cap tops $20B",
+      "title": "Bitcoin fund flows show investors trading Fed rate path, not exiting market: CoinShares",
       "source_name": "CoinTelegraph",
-      "url": "https://cointelegraph.com/markets/zcash-highest-price-market-cap-20-billion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "Mon, 07 Sep 2026 12:31:23 +0000",
-      "note": "General market-news coverage, reviewed for context only."
+      "url": "https://cointelegraph.com/markets/crypto-fund-flows-show-investors-trading-fed-rate-path-not-exiting-market-coinshares?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "Mon, 07 Sep 2026 17:29:27 +0000",
+      "note": "Macro/rates-related coverage"
     }
   ]
 }

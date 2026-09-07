@@ -1,11 +1,11 @@
 {
   "market": "stocks",
-  "generated_at": "2026-09-07T13:01:17.534462+00:00",
+  "generated_at": "2026-09-07T18:42:42.623752+00:00",
   "scanner_summary": "50 assets scanned, 0 confirmed flips (0.0%). State distribution: Blue 14.0%, Gold 76.0%, Gray 10.0%, Unknown 0.0%. Source: data/output/stocks_weekly_results.json, last modified 2026-06-13 (85 days ago). Stale-data warning: source file is more than 30 days old.",
   "possible_drivers": [
     "Locally observed scanner state distribution and flip activity (see scanner_summary).",
     "General market-news coverage, reviewed for context only.",
-    "Security-incident-related coverage"
+    "Macro/rates-related coverage"
   ],
   "uncertainty_note": "Automatically collected from public RSS headlines and local scanner output. Headlines are cited, not verified for accuracy or causal connection to price movement. This is not investment advice and does not contain buy, sell, hold, or execution guidance. Human review is required before treating anything here as reliable market context.",
   "sources": [
@@ -17,46 +17,46 @@
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Intuitive Surgical (ISRG): Embracing AI Innovations in Robotic Surgery for Future Growth",
+      "title": "Best CD rates today, Sunday, September 6, 2026: Lock in up to 4.35% APY",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/technology/ai/articles/intuitive-surgical-isrg-embracing-ai-123044580.html",
-      "published_at": "2026-09-07T12:30:44Z",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-sunday-september-6-2026-lock-in-up-to-435-apy-100000219.html",
+      "published_at": "2026-09-06T10:00:00Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "ASML Holding N.V. (ASML) Well Positioned as AI Fuels Chip Complexity",
+      "title": "Mortgage and refinance interest rates today, Sunday, September 6, 2026: Rates much higher week-over-week",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/asml-holding-n-v-asml-122438281.html",
-      "published_at": "2026-09-07T12:24:38Z",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-sunday-september-6-2026-rates-much-higher-week-over-week-100000794.html",
+      "published_at": "2026-09-06T10:00:00Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Audi introduces new compact EV in bid to boost European sales",
+      "title": "It now takes an average of 15 years to break even on a home compared to renting — and nearly 50 years in these markets",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/news/audi-introduces-compact-ev-bid-113825482.html",
-      "published_at": "2026-09-07T11:38:25Z",
+      "url": "https://finance.yahoo.com/real-estate/articles/now-takes-average-15-years-100000984.html",
+      "published_at": "2026-09-06T10:00:00Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Gap closed 350 stores and now has an Old Navy problem",
+      "title": "Dead money: Your savings account is losing inflation fight — where 4 financial advisors grow their cash instead",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/gap-closed-350-stores-now-233354471.html",
-      "published_at": "2026-09-06T23:33:54Z",
-      "note": "General market-news coverage, reviewed for context only."
+      "url": "https://finance.yahoo.com/markets/stocks/articles/dead-money-savings-account-losing-090000243.html",
+      "published_at": "2026-09-06T09:00:00Z",
+      "note": "Macro/rates-related coverage"
     },
     {
       "title": "‘I’m the executor’: My two siblings and I inherited an IRA. Can we just cash it out?",
       "source_name": "MarketWatch",
       "url": "https://www.marketwatch.com/story/im-the-executor-my-two-siblings-and-i-inherited-an-ira-can-we-just-cash-it-out-dafc5b8d?mod=mw_rss_topstories",
-      "published_at": "Mon, 07 Sep 2026 12:24:00 GMT",
+      "published_at": "Mon, 07 Sep 2026 18:30:00 GMT",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "‘Poverty doesn’t have to be my reality’: I thought I’d have to rely on Social Security. Then I taught myself how to invest.",
+      "title": "Why does almost nobody want to befriend older people like me — except scammers?",
       "source_name": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/i-didnt-know-what-i-didnt-know-i-thought-id-have-to-depend-on-social-security-then-i-taught-myself-how-to-invest-0129870b?mod=mw_rss_topstories",
-      "published_at": "Mon, 07 Sep 2026 12:16:00 GMT",
-      "note": "Security-incident-related coverage"
+      "url": "https://www.marketwatch.com/story/why-does-almost-nobody-want-to-befriend-older-people-like-me-except-scammers-fda849d1?mod=mw_rss_topstories",
+      "published_at": "Mon, 07 Sep 2026 17:30:00 GMT",
+      "note": "General market-news coverage, reviewed for context only."
     }
   ]
 }

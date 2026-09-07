@@ -1,7 +1,7 @@
 {
   "symbol": "AVAXUSDT",
   "date": "2026-09-07",
-  "generated_at": "2026-09-07T13:01:18.938930+00:00",
+  "generated_at": "2026-09-07T18:42:44.147080+00:00",
   "scanner_evidence": {
     "symbol": "AVAXUSDT",
     "pair": "AVAX/USDT",
@@ -25,12 +25,29 @@
     "possible_drivers": [
       "Locally observed scanner state distribution and flip activity (see scanner_summary).",
       "General market-news coverage, reviewed for context only.",
-      "Regulatory/legal-related coverage",
-      "Security-incident-related coverage"
+      "Macro/rates-related coverage"
     ],
-    "context_generated_at": "2026-09-07T13:01:17.534462+00:00"
+    "context_generated_at": "2026-09-07T18:42:42.623752+00:00"
   },
   "coin_specific_headlines": [
+    {
+      "title": "South Korea’s Hanwha Is Building a Tokenization Platform on Avalanche – and It Is Not Alone - CryptoRank",
+      "source_name": "CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPR080dTBlYVFnYUFib2dQWTJWMmN0MFlaRnZnQ2lzSlJzQ0RwWW83VTRXRWNuekQwTTdlc0NTLUJzbkxCRk80RWlPbVBDWkp5TnBFZ1dVcThpRk5vMnc4cWVTME54NTY0TXpFWE1jZFpqaHFzVXBVQTdWeGREUm1wajVMY1ZYSFNzSzdsUUF0V0o1S3ptMkxNT3BpdmtRVjNVZEhuaWRHbWk1T1A3QUlTZUhBU3YzVTNObjBIbTZqT1FGRC1Z?oc=5",
+      "published_at": "Mon, 07 Sep 2026 18:24:18 GMT",
+      "relevance": "direct",
+      "freshness": "Today",
+      "default_visible": true
+    },
+    {
+      "title": "Hanwha Builds Tokenized Securities Platform on Avalanche Ahead of South Korea Law - CoinMarketCap",
+      "source_name": "CoinMarketCap",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQR3RweHY1WXdkTUU0TVZONndwcF9ZZW12NmNpclNOOHB3cUxTQzhQNGhqT3hpSm92RzN5TWtUeWtGRDhBNkExWEdLR3pLa2Fkc21YR0FMUG9ZdEJJd0ttN3dlbTh6eXFlSmVuVUpMVWZHVnUzR2tLZ0FMMG9QWWpZMVVGUTFvbjFhOFlndWEwV2ViNHBCRkhoZF9vUmx6ck1weUZEX0IyQzM5OHJNeHJDeS1LUmRpWWc0Q2w2NlFhazA?oc=5",
+      "published_at": "Mon, 07 Sep 2026 14:24:38 GMT",
+      "relevance": "direct",
+      "freshness": "Today",
+      "default_visible": true
+    },
     {
       "title": "Hanwha taps Avalanche for tokenized securities platform in South Korea - Crypto News",
       "source_name": "Crypto News",
@@ -38,24 +55,6 @@
       "published_at": "Mon, 07 Sep 2026 06:59:00 GMT",
       "relevance": "direct",
       "freshness": "Today",
-      "default_visible": true
-    },
-    {
-      "title": "Avalanche (AVAX) price rebounds above $7, showi... - Pluang",
-      "source_name": "Pluang",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOOHdzM0V4QjNhRkNGd09CUmxJazlqdXZzS1FrRjAwbmRXeW9BT1p5SXZuYzBqTmZCS3NNQTZaY3ZjSnpjenBrMmh6RFhrN2ZlMTBsTFRLa18xV3dHampydExKbGVFMFJMRWJKdFJINVJKTnA2a2w3OWVrLTZRc3Jxd0VoMEQwOVZlUG1kZS1Nb0trdFpaZWF4NVJaSDZvWkVTR2dhR0RKY2g3QQ?oc=5",
-      "published_at": "Mon, 07 Sep 2026 07:16:03 GMT",
-      "relevance": "direct",
-      "freshness": "Today",
-      "default_visible": true
-    },
-    {
-      "title": "Avalanche (AVAX) Gains 3.6% on Payments, Tokenization, Market - CoinMarketCap",
-      "source_name": "CoinMarketCap",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9jQmZyNXVWYlJoMTBKRERLeS1IWE1Ya29EYkMxdEdGMGVDcVNHUkJfWDUxMlR6TXVvZzRQM0NOdTh0OWowaHI1b0VENGk4Y1M1Ukhjd1RTcF92cmw4bVFaZXNmVU9nZXp6eE4wZmVRZHo?oc=5",
-      "published_at": "Sun, 06 Sep 2026 21:04:00 GMT",
-      "relevance": "direct",
-      "freshness": "Recent",
       "default_visible": true
     },
     {

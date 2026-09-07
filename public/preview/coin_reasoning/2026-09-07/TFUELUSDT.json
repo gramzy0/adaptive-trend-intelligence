@@ -1,7 +1,7 @@
 {
   "symbol": "TFUELUSDT",
   "date": "2026-09-07",
-  "generated_at": "2026-09-07T13:01:18.938930+00:00",
+  "generated_at": "2026-09-07T18:42:44.147080+00:00",
   "scanner_evidence": {
     "symbol": "TFUELUSDT",
     "pair": "TFUEL/USDT",
@@ -25,10 +25,9 @@
     "possible_drivers": [
       "Locally observed scanner state distribution and flip activity (see scanner_summary).",
       "General market-news coverage, reviewed for context only.",
-      "Regulatory/legal-related coverage",
-      "Security-incident-related coverage"
+      "Macro/rates-related coverage"
     ],
-    "context_generated_at": "2026-09-07T13:01:17.534462+00:00"
+    "context_generated_at": "2026-09-07T18:42:42.623752+00:00"
   },
   "coin_specific_headlines": [
     {
@@ -68,10 +67,10 @@
       "default_visible": false
     },
     {
-      "title": "Revealed: Theta’s Game-Changing TDROP Whitepaper v2.0 Unlocks AI Agent Economy - CryptoRank",
-      "source_name": "CryptoRank",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5SdXp0X2hiMU9DbHBFNG4yUmhZdVVpbi1JQnpGcUttQWpGV0Z0RjFTRDBLZzRHeEtjOWpPdHpTUktaNDhtX19GZjdDSWV5c3lBZTZmX2tGNWJzTDdZcFBrVkQ0Ny1GRTlySG5OUUFwRVU4Y1JQZmRCcm9hdw?oc=5",
-      "published_at": "Wed, 17 Dec 2025 08:00:00 GMT",
+      "title": "Crypto Company Theta Labs Sued by Former Employees Over Fraud - Bloomberg Law News",
+      "source_name": "Bloomberg Law News",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQYXgwb19pY3ZDbEVfOXdtQkZzQ0I3bFpqa3BOeGFBV0tJY25hXy1zMHA4cUdjWm16VV9RRVFmQ0paTDlJa3g4N0JUNi1WSU1SUkl5MThoZTZ4SGxSX284ckxzX0xCM1NqTll4R0xJdnFENm9iby1ELXlHRWJlQndUM3lkQ2ZGRTRxWXR1NkFuRVJwNmpxczZtczdwT0tFZWxsTDVtZg?oc=5",
+      "published_at": "Tue, 16 Dec 2025 08:00:00 GMT",
       "relevance": "unrelated",
       "freshness": "Old",
       "default_visible": false
