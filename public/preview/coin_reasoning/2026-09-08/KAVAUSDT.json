@@ -1,0 +1,84 @@
+{
+  "symbol": "KAVAUSDT",
+  "date": "2026-09-08",
+  "generated_at": "2026-09-08T07:25:02.906201+00:00",
+  "scanner_evidence": {
+    "symbol": "KAVAUSDT",
+    "pair": "KAVA/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "62",
+    "score_tier": "B Watch",
+    "market_cap_rank": "393",
+    "gray_candles": "8",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "small-cap potential, small-cap high risk, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=KAVAUSDT",
+    "execution_time": "2026-09-08T06:37:28.827977+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "506 assets scanned, 6 confirmed flips (1.2%). State distribution: Blue 24.1%, Gold 35.0%, Gray 25.3%, Unknown 15.6%. Strongest transition: Blue → Gold (6 of 6 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only.",
+      "Security-incident-related coverage"
+    ],
+    "context_generated_at": "2026-09-08T07:25:01.384493+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Kava Price Prediction 2026, 2027 – 2030: Will KAVA Price Shoot To $1? - Coinpedia",
+      "source_name": "Coinpedia",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE15WmUwWEZHLVdDVjJ4SFlNRW9CRXlZalRodFM3SmQ3eFZqWWpaQ0JIcTBaekxkbm5xd1ZkN0tpUWJ3cTNTc3A3ZVc5VmpjXzd1OXFYS0U4SkhUMEVISTJ5S3ZobTY3V2lKd2hOTDBn0gFzQVVfeXFMTWZhdWVGMlRLelFXdGZmaDRkU0JyaEJTWmFGTDRCdFpXaF9Nd3FYYzFueHEwdkpyYk9JX1V2OEpJV2Q3MWg5dUo5ZlZNeThXelIyVTN3RXJzcVNpNXZWcjl4UDRUWi13UklmaXF6eExBeV85dw?oc=5",
+      "published_at": "Thu, 27 Aug 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Kava Price Prediction 2025-2030: A Realistic Analysis of the $1 Milestone - CryptoRank",
+      "source_name": "CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE85VF9ha3dLSmRUeUFLYVRtTk92a0pERzdtWFpzMWxINE5ZOHlhWG1aV0h2LW5qMEp4aVVuQkE1czR5aEFLZjlvZGYwaDZaU1B4amJ2b2JfTDZERjhRRlVwdXp3d05rSzRPSlVKaHY0YXZyUU1uNEgybTNZQlN6UQ?oc=5",
+      "published_at": "Wed, 25 Feb 2026 08:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Kava Price Prediction 2025, 2026 – 2030: Will KAVA Price Shoot To $1? - Bitget",
+      "source_name": "Bitget",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFAzd0trUWJzdU5RZ3RYUUZPY25kTkdUMVRxVU41aDRvT0hlNzR6Uk1uZnlLWF9GZVFCVm4taHFFVmdURUhyRXphM0YyS2RVVG94ckswSzNRejFxNFlVTmfSAWNBVV95cUxPY3RPemloaVduZWNucTVlcmxTSW1lOVZRTXRYR09GaHFFNlp5YUNrcWVGd1o0bk53VU9IYVRPNkVvOWpvQXJWcXg5c0xxeUN6UFBkbGFtNE9IR3dTVGNmNFVOS0k?oc=5",
+      "published_at": "Wed, 25 Feb 2026 08:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Why Is Kava Price Plunging?Crucial Reasons Explained - Kabul University",
+      "source_name": "Kabul University",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQRFdVajFoS3I5bFE2N1B0MnVaQ2VmOW91TTJyR2xpWURlSzR6QjVWSXB1SlQxS1VsUFB4QjJjM3NuVlJ1VkRuTjkwVnNPS1V4OXk0cm5CaVFodFdOMTVhZUdDbWxSUTJMSFJaSDA2UzB5TXY5Smx2V2FTb1RvT0VleTl4bw?oc=5",
+      "published_at": "Fri, 03 Jul 2026 00:35:46 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    },
+    {
+      "title": "Kava (KAVA) Price Prediction 2026 2027 2028 - 2040 - Changelly",
+      "source_name": "Changelly",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE91VWFFSlpBajBsUmVuWFZCUWw1MUZWUnhMYzBMNWhVeVZtVWZnR1NEMTc2MWlwR1BDclBFTlpZTzZBcHhNdTJMeUVPQ0g0eWhBLXFVcHpQUk4xZ25ySml5bVlmdGU?oc=5",
+      "published_at": "Thu, 26 Jan 2023 11:25:51 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "Kava crypto",
+  "reasoning_quality": "Medium",
+  "reasoning_quality_note": "Relevant evidence found (5 direct but not fresh headline(s)), but no headline is both coin-specific and fresh. Treat this as supporting context, not confirmation.",
+  "neutral_explanation": "KAVAUSDT (KAVA/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 62 (tier B Watch); market-cap rank 393. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 506 assets scanned, 6 confirmed flips (1.2%). State distribution: Blue 24.1%, Gold 35.0%, Gray 25.3%, Unknown 15.6%. Strongest transition: Blue → Gold (6 of 6 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (5 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

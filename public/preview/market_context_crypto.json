@@ -1,62 +1,62 @@
 {
   "market": "crypto",
-  "generated_at": "2026-09-07T18:42:42.623752+00:00",
+  "generated_at": "2026-09-08T07:25:01.384493+00:00",
   "scanner_summary": "506 assets scanned, 6 confirmed flips (1.2%). State distribution: Blue 24.1%, Gold 35.0%, Gray 25.3%, Unknown 15.6%. Strongest transition: Blue → Gold (6 of 6 flips). Source: reports/private_crypto_dashboard.csv.",
   "possible_drivers": [
     "Locally observed scanner state distribution and flip activity (see scanner_summary).",
     "General market-news coverage, reviewed for context only.",
-    "Macro/rates-related coverage"
+    "Security-incident-related coverage"
   ],
   "uncertainty_note": "Automatically collected from public RSS headlines and local scanner output. Headlines are cited, not verified for accuracy or causal connection to price movement. This is not investment advice and does not contain buy, sell, hold, or execution guidance. Human review is required before treating anything here as reliable market context.",
   "sources": [
     {
-      "title": "Hunter Biden debuts 'LAPTOP' memecoin targeting TRUMP holders",
+      "title": "Bit2Me sets up specialized unit to help law enforcement track down crypto assets",
       "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/09/07/hunter-biden-is-launching-a-memecoin-named-after-his-laptop",
-      "published_at": "Mon, 07 Sep 2026 15:44:30 +0000",
+      "url": "https://www.coindesk.com/business/2026/09/02/bit2me-sets-up-specialized-unit-to-help-law-enforcement-track-down-crypto-assets",
+      "published_at": "Tue, 08 Sep 2026 07:00:00 +0000",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Polish prosecutors charge fifth suspect in a massive crypto probe",
+      "title": "Crypto traders turn on Hunter Biden’s LAPTOP memecoin before it even launches",
       "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/09/07/polish-prosecutors-charge-fifth-suspect-in-a-massive-crypto-probe",
-      "published_at": "Mon, 07 Sep 2026 15:28:43 +0000",
+      "url": "https://www.coindesk.com/markets/2026/09/08/crypto-traders-turn-on-hunter-biden-s-laptop-memecoin-before-it-even-launches",
+      "published_at": "Tue, 08 Sep 2026 06:23:53 +0000",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Stablecoin wallets challenge traditional bank accounts as main consumer money hub",
+      "title": "Bitcoin’s golden cross is here",
       "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/09/07/stablecoin-wallets-challenge-traditional-bank-accounts-as-main-consumer-money-hub",
-      "published_at": "Mon, 07 Sep 2026 14:12:15 +0000",
+      "url": "https://www.coindesk.com/markets/2026/09/08/bitcoin-s-golden-cross-is-here",
+      "published_at": "Tue, 08 Sep 2026 05:56:23 +0000",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Solana to triple transaction size as apps get room for more complex trades",
+      "title": "Liquid Network gets back 3,400 bitcoin from whitehat hackers; talks underway for the rest",
       "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/tech/2026/09/07/solana-to-triple-transaction-size-as-apps-get-room-for-more-complex-trades",
-      "published_at": "Mon, 07 Sep 2026 12:08:11 +0000",
+      "url": "https://www.coindesk.com/markets/2026/09/08/white-hat-hackers-return-most-of-usd320m-bitcoin-taken-from-liquid-network",
+      "published_at": "Tue, 08 Sep 2026 04:41:17 +0000",
+      "note": "Security-incident-related coverage"
+    },
+    {
+      "title": "Metaplanet CEO breaks silence but shareholders say the hard questions remain unanswered",
+      "source_name": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/09/08/metaplanet-ceo-breaks-silence-but-shareholders-say-the-hard-questions-remain-unanswered",
+      "published_at": "Mon, 07 Sep 2026 23:01:00 +0000",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "DBS and Citi complete weekend USD payment via Swift’s Digital Ledger using tokenized deposits",
-      "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/09/07/dbs-and-citi-enable-instant-24-7-cross-border-tokenised-deposit-payments-on-the-swift-ledger",
-      "published_at": "Mon, 07 Sep 2026 12:05:32 +0000",
-      "note": "General market-news coverage, reviewed for context only."
-    },
-    {
-      "title": "Polish prosecutors charge suspect in Zondacrypto probe, seek pretrial detention",
+      "title": "Swiss stablecoin sandbox enters testing phase, adds two new partners",
       "source_name": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/polish-prosecutors-charge-man-in-zondacrypto-probe-seek-pretrial-detention?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "Mon, 07 Sep 2026 17:58:00 +0000",
+      "url": "https://cointelegraph.com/news/swiss-stablecoin-sandbox-testing-phase-two-new-partners?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "Tue, 08 Sep 2026 07:18:32 +0000",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Bitcoin fund flows show investors trading Fed rate path, not exiting market: CoinShares",
+      "title": "Here’s what happened in crypto today",
       "source_name": "CoinTelegraph",
-      "url": "https://cointelegraph.com/markets/crypto-fund-flows-show-investors-trading-fed-rate-path-not-exiting-market-coinshares?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "Mon, 07 Sep 2026 17:29:27 +0000",
-      "note": "Macro/rates-related coverage"
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "Tue, 08 Sep 2026 05:52:38 +0000",
+      "note": "General market-news coverage, reviewed for context only."
     }
   ]
 }

@@ -1,0 +1,84 @@
+{
+  "symbol": "MAVUSDT",
+  "date": "2026-09-08",
+  "generated_at": "2026-09-08T07:25:02.906201+00:00",
+  "scanner_evidence": {
+    "symbol": "MAVUSDT",
+    "pair": "MAV/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "42",
+    "score_tier": "C Weak",
+    "market_cap_rank": "1086",
+    "gray_candles": "15",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "small-cap potential, small-cap high risk, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=MAVUSDT",
+    "execution_time": "2026-09-08T06:37:28.827977+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "506 assets scanned, 6 confirmed flips (1.2%). State distribution: Blue 24.1%, Gold 35.0%, Gray 25.3%, Unknown 15.6%. Strongest transition: Blue → Gold (6 of 6 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only.",
+      "Security-incident-related coverage"
+    ],
+    "context_generated_at": "2026-09-08T07:25:01.384493+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Maverick Protocol (MAV) Price Prediction 2026 2027 2028 - 2040 - Changelly",
+      "source_name": "Changelly",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE83NVBwTkMtRC1uNG9LR0lvOWx2ZXZvdEtDcTJMWDNYa2FoQjRVakZuRTh3aVU2Qm4wS2dDZW15QnZjTWowZHBMd3hEdy00SUFWNGNSRXN5cERhQUkxbXAzbEtYNF9KN3FBX2l0RVAtR0dCWmpK?oc=5",
+      "published_at": "Wed, 17 Jan 2024 14:09:16 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "What is Maverick Protocol | How MAV Works, Use Cases and Values | MEXC - MEXC",
+      "source_name": "MEXC",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9BNDJROHJmT1RfSDVqWWtyaFkxdEZfZTVPMkpkUTlzX3E4V2xycXZBaW1kWXo0U3RZdkFEVW9GWkZzT0kzZGFvNlNvSQ?oc=5",
+      "published_at": "Fri, 31 Oct 2025 18:49:07 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Maverick Protocol Price Prediction: Is MAV Coin a Good Investment? - StealthEX",
+      "source_name": "StealthEX",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNT2gtelhmdzg3cGVYWl9fMi1zX05XOFdkNFdPYTZCOXItS1c5OHBucmJwY2N3YTdoUUVOMWs4RnZnNDlvYjhfazBwYldXUXVuX2x6aVhJek1jSWh4c3ktTzlLMUpjSElON014WHIxZXBXMlBTSUc1Y180NEVnd1dKcjJvdU1ZX0tuelluS0hxM2lzdXNmUWc?oc=5",
+      "published_at": "Fri, 05 Sep 2025 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Maverick Protocol raises $9 million to challenge decentralized exchanges like Uniswap - Fortune",
+      "source_name": "Fortune",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOMXZOV2FtV0Z6YXdVN255LUtPTGpxOW5wcXZ1ZXo3b180aGRrTEJ0TU1hV0xRRVdBRXlkd1RsY1RyRlBMOGp2THA5S2Z1NUJGemlNNEJENkg0U3gzUDVJRS1LZlJ4d2ZnVDdfZWxXVTRtT0txeHFOSjRvTS1XWDdNczFsYWo4Q2dWdm56R0pYXy1ZaE95SlVPLWMyT3ljUDhfRzlJc2ZR?oc=5",
+      "published_at": "Wed, 21 Jun 2023 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    },
+    {
+      "title": "DeFi Protocol Maverick Raises $9M Led by Peter Thiel's Founders Fund - CoinDesk",
+      "source_name": "CoinDesk",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZHFIemVLVkdob0lNZDRjd3FuMFpha0l2X2pkMEVybmZrbTd4dzlvcHdqU1RTWklReEZ3ZFVlRkdzT2ZpdGZzbVlDSmNmMWJ3cG5LRzFXRC1Vak5ick9wRmhTWklJUjYycm5FYmZqMjNVWVN3anRKWGd0YmQ2NEMyQ2NzSXZnelFTVjYxRVJIT2R1SVRUcFliZHlSRjJ0TzZmMW9PT0V6TUFlRDR0TkRoUg?oc=5",
+      "published_at": "Mon, 12 Jun 2023 07:00:00 GMT",
+      "relevance": "market_context",
+      "freshness": "Old",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "Maverick Protocol crypto",
+  "reasoning_quality": "Medium",
+  "reasoning_quality_note": "Relevant evidence found (4 direct but not fresh, 1 sector/market-wide headline(s)), but no headline is both coin-specific and fresh. Treat this as supporting context, not confirmation.",
+  "neutral_explanation": "MAVUSDT (MAV/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 42 (tier C Weak); market-cap rank 1086. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 506 assets scanned, 6 confirmed flips (1.2%). State distribution: Blue 24.1%, Gold 35.0%, Gray 25.3%, Unknown 15.6%. Strongest transition: Blue → Gold (6 of 6 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (4 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

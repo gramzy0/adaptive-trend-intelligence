@@ -1,0 +1,84 @@
+{
+  "symbol": "APEUSDT",
+  "date": "2026-09-08",
+  "generated_at": "2026-09-08T07:25:02.906201+00:00",
+  "scanner_evidence": {
+    "symbol": "APEUSDT",
+    "pair": "APE/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "77",
+    "score_tier": "A Good",
+    "market_cap_rank": "218",
+    "gray_candles": "1",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "fresh signal, clean transition",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=APEUSDT",
+    "execution_time": "2026-09-08T06:37:28.827977+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "506 assets scanned, 6 confirmed flips (1.2%). State distribution: Blue 24.1%, Gold 35.0%, Gray 25.3%, Unknown 15.6%. Strongest transition: Blue → Gold (6 of 6 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only.",
+      "Security-incident-related coverage"
+    ],
+    "context_generated_at": "2026-09-08T07:25:01.384493+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "ApeCoin Leads Altcoin Rally With 170% Volume Spike—What’s Fueling APE Price Rally? - CryptoRank",
+      "source_name": "CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxObWpnOVAzWERfQzlGZ0kydDRIOUdKVHhXYnhzTnpDTGtJWVN2a3MwZ0xWVmtMSFBXX19odjlmY2ZHUDd5eHJ5RGZXbk8wQjlWNmxwNzZHTUZ3eUNMbEdSWEg0YWV6dmFzZGJEOWFXNjRfc0p4bzVtalZWNlNCTlRscjRhd0ZHQjdNeFhtcFJ2dm0wTTBVSFR4T0hTM29VUTBXOXA2Yjh4am51WDNMSEFkS0hNdTZraXNs?oc=5",
+      "published_at": "Sun, 06 Sep 2026 02:17:11 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "ApeCoin Price: APE Price Index and Live Chart - The Block",
+      "source_name": "The Block",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFAzYUNhV1A1NzQ5MlZPeTEtZnE5a0xwQWQ1VUVqVGltSjhONk1PMkhNN0lkZkZjOUhlWDdveGZJN2N1LXlSb3BuM0RnVVg3Zw?oc=5",
+      "published_at": "Tue, 01 Sep 2026 04:53:22 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "ApeCoin (APE) Price Rallies 80%, Puts One Trader In the Spotlight for Insider Trading - Yahoo Finance",
+      "source_name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxObkwtYkg3VmFJdzlZVXk5MUZMLU1tbmsxeGJJQlZoR050OW5GTkVJQXNWV2U3WnNubXFNNE5TZ1hyM295TG9FekRjXzdpZDZBQk5UazJhZkJFaFhmcTFDTzNySWJZZENnbUw1anRLRGtxVThtbzZUZDRJbEVlVk1KdGVDNERURlJrNFJmYWpveUx2OTVpMEUxdw?oc=5",
+      "published_at": "Fri, 24 Apr 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "ApeCoin’s Wild Ride: Massive Surge, Fast Pullback, And A 5x Bet Is Behind It - Stocktwits",
+      "source_name": "Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPa2xTWlp2NzhkNGFFQlVSb25maTRCTG5SWjRfMXBpcHJqZGs0TEVPd3NrM1pZYkxmZzFGa2dRVl9QTGlSRng1Zm1KZkhYUXVCS2hEb1ZGMFEzeGNCeWh0eFpJajN5TDhXQVlQd1VvMjVSNm9NMVN5MTBCRXBUNzdTU3hUdXY1dTZ4OEJGWGdYSlh6SHNDOThEbTY2cWFxazZfUnB1ckVkVHpRcl9RRGw1WExB?oc=5",
+      "published_at": "Sun, 26 Apr 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    },
+    {
+      "title": "Price of ApeCoin (APE) today in EUR – Quote and market trends - Bit2Me",
+      "source_name": "Bit2Me",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFA4czZqdFlyalVyX2dVT09tWHhqUFk4Y1U5OXBiZ3dPcDFHSEhsSXV0alJaUXF5ZV90ZjlNZW5PX3pfQ0E0X1VSVkluRQ?oc=5",
+      "published_at": "Mon, 27 Jul 2026 05:22:18 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "ApeCoin crypto",
+  "reasoning_quality": "Strong",
+  "reasoning_quality_note": "2 direct, fresh coin-specific headline(s) found (named the coin/project and published today or within the last 7 days).",
+  "neutral_explanation": "APEUSDT (APE/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 77 (tier A Good); market-cap rank 218. Scanner note: Valid confirmed trend flip — fresh signal, clean transition. Broader crypto market context: 506 assets scanned, 6 confirmed flips (1.2%). State distribution: Blue 24.1%, Gold 35.0%, Gray 25.3%, Unknown 15.6%. Strongest transition: Blue → Gold (6 of 6 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (5 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

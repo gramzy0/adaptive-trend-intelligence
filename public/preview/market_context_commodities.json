@@ -1,46 +1,45 @@
 {
   "market": "commodities",
-  "generated_at": "2026-09-07T18:42:42.623752+00:00",
+  "generated_at": "2026-09-08T07:25:01.384493+00:00",
   "scanner_summary": "No commodity scanner data available in data/output; no asset count, flip count, or state distribution can be computed locally.",
   "possible_drivers": [
-    "General market-news coverage, reviewed for context only.",
-    "Supply-related coverage"
+    "General market-news coverage, reviewed for context only."
   ],
   "uncertainty_note": "Automatically collected from public RSS headlines and local scanner output. Headlines are cited, not verified for accuracy or causal connection to price movement. This is not investment advice and does not contain buy, sell, hold, or execution guidance. Human review is required before treating anything here as reliable market context.",
   "sources": [
     {
-      "title": "Modern Warfare Is Burning Through the Metals Needed for a High-Tech Future",
+      "title": "Germany Faces Winter Gas Shortage Risk as Storage Lags",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Energy/Energy-General/Modern-Warfare-Is-Burning-Through-the-Metals-Needed-for-a-High-Tech-Future.html",
-      "published_at": "Mon, 07 Sep 2026 13:00:00 -0500",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Germany-Faces-Winter-Gas-Shortage-Risk-as-Storage-Lags.html",
+      "published_at": "Tue, 08 Sep 2026 02:00:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Russia Vows to Keep Selling Oil to India Despite U.S. Tariff Threat",
+      "title": "Oil Prices Climb Toward $100 as Middle East Peace Hopes Fade",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Russia-Vows-to-Keep-Selling-Oil-to-India-Despite-US-Tariff-Threat.html",
-      "published_at": "Mon, 07 Sep 2026 12:30:00 -0500",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Climb-Toward-100-as-Middle-East-Peace-Hopes-Fade.html",
+      "published_at": "Tue, 08 Sep 2026 00:30:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Copper's Longest Rally Since 1994 Collides With a Shrinking Supply Chain",
+      "title": "Germany’s Power Grid Could Be NATO’s Weakest Link",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Metals/Commodities/Coppers-Longest-Rally-Since-1994-Collides-With-a-Shrinking-Supply-Chain.html",
-      "published_at": "Mon, 07 Sep 2026 12:00:00 -0500",
-      "note": "Supply-related coverage"
-    },
-    {
-      "title": "China Halts New Battery Storage Plant Approvals",
-      "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/China-Halts-New-Battery-Storage-Plant-Approvals.html",
-      "published_at": "Mon, 07 Sep 2026 11:30:00 -0500",
+      "url": "https://oilprice.com/Energy/Energy-General/Germanys-Power-Grid-Could-Be-NATOs-Weakest-Link.html",
+      "published_at": "Mon, 07 Sep 2026 19:00:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Uzbekistan Scales Back Nuclear Cooperation With Russia",
+      "title": "New York’s Nuclear Comeback Is Gathering Steam",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Alternative-Energy/Nuclear-Power/Uzbekistan-Scales-Back-Nuclear-Cooperation-With-Russia.html",
-      "published_at": "Mon, 07 Sep 2026 11:00:00 -0500",
+      "url": "https://oilprice.com/Energy/Energy-General/New-Yorks-Nuclear-Comeback-Is-Gathering-Steam.html",
+      "published_at": "Mon, 07 Sep 2026 18:00:00 -0500",
+      "note": "General market-news coverage, reviewed for context only."
+    },
+    {
+      "title": "Washington’s Venezuela Oil Deal Is About Much More Than Crude",
+      "source_name": "OilPrice.com",
+      "url": "https://oilprice.com/Energy/Crude-Oil/Washingtons-Venezuela-Oil-Deal-Is-About-Much-More-Than-Crude.html",
+      "published_at": "Mon, 07 Sep 2026 17:00:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {

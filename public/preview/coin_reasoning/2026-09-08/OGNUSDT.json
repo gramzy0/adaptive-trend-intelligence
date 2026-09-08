@@ -1,0 +1,84 @@
+{
+  "symbol": "OGNUSDT",
+  "date": "2026-09-08",
+  "generated_at": "2026-09-08T07:25:02.906201+00:00",
+  "scanner_evidence": {
+    "symbol": "OGNUSDT",
+    "pair": "OGN/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "52",
+    "score_tier": "B Watch",
+    "market_cap_rank": "1094",
+    "gray_candles": "14",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "small-cap potential, small-cap high risk, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=OGNUSDT",
+    "execution_time": "2026-09-08T06:37:28.827977+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "506 assets scanned, 6 confirmed flips (1.2%). State distribution: Blue 24.1%, Gold 35.0%, Gray 25.3%, Unknown 15.6%. Strongest transition: Blue → Gold (6 of 6 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only.",
+      "Security-incident-related coverage"
+    ],
+    "context_generated_at": "2026-09-08T07:25:01.384493+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Origin Token to Host Community Call on July 6th - TradingView",
+      "source_name": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbDV0UFpNaTdVOE0wQUx4Q3BsdXRVUlJYY3l2dkpneVBKVHhHRlV5cE5JRGV6YnZGSzBXbndvVU1xWDd3Zkdhdk8tbmVvSWZMUUl3ZTA0U2o5VjB2WUEyVWJtZTVjR0tTNWlaZGpEMnBDRXJlWFh3bmJBckYtdjdzcmJPV245WVZvTGRIa1ctd1dnbTVLcVljYndsTHpNcGVyM05zczBkaXA?oc=5",
+      "published_at": "Sun, 05 Jul 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Origin Protocol reveals $3.5M OGN buybacks, cutting supply by 14.8% with no new token emissions. - Pluang",
+      "source_name": "Pluang",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPeHp1NWE0TVJTZ08tSGJzcUgzSVhQeEEybzVFaFR1RXB5V1NKSVY5YmZNblkzMi1jNVdRNlpjNl80OG1DVk1ZbDN1MXdOU1B6NGVodVJmQ2VZVGVBWFRzT05rd3VVa3BqdkZyWUhtbDk0ODhkR1FLa3VBU3huUmNJT0ZjNl9KWi05MDBOR1ZTVXhBWVFYMF9yZnRMWnNXTGdBSFFnQXl6X0s2QVV6R3dlaA?oc=5",
+      "published_at": "Thu, 27 Aug 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Origin Protocol (OGN) Price Prediction 2026, 2027 – 2030: Is OGN Ready for a Reversal? - Coinpedia",
+      "source_name": "Coinpedia",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNX2FuWHN5bDFfVVNCOGpXeWJDMFBnaTQ2b2MzcHNnXzZkTGI4bldOR041U0V0ZGRTdUV1cmxuREI4RU9VRWIyUUs0dmN3R05Pa3I5amRXRW1Cd2dRMERMbnRlMklqdGxlRm8wblZvODVhaTMyQldEdHA2dEhzUW1xddIBhgFBVV95cUxNR2p2b2RzUjRhOWU0T1hjYmxwREh2QXlGU0VELTllcWM2eEVIMDNxb21hY25DYlhDbFd0SVo4RU1HSnpvTXRmanE5YWtmRml4OW5UcVl3ZkdxWU1VdVZVck1PZTJkT0lzOHZqZzdYWVhuOFVTU2lnM0hsQjBMY2tkLWNJUjBSdw?oc=5",
+      "published_at": "Sat, 28 Mar 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "What Is OUSD Crypto? The Stablecoin Challenging USDT: Is Origin Dollar Legit? - Bitcoin Foundation",
+      "source_name": "Bitcoin Foundation",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQVjBQRlhmTVo2aDMzRHdid0szY180SzZRZ2huNXJCOGJlNEx3WU55ajlvQmVvVTY5S1REUFNCZzNPWkJsRWVER0tTejAxUlBKVUdHZnNPTU1jR1pENEV6VXJOWk4zWFh0YktjS3VrdEdfbWFDUE85RjN3OXZtNWY0T0dNMWxuNmdwaFg4djcyU3R5M21sTENOcUVxU1B3QmM5M3AwUnUyelJPaS1Td2pxRWZRR0d2Qkp1bi0wNE1CRmdYVXRS?oc=5",
+      "published_at": "Wed, 01 Jul 2026 07:00:00 GMT",
+      "relevance": "market_context",
+      "freshness": "Old",
+      "default_visible": false
+    },
+    {
+      "title": "Origin (LGNS) Price Prediction May 2026: Can It Reach $4.30? - coindcx.com",
+      "source_name": "coindcx.com",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9PXzZBTUVrRWFPRkgtdk9tUmRyWFRDcm5rWVdGZmJINlRiZTVHdDhkeWxUSFJlajRCOGd4UzE3a1lWeUFDc01ENHppNnNzSXlFb3VZbXo0OXVieXQ3TWQ5U0szN3hGc3k3Qm1sRldVRWhvLXdWRDd3QmhlRnQ?oc=5",
+      "published_at": "Thu, 14 May 2026 07:00:00 GMT",
+      "relevance": "unrelated",
+      "freshness": "Old",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "Origin Token crypto",
+  "reasoning_quality": "Medium",
+  "reasoning_quality_note": "Relevant evidence found (3 direct but not fresh, 1 sector/market-wide headline(s)), but no headline is both coin-specific and fresh. Treat this as supporting context, not confirmation.",
+  "neutral_explanation": "OGNUSDT (OGN/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 52 (tier B Watch); market-cap rank 1094. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 506 assets scanned, 6 confirmed flips (1.2%). State distribution: Blue 24.1%, Gold 35.0%, Gray 25.3%, Unknown 15.6%. Strongest transition: Blue → Gold (6 of 6 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (3 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}
