@@ -1,0 +1,84 @@
+{
+  "symbol": "SOLVUSDT",
+  "date": "2026-09-09",
+  "generated_at": "2026-09-09T07:25:02.745557+00:00",
+  "scanner_evidence": {
+    "symbol": "SOLVUSDT",
+    "pair": "SOLV/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "62",
+    "score_tier": "B Watch",
+    "market_cap_rank": "755",
+    "gray_candles": "8",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "small-cap potential, small-cap high risk, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=SOLVUSDT",
+    "execution_time": "2026-09-09T06:37:25.339726+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "506 assets scanned, 4 confirmed flips (0.8%). State distribution: Blue 22.7%, Gold 36.8%, Gray 24.9%, Unknown 15.6%. Strongest transition: Blue → Gold (4 of 4 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only.",
+      "ETF/regulatory-related coverage"
+    ],
+    "context_generated_at": "2026-09-09T07:25:01.470718+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Solv Protocol Migrates $700M BTC From LayerZero to Chainlink - Bitcoin Foundation",
+      "source_name": "Bitcoin Foundation",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5vMFRhR0lhS3d5SWNRUmV3aFdzU1BvUWdUTUp1OE0wOHBCVl9FOXVTMUdyTDdlY09wRmZQSjc5WTlITmRXS3R4UWFnN1BvYXJ1Y0xGeXZ5eS05dFhiWDZwYWhKYUJ5Z0VEZFNaQUFFQUx2QQ?oc=5",
+      "published_at": "Fri, 08 May 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Critical Update: Bithumb and Coinone Extend Delisting Watchlist for Solv Protocol - CryptoRank",
+      "source_name": "CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQVGZuR25IMk9zRHZZVk5jUVY0ZHh5b1FxSmVSMkFaYlY3Y0ZNU0ZsLTc0Q01EcFdjeHNPYko5RXBDR3p2WXd5VnVhWFVyOTd2VkZ0Z3NCNE54YXNmRGhXUUlIVHp5eVlVS2NtTVVfd21IdndYQkx3dTM3SU83WFVxTA?oc=5",
+      "published_at": "Fri, 03 Apr 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "What Is Solv Protocol (SOLV)? - Binance",
+      "source_name": "Binance",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBwdmgxUl93YVJIVk9DeU5XblNOSjVXTHJKOHR5M0d6bzVxNWpRY2hFUExzb1dFQkhNWkxjcV9QT1ZRLW1fVC0xaGV1Nk5YbGQyWVVVWlpVNEZ6YWZoUGt3OWpVY1A0X3FwVnFLYnk2VFJUUWwydjhTYUtR?oc=5",
+      "published_at": "Fri, 26 Jun 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "An Attacker Exploited A Double-Minting Bug In Solv Protocol 22 Times - The Haul: $2.7M In Bitcoin-Backed Tokens - Yellow.com",
+      "source_name": "Yellow.com",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQU2VIeE9yakNpdzdvaDIwajVVVy1YZTVYOGd6VVZHNFRpRVVlMllFUExRbWdqb25WaENaR1JIMHgxSS1GWTZVQkJ4bGkzN1V3STBfTnlET2NoVG5FNEZ6bWwxYi13cmF0Mm9ibUhpLVNEakpMYWlzczdycURhN0VaQzEtRGZkMjRuU2FaN2NHcFlCYm9QeDZzRElvUWt3NjJRVmtacnFRenNnZ1JuRkJmczY1YzdobUFkQVUzZWFxcUtoLUdEcGV6bTRfeXdvWjZudkE?oc=5",
+      "published_at": "Mon, 09 Mar 2026 17:35:19 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    },
+    {
+      "title": "Explained: The Solv Hack (March 2026) - Halborn",
+      "source_name": "Halborn",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE42YUloSzlDRktWY0NlbEtibEtJOUx1TjRDRGZFX29vTnNlV2JFanpabzIyTHZ1OE5MTG13X3MzQmlXTHJ6eHpFalJmbWxyUTRLZ0xLbFdwLURGQ25FbTlRekp0dkpqUlhxeF9mdjZNeHZ2a0FNYmtV?oc=5",
+      "published_at": "Sat, 07 Mar 2026 12:30:29 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "Solv Protocol crypto",
+  "reasoning_quality": "Medium",
+  "reasoning_quality_note": "Relevant evidence found (5 direct but not fresh headline(s)), but no headline is both coin-specific and fresh. Treat this as supporting context, not confirmation.",
+  "neutral_explanation": "SOLVUSDT (SOLV/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 62 (tier B Watch); market-cap rank 755. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 506 assets scanned, 4 confirmed flips (0.8%). State distribution: Blue 22.7%, Gold 36.8%, Gray 24.9%, Unknown 15.6%. Strongest transition: Blue → Gold (4 of 4 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (5 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

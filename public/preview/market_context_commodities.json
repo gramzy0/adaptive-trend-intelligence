@@ -1,46 +1,47 @@
 {
   "market": "commodities",
-  "generated_at": "2026-09-08T07:25:01.384493+00:00",
+  "generated_at": "2026-09-09T07:25:01.470718+00:00",
   "scanner_summary": "No commodity scanner data available in data/output; no asset count, flip count, or state distribution can be computed locally.",
   "possible_drivers": [
-    "General market-news coverage, reviewed for context only."
+    "General market-news coverage, reviewed for context only.",
+    "Supply-related coverage"
   ],
   "uncertainty_note": "Automatically collected from public RSS headlines and local scanner output. Headlines are cited, not verified for accuracy or causal connection to price movement. This is not investment advice and does not contain buy, sell, hold, or execution guidance. Human review is required before treating anything here as reliable market context.",
   "sources": [
     {
-      "title": "Germany Faces Winter Gas Shortage Risk as Storage Lags",
+      "title": "Rising Oil Prices Threaten China’s Independent Refiners",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Germany-Faces-Winter-Gas-Shortage-Risk-as-Storage-Lags.html",
-      "published_at": "Tue, 08 Sep 2026 02:00:00 -0500",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Rising-Oil-Prices-Threaten-Chinas-Independent-Refiners.html",
+      "published_at": "Wed, 09 Sep 2026 02:05:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Oil Prices Climb Toward $100 as Middle East Peace Hopes Fade",
+      "title": "Pakistan’s Energy Crisis Set to Ease as Qatari LNG Breaks Through Hormuz",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Climb-Toward-100-as-Middle-East-Peace-Hopes-Fade.html",
-      "published_at": "Tue, 08 Sep 2026 00:30:00 -0500",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Pakistans-Energy-Crisis-Set-to-Ease-as-Qatari-LNG-Breaks-Through-Hormuz.html",
+      "published_at": "Wed, 09 Sep 2026 00:55:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Germany’s Power Grid Could Be NATO’s Weakest Link",
+      "title": "Oil Nears $100 as U.S. Destroys Five Iranian Tankers",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Energy/Energy-General/Germanys-Power-Grid-Could-Be-NATOs-Weakest-Link.html",
-      "published_at": "Mon, 07 Sep 2026 19:00:00 -0500",
+      "url": "https://oilprice.com/Energy/Oil-Prices/Oil-Nears-100-as-US-Destroys-Five-Iranian-Tankers.html",
+      "published_at": "Tue, 08 Sep 2026 22:50:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "New York’s Nuclear Comeback Is Gathering Steam",
+      "title": "Iran’s Oil Exports Collapse as Hormuz Standoff Drags On",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Energy/Energy-General/New-Yorks-Nuclear-Comeback-Is-Gathering-Steam.html",
-      "published_at": "Mon, 07 Sep 2026 18:00:00 -0500",
+      "url": "https://oilprice.com/Energy/Crude-Oil/Irans-Oil-Exports-Collapse-as-Hormuz-Standoff-Drags-On.html",
+      "published_at": "Tue, 08 Sep 2026 19:00:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Washington’s Venezuela Oil Deal Is About Much More Than Crude",
+      "title": "Hedge Funds Pile Into Fuels as U.S. Supply Squeeze Deepens",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Energy/Crude-Oil/Washingtons-Venezuela-Oil-Deal-Is-About-Much-More-Than-Crude.html",
-      "published_at": "Mon, 07 Sep 2026 17:00:00 -0500",
-      "note": "General market-news coverage, reviewed for context only."
+      "url": "https://oilprice.com/Energy/Energy-General/Hedge-Funds-Pile-Into-Fuels-as-US-Supply-Squeeze-Deepens.html",
+      "published_at": "Tue, 08 Sep 2026 18:00:00 -0500",
+      "note": "Supply-related coverage"
     },
     {
       "title": "Gold: The Calm Before the Storm",

@@ -1,0 +1,84 @@
+{
+  "symbol": "SCUSDT",
+  "date": "2026-09-09",
+  "generated_at": "2026-09-09T07:25:02.745557+00:00",
+  "scanner_evidence": {
+    "symbol": "SCUSDT",
+    "pair": "SC/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "62",
+    "score_tier": "B Watch",
+    "market_cap_rank": "574",
+    "gray_candles": "11",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "small-cap potential, small-cap high risk, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=SCUSDT",
+    "execution_time": "2026-09-09T06:37:25.339726+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "506 assets scanned, 4 confirmed flips (0.8%). State distribution: Blue 22.7%, Gold 36.8%, Gray 24.9%, Unknown 15.6%. Strongest transition: Blue → Gold (4 of 4 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only.",
+      "ETF/regulatory-related coverage"
+    ],
+    "context_generated_at": "2026-09-09T07:25:01.470718+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Price of Siacoin (SC) today in EUR – Quote and market trends - Bit2Me",
+      "source_name": "Bit2Me",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBEVmxDb0xVVkp2Xzd6a2Nhbm9FWnFWdTY0bHRBa094NENWa19HbXp6Mjl4bTd1dk9MT2ZESk56bTVDT1RuYlR4T0JDT0xHRGc?oc=5",
+      "published_at": "Fri, 24 Jul 2026 07:11:35 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Siacoin Price: SC Price Index and Live Chart - The Block",
+      "source_name": "The Block",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1venRlU3lRc1lJeXZ5VlhTODFtb09PRWZKc2FXZndmSk9aaVM3YjgxaTRwVURWY0lPd2htZ2RpWmIxaHhXNjdLRmplYlJfQQ?oc=5",
+      "published_at": "Thu, 13 Aug 2026 01:32:48 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Siacoin Price Prediction 2026, 2027 – 2030: Will SC Price Hit $0.01? - coinpedia.org",
+      "source_name": "coinpedia.org",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE15aldGYlktU1h0T0NrYmRpQWlpSDRONzBsQWZuV1pRb1ZrU0xZY1FLalVQSGV3dG1yVXZhdHB5U0dmSDIxbDJZTGFqTWh0eVVlcjBXTWZ2a1kzZ2Q2MzBIQlVmTkVYREktR2NyVlJ1YTNuV2RJaWfSAXtBVV95cUxQRjdtY3ZTZlJERjFUTF9yZ1JGSGZDSFVfdEQ0VHZNeG54cjc1eDhtcmNsQ2tGLVItRDd6QVNrV01JdWQ3cHN0ZE5scEFya2JPTE5pcC1Hd2JMcVFaeW9zUEZQOVBMRk5leG9RZWlRVXlwWjlhdFJOYWY2N0U?oc=5",
+      "published_at": "Mon, 01 Jun 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Siacoin Released Monthly Report for March 2026 - TradingView",
+      "source_name": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPSFM5b2lMTnV0UTcySExkcG4xdnVIS0U1dWVHejJEcGNpbHktMmVmUGZGeElqZ2RXZHROam5rUWE0VmdpRm5sLWhGNXRpMTZFLUVKTm1yQWJ0S1B3bjRFUHlUX3VDU1k4RFpsVDEzaWw5REFTWjMxUV9XUVhaSEJhQVdZYjV3ZEhXZy1pemtGRkg5bHo4X2VBcGtCTERoNnhXTW1Yb3FCaw?oc=5",
+      "published_at": "Thu, 23 Apr 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    },
+    {
+      "title": "Siacoin Price Prediction 2026–2030: Can SC Reach $0.10 After Utreexo? - KuCoin",
+      "source_name": "KuCoin",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9SN0JhZjNMd3V0VW0yeXFxUENpWDVUMnNsb1ZRRW10TkRqUkM2QkJ2eWdBczVhQWpDSDhiay1xWFN3c0VneFdZbDBPLWtVN3Fjb2o0YThIM1NKc1lnTG8yNHUwVDcyX1NDLXBwSFhHNA?oc=5",
+      "published_at": "Thu, 05 Mar 2026 08:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "Siacoin crypto",
+  "reasoning_quality": "Medium",
+  "reasoning_quality_note": "Relevant evidence found (5 direct but not fresh headline(s)), but no headline is both coin-specific and fresh. Treat this as supporting context, not confirmation.",
+  "neutral_explanation": "SCUSDT (SC/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 62 (tier B Watch); market-cap rank 574. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 506 assets scanned, 4 confirmed flips (0.8%). State distribution: Blue 22.7%, Gold 36.8%, Gray 24.9%, Unknown 15.6%. Strongest transition: Blue → Gold (4 of 4 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (5 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

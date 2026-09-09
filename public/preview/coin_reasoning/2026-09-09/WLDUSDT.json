@@ -1,0 +1,84 @@
+{
+  "symbol": "WLDUSDT",
+  "date": "2026-09-09",
+  "generated_at": "2026-09-09T07:25:02.745557+00:00",
+  "scanner_evidence": {
+    "symbol": "WLDUSDT",
+    "pair": "WLD/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "57",
+    "score_tier": "B Watch",
+    "market_cap_rank": "53",
+    "gray_candles": "11",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "large-cap stability, top market cap, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=WLDUSDT",
+    "execution_time": "2026-09-09T06:37:25.339726+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "506 assets scanned, 4 confirmed flips (0.8%). State distribution: Blue 22.7%, Gold 36.8%, Gray 24.9%, Unknown 15.6%. Strongest transition: Blue → Gold (4 of 4 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only.",
+      "ETF/regulatory-related coverage"
+    ],
+    "context_generated_at": "2026-09-09T07:25:01.470718+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Worldcoin Gains 6.7% on AI-Crypto Rotation and Supply Event - CoinMarketCap",
+      "source_name": "CoinMarketCap",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAzR1hvYmRvdU1MRU16dDFEYXhPNVgxLWtXVmEzVGNmdV9xamtUeXhlME94U0d3NXI0X1J1UmJlbXlNdzB2bzZ0cTJQNlVzT1ZqWlJqbzFxNEszVk5rUmxITnZnQWFFWnJrRFdZUnBCc3Q?oc=5",
+      "published_at": "Tue, 08 Sep 2026 07:04:00 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "Venice Token, Near Protocol, Worldcoin Tokens Jump as AI Tailwinds Rise - Benzinga",
+      "source_name": "Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNWpzdDhxVklTdkR4OFhoejU0bjlLcjlmUHVBaHBJZ3c4d0ZXWUNlUTNtRlQyNUxHZUFpejNQeWhzaEpWY2FMajBLa3hQY1ZUeW9jeGs0a1lGNFM2NGtJNXZfUm42Z1NSaVdsN2NKRFhUc3ZhUmk2Vk5PMjVRZ1NrcmdxWjZqTHM1Q1Brd2RnYmRLNjJ3MU1EZmM0RFJucEZOc0NyS2VHSE0tQzROaG9NV0tuTng4U1E?oc=5",
+      "published_at": "Sat, 05 Sep 2026 18:20:17 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "Worldcoin up 13% as AI coins awaken – Can WLD stay above $0.45? - AMBCrypto",
+      "source_name": "AMBCrypto",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOeXN3bl85WmFiMG1aYXdDOWZqYmwyRm0ycmFvM3Y1WFl3Z08tVE5YQUM5SnU2aDcxd2t2X0hpa3ZZQmVFa0c1NFpCbWtiYXZOVl9BczVjeEduS1BpT2NOb3ZDYllhdWJOcWV4MkdaektiU1U0SDY5eWFFcy1qQWdXLWhMbzlrd1JP?oc=5",
+      "published_at": "Tue, 08 Sep 2026 02:00:24 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "Worldcoin Price Prediction 2026: Can WLD Crypto Recover to $1 and Restart Its Bullish Trend? - Bitcoin Foundation",
+      "source_name": "Bitcoin Foundation",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNYVVxU3hOa3oyaTR3M0gwWmFnd0JUdWRzSkhpb0lUQy04d3MzQlk2SFBZRmlFZEdRMGE0SDlTU2Vsdk8taE9GdU9qVkE4bnNBUGxxM05SUFFQYVVwZEtHb3B1cmFFVkhISEljckdVMVVCLWFWbWw5Q3ZLSDNTTlN2NnZ4LTBHdC14QTdic2FCVmtFbWJ6cURYLU5IN1lHc1Z5VmZaMlVLUUVhaUl4TVQ2cVQ2cXNpRTd2OVpKcWdsX0VyZEVuNC1jQTMtbGdjbW8?oc=5",
+      "published_at": "Wed, 24 Jun 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    },
+    {
+      "title": "Tokenomics Milestone: WLD unlock rate to decrease by 43% in July - World - The real human network",
+      "source_name": "World - The real human network",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPX0NPcVJVSkJLOU9rSjk3b0g0Z1Y2RkhudWp4Nk81NHdMMUh6bDlqWmhZYU9vWmRfTEw4OGJneG5SXzBFYV8yMEotT29WeUhfUnJkMElyTGtNLVNtc0tFWm5rZVd1THJDVkdSNTR2ZVhELXdBWURqRHVHLWNLX0tnZ3JtVWVTck9aOHV2RlNmbUduYy16Qk00ZTRWZGU2cXBqS1h0dk8yeGE?oc=5",
+      "published_at": "Fri, 10 Apr 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "Worldcoin crypto",
+  "reasoning_quality": "Strong",
+  "reasoning_quality_note": "3 direct, fresh coin-specific headline(s) found (named the coin/project and published today or within the last 7 days).",
+  "neutral_explanation": "WLDUSDT (WLD/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 57 (tier B Watch); market-cap rank 53. Scanner note: Valid confirmed trend flip — large-cap stability, top market cap, fresh signal. Broader crypto market context: 506 assets scanned, 4 confirmed flips (0.8%). State distribution: Blue 22.7%, Gold 36.8%, Gray 24.9%, Unknown 15.6%. Strongest transition: Blue → Gold (4 of 4 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (5 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

@@ -1,60 +1,61 @@
 {
   "market": "stocks",
-  "generated_at": "2026-09-08T07:25:01.384493+00:00",
-  "scanner_summary": "50 assets scanned, 0 confirmed flips (0.0%). State distribution: Blue 14.0%, Gold 76.0%, Gray 10.0%, Unknown 0.0%. Source: data/output/stocks_weekly_results.json, last modified 2026-06-13 (86 days ago). Stale-data warning: source file is more than 30 days old.",
+  "generated_at": "2026-09-09T07:25:01.470718+00:00",
+  "scanner_summary": "50 assets scanned, 0 confirmed flips (0.0%). State distribution: Blue 14.0%, Gold 76.0%, Gray 10.0%, Unknown 0.0%. Source: data/output/stocks_weekly_results.json, last modified 2026-06-13 (87 days ago). Stale-data warning: source file is more than 30 days old.",
   "possible_drivers": [
     "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+    "Regulatory/legal-related coverage",
     "General market-news coverage, reviewed for context only."
   ],
   "uncertainty_note": "Automatically collected from public RSS headlines and local scanner output. Headlines are cited, not verified for accuracy or causal connection to price movement. This is not investment advice and does not contain buy, sell, hold, or execution guidance. Human review is required before treating anything here as reliable market context.",
   "sources": [
     {
-      "title": "Gap closed 350 stores and now has an Old Navy problem",
+      "title": "EU regulators send early warning to Oracle ahead of earnings",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/gap-closed-350-stores-now-233354471.html",
-      "published_at": "2026-09-06T23:33:54Z",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/eu-regulators-send-early-warning-000300590.html",
+      "published_at": "2026-09-08T00:03:00Z",
+      "note": "Regulatory/legal-related coverage"
+    },
+    {
+      "title": "GM, Ford Turn EV Battery Bust Into Energy Storage Bet",
+      "source_name": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/energy/articles/gm-ford-turn-ev-battery-200000768.html",
+      "published_at": "2026-09-07T20:00:00Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Apple (AAPL)’s New Mac Mini and Studio Bet Big on On-Device AI",
+      "title": "Five Currencies, One Message: Is a 75-Day U.S. Dollar Rally Taking Shape?",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/technology/ai/articles/apple-aapl-mac-mini-studio-201609665.html",
-      "published_at": "2026-09-06T20:16:09Z",
+      "url": "https://finance.yahoo.com/markets/currencies/articles/five-currencies-one-message-75-193422802.html",
+      "published_at": "2026-09-07T19:34:22Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Can Nvidia (NVDA) Prove it Doesn’t Live or Die by a Handful of Hyperscalers?",
+      "title": "Chevron’s Record Run Isn’t Over Yet, BMO Says",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-nvda-prove-doesn-t-202105317.html",
-      "published_at": "2026-09-06T20:21:05Z",
+      "url": "https://finance.yahoo.com/energy/articles/chevron-record-run-isn-t-201647397.html",
+      "published_at": "2026-09-07T20:16:47Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Paramount (PSKY)’s CEO Has Cleared 68 Countries for His Warner Bros (WBD) Deal. California Still Won’t Budge",
+      "title": "How to Play Tesla Stock After Its Exclusive Cybercab Launch Event",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/media-advertising/articles/paramount-psky-ceo-cleared-68-200541330.html",
-      "published_at": "2026-09-06T20:05:41Z",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/play-tesla-stock-exclusive-cybercab-193002277.html",
+      "published_at": "2026-09-07T19:30:02Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "BitGo (BTGO) Buys Into NYDIG’s Trading Desk Just as Crypto Volume Comes Back",
-      "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/bitgo-btgo-buys-nydig-trading-200158183.html",
-      "published_at": "2026-09-06T20:01:58Z",
-      "note": "General market-news coverage, reviewed for context only."
-    },
-    {
-      "title": "Oil prices climb after reports of Saudi Aramco refinery being hit by Houthi rebels",
+      "title": "How to create a ‘forever paycheck’ without paying for an annuity",
       "source_name": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/oil-prices-hit-near-seven-week-highs-before-edging-lower-as-iran-plans-to-increase-control-of-hormuz-5070167c?mod=mw_rss_topstories",
-      "published_at": "Tue, 08 Sep 2026 03:09:00 GMT",
+      "url": "https://www.marketwatch.com/story/how-to-create-a-forever-paycheck-without-paying-for-an-annuity-e5d171d3?mod=mw_rss_topstories",
+      "published_at": "Wed, 09 Sep 2026 02:20:00 GMT",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Why does almost nobody want to befriend older people like me — except scammers?",
+      "title": "Bombardier’s stock drops as the U.S.-Canada trade war intensifies. Here’s what Trump is targeting next.",
       "source_name": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/why-does-almost-nobody-want-to-befriend-older-people-like-me-except-scammers-fda849d1?mod=mw_rss_topstories",
-      "published_at": "Mon, 07 Sep 2026 22:00:00 GMT",
+      "url": "https://www.marketwatch.com/story/bombardiers-stock-drops-as-the-u-s-canada-trade-war-intensifies-heres-what-trump-may-target-next-b389065e?mod=mw_rss_topstories",
+      "published_at": "Wed, 09 Sep 2026 00:17:00 GMT",
       "note": "General market-news coverage, reviewed for context only."
     }
   ]

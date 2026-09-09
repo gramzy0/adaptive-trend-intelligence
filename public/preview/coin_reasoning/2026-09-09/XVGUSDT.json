@@ -1,0 +1,84 @@
+{
+  "symbol": "XVGUSDT",
+  "date": "2026-09-09",
+  "generated_at": "2026-09-09T07:25:02.745557+00:00",
+  "scanner_evidence": {
+    "symbol": "XVGUSDT",
+    "pair": "XVG/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "52",
+    "score_tier": "B Watch",
+    "market_cap_rank": "478",
+    "gray_candles": "15",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "small-cap potential, small-cap high risk, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=XVGUSDT",
+    "execution_time": "2026-09-09T06:37:25.339726+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "506 assets scanned, 4 confirmed flips (0.8%). State distribution: Blue 22.7%, Gold 36.8%, Gray 24.9%, Unknown 15.6%. Strongest transition: Blue → Gold (4 of 4 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only.",
+      "ETF/regulatory-related coverage"
+    ],
+    "context_generated_at": "2026-09-09T07:25:01.470718+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "I went looking for the AI weed vape that gives you Bitcoin for smoking - The Verge",
+      "source_name": "The Verge",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPNWJwZHFpTjhUWEdrUkJDS1laazYyNU5NWTRUdFhvWWJYcFZ0Zk1LbnJTQ3J6SkQweEZUbWpCSzVfNHVtOVJzYVd3dE5WWTB4MkNlb1djTDAwNGswNUVkNFo3cWVkS19ESlRSSWkxbkMzd3VkM1hfb05DRDEzcFotUWQ4QVluZ2FSV0RUV2JJZFBSaEJU?oc=5",
+      "published_at": "Sun, 31 May 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Verge (XVG) Price Prediction 2026, 2027 – 2030, Can Privacy Coins Regain Relevance? - coinpedia.org",
+      "source_name": "coinpedia.org",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0teWdnU2NnbW9pQUd6aUtYUnpRRUwyekRKRGdHZnVnTGxfcFl5RXZqNFlnam1UTWFGd3Q5dVRlc2o1X0pram8yR1Bxem1DWHNVeF9ROEVtUjdwZXAwWE4weUVKR0pXQXhfQ0ZxRDM0WVV1QjVi0gF6QVVfeXFMT1lEaFlsX1BlcDMzWGJDeGZVX2M4aVJFVERnSFhYY1Vqb3FKbTlBcHB3OVA5dWYyZlhoOHJhT2xJdU9MU3NyMVVoWDR3cGJ2RnNGNExyU25ZTlJjUFNGazZMeTdUaHpFZlh0SndnQTFTcWpaaXNOWk41MEE?oc=5",
+      "published_at": "Fri, 19 Jun 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Bitcoin's Nemesis, the Dollar Index, Is on the Verge of a Major Breakout: Crypto Daybook - Moomoo",
+      "source_name": "Moomoo",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOc21uZmY4azd2LTZhT21taFI5a2pPWW1ROHdpZlJXZ0FxYjVQUU1jNE9QZ2o0X0JEQ0pyY1NxbFZteFhvM1BxS0p0Q0NiSUlaamJOb0w2S21ZcWFaZkkxS0lkNm1VV1RyYVVvcjFTcnFJRGdaVWZ4US1hS2pQVHdmencyY3dHc3h5bTVkenJaRm1adU1lcWJV?oc=5",
+      "published_at": "Thu, 18 Jun 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Verge Price Prediction 2026-2050: Is XVG a Good Investment? - StealthEX",
+      "source_name": "StealthEX",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9PMWNmWU9vNy1XcVo0NW11dWZuSTJUd0NtMUNpV2ZTaHdYODVQTUhEaXpiZDhXSjFhMTR3UWxDLUMyZGJ5SkxyejNuV3BnN05EaEZ0OGJkMEhzX2xXaEozUTBSUlJ0WExsMk40NVRQOEJSY1R3NGg0YzdZMXNmdjA?oc=5",
+      "published_at": "Tue, 23 Dec 2025 08:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    },
+    {
+      "title": "Billionaire investor files fraud lawsuit against Trump crypto venture and claims it’s on ‘verge of collapse’ - Yahoo Finance UK",
+      "source_name": "Yahoo Finance UK",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQcUVyVVRGMTB4dGZRRFZFSkhKemh6aHNaenV0VDZxRHc3akdfNTV2Z01JYm1aa3lrSG1YcmxNYzBjd0tMOHNRMkxfOExCTmltcW5idDA4ZXFxbzRYdWtJajhwRjVxVURKcHJIdEZQdTlJT2c1RDA0NTNwUDJaaWE1NGJxQzNUZFhRdkFGTEhwNnFsSFE?oc=5",
+      "published_at": "Wed, 22 Apr 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "Verge crypto",
+  "reasoning_quality": "Medium",
+  "reasoning_quality_note": "Relevant evidence found (5 direct but not fresh headline(s)), but no headline is both coin-specific and fresh. Treat this as supporting context, not confirmation.",
+  "neutral_explanation": "XVGUSDT (XVG/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 52 (tier B Watch); market-cap rank 478. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 506 assets scanned, 4 confirmed flips (0.8%). State distribution: Blue 22.7%, Gold 36.8%, Gray 24.9%, Unknown 15.6%. Strongest transition: Blue → Gold (4 of 4 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (5 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

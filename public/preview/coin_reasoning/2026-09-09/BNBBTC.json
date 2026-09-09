@@ -1,0 +1,84 @@
+{
+  "symbol": "BNBBTC",
+  "date": "2026-09-09",
+  "generated_at": "2026-09-09T07:25:02.745557+00:00",
+  "scanner_evidence": {
+    "symbol": "BNBBTC",
+    "pair": "BNB/BTC",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "95",
+    "score_tier": "A+ Strong",
+    "market_cap_rank": "4",
+    "gray_candles": "2",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "large-cap stability, top market cap, fresh signal, clean transition, high volume",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=BNBBTC",
+    "execution_time": "2026-09-09T06:37:25.339726+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "506 assets scanned, 4 confirmed flips (0.8%). State distribution: Blue 22.7%, Gold 36.8%, Gray 24.9%, Unknown 15.6%. Strongest transition: Blue → Gold (4 of 4 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only.",
+      "ETF/regulatory-related coverage"
+    ],
+    "context_generated_at": "2026-09-09T07:25:01.470718+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Bitcoin (BTC) price slides to $78,800 as BNB and DeFi tokens buck the selloff: Crypto Markets Today - CoinDesk",
+      "source_name": "CoinDesk",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTk1QUWpJdWlGclNwM2JhRzVfOW1XSVdtUzZ6a0E5a3l4ZUhYa3lmYVFkV0JVZlZKUzJMTXFyZmU1R29VMVZtaWhqeHl3dzVIaG1DQ2g1R1RLbW1JS1NscmlJcWxDbjZwM1ZQMWJuanVpWjhRZXR3dEJFVXlIM3NRSEkxUThTaEpKR3NNX3JKRW02X3pCbVJ4dVpCd2RYVTdSX1owWVZ5N0M3cXlUVDZv?oc=5",
+      "published_at": "Tue, 08 Sep 2026 10:33:17 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "Bernstein Anticipates Upside for Robinhood Shares After Its Blockchain Fees Outpace Solana and BNB Chain - Crowdfund Insider",
+      "source_name": "Crowdfund Insider",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNMVM3YWJYVnF3YXVqa1o1ektoQ3kxcl9vOHRwZ0xkczNUZU8xUHJUU1VCS1pXQmx4c3FQSFBmR3RoeFg1WWM4cFlaVEduV3FqUXYwSFMzbl9jUWt0WmJ4Y25uc2xuRXVYOWpRVU5TSEpiaHYxX056RFE5ak9xNTF5ZUg4blVsMDBULTFxUFF1TTJYY3ZEQ3JYVXRTUS1EY1lxaWVPeDQzZTczMlNudlpESTJVeEppd1d3TjYzTHdUNWh2X1NaTHZiS2p5WF9ncXpnOUpaZmxoN1d1dElGN25VamkxTUhxX3lC?oc=5",
+      "published_at": "Tue, 08 Sep 2026 19:48:47 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "PopDEX pits Robinhood Chain against BNB Chain - Crypto News",
+      "source_name": "Crypto News",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBMeDVwS1A1MVJhRTRqSTVjUGtDUk1jbFZIbFJKLThwbHRwM1QwTWNVdzU2aXg2cldZRC1tVTNxdzIweTEzTTVaQWtOYWRfNFpmVm1nZkRDM0I0RTlScl81UGpxcVN3REtSTzVvUVBETHZmNFpN?oc=5",
+      "published_at": "Tue, 08 Sep 2026 09:17:24 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "BNB Chain News: $3 Billion RWA Milestone Hit as AI Altcoins Go Parabolic! - CoinMarketCap",
+      "source_name": "CoinMarketCap",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZDlWcVN2WHJIZnMzLWZLUFFacHlLdGlXbmRFWFBYMUZidXp4OWQweERuVFpLVU9DU0dBQXZkZWZvcjBVdUhGSld3RGJtMW4tSUdxZE5qZ2cxY0xON1Jxa2FDWXpXeU9CcWhWY3hNTkpwYWtJX0ZSRVpaQmxVN2pCVWdTcnhpcE4za2lrbTVvd05BTm10aUY4cGRvR0lvLS0yZm5UdFJJNE5Ca0pmMThucEtVNVA4VE10cXc?oc=5",
+      "published_at": "Sat, 05 Sep 2026 12:56:12 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": false
+    },
+    {
+      "title": "BNB Price Forecast: $740 Break Could Open Path to $825 - Yahoo Finance",
+      "source_name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdnlWS0tFcTY1T19hdFVZNndHWDhkU3RhZHMtOG9OVTFBU05nUERtVWtGVmRpQVRmcll0ODQ4d2dSY281ZjY1aGI1WWFobTltTjZiUnY0SUdPSGktaFcyN1lnOXpmMHl6alJ3MVBYbFMxM05nTWU1ZVBmUkpOSGx4VjFqX19adlltZkNXNkFXOGxhbTdUNjhaZQ?oc=5",
+      "published_at": "Thu, 03 Sep 2026 17:45:38 GMT",
+      "relevance": "unrelated",
+      "freshness": "Recent",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "BNB crypto",
+  "reasoning_quality": "Strong",
+  "reasoning_quality_note": "4 direct, fresh coin-specific headline(s) found (named the coin/project and published today or within the last 7 days).",
+  "neutral_explanation": "BNBBTC (BNB/BTC) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 95 (tier A+ Strong); market-cap rank 4. Scanner note: Valid confirmed trend flip — large-cap stability, top market cap, fresh signal, clean transition, high volume. Broader crypto market context: 506 assets scanned, 4 confirmed flips (0.8%). State distribution: Blue 22.7%, Gold 36.8%, Gray 24.9%, Unknown 15.6%. Strongest transition: Blue → Gold (4 of 4 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (4 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

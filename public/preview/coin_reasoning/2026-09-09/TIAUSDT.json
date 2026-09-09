@@ -1,0 +1,84 @@
+{
+  "symbol": "TIAUSDT",
+  "date": "2026-09-09",
+  "generated_at": "2026-09-09T07:25:02.745557+00:00",
+  "scanner_evidence": {
+    "symbol": "TIAUSDT",
+    "pair": "TIA/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "77",
+    "score_tier": "A Good",
+    "market_cap_rank": "120",
+    "gray_candles": "3",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "fresh signal, clean transition",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=TIAUSDT",
+    "execution_time": "2026-09-09T06:37:25.339726+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "506 assets scanned, 4 confirmed flips (0.8%). State distribution: Blue 22.7%, Gold 36.8%, Gray 24.9%, Unknown 15.6%. Strongest transition: Blue → Gold (4 of 4 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only.",
+      "ETF/regulatory-related coverage"
+    ],
+    "context_generated_at": "2026-09-09T07:25:01.470718+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Celestia (TIA) Drops 5.3% Amid Macro Pressure and Profit Taking - CoinMarketCap",
+      "source_name": "CoinMarketCap",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5WbXdjRlVmbEJwako4bFNXdzlIUHpXQ19TWFRPSzhsWXgzU1BiU1NZWGtCUllIRnlOdG9QNXRTdXhQSG9VR2ZLLTNLZUZNeHl5Y2Y4OTVwZHZLNDFHVy1PczVtaXpYNzR6bXdjM2xMZUw?oc=5",
+      "published_at": "Tue, 08 Sep 2026 14:04:00 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "Celestia (TIA) Price Movement: No Catalysts Found - CoinMarketCap",
+      "source_name": "CoinMarketCap",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1QOExfZWlZcEZLOTdMRFFuSmU1Vlo5TU5XQnZHMGJsMWtTM3kwc1lKd0s0LXJ2LUVrWERlNkVSX0Q0MFpBVEtCYzRrQ0d0VVJpZktRLUV3VFdlM3Vla2F5cTJXdGx6ZmowN2JRNVlDRGo?oc=5",
+      "published_at": "Sun, 06 Sep 2026 11:03:00 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "Celestia Price Prediction 2026: Is TIA the Future of Modular Blockchains? - Bitcoin Foundation",
+      "source_name": "Bitcoin Foundation",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdERNekVfRlRmRjd3NDc1dmZqRTFGNzRjSWpqMzBLZmp6NF9RUUZmSUxmeXB6TmFiRmo0RVN1dUhOSjRNWmRkbklEai13Tk41S2JkbWpUNUFKQnhTRUlEYTd1dzVLcXZXb0E4dlpYeldpUWprZVhibkxndjlLejQxbXFUR1hpX1gtcWNPeGhrd1d2RVlMRGMyX1pNb0VCbkRjWDNjczdseVZiRlNSWXhyWll4RnhuZXM?oc=5",
+      "published_at": "Thu, 14 May 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Can Celestia Be the Next 30x Crypto in 2026? TIA Shows Strength as the Modular Narrative Resets - CoinDCX",
+      "source_name": "CoinDCX",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNMExFVFU5T1hXNmN2cDJHNmhmZXBxaXdKSFNucHdSUnhiTEUxdlpkOE52Q0ZKQlRzQ3NOZGRKVDZjVzhSZm5BMGRPLTFiQVBPdl9vLU8zdkdNOXFyV0o4Uk1pWmpWREthNEZ3TUpPV0g4T1pNZFlGMDc1cWE0Qy1pSEJDaUMzR2tXdE1vLWI1b2xJMy1pdEpsOUFuOVZaaU1r?oc=5",
+      "published_at": "Fri, 02 Jan 2026 08:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    },
+    {
+      "title": "Price of Celestia (TIA) today in EUR – Quote and market trends - Bit2Me",
+      "source_name": "Bit2Me",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBLZ1BJblNUU3d1cGJVaFJXaXlUSWhCeThQWjFEVndTbTN6M1ZPZkw1NmF1LW5VUWpRN1I0NjBRWEEyYThQaXZ5STFLTUQ?oc=5",
+      "published_at": "Tue, 28 Jul 2026 09:49:41 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "Celestia crypto",
+  "reasoning_quality": "Strong",
+  "reasoning_quality_note": "2 direct, fresh coin-specific headline(s) found (named the coin/project and published today or within the last 7 days).",
+  "neutral_explanation": "TIAUSDT (TIA/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 77 (tier A Good); market-cap rank 120. Scanner note: Valid confirmed trend flip — fresh signal, clean transition. Broader crypto market context: 506 assets scanned, 4 confirmed flips (0.8%). State distribution: Blue 22.7%, Gold 36.8%, Gray 24.9%, Unknown 15.6%. Strongest transition: Blue → Gold (4 of 4 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (5 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

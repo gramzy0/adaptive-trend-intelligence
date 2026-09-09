@@ -1,0 +1,84 @@
+{
+  "symbol": "RPLUSDT",
+  "date": "2026-09-09",
+  "generated_at": "2026-09-09T07:25:02.745557+00:00",
+  "scanner_evidence": {
+    "symbol": "RPLUSDT",
+    "pair": "RPL/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "74",
+    "score_tier": "A Good",
+    "market_cap_rank": "557",
+    "gray_candles": "6",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "small-cap potential, small-cap high risk, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=RPLUSDT",
+    "execution_time": "2026-09-09T06:37:25.339726+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "506 assets scanned, 4 confirmed flips (0.8%). State distribution: Blue 22.7%, Gold 36.8%, Gray 24.9%, Unknown 15.6%. Strongest transition: Blue → Gold (4 of 4 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only.",
+      "ETF/regulatory-related coverage"
+    ],
+    "context_generated_at": "2026-09-09T07:25:01.470718+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Rocket Pool to Host Community Call on September 3rd - TradingView",
+      "source_name": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQc3Q4T3NxLVM4T2JIRER5R1VEU0tVWGh0bjRzSGFyb19VamFuZUpMRW9uSGl0d2U3ZV9GZGZKSkpEQVJxNmZ0U3FMVXhuT295dGc2SzVkZE5aR1dJX0ZIR29Tbjhtd25wcWVRM0VZbkNObm1xSC0tdlhWRjV0Q0haV2ZqVWhEa3Y0MU1leWFTVXNBamlwQUdhLV9rY2EwX3BKWF9KMVVBMlNYWW5XUkE?oc=5",
+      "published_at": "Wed, 02 Sep 2026 18:01:54 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "Price of Rocket Pool (RPL) today in EUR – Quote and market trends - Bit2Me",
+      "source_name": "Bit2Me",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9wb2ZDaWxMSXNJUkJjNFI0Mk9fZ0toZi1JVWV2YU1xU0lMaDYyUXVhNmxxQkFsc1JPTnViRVRZTGp6SlpQazd2VS1GRzZEYk1C?oc=5",
+      "published_at": "Mon, 27 Jul 2026 04:42:46 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Rocket Pool’s Saturn One Upgrade - The Defiant",
+      "source_name": "The Defiant",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1NWEJnZGFNMlVuSEd1YzlGSzhnRVkxNWkyMHhPTW9WME5yNkRBVC1GQ3VtdU1xQ0xFQ2U5bU5PNFJ6VmI0WFpZSnphVzlPSFBLSGhxcEo2RW40em5kTndxaHJrVXd3OGk3eV96RkFvbFlpdXlpLXdwag?oc=5",
+      "published_at": "Wed, 11 Feb 2026 08:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Rocket Pool Price Prediction 2026-2031: Can RPL Reach $3.50 in Feb 2026? - CoinDCX",
+      "source_name": "CoinDCX",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBqSDU1Umxpa05TT1RFVXJpLU5PVmZBQUExSVNobzYtTEtBUU5MUWp6Zm5nbHdKNkRZbE9EcGI4YlFZLVY1RDhnaEpQdnBrbHlCTG1BMy1EZDRMLUI5eFNFSkU2RXJad3kwbWdtMURWUjJGNGxkdTRId1hpN2c?oc=5",
+      "published_at": "Tue, 17 Feb 2026 08:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    },
+    {
+      "title": "Rocket Pool cuts validator bonds to 4 ETH, boosts staking with Saturn 1 upgrade - Bitget",
+      "source_name": "Bitget",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBoSG9EZDdUVGUwOVI4ako5T0JwbTdrUTk3MjdWaXNlaG9HOHl3VkpIQS1YYzBtc2ZUWk41MXlQQ254RUNmakVWRE5fdXkxM3djdnhiTFRLSGttNl9JeGfSAWNBVV95cUxPUlFEYmk1cmxqeHJfaVRMc1ZRWDl4dHFtdTljUFgzWVhpR0NicUJmLUliYlJsWXRtQVNWd0d5Tm55UWd2UEZCOUpuR3haVmtWWk5oV3dlek9zSER5S0Y1cEJzeEE?oc=5",
+      "published_at": "Thu, 02 Jul 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "Rocket Pool crypto",
+  "reasoning_quality": "Strong",
+  "reasoning_quality_note": "1 direct, fresh coin-specific headline(s) found (named the coin/project and published today or within the last 7 days).",
+  "neutral_explanation": "RPLUSDT (RPL/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 74 (tier A Good); market-cap rank 557. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 506 assets scanned, 4 confirmed flips (0.8%). State distribution: Blue 22.7%, Gold 36.8%, Gray 24.9%, Unknown 15.6%. Strongest transition: Blue → Gold (4 of 4 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (5 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

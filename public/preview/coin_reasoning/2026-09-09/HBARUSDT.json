@@ -1,0 +1,84 @@
+{
+  "symbol": "HBARUSDT",
+  "date": "2026-09-09",
+  "generated_at": "2026-09-09T07:25:02.745557+00:00",
+  "scanner_evidence": {
+    "symbol": "HBARUSDT",
+    "pair": "HBAR/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "42",
+    "score_tier": "C Weak",
+    "market_cap_rank": "29",
+    "gray_candles": "15",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "large-cap stability, top market cap, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=HBARUSDT",
+    "execution_time": "2026-09-09T06:37:25.339726+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "506 assets scanned, 4 confirmed flips (0.8%). State distribution: Blue 22.7%, Gold 36.8%, Gray 24.9%, Unknown 15.6%. Strongest transition: Blue → Gold (4 of 4 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only.",
+      "ETF/regulatory-related coverage"
+    ],
+    "context_generated_at": "2026-09-09T07:25:01.470718+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Hedera (HBAR) Gains 3.05% Amid New Council Partners - CoinMarketCap",
+      "source_name": "CoinMarketCap",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE81NGpxdVVvaGRLdzZ1YmFBaVdxR09sSzBxOXJESFY2ZDF3YV9fdmVoNDhoMjQxeURBZ3kzVnpOVmdWamg4QlVsVVhKUndqMXZuc29hZVZZRHpNSHNfdG5PYVRwSWJYY0JGSmRuWU1IRWc?oc=5",
+      "published_at": "Mon, 07 Sep 2026 13:04:00 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "HBAR Price Eyes $0.12 as Hedera Adds Insurance Partner - coinpedia.org",
+      "source_name": "coinpedia.org",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOSzNDNUJXeTBESHFzVGp0ZTFzRGZ6OFg3ZGpjMmNCT2JaZTJ1TWhqMmFPY0dLV1Q0Q3RKWkJldkszNC12MzduOHV2Tnl4UW1PY2pNTGtNczZtMDhkeVpiQXFSM3RNZEcyZ0NPdXFKZi13UlR5UEtSLUxIbHNIS05jbmdpeFhpZWJ0S2tVcU96c050dnFlZWfSAZsBQVVfeXFMTjBEdWRTX1BtY3BFQ01hQmoxc05BYU50ZkRxRk9TakNkZ0hOaTN5SDlEX3FvVUdBM0J3TjZhRjRHSE9PaEhQekc3QWxnTm9TS1lvbUtLMkVXVGlHVkg2YU9EUWFFREF4UnlMaFNwUURURmlrYzNXTkFDbGJQMzBwV1I3ZTZsNmJ3UTV2Q3ZFMWd0c1VtM2pPOS1pTVE?oc=5",
+      "published_at": "Tue, 08 Sep 2026 17:59:29 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "HBAR price slips 2% as USDOT integration claim remains unverified - AMBCrypto",
+      "source_name": "AMBCrypto",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQenZDVVRzenZCN19oZlpKVzd2VVgxa2VHYm9fTnVJMVdLSTFtVmRkR2I2UlJlN3VYWjFMZ0xFOWNsdWFYQUI4Z0h0RFN2cDN4Mzc0cmJOaDREdUR0QlI0T25sbTc0QXhvc2N3aHZlcEtKX2h6VDVYbU1ZSHRLUE14cTA4UFZTNTBBNnZGMDlKbW4?oc=5",
+      "published_at": "Tue, 08 Sep 2026 15:54:47 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "Hedera's HBAR Falls 11% as Token Consolidates Near Three-Week Lows - Yellow.com",
+      "source_name": "Yellow.com",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQeXZHY2tvTTNIMUQ5T25GWXoxeFZ0SndXQ0FnaG05UW9CVmJNcnRoazVKWU0tQ3h4R3F5blBZNWw0U09ySXRkXzIxOEF0allEb1JJcWJmaE4zZVZieDNmMXM4MHhOaUxoVEl6b0w5eVNWR3Z5QmJqdkJaT2FGRWZpNTFoNjVENmx2RGFiMV9QQTh2T2ZDQ3duOWdUb19vOFhPbUZNb2FyMERtZnF5SmlRa2o4ZFBtY0VHVTZIbS1n?oc=5",
+      "published_at": "Mon, 07 Sep 2026 01:17:38 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": false
+    },
+    {
+      "title": "Regulation is finding its form in summer 2026 - Hedera",
+      "source_name": "Hedera",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE14amZfbklUNi0tZ0ZwX1dYa0xCMmtvZ0UwODd5dUgxQ2VQNXl3eXhHRmJPRnFqalJfX25Pbk1NU1dsZV8xRVVnVjdlbXN0VTV2QXNZRVJUTEc4eERXVHdMSXREUUJHRDI1Um5PdHkzT0ttTHRrVUc0WVhn?oc=5",
+      "published_at": "Mon, 13 Jul 2026 14:31:32 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "Hedera crypto",
+  "reasoning_quality": "Strong",
+  "reasoning_quality_note": "4 direct, fresh coin-specific headline(s) found (named the coin/project and published today or within the last 7 days).",
+  "neutral_explanation": "HBARUSDT (HBAR/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 42 (tier C Weak); market-cap rank 29. Scanner note: Valid confirmed trend flip — large-cap stability, top market cap, fresh signal. Broader crypto market context: 506 assets scanned, 4 confirmed flips (0.8%). State distribution: Blue 22.7%, Gold 36.8%, Gray 24.9%, Unknown 15.6%. Strongest transition: Blue → Gold (4 of 4 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (5 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}
