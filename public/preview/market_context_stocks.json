@@ -1,61 +1,60 @@
 {
   "market": "stocks",
-  "generated_at": "2026-09-09T07:25:01.470718+00:00",
-  "scanner_summary": "50 assets scanned, 0 confirmed flips (0.0%). State distribution: Blue 14.0%, Gold 76.0%, Gray 10.0%, Unknown 0.0%. Source: data/output/stocks_weekly_results.json, last modified 2026-06-13 (87 days ago). Stale-data warning: source file is more than 30 days old.",
+  "generated_at": "2026-09-10T07:25:01.341932+00:00",
+  "scanner_summary": "50 assets scanned, 0 confirmed flips (0.0%). State distribution: Blue 14.0%, Gold 76.0%, Gray 10.0%, Unknown 0.0%. Source: data/output/stocks_weekly_results.json, last modified 2026-06-13 (88 days ago). Stale-data warning: source file is more than 30 days old.",
   "possible_drivers": [
     "Locally observed scanner state distribution and flip activity (see scanner_summary).",
-    "Regulatory/legal-related coverage",
     "General market-news coverage, reviewed for context only."
   ],
   "uncertainty_note": "Automatically collected from public RSS headlines and local scanner output. Headlines are cited, not verified for accuracy or causal connection to price movement. This is not investment advice and does not contain buy, sell, hold, or execution guidance. Human review is required before treating anything here as reliable market context.",
   "sources": [
     {
-      "title": "EU regulators send early warning to Oracle ahead of earnings",
+      "title": "Bessent’s ‘Fever’-Quelling Debt Buybacks Put Wall Street on Edge",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/eu-regulators-send-early-warning-000300590.html",
-      "published_at": "2026-09-08T00:03:00Z",
-      "note": "Regulatory/legal-related coverage"
-    },
-    {
-      "title": "GM, Ford Turn EV Battery Bust Into Energy Storage Bet",
-      "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/energy/articles/gm-ford-turn-ev-battery-200000768.html",
-      "published_at": "2026-09-07T20:00:00Z",
+      "url": "https://finance.yahoo.com/economy/policy/articles/bessent-fever-quelling-debt-buybacks-191726899.html",
+      "published_at": "2026-09-08T19:17:26Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Five Currencies, One Message: Is a 75-Day U.S. Dollar Rally Taking Shape?",
+      "title": "Here's what to do if your bank account application was denied",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/currencies/articles/five-currencies-one-message-75-193422802.html",
-      "published_at": "2026-09-07T19:34:22Z",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/denied-bank-account-204942472.html",
+      "published_at": "2024-09-19T20:49:42Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Chevron’s Record Run Isn’t Over Yet, BMO Says",
+      "title": "Nike shareholders reject climate proposal backed by Norway wealth fund",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/energy/articles/chevron-record-run-isn-t-201647397.html",
-      "published_at": "2026-09-07T20:16:47Z",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nike-shareholders-reject-climate-proposal-192359253.html",
+      "published_at": "2026-09-08T19:25:43Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "How to Play Tesla Stock After Its Exclusive Cybercab Launch Event",
+      "title": "$604M CH Robinson Verdict Still Isn’t Final Yet",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/play-tesla-stock-exclusive-cybercab-193002277.html",
-      "published_at": "2026-09-07T19:30:02Z",
+      "url": "https://finance.yahoo.com/small-business/articles/604m-ch-robinson-verdict-still-192955477.html",
+      "published_at": "2026-09-08T19:29:55Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "How to create a ‘forever paycheck’ without paying for an annuity",
+      "title": "Ink Business Premier Credit Card review: Generous welcome bonus and free employee cards",
+      "source_name": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/personal-finance/credit-cards/review/ink-business-premier-credit-card-review-223741901.html",
+      "published_at": "2024-10-22T22:37:41Z",
+      "note": "General market-news coverage, reviewed for context only."
+    },
+    {
+      "title": "Trump promises $5,000 checks if Republicans win the midterms. He also teased tariff and ‘DOGE’ dividends last year that never came.",
       "source_name": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/how-to-create-a-forever-paycheck-without-paying-for-an-annuity-e5d171d3?mod=mw_rss_topstories",
-      "published_at": "Wed, 09 Sep 2026 02:20:00 GMT",
+      "url": "https://www.marketwatch.com/story/trump-promises-5-000-checks-if-republicans-win-the-midterms-but-he-also-promised-tariff-dividends-last-year-that-never-came-d062c602?mod=mw_rss_topstories",
+      "published_at": "Thu, 10 Sep 2026 03:00:00 GMT",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Bombardier’s stock drops as the U.S.-Canada trade war intensifies. Here’s what Trump is targeting next.",
+      "title": "Hunter Biden memecoin $LAPTOP loses 95% of market value just hours after launch",
       "source_name": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/bombardiers-stock-drops-as-the-u-s-canada-trade-war-intensifies-heres-what-trump-may-target-next-b389065e?mod=mw_rss_topstories",
-      "published_at": "Wed, 09 Sep 2026 00:17:00 GMT",
+      "url": "https://www.marketwatch.com/story/hunter-bidens-memecoin-flops-falling-95-just-hours-after-launch-3e9307d0?mod=mw_rss_topstories",
+      "published_at": "Thu, 10 Sep 2026 02:04:00 GMT",
       "note": "General market-news coverage, reviewed for context only."
     }
   ]

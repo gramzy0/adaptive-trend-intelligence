@@ -1,0 +1,84 @@
+{
+  "symbol": "KSMUSDT",
+  "date": "2026-09-10",
+  "generated_at": "2026-09-10T07:25:02.970944+00:00",
+  "scanner_evidence": {
+    "symbol": "KSMUSDT",
+    "pair": "KSM/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "62",
+    "score_tier": "B Watch",
+    "market_cap_rank": "346",
+    "gray_candles": "14",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "small-cap potential, small-cap high risk, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=KSMUSDT",
+    "execution_time": "2026-09-10T06:36:22.015122+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "506 assets scanned, 9 confirmed flips (1.8%). State distribution: Blue 21.7%, Gold 38.3%, Gray 24.3%, Unknown 15.6%. Strongest transition: Blue → Gold (9 of 9 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only.",
+      "Security-incident-related coverage"
+    ],
+    "context_generated_at": "2026-09-10T07:25:01.341932+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Shiba Inu Profile Update: Is Kusama Hinting at a Beta Launch? - The Cryptonomist",
+      "source_name": "The Cryptonomist",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5SZFMtYnBrcFdqcmxBTDk5dWVJd2FmTDJFdEROLUxidDlmZ1J2X2NmQ2xEeF9GZnhQZVlwamlERjJ3aktQR1RjdkJqUGR3dEpqUVZtSWZLTHVTZEM2bWF4dWQxZUxBUWhTZ0F6MmZzZGo?oc=5",
+      "published_at": "Sat, 05 Sep 2026 12:08:45 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "Moonriver Jumps 89% In 24 Hours As Kusama Parachain Draws Fresh Trader Attention - Yellow.com",
+      "source_name": "Yellow.com",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQazNsTXpZQ0RPb0dKbTZETm9jMXR3VHVqUFl4NmxkU1BPNmlIT1RSRl82WWUyU1JHaGJacGt4U1drTEJ0Wm12N3BwNEFwQUtmOElVX2lWMEJTd2dRTEttUVRlbGEzN1pnS25XMW54QTBMYTIxUGRCWFlZUFhUMlh6RXdNM0l3dFJycV9ENFl0R0lVZw?oc=5",
+      "published_at": "Thu, 03 Sep 2026 22:01:41 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "Kusama Coin (KSM) Price Prediction 2026, 2027-2030: Is KSM a Good Investment? - Coinpedia",
+      "source_name": "Coinpedia",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1qVjV2Z2dxMFg5NF96VF8zOHlfMW96RGFWLXRTdXlTa2x6cjhLQ05rZjFLT1Z2NEEtUUxXN0ptVGRlVTZaem1zdG95RVJmbjJvYWszcGFLVHkwTkNJN215Wl9KZ2J6NHBSY21xT29tVdIBdEFVX3lxTE56ZEY1RHVDbkNiSHpWbEN2dlFkUlloWms0eHVvNjlSV2JEQzktb0RQRFptdEpQTkpKR041SGZ5dG85TXdCako0OXdkcnhpaG1kaTFQak1QMnA1SWpOVlJ3MnhZV0hUZjR1ZGFXWUVfSjdrUzFq?oc=5",
+      "published_at": "Fri, 21 Aug 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Price of Kusama (KSM) today in EUR – Quote and market trends - Bit2Me",
+      "source_name": "Bit2Me",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB0dFpIbVc3QVVDekJVWUE2SGNaa196SG1IenAzYjQxOG1lQk5yTGRDRE1CVXhNZktPQmZvWEZNdzF3UzRzSEVwcGJIMFFZdw?oc=5",
+      "published_at": "Fri, 24 Jul 2026 12:51:45 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    },
+    {
+      "title": "Shytoshi Kusama Claims Attempt To 'Erase' History After Shiba Inu Website Missed Attributing Ryoshi As Founder—What's Cooking? - Yahoo Finance",
+      "source_name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbDFXaXgzQkdNemh0ZG85bV9PNVNsMXE0TXVYc1NyZGVvR3lYclYxYnBTUV9QVGNQSXBnVEdLdGFYRnJoeXJ6ZGFmVy1qV29Sb05Wcll3MHliQmltQW15ZU5US2JHRDZQV1JvUVc4OG5Ra2RmSEl3Rzg3b19lMjFCVmlpZnpzNm9NUGJNTWVJYUctT2RVZnZfN3FsZEUwSWFGSWZr?oc=5",
+      "published_at": "Fri, 24 Apr 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "Kusama crypto",
+  "reasoning_quality": "Strong",
+  "reasoning_quality_note": "2 direct, fresh coin-specific headline(s) found (named the coin/project and published today or within the last 7 days).",
+  "neutral_explanation": "KSMUSDT (KSM/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 62 (tier B Watch); market-cap rank 346. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 506 assets scanned, 9 confirmed flips (1.8%). State distribution: Blue 21.7%, Gold 38.3%, Gray 24.3%, Unknown 15.6%. Strongest transition: Blue → Gold (9 of 9 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (5 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

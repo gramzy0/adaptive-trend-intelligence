@@ -1,0 +1,84 @@
+{
+  "symbol": "STEEMUSDT",
+  "date": "2026-09-10",
+  "generated_at": "2026-09-10T07:25:02.970944+00:00",
+  "scanner_evidence": {
+    "symbol": "STEEMUSDT",
+    "pair": "STEEM/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "62",
+    "score_tier": "B Watch",
+    "market_cap_rank": "729",
+    "gray_candles": "14",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "small-cap potential, small-cap high risk, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=STEEMUSDT",
+    "execution_time": "2026-09-10T06:36:22.015122+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "506 assets scanned, 9 confirmed flips (1.8%). State distribution: Blue 21.7%, Gold 38.3%, Gray 24.3%, Unknown 15.6%. Strongest transition: Blue → Gold (9 of 9 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only.",
+      "Security-incident-related coverage"
+    ],
+    "context_generated_at": "2026-09-10T07:25:01.341932+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "What is STEEM | How STEEM Works, Use Cases and Values | MEXC - mexc.co",
+      "source_name": "mexc.co",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBEV3FTa2Q0WjZOSGhRM184MmNwcUNsa25rZW1XQVZ4QXp3Zi1hYUd3VVVnOUF2eEJ2MDlwV0ZuV3FMdXhibEg1T0VfcEc?oc=5",
+      "published_at": "Sun, 21 Dec 2025 05:05:47 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Steem Dollars (SBD) Price Prediction for 2026 to 2031 - Bybit",
+      "source_name": "Bybit",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBVdmFIMXdSaEhPNGVjbENPNDZUMjlyYk41NWJfU3lweDBFLWFZeWM5UzJ6aDM4dkZ6cDludVFRT2pYdlZFYjg0czRWWVNfZFRwUUQ0UGhMTnk0UFpDbUNUbkZoY2FkcUE?oc=5",
+      "published_at": "Tue, 03 Feb 2026 23:08:08 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Crypto Logic Platforms and the Cautionary Tale of Steemit - | Knight First Amendment Institute",
+      "source_name": "| Knight First Amendment Institute",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNGM4RUYzSzF4T0toS2p3YmZpZVNYWmMzUGNDMFJPUDlvT1V2eFhtM0lBVXRqZzAwUGZrUXp0c1duLVdpSUZFb09xZXZvZ21lVzJOMkVpYnBaYWcwQ2Y2elRWVjZQMzVDWHhkMTUxdWZEbjc1bm9kUmJVaXBsTzFRaUZLY3h4Rl9xdXV0bGFESktKaW9WOGNNOU5XUjVfUFdtMi14R3UwTVVDRWJtSl9r?oc=5",
+      "published_at": "Wed, 28 Oct 2020 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "What Are Steem (STEEM) and DTube? – Decentralized Social Media in Action - Phemex",
+      "source_name": "Phemex",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBOUjRZRDBzRDdvSEtjWlhjVUNfMkg0bFdkNUlXYVQ3TzQyREVvWkFWdjhYWVZQUExqck4yMXp1UjQxWURKMFNRaWxZMi1rU2ZMc2VicnZEMkhfOVU?oc=5",
+      "published_at": "Fri, 03 Dec 2021 08:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    },
+    {
+      "title": "Bitcoin Has Lost Steam. But Criminals Still Love It. (Published 2020) - The New York Times",
+      "source_name": "The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1UYUUtOTNZS19KeE9INmlOLTBjdHR3em9iZ3hEZEY5N1Y5WnAwMl9iSVVrOHl4TlhIOUwtMWVfNmkzRnBCN2lhejJvQk92NWlMX0NibUhValhmTWdtQTJEN0NBdHBrQmlaeUxOMEdiRUpnWmJqNURCR2JxYw?oc=5",
+      "published_at": "Tue, 28 Jan 2020 08:00:00 GMT",
+      "relevance": "market_context",
+      "freshness": "Old",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "Steem crypto",
+  "reasoning_quality": "Medium",
+  "reasoning_quality_note": "Relevant evidence found (4 direct but not fresh, 1 sector/market-wide headline(s)), but no headline is both coin-specific and fresh. Treat this as supporting context, not confirmation.",
+  "neutral_explanation": "STEEMUSDT (STEEM/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 62 (tier B Watch); market-cap rank 729. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 506 assets scanned, 9 confirmed flips (1.8%). State distribution: Blue 21.7%, Gold 38.3%, Gray 24.3%, Unknown 15.6%. Strongest transition: Blue → Gold (9 of 9 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (4 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

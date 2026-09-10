@@ -1,0 +1,84 @@
+{
+  "symbol": "QKCUSDT",
+  "date": "2026-09-10",
+  "generated_at": "2026-09-10T07:25:02.970944+00:00",
+  "scanner_evidence": {
+    "symbol": "QKCUSDT",
+    "pair": "QKC/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "62",
+    "score_tier": "B Watch",
+    "market_cap_rank": "906",
+    "gray_candles": "13",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "small-cap potential, small-cap high risk, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=QKCUSDT",
+    "execution_time": "2026-09-10T06:36:22.015122+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "506 assets scanned, 9 confirmed flips (1.8%). State distribution: Blue 21.7%, Gold 38.3%, Gray 24.3%, Unknown 15.6%. Strongest transition: Blue → Gold (9 of 9 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only.",
+      "Security-incident-related coverage"
+    ],
+    "context_generated_at": "2026-09-10T07:25:01.341932+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "QuarkChain Price Prediction 2026-2031: QKC to Hit $0.0061 by Feb 2026 - CoinDCX",
+      "source_name": "CoinDCX",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBSQk1weXlsNnh6cUdQR3BCYU92ZldTUzFfbmUzUDJxRE1STUVZSVo2ZHBYeHJWZzNiUk8xRkNUQ2VOTmlhSFdySzZDV0FOdmk4U0h3X21MVUhSVmdqemZwOVlTemYwX1FfZ1Z3amFCMTluUW1zcXM4bmpvSQ?oc=5",
+      "published_at": "Mon, 02 Feb 2026 08:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "QuarkChain (QKC) Price Primed to Skyrocket Amid Crypto Bull Run - Crypto News",
+      "source_name": "Crypto News",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1MajdaQVhjZFlYV2dqb1NWeE5FNkgyU2JXTkJxc3NyYnBKQ0xmandqVG1sWWd6eGlDeS1vcWx6dXVGQXhuNTJ6NjJGZlh3UkNpVF9CSkFkSUxwakxKeWJzWUhIMzVrSm1R?oc=5",
+      "published_at": "Mon, 27 Feb 2023 08:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Quarkchain Review: Should You Consider QKC? | Beginners Guide - Coin Bureau",
+      "source_name": "Coin Bureau",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5yWXk4UHJJRTM4SjVoR3cwNGlBUkl4VHdVUy1YOU1FdUNKLXV2X3hZdEdOam1ZVjZCR0t5WGtvbmtPNUhMZjFYZDEtalJia0pTMGxnc0RCUQ?oc=5",
+      "published_at": "Wed, 31 Jul 2024 19:44:58 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "QuarkChain plans to transition to Layer 2 in the Ethereum Cancun upgrade - Bitget",
+      "source_name": "Bitget",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE51bEh4SEtlMkcwRHo0V0YtaTQwQ1NwdFlMcERoRHJkRXprRUdwakRWRDRVdXVCYW5FQzR0YlB2VG5HbTZXSXowZ0tfZzJuVVI4Y2JDZ3NSX1JCQzJMeFHSAWNBVV95cUxPZHBreUZqTzRTQW9pTGNTbnpUMFdPLUZocmJMSm1oSVIyOXFTUF9tU0hwWG5udTB1WlEybC1kbjhYQ1JZZEo1bWJxT291RUdOVWVwT0tPV0NYc1F5WVAtcm45Snc?oc=5",
+      "published_at": "Thu, 28 Dec 2023 08:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    },
+    {
+      "title": "QuarkChain (QKC) Price Prediction | Forecast for 2026, 2027, 2028, 2030 & Beyond｜MEXC - MEXC",
+      "source_name": "MEXC",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5OWTNQTnM1VUVjaktFMlVtTjRrWHhvbXVKT21RWDN4VlZjVDRSd1VfWEZ4STVkYVpleUVHSWRHUFpGcGJodW8xVmV5Q1JJLXZvQnpF?oc=5",
+      "published_at": "Tue, 11 Feb 2025 13:10:26 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "QuarkChain crypto",
+  "reasoning_quality": "Medium",
+  "reasoning_quality_note": "Relevant evidence found (5 direct but not fresh headline(s)), but no headline is both coin-specific and fresh. Treat this as supporting context, not confirmation.",
+  "neutral_explanation": "QKCUSDT (QKC/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 62 (tier B Watch); market-cap rank 906. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 506 assets scanned, 9 confirmed flips (1.8%). State distribution: Blue 21.7%, Gold 38.3%, Gray 24.3%, Unknown 15.6%. Strongest transition: Blue → Gold (9 of 9 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (5 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

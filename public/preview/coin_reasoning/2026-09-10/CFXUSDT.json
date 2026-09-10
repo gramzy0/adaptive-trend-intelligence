@@ -1,0 +1,84 @@
+{
+  "symbol": "CFXUSDT",
+  "date": "2026-09-10",
+  "generated_at": "2026-09-10T07:25:02.970944+00:00",
+  "scanner_evidence": {
+    "symbol": "CFXUSDT",
+    "pair": "CFX/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "47",
+    "score_tier": "C Weak",
+    "market_cap_rank": "152",
+    "gray_candles": "16",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=CFXUSDT",
+    "execution_time": "2026-09-10T06:36:22.015122+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "506 assets scanned, 9 confirmed flips (1.8%). State distribution: Blue 21.7%, Gold 38.3%, Gray 24.3%, Unknown 15.6%. Strongest transition: Blue → Gold (9 of 9 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only.",
+      "Security-incident-related coverage"
+    ],
+    "context_generated_at": "2026-09-10T07:25:01.341932+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Price of Conflux (CFX) today in EUR – Quote and market trends - Bit2Me",
+      "source_name": "Bit2Me",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5CaDNFQWtVVzk0OUdxVTFJT1NaLTczOXpZeFV1QXRtcHRTWTgwZDU0LVl2VlUyTExkaTJINXNKNy1ObHg0NjBEMkkyUGxHMUE?oc=5",
+      "published_at": "Fri, 24 Jul 2026 20:00:25 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Upbit adds CFX as Conflux gains Korean market access - Crypto News",
+      "source_name": "Crypto News",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBIT21abmxQczJ0VTJaZ0RVb1V3bUo1Y3JZVUdJNWhGWW16dTdSamlja3JBRE03VkozaGhKZG5XOXR0RzQxRE5La2lLMkdabTB2QmprOFR0VFE1LVhSbWJ1dFdPT1Z3ZWNGS1FuZjhZV0djSXBlcmVSN2JmaDVtZw?oc=5",
+      "published_at": "Thu, 30 Jul 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "What Is Conflux (CFX)? - Binance",
+      "source_name": "Binance",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9FanlhV0tSMHNfNm1KcHJ2akJ6NHA3VHdoTmtHdE4zU3MxQmR5UkdScmxIZXRwZWdYbmI2Tkl0U1U3Y2x1azFDcjRYbXZDSEltME41Z2VxYVNGUVFzOTFWN3RMeGVCWmFsN3VxalBKRUw?oc=5",
+      "published_at": "Fri, 26 Jun 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Binance to Temporarily Suspend Conflux (CFX) Deposits and Withdrawals for Network Upgrade - CryptoRank",
+      "source_name": "CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWFV1bDljM1pEcUl2TWpVZ2l1dXY5WUVpQVlRN3B2V3NRbWdOdjMxX05OS2RQeFBoZTVRSG9vaUVXUk0wcF9qTE1ycmE4bHBveVFHZHRvV1doQWFGZ1RDZE53R2xPT3ZyRVBsTjdkNnVwTzk5VjJDM0otdHhMb1JBRnFoVkRXUmtnR3BnUExaZy1iSzZKbjJZZkFsYnRUYVU?oc=5",
+      "published_at": "Tue, 18 Aug 2026 05:36:02 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    },
+    {
+      "title": "Conflux Capital Expands Quantitative Trading Framework for Bitcoin and Ethereum Portfolios - TradingView",
+      "source_name": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOYUpsU2dLSmxqZXRDbnhtTkVLaFpOb05HWW5yd1pULXBKSlhPVklQVmFpbDhrUl9XdUdQQy1US1NPeHdubS0tLS11UmJXVVViSmk0bXVNQ3oyOUlzX3d4Uk1NWE8xZXp0N21YUXdsSDVQbGRGLTdCbjlvWGpjOEZNU2lIbmZWMWNkZnR1VUZuY01TbXpOTWFMWW1QYmtoYnRRQklLU3V1a3JaWGZSS1ZsR3hNNmw2c1Rycld3MUdJOUEtUVd6TWViTDNRNVZlbm1Ha18yamRCRU0zdV9ONGY0NmJ5Wm43bFE?oc=5",
+      "published_at": "Tue, 31 Mar 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "Conflux crypto",
+  "reasoning_quality": "Medium",
+  "reasoning_quality_note": "Relevant evidence found (5 direct but not fresh headline(s)), but no headline is both coin-specific and fresh. Treat this as supporting context, not confirmation.",
+  "neutral_explanation": "CFXUSDT (CFX/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 47 (tier C Weak); market-cap rank 152. Scanner note: Valid confirmed trend flip — fresh signal. Broader crypto market context: 506 assets scanned, 9 confirmed flips (1.8%). State distribution: Blue 21.7%, Gold 38.3%, Gray 24.3%, Unknown 15.6%. Strongest transition: Blue → Gold (9 of 9 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (5 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

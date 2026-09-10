@@ -1,0 +1,84 @@
+{
+  "symbol": "AVAUSDT",
+  "date": "2026-09-10",
+  "generated_at": "2026-09-10T07:25:02.970944+00:00",
+  "scanner_evidence": {
+    "symbol": "AVAUSDT",
+    "pair": "AVA/USDT",
+    "current_state": "Blue",
+    "previous_state": "Gold",
+    "flip_direction": "Gold → Blue (Bearish)",
+    "score": "75",
+    "score_tier": "A Good",
+    "market_cap_rank": "1125",
+    "gray_candles": "2",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "small-cap potential, small-cap high risk, fresh signal, clean transition",
+    "signal": "Confirmed Gold → Gray → Blue → Blue",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=AVAUSDT",
+    "execution_time": "2026-09-10T06:36:22.015122+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "506 assets scanned, 9 confirmed flips (1.8%). State distribution: Blue 21.7%, Gold 38.3%, Gray 24.3%, Unknown 15.6%. Strongest transition: Blue → Gold (9 of 9 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only.",
+      "Security-incident-related coverage"
+    ],
+    "context_generated_at": "2026-09-10T07:25:01.341932+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "AVA Drops Below $0.2146 Support, Triggers Enters Bearish Structure, Price Prediction To Fall: Analyst - Bitget",
+      "source_name": "Bitget",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE4wYkFkV19iVm5faWdkRG11X3RSeHhMYVdlZGZpcnFNdDNsSWZpYnE4czZaRVJnZ3BIT0NNeEpmX3R1SHRwMnU2akpGQjIyQVdSX0FqWURjSWROWW5BMWfSAWNBVV95cUxQNjVjXzkteUtYbHo5ejZVV28zQk5VbExUaTUtMXlOYzJLbkFaamhLNXM4Z0UzOVVVWU51aWtMUDhOZ1RyQVZrZk05bUVQZnFiMHlIWEZYQ0lnMlRlWmd4RW9FWHM?oc=5",
+      "published_at": "Tue, 10 Feb 2026 08:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "AVA Released Monthly Report for June 2026 - TradingView",
+      "source_name": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQYUFzNVhQbmZxLW42R21VSFFFS0IzbUlRMF9OR1ZjTHRVUGxEcU5GQWV2UElGNXNWY0NaN2I5ckNtaDFpU3gzeFFwbE5tWTF2LTIteTF0UkhNcTV2bnZGX2JDWWhSTG1wTWVRZVhXdV9GS3E1MjhJSW5TRHhoNWQ2U3BianF3T29wWXBwYTR0a2hXT0htc1Vjc3pETHhYc09M?oc=5",
+      "published_at": "Thu, 09 Jul 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Crypto Travel Pioneer Travala Posts Record $100m Revenue, Unveils Bitcoin Reserve Plan - Yellow.com",
+      "source_name": "Yellow.com",
+      "url": "https://news.google.com/rss/articles/CBMi9AJBVV95cUxNcDE2dExvbExjcWxCZVNkSFBMdnVrRWt6SHJObTFKdDROcEVEWWRHTU9CV2dXcHRYa21PNk5FXzAtU0FLd29ubkVnZFB3S3FNMzhJYU5EQzFXczlLV2dGdmlOWXZ2dVo4NmdOT0tjWXRITkV0aHozZWdlUkNBdHBQdUpEQTlXeHc2aVBUaHlNZ1I5M2tJSmhzY3BxejBjZlhicGJHS0todktVM3dYanh4R0xsUWRQcHNDMk9OWVpieWJrWlktUlRYdXo3c3BpZFJoR0VvbEtlbGQwdXVKM2dnWG4tbGwwZmF0M09Xa3ptNnFadHg3dDVOUm5kWXcxTVlYbDV1SXo2b0xKdElsVTQ3QjJqX19PZm8xeFJfOVNzcFVXem1pNW44MkpQYkhzUFZsR0lwVk9IaEx6X1BfOW5kWFNJYnM3N2dLWVQ4SlVna0RQa0t1T1FTSHFoVHdBeXRHNG1WdnVmVi1WSWdOLTJwM0kzRkI?oc=5",
+      "published_at": "Sun, 23 Aug 2026 09:52:36 GMT",
+      "relevance": "market_context",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Travala Partners With Shangri-La Group - TradingView",
+      "source_name": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPRjdjNVQtMUNwb1VvNjd6S0lsQ1ZIX2JTRHpKLWtFUjI5X2ZuRzR0a2lDVlJuSEt3SkRteWFPSm0zVVN5clFQcTRrenNjSGVNRlM2ZEFJOFprLUdWbHlmWGs2SmQyaHhaWERPOWVPbFN1R09fV3VEWTJXaGdoX0JlRVItX1lpd09rN21OMk1laDF1c041U0o1czBZeEg?oc=5",
+      "published_at": "Wed, 09 Sep 2026 13:53:22 GMT",
+      "relevance": "unrelated",
+      "freshness": "Recent",
+      "default_visible": false
+    },
+    {
+      "title": "Travala Wants To Be The Travel Infrastructure Layer For AI Agents - Benzinga",
+      "source_name": "Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQTRWRFJCRzM2b1N1SGZvdkoxZjMwNTJqYV9uaDVMcDQybnRjemFWTHZJMkthczY0WGY1SnQ4U3ZsS0VGUVF2YUxsX3VqVnFmVTNydE9yZU9wVTNKNzEtNUtUYnR5cW5YNGpHMjFhdjMyVkNjbUtsVjNPZEhSRVpmY1VnTEF5STg2VjFXUEdZdk44d2Q2NWhIbm5yaVc3QTR6WmJNYS1SdTNoTDJBQVF1WTdiUQ?oc=5",
+      "published_at": "Mon, 15 Jun 2026 07:00:00 GMT",
+      "relevance": "unrelated",
+      "freshness": "Old",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "AVA (Travala) crypto",
+  "reasoning_quality": "Medium",
+  "reasoning_quality_note": "Relevant evidence found (2 direct but not fresh, 1 sector/market-wide headline(s)), but no headline is both coin-specific and fresh. Treat this as supporting context, not confirmation.",
+  "neutral_explanation": "AVAUSDT (AVA/USDT) recorded a confirmed state flip: Gold → Blue (Bearish). Scanner score 75 (tier A Good); market-cap rank 1125. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal, clean transition. Broader crypto market context: 506 assets scanned, 9 confirmed flips (1.8%). State distribution: Blue 21.7%, Gold 38.3%, Gray 24.3%, Unknown 15.6%. Strongest transition: Blue → Gold (9 of 9 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (2 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

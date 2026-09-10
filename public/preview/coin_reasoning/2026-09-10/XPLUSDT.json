@@ -1,0 +1,84 @@
+{
+  "symbol": "XPLUSDT",
+  "date": "2026-09-10",
+  "generated_at": "2026-09-10T07:25:02.970944+00:00",
+  "scanner_evidence": {
+    "symbol": "XPLUSDT",
+    "pair": "XPL/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "52",
+    "score_tier": "B Watch",
+    "market_cap_rank": "156",
+    "gray_candles": "15",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=XPLUSDT",
+    "execution_time": "2026-09-10T06:36:22.015122+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "506 assets scanned, 9 confirmed flips (1.8%). State distribution: Blue 21.7%, Gold 38.3%, Gray 24.3%, Unknown 15.6%. Strongest transition: Blue → Gold (9 of 9 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only.",
+      "Security-incident-related coverage"
+    ],
+    "context_generated_at": "2026-09-10T07:25:01.341932+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "XPL Crypto Price Prediction: Can Plasma Stage a Comeback in 2026? - Bitcoin Foundation",
+      "source_name": "Bitcoin Foundation",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOYVFHN2RYWEtVQ0dGY2s0WHpJLWRpQkR4NDFES1hRZm9DTzJkMXB6amYwNzRlUFVGNi05U3pvLVhnRndpeUZKZHd5QUhudkhheDJ3SUpZWnhFQ1otdk9HUEV1M0ZRVG5iME92UFZGTmQyemlKa2pLVGJxaFZsS2VyWklVaENDN2F5Zm1yZU9YRExKTnhIc1YwaDFVWnpaNlZYZFVvcDVWYUZ1WXBQ?oc=5",
+      "published_at": "Thu, 18 Jun 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Plasma (XPL Crypto) Loses 85 % of Its Value in Six Weeks: What Happened? - Yahoo Finance",
+      "source_name": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9zTWFFYjA5TUFFaTlPM0FFX0ljSDFyUEZYWDlpMXdWeDRkSG84aWs1VEp3MEpQVDJ5SS1iYkQ2dG16YmppRFJVQXEwRVNOMmZwSksweEN0SEhuWHA3WWdPNUQ5dW14dlh6ajJ6M3I1b3ZVeDhJUUgzXzNZeFQ?oc=5",
+      "published_at": "Sun, 23 Nov 2025 08:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Price of Plasma (XPL) today in EUR – Quote and market trends - Bit2Me",
+      "source_name": "Bit2Me",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1kelVKWFZRblFsSGVzcnF1YWJ1ODZMS2pRbUtKNktiaGRUR1BTa0Q2M0ZFN0FsNTU4X0pET29ISnVVX0ZsREFSWTlR?oc=5",
+      "published_at": "Wed, 22 Jul 2026 01:28:16 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Deel Enables Stablecoin Payouts to Plasma One - CPA Practice Advisor",
+      "source_name": "CPA Practice Advisor",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOT2hiVXFuMDVUOFdCZHh0UUZwa3ZYMUxGekpiaC1aMm9EQmFXbjMtaDdjbklXLTZNeGliam9NYi1zVkxBY2pTS2luUngyUWk2WmpOaFlxeDl5MXFWNjAxQ3d2OWxmR253U3B5X0hDdlZERzJhSXpZRFdidW8wbTRIYmtWREd3elh3THpWQ1hvU1VIR0FBcGM0bXJKdGhOTThD?oc=5",
+      "published_at": "Tue, 25 Aug 2026 18:47:34 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    },
+    {
+      "title": "Plasma Wants to Be the First Stablecoin Bank - pymnts.com",
+      "source_name": "pymnts.com",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQazh3LVVZMHpiei1LTHhzNUdQYU5JcFpUVmxrekRDYVMwQ1d3WklKSDJVajFxNGdja3ZLc1F0RW1NYU5lTmJfZE9aRVFfLVotVENGcWQ2TDBiQ1J2eUZiNzJzMzlJUnBrdGJmci01VDU5dlQ3OW55SWJ4RTA1TjdKbUNhNkc?oc=5",
+      "published_at": "Tue, 30 Jun 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "Plasma crypto",
+  "reasoning_quality": "Medium",
+  "reasoning_quality_note": "Relevant evidence found (5 direct but not fresh headline(s)), but no headline is both coin-specific and fresh. Treat this as supporting context, not confirmation.",
+  "neutral_explanation": "XPLUSDT (XPL/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 52 (tier B Watch); market-cap rank 156. Scanner note: Valid confirmed trend flip — fresh signal. Broader crypto market context: 506 assets scanned, 9 confirmed flips (1.8%). State distribution: Blue 21.7%, Gold 38.3%, Gray 24.3%, Unknown 15.6%. Strongest transition: Blue → Gold (9 of 9 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (5 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

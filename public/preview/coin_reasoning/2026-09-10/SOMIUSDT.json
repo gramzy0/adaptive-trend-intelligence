@@ -1,0 +1,84 @@
+{
+  "symbol": "SOMIUSDT",
+  "date": "2026-09-10",
+  "generated_at": "2026-09-10T07:25:02.970944+00:00",
+  "scanner_evidence": {
+    "symbol": "SOMIUSDT",
+    "pair": "SOMI/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "62",
+    "score_tier": "B Watch",
+    "market_cap_rank": "812",
+    "gray_candles": "13",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "small-cap potential, small-cap high risk, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=SOMIUSDT",
+    "execution_time": "2026-09-10T06:36:22.015122+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "506 assets scanned, 9 confirmed flips (1.8%). State distribution: Blue 21.7%, Gold 38.3%, Gray 24.3%, Unknown 15.6%. Strongest transition: Blue → Gold (9 of 9 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "General market-news coverage, reviewed for context only.",
+      "Security-incident-related coverage"
+    ],
+    "context_generated_at": "2026-09-10T07:25:01.341932+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Somnia Price Prediction: Is SOMI Coin a Good Investment? - StealthEX",
+      "source_name": "StealthEX",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOczhacHdJVDVBWGE2YXBOWmhpLXl4OGFRcGFvMHZWOUdvNDF2QjZDWk5HWTYtQ1NZclRhTEtjSW5PQTRqWldWTVhxZEtNQzBWVzJNeWVyNUJRSkFCOWJGZDdPbGZLd0lTX01MUFVZam5qT3Q0ZlktbXVUWVA0WTZPTnkxVTNmTXRv?oc=5",
+      "published_at": "Fri, 06 Feb 2026 08:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Upbit to Temporarily Suspend SOMI Deposits and Withdrawals for Network Upgrade - CryptoRank",
+      "source_name": "CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZDRlM1V1dTMyakplNVZiWUhFRFNLajFXUGh1WG5HTFZPNjAyRWFsc2xaOUNfY2tPSDQ0VE5jQWM4X25wRXFDTVFRZld4YVJxXzVfeUoybGdHcWZ5WVlGQlc4cV9TUW5Ua0pENUFHY0R6cFBabmZSLVRZMDFRUnJ5Q1dVMjFfbHU5ZHAtV0FRdWVrRTFQZHB1eA?oc=5",
+      "published_at": "Wed, 05 Aug 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Somnia taps Frax to launch USDso stablecoin for high-frequency DeFi - Crypto News",
+      "source_name": "Crypto News",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPcmliV0dBNllHNkxwY3JIMnAwMXR1NTJoa3p5OEpwRldjb3FRMzVQdENpandQenBpcDNwQ21DdG1SdzlISHFJVzNUSmJwTWtfZ1FvM2RVQlhvSkZmX3hTdTI4QUkxZWhnbzR4R19CMG1VaFlqT2U2YWZVaEJSRkRLTmthUkxtQTMtM255UmV5OUMxQQ?oc=5",
+      "published_at": "Tue, 05 May 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Somnia Taps Travela to Offer Worldwide Travel Payments with $SOMI - Bitget",
+      "source_name": "Bitget",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1vajVBdHN3TzJnNTVXOWJCR0FwYVZXb0tWSERQaVMwM3QtMUlnbEtLbklOWkxRaXp5amxDTG10X1h5ZXJFdXpsTVdpOEpMdDl1YzB0OUc3bWNCdFhNR0HSAWNBVV95cUxNVHh0Ry1nWWxoeGcxeEFzUWhhTk9CZ3ZtQ2F1R3g0UnRxMkVJN2k2Z3lsbG5EenN3eGRIdEg1UXJBQklBcDdsRVRFNy1tdmRQWG4wYk1XdjhtdGFHRXhxVFF2NnM?oc=5",
+      "published_at": "Tue, 03 Feb 2026 08:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    },
+    {
+      "title": "Top 50 blockchain game companies - BlockchainGamerBiz",
+      "source_name": "BlockchainGamerBiz",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOUFkwWnMyX0lfc29CNnN4RG4yOFJ3U3NiU3RlaFo2RnRhcS1FMzJHc1lsdkxYYjBPeDh3UUQwR3FYTmE2UFlIYmZ5UlVhQWV0TnpETWFsMTFsWkgxbkFsZmZ5VklqZnZMZnJZdmJoekNYZnFKbkhEOEdWTF9lVnljWHloaWtIV3VZaUVxdXN30gGTAUFVX3lxTE5BYVk5cThWVVAxdXlERnFDNDQzS1B6aG9oSlBtMktwTjZFaV9DVWVUbTVWelNrSzJZdlFFeS0zY3REYjhFdnQ2U3JYVU03cENKVlRzSVJtWExfa3FEVVBrOXEtRkZ4LWhwVU4xT005LU9IZnlVWHdsbi0ycmVzSjdLTmlfMFZXa19pcmVPbC1sSXVqdw?oc=5",
+      "published_at": "Mon, 20 Jul 2026 07:00:00 GMT",
+      "relevance": "market_context",
+      "freshness": "Old",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "Somnia crypto",
+  "reasoning_quality": "Medium",
+  "reasoning_quality_note": "Relevant evidence found (4 direct but not fresh, 1 sector/market-wide headline(s)), but no headline is both coin-specific and fresh. Treat this as supporting context, not confirmation.",
+  "neutral_explanation": "SOMIUSDT (SOMI/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 62 (tier B Watch); market-cap rank 812. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 506 assets scanned, 9 confirmed flips (1.8%). State distribution: Blue 21.7%, Gold 38.3%, Gray 24.3%, Unknown 15.6%. Strongest transition: Blue → Gold (9 of 9 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (4 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

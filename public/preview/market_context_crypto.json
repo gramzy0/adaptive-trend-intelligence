@@ -1,62 +1,62 @@
 {
   "market": "crypto",
-  "generated_at": "2026-09-09T07:25:01.470718+00:00",
-  "scanner_summary": "506 assets scanned, 4 confirmed flips (0.8%). State distribution: Blue 22.7%, Gold 36.8%, Gray 24.9%, Unknown 15.6%. Strongest transition: Blue → Gold (4 of 4 flips). Source: reports/private_crypto_dashboard.csv.",
+  "generated_at": "2026-09-10T07:25:01.341932+00:00",
+  "scanner_summary": "506 assets scanned, 9 confirmed flips (1.8%). State distribution: Blue 21.7%, Gold 38.3%, Gray 24.3%, Unknown 15.6%. Strongest transition: Blue → Gold (9 of 9 flips). Source: reports/private_crypto_dashboard.csv.",
   "possible_drivers": [
     "Locally observed scanner state distribution and flip activity (see scanner_summary).",
     "General market-news coverage, reviewed for context only.",
-    "ETF/regulatory-related coverage"
+    "Security-incident-related coverage"
   ],
   "uncertainty_note": "Automatically collected from public RSS headlines and local scanner output. Headlines are cited, not verified for accuracy or causal connection to price movement. This is not investment advice and does not contain buy, sell, hold, or execution guidance. Human review is required before treating anything here as reliable market context.",
   "sources": [
     {
-      "title": "Live updates: XRP funds stand out among U.S. ETFs as bitcoin, ether, solana funds see outflows",
+      "title": "Hunter Biden’s LAPTOP blames bots after 98% crash as traders rack up six-figure losses",
       "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/09/09/live-updates-xrp-funds-stand-out-among-u-s-etfs-as-bitcoin-ether-solana-funds-see-outflows",
-      "published_at": "Wed, 09 Sep 2026 07:20:51 +0000",
+      "url": "https://www.coindesk.com/markets/2026/09/10/hunter-biden-s-laptop-blames-bots-after-98-crash-as-traders-rack-up-six-figure-losses",
+      "published_at": "Thu, 10 Sep 2026 06:13:45 +0000",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Anthropic researcher quits with a warning on AI that echoes 'The Terminator' script",
+      "title": "Dogecoin sinks 5% to lead majors losses, with bitcoin holding $78,000 level",
       "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/09/09/anthropic-researcher-quits-with-a-warning-on-ai-that-echoes-the-terminator-script",
-      "published_at": "Wed, 09 Sep 2026 06:20:38 +0000",
+      "url": "https://www.coindesk.com/markets/2026/09/10/dogecoin-sinks-5-to-lead-majors-losses-with-bitcoin-holding-usd78-000-level",
+      "published_at": "Thu, 10 Sep 2026 05:30:15 +0000",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Hunter Biden defends LAPTOP ahead of Wednesday launch, calls TRUMP a ‘grift’",
+      "title": "Crypto wins regardless of Clarity Act vote, Coinbase's Armstrong says",
       "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/09/09/hunter-biden-defends-laptop-ahead-of-wednesday-launch-calls-trump-a-grift",
-      "published_at": "Wed, 09 Sep 2026 05:22:57 +0000",
+      "url": "https://www.coindesk.com/markets/2026/09/10/crypto-wins-regardless-of-clarity-act-vote-coinbase-s-armstrong-says",
+      "published_at": "Thu, 10 Sep 2026 05:05:41 +0000",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Moonshot’s Kimi rattled markets. U.S. agencies now say it was trained on American models",
+      "title": "Robinhood CEO Vlad Tenev fires back at AMC's Aron in escalating fight over stock tokens",
       "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/tech/2026/09/09/moonshot-s-kimi-rattled-markets-u-s-agencies-now-say-it-was-trained-on-american-models",
-      "published_at": "Wed, 09 Sep 2026 04:40:54 +0000",
+      "url": "https://www.coindesk.com/markets/2026/09/09/robinhood-s-ceo-vlad-tenev-defends-stock-tokens-in-escalating-fight-with-amc-ceo",
+      "published_at": "Wed, 09 Sep 2026 16:11:07 +0000",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Bitcoin recovers toward $79,000 as Zcash records a $500 million ETF haul",
+      "title": "U.S. Treasury sanctions another widespread cyber-scam hub, Xinbi Guarantee",
       "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/09/09/bitcoin-recovers-toward-usd79-000-as-zcash-records-a-usd500-million-etf-haul",
-      "published_at": "Wed, 09 Sep 2026 04:35:55 +0000",
-      "note": "ETF/regulatory-related coverage"
+      "url": "https://www.coindesk.com/policy/2026/09/09/u-s-treasury-sanctions-another-widespread-cyber-scam-hub-xinbi-guarantee",
+      "published_at": "Wed, 09 Sep 2026 16:05:11 +0000",
+      "note": "General market-news coverage, reviewed for context only."
     },
     {
       "title": "Here’s what happened in crypto today",
       "source_name": "CoinTelegraph",
       "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "Wed, 09 Sep 2026 05:51:21 +0000",
+      "published_at": "Thu, 10 Sep 2026 05:59:21 +0000",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Gemini receives Singapore payment license for crypto services",
+      "title": "Trezor, BitBox warn users about fake hardware wallet security alerts",
       "source_name": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/gemini-singapore-mpi-license-crypto-services?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "Wed, 09 Sep 2026 05:27:12 +0000",
-      "note": "General market-news coverage, reviewed for context only."
+      "url": "https://cointelegraph.com/news/trezor-bitbox-hardware-wallet-phishing-emails?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "Thu, 10 Sep 2026 05:34:21 +0000",
+      "note": "Security-incident-related coverage"
     }
   ]
 }

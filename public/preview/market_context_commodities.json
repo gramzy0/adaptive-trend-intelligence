@@ -1,47 +1,46 @@
 {
   "market": "commodities",
-  "generated_at": "2026-09-09T07:25:01.470718+00:00",
+  "generated_at": "2026-09-10T07:25:01.341932+00:00",
   "scanner_summary": "No commodity scanner data available in data/output; no asset count, flip count, or state distribution can be computed locally.",
   "possible_drivers": [
-    "General market-news coverage, reviewed for context only.",
-    "Supply-related coverage"
+    "General market-news coverage, reviewed for context only."
   ],
   "uncertainty_note": "Automatically collected from public RSS headlines and local scanner output. Headlines are cited, not verified for accuracy or causal connection to price movement. This is not investment advice and does not contain buy, sell, hold, or execution guidance. Human review is required before treating anything here as reliable market context.",
   "sources": [
     {
-      "title": "Rising Oil Prices Threaten China’s Independent Refiners",
+      "title": "Australia Softens Gas Reservation Rule for LNG Exporters",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Rising-Oil-Prices-Threaten-Chinas-Independent-Refiners.html",
-      "published_at": "Wed, 09 Sep 2026 02:05:00 -0500",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Australia-Softens-Gas-Reservation-Rule-for-LNG-Exporters.html",
+      "published_at": "Thu, 10 Sep 2026 02:00:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Pakistan’s Energy Crisis Set to Ease as Qatari LNG Breaks Through Hormuz",
+      "title": "Oil Holds Above $100 as U.S.-Iran Tanker War Escalates",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Pakistans-Energy-Crisis-Set-to-Ease-as-Qatari-LNG-Breaks-Through-Hormuz.html",
-      "published_at": "Wed, 09 Sep 2026 00:55:00 -0500",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Holds-Above-100-as-US-Iran-Tanker-War-Escalates.html",
+      "published_at": "Thu, 10 Sep 2026 00:35:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Oil Nears $100 as U.S. Destroys Five Iranian Tankers",
+      "title": "Oil Breaks $100—and This Rally Has Legs",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Energy/Oil-Prices/Oil-Nears-100-as-US-Destroys-Five-Iranian-Tankers.html",
-      "published_at": "Tue, 08 Sep 2026 22:50:00 -0500",
+      "url": "https://oilprice.com/Energy/Crude-Oil/Oil-Breaks-100and-This-Rally-Has-Legs.html",
+      "published_at": "Wed, 09 Sep 2026 19:00:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Iran’s Oil Exports Collapse as Hormuz Standoff Drags On",
+      "title": "Canadian Oil Pushes Deeper Into U.S. Gulf Coast Market",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Energy/Crude-Oil/Irans-Oil-Exports-Collapse-as-Hormuz-Standoff-Drags-On.html",
-      "published_at": "Tue, 08 Sep 2026 19:00:00 -0500",
+      "url": "https://oilprice.com/Energy/Crude-Oil/Canadian-Oil-Pushes-Deeper-Into-US-Gulf-Coast-Market.html",
+      "published_at": "Wed, 09 Sep 2026 18:00:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Hedge Funds Pile Into Fuels as U.S. Supply Squeeze Deepens",
+      "title": "The Commodity Bull Market Just Entered a Dangerous New Phase",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Energy/Energy-General/Hedge-Funds-Pile-Into-Fuels-as-US-Supply-Squeeze-Deepens.html",
-      "published_at": "Tue, 08 Sep 2026 18:00:00 -0500",
-      "note": "Supply-related coverage"
+      "url": "https://oilprice.com/Energy/Energy-General/The-Commodity-Bull-Market-Just-Entered-a-Dangerous-New-Phase.html",
+      "published_at": "Wed, 09 Sep 2026 17:00:00 -0500",
+      "note": "General market-news coverage, reviewed for context only."
     },
     {
       "title": "Gold: The Calm Before the Storm",
