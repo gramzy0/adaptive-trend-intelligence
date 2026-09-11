@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- PUBLIC_PREMIUM_DASHBOARD_LOCKED -->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Adaptive Trend Intelligence Dashboard</title>
+  <style>
+    :root {
+      --bg: #020617;
+      --panel: #0f172a;
+      --panel-2: #111827;
+      --border: #1f2937;
+      --text: #e5e7eb;
+      --muted: #94a3b8;
+      --blue: #93c5fd;
+      --danger: #fca5a5;
+      --warning: #fde68a;
+      --success: #86efac;
+      --neutral: #cbd5e1;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background:
+        radial-gradient(circle at top left, rgba(37, 99, 235, 0.18), transparent 28%),
+        radial-gradient(circle at top right, rgba(14, 165, 233, 0.12), transparent 30%),
+        var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+    }
+
+    .container {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 28px 20px 48px;
+    }
+
+    .hero {
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      background: rgba(15, 23, 42, 0.92);
+      padding: 28px;
+      margin-bottom: 20px;
+    }
+
+    .eyebrow {
+      color: var(--blue);
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      font-size: 12px;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 34px;
+      line-height: 1.15;
+    }
+
+    .subtitle {
+      color: var(--muted);
+      margin: 12px 0 0;
+      max-width: 780px;
+    }
+
+    .generated {
+      color: var(--muted);
+      font-size: 13px;
+      margin-top: 16px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 14px;
+      margin-bottom: 20px;
+    }
+
+    .card {
+      background: rgba(17, 24, 39, 0.92);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 18px;
+      margin-bottom: 20px;
+    }
+
+    .metric {
+      background: rgba(15, 23, 42, 0.92);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 16px;
+    }
+
+    .metric-label {
+      color: var(--muted);
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 8px;
+    }
+
+    .metric-value {
+      font-size: 19px;
+      font-weight: 700;
+    }
+
+    h2 {
+      margin: 0 0 14px;
+      font-size: 20px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      overflow: hidden;
+    }
+
+    th, td {
+      padding: 11px 10px;
+      border-bottom: 1px solid var(--border);
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      color: var(--blue);
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+
+    .symbol {
+      font-weight: 700;
+      color: #ffffff;
+    }
+
+    .reason {
+      color: var(--neutral);
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 4px 9px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 700;
+      border: 1px solid var(--border);
+      white-space: nowrap;
+    }
+
+    .badge.danger {
+      color: var(--danger);
+      background: rgba(127, 29, 29, 0.24);
+    }
+
+    .badge.warning {
+      color: var(--warning);
+      background: rgba(113, 63, 18, 0.24);
+    }
+
+    .badge.success {
+      color: var(--success);
+      background: rgba(20, 83, 45, 0.24);
+    }
+
+    .badge.neutral {
+      color: var(--neutral);
+      background: rgba(51, 65, 85, 0.28);
+    }
+
+    .warning-box {
+      border: 1px solid rgba(252, 165, 165, 0.45);
+      background: rgba(127, 29, 29, 0.18);
+      color: #fecaca;
+      border-radius: 16px;
+      padding: 16px;
+      margin-bottom: 20px;
+    }
+
+    .text-panel {
+      white-space: pre-wrap;
+      background: #020617;
+      border: 1px solid var(--border);
+      padding: 14px;
+      border-radius: 12px;
+      overflow-x: auto;
+      color: #d1d5db;
+      font-size: 13px;
+    }
+
+    .disclaimer {
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    @media (max-width: 900px) {
+      .grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 620px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+
+      h1 {
+        font-size: 26px;
+      }
+
+      th, td {
+        font-size: 13px;
+      }
+    }
+
+    .nav-back {
+      display: inline-block;
+      color: var(--muted);
+      font-size: 13px;
+      text-decoration: none;
+      margin-bottom: 18px;
+      padding: 6px 12px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: rgba(17, 24, 39, 0.6);
+    }
+
+    .nav-back:hover {
+      color: var(--blue);
+      border-color: var(--blue);
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <a href="index.html" class="nav-back">← Overview</a>
+    <a href="data_dictionary.html" class="nav-back">Data Dictionary</a>
+    <a href="limitations.html" class="nav-back">Limitations</a>
+    <section class="hero">
+      <div class="eyebrow">Research & Monitoring Dashboard</div>
+      <h1>Adaptive Trend Intelligence Dashboard</h1>
+      <p class="subtitle">
+        This dashboard summarises public research-monitoring outputs from CTO Scanner. It is
+        designed to show data freshness, public export status, candidate monitoring rows, and
+        historical signal outcome records. It combines trend-flip signals, governance controls,
+        risk posture, and candidate observations.
+      </p>
+      <p class="subtitle">
+        This dashboard is for informational monitoring only. It is not financial advice, not
+        investment advice, not a recommendation, and not a trading signal. Assets are not ranked
+        and not scored for public action. Data is refreshed by the scheduled scanner/export workflow
+        when the nightly run completes successfully.
+      </p>
+      <div class="generated">Generated at: 2026-09-07 03:31 UTC</div>
+    </section>
+
+    <section class="card" style="margin-bottom: 20px;">
+      <h2>How to Read This Dashboard</h2>
+      <ul class="disclaimer" style="margin: 0 0 10px; padding-left: 20px; line-height: 2;">
+        <li>Public status cards summarise operational readiness and export freshness &mdash; they are not market buy/sell signals.</li>
+        <li>Candidate rows are monitoring observations, not trade recommendations.</li>
+        <li>Outcome rows are historical tracking records, not proof of future performance.</li>
+        <li>Public CSV files are sanitised public exports and may not include internal review context.</li>
+      </ul>
+      <p class="disclaimer">
+        Status labels such as <em>red</em>, <em>blocked</em>, or <em>not_ready</em> describe internal
+        readiness, governance, or data-quality states. They should not be interpreted as market direction
+        or trading recommendations. The public crypto coverage state remains <strong>no_public_exposure</strong>;
+        internal research coverage is not shown as a public asset list. Freshness fields reflect the latest
+        public export available to this static dashboard and are updated when the scheduled scanner/export
+        workflow completes successfully.
+      </p>
+    </section>
+
+    <section class="grid">
+      <div class="metric">
+        <div class="metric-label">System State</div>
+        <div class="metric-value"><span class="badge danger">red</span></div>
+      </div>
+      <div class="metric">
+        <div class="metric-label">Permission</div>
+        <div class="metric-value"><span class="badge danger">blocked</span></div>
+      </div>
+      <div class="metric">
+        <div class="metric-label">AI Readiness</div>
+        <div class="metric-value"><span class="badge danger">Not Ready</span></div>
+      </div>
+      <div class="metric">
+        <div class="metric-label">Market Stress</div>
+        <div class="metric-value"><span class="badge danger">extreme</span></div>
+      </div>
+    </section>
+
+    <section class="warning-box">
+      <strong>Governance Warning:</strong>
+      Current governance state is <strong>Restricted</strong>.
+      If permission is blocked or governance is restricted, this dashboard should
+      be treated as monitor-only. It should not be interpreted as a capital deployment instruction.
+    </section>
+
+    <section class="card">
+      <h2>Governance Summary</h2>
+      <div class="grid">
+        <div class="metric">
+          <div class="metric-label">Governance State</div>
+          <div class="metric-value"><span class="badge danger">Restricted</span></div>
+        </div>
+        <div class="metric">
+          <div class="metric-label">Decision Quality</div>
+          <div class="metric-value"><span class="badge danger">Poor Quality</span></div>
+        </div>
+        <div class="metric">
+          <div class="metric-label">Meta Confidence</div>
+          <div class="metric-value"><span class="badge danger">Very Low Confidence</span></div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="card">
+      <h2>Performance & Outcome Snapshot</h2>
+      <div class="grid">
+        <div class="metric">
+          <div class="metric-label">Signal Snapshots</div>
+          <div class="metric-value">9009</div>
+        </div>
+        <div class="metric">
+          <div class="metric-label">Tracked Outcomes</div>
+          <div class="metric-value">827</div>
+        </div>
+        <div class="metric">
+          <div class="metric-label">AI Alerts</div>
+          <div class="metric-value">20</div>
+        </div>
+        <div class="metric">
+          <div class="metric-label">Scan Results</div>
+          <div class="metric-value">756338</div>
+        </div>
+      </div>
+      <p class="disclaimer">
+        This section reports system tracking volume only. It does not represent profitability,
+        investment performance, or a recommendation.
+      </p>
+    </section>
+
+
+    <section class="card">
+      <h2>Outcome Quality Metrics</h2>
+      <div class="grid">
+        <div class="metric">
+          <div class="metric-label">Outcome Coverage</div>
+          <div class="metric-value">9.2%</div>
+        </div>
+        <div class="metric">
+          <div class="metric-label">Open Outcomes</div>
+          <div class="metric-value">202</div>
+        </div>
+        <div class="metric">
+          <div class="metric-label">Closed Outcomes</div>
+          <div class="metric-value">625</div>
+        </div>
+        <div class="metric">
+          <div class="metric-label">Data Readiness</div>
+          <div class="metric-value">
+            <span class="badge neutral">
+              early
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid">
+        <div class="metric">
+          <div class="metric-label">Avg. Max Favorable Excursion</div>
+          <div class="metric-value">12.83</div>
+        </div>
+        <div class="metric">
+          <div class="metric-label">Avg. Max Adverse Excursion</div>
+          <div class="metric-value">-10.72</div>
+        </div>
+      </div>
+
+      <p class="disclaimer">
+        These metrics describe tracking coverage and observed post-signal movement.
+        They do not prove profitability and should not be used as standalone trading evidence.
+      </p>
+    </section>
+
+
+
+    <section class="card">
+      <h2>Outcome Classification Summary</h2>
+    <p>
+      Open outcomes are observational only and are not finalized wins or losses.
+      Classification is based on MFE and MAE behavior.
+    </p>
+
+    <p class="disclaimer">
+      Positive Watch means favorable movement is currently stronger.
+      Neutral Watch means no clear advantage is visible yet.
+      Negative Watch means adverse movement is currently stronger.
+    </p>
+      <div class="grid">
+        <div class="metric">
+          <div class="metric-label">Positive Watch</div>
+          <div class="metric-value">50</div>
+        </div>
+        <div class="metric">
+          <div class="metric-label">Neutral Watch</div>
+          <div class="metric-value">126</div>
+        </div>
+        <div class="metric">
+          <div class="metric-label">Positive Watch %</div>
+      <div>6.05%</div>
+      <div class="metric-label">Neutral Watch %</div>
+      <div>15.24%</div>
+      <div class="metric-label">Negative Watch %</div>
+      <div>3.14%</div>
+      <div class="metric-label">Negative Watch</div>
+          <div class="metric-value">26</div>
+        </div>
+      </div>
+
+      <p class="disclaimer">
+        These are observational classifications for open outcomes.
+        They are not finalized win/loss labels.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Latest Signal Outcomes</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Asset Type</th>
+            <th>Signal Band</th>
+            <th>Decision Bucket</th>
+            <th>Status</th>
+            <th>MFE</th>
+            <th>MAE</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>crypto</td><td>lower_signal_band</td><td>low_priority_watch_watch_watch_watch_watch</td><td><span class='badge neutral'>open</span></td><td>1.24</td><td>-0.24</td></tr>
+<tr><td>crypto</td><td>lower_signal_band</td><td>low_priority_watch_watch_watch_watch_watch</td><td><span class='badge neutral'>open</span></td><td>3.31</td><td>-0.70</td></tr>
+<tr><td>crypto</td><td>lower_signal_band</td><td>low_priority_watch_watch_watch_watch_watch</td><td><span class='badge neutral'>open</span></td><td>6.37</td><td>-0.08</td></tr>
+<tr><td>crypto</td><td>lower_signal_band</td><td>weak_signal_watch</td><td><span class='badge neutral'>open</span></td><td>1.20</td><td>-0.30</td></tr>
+<tr><td>crypto</td><td>lower_signal_band</td><td>low_priority_watch_watch_watch_watch_watch</td><td><span class='badge neutral'>open</span></td><td>2.72</td><td>-0.58</td></tr>
+<tr><td>crypto</td><td>lower_signal_band</td><td>low_priority_watch_watch_watch_watch_watch</td><td><span class='badge neutral'>open</span></td><td>1.29</td><td>-0.23</td></tr>
+<tr><td>crypto</td><td>medium_signal_band</td><td>low_priority_watch_watch_watch_watch_watch</td><td><span class='badge neutral'>open</span></td><td>unavailable</td><td>unavailable</td></tr>
+<tr><td>crypto</td><td>lower_signal_band</td><td>weak_signal_watch</td><td><span class='badge neutral'>open</span></td><td>0.55</td><td>-2.52</td></tr>
+<tr><td>crypto</td><td>lower_signal_band</td><td>low_priority_watch_watch_watch_watch_watch</td><td><span class='badge neutral'>open</span></td><td>7.42</td><td>-1.21</td></tr>
+<tr><td>crypto</td><td>lower_signal_band</td><td>low_priority_watch_watch_watch_watch_watch</td><td><span class='badge neutral'>open</span></td><td>25.27</td><td>-29.77</td></tr>
+        </tbody>
+      </table>
+      <p class="disclaimer">
+        MFE means maximum favorable excursion. MAE means maximum adverse excursion.
+        These values describe observed post-signal movement and are not standalone performance claims.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Candidate Observations</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Signal Band</th>
+            <th>Action</th>
+            <th>Reason</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>medium_signal_band</td><td><span class='badge warning'>low_priority_watch_watch_watch_watch_watch</span></td><td class='reason'>fresh CTO flip; young signal</td></tr>
+<tr><td>lower_signal_band</td><td><span class='badge warning'>low_priority_watch_watch_watch_watch_watch</span></td><td class='reason'>young signal</td></tr>
+<tr><td>lower_signal_band</td><td><span class='badge warning'>low_priority_watch_watch_watch_watch_watch</span></td><td class='reason'>young signal; acceptable market-cap quality</td></tr>
+<tr><td>lower_signal_band</td><td><span class='badge warning'>low_priority_watch_watch_watch_watch_watch</span></td><td class='reason'>young signal</td></tr>
+<tr><td>lower_signal_band</td><td><span class='badge warning'>low_priority_watch_watch_watch_watch_watch</span></td><td class='reason'>young signal</td></tr>
+<tr><td>lower_signal_band</td><td><span class='badge warning'>low_priority_watch_watch_watch_watch_watch</span></td><td class='reason'>young signal</td></tr>
+<tr><td>lower_signal_band</td><td><span class='badge danger'>weak_signal_watch</span></td><td class='reason'>young signal</td></tr>
+        </tbody>
+      </table>
+      <p class="disclaimer">
+        Candidate rows are monitoring observations only. They are not trade recommendations,
+        entry signals, capital deployment instructions, rankings, or scores for public action.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Daily Briefing</h2>
+      <p class="disclaimer" style="margin-bottom: 12px;">
+        Status values in this briefing (such as <em>red</em>, <em>blocked</em>,
+        <em>not_ready</em>, <em>extreme</em>) describe internal governance, readiness, and
+        risk-posture states. They are not market direction or trading recommendations.
+        This briefing is generated automatically and is for research and monitoring context only.
+      </p>
+      <div class="text-panel">Public briefing detail is withheld while public symbol exposure is disabled. High-level governance and monitoring status remain available above.</div>
+    </section>
+
+    <section class="card">
+      <h2>Outcome Learning v3 Summary</h2>
+      <div class="metric-label">Total Outcomes</div>
+      <div>827</div>
+
+      <div class="metric-label">Positive Watch %</div>
+      <div>36.28%</div>
+
+      <div class="metric-label">Neutral Watch %</div>
+      <div>30.71%</div>
+
+      <div class="metric-label">Negative Watch %</div>
+      <div>33.01%</div>
+
+      <p class="note">
+        Outcome learning is still early-stage. Negative Watch reflects observed adverse movement
+        relative to favorable movement in open or closed outcomes; it is not a realized-loss
+        statement or investment recommendation. Public summary only. Detailed learning internals
+        remain excluded from the public dashboard.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>System Governance Summary</h2>
+      <p class="disclaimer">
+        The public dashboard displays high-level monitoring, readiness, governance,
+        and outcome-tracking information only. Internal model state, raw debug data,
+        private control files, source provenance, and weighting internals are intentionally
+        excluded. The internal research workflow remains human-reviewed and does not publish
+        symbols through disabled exposure modes.
+      </p>
+      <div class="grid">
+        <div class="metric">
+          <div class="metric-label">Scoring Mode</div>
+          <div class="metric-value">Advisory only</div>
+        </div>
+        <div class="metric">
+          <div class="metric-label">Automatic Changes</div>
+          <div class="metric-value">Disabled</div>
+        </div>
+        <div class="metric">
+          <div class="metric-label">Human Review</div>
+          <div class="metric-value">Required</div>
+        </div>
+        <div class="metric">
+          <div class="metric-label">Public Data Scope</div>
+          <div class="metric-value">Sanitized summary</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="card disclaimer">
+      <h2>Disclaimer</h2>
+      <p>
+        This dashboard is for informational monitoring only. It is not financial advice, not
+        investment advice, not a recommendation, and not a trading signal. Assets are not ranked
+        and not scored for public action. The public monitoring view may be incomplete, delayed,
+        or subject to revision. No buy, sell, hold, allocation, entry, exit, stop-loss, take-profit,
+        or execution guidance is provided.
+      </p>
+    </section>
+
+    <!-- PUBLIC_STATIC_SITE_SAFETY_NOTICE_BEGIN -->
+    <section class="card disclaimer public-safety-disclaimer" aria-label="Research monitoring safety notice">
+      <p><strong>Safety notice:</strong> research_monitoring_only. Research / monitoring only. No financial advice. No buy/sell/hold recommendation. No trading execution. Human review required. Not trading signals.</p>
+    </section>
+    <!-- PUBLIC_STATIC_SITE_SAFETY_NOTICE_END -->
+  </main>
+<!-- PUBLIC_DASHBOARD_VALIDATOR_MARKERS_BEGIN -->
+<!-- Adaptive Trend Intelligence Dashboard -->
+<!-- PUBLIC_PREMIUM_DASHBOARD_LOCKED -->
+<!-- NO_PUBLIC_PUBLICATION_OK -->
+<!-- PUBLIC_DASHBOARD_VALIDATOR_MARKERS_END -->
+</body>
+</html>
