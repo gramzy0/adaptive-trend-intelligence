@@ -1,0 +1,85 @@
+{
+  "symbol": "IOSTUSDT",
+  "date": "2026-09-11",
+  "generated_at": "2026-09-11T07:25:03.583259+00:00",
+  "scanner_evidence": {
+    "symbol": "IOSTUSDT",
+    "pair": "IOST/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "87",
+    "score_tier": "A+ Strong",
+    "market_cap_rank": "612",
+    "gray_candles": "2",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "small-cap potential, small-cap high risk, fresh signal, clean transition",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=IOSTUSDT",
+    "execution_time": "2026-09-11T06:36:23.524057+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "509 assets scanned, 7 confirmed flips (1.4%). State distribution: Blue 21.6%, Gold 39.1%, Gray 23.4%, Unknown 15.9%. Strongest transition: Blue → Gold (6 of 7 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "Regulatory/legal-related coverage",
+      "General market-news coverage, reviewed for context only.",
+      "Macro/rates-related coverage"
+    ],
+    "context_generated_at": "2026-09-11T07:25:02.079605+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Crypto Price Prediction: Raydium (RAY), NEAR Protocol (NEAR), and IOST (IOST) - Bitget",
+      "source_name": "Bitget",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1tdDZXRGM5dFZwcHo4MWNfeWFZSkVra1d0cVRIbzF3RTlqSE02YUZCSWRDaU9WU0Q1LWNwU1FkUzI1V0RNYVhWclAzcTVTMmxnZjBKV2hkMzVuSVJYOVhReDRIUdIBY0FVX3lxTE1tdDZXRGM5dFZwcHo4MWNfeWFZSkVra1d0cVRIbzF3RTlqSE02YUZCSWRDaU9WU0Q1LWNwU1FkUzI1V0RNYVhWclAzcTVTMmxnZjBKV2hkMzVuSVJYOVhReDRIUQ?oc=5",
+      "published_at": "Thu, 10 Sep 2026 08:23:46 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "Daily Market Highlights: Trump-Musk Feud Hits BTC, FLOCK & IOST Surge Amid Global Risk-On Rally - yellow.com",
+      "source_name": "yellow.com",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPaFFZTUEyT3ZKSXhvS0JMZ1hlTjlxUzNLTF9DNWpKXzRSY3lCakRCQTIwdkRTNVNnbXBVR3FIOTcxc3cwZmpCUUtLS3V1dVZQd2V6TTltMzA3Ym9IN1ZydHhvMzZnRjBUNlNONWVJRkJFRWgzUUd5UHZiWU5LT3ZFb2xYbWFYX3NyTnB5S0dfcmJaWVFJclJWSThZUE5Nc2lqX1NQZjZSbEhJbkZHX1lWOGd3M1pWTFpUdGpMTjVMR3JpNUIwZkVfTHUzS05ieUI2R3RDUG5iakFYWF8wTjRfdVNpYUs?oc=5",
+      "published_at": "Wed, 09 Sep 2026 02:10:20 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "数据：IOST 24 小时涨超 20% - CryptoRank",
+      "source_name": "CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE04UDJxaWpnWVpMVmluZ3k0VEtscmRjQnFKUnhaOEt2NXFwVGtYaHdxeTBiTnhaSzlOTERmU1hZZXMyMVlRaUFnVUJ4REczMkU3M2VLb0YxQlo?oc=5",
+      "published_at": "Mon, 07 Sep 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "IOST Technical Analysis & Price Forecast - Intellectia AI",
+      "source_name": "Intellectia AI",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9tVTJTbnZxYXkxU1JHLS1HWGlfMG9IN19jV3o4UjJ5QzRUQ3dwaVAwN1IzUFpHSGZKeTJoRmE0RDdVNm1QQWN6VXBYWnVUcnFqSzR5RTlsVQ?oc=5",
+      "published_at": "Thu, 21 May 2026 05:23:31 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    },
+    {
+      "title": "IOST (IOST) Price Prediction 2026 2027 2028 – 2040 - Changelly",
+      "source_name": "Changelly",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBzZlJ1UnExeFlZWUpYbjlyQmk0WG5ZZEpvR0laOUtBMkhUc0d2a3VaMl9meERNT3RhUDRXbVhTc1BuS1l1dVlvR05FNnBtWmhya1pDRVcwLVlGa3h4WFE?oc=5",
+      "published_at": "Wed, 15 Jan 2020 17:14:16 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "IOST crypto",
+  "reasoning_quality": "Strong",
+  "reasoning_quality_note": "3 direct, fresh coin-specific headline(s) found (named the coin/project and published today or within the last 7 days).",
+  "neutral_explanation": "IOSTUSDT (IOST/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 87 (tier A+ Strong); market-cap rank 612. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal, clean transition. Broader crypto market context: 509 assets scanned, 7 confirmed flips (1.4%). State distribution: Blue 21.6%, Gold 39.1%, Gray 23.4%, Unknown 15.9%. Strongest transition: Blue → Gold (6 of 7 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (5 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

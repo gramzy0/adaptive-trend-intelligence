@@ -1,0 +1,85 @@
+{
+  "symbol": "DOTUSDT",
+  "date": "2026-09-11",
+  "generated_at": "2026-09-11T07:25:03.583259+00:00",
+  "scanner_evidence": {
+    "symbol": "DOTUSDT",
+    "pair": "DOT/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "57",
+    "score_tier": "B Watch",
+    "market_cap_rank": "45",
+    "gray_candles": "8",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "large-cap stability, top market cap, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=DOTUSDT",
+    "execution_time": "2026-09-11T06:36:23.524057+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "509 assets scanned, 7 confirmed flips (1.4%). State distribution: Blue 21.6%, Gold 39.1%, Gray 23.4%, Unknown 15.9%. Strongest transition: Blue → Gold (6 of 7 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "Regulatory/legal-related coverage",
+      "General market-news coverage, reviewed for context only.",
+      "Macro/rates-related coverage"
+    ],
+    "context_generated_at": "2026-09-11T07:25:02.079605+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Polkadot (DOT) Retraces 7% After Governance-Driven Rally - CoinMarketCap",
+      "source_name": "CoinMarketCap",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1wbUVWWnVNRlM1eXhUUGdpM3RzWVNhc3J5QWpPZ2luR0k4Tl80Y05aYXMtVkVEOE9BMVhyZnZoS0taeFAxcnc4a3NKMVI1ZXYxN3M5QXg2LXZSLUxYNVNPLXVZdjJnU3ZvLUE2ZGhlR1Y?oc=5",
+      "published_at": "Thu, 10 Sep 2026 13:07:00 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "Polkadot jumps 11.35% as dotUSD proposal advances – But DOT sellers emerge - ambcrypto.com",
+      "source_name": "ambcrypto.com",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOM2lSYW43U3lmTkU1TmhtZ2htaW9QVkdpYVkwb3dEbjNzMUJrcXdLSld3UDZPaG91a0NVRWlwZ2lHLXVWanNyRHBEc1hxZElJQmFLd3MtcGFuUXVLWEF2UEtraFhsU3h5SUtVX0lLVlpHR0xiUnM0RHJmSVdVWUlnb0JIQ2l1c1oxNzJZclRLb2cwX0luNHg4TmR3?oc=5",
+      "published_at": "Wed, 09 Sep 2026 15:00:09 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "Polkadot leads market rotation into legacy layer-1 tokens as Fed rate hike bets grow - TradingView",
+      "source_name": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPWDdBQkZIWkRHcTFlV2cyckhBWjEyTlo0VlBhMUtJV213LVUyajhiTDFXM2xtaVBqbWwzMWhkRWRpR1BJRlAtQjdkb2h6QzJ5UFNRMG0xaXZMY3lpYTNGbkc2d3ZaRmF4SmpkUmRYLVMxMGN5T1RmY1BxY1J4MXVHcjhpUVh3TGVjekNITkdmTGdRdnUzRGVDcjB3MHlOWEp6YVdtdklvU2Iwc255WUxUXzQ2MTdwTGdQTkcwaU5ra0p0VDkxTm40WFR6S1JXQTRJdGxJOHpidC01dVVHOThVVlhhRQ?oc=5",
+      "published_at": "Tue, 08 Sep 2026 21:42:39 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "Polkadot launches $5 million referendum to fund dotUSD stablecoin - Bitget",
+      "source_name": "Bitget",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9PMUdFLWpCMC1Oa2ZxQkNpNU1wWDZSRWd0TnEtVkJzWnVsdlp3MS02WWQySzBGLXBjZW5MLUtfZG4ySkpHRkx3UzJMNlZmODROVTF0UGxRV1BMMjROV1h0VUpUONIBY0FVX3lxTE9PMUdFLWpCMC1Oa2ZxQkNpNU1wWDZSRWd0TnEtVkJzWnVsdlp3MS02WWQySzBGLXBjZW5MLUtfZG4ySkpHRkx3UzJMNlZmODROVTF0UGxRV1BMMjROV1h0VUpUOA?oc=5",
+      "published_at": "Thu, 10 Sep 2026 21:12:18 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": false
+    },
+    {
+      "title": "Polkadot Price Prediction 2026: Will DOT Reach New Highs? - Bitcoin Foundation",
+      "source_name": "Bitcoin Foundation",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPLXNYSjdlTS1OelZNdTFVMG1ad1hnS1cxOExtY0xndjRISHlWWURzLWYzRTZBQWs5OWEzV1hnNGpXZE9WRDQtN1poUnVTWXpUV2RqcW16V1B0cFVJa2EyZW5KaU12bmlqcE1mNF8xdGRYWTRHUTdhdWZPMnVxTkZkbWtXM2xRUTJqd1VfTmMtMUZfS0pfS2VqNHhIaDhqZmljM2c?oc=5",
+      "published_at": "Tue, 01 Sep 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "Polkadot crypto",
+  "reasoning_quality": "Strong",
+  "reasoning_quality_note": "4 direct, fresh coin-specific headline(s) found (named the coin/project and published today or within the last 7 days).",
+  "neutral_explanation": "DOTUSDT (DOT/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 57 (tier B Watch); market-cap rank 45. Scanner note: Valid confirmed trend flip — large-cap stability, top market cap, fresh signal. Broader crypto market context: 509 assets scanned, 7 confirmed flips (1.4%). State distribution: Blue 21.6%, Gold 39.1%, Gray 23.4%, Unknown 15.9%. Strongest transition: Blue → Gold (6 of 7 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (5 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

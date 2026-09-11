@@ -1,0 +1,85 @@
+{
+  "symbol": "CKBUSDT",
+  "date": "2026-09-11",
+  "generated_at": "2026-09-11T07:25:03.583259+00:00",
+  "scanner_evidence": {
+    "symbol": "CKBUSDT",
+    "pair": "CKB/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "62",
+    "score_tier": "B Watch",
+    "market_cap_rank": "425",
+    "gray_candles": "14",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "small-cap potential, small-cap high risk, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=CKBUSDT",
+    "execution_time": "2026-09-11T06:36:23.524057+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "509 assets scanned, 7 confirmed flips (1.4%). State distribution: Blue 21.6%, Gold 39.1%, Gray 23.4%, Unknown 15.9%. Strongest transition: Blue → Gold (6 of 7 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "Regulatory/legal-related coverage",
+      "General market-news coverage, reviewed for context only.",
+      "Macro/rates-related coverage"
+    ],
+    "context_generated_at": "2026-09-11T07:25:02.079605+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Price of Nervos Network (CKB) today in EUR – Quote and market trends - Bit2Me",
+      "source_name": "Bit2Me",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8tSVMzRER4blo1MFlxdURab2pRWi1xbHNycENqQjR5Q1EzWm1xdzRqTnN6alRsY2J0Z00xdEJyTlBEVVp4OTJpNnhTY2FvQzRvSGNIMQ?oc=5",
+      "published_at": "Sun, 26 Jul 2026 23:11:07 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Nervos Network (CKB) Price Prediction 2026 2027 2028 - 2040 - Changelly",
+      "source_name": "Changelly",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9HS1A1Rng3ZVRvRi1YM1E4cDJfNEVOTWlNMldkbmxudXp0SHByTlJybGVoVDlCdDlVVFdHNjJmMUp0My1UVmkza0ViLWhOUzZPTVdEaENleHhKODdob1lick92LUNjcTJmU3NDQ0JEdzI?oc=5",
+      "published_at": "Fri, 05 Dec 2025 09:21:48 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Nerrvos Network (CKB) Price Prediction 2026, 2027 – 2030: Can CKB Hit a New All-Time High? - Coinpedia",
+      "source_name": "Coinpedia",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9zYXBrVWVycEk3bTFMQjEtNHg2Qnh1c1ZvajB3dnp5ei1rRjZZS2l5TTVTYzBBcXZ0R040VzFVM2tYUGhwN0Z0NEpTWEtPSTItRXdNNS14QnJVY2MxOTRVc1B5VHFVUFVTWkd6aEt3WHNBU3NVdDROMG9lMNIBgAFBVV95cUxPYV9tamxLX1g3WWhmdVhJMWFvNUp0Y2lyLUExbWFJNk9NU3g2MEhrVTB1YWFRbmxKaE41dkdEbDV0UVNDbzZFaExxV0pXREV1Z1MzSi1Qdl9qZDNob2dhQUxIeHdOWG43YWpTMGFsNjFhWVdLb29oaE1hWVRjalRvYg?oc=5",
+      "published_at": "Thu, 23 Jul 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Nervos Network (CKB) Price Prediction 2026-2030: Can the Ambitious Token Shatter Its Previous High? - CryptoRank",
+      "source_name": "CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOcjFxZ0xMejZNdFloZ1Via1drWGpGNFJTOUU2UzVsc2RMV2dqUWlMb05uNDRCMEhtY1F4cVlKQ0JFcDVOV2FoYnZZSnBud21JbjFJTTFnOVczbnpfTkI1OUxiUVF6Z1Z5c3VKMVAwOW1EWE9yNXA3UnNfekxsanBlUWFfT1o?oc=5",
+      "published_at": "Fri, 30 Jan 2026 08:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    },
+    {
+      "title": "Nervos Network (CKB) Price Prediction 2026-2030: Can the Ambitious Token Shatter Its Previous High? - Bitget",
+      "source_name": "Bitget",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9oNmZMWWVTdUdyRzRHS0JtdGNqUnZ1bW9qdjRjUHdKcUxUNlRfb2RDYlA3NFJfME9ycE5hWGpqeWc1VWQwSE5LdjJzWjB0WHFSTE84cnhZS3hqZ09HUHfSAWNBVV95cUxOems3SF9adVo2am1HdG1oWlNGTURXRUZla1pQYzZzTnVpd0RiRndRbmJkNUlRWXNuQTRRMGpkeGQzTUtscWFyVXp2cERQbXBLSlVzT25ETTNrQlZPbmc1YlVIOU0?oc=5",
+      "published_at": "Fri, 30 Jan 2026 08:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "Nervos Network crypto",
+  "reasoning_quality": "Medium",
+  "reasoning_quality_note": "Relevant evidence found (5 direct but not fresh headline(s)), but no headline is both coin-specific and fresh. Treat this as supporting context, not confirmation.",
+  "neutral_explanation": "CKBUSDT (CKB/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 62 (tier B Watch); market-cap rank 425. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 509 assets scanned, 7 confirmed flips (1.4%). State distribution: Blue 21.6%, Gold 39.1%, Gray 23.4%, Unknown 15.9%. Strongest transition: Blue → Gold (6 of 7 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (5 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

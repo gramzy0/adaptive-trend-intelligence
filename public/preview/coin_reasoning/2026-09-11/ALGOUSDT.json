@@ -1,0 +1,85 @@
+{
+  "symbol": "ALGOUSDT",
+  "date": "2026-09-11",
+  "generated_at": "2026-09-11T07:25:03.583259+00:00",
+  "scanner_evidence": {
+    "symbol": "ALGOUSDT",
+    "pair": "ALGO/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "42",
+    "score_tier": "C Weak",
+    "market_cap_rank": "83",
+    "gray_candles": "15",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "large-cap stability, top market cap, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=ALGOUSDT",
+    "execution_time": "2026-09-11T06:36:23.524057+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "509 assets scanned, 7 confirmed flips (1.4%). State distribution: Blue 21.6%, Gold 39.1%, Gray 23.4%, Unknown 15.9%. Strongest transition: Blue → Gold (6 of 7 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "Regulatory/legal-related coverage",
+      "General market-news coverage, reviewed for context only.",
+      "Macro/rates-related coverage"
+    ],
+    "context_generated_at": "2026-09-11T07:25:02.079605+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Algorand Appoints William Herkelrath as New CEO - KuCoin",
+      "source_name": "KuCoin",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUXFUcEVrX2JuenoyUzJyMExxTlJ3ZFpUdV9OYnN0bHp4MGtNSDhGU05DMXVsakFGQjFKeGlHek1NY0FCWU5scmo5TUowazhIdlVuZmU0UDFIanY2bGpuSWQ2Z2ROSTd1LVdDeWU5SHUyelM4WlJFVU5kX1FnR2lhMV9hSzJtbEFO?oc=5",
+      "published_at": "Fri, 11 Sep 2026 03:25:47 GMT",
+      "relevance": "direct",
+      "freshness": "Today",
+      "default_visible": true
+    },
+    {
+      "title": "Algorand names former Chainlink executive William Herkelrath as CEO - CoinDesk",
+      "source_name": "CoinDesk",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZm9PLW4wRGNMWkdwQW40a05yYjNGQjYySEZ3Ny01cGV4eVJScDFVRjFHQW9NS0twTnJLMWoyNVhOS3ZaVlFvXzZfWlBIQkR1Qlh6S2p4bE1OVWZUQjBIU2lPNkU3Z1BFd3cxYkJNOTlORkE1N2dMcTV0OWJ2Tm1PS3hjUjZPNUo5T1VLREhEeXFua3RvcTRkM0NTM1JUZHFmOEF0UzVCV01uMl90R1VmSjB3?oc=5",
+      "published_at": "Wed, 09 Sep 2026 13:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "Algorand Drops 3.45% Amid Macro Shock, Leadership Change - CoinMarketCap",
+      "source_name": "CoinMarketCap",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE84RENFNGVOVDB2bC1PaEVwMzJoQmxndzJIOHRHbUpIQThHcFVDeGU3TkNUU1djRWQtTy1ZVlk0ZG9SZV9XZU9BTVdsZW91MWxOaFBKTE1xWF85blhWaVBCTWZnb3BUS09qYkZ2aUxMYXI?oc=5",
+      "published_at": "Thu, 10 Sep 2026 23:49:00 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "Why Algorand Is Back on Traders’ Radar as ALGO Presses Toward Resistance - Coinpedia",
+      "source_name": "Coinpedia",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOakZTU2psWmpMSVR5RzRxUVlYTXp4WlBoaG5wckszX0I5ZmpRRXBtVjlXa1czM04xelRfc3BxTHBfUGNLUW1MZHQ0aV9IVGhHMmlzTklCX2xKMDMyVU43OTFqWU45ZGVPYjJXenlrVHlCZkRETWtWNTZLQ0t1dmR3d081Q1lRMEMyZmdEZmZSMVhZNWR2bDFfVzhsZ3VCN1ZzMGpXNWVpbXB6TFlzVkx5R0NQWdIBswFBVV95cUxOakZTU2psWmpMSVR5RzRxUVlYTXp4WlBoaG5wckszX0I5ZmpRRXBtVjlXa1czM04xelRfc3BxTHBfUGNLUW1MZHQ0aV9IVGhHMmlzTklCX2xKMDMyVU43OTFqWU45ZGVPYjJXenlrVHlCZkRETWtWNTZLQ0t1dmR3d081Q1lRMEMyZmdEZmZSMVhZNWR2bDFfVzhsZ3VCN1ZzMGpXNWVpbXB6TFlzVkx5R0NQWQ?oc=5",
+      "published_at": "Thu, 10 Sep 2026 07:23:16 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": false
+    },
+    {
+      "title": "Ripple and Algorand progress on quantum security, full XRPL audit underway - Bitget",
+      "source_name": "Bitget",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE95UXBPWXpHNG9SbDhfaDB5TXBKbWpWVl9aWXMyTGNKZTJualhFeHVDRm45azZSTkNsR3d1QWR4blhpaWFJeUpQY1Q4OGRQRnc5a3JWSklzbFB2SXFTU0t1ZDZaMNIBY0FVX3lxTE95UXBPWXpHNG9SbDhfaDB5TXBKbWpWVl9aWXMyTGNKZTJualhFeHVDRm45azZSTkNsR3d1QWR4blhpaWFJeUpQY1Q4OGRQRnc5a3JWSklzbFB2SXFTU0t1ZDZaMA?oc=5",
+      "published_at": "Thu, 10 Sep 2026 14:23:13 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "Algorand crypto",
+  "reasoning_quality": "Strong",
+  "reasoning_quality_note": "5 direct, fresh coin-specific headline(s) found (named the coin/project and published today or within the last 7 days).",
+  "neutral_explanation": "ALGOUSDT (ALGO/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 42 (tier C Weak); market-cap rank 83. Scanner note: Valid confirmed trend flip — large-cap stability, top market cap, fresh signal. Broader crypto market context: 509 assets scanned, 7 confirmed flips (1.4%). State distribution: Blue 21.6%, Gold 39.1%, Gray 23.4%, Unknown 15.9%. Strongest transition: Blue → Gold (6 of 7 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (5 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

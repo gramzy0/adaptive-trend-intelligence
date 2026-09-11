@@ -1,0 +1,85 @@
+{
+  "symbol": "VTHOUSDT",
+  "date": "2026-09-11",
+  "generated_at": "2026-09-11T07:25:03.583259+00:00",
+  "scanner_evidence": {
+    "symbol": "VTHOUSDT",
+    "pair": "VTHO/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "67",
+    "score_tier": "A Good",
+    "market_cap_rank": "429",
+    "gray_candles": "12",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "small-cap potential, small-cap high risk, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=VTHOUSDT",
+    "execution_time": "2026-09-11T06:36:23.524057+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "509 assets scanned, 7 confirmed flips (1.4%). State distribution: Blue 21.6%, Gold 39.1%, Gray 23.4%, Unknown 15.9%. Strongest transition: Blue → Gold (6 of 7 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "Regulatory/legal-related coverage",
+      "General market-news coverage, reviewed for context only.",
+      "Macro/rates-related coverage"
+    ],
+    "context_generated_at": "2026-09-11T07:25:02.079605+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Price of VeThor (VTHO) today in EUR – Quote and market trends - Bit2Me",
+      "source_name": "Bit2Me",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5qVVkyTTJNbXFiWUxDZFl4dmpsd0RkM3hzSVI3ZW53d2h4d21admc1aTEyUnVOWkFnUWdtczBiYjFCWGdJZGlmSGN3?oc=5",
+      "published_at": "Tue, 28 Jul 2026 06:08:20 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "VeThor Price: VTHO Price Index and Live Chart - The Block",
+      "source_name": "The Block",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBEZUlqUkl2cF9wcmc3UFplaDkzOXVZbTlGelNIRmY1MzUwN3ZhMmNVOTF4VEJGN3B1WHF3em1ZV3lYOEpjVXVxdU9FT3Q?oc=5",
+      "published_at": "Thu, 13 Aug 2026 02:37:16 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "100 VTHO to USD: Convert VeThor Token (VTHO) to US Dollars (USD) - Revolut",
+      "source_name": "Revolut",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAwdzJ1OW9LRzRyb2xjbnRkSDdjUlhmcGZKWFJuemhBN3FlOTZoQV9LblFySngySFM3MDExOFlSS3RoUmkyYjhodGZ1am9RUGRVZmdHaEVFcXF5YU5ra2JDdGdnaVYzcWNsOUdTTg?oc=5",
+      "published_at": "Thu, 13 Nov 2025 23:55:08 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "VTHO Price Prediction: Can VeThor Token Reach $10? - stealthex.io",
+      "source_name": "stealthex.io",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1yMUpocjlNamQ0bDlGUGU5aTQtdkdoeE1FX1NiLVRIUXJSbWJaQUVGYjRGVFZuMmltenNqMjZjdjNsU0pfNTBuTUVoRHdzNktkOXY0RjlEbVZjVC1VT1gxTmw0LUJhR0R2NEgxWUN3?oc=5",
+      "published_at": "Tue, 15 Apr 2025 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    },
+    {
+      "title": "VeChain Review 2026: Why VET has Potential! - coinbureau.com",
+      "source_name": "coinbureau.com",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE52MjRNNGJrTXg5NFRnb19BOXBPTUxkT0ROYUx6WTRnX29ZamxncFVaSGdRYnRkSERvMFhudWZyUGpqRy1hQzd4U0RNcFRobjhUQnNmQ2otYw?oc=5",
+      "published_at": "Tue, 13 Jan 2026 08:00:00 GMT",
+      "relevance": "unrelated",
+      "freshness": "Old",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "VeThor crypto",
+  "reasoning_quality": "Medium",
+  "reasoning_quality_note": "Relevant evidence found (4 direct but not fresh headline(s)), but no headline is both coin-specific and fresh. Treat this as supporting context, not confirmation.",
+  "neutral_explanation": "VTHOUSDT (VTHO/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 67 (tier A Good); market-cap rank 429. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 509 assets scanned, 7 confirmed flips (1.4%). State distribution: Blue 21.6%, Gold 39.1%, Gray 23.4%, Unknown 15.9%. Strongest transition: Blue → Gold (6 of 7 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (4 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

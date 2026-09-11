@@ -1,60 +1,62 @@
 {
   "market": "stocks",
-  "generated_at": "2026-09-10T07:25:01.341932+00:00",
-  "scanner_summary": "50 assets scanned, 0 confirmed flips (0.0%). State distribution: Blue 14.0%, Gold 76.0%, Gray 10.0%, Unknown 0.0%. Source: data/output/stocks_weekly_results.json, last modified 2026-06-13 (88 days ago). Stale-data warning: source file is more than 30 days old.",
+  "generated_at": "2026-09-11T07:25:02.079605+00:00",
+  "scanner_summary": "50 assets scanned, 0 confirmed flips (0.0%). State distribution: Blue 14.0%, Gold 76.0%, Gray 10.0%, Unknown 0.0%. Source: data/output/stocks_weekly_results.json, last modified 2026-06-13 (89 days ago). Stale-data warning: source file is more than 30 days old.",
   "possible_drivers": [
     "Locally observed scanner state distribution and flip activity (see scanner_summary).",
-    "General market-news coverage, reviewed for context only."
+    "General market-news coverage, reviewed for context only.",
+    "Macro/rates-related coverage",
+    "Earnings/guidance-related coverage"
   ],
   "uncertainty_note": "Automatically collected from public RSS headlines and local scanner output. Headlines are cited, not verified for accuracy or causal connection to price movement. This is not investment advice and does not contain buy, sell, hold, or execution guidance. Human review is required before treating anything here as reliable market context.",
   "sources": [
     {
-      "title": "Bessent’s ‘Fever’-Quelling Debt Buybacks Put Wall Street on Edge",
+      "title": "Why Comcast Stock Is One of the Worst Performers in the S&P 500 Today",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/economy/policy/articles/bessent-fever-quelling-debt-buybacks-191726899.html",
-      "published_at": "2026-09-08T19:17:26Z",
+      "url": "https://www.barrons.com/articles/comcast-stock-charter-communications-s-p-500-48ede73b?siteid=yhoof2&yptr=yahoo",
+      "published_at": "2026-09-09T19:24:00Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Here's what to do if your bank account application was denied",
+      "title": "What is the average personal loan rate for September 2026?",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/personal-finance/banking/article/denied-bank-account-204942472.html",
-      "published_at": "2024-09-19T20:49:42Z",
+      "url": "https://finance.yahoo.com/markets/articles/average-personal-loan-interest-rate-005856676.html",
+      "published_at": "2026-09-09T19:32:23Z",
+      "note": "Macro/rates-related coverage"
+    },
+    {
+      "title": "Ahead of Oracle Earnings, Here's What Barchart Data Says Comes Next for ORCL Stock",
+      "source_name": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ahead-oracle-earnings-heres-barchart-193333317.html",
+      "published_at": "2026-09-09T19:33:33Z",
+      "note": "Earnings/guidance-related coverage"
+    },
+    {
+      "title": "Dollar Recovers on Smaller Treasury Buyback and Higher T-Note Yields",
+      "source_name": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/currencies/articles/dollar-recovers-smaller-treasury-buyback-194038439.html",
+      "published_at": "2026-09-09T19:40:38Z",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Nike shareholders reject climate proposal backed by Norway wealth fund",
+      "title": "What Comes Next for NetApp (NTAP) After Enhanced Product Strategy and Record Earnings",
       "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/nike-shareholders-reject-climate-proposal-192359253.html",
-      "published_at": "2026-09-08T19:25:43Z",
-      "note": "General market-news coverage, reviewed for context only."
+      "url": "https://finance.yahoo.com/markets/stocks/articles/comes-next-netapp-ntap-enhanced-194855844.html",
+      "published_at": "2026-09-09T19:48:55Z",
+      "note": "Earnings/guidance-related coverage"
     },
     {
-      "title": "$604M CH Robinson Verdict Still Isn’t Final Yet",
-      "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/small-business/articles/604m-ch-robinson-verdict-still-192955477.html",
-      "published_at": "2026-09-08T19:29:55Z",
-      "note": "General market-news coverage, reviewed for context only."
-    },
-    {
-      "title": "Ink Business Premier Credit Card review: Generous welcome bonus and free employee cards",
-      "source_name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/personal-finance/credit-cards/review/ink-business-premier-credit-card-review-223741901.html",
-      "published_at": "2024-10-22T22:37:41Z",
-      "note": "General market-news coverage, reviewed for context only."
-    },
-    {
-      "title": "Trump promises $5,000 checks if Republicans win the midterms. He also teased tariff and ‘DOGE’ dividends last year that never came.",
+      "title": "Traditional portfolio diversification isn’t cutting it anymore. Here’s where to pivot, says this $624 billion fund manager.",
       "source_name": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/trump-promises-5-000-checks-if-republicans-win-the-midterms-but-he-also-promised-tariff-dividends-last-year-that-never-came-d062c602?mod=mw_rss_topstories",
-      "published_at": "Thu, 10 Sep 2026 03:00:00 GMT",
+      "url": "https://www.marketwatch.com/story/traditional-portfolio-diversification-isnt-cutting-it-anymore-heres-where-to-pivot-says-this-624-billion-fund-manager-0b552566?mod=mw_rss_topstories",
+      "published_at": "Fri, 11 Sep 2026 07:19:00 GMT",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Hunter Biden memecoin $LAPTOP loses 95% of market value just hours after launch",
+      "title": "Oracle’s AI bet pays off as cloud momentum helps drive a rosier forecast",
       "source_name": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/hunter-bidens-memecoin-flops-falling-95-just-hours-after-launch-3e9307d0?mod=mw_rss_topstories",
-      "published_at": "Thu, 10 Sep 2026 02:04:00 GMT",
+      "url": "https://www.marketwatch.com/story/oracles-ai-bet-pays-off-as-cloud-momentum-helps-drive-a-rosier-forecast-cc41a4aa?mod=mw_rss_topstories",
+      "published_at": "Fri, 11 Sep 2026 00:19:00 GMT",
       "note": "General market-news coverage, reviewed for context only."
     }
   ]

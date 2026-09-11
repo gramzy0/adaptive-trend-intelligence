@@ -1,62 +1,63 @@
 {
   "market": "crypto",
-  "generated_at": "2026-09-10T07:25:01.341932+00:00",
-  "scanner_summary": "506 assets scanned, 9 confirmed flips (1.8%). State distribution: Blue 21.7%, Gold 38.3%, Gray 24.3%, Unknown 15.6%. Strongest transition: Blue → Gold (9 of 9 flips). Source: reports/private_crypto_dashboard.csv.",
+  "generated_at": "2026-09-11T07:25:02.079605+00:00",
+  "scanner_summary": "509 assets scanned, 7 confirmed flips (1.4%). State distribution: Blue 21.6%, Gold 39.1%, Gray 23.4%, Unknown 15.9%. Strongest transition: Blue → Gold (6 of 7 flips). Source: reports/private_crypto_dashboard.csv.",
   "possible_drivers": [
     "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+    "Regulatory/legal-related coverage",
     "General market-news coverage, reviewed for context only.",
-    "Security-incident-related coverage"
+    "Macro/rates-related coverage"
   ],
   "uncertainty_note": "Automatically collected from public RSS headlines and local scanner output. Headlines are cited, not verified for accuracy or causal connection to price movement. This is not investment advice and does not contain buy, sell, hold, or execution guidance. Human review is required before treating anything here as reliable market context.",
   "sources": [
     {
-      "title": "Hunter Biden’s LAPTOP blames bots after 98% crash as traders rack up six-figure losses",
+      "title": "Kalshi wants 24/7 Tesla and Nvidia perps as Wall Street fights over who regulates them",
       "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/09/10/hunter-biden-s-laptop-blames-bots-after-98-crash-as-traders-rack-up-six-figure-losses",
-      "published_at": "Thu, 10 Sep 2026 06:13:45 +0000",
+      "url": "https://www.coindesk.com/markets/2026/09/11/kalshi-wants-24-7-tesla-and-nvidia-perps-as-wall-street-fights-over-who-regulates-them",
+      "published_at": "Fri, 11 Sep 2026 06:17:31 +0000",
+      "note": "Regulatory/legal-related coverage"
+    },
+    {
+      "title": "India starts tokenizing $620 billion corporate bond market with digital rupee settlement",
+      "source_name": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/09/11/india-starts-tokenizing-usd620-billion-corporate-bond-market-with-digital-rupee-settlement",
+      "published_at": "Fri, 11 Sep 2026 05:13:15 +0000",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Dogecoin sinks 5% to lead majors losses, with bitcoin holding $78,000 level",
+      "title": "Bitcoin below $77,000, Zcash leads losses as traders bet on a Fed rate hike",
       "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/09/10/dogecoin-sinks-5-to-lead-majors-losses-with-bitcoin-holding-usd78-000-level",
-      "published_at": "Thu, 10 Sep 2026 05:30:15 +0000",
+      "url": "https://www.coindesk.com/markets/2026/09/11/bitcoin-below-usd77-000-zcash-leads-losses-as-traders-bet-on-a-fed-rate-hike",
+      "published_at": "Fri, 11 Sep 2026 04:46:15 +0000",
+      "note": "Macro/rates-related coverage"
+    },
+    {
+      "title": "Ripple puts AI agents inside its $1 billion corporate treasury bet",
+      "source_name": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/09/11/ripple-puts-ai-agents-inside-its-usd1-billion-corporate-treasury-bet",
+      "published_at": "Fri, 11 Sep 2026 04:25:21 +0000",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Crypto wins regardless of Clarity Act vote, Coinbase's Armstrong says",
+      "title": "New Clarity Act text tweaks DeFi, credit union provisions, but road ahead for bill remains murky",
       "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/09/10/crypto-wins-regardless-of-clarity-act-vote-coinbase-s-armstrong-says",
-      "published_at": "Thu, 10 Sep 2026 05:05:41 +0000",
-      "note": "General market-news coverage, reviewed for context only."
-    },
-    {
-      "title": "Robinhood CEO Vlad Tenev fires back at AMC's Aron in escalating fight over stock tokens",
-      "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/09/09/robinhood-s-ceo-vlad-tenev-defends-stock-tokens-in-escalating-fight-with-amc-ceo",
-      "published_at": "Wed, 09 Sep 2026 16:11:07 +0000",
-      "note": "General market-news coverage, reviewed for context only."
-    },
-    {
-      "title": "U.S. Treasury sanctions another widespread cyber-scam hub, Xinbi Guarantee",
-      "source_name": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/09/09/u-s-treasury-sanctions-another-widespread-cyber-scam-hub-xinbi-guarantee",
-      "published_at": "Wed, 09 Sep 2026 16:05:11 +0000",
+      "url": "https://www.coindesk.com/policy/2026/09/10/new-clarity-act-text-tweaks-defi-credit-union-provisions-but-road-ahead-for-bill-remains-murky",
+      "published_at": "Thu, 10 Sep 2026 20:21:57 +0000",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
       "title": "Here’s what happened in crypto today",
       "source_name": "CoinTelegraph",
       "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "Thu, 10 Sep 2026 05:59:21 +0000",
+      "published_at": "Fri, 11 Sep 2026 06:14:41 +0000",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Trezor, BitBox warn users about fake hardware wallet security alerts",
+      "title": "Revised CLARITY Act targets ‘non-decentralized’ DeFi operators",
       "source_name": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/trezor-bitbox-hardware-wallet-phishing-emails?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "Thu, 10 Sep 2026 05:34:21 +0000",
-      "note": "Security-incident-related coverage"
+      "url": "https://cointelegraph.com/news/revised-clarity-act-targets-non-decentralized-defi-operators?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "Fri, 11 Sep 2026 06:08:26 +0000",
+      "note": "General market-news coverage, reviewed for context only."
     }
   ]
 }

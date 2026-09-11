@@ -1,0 +1,85 @@
+{
+  "symbol": "SPKUSDT",
+  "date": "2026-09-11",
+  "generated_at": "2026-09-11T07:25:03.583259+00:00",
+  "scanner_evidence": {
+    "symbol": "SPKUSDT",
+    "pair": "SPK/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "62",
+    "score_tier": "B Watch",
+    "market_cap_rank": "393",
+    "gray_candles": "13",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "small-cap potential, small-cap high risk, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=SPKUSDT",
+    "execution_time": "2026-09-11T06:36:23.524057+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "509 assets scanned, 7 confirmed flips (1.4%). State distribution: Blue 21.6%, Gold 39.1%, Gray 23.4%, Unknown 15.9%. Strongest transition: Blue → Gold (6 of 7 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "Regulatory/legal-related coverage",
+      "General market-news coverage, reviewed for context only.",
+      "Macro/rates-related coverage"
+    ],
+    "context_generated_at": "2026-09-11T07:25:02.079605+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Memecoin degens are providing the spark for Wall Street to turn stock tokens into real capital - CryptoSlate",
+      "source_name": "CryptoSlate",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQbG9oMU0xMHBLQkZBREhiZnJmdXNBQlRLZTUxUFlxOU1pSHNZZVRsM1dtYndOM21Ib2h1NGJVV3EwZUk1ejl4OFQ1X1JvaERBMmh0ajFrVWhRTFQtdWhHYVdWeEVnNXdwNEUyRnhUU3lPRkhDcF9GS2lVTXM4azlveWh4cExmMFRLVzJXTTdDcFk0SWQ3THdkTzJkd0pZRmVBd0tTZzR6dWgwXzdSSDZBUmZxdy03ZTgzRlV3?oc=5",
+      "published_at": "Thu, 10 Sep 2026 11:50:27 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "Coinglass's Data Spark Binance's Latest Defense Against Outflow FUD - yellow.com",
+      "source_name": "yellow.com",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOYUxZd3RnZkVFNm81MjRuald6ZGNDQ0F3X1ZkYnJfWkIyQk1mVmF6dnlGZkFzbXpUazNZdkU5Nm5remtrZWU4OHU2Nl9DdDY4Q0NNbFdpMXZ1cXlWQkNHcnpCUWVfUndDbC1JemIyVC1ZMkpIelhsM1R5NDBobnNZNlJLaGtITmkzTFBhRUJFNTlKR01DUE9ieVJuRTNQM3VWQ0dDdURNMlhpajYwSjc3N2JR?oc=5",
+      "published_at": "Thu, 10 Sep 2026 18:10:36 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "SEC’s proposed crypto rules probably won’t spark new ICO boom - Winston Taylor",
+      "source_name": "Winston Taylor",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQQjdUNE96alRWMXpZSGVKS2kxQmdUQWRhVkpDckYtNWdfUkJ6TmxkZnduYWtUc1VJdXhFczJ6U1FyVnpKQ01zekRvWFR4ak1aZ2NqclVfc3Z3OWtVYk5JWmdJdS1WbTNUV3EtcnYxaXhzQ1J3c3ZaWjdFOWtsaHVWNEh5VGR4WEtieEY4RW5pekNla1lia0l5LXZSeF9tRkltd2c?oc=5",
+      "published_at": "Fri, 04 Sep 2026 17:43:01 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "FalconX Credit Vault Data Feeds Spark Conflicting Reports on Size and Chain Coverage - finance.biggo.com",
+      "source_name": "finance.biggo.com",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4xU0NBdENtenhIa3pOVGI1aUpBeml6OGhmYzd2ZGdYSzEtQUhxOGpYbDZPWlNWb19ILXhIbzhabGJkSUpwMzlkd29kUVNRUUV0OTEzUHBZN2FTNkxURGU2b0tEXzZ4MjZETGcyTy1RSlU0dTZ1NFE?oc=5",
+      "published_at": "Thu, 10 Sep 2026 18:37:00 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": false
+    },
+    {
+      "title": "XRP Price Prediction: Ledger Fix and $1.50 Test Spark a Big Week While Pepeto’s Bridge Runs Live - techbullion.com",
+      "source_name": "techbullion.com",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZ1M0cUNjOGNhNzZERUFYdkpjNGJUQUJpQTlVcGlUNFdkMnJxenQtazNFTmFsRVRMV3BJUGpYbzlvUGFmVUo5TUxFMkRtVk1rWlM2Y1hTLXJWNUVhemhKNWg1SU1WX1VrY3FucEpGZjRveElaMkNuTWZSRldxQ0htQXpTRlpqOE1zNUIyMlNXMVowdGZXQ2ozOHFaaFRZMzFhOXpqeGQ0aGJVVHRtMlBMSlUxektZbFF5Rnc?oc=5",
+      "published_at": "Thu, 10 Sep 2026 17:06:42 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "Spark crypto",
+  "reasoning_quality": "Strong",
+  "reasoning_quality_note": "5 direct, fresh coin-specific headline(s) found (named the coin/project and published today or within the last 7 days).",
+  "neutral_explanation": "SPKUSDT (SPK/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 62 (tier B Watch); market-cap rank 393. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 509 assets scanned, 7 confirmed flips (1.4%). State distribution: Blue 21.6%, Gold 39.1%, Gray 23.4%, Unknown 15.9%. Strongest transition: Blue → Gold (6 of 7 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (5 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

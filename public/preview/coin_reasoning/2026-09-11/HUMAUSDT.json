@@ -1,0 +1,85 @@
+{
+  "symbol": "HUMAUSDT",
+  "date": "2026-09-11",
+  "generated_at": "2026-09-11T07:25:03.583259+00:00",
+  "scanner_evidence": {
+    "symbol": "HUMAUSDT",
+    "pair": "HUMA/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "74",
+    "score_tier": "A Good",
+    "market_cap_rank": "563",
+    "gray_candles": "6",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "small-cap potential, small-cap high risk, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=HUMAUSDT",
+    "execution_time": "2026-09-11T06:36:23.524057+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "509 assets scanned, 7 confirmed flips (1.4%). State distribution: Blue 21.6%, Gold 39.1%, Gray 23.4%, Unknown 15.9%. Strongest transition: Blue → Gold (6 of 7 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "Regulatory/legal-related coverage",
+      "General market-news coverage, reviewed for context only.",
+      "Macro/rates-related coverage"
+    ],
+    "context_generated_at": "2026-09-11T07:25:02.079605+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "What Is Huma Finance (HUMA)? - Binance",
+      "source_name": "Binance",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5wTS10VGNLYzZzd1JxT3R3TDhuT2psc0k3ejhBTTJTT0ZoNnBsV1pHX3VLRmRSb213SkFDVUxCZ2ZXdVpsOE92Wm9EMXpKbjJpM1dMNjhvcUszWk1PdklJczZXMm51YlJ4cFNUT0pyeklxcVBRRUp5VA?oc=5",
+      "published_at": "Thu, 28 May 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Huma Finance Partners With Obligate Unlocking $4.5 Trillion Trade Market for DeFi Users - yellow.com",
+      "source_name": "yellow.com",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPVFJpT3cxazl0MS1UZS1IQkxSRFpkNUl1Wml1cWktcFo4VEFHUVVGcEYtRE9Fb3hVbW1QRi1YZEZFNVZ0cWZ5aG9CSmY1UEVUSUZURndZdWpRa0k0bzZqZ0huTkRDcHlPOFNpNENObEd5am1GSXFVMzR4aFdDM3czb1lJVmtuaGxkVmRZTGJFUENXX1BxSnhoenBtMmRQYnNZSGJQMTZad0tkckxrd2lrcl92akZjWHQtWEZ0bW4wVlplQQ?oc=5",
+      "published_at": "Fri, 14 Aug 2026 23:02:55 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Qiro Partners with Huma Finance to Underwrite Up to $250M in Tokenized Private Credit - Decrypt",
+      "source_name": "Decrypt",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOOW9Bck9DYlpsb0hwUUdhbTItNXVxaW5BWDJqNXRQbXZxdGVqdk1mUTRqVFJOdFFyVmdSdWc1TjRXOS1YR2pUTmNQUXdoejdsZi1MQm9SNUx6enBjc0s5OTdzVWVNQWYtcndhU09lZ2pZOWt0Q2lxaXp3NGstLWVmWGVybVFRaHZWb0d6YVFYbXVmWDNCX1ppTjd3TkI5MkRnbFkyXzBDeGpoRnFCY1Fz0gG3AUFVX3lxTE1sN1dPMHBoV0tmTWFGMExfSGZjYU5kNUVieDF0YXdTWDE4eXljS1JqZnNyQmpnSHJIdXdfV0lldXZEeDg1dE9nSlA3dTI3YXFMREVxVHcxVTBOYU5JcFhOZzhqVkwxLW9DRDVSM1dKN2FDYVpmdnlieDRmWFpOdC13UF90UzZTRllEbWliTGtjN0wyTFZIRUN4T3Y2SVI2aHBYQS1kMmRRWTJkOXAtejV2QlNfNng3dw?oc=5",
+      "published_at": "Tue, 27 Jan 2026 08:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Token Unlocks This Week: What HUMA, H, XPL, and KMNO Holders Should Expect - CryptoRank",
+      "source_name": "CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNRVE4R3NMc3ZhWWpiV1huVVNHZFQ5Vnd2UWRTR3FWUmtXeXR1X3U3eldLV0RiNE1zUUdBd3FPdVdQck9ueVhZd1JOeHU2enc3Ui1hWjc1UDNkbmNKeGpGLWJrQ05SZ0ctQmlDRHNweFRqZURLNHRvTFBMNjR1WkJkU2Rsd1g0LXdXQlZtX29nREdTdktoT04yc2F2UlRxT0VLN1E2WHFKcjVUN2tw?oc=5",
+      "published_at": "Mon, 24 Aug 2026 13:16:17 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    },
+    {
+      "title": "Huma Finance exploit Polygon drains ~$101,000 from legacy V1 pool contracts - The Cryptonomist",
+      "source_name": "The Cryptonomist",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE51Y1V3Q0lnZTZlOEYwanIwQWVKT2xVMWVueWc5V3E5QXJNaWQ2Y2J1cks3bGpkOWp6R2RZS3pTSGRSTHhWRldVYlh1Qjdac1JHVzdlc01zd2hIU01yaFZ6ZzQzTkpVVjRoZkFvczBJeHEwZFZ6Q2ZJRXRn?oc=5",
+      "published_at": "Tue, 12 May 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "Huma Finance crypto",
+  "reasoning_quality": "Medium",
+  "reasoning_quality_note": "Relevant evidence found (5 direct but not fresh headline(s)), but no headline is both coin-specific and fresh. Treat this as supporting context, not confirmation.",
+  "neutral_explanation": "HUMAUSDT (HUMA/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 74 (tier A Good); market-cap rank 563. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 509 assets scanned, 7 confirmed flips (1.4%). State distribution: Blue 21.6%, Gold 39.1%, Gray 23.4%, Unknown 15.9%. Strongest transition: Blue → Gold (6 of 7 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (5 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

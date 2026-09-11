@@ -1,0 +1,85 @@
+{
+  "symbol": "METISUSDT",
+  "date": "2026-09-11",
+  "generated_at": "2026-09-11T07:25:03.583259+00:00",
+  "scanner_evidence": {
+    "symbol": "METISUSDT",
+    "pair": "METIS/USDT",
+    "current_state": "Gold",
+    "previous_state": "Blue",
+    "flip_direction": "Blue → Gold (Bullish)",
+    "score": "62",
+    "score_tier": "B Watch",
+    "market_cap_rank": "767",
+    "gray_candles": "9",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "small-cap potential, small-cap high risk, fresh signal",
+    "signal": "Confirmed Blue → Gray → Gold → Gold",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=METISUSDT",
+    "execution_time": "2026-09-11T06:36:23.524057+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "509 assets scanned, 7 confirmed flips (1.4%). State distribution: Blue 21.6%, Gold 39.1%, Gray 23.4%, Unknown 15.9%. Strongest transition: Blue → Gold (6 of 7 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "Regulatory/legal-related coverage",
+      "General market-news coverage, reviewed for context only.",
+      "Macro/rates-related coverage"
+    ],
+    "context_generated_at": "2026-09-11T07:25:02.079605+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Top Metis Ecosystem Tokens by Market Cap: Live Prices & Trends | MEXC - MEXC",
+      "source_name": "MEXC",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBtMnUwbzFBNXNENjhFLUJlOEp6M1lqYzFoenVCT3RoQmhyTnF5UDlKSFJ6empNanJQQm5mcjhXakZrc3dBSHF4Z2prdG4tVXpqa3EwSTZsWWFLaEJJRXRVMk1Sa1M1TTZu?oc=5",
+      "published_at": "Fri, 04 Sep 2026 07:51:20 GMT",
+      "relevance": "direct",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "Metis - The Block",
+      "source_name": "The Block",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE8zcU0wdW8wNEM2ZTAtbGNVcElyNVV0Q3hNalM5ZGhTdVJlTGJ4eG1GbVhqS2hUdkFsWHdfdEcyWEQ4c1pQYjFJUWJYdw?oc=5",
+      "published_at": "Mon, 31 Aug 2026 05:37:38 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Metis Launched OpenClaw Summer Builder Bootcamp 2026 on June 29th - TradingView",
+      "source_name": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUE5MWUtNeGNhS0pyaUh4NS1HbTh2WWtZM2l3VE53ZjZhZi1ONVlOZ09FUmRzY1Fha2VGa1BFSGljRThpZm5jRTdaMEdNQUpfWjh3eERKRWM3Z0NUSVVQcWtVWDNNYmdYQUp0eHhDZVkwaXZTYnlCLW5rSVF2dWViUmVQTFYyQ1JSRGotQTA0aXF0alNDM1lXYTR3djRIZmpBZUpCMTZVNnZicHl0bzc5OGtoLWw2MWx2TkxnNXl2SU0?oc=5",
+      "published_at": "Mon, 29 Jun 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Price of MetisDao (METIS) today in EUR – Quote and market trends - Bit2Me",
+      "source_name": "Bit2Me",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFA4eko5eTdHSWJlbVF2T21welNUTXFqSl9EeDFBSE5xeU9XdmpMR0pzQWxIZFJsNHY4ZUJDZ0dvR18ySmlfNWcyTmR4cVFhUQ?oc=5",
+      "published_at": "Thu, 23 Jul 2026 08:42:35 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": false
+    },
+    {
+      "title": "SEC announces settled order against Francis Decker for failures related to FTX audit - FX News Group",
+      "source_name": "FX News Group",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPSkhpVnFvOUFiSEFGLWFCb0h1T1V3eE1EbzJUSHdjR3Y1eVVMMmhWSF9fb2plbTJzNGFudnRtR1JvNk5vWWJ1Q1AwWGtLeEFKd3R0U2luUFRyMWpkM1FTZlFST0dnQzh0U3MzTEhRdU82LVI3MFdsWnhjbndOV0EtUXVyTVgxbWxQWGpJcm5TQk5wMi0yTEcwT0w5OUxQU25OeGxMdTI5QlRKRVdBYW1HeDVZbmZPeWQ2RjNldG1naFJpdHA0SUxTY0N1Z2pLV2dn?oc=5",
+      "published_at": "Thu, 09 Apr 2026 07:00:00 GMT",
+      "relevance": "market_context",
+      "freshness": "Old",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "Metis crypto",
+  "reasoning_quality": "Strong",
+  "reasoning_quality_note": "1 direct, fresh coin-specific headline(s) found (named the coin/project and published today or within the last 7 days).",
+  "neutral_explanation": "METISUSDT (METIS/USDT) recorded a confirmed state flip: Blue → Gold (Bullish). Scanner score 62 (tier B Watch); market-cap rank 767. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 509 assets scanned, 7 confirmed flips (1.4%). State distribution: Blue 21.6%, Gold 39.1%, Gray 23.4%, Unknown 15.9%. Strongest transition: Blue → Gold (6 of 7 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (4 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}

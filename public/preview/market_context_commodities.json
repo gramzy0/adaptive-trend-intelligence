@@ -1,6 +1,6 @@
 {
   "market": "commodities",
-  "generated_at": "2026-09-10T07:25:01.341932+00:00",
+  "generated_at": "2026-09-11T07:25:02.079605+00:00",
   "scanner_summary": "No commodity scanner data available in data/output; no asset count, flip count, or state distribution can be computed locally.",
   "possible_drivers": [
     "General market-news coverage, reviewed for context only."
@@ -8,38 +8,38 @@
   "uncertainty_note": "Automatically collected from public RSS headlines and local scanner output. Headlines are cited, not verified for accuracy or causal connection to price movement. This is not investment advice and does not contain buy, sell, hold, or execution guidance. Human review is required before treating anything here as reliable market context.",
   "sources": [
     {
-      "title": "Australia Softens Gas Reservation Rule for LNG Exporters",
+      "title": "U.S. Diesel Prices Top $6 a Gallon for First Time Ever",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Australia-Softens-Gas-Reservation-Rule-for-LNG-Exporters.html",
-      "published_at": "Thu, 10 Sep 2026 02:00:00 -0500",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Diesel-Prices-Top-6-a-Gallon-for-First-Time-Ever.html",
+      "published_at": "Fri, 11 Sep 2026 01:30:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Oil Holds Above $100 as U.S.-Iran Tanker War Escalates",
+      "title": "Oil Prices Surge to Four-Month Highs as War Risks Mount",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Holds-Above-100-as-US-Iran-Tanker-War-Escalates.html",
-      "published_at": "Thu, 10 Sep 2026 00:35:00 -0500",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Surge-to-Four-Month-Highs-as-War-Risks-Mount.html",
+      "published_at": "Fri, 11 Sep 2026 00:30:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Oil Breaks $100—and This Rally Has Legs",
+      "title": "AI Boom to Boost Southeast Asia’s LNG Demand",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Energy/Crude-Oil/Oil-Breaks-100and-This-Rally-Has-Legs.html",
-      "published_at": "Wed, 09 Sep 2026 19:00:00 -0500",
+      "url": "https://oilprice.com/Energy/Natural-Gas/AI-Boom-to-Boost-Southeast-Asias-LNG-Demand.html",
+      "published_at": "Thu, 10 Sep 2026 19:00:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "Canadian Oil Pushes Deeper Into U.S. Gulf Coast Market",
+      "title": "Why The United States’ Belated Critical Minerals Gambit Won’t Stop China",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Energy/Crude-Oil/Canadian-Oil-Pushes-Deeper-Into-US-Gulf-Coast-Market.html",
-      "published_at": "Wed, 09 Sep 2026 18:00:00 -0500",
+      "url": "https://oilprice.com/Metals/Commodities/Why-The-United-States-Belated-Critical-Minerals-Gambit-Wont-Stop-China.html",
+      "published_at": "Thu, 10 Sep 2026 18:00:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {
-      "title": "The Commodity Bull Market Just Entered a Dangerous New Phase",
+      "title": "Higher Oil Prices Let Mexico Pull Back Billions in Pemex Support",
       "source_name": "OilPrice.com",
-      "url": "https://oilprice.com/Energy/Energy-General/The-Commodity-Bull-Market-Just-Entered-a-Dangerous-New-Phase.html",
-      "published_at": "Wed, 09 Sep 2026 17:00:00 -0500",
+      "url": "https://oilprice.com/Energy/Energy-General/Higher-Oil-Prices-Let-Mexico-Pull-Back-Billions-in-Pemex-Support.html",
+      "published_at": "Thu, 10 Sep 2026 17:00:00 -0500",
       "note": "General market-news coverage, reviewed for context only."
     },
     {

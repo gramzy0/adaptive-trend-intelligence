@@ -1,0 +1,85 @@
+{
+  "symbol": "DODOUSDT",
+  "date": "2026-09-11",
+  "generated_at": "2026-09-11T07:25:03.583259+00:00",
+  "scanner_evidence": {
+    "symbol": "DODOUSDT",
+    "pair": "DODO/USDT",
+    "current_state": "Blue",
+    "previous_state": "Gold",
+    "flip_direction": "Gold → Blue (Bearish)",
+    "score": "65",
+    "score_tier": "A Good",
+    "market_cap_rank": "903",
+    "gray_candles": "8",
+    "current_color_age": "2",
+    "reason": "Valid confirmed trend flip",
+    "reasoning": "small-cap potential, small-cap high risk, fresh signal",
+    "signal": "Confirmed Gold → Gray → Blue → Blue",
+    "tradingview_link": "https://www.tradingview.com/chart/?symbol=DODOUSDT",
+    "execution_time": "2026-09-11T06:36:23.524057+03:00"
+  },
+  "market_context_snapshot": {
+    "available": true,
+    "scanner_summary": "509 assets scanned, 7 confirmed flips (1.4%). State distribution: Blue 21.6%, Gold 39.1%, Gray 23.4%, Unknown 15.9%. Strongest transition: Blue → Gold (6 of 7 flips). Source: reports/private_crypto_dashboard.csv.",
+    "possible_drivers": [
+      "Locally observed scanner state distribution and flip activity (see scanner_summary).",
+      "Regulatory/legal-related coverage",
+      "General market-news coverage, reviewed for context only.",
+      "Macro/rates-related coverage"
+    ],
+    "context_generated_at": "2026-09-11T07:25:02.079605+00:00"
+  },
+  "coin_specific_headlines": [
+    {
+      "title": "Dodo (DODO) Price Prediction: Daily & Weekly 2026-2040 - CoinDCX",
+      "source_name": "CoinDCX",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9aNGxkWE8yN1h0QWV3VnNVY0Q1cFA4aUZSTGp5Y3lGVFNYNVBYSWFKNnpNNG0xeW5zYS1UNzVPUGdyYXJtLXFBUkNzMWhTc084dkUtZ1Y4cl92VzJMNVYyRVdIY2U?oc=5",
+      "published_at": "Mon, 13 Jul 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Binance to extend monitoring tag to ALCX, COOKIE, DODO, EPIC, HEI, HFT, STORJ, SYN & TLM - FX News Group",
+      "source_name": "FX News Group",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOdWNvamlrc184ZlhrU1RlVlNOb2NmUEpsWjhxMl9UdTBiekhrbEdOVTNhLWczdWVMNWZfSjZGYVlxQzJkZERFUS1JcmVhdFhVNHctTFVDdUU5ZWVxRl9keWZYNEc5U1M3Z0JKREZqM1BEVktpOU1LTmhDVWY2VFlSTEs2aGM3S2FBc1pxSWhBbEZmZ0JBa3QyYmtIazIxUTN4WFFOQm5vS3BOU2ZwN0JNOXBCOENmNndIclp4VDJMX1hlc1JZTENzUTRB?oc=5",
+      "published_at": "Fri, 22 May 2026 07:00:00 GMT",
+      "relevance": "direct",
+      "freshness": "Old",
+      "default_visible": true
+    },
+    {
+      "title": "Crypto -Insight(@raiyaseen)'s insights - Binance",
+      "source_name": "Binance",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1EVkJmcHJPT09WeTBVMGh1elFlNnhQbUE5RUFkUzd2TUZPZVNnUWEtajU4Ti1NVE9DalBlTXMyaE03ZVhDaDUtaEQ3MTZvc0NWWTlwVkJuQ2dIeUE3eXE2S1NpaHQ?oc=5",
+      "published_at": "Thu, 10 Sep 2026 09:55:48 GMT",
+      "relevance": "unrelated",
+      "freshness": "Recent",
+      "default_visible": true
+    },
+    {
+      "title": "Crypto_Trade_Master(@raialtaf)'s insights - Binance",
+      "source_name": "Binance",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBtSVZuZGxpMHFqa2JqTEVFTDd6ckJ0QkM0M1loRjZRVWdhMnJab1dUZkpUXzFwalBVVmtObktReHdiaTN5QVFNcG40Nk1iV21ra0I5OXFpNF9TbDJOdzNldHVnVk8?oc=5",
+      "published_at": "Thu, 10 Sep 2026 09:34:10 GMT",
+      "relevance": "unrelated",
+      "freshness": "Recent",
+      "default_visible": false
+    },
+    {
+      "title": "Binance Expands Monitoring Tag to 9 Tokens, Including ALCX and COOKIE - CryptoRank",
+      "source_name": "CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQUzRKdkdWejRyOUxqUmhsM1lfSUdpQ3ZpNHNOaXM0cFpXeHc3VG50WExJS0x0d3FGOTFwQ0pBUGlfX0R5bmNmU18wa1RvaVVTQmE0ZDR4Nm5aclpOT3NzOFdMazNVN2J1RlNqbTRIelJydEhMdENyX180bTZPWmU2OHNOOA?oc=5",
+      "published_at": "Fri, 22 May 2026 07:00:00 GMT",
+      "relevance": "unrelated",
+      "freshness": "Old",
+      "default_visible": false
+    }
+  ],
+  "search_query_used": "DODO crypto",
+  "reasoning_quality": "Medium",
+  "reasoning_quality_note": "Relevant evidence found (2 direct but not fresh headline(s)), but no headline is both coin-specific and fresh. Treat this as supporting context, not confirmation.",
+  "neutral_explanation": "DODOUSDT (DODO/USDT) recorded a confirmed state flip: Gold → Blue (Bearish). Scanner score 65 (tier A Good); market-cap rank 903. Scanner note: Valid confirmed trend flip — small-cap potential, small-cap high risk, fresh signal. Broader crypto market context: 509 assets scanned, 7 confirmed flips (1.4%). State distribution: Blue 21.6%, Gold 39.1%, Gray 23.4%, Unknown 15.9%. Strongest transition: Blue → Gold (6 of 7 flips). Source: reports/private_crypto_dashboard.csv. 5 headline(s) were found via automated search for this symbol (2 directly naming the coin/project); they are cited for context only and have not been verified as the cause of this flip. This is scanner and news evidence only — not investment advice, not a price target, and not an instruction to take any action. Human review is required.",
+  "uncertainty_note": "Automatically generated from local scanner output and public news search. Not verified for causal accuracy. Not investment advice, not a price target, and not an automated trading instruction. Human review is required before treating anything here as reliable."
+}
